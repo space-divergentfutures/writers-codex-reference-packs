@@ -1,0 +1,10 @@
+# Internal working material — never published. The public repo is exactly:
+# manifest.json, LICENSE, LICENSE-DATA.md, README.md, schema/, packs/
+_fix-kits/
+_build/
+_to_delete/
+_overnight/
+tools/
+PACK-SPEC.md
+overnight-report.md
+*.bak
