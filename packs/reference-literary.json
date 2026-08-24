@@ -1,9 +1,9 @@
 {
  "id": "literary-reference",
  "name": "Literary Fiction",
- "packVersion": "1.0.0",
+ "packVersion": "1.1.0",
  "schemaVersion": 2,
- "lastUpdated": "2026-08-19",
+ "lastUpdated": "2026-08-22",
  "minAppVersion": "0.1.0",
  "collections": [
   {
@@ -513,6 +513,20 @@
    "principle": "This book-type is handed off to the historical-reference pack, which owns the craft of reconstruction, and co-holds the historiographic-metafiction boundary. Historical asks what claim the book makes about the past; literary asks what prose and consciousness do that faithful reconstruction alone cannot.",
    "example": "Mantel's Wolf Hall renders Cromwell's present-tense consciousness so the past is felt from inside; Sebald's Austerlitz lets memory and image, not chronicle, carry the weight of history.",
    "application": "When the claim about the past is the point, work in the historical pack; when prose and consciousness exceed reconstruction, hold the literary contract and hand the record across.",
+   "_label": "Subgenres",
+   "_badge": "Subgenre",
+   "_bg": "#241f2a",
+   "_fg": "#c3b0d0"
+  },
+  {
+   "id": "subgenre-31",
+   "kind": "subgenre",
+   "category": "Genre Hand-offs",
+   "name": "Literary Western",
+   "description": "Fiction working the western's ground and iconography whose primary contract is formal rather than a claim about who holds the land — owned by western-reference.",
+   "principle": "This book-type is handed off to the western-reference pack, which owns the contested claim to ground and the force that settles it. This pack already holds McCarthy and Erdrich and cards Blood Meridian; western-reference cards them too, from the other contract, and neither pack deduplicates the other. Western asks what claim is contested and what settles it; literary asks what the manner of telling does that the material alone cannot.",
+   "example": "Blood Meridian is scalp bounties as the settlement's accounting, and it is also a prose performance that withholds any position from which to judge what it shows. Erdrich's The Round House turns on criminal jurisdiction over non-Natives on tribal land, and on a boy's voice that cannot yet hold what it is reporting.",
+   "application": "When the contested claim to ground and the force that settles it are the point, work in the western pack; when prose, consciousness and the sentence exceed what the material supplies, hold the literary contract and hand the ground across.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
    "_bg": "#241f2a",

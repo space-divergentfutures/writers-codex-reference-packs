@@ -13,16 +13,16 @@ app via the in-app pack picker, or download any pack directly and use it however
 | Pack | Status | Download |
 |---|---|---|
 | Science Fiction | live | `packs/reference-scifi.json` |
-| Fantasy | planned | `packs/reference-fantasy.json` |
-| Mystery, Crime & Thriller | planned | `packs/reference-mystery-crime-thriller.json` |
-| Horror | planned | `packs/reference-horror.json` |
-| Romance | planned | `packs/reference-romance.json` |
-| Historical Fiction | planned | `packs/reference-historical.json` |
-| Literary Fiction | planned | `packs/reference-literary.json` |
-| War / Military | planned | `packs/reference-war-military.json` |
-| Comedy / Humor | planned | `packs/reference-comedy.json` |
-| Western | planned | `packs/reference-western.json` |
-| Superhero | planned | `packs/reference-superhero.json` |
+| Fantasy | live | `packs/reference-fantasy.json` |
+| Mystery, Crime & Thriller | live | `packs/reference-mystery-crime-thriller.json` |
+| Horror | live | `packs/reference-horror.json` |
+| Romance | live | `packs/reference-romance.json` |
+| Historical Fiction | live | `packs/reference-historical.json` |
+| Literary Fiction | live | `packs/reference-literary.json` |
+| War / Military | live | `packs/reference-war-military.json` |
+| Comedy / Humor | live | `packs/reference-comedy.json` |
+| Western | live | `packs/reference-western.json` |
+| Superhero | live | `packs/reference-superhero.json` |
 | Manga | planned | `packs/reference-manga.json` |
 | TV Formats | planned | `packs/reference-tv-formats.json` |
 | Erotica | planned (on demand) | `packs/reference-erotica.json` |

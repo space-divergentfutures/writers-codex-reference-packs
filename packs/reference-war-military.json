@@ -1,9 +1,9 @@
 {
  "id": "war-military-reference",
  "name": "War / Military",
- "packVersion": "1.0.0",
+ "packVersion": "1.2.0",
  "schemaVersion": 2,
- "lastUpdated": "2026-08-20",
+ "lastUpdated": "2026-08-22",
  "minAppVersion": "0.1.0",
  "collections": [
   {
@@ -504,6 +504,34 @@
    "principle": "This card hands off to romance-reference, which asks whether the central promise is paid. The war question is what the war is actually doing in the book: whether separation and return are the engine driving the relationship, or whether the war is a pressure the relationship is measured against and can legitimately lose to — which the romance guarantee does not permit and this pack does.",
    "example": "The overlap's stronger work lets the war set terms the relationship cannot meet; the weaker work uses the war as an obstacle course whose difficulty is calibrated to make the reunion feel earned.",
    "application": "Ask whether the war in the book is capable of producing an outcome the romance contract forbids. If it is not, the war is machinery, and the book belongs to the romance pack.",
+   "_label": "Subgenres",
+   "_badge": "Subgenre",
+   "_bg": "#22261f",
+   "_fg": "#b8c6a4"
+  },
+  {
+   "id": "subgenre-31",
+   "kind": "subgenre",
+   "category": "Overlap Hand-offs",
+   "name": "War Comedy and the Uniformed Absurd (hand-off)",
+   "description": "Hands off to the comedy pack, which owns the device; this card names what the war does to it and why Catch-22 belongs to both.",
+   "principle": "This card hands off to comedy-reference, which owns the comic device. The war question is what the comedy is doing to the record: whether it makes the material bearable to the reader, which is legitimate and common, or whether it is used to make the material less bearable by removing the distance a serious treatment would supply. Military logic is a farce mechanism that happens to be real, and a war comedy that does not know which of the two it is doing will drift between them.",
+   "example": "Catch-22 is dual-carded and the duplication is intended: this pack asks what the novel says about war, and comedy-reference asks how a circular rule is made to generate scenes. Osudy dobrého vojáka Švejka is the line's origin and never resolves whether its soldier is a fool or the only sane man. Blackadder Goes Forth spends four series building a joke density it removes entirely in its final minute, which is the clearest instance of comedy used as accelerant rather than as relief. M*A*S*H runs the opposite strategy for eleven years, scheduling relief so an audience can keep watching a field hospital.",
+   "application": "Decide before drafting whether the comedy is anaesthetic or accelerant, and write the ending to that decision rather than discovering it. For the comic techniques themselves — escalation, the runner, the withheld payoff, the tonal handbrake — go to comedy-reference; this pack owns the obligations to the record that the comic register does not suspend.",
+   "_label": "Subgenres",
+   "_badge": "Subgenre",
+   "_bg": "#22261f",
+   "_fg": "#b8c6a4"
+  },
+  {
+   "id": "subgenre-32",
+   "kind": "subgenre",
+   "category": "Overlap Hand-offs",
+   "name": "The Indian Wars and the Frontier Campaign (hand-off)",
+   "description": "Hands off to western-reference, which owns the frontier campaign; this pack holds no Indian Wars, cavalry or asymmetric-frontier card of its own, and this card names the boundary rather than filling the gap.",
+   "principle": "This card hands off to western-reference, which owns the contested claim to ground that a frontier campaign exists to settle. The specifically war pressure is the one this pack always asks: what combat, command, supply and attrition were actually like inside the event — a cavalry column's forage radius, a punitive expedition's logistics, the difference between a campaign and a massacre as the men inside it experienced them. Western asks what the campaign was for and whose claim it was enforcing.",
+   "example": "The Marias Massacre of 1870 sits in both packs and is read differently in each. This pack asks what a winter column could actually do and what its officers believed they were ordered to do; western-reference asks what claim to ground the column was enforcing, and cards James Welch's Fools Crow, which narrates the event from inside the camp.",
+   "application": "Establish which question the book is finally answerable to. If the difficulty is the conduct of the campaign — orders, distance, supply, what a soldier could see — work from here. If the difficulty is the legitimacy of the claim the campaign enforces, hold the western contract and hand the fighting across.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
    "_bg": "#22261f",
