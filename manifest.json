@@ -1,14 +1,14 @@
 {
  "schemaVersion": 2,
- "updated": "2026-08-27",
+ "updated": "2026-08-28",
  "packs": [
   {
    "id": "sf-reference",
    "label": "Science Fiction",
    "file": "packs/reference-scifi.json",
-   "packVersion": "1.0.2",
+   "packVersion": "1.0.3",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-27",
+   "lastUpdated": "2026-08-28",
    "collections": [
     "Tropes",
     "Technologies",
@@ -28,7 +28,8 @@
    "status": "live",
    "mediumCoverage": [
     "nonfiction",
-    "novel"
+    "novel",
+    "short-fiction"
    ],
    "adjacentPacks": [
     "fantasy-reference",
@@ -44,9 +45,9 @@
    "id": "fantasy-reference",
    "label": "Fantasy",
    "file": "packs/reference-fantasy.json",
-   "packVersion": "1.1.2",
+   "packVersion": "1.1.3",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-27",
+   "lastUpdated": "2026-08-28",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -67,6 +68,8 @@
     "game",
     "manga",
     "novel",
+    "poetry",
+    "short-fiction",
     "tv"
    ],
    "adjacentPacks": [
@@ -82,9 +85,9 @@
    "id": "mystery-crime-thriller-reference",
    "label": "Mystery, Crime & Thriller",
    "file": "packs/reference-mystery-crime-thriller.json",
-   "packVersion": "1.0.1",
+   "packVersion": "1.0.2",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-27",
+   "lastUpdated": "2026-08-28",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -104,6 +107,7 @@
     "film",
     "nonfiction",
     "novel",
+    "short-fiction",
     "tv"
    ],
    "adjacentPacks": [
@@ -119,9 +123,9 @@
    "id": "horror-reference",
    "label": "Horror",
    "file": "packs/reference-horror.json",
-   "packVersion": "1.1.2",
+   "packVersion": "1.1.3",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-27",
+   "lastUpdated": "2026-08-28",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -144,6 +148,7 @@
     "manga",
     "nonfiction",
     "novel",
+    "short-fiction",
     "tv"
    ],
    "adjacentPacks": [
@@ -238,9 +243,9 @@
    "id": "literary-reference",
    "label": "Literary Fiction",
    "file": "packs/reference-literary.json",
-   "packVersion": "1.1.1",
+   "packVersion": "1.1.2",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-27",
+   "lastUpdated": "2026-08-28",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -260,6 +265,7 @@
     "film",
     "nonfiction",
     "novel",
+    "short-fiction",
     "tv"
    ],
    "adjacentPacks": [
@@ -279,9 +285,9 @@
    "id": "war-military-reference",
    "label": "War / Military",
    "file": "packs/reference-war-military.json",
-   "packVersion": "1.2.0",
+   "packVersion": "1.2.1",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-22",
+   "lastUpdated": "2026-08-28",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -302,6 +308,8 @@
     "graphic-novel",
     "nonfiction",
     "novel",
+    "poetry",
+    "short-fiction",
     "tv"
    ],
    "adjacentPacks": [
@@ -321,9 +329,9 @@
    "id": "comedy-reference",
    "label": "Comedy / Humor",
    "file": "packs/reference-comedy.json",
-   "packVersion": "1.1.1",
+   "packVersion": "1.1.2",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-27",
+   "lastUpdated": "2026-08-28",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -345,6 +353,9 @@
     "graphic-novel",
     "nonfiction",
     "novel",
+    "poetry",
+    "short-fiction",
+    "stage",
     "tv"
    ],
    "adjacentPacks": [
@@ -364,9 +375,9 @@
    "id": "western-reference",
    "label": "Western",
    "file": "packs/reference-western.json",
-   "packVersion": "1.0.1",
+   "packVersion": "1.0.2",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-27",
+   "lastUpdated": "2026-08-28",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -391,6 +402,7 @@
     "manga",
     "nonfiction",
     "novel",
+    "short-fiction",
     "tv"
    ],
    "adjacentPacks": [

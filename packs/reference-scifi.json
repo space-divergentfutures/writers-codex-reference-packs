@@ -1,9 +1,9 @@
 {
  "id": "sf-reference",
  "name": "Science Fiction",
- "packVersion": "1.0.2",
+ "packVersion": "1.0.3",
  "schemaVersion": 2,
- "lastUpdated": "2026-08-27",
+ "lastUpdated": "2026-08-28",
  "minAppVersion": "0.1.0",
  "collections": [
   {
@@ -15614,7 +15614,7 @@
    "_badge": "Work",
    "_bg": "#16323a",
    "_fg": "#8ad6f0",
-   "medium": "novel"
+   "medium": "short-fiction"
   },
   {
    "category": "Foundational & Golden Age",
@@ -16382,7 +16382,7 @@
    "_badge": "Work",
    "_bg": "#16323a",
    "_fg": "#8ad6f0",
-   "medium": "novel"
+   "medium": "short-fiction"
   },
   {
    "category": "Time Travel & Alternate History",
@@ -16510,7 +16510,7 @@
    "_badge": "Work",
    "_bg": "#16323a",
    "_fg": "#8ad6f0",
-   "medium": "novel"
+   "medium": "short-fiction"
   },
   {
    "category": "First Contact & Aliens",
@@ -16846,7 +16846,7 @@
    "_badge": "Work",
    "_bg": "#16323a",
    "_fg": "#8ad6f0",
-   "medium": "novel"
+   "medium": "short-fiction"
   },
   {
    "category": "Feminist & Social SF",
@@ -16926,7 +16926,7 @@
    "_badge": "Work",
    "_bg": "#16323a",
    "_fg": "#8ad6f0",
-   "medium": "novel"
+   "medium": "short-fiction"
   },
   {
    "category": "Feminist & Social SF",
@@ -16958,7 +16958,7 @@
    "_badge": "Work",
    "_bg": "#16323a",
    "_fg": "#8ad6f0",
-   "medium": "novel"
+   "medium": "short-fiction"
   },
   {
    "category": "Contemporary Voices",
@@ -17006,7 +17006,7 @@
    "_badge": "Work",
    "_bg": "#16323a",
    "_fg": "#8ad6f0",
-   "medium": "novel"
+   "medium": "short-fiction"
   },
   {
    "category": "Contemporary Voices",
@@ -21977,7 +21977,7 @@
    "_badge": "Work",
    "_bg": "#16323a",
    "_fg": "#8ad6f0",
-   "medium": "novel",
+   "medium": "short-fiction",
    "author": "Martha Wells",
    "year": "2018",
    "awards": "Hugo Award winner (Novella), Locus Award winner (Novella)",
@@ -21993,7 +21993,7 @@
    "_badge": "Work",
    "_bg": "#16323a",
    "_fg": "#8ad6f0",
-   "medium": "novel",
+   "medium": "short-fiction",
    "author": "Martha Wells",
    "year": "2018",
    "awards": "part of Hugo Award-winning series (Best Series 2021)",
@@ -22009,7 +22009,7 @@
    "_badge": "Work",
    "_bg": "#16323a",
    "_fg": "#8ad6f0",
-   "medium": "novel",
+   "medium": "short-fiction",
    "author": "Martha Wells",
    "year": "2018",
    "awards": "part of Hugo Award-winning series (Best Series 2021)",
@@ -22057,7 +22057,7 @@
    "_badge": "Work",
    "_bg": "#16323a",
    "_fg": "#8ad6f0",
-   "medium": "novel",
+   "medium": "short-fiction",
    "author": "Martha Wells",
    "year": "2023",
    "awards": "Locus Award winner",
