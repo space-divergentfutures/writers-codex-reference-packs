@@ -81,7 +81,7 @@
           "awards": { "type": "string" },
           "text": { "type": "string" },
           "medium": {
-            "enum": ["novel", "film", "tv", "comic", "manga", "graphic-novel", "game", "audio", "nonfiction"]
+            "enum": ["novel", "short-fiction", "poetry", "stage", "film", "tv", "comic", "manga", "graphic-novel", "game", "audio", "nonfiction"]
           },
           "items": { "type": "array", "items": { "type": "string" } },
           "_label": { "type": "string" },

@@ -71,7 +71,7 @@ Five card shapes:
 - **`checklist_cards`** — a named checklist + `items[]`.
 
 **Medium enum** (`work_cards.medium`):
-`novel | film | tv | comic | manga | graphic-novel | game | audio | nonfiction`
+`novel | short-fiction | poetry | stage | film | tv | comic | manga | graphic-novel | game | audio | nonfiction`
 — `comic` = periodical/serialized; `graphic-novel` = long-form single work;
 `nonfiction` = factual books (history, psychology, craft references) in a Works
 collection. The per-example `medium` field on `example_cards` is free text (it predates

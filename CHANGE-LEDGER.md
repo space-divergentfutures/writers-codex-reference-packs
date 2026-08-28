@@ -70,7 +70,7 @@ entries; **Tool** = build tooling, which only affects future packs.
 | ID | Rule | Level | From | SF | MCT | FAN | HOR | ROM | HIS | LIT | WAR | COM | WES | SUP | MNG |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|-----|
 | S-01 | `medium` is **mandatory and enum-bound** on every `work_cards` entry. There is no omission path — the validator errors on a missing value. The "omit it and name the form in prose" escape hatch recorded in several handoffs **does not exist**. | Doc + Card | LIT 17.14, COM 17.6 | A | A | A | A | A | A | A | A | A | A | A | A |
-| S-02 | Stage plays, classical drama, epic and verse narrative take `medium: novel`, with the true form named in the card's opening clause (`Stage play.`). | Doc | COM 17.6 | – | – | – | – | – | ? | ? | ? | A | – | – | – |
+| S-02 | ~~Stage plays, classical drama, epic and verse narrative take `medium: novel`, with the true form named in the card's opening clause (`Stage play.`).~~ **RETIRED 2026-08-28 — the rule documented a falsehood.** The medium enum had no word for a play, a short story or a poem, so this row told builders to write `novel` and explain in prose. **Schema v2.1 adds `stage`, `short-fiction` and `poetry` (S-11).** Measured at retirement: **117 work cards across TEN packs carry `medium: novel` while their own text says otherwise** — *Twelfth Night*, *Tartuffe*, *Lysistrate* and *The Importance of Being Earnest* among them. **This row was marked `A` for Comedy and `–` ("does not apply") for eight packs that are full of it.** Sixth ledger row found narrower than the disk, after S-05, S-06, T-07, S-08 and C-08 — and the only one that prescribed the defect rather than merely missing it. Retag is Part 3 item 21. | Doc | COM 17.6 | P | P | P | P | P | P | P | P | P | P | – | – |
 | S-03 | `example_cards.medium` is free text; `work_cards.medium` is a closed enum. Free-text values must be minted deliberately and recorded, never invented mid-build. Current vocabulary: novel · film · tv · play · comic · nonfiction · audio · stand-up · radio · sketch. | Doc + Tool | HOR guard 5, COM 17.13, 17.24 | ? | ? | ? | A | A | A | A | A | A | A | P | A |
 | S-04 | `works[].start` is the real field name. It is a typo shared by every live pack and it **stays**. | Doc | FAN | A | A | A | A | A | A | A | A | A | A | A | A |
 | S-05 | Years are strings everywhere, negative years included. Collection ids are `work` and `psychology`, never `psych`. Full seven-field collection metadata; `_label`/`_badge`/`_bg`/`_fg` baked on every entry. **Corrected 2026-08-27 (retro-pass, `TOOLS-VERIFIED.md` §"What the port had to change", 2026-08-25): the collection-id clause is contradicted by four packs on disk — Historical, Horror and Romance use `psych`, and Science Fiction's work collection is `book`. Marked A for every pack without being re-read. Not fixed in this pass (a collection-id rename is schema surgery, out of this pass's remit); cells for the four packs below changed to `?`.** | Doc + Card | Audit 2026-08-19, LIT 17.15 | ? | A | A | ? | ? | ? | A | A | A | A | A | A |
@@ -79,6 +79,7 @@ entries; **Tool** = build tooling, which only affects future packs.
 | S-08 | Adaptation disambiguation `Title (YYYY film\|tv\|game)` is decided at blueprint stage, not at assembly. The bare title stays with the novel. **Corrected 2026-08-27: the vocabulary itself is narrower than the disk — Superhero has shipped a `(YYYY comic)` form 13 times, so Sonnet's B2 use of it for Horror `author-124` was matching existing practice, not extending the rule (R-029). This is the fourth ledger row found narrower than the disk, after S-05, S-06 and T-07 (R-029). Horror closed 2026-08-27 at B3 verification: R-028's `The Terror (1916 novel)` annotation applied to `author-16`'s bibliography, so all nineteen title collisions in the pass are now closed and `two_statements.py` reports Horror TITLE COLLISION 0.** | Doc | ROM 17.13, HIS, alignment G | A | A | A | **A** | A | A | A | A | A | A | A | A |
 | S-09 | `Title (YYYY, as Pen Name)` folds pseudonym attribution into the works-list note. No fifth author field, no inline `**` in body text. | Doc | ROM | A | A | A | A | A | A | A | A | A | ? | ? | ? |
 | S-10 | **The carded year is the year the work first appeared in the form it was written as.** One rule with three surfaces: a novel is carded by **first book publication** with the serial named where it matters; a short story by **first publication in any form**, normally the magazine; a film by **first public release including a festival premiere**. Western found all three separately and only then noticed they were one rule. | Doc + Card | WES 17.58, 17.62, 17.74 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | A |
+| S-11 | **Medium enum, schema v2.1 (2026-08-28): `novel · short-fiction · poetry · stage · film · tv · comic · manga · graphic-novel · game · audio · nonfiction`.** Widened from nine because the enum had no word for three forms the library cards constantly — measured across the twelve packs: **69 plays, 36 short-fiction works and 12 poems tagged `novel`**, plus 74 free-text `"play"` and 74 short-fiction example media. **`radio` NOT added** — use `audio`, name the broadcast in `text`. **`stand-up` NOT added** — card the special by its release medium. **`memoir` is `nonfiction`.** Widening an enum is backward-compatible: all twelve packs validate unchanged against v2.1. **Applied to the schema, the spec, the README and the app; the 117 mis-tagged cards are a separate pass (Part 3 item 21).** | Doc + Tool | SF rebuild, 2026-08-28 | A | A | A | A | A | A | A | A | A | A | A | A |
 
 ## 1B. Scope and structure
 
@@ -602,6 +603,47 @@ decision (below) rather than as a patch. **Scheduled, not refused.**
 **Ledger:** S-01 shape. **A new standing rule is wanted: every card must carry at least one body
 field, and the validator should enforce it** — that is the check that would have caught all 27 at
 build time, and it does not exist.
+
+---
+
+## Retro-pass addendum — F-20, found 2026-08-28 during the SF rebuild
+
+**The medium enum had no value for a play, a short story or a poem, and the library wrote a rule to
+live with it instead of fixing it.**
+
+Ledger row **S-02**, from Comedy's build: *"Stage plays, classical drama, epic and verse narrative
+take `medium: novel`, with the true form named in the card's opening clause."*
+
+**Measured across all twelve packs — work cards whose `medium` is `novel`/`nonfiction` while their own
+prose says otherwise:**
+
+```
+comedy 31 · mystery-crime-thriller 20 · scifi 18 · horror 11 · fantasy 9 · literary 9
+western 7 · war-military 6 · historical 4 · romance 2          =  117
+                     69 stage · 36 short fiction · 12 poetry
+```
+
+`comedy/work-88` *Twelfth Night* · `comedy/work-42` *Tartuffe* · `comedy/work-35` *Lysistrate* ·
+`comedy/work-84` *The Importance of Being Earnest* — **all carded `medium: novel`.**
+
+**S-02 was marked `A` for Comedy and `–` — "does not apply" — for eight packs that are full of it.**
+That makes it the **sixth ledger row found narrower than the disk**, after S-05, S-06, T-07, S-08 and
+C-08. It is the worst of the six: the other five were merely wrong about where a rule applied. **This
+one prescribed the falsehood and marked it Applied.**
+
+**How it was found.** Not by an audit instrument. The Science Fiction rebuild needed a medium for
+short fiction — the genre's Golden Age happened in magazines — and asking whether the enum had a word
+for it surfaced a defect in ten packs within the hour. **Bringing one pack into line is what made the
+library-wide hole visible**, which is the argument for the rebuild, arriving earlier than anyone
+expected it to.
+
+**Fixed here:** schema v2.1 adds `stage`, `short-fiction` and `poetry` (S-11), applied to
+`schema/pack.schema.json`, `schema/schema.ts`, `PACK-SPEC.md`, `README.md` and the app's
+`REF_MEDIUM`. **All twelve packs validate unchanged** — widening an enum is backward-compatible.
+
+**Not fixed here:** the 117 cards. **And the number is a candidate, not a measurement** — it came from
+a regex nobody has broken, which is exactly the mistake that produced three different C-11 counts this
+morning. **The retag pass builds the instrument, breaks it, then counts.** Part 3 item 21.
 
 ---
 

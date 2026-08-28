@@ -8,7 +8,13 @@
  *   - `book_cards` → `work_cards`: the landmark-work card gains a `medium` field so works
  *     from any medium (novel, comic, game, …) share one shape. `book_cards` is retired;
  *     no public pack was ever released with it.
- *   - Medium enum (9 values): novel | film | tv | comic | manga | graphic-novel | game | audio | nonfiction.
+ *   - Medium enum (12 values, v2.1): novel | short-fiction | poetry | stage | film | tv | comic |
+ *     manga | graphic-novel | game | audio | nonfiction.
+ *     `short-fiction`, `poetry` and `stage` added 2026-08-28. Before that the enum had no word for a
+ *     play, a short story or a poem, and ledger row S-02 told builders to card them as `novel` with
+ *     the true form named in prose. **117 work cards across ten packs are `medium: novel` while their
+ *     own text says otherwise — Twelfth Night, Tartuffe and Lysistrata among them.** A rule that
+ *     documents a falsehood is still a falsehood; the enum was the defect.
  *     `comic` vs `graphic-novel`: periodical/serialized vs. long-form single work.
  *     `nonfiction` covers factual books in a Works collection (craft references, history,
  *     psychology). `stage` is deferred. The enum is closed as of the 2026-08-06 pre-release
@@ -36,6 +42,9 @@ export const REF_SCHEMA_VERSION = 2;
 export const REF_QUALITY = ['excellent', 'strong', 'weak', 'terrible'] as const;
 export const REF_MEDIUM = [
   'novel',
+  'short-fiction',
+  'poetry',
+  'stage',
   'film',
   'tv',
   'comic',
