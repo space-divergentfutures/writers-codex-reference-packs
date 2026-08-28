@@ -6,7 +6,7 @@
       "id": "sf-reference",
       "label": "Science Fiction",
       "file": "packs/reference-scifi.json",
-      "packVersion": "1.0.3",
+      "packVersion": "2.0.1",
       "schemaVersion": 2,
       "lastUpdated": "2026-08-28",
       "collections": [
@@ -18,13 +18,12 @@
         "Subgenres",
         "History",
         "Psychology",
-        "Extrapolation",
         "Character",
         "Checklist",
         "Craft"
       ],
       "entryCount": 782,
-      "approxSizeKB": 1462,
+      "approxSizeKB": 1516,
       "status": "live",
       "mediumCoverage": [
         "nonfiction",

@@ -95,6 +95,14 @@ integer that only increments on breaking schema changes. Packs refresh on an ann
 cycle (6-month option for fast-moving genres); the app compares versions against the
 manifest and offers updates — pull, not push.
 
+**One dated exception, 2026-08-28 — Science Fiction 2.0.0.** SF is the only pack that takes a
+major bump for a shape change rather than a schema change: its work collection id moves
+`book` → `work` and 126 card ids move to the standard `<kind>-<N>` form. Pack one was
+converted from a private research file in a single night, before this library had a build
+process or a validator, and its format never shipped clean. The bump carries the shape change
+**only** — content corrections ship separately as 1.1.x-class work, so that a structural break
+cannot hide a research debt inside a major version. This applies to pack one and no other.
+
 ## A note on YA / Middle Grade
 
 YA and Middle Grade are **audience-age brackets, not genres** — any pack here may
