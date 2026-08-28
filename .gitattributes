@@ -1,2 +1,13 @@
-# Auto detect text files and perform LF normalization
+# Line endings.
+#
+# `* text=auto` normalises text to LF inside the repository on commit, which is right — but on
+# checkout it hands the working tree the platform's native ending, so a clone on Windows receives
+# every pack JSON with CRLF. The bytes then differ from the bytes that passed `tools/validate_pack.py`,
+# and byte-comparison against a build copy — the check that proved B3 added no bibliography rows —
+# stops being possible. Pinning JSON to LF keeps a clone byte-identical to what was validated, on
+# every platform. Downloads via jsDelivr serve the raw blob and were never affected either way.
+#
+# Added 2026-08-27 after GitHub Desktop warned on the retro-pass commit. All twelve packs and
+# manifest.json were pure LF on disk at the time, so this changed nothing — it prevents a change.
 * text=auto
+*.json text eol=lf
