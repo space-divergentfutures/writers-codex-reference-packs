@@ -1,7 +1,7 @@
 {
  "id": "war-military-reference",
  "name": "War / Military",
- "packVersion": "1.2.1",
+ "packVersion": "1.2.2",
  "schemaVersion": 2,
  "lastUpdated": "2026-08-28",
  "minAppVersion": "0.1.0",
@@ -11450,7 +11450,7 @@
    "author": "Wolfgang Borchert",
    "year": "1947",
    "awards": "None (verified negative; the author died the day after the first broadcast).",
-   "medium": "novel",
+   "medium": "stage",
    "description": "A soldier returns and cannot get anyone to admit he has come back. The founding text of German Trümmerliteratur, written by a dying veteran of…",
    "text": "A soldier returns and cannot get anyone to admit he has come back. The founding text of German Trümmerliteratur, written by a dying veteran of twenty-six, it compresses an entire return into a single night in expressionist form — and its central fact is not trauma but the absence of any structure willing to receive him. Carded as dramatic text under the schema's convention.",
    "_label": "Works",

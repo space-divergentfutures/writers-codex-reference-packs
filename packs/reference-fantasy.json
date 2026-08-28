@@ -1,7 +1,7 @@
 {
  "id": "fantasy-reference",
  "name": "Fantasy",
- "packVersion": "1.1.3",
+ "packVersion": "1.1.4",
  "schemaVersion": 2,
  "lastUpdated": "2026-08-28",
  "minAppVersion": "0.1.0",
@@ -12802,7 +12802,7 @@
    "_badge": "Work",
    "_bg": "#1a2833",
    "_fg": "#8ac0d8",
-   "medium": "novel"
+   "medium": "short-fiction"
   },
   {
    "id": "work-6",
@@ -12866,7 +12866,7 @@
    "_badge": "Work",
    "_bg": "#1a2833",
    "_fg": "#8ac0d8",
-   "medium": "novel"
+   "medium": "short-fiction"
   },
   {
    "id": "work-10",
