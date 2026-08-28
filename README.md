@@ -23,7 +23,7 @@ app via the in-app pack picker, or download any pack directly and use it however
 | Comedy / Humor | live | `packs/reference-comedy.json` |
 | Western | live | `packs/reference-western.json` |
 | Superhero | live | `packs/reference-superhero.json` |
-| Manga | planned | `packs/reference-manga.json` |
+| Manga | live | `packs/reference-manga.json` |
 | TV Formats | planned | `packs/reference-tv-formats.json` |
 | Erotica | planned (on demand) | `packs/reference-erotica.json` |
 | Religious / Inspirational | planned (on demand) | `packs/reference-religious-inspirational.json` |

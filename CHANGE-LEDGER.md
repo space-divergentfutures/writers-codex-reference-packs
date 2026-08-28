@@ -575,6 +575,36 @@ manifest entry with no file before publication.
 
 ---
 
+## Retro-pass addendum — F-19, found 2026-08-28 by the Writer's Codex renderer
+
+**27 entries in Science Fiction carry no body content at all.** `id`, `kind`, `category`, `name`,
+`description` — and nothing a reader can read. **6 author · 5 subgenre · 16 science.** Every other
+pack in the library measures **zero**.
+
+**How it was found, and this is the part worth keeping.** Not by any of the eight audit checks. The
+Codex's reference view was fixed to dispatch on a card's declared schema rather than on its
+collection id — a change that took 1,781 empty-rendering cards down to 27. **The 27 that stayed
+empty are empty because there is nothing on the card.** A stub is schema-valid, id-unique, passes
+`validate_pack.py`, and passes every screen the library owns. **It only becomes visible when
+something tries to draw it.**
+
+That makes this a new class: **rendering is a verification instrument, and the library has never
+had one.** Ledger row V-29 says a pack's instruments prove internal consistency and nothing about
+the world; this says something narrower and equally uncomfortable — *they also prove nothing about
+whether a card has anything on it.*
+
+**Only 6 of the 27 were known.** F-02 recorded the stub-shaped author cards. **The 5 subgenre and
+16 science stubs are recorded nowhere in the project before this entry.**
+
+**Not fixed here.** Completing 27 cards is research, and it belongs with the Science Fiction
+decision (below) rather than as a patch. **Scheduled, not refused.**
+
+**Ledger:** S-01 shape. **A new standing rule is wanted: every card must carry at least one body
+field, and the validator should enforce it** — that is the check that would have caught all 27 at
+build time, and it does not exist.
+
+---
+
 *Sources: the §17 delta logs of Horror, Romance, Historical, Literary, War & Military, Comedy,
 Western and Superhero; `_build/literary/alignment-pass.md` (candidates A–K, run at pack seven);
 `_fix-kits/pack-consistency-audit-2026-08-19.md`; `PACK-SPEC.md`; and a direct audit of all
