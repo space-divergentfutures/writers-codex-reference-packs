@@ -1,9 +1,9 @@
 {
  "id": "horror-reference",
  "name": "Horror",
- "packVersion": "1.0.1",
+ "packVersion": "1.1.2",
  "schemaVersion": 2,
- "lastUpdated": "2026-08-19",
+ "lastUpdated": "2026-08-27",
  "minAppVersion": "0.1.0",
  "collections": [
   {
@@ -100,8 +100,8 @@
    "application": "Give the building a floor plan the reader can hold, then make the plot a route through it. Decide early and permanently whether your supernatural will be confirmed or left suspended, because Radcliffe's settlement and Lewis's produce incompatible endings. The inheritance question — who owns this, and what was done to get it — is the most reliable engine the form has.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-2",
@@ -114,8 +114,8 @@
    "application": "Anchor the decay in an economic history you can name, not in atmosphere — kudzu and heat are not an argument. Let the grotesque character be right about something. If a ghost appears, it should be legible as a consequence of documented harm, which is what separates this mode from a haunted house with an accent.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-3",
@@ -128,8 +128,8 @@
    "application": "The heroine's judgement must be sound and must be disbelieved — if she is actually unreliable you have written a different subgenre. Give the house a legal dimension: who inherits, who signs, what happens to her if she leaves. And decide whether the romance survives the reveal, because the modern reader will not accept the Byronic settlement without argument.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-4",
@@ -142,8 +142,8 @@
    "application": "Establish what the ghost wants before you establish what it looks like. Keep the cast small and the timeframe tight — the form's power is proportional to its compression, and a ghost story extended to novel length usually becomes a haunted-house story instead. End on the implication, not the exorcism.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-5",
@@ -156,8 +156,8 @@
    "application": "Draw the plan. The reader needs a stable map before you can profitably break it, and impossible space only registers as horror against a model the reader has already built. Decide whether the house is haunted or the protagonist is, then withhold that answer for as long as the ending will bear — but know it yourself from page one.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-6",
@@ -170,8 +170,8 @@
    "application": "Build the community's belief as a working system with a season, an obligation and an economy — a folk-horror village that merely seems sinister is a tourist's impression, not a subgenre. The outsider must be given the information in time and must fail to read it. Withhold the ritual's purpose, never its existence.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-7",
@@ -184,8 +184,8 @@
    "application": "Decide which tradition you are in before you write the trial scene, because the two require opposite structures — one wants the witch's power confirmed, the other wants the accusation's machinery exposed. If you use historical persecution, use the actual record; the real trials are stranger and more damning than invention. Give the witch a motive that predates the plot.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-8",
@@ -198,8 +198,8 @@
    "application": "Establish the rules of the rite and then enforce them — a demon that ignores its own stated constraints is a plot device. Exhaust the rational explanations on the page rather than dismissing them. And give your believer a specific doctrine rather than generic faith, because the form's best scenes come from the gap between what the character believes and what the church will authorise.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-9",
@@ -212,8 +212,8 @@
    "application": "Give the investigator a discipline with limits and let the limits bite — Carnacki's willingness to be wrong is why the character still works. The mixed caseload is a feature: if every investigation ends supernatural, the form collapses into a monster-of-the-week. Keep the fee, the client and the paperwork; the mundane apparatus is what makes the intrusion land.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-10",
@@ -226,8 +226,8 @@
    "application": "Do not retrofit a moral cause. The form's distinctive dread comes from the victim having done nothing to deserve it, and Western remakes have repeatedly weakened their sources by inserting one. Give the curse a transmission mechanism specific enough to be reasoned about, then let the characters reason about it correctly and lose anyway.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-11",
@@ -240,8 +240,8 @@
    "application": "Fix the rule set and publish it to the reader early — the vampire is horror's clearest example of a threat improved by constraint. Decide what your vampire is an argument about, then keep that argument subordinate to the predation. If seduction is in play, the power differential is the subject whether you intend it or not.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-12",
@@ -254,8 +254,8 @@
    "application": "Make the change hurt and take time. The moral engine is the aftermath — what the character finds, and what they must conceal — so budget scenes for the mornings, not only for the nights. Beware inherited folklore: much of what reads as ancient was written for the screen in the 1940s, and the actual traditions are stranger and more usable.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-13",
@@ -268,8 +268,8 @@
    "application": "Decide the transmission rule, the movement speed and the noise threshold before you plot, because those three settings determine every scene you can write. Give the group a resource clock. And know the figure's origin: the zombie entered American fiction through the occupation of Haiti and the flattening of vodou, which is a debt the subgenre still mostly declines to acknowledge.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-14",
@@ -282,8 +282,8 @@
    "application": "Write the creature's biology before its behaviour — appetite, reproduction, limits — and let the cast deduce it in the wrong order. Ration the reveal against the environment's shrinkage. If the creature can be stopped, establish the method early enough that the audience can want it and doubt it.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-15",
@@ -296,8 +296,8 @@
    "application": "Choose one process and follow it honestly to its end — the form rewards commitment over variety. Write the body's changes through function rather than appearance: what the character can no longer do is more disturbing than what they look like. And ration disgust, because it dulls faster than fear and cannot be recovered within a single work.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-16",
@@ -310,8 +310,8 @@
    "application": "Withhold the explanation permanently — a cosmic horror that resolves has become science fiction, which is a fine outcome but a different contract. Degrade the narrator's language as the story proceeds, since the prose is where the epistemic damage has to be visible. Scale is not achieved by size; it is achieved by indifference.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-17",
@@ -324,8 +324,8 @@
    "application": "Resist the impulse to supply a category — the moment the reader can say \"so it's a ghost,\" the effect is spent. Work from a concrete and precisely observed surface, because the weird needs a solid floor to be wrong against. Accept that irresolution is the form's contract, and signal it early so the reader stops waiting for an answer and starts reading what is actually there.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-18",
@@ -338,8 +338,8 @@
    "application": "Make the mechanism legible and terrible on the same page. The cast should be competent professionals — incompetence lets the audience off, whereas experts failing correctly is the form's strongest move. Establish why they cannot leave in the first act, and make it structural rather than stubborn.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-19",
@@ -352,8 +352,8 @@
    "application": "Decide whether nature is retaliating or simply operating, and hold the line — mixing them produces a story that seems to be assigning blame and then withdrawing it. Avoid the ledger structure where each death matches a sin. Get the biology right enough that a reader who knows the organism stays inside the story.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-20",
@@ -366,8 +366,8 @@
    "application": "Plant the evidence in plain sight and trust the reader. Keep the narrator internally consistent — unreliability is a stable distortion, not randomness, and the reader is decoding a system. Decide what actually happened and write it down somewhere, because ambiguity written without an underlying answer reads as vagueness on the page.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-21",
@@ -380,8 +380,8 @@
    "application": "Introduce the wrong detail early, in passing, and never return to underline it. Resist the escalation instinct — the form's power is cumulative and a single loud scene will spend it. This mode requires the most confident prose in the genre, because with the machinery removed there is nothing else holding the reader.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-22",
@@ -394,8 +394,8 @@
    "application": "Vary the order, never the logic — an audience that cannot predict anything stops being tense. Give each death a distinct spatial problem so the sequence teaches rather than repeats. Carol Clover's analysis of the form's viewer identification is now part of the genre's working vocabulary, and writing the survivor without engaging it reads as naïveté rather than as innocence.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-23",
@@ -408,8 +408,8 @@
    "application": "Know what the extremity is doing, and be able to say it in one sentence — the form's whole defence is that unmediated violence produces a moral response mediation would soften. Watch who it happens to; a subgenre that concentrates its suffering on women and calls it transgression is repeating a convention, not breaking one. And where the source is a real crime, analyse the published work rather than the case.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-24",
@@ -422,8 +422,8 @@
    "application": "Spend real pages establishing the space as ordinary and known — the intrusion's force is exactly proportional to that investment. Withhold motive if the threat is external; supply it precisely if the threat is domestic. And keep the geography consistent, because in this subgenre the audience is tracking exits.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-25",
@@ -436,8 +436,8 @@
    "application": "Set the scarcity rules and never relieve them for narrative convenience — a resupply that arrives because the plot needs one destroys the form. Make the protagonist competent and insufficient. If you are writing prose, remember the mechanism is transferable but the pacing is not: what a player experiences as pressure over hours has to be compressed into scene-level decisions.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-26",
@@ -450,8 +450,8 @@
    "application": "Give the reader one thing small enough to hold. Decide whether your ending restores anything, and commit — the form's most common failure is a bleak novel that flinches in its final ten pages. Keep the catastrophe's mechanism mostly offstage; the survivors' inability to explain it is more convincing than a briefing.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-27",
@@ -464,8 +464,8 @@
    "application": "Anchor the horror to what the medium does rather than to the device — duplication, latency, persistence, the impossibility of deletion — and the story will outlive the hardware. Get the technology right; a reader who works with the system will leave at the first implausible detail. Remember that the medium's own artefacts are free atmosphere and should be used before any invented ones.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-28",
@@ -478,8 +478,8 @@
    "application": "Justify the camera in every scene, including the ones where a real person would stop filming — if you cannot, restructure rather than hope. Use the archive's gaps deliberately; missing footage is the form's cheapest and best effect. And decide who assembled this material and why, because that editor is a character whether or not they appear.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-29",
@@ -492,8 +492,8 @@
    "application": "Choose a document type and obey its conventions absolutely — the horror lives in the deviation from a form the reader already knows, so the form has to be right first. Withhold the frame; explaining who found this generally weakens it. And accept that the mode resists the tidy ending, which is why the strongest examples stop rather than conclude.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "subgenre-30",
@@ -506,8 +506,22 @@
    "application": "Establish the threat honestly before the first joke, and make sure someone the audience likes actually dies. Alternate rather than blend — a scene should be funny or frightening, with the switch as the effect. And keep the rules consistent across both registers, because comedy that suspends the monster's logic tells the audience the logic was never real.",
    "_label": "Subgenres",
    "_badge": "Subgenre",
-   "_bg": "#2b1a1a",
-   "_fg": "#d89a9a"
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
+  },
+  {
+   "id": "subgenre-31",
+   "kind": "subgenre",
+   "category": "Mode, Medium & Register",
+   "name": "Horror Manga and the Serialised Dread",
+   "description": "The Japanese horror comic as a serialised form — handed to the manga-reference pack.",
+   "principle": "Horror manga is handed off to the manga-reference pack, which owns the serialisation system and the page grammar the tradition depends on. This pack owns the monster, the escalation problem and the source-cost-limit discipline; those transfer intact. What does not transfer is the delivery: a horror serial in a children's weekly is written to a chapter unit with a turn at the end of every instalment, and the reader's week between chapters is part of the machinery rather than an interruption to it. **The medium's horror is built out of the page turn and the panel interval, which is a formal apparatus this pack has no cards for.** Two creators this pack already cards are carded there too, read from the production side.",
+   "example": "A creature line read for what the creature means is this pack's; the same line read for what a weekly turn and a monthly gap do to dread is manga's.",
+   "application": "When the threat is the subject, work here. When the reveal's position on the page and the wait between chapters are doing the work, hand it to the manga-reference pack.",
+   "_label": "Subgenres",
+   "_badge": "Subgenre",
+   "_bg": "#2a2a33",
+   "_fg": "#b8b8d0"
   },
   {
    "id": "craft-1",
@@ -520,8 +534,8 @@
    "application": "Name which of the three you are writing before you draft the scene. Dread needs information the reader holds and the character does not; terror needs a clock and a confined space; horror needs consequence and stillness. Most weak horror is a terror scene attempting to do a dread scene's job.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-2",
@@ -534,8 +548,8 @@
    "application": "List your disclosures in order and check that each one adds a constraint, not a detail. Reserve the full view for the point where the reader already knows enough to be frightened by what they see. If you must show early, compensate by making the rules the mystery — Carpenter's route, not Spielberg's.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-3",
@@ -548,8 +562,8 @@
    "application": "Count them. If you have more than two or three in a novel, you are training the reader to discount your alarms. Where you use one, make it cost something — the false scare that reveals the character was right to be afraid, or that moves the plot, buys back what it spends. A startle should never be the highest-tension moment in a chapter.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-4",
@@ -562,8 +576,8 @@
    "application": "Budget disgust like a finite resource, because it is one. Place it after fear has been established, never before. And prefer disgust that carries information — a detail that tells the reader what the thing does — over disgust that merely describes a state, since the informative kind survives habituation.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-5",
@@ -576,8 +590,8 @@
    "application": "Chart your novel's tension by chapter and look for flat stretches at the top — those are where readers stop. Install valves that do not touch the threat: a meal, a joke, a small competence. And check that each new peak is higher than the last, because a curve that plateaus reads as repetition regardless of what is happening.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-6",
@@ -590,8 +604,8 @@
    "application": "Choose the position deliberately and state to yourself what it argues. Changing position mid-scene is powerful and should be reserved. If you find you have defaulted to the perpetrator's shoulder throughout a manuscript, that is a thematic decision you have made by accident.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-7",
@@ -604,8 +618,8 @@
    "application": "Cut sentence length as tension rises and let paragraphs shorten with it. Use a section break where a film would cut. And when you want the reader to hear something, withhold the other senses in that paragraph rather than describing the sound in more detail.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-8",
@@ -618,8 +632,8 @@
    "application": "Change one thing. Establish the familiar version first and in detail, because you cannot violate a template the reader has not built. And resist adding a second deviation — the uncanny is subtractive, and the moment the thing becomes clearly other, the effect converts into ordinary monster horror.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-9",
@@ -632,8 +646,8 @@
    "application": "Remove one escape option per stage and let the characters notice each one. Make the last point of contact specific — the name of the town, the moment the bars drop — so the reader can locate exactly where rescue stopped. And use the approach for the group's ordinary dynamics, because after this you will not have time.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-10",
@@ -646,8 +660,8 @@
    "application": "Give the investigator a stake that outweighs self-preservation and state it early. Structure the discoveries so each one closes an exit rather than opening a door. And ensure the investigation's method has limits the supernatural can defeat, or the reader will wonder why the protagonist does not simply keep researching.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-11",
@@ -660,8 +674,8 @@
    "application": "Escalate along cost, constraint or clock — never along body count. Ask what the character now stands to lose that they did not stand to lose in chapter one; if the answer is only \"more of the same,\" you have inflated. Sequels are where this discipline collapses most reliably, so plan the ceiling before you write the first book.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-12",
@@ -674,8 +688,8 @@
    "application": "Write the group as a capability list before you write them as people, then decide the order in which those capabilities are removed. Kill the most competent member earlier than instinct suggests. And give at least one death to something the group did rather than to the threat's initiative, because a self-inflicted loss changes the room permanently.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-13",
@@ -688,8 +702,8 @@
    "application": "Identify which ending your first fifty pages have been promising, then either deliver it or break it deliberately and pay for the break. Write the ending you actually believe before you write the middle. And note that the unresolved ending, which is horror's most common, requires the most careful setup — it must read as a decision, not as an unfinished draft.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-14",
@@ -702,8 +716,8 @@
    "application": "Test the stinger by asking whether removing it would change the meaning of chapter one. If not, cut it. Prefer the stinger that confirms a suspicion the attentive reader already had over the one that arrives from nowhere — the first rewards rereading, the second punishes trust.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-15",
@@ -716,8 +730,8 @@
    "application": "Write the standalone as a standalone, with its unexplained material genuinely unexplained rather than reserved. If a sequel is contractually likely, plan what will stay permanently unexplained and defend it. And if you are continuing someone else's work, resist the instinct to answer the original's open question — that question is the property's actual asset.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-16",
@@ -730,8 +744,8 @@
    "application": "Decide where on the axis you are sitting and audit for drift, because unplanned hardening is the most common structural failure in a horror second act. If you publish a rule, obey it without exception — a hard rule broken once converts the reader from participant to spectator permanently.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-17",
@@ -744,8 +758,8 @@
    "application": "Write the three answers down before drafting and keep them beside you. Reveal the limit late and the cost early. And check that your threat has at least one thing it cannot do, because a character who has no possible correct action cannot be written into a tense scene.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-18",
@@ -758,8 +772,8 @@
    "application": "Put the exposition scene where a reduction in tension is affordable, and never immediately before the climax. Make each answer cost something or open something worse. And consider giving the explanation to a character the reader has reason to doubt, which lets you deliver information without conceding it.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-19",
@@ -772,8 +786,8 @@
    "application": "Enter the threat's perspective only if you are prepared to lose its unknowability, and do it early rather than late — a late entry reads as a reveal and deflates the accumulated mystery. Ground alien cognition in a consistent priority rather than in strange syntax. And keep the entity's chapters shorter than the human ones.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-20",
@@ -786,8 +800,8 @@
    "application": "Build the backstory in full and then plan what will never appear. Let the withheld material leave traces — an inconsistency, an object, a date that does not fit — because dread requires evidence of a system, not merely absence. Never write the prequel chapter, however much you want to.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-21",
@@ -800,8 +814,8 @@
    "application": "Decide whether a channel exists, and if it does not, remove the scenes where characters attempt one — they read as the writer hedging. Depth for an unnegotiable threat comes from consistency and specificity, not from motive. If you find yourself wanting to redeem the entity, you may have written a different book, which is worth knowing before the final act.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-22",
@@ -814,8 +828,8 @@
    "application": "Define the distortion as a rule — what this narrator systematically cannot see, or reframes — and apply it without exception. Give the reader enough to reconstruct the truth by the two-thirds point; the pleasure is in being ahead, not in being ambushed. Never let the narrator lie about an event they are currently narrating.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-23",
@@ -828,8 +842,8 @@
    "application": "Justify each document's existence and its survival. Design the gaps deliberately — missing pages are the form's cheapest strong effect — and decide who assembled the file, because that person is a character even if they never appear. And watch the tense problem: a first-person account of one's own death requires a solution, and the solutions are all visible.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-24",
@@ -842,8 +856,8 @@
    "application": "Cut the intensifiers at the moment of highest tension — very, suddenly, horribly, unspeakable — because they instruct the reader how to feel and thereby do the feeling for them. Report the wrong thing in a subordinate clause. Save your most ordinary sentence for your worst moment.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-25",
@@ -856,8 +870,8 @@
    "application": "Spend real pages on ordinary before the first deviation, and make the deviation small enough to be deniable. Give exactly three concrete details, not five. Then change the subject — the reader will not, and that gap is where the dread lives.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-26",
@@ -870,8 +884,8 @@
    "application": "Set the contract in the first act and never violate it. Kill someone the reader likes reasonably early if you intend to be funny later. And keep the registers sequential rather than simultaneous — a scene should be frightening or funny, with the transition as the effect.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-27",
@@ -884,8 +898,8 @@
    "application": "Be able to state in one sentence what the unflinching depiction achieves that a cutaway would not. Check whether the extremity is distributed or concentrated, and on whom. And distinguish the reader's discomfort, which may be the point, from the reader's disengagement, which never is.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-28",
@@ -898,8 +912,8 @@
    "application": "Write what the body can no longer do before you write what it looks like. Give the character a practical adaptation — a routine, an accommodation, a concealment — because adaptation implies duration and duration is where the horror sits. Reserve explicit description for one or two moments and let function carry the rest.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-29",
@@ -912,8 +926,8 @@
    "application": "Ask what the scene achieves and whether another violation would achieve it — if yes, the choice was inherited rather than made. If it belongs, write it from inside the person it happens to, give it consequences that persist past the act, and do not make it the engine of someone else's arc. And note that the threat of it is not a free alternative; suspended threat aimed continuously at a woman is its own convention.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-30",
@@ -926,8 +940,8 @@
    "application": "Distinguish discomfort you have designed from disengagement you have caused. Give prolonged suffering a shape — duration the reader can measure, a character who remains a person throughout. And if you are being cruel to the reader deliberately, know it and commit, because the position is defensible and the accident is not.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-31",
@@ -940,8 +954,8 @@
    "application": "Read the collections and the ethnographic scholarship rather than encyclopedias of creatures. Keep the locality — one valley, one rule, one season is more convincing than a species. And preserve the inconsistencies and the cruelty, because those are precisely the features that got removed and precisely where the fresh material is.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-32",
@@ -954,8 +968,8 @@
    "application": "Establish whether the tradition is living and whether its practitioners have said anything about outside use — often they have, in writing, and it is findable. Apply the equivalence test: would this treatment of a religion you belong to read as respectful? Consult and credit and pay where you can. And if the answer is that you should not write it, that is a legitimate outcome rather than a failure of nerve.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-33",
@@ -968,8 +982,8 @@
    "application": "Decide whether the supernatural is a metaphor for the condition or a separate thing the condition sits beside, and hold that line. Do not let the exorcism double as a cure. And if you are writing a specific diagnosis, get the phenomenology right, because readers who have it will be the ones who notice.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-34",
@@ -982,8 +996,8 @@
    "application": "Invent outward from a detail rather than dramatising a case. Change what identifies real people, and assume surviving family will read it. Do not adopt a documentary register for invented material. And when you write about such a work, analyse the book or film's craft rather than relitigating the crime.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-35",
@@ -996,8 +1010,8 @@
    "application": "Remove or discredit the adults in the first act, and do it plausibly rather than by contrivance. Make the protagonist's decisive action require something only they have. And write down rather than simplify — young readers detect condescension faster than they detect difficulty.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "craft-36",
@@ -1010,8 +1024,8 @@
    "application": "Keep the events and adjust the vantage — what is shown, from how far, and with what aftermath. Ensure the protagonist's agency produced something, even if it did not produce safety. And be honest about aftermath rather than about spectacle; young readers accept that a thing happened far more readily than they accept that it did not matter.",
    "_label": "Craft",
    "_badge": "Craft",
-   "_bg": "#2b2418",
-   "_fg": "#c8b489"
+   "_bg": "#26331a",
+   "_fg": "#a8d08a"
   },
   {
    "id": "checklist-1",
@@ -1031,8 +1045,8 @@
    ],
    "_label": "Checklist",
    "_badge": "Checklist",
-   "_bg": "#331a1a",
-   "_fg": "#d88a8a"
+   "_bg": "#331a2e",
+   "_fg": "#d08ac0"
   },
   {
    "id": "checklist-2",
@@ -1052,8 +1066,8 @@
    ],
    "_label": "Checklist",
    "_badge": "Checklist",
-   "_bg": "#331a1a",
-   "_fg": "#d88a8a"
+   "_bg": "#331a2e",
+   "_fg": "#d08ac0"
   },
   {
    "id": "checklist-3",
@@ -1073,8 +1087,8 @@
    ],
    "_label": "Checklist",
    "_badge": "Checklist",
-   "_bg": "#331a1a",
-   "_fg": "#d88a8a"
+   "_bg": "#331a2e",
+   "_fg": "#d08ac0"
   },
   {
    "id": "checklist-4",
@@ -1094,8 +1108,8 @@
    ],
    "_label": "Checklist",
    "_badge": "Checklist",
-   "_bg": "#331a1a",
-   "_fg": "#d88a8a"
+   "_bg": "#331a2e",
+   "_fg": "#d08ac0"
   },
   {
    "id": "checklist-5",
@@ -1115,8 +1129,8 @@
    ],
    "_label": "Checklist",
    "_badge": "Checklist",
-   "_bg": "#331a1a",
-   "_fg": "#d88a8a"
+   "_bg": "#331a2e",
+   "_fg": "#d08ac0"
   },
   {
    "id": "checklist-6",
@@ -1138,8 +1152,8 @@
    ],
    "_label": "Checklist",
    "_badge": "Checklist",
-   "_bg": "#331a1a",
-   "_fg": "#d88a8a"
+   "_bg": "#331a2e",
+   "_fg": "#d08ac0"
   },
   {
    "id": "checklist-7",
@@ -1159,8 +1173,8 @@
    ],
    "_label": "Checklist",
    "_badge": "Checklist",
-   "_bg": "#331a1a",
-   "_fg": "#d88a8a"
+   "_bg": "#331a2e",
+   "_fg": "#d08ac0"
   },
   {
    "id": "checklist-8",
@@ -1180,8 +1194,8 @@
    ],
    "_label": "Checklist",
    "_badge": "Checklist",
-   "_bg": "#331a1a",
-   "_fg": "#d88a8a"
+   "_bg": "#331a2e",
+   "_fg": "#d08ac0"
   },
   {
    "id": "trope-1",
@@ -1214,8 +1228,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-2",
@@ -1248,8 +1262,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-3",
@@ -1282,8 +1296,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-4",
@@ -1316,8 +1330,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-5",
@@ -1350,8 +1364,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-6",
@@ -1384,8 +1398,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-7",
@@ -1418,8 +1432,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-8",
@@ -1452,8 +1466,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-9",
@@ -1486,8 +1500,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-10",
@@ -1520,8 +1534,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-11",
@@ -1554,8 +1568,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-12",
@@ -1588,8 +1602,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-13",
@@ -1622,8 +1636,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-14",
@@ -1656,8 +1670,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-15",
@@ -1690,8 +1704,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-16",
@@ -1724,8 +1738,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-17",
@@ -1758,8 +1772,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-18",
@@ -1792,8 +1806,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-19",
@@ -1826,8 +1840,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-20",
@@ -1860,8 +1874,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-21",
@@ -1894,8 +1908,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-22",
@@ -1928,8 +1942,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-23",
@@ -1962,8 +1976,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-24",
@@ -1996,8 +2010,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-25",
@@ -2030,8 +2044,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-26",
@@ -2064,8 +2078,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-27",
@@ -2098,8 +2112,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-28",
@@ -2132,8 +2146,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-29",
@@ -2166,8 +2180,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-30",
@@ -2200,8 +2214,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-31",
@@ -2234,8 +2248,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-32",
@@ -2268,8 +2282,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-33",
@@ -2302,8 +2316,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-34",
@@ -2336,8 +2350,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-35",
@@ -2370,8 +2384,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-36",
@@ -2404,8 +2418,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-37",
@@ -2438,8 +2452,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-38",
@@ -2472,8 +2486,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-39",
@@ -2506,8 +2520,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-40",
@@ -2540,8 +2554,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-41",
@@ -2574,8 +2588,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-42",
@@ -2608,8 +2622,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-43",
@@ -2642,8 +2656,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-44",
@@ -2676,8 +2690,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-45",
@@ -2710,8 +2724,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-46",
@@ -2744,8 +2758,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-47",
@@ -2778,8 +2792,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-48",
@@ -2812,8 +2826,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-49",
@@ -2846,8 +2860,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-50",
@@ -2880,8 +2894,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-51",
@@ -2914,8 +2928,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-52",
@@ -2948,8 +2962,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-53",
@@ -2982,8 +2996,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-54",
@@ -3016,8 +3030,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-55",
@@ -3050,8 +3064,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-56",
@@ -3084,8 +3098,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-57",
@@ -3118,8 +3132,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-58",
@@ -3152,8 +3166,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-59",
@@ -3186,8 +3200,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-60",
@@ -3220,8 +3234,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-61",
@@ -3254,8 +3268,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-62",
@@ -3288,8 +3302,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-63",
@@ -3322,8 +3336,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-64",
@@ -3356,8 +3370,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-65",
@@ -3390,8 +3404,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-66",
@@ -3424,8 +3438,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-67",
@@ -3458,8 +3472,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-68",
@@ -3492,8 +3506,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-69",
@@ -3526,8 +3540,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-70",
@@ -3560,8 +3574,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-71",
@@ -3594,8 +3608,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-72",
@@ -3628,8 +3642,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-73",
@@ -3662,8 +3676,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-74",
@@ -3696,8 +3710,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-75",
@@ -3730,8 +3744,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-76",
@@ -3764,8 +3778,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-77",
@@ -3798,8 +3812,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-78",
@@ -3832,8 +3846,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-79",
@@ -3866,8 +3880,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-80",
@@ -3900,8 +3914,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-81",
@@ -3934,8 +3948,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-82",
@@ -3968,8 +3982,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-83",
@@ -4002,8 +4016,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-84",
@@ -4036,8 +4050,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-85",
@@ -4070,8 +4084,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-86",
@@ -4104,8 +4118,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-87",
@@ -4138,8 +4152,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-88",
@@ -4172,8 +4186,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-89",
@@ -4206,8 +4220,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-90",
@@ -4240,8 +4254,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-91",
@@ -4274,8 +4288,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-92",
@@ -4308,8 +4322,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-93",
@@ -4342,8 +4356,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-94",
@@ -4376,8 +4390,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-95",
@@ -4410,8 +4424,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-96",
@@ -4444,8 +4458,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-97",
@@ -4478,8 +4492,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-98",
@@ -4512,8 +4526,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-99",
@@ -4546,8 +4560,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-100",
@@ -4580,8 +4594,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-101",
@@ -4614,8 +4628,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-102",
@@ -4648,8 +4662,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-103",
@@ -4682,8 +4696,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-104",
@@ -4716,8 +4730,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-105",
@@ -4750,8 +4764,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-106",
@@ -4784,8 +4798,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-107",
@@ -4818,8 +4832,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-108",
@@ -4852,8 +4866,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-109",
@@ -4886,8 +4900,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "trope-110",
@@ -4920,8 +4934,8 @@
    ],
    "_label": "Tropes",
    "_badge": "Trope",
-   "_bg": "#331f1a",
-   "_fg": "#d8a88a"
+   "_bg": "#331a1a",
+   "_fg": "#d88a8a"
   },
   {
    "id": "folklore-1",
@@ -4954,8 +4968,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-2",
@@ -4988,8 +5002,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-3",
@@ -5022,8 +5036,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-4",
@@ -5056,8 +5070,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-5",
@@ -5090,8 +5104,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-6",
@@ -5124,8 +5138,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-7",
@@ -5158,8 +5172,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-8",
@@ -5192,8 +5206,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-9",
@@ -5226,8 +5240,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-10",
@@ -5260,8 +5274,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-11",
@@ -5294,8 +5308,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-12",
@@ -5328,8 +5342,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-13",
@@ -5362,8 +5376,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-14",
@@ -5396,8 +5410,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-15",
@@ -5430,8 +5444,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-16",
@@ -5464,8 +5478,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-17",
@@ -5498,8 +5512,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-18",
@@ -5532,8 +5546,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-19",
@@ -5566,8 +5580,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-20",
@@ -5600,8 +5614,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-21",
@@ -5634,8 +5648,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-22",
@@ -5668,8 +5682,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-23",
@@ -5702,8 +5716,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-24",
@@ -5736,8 +5750,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-25",
@@ -5770,8 +5784,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-26",
@@ -5804,8 +5818,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-27",
@@ -5838,8 +5852,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-28",
@@ -5872,8 +5886,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-29",
@@ -5906,8 +5920,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-30",
@@ -5940,8 +5954,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-31",
@@ -5974,8 +5988,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-32",
@@ -6008,8 +6022,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-33",
@@ -6042,8 +6056,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-34",
@@ -6076,8 +6090,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-35",
@@ -6110,8 +6124,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-36",
@@ -6144,8 +6158,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-37",
@@ -6178,8 +6192,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-38",
@@ -6212,8 +6226,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-39",
@@ -6246,8 +6260,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-40",
@@ -6280,8 +6294,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-41",
@@ -6314,8 +6328,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-42",
@@ -6348,8 +6362,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-43",
@@ -6382,8 +6396,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-44",
@@ -6416,8 +6430,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-45",
@@ -6450,8 +6464,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-46",
@@ -6484,8 +6498,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-47",
@@ -6518,8 +6532,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-48",
@@ -6552,8 +6566,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-49",
@@ -6586,8 +6600,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-50",
@@ -6620,8 +6634,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-51",
@@ -6654,8 +6668,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-52",
@@ -6688,8 +6702,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-53",
@@ -6722,8 +6736,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-54",
@@ -6756,8 +6770,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-55",
@@ -6790,8 +6804,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-56",
@@ -6824,8 +6838,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-57",
@@ -6858,8 +6872,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-58",
@@ -6892,8 +6906,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-59",
@@ -6926,8 +6940,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-60",
@@ -6960,8 +6974,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-61",
@@ -6994,8 +7008,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-62",
@@ -7028,8 +7042,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-63",
@@ -7062,8 +7076,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-64",
@@ -7096,8 +7110,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-65",
@@ -7130,8 +7144,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-66",
@@ -7164,8 +7178,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-67",
@@ -7198,8 +7212,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-68",
@@ -7232,8 +7246,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-69",
@@ -7266,8 +7280,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "folklore-70",
@@ -7300,8 +7314,8 @@
    ],
    "_label": "Folklore & Monster Traditions",
    "_badge": "Folklore",
-   "_bg": "#1a2b22",
-   "_fg": "#8ac0a0"
+   "_bg": "#33241a",
+   "_fg": "#d8a88a"
   },
   {
    "id": "history-1",
@@ -7314,8 +7328,8 @@
    "application": "Read the chronicle and the broadside rather than the Gothic novel when you want a register that assumes belief. The reporting voice — dates, parishes, remedies attempted — is the single most transferable thing in the entire pre-history, and it is what found-footage and epistolary horror are still imitating.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-2",
@@ -7328,8 +7342,8 @@
    "application": "Note that the aesthetic preceded the fiction rather than following it. When you want to justify horror as a serious activity rather than a guilty one, Burke's distinction between pain experienced and pain contemplated is still the strongest available case and predates every modern defence of the genre.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-3",
@@ -7342,8 +7356,8 @@
    "application": "Go to the first edition, not the seventh. The excised material is where the usable horror is, and the pattern of what was removed is itself a map of what an era found unbearable — which is worth knowing when you are deciding what your own era will not tolerate.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-4",
@@ -7356,8 +7370,8 @@
    "application": "Decide your single intended effect before drafting and cut anything that does not serve it — the discipline is nearly two centuries old and remains the most reliable short-horror method available. Note also that Poe's own life has been so heavily mythologised by a hostile executor that most biographical detail attached to him should be checked rather than repeated.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-5",
@@ -7370,8 +7384,8 @@
    "application": "Study the form's length discipline, which is a market constraint that turned out to be an aesthetic virtue. And note the delivery assumption — these were written to be read aloud in a room — which is why the strongest examples front-load atmosphere and place the reveal where a reader would have to look up.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-6",
@@ -7384,8 +7398,8 @@
    "application": "These are the field's technical textbooks and most are out of copyright. Read James for structure and disclosure management, Blackwood for landscape, Machen for the sense that the world's ordinary surface is a courtesy, and Chambers for the contaminating artefact — then notice how little any of them explain.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-7",
@@ -7398,8 +7412,8 @@
    "application": "The lesson is that shared apparatus is generative and codification is not — the loose borrowing produced the interesting work and the systematised version produced the pastiche. Note also that this network's central figure held racial views that are not separable from the fiction's mechanism, which is why the contemporary form has largely been built by writers arguing with him.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-8",
@@ -7412,8 +7426,8 @@
    "application": "Read the pulps for pace and for the discipline of a market that would not pay for length. And take audio seriously as a horror medium rather than a delivery format — the radio drama solved the problem of the unseen threat decades before film worked out how to withhold.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-9",
@@ -7426,8 +7440,8 @@
    "application": "If you write short horror, the market is the anthologies, the small presses and the magazines rather than the trade houses — that has been true since 1923 and is more true now. Read the current year's-best volumes to see who is buying what, and note that the form's centre of gravity has stayed short while almost every adjacent genre's has moved to the novel.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-10",
@@ -7440,8 +7454,8 @@
    "application": "Note what the boom changed structurally — horror learned to sustain four hundred pages, which required the character depth and community-building that the short form had never needed. King's method of spending a third of a book on people before anything happens is a direct response to that commercial requirement and remains the most reliable solution to it.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-11",
@@ -7454,8 +7468,8 @@
    "application": "The cycle is the most instructive commercial fact in the genre's history and it has repeated in smaller form since. The relevant craft point is that a category dies of sameness rather than of exhaustion — the audience did not stop wanting horror, it stopped being able to tell one book from another.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-12",
@@ -7468,8 +7482,8 @@
    "application": "Steal the design principle rather than the score. If your threat becomes more dangerous as it is understood, you have solved horror's explanation problem structurally rather than by withholding — and note that the game's own history shows how quickly a systematised mythos becomes a catalogue.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-13",
@@ -7482,8 +7496,8 @@
    "application": "Treat it as a craft discipline rather than as a lesser category — writing convincingly inside a fixed rule set is the exact skill that makes original horror's threats consistent. If you take the work, read the property's existing material as a rule set first and a story second.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-14",
@@ -7496,8 +7510,8 @@
    "application": "Recognise which side of this argument your book is on and commit — the failure mode is a novel that flinches at the moment it has spent two hundred pages promising not to. Both positions are defensible and each produces its own dishonesty: unearned explicitness on one side, coyness dressed as restraint on the other.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-15",
@@ -7510,8 +7524,8 @@
    "application": "Establish the threat honestly and kill someone the audience likes before the first extended joke. And note that comic horror is where a great deal of formal innovation happens, because a mode nobody takes seriously is a mode nobody polices.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-16",
@@ -7524,8 +7538,8 @@
    "application": "If a continuation is likely, decide in advance what will stay permanently unexplained and defend it — the property's unexplained material is its actual asset. And note the one reliable escape: the sequels that work change the genre they are in rather than doing the same thing larger.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-17",
@@ -7538,8 +7552,8 @@
    "application": "Write down in vocabulary, never in emotional sophistication. The one genuine constraint is not intensity but implication — young readers accept that terrible things happened far more readily than they accept that nothing anyone did mattered.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-18",
@@ -7552,8 +7566,8 @@
    "application": "Take the craft lesson and leave the label. What actually changed was budget structure creating room for ambiguity, slow pacing and unresolved endings — the commercial conditions permitted the technique. Treating \"elevated\" as a genre rather than as a marketing term will lead you to imitate a tone instead of a set of choices.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-19",
@@ -7566,8 +7580,8 @@
    "application": "The productive move with a compromised inheritance is to argue with it in its own form rather than to ignore it or to launder it. Note also that the strongest of these books are not corrections but genuinely better cosmic horror, because writing from inside the thing Lovecraft feared produces a sharper account of it.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-20",
@@ -7580,8 +7594,8 @@
    "application": "Play the canonical ones and steal the pacing logic, not the imagery. The transferable insight is that dread scales with what the protagonist cannot do, and games are forced to be explicit about that in a way prose can leave vague and usually should not.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-21",
@@ -7590,12 +7604,12 @@
    "name": "The Globalized Genre",
    "description": "The end of the anglophone default.",
    "principle": "Horror's most productive traditions are no longer predominantly British or American, and translation, subtitled streaming and international co-production have made national horror cinemas and comics traditions directly available rather than filtered through remakes. The practical effect for writers is access to rule sets that anglophone horror has not exhausted.",
-   "example": "Japanese horror's transmissible curse and Junji Ito's manga; Korean horror's interest in family culpability; Mexican, Spanish and Latin American horror across film and prose; Nordic, Indonesian, Thai and Nigerian production; the two-decade run of anglophone remakes that consistently weakened their sources by adding moral causation.",
+   "example": "Japanese horror's transmissible curse and Junji Itō's manga; Korean horror's interest in family culpability; Mexican, Spanish and Latin American horror across film and prose; Nordic, Indonesian, Thai and Nigerian production; the two-decade run of anglophone remakes that consistently weakened their sources by adding moral causation.",
    "application": "Watch and read in the original wherever you can, and pay particular attention to what a tradition assumes about causation — the single most repeated failure in adaptation is inserting a reason the victim deserved it, into traditions built on the opposite premise.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "history-22",
@@ -7608,8 +7622,8 @@
    "application": "Study it for the artefact discipline — choose a document type and obey its conventions absolutely, because the horror lives in the deviation from a form the reader already trusts. And note that the mode resists the tidy ending, which is why the strongest examples stop rather than conclude.",
    "_label": "History",
    "_badge": "History",
-   "_bg": "#2e2a1a",
-   "_fg": "#c8bc8a"
+   "_bg": "#33301a",
+   "_fg": "#d0c88a"
   },
   {
    "id": "psych-1",
@@ -7621,9 +7635,9 @@
    "example": "Rozin's work on benign masochism documents the pattern across unrelated domains and finds that enjoyment tracks the gap between the body's alarm and the person's knowledge of safety; the same logic explains why horror consumption drops when the audience's real-world threat level rises, and why a text that seems to threaten the reader rather than the characters loses them.",
    "application": "Protect the container. Anything that makes the reader feel personally unsafe rather than vicariously endangered — sustained cruelty with no shape, or an implication that the book is contemptuous of them — collapses the mechanism the whole genre runs on.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-2",
@@ -7635,9 +7649,9 @@
    "example": "Zillmann's excitation-transfer work established the effect and it has been applied extensively to media response, including the finding that satisfaction with a frightening film is highest when the resolution is prompt and complete enough to convert lingering arousal into relief.",
    "application": "Use the residue deliberately. The scene after the worst scene is doing more work than its content suggests, which is an argument for placing your most emotionally significant material there rather than treating it as recovery time.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-3",
@@ -7649,9 +7663,9 @@
    "example": "Stenseng's work separates self-expansion from self-suppression escapism and finds them dissociable in their correlates; survey work on horror audiences during periods of collective threat found frequent consumers reporting greater psychological resilience, though the causal direction remains genuinely open.",
    "application": "Take seriously that most of your readers are doing something adaptive, and stop apologising for the genre in your own framing of it. Note also the honest limit: the correlational evidence cannot tell you whether horror builds coping capacity or whether people with that capacity choose horror.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-4",
@@ -7663,9 +7677,9 @@
    "example": "Oliver and Raney's work distinguishes enjoyment from appreciation as independent dimensions of media response, with appreciation tracking perceived meaningfulness rather than positive affect; horror's most durable canon is disproportionately made of books and films audiences describe as devastating rather than fun.",
    "application": "Stop treating a bleak ending as a commercial risk to be mitigated and start treating it as a different contract. The failure is not bleakness but incoherence — an ending that betrays what the book promised loses both dimensions at once.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-5",
@@ -7677,9 +7691,9 @@
    "example": "Affective disposition theory, developed by Zillmann and Cantor, accounts for the pattern across genres; horror's unpunished antagonist and its arbitrary victim are direct violations, and the audience response — that something \"isn't fair\" — is the mechanism registering rather than a failure of the work.",
    "application": "Know when you are violating the contract and make the violation the point. Arbitrary death lands hardest when the book has established that it keeps accounts elsewhere; a story in which nothing is ever deserved has no baseline against which the arbitrary can register.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-6",
@@ -7691,9 +7705,9 @@
    "example": "Zuckerman's sensation-seeking construct predicts preference for intense media across domains; subsequent audience work has repeatedly recovered distinct clusters of horror viewer whose motivations — thrill, curiosity, problem-solving, social experience — do not overlap much.",
    "application": "Write for one cluster and accept that you are not writing for the others. The practical consequence is that \"horror fans\" is not a usable audience description, and the register you set in chapter one selects among them whether you intend it or not.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-7",
@@ -7705,9 +7719,9 @@
    "example": "Radcliffe drew the terror-horror distinction in an essay published after her death and it has survived because it is descriptive; the anticipatory-anxiety literature separates responses to certain from uncertain threat, finding uncertain threat produces the more sustained state — which is dread's mechanism stated in laboratory terms.",
    "application": "Name which of the three each scene is attempting. Dread needs information the reader holds and the character does not, plus uncertainty about timing; terror needs a clock and a confined space; horror needs stillness and consequence. Most flat horror is a terror technique deployed where dread was required.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-8",
@@ -7719,9 +7733,9 @@
    "example": "Keltner and Haidt's account defines awe by vastness plus need for accommodation, and subsequent work associates it with a diminished small self and altered time perception; Lovecraft's stated programme — that the oldest fear is of the unknown, and that human significance is provincial — is a description of awe with the sign flipped.",
    "application": "Do not pursue scale through size. Awe requires that the reader's existing framework be genuinely inadequate, which is achieved by indifference and by unintelligibility rather than by large numbers. And note that the same mechanism can be turned either way in the same book, which is what the best endings in the mode do.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-9",
@@ -7733,9 +7747,9 @@
    "example": "Rozin and Fallon's account established core disgust and its contamination logic, and disgust-sensitivity measures show large stable individual differences; the practical consequence is visible in any extremity film that opens at maximum and has nowhere to go by its midpoint.",
    "application": "Budget it, place it after fear is established, and prefer disgust that carries information about what the threat does over disgust that merely describes a state. The informative kind survives habituation; the descriptive kind is spent on first use.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-10",
@@ -7747,9 +7761,9 @@
    "example": "The acoustic startle paradigm is among the most reliable effects in the fear literature, including the finding that a state of anxiety amplifies the reflex; the commercial haunting film's four-to-six-minute startle cadence produces reliable in-the-moment response and notably poor retention.",
    "application": "Count them, and make each one cost something. A false scare that pays out without consequence teaches the reader that your alarm signals are unreliable, and that lesson cannot be untaught inside the same book.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-11",
@@ -7761,9 +7775,9 @@
    "example": "The distinction between phasic fear and sustained anxiety is well established in the threat literature, with uncertain and unpredictable threat producing the longer-lasting state; the practical demonstration is any effective horror sequence in which nothing happens, which cannot be explained as fear because there is no object.",
    "application": "Build anxiety by keeping the threat unspecified and its timing unpredictable, and spend fear sparingly on the moments where the object arrives. A book that only ever produces fear will be exhausting and forgettable; a book that only produces anxiety will feel unresolved in a way readers experience as evasion.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-12",
@@ -7775,9 +7789,9 @@
    "example": "The continuing-bonds account developed by Klass, Silverman and Nickman displaced the stage models in the clinical literature; the genre's strongest treatments — the wish story, the returning-child novel, the grief-entity film — all keep recovery either impossible or ruinous, which is the same finding stated as plot.",
    "application": "Never let the exorcism double as a cure. If your supernatural is carrying grief, decide whether it is a metaphor for the condition or a separate thing standing beside it, and hold the line — a monster destroyed in the third act cannot also be a bereavement resolved.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-13",
@@ -7789,9 +7803,9 @@
    "example": "Appraisal-theory work consistently separates fear and anger on control and certainty dimensions; the pattern is visible in any horror franchise's third act, and in the reliable observation that the instalment where the survivor arms up is the one that stops being frightening.",
    "application": "Know where your flip is and put it late, or withhold it. Empowerment is a genuine and satisfying payoff and it is the end of dread — a story that grants agency in the second act has spent the thing it was selling.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-14",
@@ -7803,9 +7817,9 @@
    "example": "Freud's 1919 essay built the account on Hoffmann's automaton story and on the unheimlich as the familiar made strange, though later critics argue his reading suppresses the automaton in favour of the eyes; Mori's uncanny-valley hypothesis proposed the same non-monotonic response to near-human likeness, and subsequent empirical work supports the dip while continuing to dispute its cause.",
    "application": "Establish the familiar version in detail first, then change exactly one thing and do not add a second. The uncanny is subtractive, and the moment the figure becomes clearly other, the effect converts into ordinary monster horror.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-15",
@@ -7817,9 +7831,9 @@
    "example": "Rozin and Nemeroff's experimental work demonstrated both laws operating in participants who denied holding them, including reluctance to consume items in contact with something disgusting and discomfort with harming an image of a loved one; Frazer had described the same two laws a century earlier, though his comparative method has since been rejected.",
    "application": "This is the most directly usable finding in the collection. Cursed objects, inherited houses, worn clothing and recorded images all work because the reader's intuitions do the work whatever their beliefs — so establish the contact and let the intuition supply the dread rather than explaining the mechanism.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-16",
@@ -7831,9 +7845,9 @@
    "example": "Epley, Waytz and Cacioppo's three-factor account identifies elicited agent knowledge, effectance motivation and sociality as the drivers; Barrett's hyperactive agency-detection proposal explains the asymmetry in threat attribution, and remains debated as an account of religion's origins while being uncontroversial as a description of the bias.",
    "application": "Isolate the character, deny them explanation, and give them a reason to need prediction — all three raise attribution, which is why the same house is inert in company and alive alone. Dolls, mannequins and recorded voices work because they already sit at the edge of the mechanism.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-17",
@@ -7845,9 +7859,9 @@
    "example": "Studies contrasting predictable and unpredictable shock consistently find the unpredictable condition more aversive and its effects longer-lasting; Grupe and Nitschke's framework organises anticipatory anxiety around exactly this intolerance, which is what a reader in a long unresolved sequence is experiencing.",
    "application": "Withhold timing before you withhold appearance. Readers tolerate knowing what the threat is far better than knowing when it arrives, which means a fully described monster on an unpredictable schedule can be more frightening than an unseen one with a countdown.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-18",
@@ -7859,9 +7873,9 @@
    "example": "Experimental work has found ritualised action reducing anxiety in high-stakes and uncertain conditions, with the effect tracking the rigidity of the sequence rather than its content; the craft consequence is visible in every folk-horror ceremony and every protective routine that the plot eventually interrupts.",
    "application": "Give your characters a routine and let the reader learn it before you break it. The break is only devastating in proportion to how thoroughly the routine was established, which means the boring pages of correct procedure are load-bearing rather than filler.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-19",
@@ -7873,9 +7887,9 @@
    "example": "Work on situation models by Zwaan and Radvansky documents readers maintaining spatial representations and slowing when those are violated; the craft demonstration is the haunted-house tradition's insistence on floor plans, corridors and counted doors before anything is allowed to be wrong.",
    "application": "Draw the plan and give the reader enough to build it. A corridor that is longer than the room it serves is only frightening to someone who knows how long the room is, which means the early architectural detail readers find slow is the entire mechanism being installed.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-20",
@@ -7887,9 +7901,9 @@
    "example": "Green and Brock's transportation work established the construct and its relationship to belief change and emotional involvement, with more transported readers reporting stronger responses and noticing fewer textual problems.",
    "application": "Protect immersion above cleverness. Formal experiment, authorial intrusion, showy prose at the moment of highest tension and inconsistency in the rules all break transportation, and a broken reader cannot be frightened until they are back inside — which costs pages you will not get back.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-21",
@@ -7901,9 +7915,9 @@
    "example": "Bettelheim's The Uses of Enchantment (1976) made the argument and became the standard reference; subsequent scholarship documented substantial unattributed borrowing from Julius Heuscher's earlier work, misrepresentation of his professional credentials, and accounts from former patients that contradict his published claims about his practice.",
    "application": "Make the argument on its own merits and from better sources. The craft point stands — children's fiction that removes all threat removes the mastery that comes from surviving it — but a reference that leans on Bettelheim without the caveat is passing on a problem.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-22",
@@ -7915,9 +7929,9 @@
    "example": "Cantor's programme of research on children's fright responses to media documents the perceptual-to-conceptual shift and the corresponding change in what reassurance works — physical explanation for younger children, verbal reasoning for older ones.",
    "application": "Pitch the threat to the age's actual fear architecture rather than to adult assumptions about it. And note the corollary for reassurance: younger readers need the danger physically resolved, older readers need it made sense of, and giving each the other's ending satisfies neither.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-23",
@@ -7929,9 +7943,9 @@
    "example": "Erikson's account of identity formation against role confusion supplies the developmental frame, and the correspondence is explicit in the transformation-at-puberty tradition across film and prose, where the change is involuntary, secret and socially catastrophic in that order.",
    "application": "If you are writing this, make the metaphor load-bearing rather than decorative — the transformation should generate plot, not illustrate a theme. And note the risk the tradition carries: a story in which a girl's changing body is the horror needs to know whose fear it is dramatising.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-24",
@@ -7943,9 +7957,9 @@
    "example": "Intrusive re-experiencing, avoidance and hypervigilance are core diagnostic features and are also, almost exactly, the toolkit of the haunting narrative; the genre's strongest recent work makes the entity and the bereavement or the historical violence structurally inseparable rather than parallel.",
    "application": "Decide whether the supernatural is the condition or stands beside it, and hold that line to the ending. Do not let destroying the monster imply recovery, and if you name a specific diagnosis, get the phenomenology right — the readers who have it are the ones who will notice.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-25",
@@ -7953,13 +7967,13 @@
    "category": "Development, Trauma & Ethics",
    "name": "Desensitisation: What the Evidence Does and Does Not Show",
    "description": "A contested literature, stated at its actual confidence.",
-   "principle": "Short-term reductions in physiological reactivity following repeated exposure to violent media are reasonably well established. The stronger claim — that horror consumption produces lasting reductions in empathy or increases in real-world aggression — rests on a literature with well-documented problems including small effects, publication bias and failed replications, and it is genuinely disputed among researchers rather than settled.",
+   "principle": "Short-term reductions in physiological reactivity following repeated exposure to violent media are reasonably well established. The stronger claim — that horror consumption produces lasting reductions in empathy or increases in real-world aggression — rests on a literature with well-documented problems including small effects, publication bias and failed replications, and it is genuinely disputed among researchers rather than settled (robustness: contested).",
    "example": "The media-violence field has been the subject of sustained methodological criticism over effect sizes, measurement validity and the gap between laboratory proxies and real behaviour, with meta-analyses reaching materially different conclusions depending on inclusion criteria and correction for publication bias.",
    "application": "Do not defend the genre with confident counter-claims either — the honest position is that the strong effects are unproven and the field is contested. What you can rely on is the within-work finding: your reader's reactivity to your own escalation declines quickly, which is a pacing problem regardless of what happens outside the book.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "psych-26",
@@ -7971,9 +7985,9 @@
    "example": "Work on media-induced fright reactions documents persistent effects, including sleep disturbance, for a substantial minority of viewers and finds them poorly predicted by content intensity alone; the audience response to unresolved and to resolved horror differs in duration far more than in reported intensity at the time.",
    "application": "Understand that an unresolved ending has a longer half-life in the reader, which is an argument for it and a responsibility that comes with it. If you leave a reader without a shape, do it because the book is about the absence of one — not because you could not find an ending.",
    "_label": "Psychology of Fear",
-   "_badge": "Psychology",
-   "_bg": "#241a2e",
-   "_fg": "#a898d0"
+   "_badge": "Psych",
+   "_bg": "#2e1a33",
+   "_fg": "#c08ad8"
   },
   {
    "id": "author-1",
@@ -8012,8 +8026,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-2",
@@ -8055,8 +8069,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-3",
@@ -8096,8 +8110,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-4",
@@ -8137,8 +8151,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-5",
@@ -8176,8 +8190,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-6",
@@ -8217,8 +8231,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-7",
@@ -8262,8 +8276,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-8",
@@ -8309,8 +8323,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-9",
@@ -8341,8 +8355,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-10",
@@ -8386,8 +8400,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-11",
@@ -8431,8 +8445,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-12",
@@ -8474,8 +8488,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-13",
@@ -8514,8 +8528,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-14",
@@ -8556,8 +8570,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-15",
@@ -8601,8 +8615,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-16",
@@ -8639,14 +8653,15 @@
      "start": true
     },
     {
-     "title": "The Terror",
-     "year": "1916"
+     "title": "The Terror (1916 novel)",
+     "year": "1916",
+     "note": "unrelated to the 2007 Simmons novel of the same title carded at work-94"
     }
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-17",
@@ -8688,8 +8703,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-18",
@@ -8731,8 +8746,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-19",
@@ -8769,8 +8784,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-20",
@@ -8812,8 +8827,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-21",
@@ -8851,8 +8866,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-22",
@@ -8897,8 +8912,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-23",
@@ -8942,8 +8957,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-24",
@@ -8982,8 +8997,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-25",
@@ -9024,8 +9039,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-26",
@@ -9069,8 +9084,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-27",
@@ -9115,8 +9130,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-28",
@@ -9160,8 +9175,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-29",
@@ -9205,8 +9220,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-30",
@@ -9251,8 +9266,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-31",
@@ -9297,8 +9312,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-32",
@@ -9342,8 +9357,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-33",
@@ -9385,8 +9400,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-34",
@@ -9428,8 +9443,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-35",
@@ -9468,8 +9483,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-36",
@@ -9510,8 +9525,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-37",
@@ -9553,8 +9568,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-38",
@@ -9596,8 +9611,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-39",
@@ -9638,8 +9653,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-40",
@@ -9669,8 +9684,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-41",
@@ -9714,8 +9729,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-42",
@@ -9756,8 +9771,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-43",
@@ -9798,8 +9813,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-44",
@@ -9842,8 +9857,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-45",
@@ -9889,8 +9904,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-46",
@@ -9936,8 +9951,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-47",
@@ -9982,8 +9997,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-48",
@@ -10024,8 +10039,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-49",
@@ -10070,8 +10085,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-50",
@@ -10117,14 +10132,14 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-51",
    "kind": "author",
    "category": "The Modern Masters",
-   "name": "Robert McCammon",
+   "name": "Robert R. McCammon",
    "description": "Won the field's first Best Novel award, then walked away from publishing for a decade.",
    "meta": "American, born 1952. **Five competitive Bram Stokers**, two of them at the very first ceremony for 1987 work — Best Novel for Swan Song, in a tie with Stephen King's Misery, and Best Short Story for \"The Deep End\" — followed by wins for 1989, 1990 and 1991 work, plus Lifetime Achievement 2013. World Fantasy Award for Best Novel 1992 for Boy's Life, outright rather than a tie. World Horror Grandmaster 2008. He is a co-founder of the Horror Writers Association and originated the idea, which was incorporated in Ohio in March 1987; the frequent claims that he was its first president, or that it began in 1985 under another name, are not supported by the association's own account. He stopped publishing after Gone South in 1992, citing exhaustion and publishers who insisted he stay in genre horror, and the unpublished novel at the centre of the break, The Village, remains unpublished.",
    "knownFor": "Southern-inflected epic horror of real ambition, and for the rarest career shape in the field — a voluntary decade-long withdrawal at the height of it.",
@@ -10167,8 +10182,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-52",
@@ -10209,8 +10224,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-53",
@@ -10254,8 +10269,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-54",
@@ -10298,8 +10313,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-55",
@@ -10340,8 +10355,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-56",
@@ -10385,8 +10400,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-57",
@@ -10425,8 +10440,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-58",
@@ -10467,8 +10482,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-59",
@@ -10508,8 +10523,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-60",
@@ -10554,8 +10569,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-61",
@@ -10599,8 +10614,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-62",
@@ -10643,8 +10658,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-63",
@@ -10689,8 +10704,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-64",
@@ -10739,8 +10754,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-65",
@@ -10784,8 +10799,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-66",
@@ -10827,8 +10842,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-67",
@@ -10870,8 +10885,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-68",
@@ -10917,8 +10932,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-69",
@@ -10961,8 +10976,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-70",
@@ -11004,8 +11019,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-71",
@@ -11046,8 +11061,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-72",
@@ -11088,8 +11103,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-73",
@@ -11131,8 +11146,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-74",
@@ -11167,8 +11182,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-75",
@@ -11210,8 +11225,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-76",
@@ -11250,8 +11265,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-77",
@@ -11292,8 +11307,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-78",
@@ -11326,8 +11341,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-79",
@@ -11364,8 +11379,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-80",
@@ -11405,8 +11420,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-81",
@@ -11442,8 +11457,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-82",
@@ -11480,8 +11495,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-83",
@@ -11517,8 +11532,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-84",
@@ -11559,8 +11574,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-85",
@@ -11601,8 +11616,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-86",
@@ -11640,8 +11655,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-87",
@@ -11679,8 +11694,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-88",
@@ -11721,8 +11736,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-89",
@@ -11759,8 +11774,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-90",
@@ -11796,8 +11811,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-91",
@@ -11834,8 +11849,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-92",
@@ -11871,8 +11886,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-93",
@@ -11905,8 +11920,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-94",
@@ -11948,8 +11963,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-95",
@@ -11987,8 +12002,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-96",
@@ -12025,8 +12040,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-97",
@@ -12068,8 +12083,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-98",
@@ -12106,8 +12121,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-99",
@@ -12147,8 +12162,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-100",
@@ -12186,8 +12201,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-101",
@@ -12230,8 +12245,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-102",
@@ -12269,8 +12284,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-103",
@@ -12311,14 +12326,14 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-104",
    "kind": "author",
    "category": "International",
-   "name": "Yoko Ogawa",
+   "name": "Yōko Ogawa",
    "description": "Quiet horror at literary-prize level, and the field's most damaging misdating.",
    "meta": "Japanese, born 1962. The **Akutagawa Prize in January 1991**, plus the Yomiuri, Izumi Kyōka, Tanizaki, Noma and Kikuchi Kan prizes and a Medal with Purple Ribbon in 2021; a **Shirley Jackson Award 2008** and an American Book Award 2020. International Booker **shortlisted only** in 2020, and a National Book Award finalist in 2019. No Naoki Prize, no World Fantasy, no Hugo, no Bram Stoker.",
    "knownFor": "Fiction in which cruelty is administered in a calm, almost clerical register, and in which institutions do the frightening work.",
@@ -12350,8 +12365,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-105",
@@ -12388,14 +12403,14 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-106",
    "kind": "author",
    "category": "International",
-   "name": "Mariana Enriquez",
+   "name": "Mariana Enríquez",
    "description": "Argentine horror in which the dictatorship's disappeared are the haunting.",
    "meta": "Argentine, born 1973. The Premio Ciutat de Barcelona 2017, the **Premio Herralde de Novela 2019**, and the Premio Iberoamericano de Letras José Donoso 2024. **She was shortlisted for the International Booker in 2021 and did not win.** No World Fantasy, Bram Stoker or Shirley Jackson award. Things We Lost in the Fire was not her debut — she had been publishing for over twenty years.",
    "knownFor": "Making Argentina's political violence and its ghosts the same material, with the supernatural offering no consolation and no explanation.",
@@ -12426,8 +12441,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-107",
@@ -12445,7 +12460,7 @@
      "note": "director"
     },
     {
-     "title": "Frankenstein",
+     "title": "Frankenstein (1931 film)",
      "year": "1931",
      "note": "director"
     },
@@ -12473,8 +12488,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-108",
@@ -12520,8 +12535,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-109",
@@ -12554,7 +12569,7 @@
      "note": "director"
     },
     {
-     "title": "Psycho",
+     "title": "Psycho (1960 film)",
      "year": "1960",
      "note": "director",
      "start": true
@@ -12567,8 +12582,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-110",
@@ -12587,7 +12602,7 @@
      "start": true
     },
     {
-     "title": "Rosemary's Baby",
+     "title": "Rosemary's Baby (1968 film)",
      "year": "1968",
      "note": "director and screenwriter, from Ira Levin's novel"
     },
@@ -12614,8 +12629,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-111",
@@ -12661,8 +12676,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-112",
@@ -12708,8 +12723,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-113",
@@ -12755,8 +12770,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-114",
@@ -12802,8 +12817,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-115",
@@ -12849,8 +12864,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-116",
@@ -12896,8 +12911,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-117",
@@ -12943,8 +12958,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-118",
@@ -12990,8 +13005,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-119",
@@ -13037,14 +13052,14 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-120",
    "kind": "author",
    "category": "Comics & Manga",
-   "name": "Junji Ito",
+   "name": "Junji Itō",
    "description": "The most influential horror artist alive, and unrecognised at home.",
    "meta": "Japanese, born 1963. **Four Eisner Awards, all between 2019 and 2022, and all for English-language editions**, plus induction into the Eisner Hall of Fame in 2025 and an Inkpot Award 2023. **He holds no Japanese manga industry award of any kind** — no Shogakukan, no Kodansha, no Tezuka Osamu Cultural Prize — and the 1987 prize often credited to him was an honourable mention. Uzumaki was Eisner-nominated in 2003 and 2009 and won neither. He worked for more than thirty years before his first Eisner, so no framing should imply decades of anglophone recognition.",
    "knownFor": "Uzumaki, which takes a single geometric shape and treats it as contagious until it has propagated through hair, pottery, bodies and finally a town's architecture.",
@@ -13076,8 +13091,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-121",
@@ -13117,8 +13132,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-122",
@@ -13161,8 +13176,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-123",
@@ -13204,8 +13219,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-124",
@@ -13218,7 +13233,7 @@
    "signature": "Mythic register carried in plain conversational sentences, with the rules of the other world stated as domestic fact.",
    "works": [
     {
-     "title": "The Sandman",
+     "title": "The Sandman (1989 comic)",
      "year": "1989",
      "start": true
     },
@@ -13246,8 +13261,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-125",
@@ -13286,8 +13301,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-126",
@@ -13329,8 +13344,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-127",
@@ -13370,8 +13385,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-128",
@@ -13416,8 +13431,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-129",
@@ -13463,8 +13478,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-130",
@@ -13510,8 +13525,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-131",
@@ -13557,8 +13572,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-132",
@@ -13604,8 +13619,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-133",
@@ -13651,8 +13666,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-134",
@@ -13683,8 +13698,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-135",
@@ -13722,8 +13737,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-136",
@@ -13762,8 +13777,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-137",
@@ -13804,8 +13819,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-138",
@@ -13846,8 +13861,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-139",
@@ -13890,8 +13905,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "author-140",
@@ -13933,8 +13948,8 @@
    ],
    "_label": "Authors",
    "_badge": "Author",
-   "_bg": "#2a1a2a",
-   "_fg": "#c89ac8"
+   "_bg": "#33291a",
+   "_fg": "#d8bd8a"
   },
   {
    "id": "work-1",
@@ -13949,8 +13964,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-2",
@@ -13965,8 +13980,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-3",
@@ -13981,8 +13996,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-4",
@@ -13997,8 +14012,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-5",
@@ -14013,8 +14028,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-6",
@@ -14029,8 +14044,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-7",
@@ -14045,8 +14060,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-8",
@@ -14061,8 +14076,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-9",
@@ -14077,8 +14092,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-10",
@@ -14093,8 +14108,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-11",
@@ -14109,8 +14124,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-12",
@@ -14125,8 +14140,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-13",
@@ -14141,8 +14156,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-14",
@@ -14157,8 +14172,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-15",
@@ -14173,8 +14188,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-16",
@@ -14189,8 +14204,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-17",
@@ -14205,8 +14220,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-18",
@@ -14221,8 +14236,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-19",
@@ -14237,8 +14252,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-20",
@@ -14253,8 +14268,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-21",
@@ -14269,8 +14284,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-22",
@@ -14285,8 +14300,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-23",
@@ -14301,8 +14316,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-24",
@@ -14317,8 +14332,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-25",
@@ -14333,8 +14348,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-26",
@@ -14349,8 +14364,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-27",
@@ -14365,8 +14380,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-28",
@@ -14381,8 +14396,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-29",
@@ -14397,8 +14412,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-30",
@@ -14413,8 +14428,8 @@
    "medium": "nonfiction",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-31",
@@ -14429,8 +14444,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-32",
@@ -14445,8 +14460,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-33",
@@ -14461,8 +14476,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-34",
@@ -14477,8 +14492,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-35",
@@ -14493,8 +14508,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-36",
@@ -14509,8 +14524,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-37",
@@ -14525,8 +14540,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-38",
@@ -14541,8 +14556,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-39",
@@ -14557,8 +14572,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-40",
@@ -14573,8 +14588,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-41",
@@ -14589,8 +14604,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-42",
@@ -14605,8 +14620,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-43",
@@ -14621,8 +14636,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-44",
@@ -14637,8 +14652,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-45",
@@ -14646,15 +14661,15 @@
    "category": "Mid-Century",
    "name": "The Body Snatchers",
    "author": "Jack Finney",
-   "year": "1954",
+   "year": "1955",
    "awards": "None — the category did not exist",
    "description": "Serialised in Collier's across three issues in late 1954, with the Dell paperback the following year. **The title is The Body Snatchers**; \"Invasion…",
    "text": "Serialised in Collier's across three issues in late 1954, with the Dell paperback the following year. **The title is The Body Snatchers**; \"Invasion of\" is the 1956 film's title, retro-applied to later reissues, and citing a 1955 \"Invasion of the Body Snatchers\" gets both the name and the date wrong. The premise is the purest form of the replacement horror: the people are unchanged in every observable respect and something is nevertheless gone, which makes detection a matter of intimacy rather than evidence. The persistent reading as McCarthyism allegory is reception history — neither Finney nor the film's makers reported intending one — and the novel is more disturbing read as being about nothing but the loss itself.",
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-46",
@@ -14669,8 +14684,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-47",
@@ -14685,8 +14700,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-48",
@@ -14701,8 +14716,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-49",
@@ -14717,8 +14732,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-50",
@@ -14733,8 +14748,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-51",
@@ -14749,8 +14764,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-52",
@@ -14765,8 +14780,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-53",
@@ -14781,8 +14796,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-54",
@@ -14797,8 +14812,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-55",
@@ -14813,8 +14828,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-56",
@@ -14829,8 +14844,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-57",
@@ -14845,8 +14860,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-58",
@@ -14855,14 +14870,14 @@
    "name": "The Rats",
    "author": "James Herbert",
    "year": "1974",
-   "awards": "None",
+   "awards": "[no award research performed — retroactive audit 2026-08-27]",
    "description": "The British counter-tradition, and the cleanest demonstration in the collection that a novel can succeed commercially while being critically despised.…",
    "text": "The British counter-tradition, and the cleanest demonstration in the collection that a novel can succeed commercially while being critically despised. Herbert — an advertising art director whose wife typed the manuscript and who was turned down by nine publishers — writes East End London with specificity and then eats it, in set-piece deaths given to characters introduced pages earlier for that purpose. The technique is the vignette structure, later standard in creature horror: a named stranger, a paragraph of ordinary life, an attack. Its first printing of 100,000 sold out in three weeks. Two cautions for use: it was notorious for hostile reviews, not acclaim, and retrospectives that read the sales as critical success invert the record; and Herbert's much-quoted fifty-four-million lifetime sales figure is career-wide, not this book's.",
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-59",
@@ -14871,14 +14886,14 @@
    "name": "Carrie",
    "author": "Stephen King",
    "year": "1974",
-   "awards": "None",
+   "awards": "[no award research performed — retroactive audit 2026-08-27]",
    "description": "The short, structurally inventive book that funded everything after it. Its epistolary apparatus — commission testimony, a book-length academic study,…",
    "text": "The short, structurally inventive book that funded everything after it. Its epistolary apparatus — commission testimony, a book-length academic study, news reports — surrounds the narrative with the aftermath, so the reader knows from early on that the town burns and reads the middle as a countdown rather than a mystery, which is a documented-fragment technique the genre had not used at this pitch since Stoker. The commercial facts are the reason it belongs here: a $2,500 Doubleday advance, a first printing of 30,000, hardcover sales of roughly thirteen to seventeen thousand copies — and then $400,000 for the mass-market rights from NAL, of which King's half was $200,000. Careful phrasing is required on one point: this is King's first **published** novel, not his first written. *The Long Walk* was begun in 1966–67 and appeared in 1979 under the Bachman name.",
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-60",
@@ -14893,8 +14908,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-61",
@@ -14909,8 +14924,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-62",
@@ -14925,8 +14940,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-63",
@@ -14935,14 +14950,14 @@
    "name": "The Amityville Horror: A True Story",
    "author": "Jay Anson",
    "year": "1977",
-   "awards": "None",
+   "awards": "[no award research performed — retroactive audit 2026-08-27]",
    "description": "The subtitle is the fact the card leads with, because the book's entire mechanism is the nonfiction claim. Around ten million copies sold on the…",
    "text": "The subtitle is the fact the card leads with, because the book's entire mechanism is the nonfiction claim. Around ten million copies sold on the proposition that a family fled a house in twenty-eight days. What is established: on 13 November 1974 Ronald \"Butch\" DeFeo Jr. shot six members of his family at 112 Ocean Avenue — his parents and four siblings, aged nine to eighteen — and was convicted in November 1975 of six counts of second-degree murder. Everything after that is claim. George and Kathy Lutz moved in on 18 December 1975 and left twenty-eight days later. William Weber, who had been DeFeo's defence attorney and not the Lutzes' lawyer, told *People* in September 1979: \"I know this book is a hoax. We created this horror story over many bottles of wine.\" That same month Judge Jack B. Weinstein dismissed the Lutzes' $4.5 million suit, finding that \"to a large extent the book is a work of fiction, relying in a large part upon the suggestions of Mr. Weber.\" Anson worked from dozens of hours of Lutz tape and never vouched for it himself: \"I have no idea whether the book is true or not.\" For a writer this is the genre's central case study in the truth claim as a device — and in what it costs the people whose real deaths are the raw material.",
    "medium": "nonfiction",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-64",
@@ -14957,8 +14972,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-65",
@@ -14973,8 +14988,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-66",
@@ -14989,8 +15004,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-67",
@@ -15005,8 +15020,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-68",
@@ -15021,8 +15036,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-69",
@@ -15037,8 +15052,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-70",
@@ -15053,8 +15068,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-71",
@@ -15069,8 +15084,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-72",
@@ -15085,8 +15100,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-73",
@@ -15101,8 +15116,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-74",
@@ -15117,8 +15132,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-75",
@@ -15133,8 +15148,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-76",
@@ -15149,8 +15164,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-77",
@@ -15165,8 +15180,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-78",
@@ -15181,8 +15196,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-79",
@@ -15197,8 +15212,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-80",
@@ -15213,8 +15228,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-81",
@@ -15229,8 +15244,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-82",
@@ -15245,8 +15260,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-83",
@@ -15261,8 +15276,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-84",
@@ -15277,8 +15292,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-85",
@@ -15293,8 +15308,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-86",
@@ -15309,8 +15324,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-87",
@@ -15325,8 +15340,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-88",
@@ -15341,8 +15356,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-89",
@@ -15357,8 +15372,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-90",
@@ -15373,8 +15388,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-91",
@@ -15389,8 +15404,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-92",
@@ -15405,8 +15420,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-93",
@@ -15421,8 +15436,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-94",
@@ -15437,8 +15452,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-95",
@@ -15453,8 +15468,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-96",
@@ -15469,8 +15484,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-97",
@@ -15485,8 +15500,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-98",
@@ -15501,8 +15516,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-99",
@@ -15517,8 +15532,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-100",
@@ -15533,8 +15548,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-101",
@@ -15549,8 +15564,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-102",
@@ -15565,8 +15580,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-103",
@@ -15581,8 +15596,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-104",
@@ -15597,8 +15612,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-105",
@@ -15613,8 +15628,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-106",
@@ -15629,8 +15644,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-107",
@@ -15645,8 +15660,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-108",
@@ -15661,8 +15676,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-109",
@@ -15677,8 +15692,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-110",
@@ -15693,8 +15708,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-111",
@@ -15709,8 +15724,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-112",
@@ -15725,8 +15740,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-113",
@@ -15741,8 +15756,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-114",
@@ -15757,8 +15772,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-115",
@@ -15773,8 +15788,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-116",
@@ -15789,8 +15804,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-117",
@@ -15805,8 +15820,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-118",
@@ -15821,8 +15836,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-119",
@@ -15837,8 +15852,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-120",
@@ -15853,8 +15868,8 @@
    "medium": "novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-121",
@@ -15869,8 +15884,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-122",
@@ -15885,8 +15900,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-123",
@@ -15901,8 +15916,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-124",
@@ -15917,8 +15932,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-125",
@@ -15927,14 +15942,14 @@
    "name": "Cat People",
    "author": "Jacques Tourneur",
    "year": "1942",
-   "awards": "None",
+   "awards": "[no award research performed — retroactive audit 2026-08-27]",
    "description": "The film that proved a horror picture could be made for almost nothing by refusing to show anything, and the entire suggestion-based tradition is…",
    "text": "The film that proved a horror picture could be made for almost nothing by refusing to show anything, and the entire suggestion-based tradition is downstream of it. Produced by **Val Lewton — who produced and did not direct**, a distinction this pack enforces everywhere — and written by DeWitt Bodeen, it withholds its transformation completely and generates its two most famous sequences out of a swimming pool and a walk beside a park wall. The second of those gave the industry the term **\"Lewton bus,\"** for a shock resolved into a mundane source: the hiss the audience takes for a big cat is a bus's air brakes. RKO's own figures show it in solid profit; the \"it saved the studio\" claim rests on a much larger estimate and should be treated as folklore. National Film Registry, 1993.",
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-126",
@@ -15949,8 +15964,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-127",
@@ -15959,14 +15974,14 @@
    "name": "Peeping Tom",
    "author": "Michael Powell",
    "year": "1960",
-   "awards": "None",
+   "awards": "[no award research performed — retroactive audit 2026-08-27]",
    "description": "A focus-puller murders women with a blade mounted on his camera's tripod and films their faces as they die, so that the audience watches through his…",
    "text": "A focus-puller murders women with a blade mounted on his camera's tripod and films their faces as they die, so that the audience watches through his viewfinder and is implicated in the apparatus. Released the same year as *Psycho* and destroyed by the reviews where Hitchcock's film was celebrated, it is the more radical work: it identifies the camera itself as the instrument of violence and offers no detective, no explanation the film endorses, and no comfortable distance. Written by **Leo Marks**, a wartime cryptographer, and scored by Brian Easdale. One myth to retire: Powell's career was **not** ended overnight and the film was not permanently withdrawn — it played nationally, was re-released in 1961–62, and Powell went on to make *The Queen's Guards*, *They're a Weird Mob* and *Age of Consent*. What he lost was Rank and Korda backing. Being British, it is ineligible for the National Film Registry.",
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-128",
@@ -15981,8 +15996,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-129",
@@ -15991,14 +16006,14 @@
    "name": "Night of the Living Dead",
    "author": "George A. Romero",
    "year": "1968",
-   "awards": "None",
+   "awards": "[no award research performed — retroactive audit 2026-08-27]",
    "description": "The film that invented the modern zombie without once using the word, and the most influential independent horror production ever made. Romero…",
    "text": "The film that invented the modern zombie without once using the word, and the most influential independent horror production ever made. Romero directed, shot and co-wrote it with **John A. Russo**; the producers were Russell Streiner and Karl Hardman. Its rules — reanimation, the bite as vector, destruction of the brain, the siege in a farmhouse, the group that destroys itself faster than the dead can — became a genre grammar within a decade. Duane Jones's casting as the competent, surviving Black lead in 1968, and the ending in which he is shot by a posse and disposed of with meathooks, is the reason the film has never stopped being read politically, whatever Romero said about the casting being colour-blind. The copyright fact, which is constantly garbled: this was **not** a lapsed renewal. Distributor Walter Reade changed the title from *Night of the Flesh Eaters* and physically removed the copyright notice, which under the 1909 Act forfeited copyright **on release in 1968**. National Film Registry, 1999.",
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-130",
@@ -16013,8 +16028,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-131",
@@ -16029,8 +16044,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-132",
@@ -16039,14 +16054,14 @@
    "name": "Suspiria",
    "author": "Dario Argento",
    "year": "1977",
-   "awards": "None",
+   "awards": "[no award research performed — retroactive audit 2026-08-27]",
    "description": "The most purely aesthetic horror film in the canon, in which plot is subordinated to colour and sound so completely that the narrative can be described…",
    "text": "The most purely aesthetic horror film in the canon, in which plot is subordinated to colour and sound so completely that the narrative can be described in three sentences and the experience cannot be described at all. An American ballet student arrives at a German dance academy run by a coven, and Argento lights the interiors in saturated primary reds, greens and blues achieved through coloured gels and printing, giving the film a chromatic intensity that later stocks and processes could not reproduce. The score is by the band credited on screen as **\"The Goblins,\" with Argento himself co-credited** — a fact routinely dropped — and it is mixed at a level that makes it an aggressor rather than an accompaniment. For a writer the transferable point is that atmosphere can carry a film with a nearly vestigial plot, and that this is a trade, not a free gain.",
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-133",
@@ -16061,8 +16076,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-134",
@@ -16077,8 +16092,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-135",
@@ -16093,8 +16108,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-136",
@@ -16109,8 +16124,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-137",
@@ -16125,8 +16140,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-138",
@@ -16141,8 +16156,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-139",
@@ -16157,8 +16172,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-140",
@@ -16173,8 +16188,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-141",
@@ -16189,8 +16204,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-142",
@@ -16205,8 +16220,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-143",
@@ -16221,8 +16236,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-144",
@@ -16237,8 +16252,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-145",
@@ -16253,8 +16268,8 @@
    "medium": "film",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-146",
@@ -16269,8 +16284,8 @@
    "medium": "tv",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-147",
@@ -16285,8 +16300,8 @@
    "medium": "tv",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-148",
@@ -16301,8 +16316,8 @@
    "medium": "tv",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-149",
@@ -16317,8 +16332,8 @@
    "medium": "tv",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-150",
@@ -16333,14 +16348,14 @@
    "medium": "tv",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-151",
    "kind": "work",
    "category": "Television",
-   "name": "Hannibal",
+   "name": "Hannibal (2013 tv)",
    "author": "Bryan Fuller",
    "year": "2013",
    "awards": "None — one Primetime Emmy nomination, for Special Visual Effects in 2016, and no wins",
@@ -16349,8 +16364,8 @@
    "medium": "tv",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-152",
@@ -16365,8 +16380,8 @@
    "medium": "tv",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-153",
@@ -16381,8 +16396,8 @@
    "medium": "tv",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-154",
@@ -16397,8 +16412,8 @@
    "medium": "comic",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-155",
@@ -16413,8 +16428,8 @@
    "medium": "comic",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-156",
@@ -16429,8 +16444,8 @@
    "medium": "comic",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-157",
@@ -16445,15 +16460,15 @@
    "medium": "comic",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-158",
    "kind": "work",
    "category": "Comics & Manga",
    "name": "Uzumaki",
-   "author": "Junji Ito",
+   "author": "Junji Itō",
    "year": "1998",
    "awards": "None — Eisner Award nominations in 2003 and 2009, no wins",
    "description": "A town becomes obsessed with the spiral, and the premise's absurdity is precisely what makes it the most instructive horror manga in the pack: Ito…",
@@ -16461,8 +16476,8 @@
    "medium": "manga",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-159",
@@ -16477,8 +16492,8 @@
    "medium": "comic",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-160",
@@ -16493,8 +16508,8 @@
    "medium": "graphic-novel",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-161",
@@ -16509,8 +16524,8 @@
    "medium": "game",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-162",
@@ -16525,8 +16540,8 @@
    "medium": "game",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-163",
@@ -16541,8 +16556,8 @@
    "medium": "game",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-164",
@@ -16557,8 +16572,8 @@
    "medium": "game",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-165",
@@ -16573,8 +16588,8 @@
    "medium": "game",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-166",
@@ -16589,8 +16604,8 @@
    "medium": "game",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-167",
@@ -16605,8 +16620,8 @@
    "medium": "game",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-168",
@@ -16615,14 +16630,14 @@
    "name": "P.T.",
    "author": "7780s Studio",
    "year": "2014",
-   "awards": "None",
+   "awards": "[no award research performed — retroactive audit 2026-08-27]",
    "description": "A free playable teaser released without announcement on the PlayStation Store, released under the pseudonymous studio name **7780s Studio** and…",
    "text": "A free playable teaser released without announcement on the PlayStation Store, released under the pseudonymous studio name **7780s Studio** and published by Konami, revealed on completion to be a trailer for a *Silent Hill* game by Hideo Kojima and Guillermo del Toro that was subsequently cancelled. It is the most influential horror game of its decade despite being roughly an hour long and no longer purchasable — delisted in 2015 and playable only on consoles where it was already installed. The design is a single L-shaped corridor that loops, changing in small increments each time: a photograph alters, a door is ajar, a radio says something new, a figure is present in a bathroom that was empty. That is the entire game, and it demonstrates that repetition with variation is a more reliable horror engine than novelty. Its unavailability is now part of its meaning, and the preservation problem it represents is worth stating on any card that recommends it.",
    "medium": "game",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-169",
@@ -16637,8 +16652,8 @@
    "medium": "game",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   },
   {
    "id": "work-170",
@@ -16653,8 +16668,8 @@
    "medium": "game",
    "_label": "Works",
    "_badge": "Work",
-   "_bg": "#1a2028",
-   "_fg": "#90aec0"
+   "_bg": "#1a2e33",
+   "_fg": "#8ac8d8"
   }
  ]
 }

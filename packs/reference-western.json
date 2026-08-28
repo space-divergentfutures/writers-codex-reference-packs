@@ -1,9 +1,9 @@
 {
  "id": "western-reference",
  "name": "Western",
- "packVersion": "1.0.0",
+ "packVersion": "1.0.1",
  "schemaVersion": 2,
- "lastUpdated": "2026-08-22",
+ "lastUpdated": "2026-08-27",
  "minAppVersion": "0.1.0",
  "collections": [
   {
@@ -6810,7 +6810,7 @@
    "signature": "Landscape shot as an actor, a doorway used as the frame's moral statement, and communities whose rituals carry more weight than their plots.",
    "works": [
     {
-     "title": "The Searchers",
+     "title": "The Searchers (1956 film)",
      "year": "1956",
      "note": "competence and hatred made inseparable, seven years before the revision is supposed to begin",
      "start": true
@@ -6821,7 +6821,7 @@
      "note": "the year the A-western returned, and the template for two decades"
     },
     {
-     "title": "The Man Who Shot Liberty Valance",
+     "title": "The Man Who Shot Liberty Valance (1962 film)",
      "year": "1962",
      "note": "the printed legend, staged as an editorial decision"
     },
@@ -6997,7 +6997,7 @@
    "signature": "Deliberate pacing, violence staged so that a single gunshot is shocking, and a child's sightline used as the film's moral instrument.",
    "works": [
     {
-     "title": "Shane",
+     "title": "Shane (1953 film)",
      "year": "1953",
      "note": "the range war as a title dispute, seen from a boy's height",
      "start": true
@@ -7024,7 +7024,7 @@
    "signature": "Short, cold films with no rescue, and a refusal to let the audience locate a figure who could have prevented the outcome.",
    "works": [
     {
-     "title": "The Ox-Bow Incident",
+     "title": "The Ox-Bow Incident (1943 film)",
      "year": "1943",
      "note": "the lynching, and the letter read aloud afterwards",
      "start": true
@@ -7088,7 +7088,7 @@
    "signature": "Tonal alternation used structurally, a frame narrator whose testimony is contested, and violence that arrives as rupture rather than as climax.",
    "works": [
     {
-     "title": "Little Big Man",
+     "title": "Little Big Man (1970 film)",
      "year": "1970",
      "note": "the Washita staged against a contemporary war, from Berger's novel",
      "start": true
@@ -7624,7 +7624,7 @@
    "signature": "Ensembles established at speed, ritual scenes given more weight than plot, and dialogue that leaves the protagonist's central motive unstated.",
    "works": [
     {
-     "title": "The Searchers",
+     "title": "The Searchers (1956 film)",
      "year": "1956",
      "note": "the screenplay that withholds what the novel states",
      "start": true
@@ -12153,7 +12153,7 @@
    "id": "work-132",
    "kind": "work",
    "category": "The Australian Western",
-   "name": "Mystery Road",
+   "name": "Mystery Road (2018 tv)",
    "author": "Rachel Perkins",
    "year": "2018",
    "awards": "Won four AACTA Awards for its first series, including Best Television Drama Series.",
@@ -12345,7 +12345,7 @@
    "id": "work-144",
    "kind": "work",
    "category": "The Ostern and the German West",
-   "name": "Die Söhne der großen Bärin",
+   "name": "Die Söhne der großen Bärin (1966 film)",
    "author": "dir. Josef Mach",
    "year": "1966",
    "awards": "None (verified negative).",

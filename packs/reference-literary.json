@@ -1,9 +1,9 @@
 {
  "id": "literary-reference",
  "name": "Literary Fiction",
- "packVersion": "1.1.0",
+ "packVersion": "1.1.1",
  "schemaVersion": 2,
- "lastUpdated": "2026-08-22",
+ "lastUpdated": "2026-08-27",
  "minAppVersion": "0.1.0",
  "collections": [
   {
@@ -4574,7 +4574,7 @@
    "category": "Empathy and Other Minds",
    "name": "Does Fiction Make Us More Empathetic?",
    "description": "The most cited claim for literature's value, and the most contested.",
-   "principle": "The popular claim that reading literary fiction improves empathy or theory of mind rests heavily on Kidd and Castano's 2013 Science study, which reported short-term gains — but multiple pre-registered replications (notably Panero et al. 2016 and later work) failed to reproduce the effect, and the literature remains genuinely contested. Correlational findings (lifetime fiction reading and social ability, Mar) exist but cannot establish direction. State the case as open, not settled.",
+   "principle": "The popular claim that reading literary fiction improves empathy or theory of mind rests heavily on Kidd and Castano's 2013 Science study, which reported short-term gains — but multiple pre-registered replications (notably Panero et al. 2016 and later work) failed to reproduce the effect, and the literature remains genuinely contested. Correlational findings (lifetime fiction reading and social ability, Mar) exist but cannot establish direction. State the case as open, not settled (robustness: the 2013 finding unreplicated; the broader claim contested).",
    "example": "Kidd and Castano (2013) versus the Panero et al. (2016) replication attempt is the standard citation pair for teaching how a seductive finding met the replication crisis.",
    "application": "Do not defend literary fiction on the ground that it proves-to-make readers kinder; the evidence will not bear the weight, and the aesthetic and moral case does not need it.",
    "_label": "Psychology of the Literary Imagination",
@@ -8261,7 +8261,7 @@
     {
      "title": "Emma",
      "year": "1815",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Pride and Prejudice",
@@ -8290,8 +8290,8 @@
    "works": [
     {
      "title": "Middlemarch",
-     "year": "1871",
-     "note": "| start"
+     "year": "1872",
+     "start": true
     },
     {
      "title": "Daniel Deronda",
@@ -8319,8 +8319,8 @@
    "works": [
     {
      "title": "Bleak House",
-     "year": "1852",
-     "note": "| start"
+     "year": "1853",
+     "start": true
     },
     {
      "title": "Great Expectations",
@@ -8349,7 +8349,7 @@
     {
      "title": "Madame Bovary",
      "year": "1856",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Sentimental Education",
@@ -8379,7 +8379,7 @@
     {
      "title": "Anna Karenina",
      "year": "1877",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "War and Peace",
@@ -8409,7 +8409,7 @@
     {
      "title": "Crime and Punishment",
      "year": "1866",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Brothers Karamazov",
@@ -8470,7 +8470,7 @@
     {
      "title": "Moby-Dick",
      "year": "1851",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Bartleby, the Scrivener",
@@ -8501,7 +8501,7 @@
     {
      "title": "The Portrait of a Lady",
      "year": "1881",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Ambassadors",
@@ -8531,7 +8531,7 @@
     {
      "title": "Tess of the d'Urbervilles",
      "year": "1891",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Jude the Obscure",
@@ -8560,7 +8560,7 @@
     {
      "title": "Fathers and Sons",
      "year": "1862",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "A Sportsman's Sketches",
@@ -8590,7 +8590,7 @@
     {
      "title": "Dead Souls",
      "year": "1842",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Overcoat",
@@ -8621,7 +8621,7 @@
     {
      "title": "Père Goriot",
      "year": "1835",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Lost Illusions",
@@ -8650,7 +8650,7 @@
     {
      "title": "The Red and the Black",
      "year": "1830",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Charterhouse of Parma",
@@ -8680,7 +8680,7 @@
     {
      "title": "The Posthumous Memoirs of Brás Cubas",
      "year": "1881",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Dom Casmurro",
@@ -8770,7 +8770,7 @@
     {
      "title": "Ulysses",
      "year": "1922",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Dubliners",
@@ -8800,7 +8800,7 @@
     {
      "title": "Mrs Dalloway",
      "year": "1925",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "To the Lighthouse",
@@ -8861,7 +8861,7 @@
     {
      "title": "The Magic Mountain",
      "year": "1924",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Buddenbrooks",
@@ -8952,7 +8952,7 @@
     {
      "title": "The Sound and the Fury",
      "year": "1929",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Absalom, Absalom!",
@@ -9011,7 +9011,7 @@
     {
      "title": "The Great Gatsby",
      "year": "1925",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Tender Is the Night",
@@ -9040,7 +9040,7 @@
     {
      "title": "Sons and Lovers",
      "year": "1913",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Women in Love",
@@ -9069,7 +9069,7 @@
     {
      "title": "Howards End",
      "year": "1910",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "A Passage to India",
@@ -9098,7 +9098,7 @@
     {
      "title": "The Counterfeiters",
      "year": "1925",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Immoralist",
@@ -9129,7 +9129,7 @@
     {
      "title": "Zeno's Conscience",
      "year": "1923",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "As a Man Grows Older",
@@ -9221,7 +9221,7 @@
     {
      "title": "Hunger",
      "year": "1890",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Growth of the Soil",
@@ -9250,7 +9250,7 @@
     {
      "title": "Herzog",
      "year": "1964",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Adventures of Augie March",
@@ -9279,7 +9279,7 @@
     {
      "title": "Lolita",
      "year": "1955",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Pale Fire",
@@ -9338,7 +9338,7 @@
     {
      "title": "The Heart Is a Lonely Hunter",
      "year": "1940",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Member of the Wedding",
@@ -9368,7 +9368,7 @@
     {
      "title": "Invisible Man",
      "year": "1952",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Juneteenth",
@@ -9399,7 +9399,7 @@
     {
      "title": "Go Tell It on the Mountain",
      "year": "1953",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Giovanni's Room",
@@ -9459,7 +9459,7 @@
     {
      "title": "The Grapes of Wrath",
      "year": "1939",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Of Mice and Men",
@@ -9489,7 +9489,7 @@
     {
      "title": "The Catcher in the Rye",
      "year": "1951",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Nine Stories",
@@ -9549,7 +9549,7 @@
     {
      "title": "The Stranger",
      "year": "1942",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Plague",
@@ -9579,7 +9579,7 @@
     {
      "title": "Nausea",
      "year": "1938",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Roads to Freedom",
@@ -9610,7 +9610,7 @@
     {
      "title": "Molloy",
      "year": "1951",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Malone Dies",
@@ -9639,7 +9639,7 @@
     {
      "title": "The Lover",
      "year": "1984",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Ravishing of Lol Stein",
@@ -9668,7 +9668,7 @@
     {
      "title": "Jealousy",
      "year": "1957",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Erasers",
@@ -9697,7 +9697,7 @@
     {
      "title": "Life A User's Manual",
      "year": "1978",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "W, or the Memory of Childhood",
@@ -9726,7 +9726,7 @@
     {
      "title": "Invisible Cities",
      "year": "1972",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "If on a winter's night a traveler",
@@ -9756,7 +9756,7 @@
     {
      "title": "If This Is a Man",
      "year": "1947",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Periodic Table",
@@ -9786,7 +9786,7 @@
     {
      "title": "The Tin Drum",
      "year": "1959",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Cat and Mouse",
@@ -9816,7 +9816,7 @@
     {
      "title": "The Rings of Saturn",
      "year": "1995",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Austerlitz",
@@ -9845,7 +9845,7 @@
     {
      "title": "The Loser",
      "year": "1983",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Woodcutters",
@@ -9874,7 +9874,7 @@
     {
      "title": "The Unbearable Lightness of Being",
      "year": "1984",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Book of Laughter and Forgetting",
@@ -9903,7 +9903,7 @@
     {
      "title": "Ferdydurke",
      "year": "1937",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Cosmos",
@@ -9933,7 +9933,7 @@
     {
      "title": "Blindness",
      "year": "1995",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Baltasar and Blimunda",
@@ -9962,7 +9962,7 @@
     {
      "title": "Independent People",
      "year": "1934",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Iceland's Bell",
@@ -9991,7 +9991,7 @@
     {
      "title": "The Palace of Dreams",
      "year": "1981",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The General of the Dead Army",
@@ -10020,7 +10020,7 @@
     {
      "title": "Fatelessness",
      "year": "1975",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Kaddish for an Unborn Child",
@@ -10049,7 +10049,7 @@
     {
      "title": "One Hundred Years of Solitude",
      "year": "1967",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Love in the Time of Cholera",
@@ -10079,7 +10079,7 @@
     {
      "title": "Conversation in the Cathedral",
      "year": "1969",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Feast of the Goat",
@@ -10108,7 +10108,7 @@
     {
      "title": "Hopscotch",
      "year": "1963",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Blow-Up and Other Stories",
@@ -10171,7 +10171,7 @@
     {
      "title": "The Death of Artemio Cruz",
      "year": "1962",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Terra Nostra",
@@ -10201,7 +10201,7 @@
     {
      "title": "Pedro Páramo",
      "year": "1955",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Burning Plain",
@@ -10232,7 +10232,7 @@
     {
      "title": "The Passion According to G.H.",
      "year": "1964",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Hour of the Star",
@@ -10263,7 +10263,7 @@
     {
      "title": "The Devil to Pay in the Backlands",
      "year": "1956",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Sagarana",
@@ -10325,7 +10325,7 @@
     {
      "title": "The House of the Spirits",
      "year": "1982",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Of Love and Shadows",
@@ -10354,7 +10354,7 @@
     {
      "title": "The Kingdom of This World",
      "year": "1949",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Lost Steps",
@@ -10383,7 +10383,7 @@
     {
      "title": "Things Fall Apart",
      "year": "1958",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Arrow of God",
@@ -10412,7 +10412,7 @@
     {
      "title": "Petals of Blood",
      "year": "1977",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "A Grain of Wheat",
@@ -10441,7 +10441,7 @@
     {
      "title": "The Interpreters",
      "year": "1965",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Aké: The Years of Childhood",
@@ -10471,7 +10471,7 @@
     {
      "title": "Burger's Daughter",
      "year": "1979",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "July's People",
@@ -10500,7 +10500,7 @@
     {
      "title": "Disgrace",
      "year": "1999",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Waiting for the Barbarians",
@@ -10559,7 +10559,7 @@
     {
      "title": "Season of Migration to the North",
      "year": "1966",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Wedding of Zein",
@@ -10589,7 +10589,7 @@
     {
      "title": "The Committee",
      "year": "1981",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "That Smell",
@@ -10619,7 +10619,7 @@
     {
      "title": "Gate of the Sun",
      "year": "1998",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Yalo",
@@ -10648,7 +10648,7 @@
     {
      "title": "Fantasia: An Algerian Cavalcade",
      "year": "1985",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "So Vast the Prison",
@@ -10678,7 +10678,7 @@
     {
      "title": "The Guide",
      "year": "1958",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Swami and Friends",
@@ -10708,7 +10708,7 @@
     {
      "title": "Midnight's Children",
      "year": "1981",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Satanic Verses",
@@ -10737,7 +10737,7 @@
     {
      "title": "A House for Mr Biswas",
      "year": "1961",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "A Bend in the River",
@@ -10766,7 +10766,7 @@
     {
      "title": "Clear Light of Day",
      "year": "1980",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "In Custody",
@@ -10796,7 +10796,7 @@
     {
      "title": "Segu",
      "year": "1984",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "I, Tituba, Black Witch of Salem",
@@ -10825,7 +10825,7 @@
     {
      "title": "Paradise",
      "year": "1994",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "By the Sea",
@@ -10854,7 +10854,7 @@
     {
      "title": "Half of a Yellow Sun",
      "year": "2006",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Americanah",
@@ -10883,7 +10883,7 @@
     {
      "title": "Maps",
      "year": "1986",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Sweet and Sour Milk",
@@ -11164,7 +11164,7 @@
     {
      "title": "The Story of Lucy Gault",
      "year": "2002",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Cheating at Canasta",
@@ -11288,7 +11288,7 @@
     {
      "title": "Beloved",
      "year": "1987",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Song of Solomon",
@@ -11317,7 +11317,7 @@
     {
      "title": "Blood Meridian",
      "year": "1985",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Road",
@@ -11346,7 +11346,7 @@
     {
      "title": "White Noise",
      "year": "1985",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Underworld",
@@ -11375,7 +11375,7 @@
     {
      "title": "Gravity's Rainbow",
      "year": "1973",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Crying of Lot 49",
@@ -11405,7 +11405,7 @@
     {
      "title": "Gilead",
      "year": "2004",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Housekeeping",
@@ -11434,7 +11434,7 @@
     {
      "title": "Love Medicine",
      "year": "1984",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Round House",
@@ -11463,7 +11463,7 @@
     {
      "title": "The Underground Railroad",
      "year": "2016",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Nickel Boys",
@@ -11492,7 +11492,7 @@
     {
      "title": "The Handmaid's Tale",
      "year": "1985",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Cat's Eye",
@@ -11521,7 +11521,7 @@
     {
      "title": "The English Patient",
      "year": "1992",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "In the Skin of a Lion",
@@ -11550,7 +11550,7 @@
     {
      "title": "Atonement",
      "year": "2001",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Saturday",
@@ -11579,7 +11579,7 @@
     {
      "title": "The Remains of the Day",
      "year": "1989",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Never Let Me Go",
@@ -11608,7 +11608,7 @@
     {
      "title": "White Teeth",
      "year": "2000",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "NW",
@@ -11637,7 +11637,7 @@
     {
      "title": "Wolf Hall",
      "year": "2009",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Bring Up the Bodies",
@@ -11666,7 +11666,7 @@
     {
      "title": "Brooklyn",
      "year": "2009",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Master",
@@ -11695,7 +11695,7 @@
     {
      "title": "The Golden Notebook",
      "year": "1962",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Grass Is Singing",
@@ -11724,7 +11724,7 @@
     {
      "title": "The Sea, the Sea",
      "year": "1978",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Bell",
@@ -11753,7 +11753,7 @@
     {
      "title": "The Country Girls",
      "year": "1960",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Little Red Chairs",
@@ -11782,7 +11782,7 @@
     {
      "title": "The Years",
      "year": "2008",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "A Man's Place",
@@ -11813,7 +11813,7 @@
     {
      "title": "Missing Person",
      "year": "1978",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Dora Bruder",
@@ -11842,7 +11842,7 @@
     {
      "title": "Flights",
      "year": "2007",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Books of Jacob",
@@ -11871,7 +11871,7 @@
     {
      "title": "The Vegetarian",
      "year": "2007",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Human Acts",
@@ -11991,7 +11991,7 @@
     {
      "title": "My Name Is Red",
      "year": "1998",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "Snow",
@@ -12050,7 +12050,7 @@
     {
      "title": "Snow Country",
      "year": "1937",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Sound of the Mountain",
@@ -12079,7 +12079,7 @@
     {
      "title": "The Temple of the Golden Pavilion",
      "year": "1956",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Sea of Fertility",
@@ -12109,7 +12109,7 @@
     {
      "title": "A Personal Matter",
      "year": "1964",
-     "note": "| start"
+     "start": true
     },
     {
      "title": "The Silent Cry",
