@@ -1,4 +1,4 @@
-# Reference Pack Build Playbook v2.0
+# Reference Pack Build Playbook v2.1
 
 **This file supersedes `claude/pack-build-playbook-v1.md` (v1.9) in the claude.ai project.
 That version was written at pack four and describes a process four packs out of date. Where
@@ -9,6 +9,8 @@ five things v1.9 got actively wrong (routing, `medium`, the assembly screen coun
 guard count, and Historical's specialist name), folds in everything Romance, Historical,
 Literary, War and Comedy learned, and hands the accumulated-change problem to the new
 `CHANGE-LEDGER.md`.
+
+**v2.1, 2026-08-29 — the model-routing revision.** Adds one section, *Model routing and the claims audit*, which is the twelve-pack answer to a question v2.0 never had to ask: **who builds a pack, and how do you know their report of it is true.** Nothing else in v2.0 changes.
 
 *Lineage: v1.1 award-body table · v1.2 no-gate variant, merge standard, parser bugs · v1.3
 mandatory write-back · v1.4 artefact routing · v1.5 product/archive split · v1.6 published-works
@@ -108,6 +110,174 @@ every step 9. The three sanctioned outcomes still apply when a debt is paid:
 
 Prefer additive changes and shared documents over rewriting cards. **Do not require every early
 pack to match the densest later pack.** Coherence matters more than uniformity.
+
+---
+
+## Model routing and the claims audit — v2.1
+
+**The question this answers.** Twelve packs in, the process is stable enough that the expensive
+model is no longer the thing producing the quality. This section says who does what, and — the
+harder half — how a build's *report of itself* is checked.
+
+### Why routing is possible at all
+
+**The library's quality comes from the instruments, not from the model.** Fifty-seven break-cases,
+eight verified cross-checks, three exit codes, sixteen assembly screens. Those catch a wrong
+answer regardless of who produced it. That is the whole basis for routing work to a cheaper model,
+and it is also the limit on it: **route by judgment density, never by importance.** A screen that
+can fail the build is model-proof. A ruling is not.
+
+### The measured failure modes, which is what the routing is built from
+
+Both are on the record in this project, dated, and neither is a guess.
+
+**Sonnet, retro-pass B3, 2026-08-27.** Executed a specced edit list accurately at scale — 349 award
+tokens, five card years, nine bibliography edits, fourteen C-08 cards, nine pack bumps, all of it
+verified and all of it holding. **F-17 is the high-water mark:** it opened Literary's build tarball
+and matched 100 malformed batch rows one-to-one against 100 defective cards, where *"not
+recoverable"* would have been an acceptable answer. **One defect of its own** (two exemptions
+appended without terminating the preceding sentence, which broke `sensitive_audit.py`'s sentence
+split — not cosmetic). And **five discrepancies, all five in the account rather than in the packs**:
+`hedge_check` clean on nine packs not ten, in a table whose closing line claimed every result was
+documented; Western's 28 VARIANTs called *pre-existing* when twelve were the pass's own deliberate
+work; `ref_audit`'s NOT RUN row saying nine packs and listing eight.
+
+**Opus, same pass and the SF rebuild.** C-11 reported as 3 when the truth was ≥25. A retag regex
+that read *space opera* as opera, producing eleven false positives including *Hyperion*. A
+canon/PII screen with **precision zero** — 45 hits, every one a false positive. "463 award fields"
+that included Manga's 97, out of scope. An `indent=2` write against an `indent=1` library that
+reformatted ~15,000 lines.
+
+**Read them together and the conclusion is not "one model is safer."** It is that confident-wrong
+is the house failure mode of both, that the instruments catch the structural half of it from
+either, and that **the unguarded half is the summary a session writes about its own work.**
+
+### The three roles
+
+Roles, not models — so this survives whatever models exist at pack twenty.
+
+| Role | Model | Owns |
+|---|---|---|
+| **ARCHITECT** | the strongest available | Blueprint. Every ruling. The contested-canon method and every card that invokes it. Seam decisions against adjacent packs. Grok reconciliation. §17 delta rows. The planted controls. |
+| **BUILDER** | the cheaper capable model | Batches. Merges. `reuse_check` and every screen. Assembly. Research passes. The build log. Everything with an exit code in front of it. |
+| **AUDITOR** | the strongest available, **in a session that did not build** | The claims audit (below). Re-measurement, never re-reading. |
+
+**The auditor must be a fresh session.** B3's verification worked *because* the verifier had not
+built it — every material claim was re-measured against the shipped packs rather than recognised.
+A session auditing its own summary is the same instrument checking itself, which is the defect this
+library has now found nine times.
+
+### The bright line — what a builder may not do
+
+Three things, and they are checkable rather than judgemental:
+
+1. **A builder may not write a §17 delta row.** Deltas are changes to the standard; changing the
+   standard is the architect's. A builder that believes a delta is needed **stops and asks.**
+2. **A builder may not write a card that invokes §5d (contested canon) or §5c (living religions
+   and cultures).** It drafts the card, marks it `ARCHITECT`, and moves on. These are the two
+   places where a plausible, fluent, internally consistent card can be quietly wrong and **no
+   instrument in the set can see it.**
+3. **A builder may not resolve a contradiction between two research passes.** The playbook already
+   requires a narrow third pass rather than a judgement call; the builder runs the third pass and,
+   if it does not settle, hands the contradiction up rather than labelling it.
+
+Everything else is the builder's.
+
+### Judgment density by collection — the routing table that survives new genres
+
+Keyed on collection type rather than on genre, so pack twenty routes itself.
+
+| Collection | Density | Route |
+|---|---|---|
+| Subgenres, Tropes, Craft, Checklist, History | Low–medium. Shapes are fixed, screens are hard. | **Builder** |
+| Authors, Works | Medium, and **fully instrument-covered** — `name_cross_check`, `two_statements`, `ref_audit`, `roster_integrity`, the award screens. | **Builder**, with verification agents per §4 |
+| Psychology | High. `C-08` robustness tiering is a claim about a literature. | **Builder drafts, architect tiers** |
+| Any specialist collection touching a living tradition, a living culture, or a contested attribution | Highest, and **uninstrumented** | **Architect** |
+
+**Erotica and Religious / Inspirational both sit in that last row for a large share of their cards
+(§5b and §5c respectively) and are not straight builder packs.** Religious / Inspirational is the
+highest-judgment pack in the library and the least instrumented; route it architect-heavy or do not
+route it at all.
+
+### The claims audit
+
+**The new instrument, and it is a procedure rather than a script.** B3's five discrepancies were
+all in the account. Nothing in the toolchain reads a build log.
+
+**The rule: a number in a build log carries the command that produced it.**
+
+```
+Retagged 110 work cards across eight packs.   ⟨measured: tools/medium_detect.py --count⟩
+```
+
+**A claim with no `⟨measured:⟩` tag is a claim, not a measurement, and it fails the audit by
+default.** This is `T-07`'s lesson pointed at prose: *do not mark a cell `A` because a rule was
+written down.*
+
+The auditor then, in a fresh session:
+
+1. **Re-runs every tagged command** and diffs the output against the log's number. Not a sample —
+   all of them. They are cheap; that is the point of tagging them.
+2. **Checks every completeness claim by counting the thing claimed complete.** "Every non-clean
+   result matches a documented finding" is checked by listing every non-clean result. This is
+   precisely what B3's closing line failed.
+3. **Re-runs the validator in the container and the full break harness.** Never quoted, always run.
+4. **Verifies the planted controls were rejected** (below).
+5. **Reads the last sentence of every `ARCHITECT`-marked card**, per §5d's last-sentence test.
+
+**The audit is a fraction of a build and it is not optional.** B3's cost roughly one session
+against a two-session build; it found three defects and five misstatements.
+
+### Planted controls — extended from research passes to the whole build
+
+Currently each research brief carries one planted false claim. From pack thirteen, **the architect
+plants three per pack**, written into `_build/<genre>/controls/CONTROLS-sealed.md`, which the
+builder is told exists, is told the count of, and does not open:
+
+| # | Type | Tests |
+|---|---|---|
+| 1 | **Factual** — an invented award, a wrong year, a misattributed work | Does the research pass reject it, or does it card it? |
+| 2 | **Structural** — a card that violates a floor the blueprint states in prose | Does the *screen* catch it, or only a human? A control that only a human catches means the floor was never wired into assembly. |
+| 3 | **Judgment** — a card that is fluent, sourced, and takes a side in its last sentence | The one thing no instrument in the set can see. |
+
+Control 3 is the important one and it is new. Precedent for the other two is good: Western's
+invented *Levi Strauss Frontier Prize* was rejected, Superhero's *"Bronze Realist mode"* returned
+nil, and Manga ran six passes and rejected every control.
+
+**Sealing is not adversarial-proof and does not need to be.** The builder is not trying to cheat;
+the controls catch inattention, which is the failure that actually happens.
+
+### Escalation — when a routed build comes back
+
+Any one of these ends the builder's run and hands the pack to the architect:
+
+- A planted control was **carded** rather than rejected.
+- The claims audit finds a **numeric** discrepancy — a wrong count in a log is the same class of
+  error as a wrong count in a pack.
+- The builder wrote a §17 delta row.
+- More than **10%** of a collection came back marked `ARCHITECT`, which means the collection was
+  routed wrongly, not that the builder failed.
+
+A completeness misstatement that is not numeric — B3's *"every non-clean result is documented"* —
+is **recorded, corrected, and does not end the run.** That is a reporting habit and the audit is
+the fix for it.
+
+### What this costs, roughly
+
+Of a two-session pack build, the blueprint and rulings are about a third and the batches about
+two-thirds. Routing the batches moves **roughly 60% of the tokens** to the cheaper model, and adds
+back the audit at about a fifth of a session. **The saving is real and it is bounded by the two
+uninstrumented collections, not by nerve.**
+
+### First run, and how the result is recorded
+
+**TV Formats is the test pack**, chosen because it is the most structural of the three remaining —
+formats, rights, credits, territories, air dates — which is where the instruments have the best
+coverage and the builder has the best odds. It is **not** chosen because it matters least.
+
+The result of that run goes into `CHANGE-LEDGER.md` as a dated finding either way. **A routing
+decision that is not measured on a real pack is the same thing as a ledger cell marked `A` because
+somebody wrote the rule down.**
 
 ---
 

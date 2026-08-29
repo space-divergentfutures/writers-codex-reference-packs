@@ -748,3 +748,49 @@ completed; 39 placeholder citations replaced; 19 plot-logline descriptions rewri
 | 26 | **Diacritics.** **Zero entry names in `reference-scifi.json` carry a diacritic of any kind.** `Stanislaw Lem` on the card against `Stanisław Lem` in the pack's own prose; `Karel Capek` spelled without the háček consistently, so every instrument agrees and all of them are wrong about the world (V-21). Not a plausible property of a science-fiction canon; the signature of the overnight conversion. | SF, then audit the others | Small per name, unknown in count. |
 | 27 | **Superhero `continuity-28` references `scifi:trope-38` — *Digital resurrection* — while discussing infinite realities.** It resolves, and `ref_audit.py` reports it healthy, and it means the wrong thing. Found by HAND-CHECK R on its first run in this pack. Superhero takes a patch bump. | SUP | One card. The judgement is about Superhero's argument. |
 | 28 | **`packVersion` admits no prerelease suffix.** `schema/pack.schema.json` pins `^\d+\.\d+\.\d+$`, so a staged build cannot leave a release candidate on disk and pass its own gate. SF 2.0.0 sits on disk unpublished with the rc state recorded outside the file. | Schema | Small, and it recurs every time a build is split across sessions. |
+
+---
+
+## Model routing and the claims audit — standard set 2026-08-29, playbook v2.1
+
+**Origin: TJ's decision to route the last three packs to the cheaper model** — *"we have done such
+great work with iterating the packs that I'm going to downgrade the work to Sonnet and see if it
+passes the test for the last 3."* The standard was written rather than the decision merely taken,
+because a routing rule that lives in a chat is a rule that does not exist at pack twenty.
+
+The full standard is `PACK-BUILD-PLAYBOOK.md` §*Model routing and the claims audit*. Four rows
+enter the register.
+
+### New standing rows
+
+| ID | Rule | Level | From |
+|---|---|---|---|
+| T-28 | **Route by judgment density, never by importance.** The library's quality comes from the instruments, not the model — 57 break-cases, eight verified checks, three exit codes, sixteen assembly screens catch a wrong answer regardless of who produced it. That is what makes routing possible **and** what bounds it: a screen that can fail the build is model-proof, a ruling is not. Three roles — ARCHITECT (blueprint, every ruling, §5c and §5d cards, seams, Grok, §17 deltas, the controls), BUILDER (batches, merges, screens, assembly, research, the build log), AUDITOR (the claims audit, **in a session that did not build**). Collections route by a density table keyed on collection *type*, so a new genre routes itself. | Doc | Routing standard, 2026-08-29 |
+| T-29 | **A number in a build log carries the command that produced it — `⟨measured: …⟩` — and a claim with no tag fails the audit by default.** Retro-pass B3's five discrepancies were **all five in the account rather than in the packs**: `hedge_check` clean on nine packs not ten inside a table whose closing line claimed every result was documented; Western's 28 VARIANTs called *pre-existing* when twelve were the pass's own deliberate work; `ref_audit`'s NOT RUN row saying nine and listing eight. **Nothing in the toolchain reads a build log.** This is T-07 pointed at prose: do not mark a cell `A` because a rule was written down, and do not accept a number because a session wrote it. The auditor re-runs **every** tagged command (not a sample), checks each completeness claim **by counting the thing claimed complete**, re-runs the validator in the container and the full harness rather than quoting them, and reads the last sentence of every ARCHITECT-marked card. | Doc + Tool | Routing standard, 2026-08-29 |
+| T-30 | **Three planted controls per pack, sealed, one of them a judgment control.** The architect writes them to `_build/<genre>/controls/CONTROLS-sealed.md`; the builder is told the file exists and how many, and does not open it. **(1) factual** — an invented award or wrong year, testing the research pass. **(2) structural** — a card violating a floor the blueprint states in prose; **a control only a human catches proves the floor was never wired into assembly**, which is exactly Comedy's screen 10b. **(3) judgment** — a card that is fluent, sourced, and takes a side in its last sentence, which is the one thing no instrument in the set can see. Precedent for the first two is good: Western rejected the invented *Levi Strauss Frontier Prize*, Superhero's *"Bronze Realist mode"* returned nil, Manga rejected six of six. **Sealing is not adversarial-proof and does not need to be — the controls catch inattention, which is the failure that actually happens.** | Doc | Routing standard, 2026-08-29 |
+| T-31 | **The builder's bright line, and it is checkable rather than judgemental.** A builder may not (1) write a §17 delta row — changing the standard is the architect's, and a builder that believes a delta is needed **stops and asks**; (2) write a card invoking §5d contested canon or §5c living religions and cultures — it drafts, marks the card `ARCHITECT`, and moves on, because these are the two places a fluent, sourced, internally consistent card can be quietly wrong and **no instrument in the set can see it**; (3) resolve a contradiction between two research passes — it runs the narrow third pass and hands the contradiction up rather than labelling it. **Escalation ends a routed run** on a carded control, a numeric discrepancy in the claims audit, a builder-written delta row, or more than 10% of a collection marked `ARCHITECT` — that last one meaning the collection was routed wrongly, not that the builder failed. A non-numeric completeness misstatement is **recorded, corrected, and does not end the run.** | Doc | Routing standard, 2026-08-29 |
+
+### The routing table, keyed on collection type
+
+| Collection | Density | Route |
+|---|---|---|
+| Subgenres, Tropes, Craft, Checklist, History | Low–medium; fixed shapes, hard screens | Builder |
+| Authors, Works | Medium, **fully instrument-covered** | Builder + verification agents |
+| Psychology | High — C-08 tiering is a claim about a literature | Builder drafts, architect tiers |
+| Any specialist touching a living tradition, living culture or contested attribution | Highest, **uninstrumented** | Architect |
+
+**Erotica (§5b) and Religious / Inspirational (§5c) sit in the last row for a large share of their
+cards and are not straight builder packs.** Religious / Inspirational is the highest-judgment pack
+in the library and the least instrumented.
+
+### Open, and it is the point of the exercise
+
+**The routing standard is UNMEASURED.** It is derived from two dated failure records — Sonnet's
+B3 and Opus's own errors in the same pass and the SF rebuild — and from nothing else. **TV Formats
+is the first run**, chosen as the most structural of the three remaining and therefore the one
+where the instruments cover best, **not** because it matters least.
+
+The result goes into this ledger as a dated finding either way. **A routing decision that is not
+measured on a real pack is the same thing as a ledger cell marked `A` because somebody wrote the
+rule down** — which is the defect this library has now found nine times, and it would be a poor
+joke to add a tenth by writing this section and never testing it.

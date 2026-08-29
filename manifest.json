@@ -1,14 +1,14 @@
 {
   "schemaVersion": 2,
-  "updated": "2026-08-28",
+  "updated": "2026-08-29",
   "packs": [
     {
       "id": "sf-reference",
       "label": "Science Fiction",
       "file": "packs/reference-scifi.json",
-      "packVersion": "2.0.1",
+      "packVersion": "2.1.0",
       "schemaVersion": 2,
-      "lastUpdated": "2026-08-28",
+      "lastUpdated": "2026-08-29",
       "collections": [
         "Tropes",
         "Technologies",
@@ -22,8 +22,8 @@
         "Checklist",
         "Craft"
       ],
-      "entryCount": 782,
-      "approxSizeKB": 1516,
+      "entryCount": 1200,
+      "approxSizeKB": 2054,
       "status": "live",
       "mediumCoverage": [
         "nonfiction",
