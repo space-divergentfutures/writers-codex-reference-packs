@@ -1,14 +1,14 @@
 {
   "schemaVersion": 2,
-  "updated": "2026-08-29",
+  "updated": "2026-08-31",
   "packs": [
     {
       "id": "sf-reference",
       "label": "Science Fiction",
       "file": "packs/reference-scifi.json",
-      "packVersion": "2.1.0",
+      "packVersion": "2.2.0",
       "schemaVersion": 2,
-      "lastUpdated": "2026-08-29",
+      "lastUpdated": "2026-08-31",
       "collections": [
         "Tropes",
         "Technologies",
@@ -22,8 +22,8 @@
         "Checklist",
         "Craft"
       ],
-      "entryCount": 1200,
-      "approxSizeKB": 2054,
+      "entryCount": 1201,
+      "approxSizeKB": 2182,
       "status": "live",
       "mediumCoverage": [
         "nonfiction",
@@ -328,9 +328,9 @@
       "id": "comedy-reference",
       "label": "Comedy / Humor",
       "file": "packs/reference-comedy.json",
-      "packVersion": "1.1.2",
+      "packVersion": "1.2.0",
       "schemaVersion": 2,
-      "lastUpdated": "2026-08-28",
+      "lastUpdated": "2026-08-31",
       "collections": [
         "Subgenres",
         "Tropes",
@@ -342,8 +342,8 @@
         "History",
         "Psychology of Laughter"
       ],
-      "entryCount": 613,
-      "approxSizeKB": 690,
+      "entryCount": 614,
+      "approxSizeKB": 744,
       "status": "live",
       "mediumCoverage": [
         "audio",
@@ -421,9 +421,9 @@
       "id": "superhero-reference",
       "label": "Superhero",
       "file": "packs/reference-superhero.json",
-      "packVersion": "1.1.1",
+      "packVersion": "1.2.0",
       "schemaVersion": 2,
-      "lastUpdated": "2026-08-27",
+      "lastUpdated": "2026-08-31",
       "collections": [
         "Subgenres",
         "Tropes",
@@ -436,8 +436,8 @@
         "History",
         "Psychology of the Superhero"
       ],
-      "entryCount": 613,
-      "approxSizeKB": 800,
+      "entryCount": 614,
+      "approxSizeKB": 840,
       "status": "live",
       "mediumCoverage": [
         "audio",
@@ -468,9 +468,9 @@
       "id": "manga-reference",
       "label": "Manga",
       "file": "packs/reference-manga.json",
-      "packVersion": "1.0.0",
+      "packVersion": "1.1.0",
       "schemaVersion": 2,
-      "lastUpdated": "2026-08-25",
+      "lastUpdated": "2026-08-31",
       "collections": [
         "Subgenres",
         "Tropes",
@@ -483,8 +483,8 @@
         "History",
         "Psychology of the Reader"
       ],
-      "entryCount": 612,
-      "approxSizeKB": 776,
+      "entryCount": 613,
+      "approxSizeKB": 816,
       "status": "live",
       "mediumCoverage": [
         "film",
@@ -497,24 +497,35 @@
       "id": "tv-formats-reference",
       "label": "TV Formats",
       "file": "packs/reference-tv-formats.json",
-      "packVersion": "0.0.0",
+      "packVersion": "1.0.0",
       "schemaVersion": 2,
-      "lastUpdated": null,
+      "lastUpdated": "2026-08-31",
       "collections": [
-        "Formats",
+        "Subgenres",
+        "Tropes",
         "Creators",
         "Works",
         "Craft",
-        "Checklist"
+        "Checklist",
+        "The Bible, the Room and the Season Order",
+        "Format Rights, the Remake and the Territory",
+        "History",
+        "Psychology of the Viewer"
       ],
-      "entryCount": 0,
-      "approxSizeKB": 0,
-      "status": "planned",
+      "entryCount": 612,
+      "approxSizeKB": 770,
+      "status": "live",
       "mediumCoverage": [
+        "audio",
+        "film",
+        "nonfiction",
         "tv"
       ],
       "adjacentPacks": [
-        "comedy-reference"
+        "comedy-reference",
+        "manga-reference",
+        "superhero-reference",
+        "sf-reference"
       ]
     },
     {

@@ -6,7 +6,8 @@ illustrated with worked examples rated on a four-tier quality scale, so you can 
 what works, what almost works, and what teaches the wrong lesson.
 
 Packs are plain JSON. Use them inside the [Writer's Codex](https://github.com/space-divergentfutures)
-app via the in-app pack picker, or download any pack directly and use it however you like.
+app — which downloads packs on demand, shows every pack you hold at once, and offers updates when
+a pack you have is behind this repo — or download any pack directly and use it however you like.
 
 ## The packs
 
@@ -24,7 +25,7 @@ app via the in-app pack picker, or download any pack directly and use it however
 | Western | live | `packs/reference-western.json` |
 | Superhero | live | `packs/reference-superhero.json` |
 | Manga | live | `packs/reference-manga.json` |
-| TV Formats | planned | `packs/reference-tv-formats.json` |
+| TV Formats | live | `packs/reference-tv-formats.json` |
 | Erotica | planned (on demand) | `packs/reference-erotica.json` |
 | Religious / Inspirational | planned (on demand) | `packs/reference-religious-inspirational.json` |
 

@@ -57,6 +57,39 @@ run); War & Military has none owed. Comedy, Literary and Superhero are untouched
 `remediation-plan.md` §5 entries are Stage 8/9 work (the year table, the judgement fixes),
 Opus's, not B2's.
 
+**Updated 2026-08-31, at the close of the TV Formats build (pack thirteen) and its session 4
+claims audit.** `TVF` TV Formats **1.0.0 (612)**, status flipped `planned` → `live` in
+`manifest.json`. Four packs bumped for the reciprocal hand-off cards owed at build lock (§4b of
+`_build/tv-formats/blueprint-LOCKED.md`), each a minor version per T-14: `COM` 1.1.2 → **1.2.0**
+(614, `subgenre-34`), `MNG` 1.0.0 → **1.1.0** (613, `subgenre-41`), `SUP` 1.1.1 → **1.2.0** (614,
+`subgenre-42`), `SF` 2.1.0 → **2.2.0** (1,201, `trope-221`). All five packs re-validated
+`PASS — 0 error(s)` in the session container (T-11) after the changes.
+
+**The model-routing experiment (playbook §"Model routing and the claims audit", v2.1) — the
+dated finding the playbook requires either way.** TV Formats was built under the ARCHITECT /
+BUILDER / AUDITOR split: the architect wrote the blueprint and planted three whole-build controls
+(`controls/CONTROLS-sealed.md`) plus six architect-drafted cards (`wip/architect-drafts/`,
+D1–D6, three sound and three salted); the builder drafted all 31 batches and every merge; this
+session closed as the claims audit. **Result: all three sealed controls were correctly rejected**
+— the factual control (D5, a fabricated International Emmy category) caught by independent
+verification against the award body's own category history; the structural control (D3/D4, an F4
+violation) caught by the instrument itself, screen 15, firing with the exact reason the control
+specified, not by hand-check; the judgment control (D6, a one-sided last sentence on the
+sitcom-origin dispute) caught by close reading during the seed-harvest research pass, before it
+ever reached a batch. **One methodological gap, stated rather than hidden**: the "blind-builder"
+test the injection mechanism was built to run — a session screening D1–D6 without knowing which
+were salted — never actually happened. The batches-1–12 session already knew which three were
+controls (carried over context from the architect's own cross-check exchange), and the claims
+audit is this same continuous session rather than the fresh one the playbook specifies, so the
+control-rejection result is genuine but the *blind* half of the experiment is unmeasured. **Session
+4 also ran, for the first time against this pack, the seven of eight shared cross-pack instruments
+`cross_pack_identity.py` had not already covered** (`TOOLS-VERIFIED.md` §10) — found and fixed two
+real name-form defects (`D. B. Weiss`, `John de Mol Jr.`), confirmed a dozen-plus flagged items as
+tool-artifact false positives rather than waving them through unread. **Net assessment: the
+instrument coverage held under routing — every defect that shipped and was later caught was caught
+by a named instrument or a stated hand-check, not one by "the model just knew."** Costed
+separately in `_build/tv-formats/build-log.md`'s closing entry; not reproduced here.
+
 ---
 
 # Part 1 — The standing register
@@ -200,6 +233,28 @@ contains. A `–` in an early column means "built before the tool existed", not 
 
 Decisions that belong to one pack and are **not** back-port candidates. Recorded so a later
 build can look up what a pack did without opening its blueprint. Format: pack · row · decision.
+
+**TV Formats** — first pack built under the ARCHITECT/BUILDER/AUDITOR model-routing split, v2.1
+(TVF.1, see the dated entry above for the full result); both specialist slots spent, `bible` —
+*The Bible, the Room and the Season Order* (70) and `format` — *Format Rights, the Remake and the
+Territory* (30) (TVF.2); Works split eight ways with `medium` fixed per category rather than
+free — `tv` 120, `nonfiction` 20, `audio` 12, `film` 8, each medium closed to exactly one Works
+category (TVF.3); radio and pre-television antecedents carded as `medium: audio` with the actual
+broadcast named in `text`, never a `radio` enum value (TVF.4, and see S-11 — this is the rule S-11
+states, applied); three whole-build planted controls (factual, structural, judgment) sealed at
+blueprint lock and all three verified rejected at the claims audit, one with a stated
+methodological gap (TVF.5); the two-stage `declined_collision_report()` screen built to discharge
+Manga's eleven-subject declined debt, closing at 3 discharged / 1 near (a residual, correctly
+diagnosed, left open) / 7 of 11 (TVF.6); a naming defect (four Tokusatsu-line cards carded bare
+against the pack's own documented convention) found and fixed mid-build rather than left for
+audit, once the builder recognised BATCH-FORMAT.md's naming section as this pack's own rule and
+not architect territory (TVF.7); `territory_check.py`'s spec written and broken by this pack, the
+first in the library to own one (TVF.8, and see 12.4 of `blueprint-LOCKED.md`); ten pack-local
+instruments, none pointed at another pack, promoted for the record at `TOOLS-VERIFIED.md` §9
+without being added to the cross-pack "may not run" list (TVF.9); the F-22 spell-check
+break-spec written and dated on the pack-fourteen handoff rather than built inside this pack, per
+the standing rule that a library-wide instrument needs breaking before trusting and a build is the
+wrong place to do that untested (TVF.10).
 
 **Horror** — specialist is *Folklore & Monster Traditions* with Psychology restored as the
 standard eighth core collection (H.1); folklore weighted toward *Threshold, Taboo &
@@ -513,7 +568,7 @@ corrections" above for what shipped.
 | 17 | **V-12 in Manga.** The three-type pseudonym taxonomy was never asked. Manga carries at least four pen-name cases, including one whose holder has never been identified and one that puts a single writer in the record twice. | MNG | Small. Four to six cards. |
 | 18 | **V-21 in Manga.** Both rosters were verified against each other, against config and against the shipped cards — **not against the world**, except where a pass touched a specific fact. | MNG | Unknown. Sample a block before estimating. |
 | 19 | **T-10 in Manga.** The verify-to-file agent pattern was not used; verification was performed inline by the builder. **A builder checking their own work found ten wrong years, five silently retargeted references and a wrong attribution — and cannot bound what it missed.** | MNG | Medium. One adversarial pass per collection. |
-| 20 | **T-12 / T-14 for Manga.** `packs/reference-manga.json` and `manifest.json` are not yet updated, and the five reciprocal hand-off cards owed to Superhero, Fantasy, Horror, Romance and Comedy are not yet applied. **TJ publishes; Claude performs no git operations.** | MNG + 5 | Small, and it is the last step. |
+| 20 | **T-12 / T-14 for Manga — CLOSED 2026-08-31.** `packs/reference-manga.json` and `manifest.json` are updated and agree with each other; all five reciprocal hand-off cards (Superhero, Fantasy, Horror, Romance, Comedy) are applied and carded. **Measured, not read off this row** — `tools/measure_item20.py` (`_build/tv-formats/tools/`, promoted at `TOOLS-VERIFIED.md` §9) checks the manifest against disk and greps every one of the five packs for a `manga-reference` mention directly, rather than trusting a category name or a prose phrase (this row's own §0.8/finding-3 lesson from `STEP-1-MEASUREMENTS.md`). Run at TV Formats's claims audit, `PASS`. | MNG + 5 | Done. |
 | 21 | **F-20 medium retag — CLOSED 2026-08-28.** 110 work cards retagged across eight packs: **29 `stage`, 71 `short-fiction`, 10 `poetry`**. The candidate figure this row was opened with — 117 across ten packs, 69/36/12 by form — **was wrong in its distribution and in its pack list**: Romance and Historical carry none, and the stage count is 29, which Comedy's own build log had recorded at final assembly. Five detectors, all broken before use; every candidate read by hand; 26 detector calls overruled. **Seven items queued, not decided** — see the log. The false-negative count is unbounded and the log says why. | COM 29, HOR 24, LIT 15, SF 11, WAR 9, FAN 10, MCT 5, WES 3 | Done. |
 | 15 | **Every `?` in the Part 1 grid.** An unaudited cell is a pending item wearing a question mark. | Various | Unknown — that is the point. |
 
@@ -794,3 +849,23 @@ The result goes into this ledger as a dated finding either way. **A routing deci
 measured on a real pack is the same thing as a ledger cell marked `A` because somebody wrote the
 rule down** — which is the defect this library has now found nine times, and it would be a poor
 joke to add a tenth by writing this section and never testing it.
+
+---
+
+## The manga award eligibility rule — corrected 2026-08-31
+
+**The false rule:** the playbook's award-bodies list stated that a manga title is only eligible for
+its own publisher's prize. **False.** The Kodansha and Shogakukan prizes accept titles from rival
+publishers. Sponsors' own titles dominate the winners — a real pattern mistaken for a rule.
+
+**Found false twice before it was corrected.** Romance build, 2026-08-11, with two named
+counter-examples. Superhero build, around 2026-08-23, independently, written in capitals. **The
+playbook rewritten on 2026-08-29 still carried the false version.**
+
+**The failure this exposes, which matters more than the rule itself.** A finding recorded in a build
+document does not reach the document that builds read. Found by the pack method review on 2026-08-31
+and now the first entry in `C:\Projects\_brain\BUILD-LESSONS.md`.
+
+**The rule that came out of it:** end every piece of recurring work by naming the file that has to
+change, and change it in the same session. Written into `C:\Projects\README.md` under
+"Before you finish", 2026-08-31.
