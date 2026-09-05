@@ -1,9 +1,9 @@
 {
  "id": "war-military-reference",
  "name": "War / Military",
- "packVersion": "1.2.2",
+ "packVersion": "1.2.4",
  "schemaVersion": 2,
- "lastUpdated": "2026-08-28",
+ "lastUpdated": "2026-09-04",
  "minAppVersion": "0.1.0",
  "collections": [
   {
@@ -6840,7 +6840,7 @@
    "category": "Foundations",
    "name": "Homer",
    "description": "The founding text of the Western war canon, and the founding statement of the interiority problem.",
-   "meta": "Greek, traditionally dated to the eighth century BCE; the attribution and the singular authorship are both long-contested and the pack states that rather than settling it.",
+   "meta": "Greek, traditionally dated to the eighth century BCE; life dates unresolved. The attribution and the singular authorship are both long-contested and the pack states that rather than settling it.",
    "knownFor": "The Iliad, and the convention set that later war narrative is still arguing with.",
    "signature": "The signature is the granting of a father, a city and a death to the man about to be killed by the protagonist, which is the earliest surviving instance of the interiority budget being spent on the enemy.",
    "works": [
@@ -8384,7 +8384,7 @@
    "category": "Soviet, Russian and Ukrainian",
    "name": "Svetlana Alexievich",
    "description": "Polyphonic oral testimony developed into a literary form, and a Nobel awarded for it.",
-   "meta": "Belarusian, born 1948. Nobel laureate in Literature in 2015; her book on the Soviet war in Afghanistan drew litigation brought by mothers of dead soldiers, which is part of its record.",
+   "meta": "Belarusian, born 1948. Nobel laureate in Literature in 2015; her book on the Soviet war in Afghanistan drew litigation brought by mothers of dead soldiers, which is part of its record. Living, confirmed at the pre-release re-check of September 2026 on the Ortega y Gasset prize received in person in Barcelona in May 2026, with a speech.",
    "knownFor": "У войны не женское лицо, and the recovery of the Soviet war as women fought it.",
    "signature": "The signature is the edited testimony sequence — hundreds of voices arranged so that the composition is the authorship, which is precisely what her critics have disputed.",
    "works": [
@@ -8711,7 +8711,7 @@
    "category": "Testimony and the Camps",
    "name": "Hanna Krall",
    "description": "The Warsaw Ghetto Uprising rendered as an interview with its surviving commander.",
-   "meta": "Polish, born 1935; some sources give 1937 and the pack records the discrepancy. A child survivor in hiding, she became a reporter and developed a documentary form of her own.",
+   "meta": "Polish, born 1935; some sources give 1937 and the pack records the discrepancy. A child survivor in hiding, she became a reporter and developed a documentary form of her own. Living, confirmed at the pre-release re-check of September 2026 on Honorary Citizenship of the City of Lublin received in person on 30 May 2025, with her own words quoted from the stage. Thin: nothing dated in 2026 beyond anniversary journalism, so this is among the first to re-run.",
    "knownFor": "Zdążyć przed Panem Bogiem, built from conversations with Marek Edelman.",
    "signature": "The signature is the interview as literary form — the subject's evasions, corrections and refusals left in place, so the reader watches testimony being produced.",
    "works": [
@@ -8763,7 +8763,7 @@
    "category": "Testimony and the Camps",
    "name": "Bernhard Schlink",
    "description": "The second-generation guilt novel, internationally successful and seriously contested.",
-   "meta": "German, born 1944. A law professor and judge as well as a novelist, he wrote the novel that became the standard second-generation text and the standard second-generation argument.",
+   "meta": "German, born 1944. A law professor and judge as well as a novelist, he wrote the novel that became the standard second-generation text and the standard second-generation argument. Living, confirmed at the pre-release re-check of September 2026 on a platform appearance at Literaturhaus Zürich of 6 March 2026.",
    "knownFor": "Der Vorleser, and the dispute over whether its central device functions as mitigation.",
    "signature": "The signature is the legal frame applied to moral material — a narrator trained to weigh evidence, applying that training to a person he cannot judge and cannot stop judging.",
    "works": [
@@ -8992,7 +8992,7 @@
    "category": "The Middle East and the Displacement Canon",
    "name": "David Grossman",
    "description": "A mother who leaves home so that she cannot be told her son is dead, by a novelist whose own son was killed during the writing.",
-   "meta": "Israeli, born 1954. His son Uri was killed in Lebanon in 2006 while the novel was being written, a fact the book's reception has never been able to set aside; he received the International Booker Prize in 2017.",
+   "meta": "Israeli, born 1954. His son Uri was killed in Lebanon in 2006 while the novel was being written, a fact the book's reception has never been able to set aside; he received the Man Booker International Prize in 2017, as the award was styled that year; it was renamed the International Booker Prize in 2019. Living, confirmed at the pre-release re-check of September 2026 on a dated L'Espresso interview of 6 June 2026.",
    "knownFor": "אישה בורחת מבשורה, and its premise of flight from notification.",
    "signature": "The signature is the deferral structure — an entire novel spent avoiding a piece of information, so that the withholding is the plot rather than a technique inside it.",
    "works": [
@@ -9097,7 +9097,7 @@
    "category": "The Middle East and the Displacement Canon",
    "name": "Adania Shibli",
    "description": "A 1949 incident and its contemporary investigation, in a novel whose German prize ceremony became a documented controversy.",
-   "meta": "Palestinian, born 1974. The award ceremony for her LiBeraturpreis at the 2023 Frankfurt Book Fair was postponed; the organiser's initial statement that it acted together with the author was subsequently corrected on its own site, and the author has said she was not consulted. Reported here as record.",
+   "meta": "Palestinian, born 1974. The award ceremony for her LiBeraturpreis at the 2023 Frankfurt Book Fair was postponed by the organiser on 16 October 2023 and has never taken place, and Litprom suspended the prize itself in 2024 to reconsider its concept and procedure, by its own statement of 29 July 2024. The award to her was never in question. The organiser's initial statement that it acted together with the author was subsequently corrected on its own site, and the author has said she was not consulted. Reported here as record. Living, confirmed at the pre-release re-check of September 2026 on an appearance in person at Georgetown University in Qatar on 4 February 2026.",
    "knownFor": "تفصيل ثانوي, and its two-part structure setting a documented incident against a present-day attempt to research it.",
    "signature": "The signature is the deliberate asymmetry — a flat, impersonal first part and an anxious first-person second, so that the investigating voice cannot reach the event it is investigating.",
    "works": [
@@ -9122,7 +9122,7 @@
    "category": "The Middle East and the Displacement Canon",
    "name": "Sinan Antoon",
    "description": "The corpse-washer as the occupation's only constant profession.",
-   "meta": "Iraqi, born 1967. He left Iraq after the 1991 war and writes in Arabic and English, translating his own work.",
+   "meta": "Iraqi, born 1967. He left Iraq after the 1991 war and writes in Arabic and English, translating his own work. Living, confirmed at the pre-release re-check of September 2026 on the London launch of Notes From a Lost Country on 29 June 2026.",
    "knownFor": "وحدها شجرة الرمان, narrated by a man who washes the dead of successive Iraqi wars.",
    "signature": "The signature is the occupational vantage — a trade that continues through every regime change, so the political history arrives as a change in the volume of work.",
    "works": [
@@ -9203,7 +9203,7 @@
    "category": "Decolonisation and the African Wars",
    "name": "Chimamanda Ngozi Adichie",
    "description": "Biafra written by a novelist born seven years after it ended — the standing question's best modern test case.",
-   "meta": "Nigerian, born 1977. She built the novel from family testimony and research into a war she had not lived, and took the Orange Prize in 2007; the book was later named the Women's Prize Winner of Winners in 2020.",
+   "meta": "Nigerian, born 1977. She built the novel from family testimony and research into a war she had not lived, and took the Orange Prize in 2007; the book was later named the Women's Prize Winner of Winners in 2020. Living, confirmed at the pre-release re-check of September 2026 on a Bvlgari campaign of 19 March 2026, filmed, with her own commissioned text.",
    "knownFor": "Half of a Yellow Sun, and a war carried through the collapse of intimate lives.",
    "signature": "The signature is lucid realism used as a stance — clarity maintained deliberately against obscurity, so the horror registers through fully rendered character rather than through style.",
    "works": [
@@ -9293,7 +9293,7 @@
    "category": "Decolonisation and the African Wars",
    "name": "Boubacar Boris Diop",
    "description": "The Rwandan genocide written after a residency that sent African writers to the country to look.",
-   "meta": "Senegalese, born 1946. He took part in the Rwanda: écrire par devoir de mémoire project, which brought African writers to Rwanda in 1998, and later turned to writing in Wolof.",
+   "meta": "Senegalese, born 1946. He took part in the Rwanda: écrire par devoir de mémoire project, which brought African writers to Rwanda in 1998, and later turned to writing in Wolof. Living, confirmed at the pre-release re-check of September 2026 on a dated Impact.sn interview of 7 August 2026.",
    "knownFor": "Murambi, le livre des ossements, and its distribution of narration across perpetrators, victims and returnees.",
    "signature": "The signature is the refused single account — no narrator is allowed to stand as the event, and the perpetrator's chapters are given the same formal weight as the victims'.",
    "works": [
@@ -9319,7 +9319,7 @@
    "category": "Decolonisation and the African Wars",
    "name": "Scholastique Mukasonga",
    "description": "The Rwandan genocide written by a woman who lost most of her family in it.",
-   "meta": "Rwandan-French, born 1956. She was exiled as a child and lost twenty-seven family members in 1994; she took the Prix Renaudot in 2012.",
+   "meta": "Rwandan-French, born 1956. She was exiled as a child and lost twenty-seven family members in 1994; she took the Prix Renaudot in 2012. Status carried as unconfirmed at the pre-release re-check of September 2026. The card previously gave a bare birth year and no status, which asserts a living subject without saying so; that assertion is withdrawn. No death report was found, and everything dated 2025 or 2026 is a publishing item — the Gallimard novel of 7 May 2026 among them — which V-36 does not accept as evidence of life. This is not a claim that she has died.",
    "knownFor": "Notre-Dame du Nil, set in a girls' school in the years before the genocide, and the memoirs that preceded it.",
    "signature": "The signature is the anticipatory setting — the machinery of the later catastrophe shown assembling inside an institution that believes itself ordinary.",
    "works": [
@@ -9349,7 +9349,7 @@
    "category": "Decolonisation and the African Wars",
    "name": "Abdulrazak Gurnah",
    "description": "The German colonial wars in East Africa and their unrecorded conscripts, from a Nobel laureate.",
-   "meta": "Tanzanian-British, born 1948. He left Zanzibar as a refugee after the 1964 revolution and received the Nobel in Literature in 2021.",
+   "meta": "Tanzanian-British, born 1948. He left Zanzibar as a refugee after the 1964 revolution and received the Nobel in Literature in 2021. Living, confirmed at the pre-release re-check of September 2026 on a public appearance at Swarthmore College of 3 December 2025, with his remarks quoted. Thin: nothing dated in 2026, so this is among the first to re-run.",
    "knownFor": "Afterlives, which follows an askari conscripted into the German colonial force, and Paradise.",
    "signature": "The signature is the recovered minor life — colonial war narrated through people the imperial record counted but did not name.",
    "works": [
@@ -9433,7 +9433,7 @@
    "category": "Asia: China, Korea, Vietnam and South Asia",
    "name": "Mo Yan",
    "description": "The anti-Japanese war stripped of its official heroic register, by a Nobel laureate who served in the army that maintained it.",
-   "meta": "Chinese, born 1955. He served in the People's Liberation Army and received the Nobel in Literature in 2012, an award that was itself contested on political grounds.",
+   "meta": "Chinese, born 1955. He served in the People's Liberation Army and received the Nobel in Literature in 2012, an award that was itself contested on political grounds. Living, confirmed at the pre-release re-check of September 2026 on an appearance in person at the Shanghai Book Fair of 16 August 2026.",
    "knownFor": "红高粱家族, and a resistance war rendered through bandits, distillers and family grievance.",
    "signature": "The signature is the sensory excess — colour, smell and appetite pushed past realism, so the official war narrative cannot survive contact with the prose.",
    "works": [
@@ -9458,7 +9458,7 @@
    "category": "Asia: China, Korea, Vietnam and South Asia",
    "name": "Ha Jin",
    "description": "The Korean War prisoner-of-war camp from the Chinese side, written in English by a former soldier.",
-   "meta": "Chinese-American, born 1956. He served in the People's Liberation Army as a teenager, left China after 1989, and writes in English; he has twice received the PEN/Faulkner Award, in 2000 and 2005.",
+   "meta": "Chinese-American, born 1956. He served in the People's Liberation Army as a teenager, left China after 1989, and writes in English; he has twice received the PEN/Faulkner Award, in 2000 and 2005. Status carried as unconfirmed at the pre-release re-check of September 2026. The card previously gave a bare birth year and no status, which asserts a living subject without saying so; that assertion is withdrawn. No death report was found, and no dated act of his own since 2024; Boston University's record of his retirement from the Creative Writing Program in June 2026 is an employment record rather than the person acting, and the lecture series that carries his name is not evidence of life. This is not a claim that he has died.",
    "knownFor": "War Trash, a fictional memoir of a Chinese prisoner in a United Nations camp.",
    "signature": "The signature is the plain second-language English — a deliberately unadorned prose that reads as translated testimony and refuses stylistic consolation.",
    "works": [
@@ -9514,7 +9514,7 @@
    "category": "Asia: China, Korea, Vietnam and South Asia",
    "name": "Han Kang",
    "description": "The Gwangju massacre narrated from seven positions, one of them a corpse.",
-   "meta": "South Korean, born 1970. She was born in Gwangju and left months before the 1980 uprising; she received the Nobel in Literature in 2024.",
+   "meta": "South Korean, born 1970. She was born in Gwangju and left months before the 1980 uprising; she received the Nobel in Literature in 2024. Living, confirmed at the pre-release re-check of September 2026 on an appearance in person at the Avignon Festival of 12 July 2026.",
    "knownFor": "소년이 온다, and its rotating narration across victims, survivors and the dead.",
    "signature": "The signature is the second-person address to the dead, which makes the reader occupy a position that cannot answer.",
    "works": [
@@ -9543,7 +9543,7 @@
    "category": "Asia: China, Korea, Vietnam and South Asia",
    "name": "Bảo Ninh",
    "description": "The war told from the winning side as unbearable loss, and officially disfavoured for it.",
-   "meta": "Vietnamese, born 1952. He served with a North Vietnamese youth brigade; the widely repeated survival statistics attached to his unit originate in publishers' jacket copy and are not independently sourced, so the pack does not reproduce them.",
+   "meta": "Vietnamese, born 1952. He served with a North Vietnamese youth brigade; the widely repeated survival statistics attached to his unit originate in publishers' jacket copy and are not independently sourced, so the pack does not reproduce them. Living, confirmed at the pre-release re-check of September 2026 on his attendance at the Ministry of Culture, Sports and Tourism ceremony in Hanoi on 30 November 2025 and dated interviews given to VnExpress and Dan Tri on 2 and 3 December 2025. Thin: nothing dated in 2026, so this is among the first to re-run.",
    "knownFor": "Thân phận của tình yêu, published in Vietnam in 1990 and read internationally as the war's essential account.",
    "signature": "The signature is the collapsed chronology — a veteran writing a novel he cannot order, with the disorder presented as the only honest sequence available to him.",
    "works": [
@@ -9564,7 +9564,7 @@
    "category": "Asia: China, Korea, Vietnam and South Asia",
    "name": "Viet Thanh Nguyen",
    "description": "The double agent, and a sustained refusal of the American frame around a Vietnamese war.",
-   "meta": "Vietnamese-American, born 1971. He came to the United States as a child refugee and received the Pulitzer Prize for Fiction in 2016.",
+   "meta": "Vietnamese-American, born 1971. He came to the United States as a child refugee and received the Pulitzer Prize for Fiction in 2016. Living, confirmed at the pre-release re-check of September 2026 on the Farenthold Lecture delivered in person at UT Austin on 26 March 2026.",
    "knownFor": "The Sympathizer, and the critical work on war memory that accompanies it.",
    "signature": "The signature is the confession addressed to a captor — a narrator writing under duress for a reader who is also his interrogator, so every sentence is doing two jobs.",
    "works": [
@@ -9624,7 +9624,7 @@
    "category": "Vietnam and the American Reckoning",
    "name": "Tim O'Brien",
    "description": "The writer who made the unauditability of testimony his subject rather than his problem.",
-   "meta": "American, born 1946. He was drafted and served as an infantryman in Quang Ngai province; he took the National Book Award in 1979 and the Pritzker Literature Award, a lifetime-achievement prize, in 2013. The Things They Carried was a Pulitzer finalist in 1991 and did not win, a distinction publishers' copy routinely erases.",
+   "meta": "American, born 1946. He was drafted and served as an infantryman in Quang Ngai province; he took the National Book Award in 1979 and the Pritzker Literature Award, a lifetime-achievement prize, in 2013. The Things They Carried was a Pulitzer finalist in 1991 and did not win, a distinction publishers' copy routinely erases. Status carried as unconfirmed at the pre-release re-check of September 2026. The card previously gave a bare birth year and no status, which asserts a living subject without saying so; that assertion is withdrawn. No death report was found, and no dated act of his own since a conversation and signing at Arena Stage on 23 October 2023; the 2025 activity around him is his biographer's, not his. This is not a claim that he has died.",
    "knownFor": "The Things They Carried, and a career spent dismantling the difference between a true war story and a story that is true.",
    "signature": "The signature is the self-revising story — an account told, retracted and retold inside the same book, so the reader cannot establish which version happened.",
    "works": [
@@ -9756,7 +9756,7 @@
    "category": "Vietnam and the American Reckoning",
    "name": "Karl Marlantes",
    "description": "Thirty years of revision into the definitive small-unit novel of the war.",
-   "meta": "American, born 1944. A decorated Marine officer in Vietnam, he worked on the novel for roughly three decades before it found a publisher.",
+   "meta": "American, born 1944. A decorated Marine officer in Vietnam, he worked on the novel for roughly three decades before it found a publisher. Living, confirmed at the pre-release re-check of September 2026 on a first-person question-and-answer interview published by the Irregular Warfare Initiative on 8 January 2026.",
    "knownFor": "Matterhorn, and a hill taken, abandoned and retaken at a cost the book itemises.",
    "signature": "The signature is procedural exactness carried to a moral end — the logistics, the radio traffic and the medical evacuation are rendered in full, and the arithmetic is what indicts.",
    "works": [
@@ -9782,7 +9782,7 @@
    "category": "Vietnam and the American Reckoning",
    "name": "James Webb",
    "description": "The platoon novel by a decorated Marine who later served as a senator.",
-   "meta": "American, born 1946. A Marine platoon and company commander in Vietnam, decorated for valour, later Secretary of the Navy and a United States senator.",
+   "meta": "American, born 1946. A Marine platoon and company commander in Vietnam, decorated for valour, later Secretary of the Navy and a United States senator. Status carried as unconfirmed at the pre-release re-check of September 2026. The card previously gave a bare birth year and no status, which asserts a living subject without saying so; that assertion is withdrawn. No death report was found, and no dated act of his own in 2025 or 2026; his Notre Dame fellowship was closed by the institution in January 2025 and the podcast launched in May 2026 under a similar name is hosted by a different man. This is not a claim that he has died.",
    "knownFor": "Fields of Fire, and a novel written from inside the professional infantry's own values rather than against them.",
    "signature": "The signature is the insider's defence — the book renders the war's cost without conceding the anti-war reading, which makes it the clearest available test of the pack's claim that both traps are live.",
    "works": [
@@ -9833,7 +9833,7 @@
    "category": "The Global War on Terror",
    "name": "Kevin Powers",
    "description": "The Iraq novel that found its shape in repetition and aftermath because the deployment supplied none.",
-   "meta": "American, born 1980. He served as a machine-gunner in Iraq in 2004–05 and published the novel seven years later; it took the Guardian First Book Award in 2012 and the PEN/Hemingway Award in 2013.",
+   "meta": "American, born 1980. He served as a machine-gunner in Iraq between 2004 and 2005 and published the novel seven years later; it took the Guardian First Book Award in 2012 and the PEN/Hemingway Award in 2013. Living, confirmed at the pre-release re-check of September 2026 on a dated WUSF Florida Matters interview of 13 June 2026, published as an edited transcript in which he speaks. This card was not re-checked in the first pass of September 2026: a defect in the census tool read the span of his tour of duty as a death date and hid the card from the worklist.",
    "knownFor": "The Yellow Birds, and a structure organised around a promise the narrator cannot keep.",
    "signature": "The signature is the recursive chapter order — the book returns to the same events at different distances, which enacts the intrusive recollection it describes.",
    "works": [
@@ -9858,7 +9858,7 @@
    "category": "The Global War on Terror",
    "name": "Phil Klay",
    "description": "Twelve narrators doing twelve different jobs in the same war, and a National Book Award for the collection.",
-   "meta": "American, born 1983. He served as a Marine public affairs officer in Anbar province in 2007–08 — not as an infantryman, as is routinely stated — and took the National Book Award for Fiction in 2014.",
+   "meta": "American, born 1983. He served as a Marine public affairs officer in Anbar province between 2007 and 2008 — not as an infantryman, as is routinely stated — and took the National Book Award for Fiction in 2014. Living, confirmed at the pre-release re-check of September 2026 on episode 91 of the Manifesto! podcast, which he co-hosted in conversation, released 27 August 2026. This card was not re-checked in the first pass of September 2026: a defect in the census tool read the span of his tour of duty as a death date and hid the card from the worklist.",
    "knownFor": "Redeployment, and the distribution of one war across mortuary affairs, artillery, chaplaincy, public affairs and civil affairs.",
    "signature": "The signature is the occupational voice — each story built from the vocabulary and moral frame of a specific job, so the war is assembled from positions rather than described from one.",
    "works": [
@@ -9884,7 +9884,7 @@
    "category": "The Global War on Terror",
    "name": "Elliot Ackerman",
    "description": "The war narrated from the other side of it, by a decorated American veteran.",
-   "meta": "American, born 1980. A Marine officer with multiple tours in Iraq and Afghanistan; his first novel is narrated by an Afghan fighter.",
+   "meta": "American, born 1980. A Marine officer with multiple tours in Iraq and Afghanistan; his first novel is narrated by an Afghan fighter. Living, confirmed at the pre-release re-check of September 2026 on a CBS News broadcast appearance of 1 September 2026.",
    "knownFor": "Green on Blue, and the deliberate inversion of the vantage his own service would have supplied.",
    "signature": "The signature is the refused home vantage — the American position is offstage throughout, which exposes how total its usual centrality is.",
    "works": [
@@ -9914,7 +9914,7 @@
    "category": "The Global War on Terror",
    "name": "Ben Fountain",
    "description": "The war metabolised by American spectacle, across a single afternoon at a football game.",
-   "meta": "American, born 1958. A non-veteran novelist who took the National Book Critics Circle Award in 2012 for a novel set entirely at home.",
+   "meta": "American, born 1958. A non-veteran novelist who took the National Book Critics Circle Award in 2012 for a novel set entirely at home. Living, confirmed at the pre-release re-check of September 2026 on a live stage conversation at TACAW of 16 June 2026, broadcast by Aspen Public Radio.",
    "knownFor": "Billy Lynn's Long Halftime Walk, and its compression of a war's reception into one halftime show.",
    "signature": "The signature is the unbroken present tense inside a public event, so that every civilian encounter is rendered at the speed the soldier has to process it.",
    "works": [
@@ -9940,7 +9940,7 @@
    "category": "The Global War on Terror",
    "name": "Siobhan Fallon",
    "description": "The war from the married quarters, and the best single answer this canon offers to the home-front problem.",
-   "meta": "American; her birth year is not established in published sources and the pack does not supply one. She lived at Fort Hood during her husband's two deployments to Iraq and wrote the stories from that position.",
+   "meta": "American; her birth year is not established in published sources and the pack does not supply one. She lived at Fort Hood during her husband's two deployments to Iraq and wrote the stories from that position. Living, confirmed at the pre-release re-check of September 2026 on a dated Irish Times interview of 26 June 2026.",
    "knownFor": "You Know When the Men Are Gone, a linked collection set almost entirely on the domestic side of a deployment.",
    "signature": "The signature is the base as a closed society — a community with its own hierarchy, surveillance and etiquette, rendered with the specificity usually reserved for the unit.",
    "works": [
@@ -9965,7 +9965,7 @@
    "category": "The Commercial and Series Tradition",
    "name": "Bernard Cornwell",
    "description": "The Napoleonic military-adventure series as an industrial form, and the tradition's dominant modern practitioner.",
-   "meta": "British, born 1944. He has written the Napoleonic sequence and several other long series continuously since 1981.",
+   "meta": "British, born 1944. He has written the Napoleonic sequence and several other long series continuously since 1981. Living, confirmed at the pre-release re-check of September 2026 on a dated Cape Cod Chronicle interview of 20 December 2025, with the Cape Cod Shakespeare Festival's published 2026 company listing him as cast.",
    "knownFor": "The Sharpe novels, and battle rendered from the ranks with unusual technical clarity.",
    "signature": "The signature is the ranker's-eye set-piece — the engagement delivered at the level of the firing line, with the serial protagonist's guaranteed survival held in visible tension against it.",
    "works": [
@@ -10258,7 +10258,7 @@
    "category": "Criticism and the Substrate",
    "name": "Jonathan Shay",
    "description": "Moral injury identified through the Iliad, by a clinician working with Vietnam veterans.",
-   "meta": "American, born 1941. A psychiatrist who worked with Vietnam veterans for decades and read their accounts against Homer.",
+   "meta": "American, born 1941. A psychiatrist who worked with Vietnam veterans for decades and read their accounts against Homer. Status carried as unconfirmed at the pre-release re-check of September 2026. The card previously gave a bare birth year and no status, which asserts a living subject without saying so; that assertion is withdrawn. No death report was found, and no dated act of his own in 2025 or 2026; the centre and the certificate programme that carry his name are institutional activity in his name and are precisely what must not be read as evidence of life. This is not a claim that he has died.",
    "knownFor": "Achilles in Vietnam, and the location of a distinct injury in betrayal of what is right by a legitimate authority.",
    "signature": "The signature is the classical text used as clinical instrument — the Iliad read as an accurate account of combat psychology rather than as a literary antecedent.",
    "works": [

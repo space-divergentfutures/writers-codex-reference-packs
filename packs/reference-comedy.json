@@ -1,9 +1,9 @@
 {
   "id": "comedy-reference",
   "name": "Comedy / Humor",
-  "packVersion": "1.2.0",
+  "packVersion": "1.2.1",
   "schemaVersion": 2,
-  "lastUpdated": "2026-08-31",
+  "lastUpdated": "2026-09-04",
   "minAppVersion": "0.1.0",
   "collections": [
     {
@@ -8330,7 +8330,7 @@
       "category": "The Comedy of Grief",
       "name": "Ricky Gervais",
       "description": "The writer who took the cringe register he helped establish and pointed it at bereavement.",
-      "meta": "English, born 1961. Came to television from radio and music in his late thirties, which is late for the form and shows in the work's preoccupation with wasted time.",
+      "meta": "English, born 1961. Came to television from radio and music in his late thirties, which is late for the form and shows in the work's preoccupation with wasted time. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Co-creating The Office and Extras with Stephen Merchant, and then writing After Life, a sitcom about a widower with no arc.",
       "signature": "Gervais builds characters who are wrong about how they are perceived and then refuses to correct them within the episode. In the later work the same withholding is applied to grief: the comedy does not resolve the bereavement, and the jokes are what allow the audience to remain in the room with it.",
       "works": [
@@ -8365,7 +8365,7 @@
       "category": "The Comedy of Grief",
       "name": "Phoebe Waller-Bridge",
       "description": "The writer who made the frame-break a symptom rather than a device.",
-      "meta": "English, born 1985. Fleabag began as a solo stage show at the Edinburgh Fringe in 2013 and reached television three years later, and the stage original's single-performer structure survives in the address to camera.",
+      "meta": "English, born 1985. Fleabag began as a solo stage show at the Edinburgh Fringe in 2013 and reached television three years later, and the stage original's single-performer structure survives in the address to camera. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Fleabag, and for the series-two turn in which another character notices the protagonist's asides.",
       "signature": "Waller-Bridge writes a narrator who is funny in order not to be understood, and then constructs a second series whose entire subject is someone understanding her anyway. The comedy and the concealed bereavement use the same mechanism, which is why the withdrawal in the final minutes does not read as a change of register.",
       "works": [
@@ -8436,7 +8436,7 @@
       "category": "The Comedy of Grief",
       "name": "Sharon Horgan",
       "description": "A writer whose comedy is built from the sentences people say to each other when something has gone wrong.",
-      "meta": "Irish, born 1970 in Hackney, London, and raised in County Meath from the age of four. Worked for years in low-visibility comedy before Pulling, and the late arrival shows in an unusual willingness to write characters past forty.",
+      "meta": "Irish, born 1970 in Hackney, London, and raised in County Meath from the age of four. Worked for years in low-visibility comedy before Pulling, and the late arrival shows in an unusual willingness to write characters past forty. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Catastrophe, co-written with and performed opposite Rob Delaney, and a body of work in which the domestic and the catastrophic occupy the same scene.",
       "signature": "Horgan writes arguments at their real length rather than at their comic length, and places the joke inside the argument rather than at the end of it. The technique means her scenes carry information about the relationship whether or not the audience laughs, which is what lets the material absorb illness and bereavement without changing method.",
       "works": [
@@ -8505,7 +8505,7 @@
       "category": "Illness, Disability and the Comic Voice",
       "name": "Adam Kay",
       "description": "A former doctor whose comic diary of hospital medicine became the most-read British account of the profession.",
-      "meta": "British, born 1980. Practised as a junior doctor before leaving medicine, and wrote comedy professionally before the diaries.",
+      "meta": "British, born 1980. Practised as a junior doctor before leaving medicine, and wrote comedy professionally before the diaries. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "This Is Going to Hurt, a diary of hospital shifts written in a comic register that the book withdraws in its final pages.",
       "signature": "Kay paces the jokes so that a reader can continue through material that would otherwise be unreadable, then removes the register once, at the end, without warning. The book is a worked example of comedy as anaesthetic followed by a single accelerant beat, and the structure is what makes the last entry land.",
       "works": [
@@ -8539,7 +8539,7 @@
       "category": "Illness, Disability and the Comic Voice",
       "name": "Francesca Martinez",
       "description": "A stand-up who replaced the clinical vocabulary for her own condition with a word of her own choosing, and made the substitution part of the act.",
-      "meta": "English, born 1978. Has cerebral palsy and uses the term wobbly rather than the medical description, a choice she has argued for publicly and in print.",
+      "meta": "English, born 1978. Has cerebral palsy and uses the term wobbly rather than the medical description, a choice she has argued for publicly and in print. Living, confirmed at the pre-release re-check of September 2026, on a single keynote appearance in Spain on 13 June 2026, reported afterwards by the host institution. A thin confirmation, resting on one event.",
       "knownFor": "Stand-up built on refusing the language usually applied to her, and for writing about the concept of normality as the actual problem.",
       "signature": "Martinez sets the terms of the encounter before the audience can, which is a status move as much as a comic one. Having named herself, she is free to attack the assumptions in the room rather than defending against them, and the material works because the reframing happens first.",
       "works": [
@@ -8565,7 +8565,7 @@
       "category": "Illness, Disability and the Comic Voice",
       "name": "Rosie Jones",
       "description": "A comic whose delivery speed is a fact of her body and who has built material specifically out of the audience's response to it.",
-      "meta": "English, born 1990. Has cerebral palsy affecting speech, and writes to a delivery rate the form does not usually accommodate.",
+      "meta": "English, born 1990. Has cerebral palsy affecting speech, and writes to a delivery rate the form does not usually accommodate. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Panel-show and stand-up work in which the pause before a punchline is imposed rather than chosen, and for a documentary whose title provoked substantial public argument.",
       "signature": "Jones's timing is not a technique she selected and she uses it as one, extending the approach to a punchline until the room's discomfort becomes part of the setup. Her 2023 documentary about disability abuse was contested on the grounds of its title, with disabled commentators on both sides of the argument; the dispute is recorded here and not adjudicated.",
       "works": [
@@ -8596,7 +8596,7 @@
       "category": "Illness, Disability and the Comic Voice",
       "name": "Lee Ridley",
       "description": "A comedian who performs entirely through a speech synthesiser, which removes vocal delivery from the form and leaves only construction.",
-      "meta": "English, born 1980. Has cerebral palsy and is unable to speak; performs under the open stage name Lost Voice Guy, which is a byline rather than a persona.",
+      "meta": "English, born 1980. Has cerebral palsy and is unable to speak; performs under the open stage name Lost Voice Guy, which is a byline rather than a persona. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Winning Britain's Got Talent in 2018, and a radio sitcom built around a non-speaking protagonist.",
       "signature": "Ridley's act strips out every vocal variable — pitch, volume, warmth, the catch in the voice — and demonstrates how much comic weight sits in the written line alone. Pauses have to be typed, so timing becomes a compositional decision made in advance rather than a performance one made in the room.",
       "works": [
@@ -8627,7 +8627,7 @@
       "category": "The Cringe Tradition",
       "name": "Stephen Merchant",
       "description": "Co-author of the form's defining text, and the collaborator whose contribution is routinely folded into his partner's.",
-      "meta": "English, born 1974. Co-wrote The Office and Extras with Ricky Gervais, and has since written and directed alone.",
+      "meta": "English, born 1974. Co-wrote The Office and Extras with Ricky Gervais, and has since written and directed alone. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "The Office, whose documentary conceit and held reaction shots established the cringe register on television.",
       "signature": "Merchant's scenes are constructed so the humiliation is delivered by the camera staying still rather than by anything anyone says. The technique requires the humiliated character to remain unaware, and the writing's discipline is in never letting them notice, which is what keeps the transfer to the audience intact.",
       "works": [
@@ -8663,7 +8663,7 @@
       "category": "The Cringe Tradition",
       "name": "Julia Davis",
       "description": "The writer who took cringe past the point at which most audiences leave, and treated the departures as a cost worth paying.",
-      "meta": "English, born 1966. Writes and performs her own leads, which is unusual in the form and central to how far the material goes.",
+      "meta": "English, born 1966. Writes and performs her own leads, which is unusual in the form and central to how far the material goes. Living, confirmed at the pre-release re-check of September 2026, on two 2025 productions, the later of them reviewed in November 2025; nothing dated in 2026 shows her acting. A thin confirmation.",
       "knownFor": "Nighty Night, in which the protagonist's cruelty is unrelieved and unpunished, and a subsequent body of work in the same register.",
       "signature": "Davis removes the corrective character that cringe comedy usually supplies, so there is nobody in the scene registering that the behaviour is unacceptable and the audience must hold that position alone. The technique spends the cruelty budget deliberately and accepts the audience it loses, which is a legible artistic decision rather than a miscalculation.",
       "works": [
@@ -8696,7 +8696,7 @@
       "category": "The Cringe Tradition",
       "name": "Nathan Fielder",
       "description": "A comedian who conducts cringe on people who have not consented to be in a comedy, which raises questions the scripted form does not face.",
-      "meta": "Canadian, born 1983. Works in a documentary-adjacent format in which the participants are real and the premise is not.",
+      "meta": "Canadian, born 1983. Works in a documentary-adjacent format in which the participants are real and the premise is not. Living, confirmed at the pre-release re-check of September 2026, on a dated public appearance of 11 January 2026; nothing later than February 2026 was found. A thin confirmation.",
       "knownFor": "Nathan for You, in which absurd business advice is delivered to actual small businesses, and later work that extends the method to rehearsed life events.",
       "signature": "Fielder's discomfort is not performed, which is the whole difference. Because the other party is unaware of the frame, the audience's laughter arrives with a question attached about what they are laughing at and whether the participant agreed to it, and the later work makes that question the subject rather than a side effect.",
       "works": [
@@ -8726,7 +8726,7 @@
       "category": "The Cringe Tradition",
       "name": "Steve Coogan",
       "description": "The performer behind a character persona sustained across three decades and four media, and a case study in the persona-versus-performer distinction.",
-      "meta": "English, born 1965. Alan Partridge first appeared on BBC Radio 4's On the Hour in 1991, co-created with Armando Iannucci; the early material also involved Patrick Marber. Attributing the character solely to Coogan is wrong.",
+      "meta": "English, born 1965. Alan Partridge first appeared on BBC Radio 4's On the Hour in 1991, co-created with Armando Iannucci; the early material also involved Patrick Marber. Attributing the character solely to Coogan is wrong. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Alan Partridge, a character persona presented as a real broadcaster, and for a body of work in which Coogan plays versions of himself.",
       "signature": "Coogan's method is total commitment to a character's self-assessment, held without irony for the duration. Partridge is never allowed to be in on the joke, across radio, chat show, sitcom, film and podcast, and the persona has outlived several of the broadcasting conventions it was built to satirise.",
       "works": [
@@ -8855,7 +8855,7 @@
       "category": "The Absurdist War Line",
       "name": "Ben Elton",
       "description": "A writer of the alternative-comedy generation whose most durable work ends by removing every joke it had spent four series building.",
-      "meta": "English, born 1959. Emerged from the British alternative comedy movement of the early 1980s and wrote for television throughout it.",
+      "meta": "English, born 1959. Emerged from the British alternative comedy movement of the early 1980s and wrote for television throughout it. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Co-writing Blackadder from its second series, and The Young Ones, and for the final scene of Blackadder Goes Forth.",
       "signature": "Elton writes to a very high joke density and then, once, withdraws it completely. The last minute of Blackadder Goes Forth uses the audience's four-series expectation of a punchline as the mechanism, and the scene works because nothing before it was adjusted to prepare the way. Blackadder from the second series was co-written with Richard Curtis; The Young Ones with Rik Mayall and Lise Mayer.",
       "works": [
@@ -9023,7 +9023,7 @@
       "category": "Working-Class and Kitchen-Sink Comedy",
       "name": "Daisy May Cooper",
       "description": "A writer who used the mockumentary form to card rural poverty without either sentimentality or contempt.",
-      "meta": "English, born 1986. Wrote her first series with her brother while both were out of work, which the series is explicit about.",
+      "meta": "English, born 1986. Wrote her first series with her brother while both were out of work, which the series is explicit about. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "This Country, a mockumentary about two young cousins in a Cotswold village with nothing to do.",
       "signature": "Cooper's characters are given real boredom rather than comic boredom, and the documentary conceit means the audience watches them perform for a camera that has no reason to be interested. The affection is the mechanism: the series is funny about people it plainly likes, which is what separates it from the observational comedy of the previous decade. This Country was co-written with her brother Charlie Cooper.",
       "works": [
@@ -9054,7 +9054,7 @@
       "category": "Comedy and the Colour Line",
       "name": "Dave Chappelle",
       "description": "The comedian who walked away from a hit series over who was laughing, and whose later work is the field's most argued-about material.",
-      "meta": "American, born 1973. Chappelle's Show was co-created with Neal Brennan; Chappelle left the series in 2005 during production of its third season.",
+      "meta": "American, born 1973. Chappelle's Show was co-created with Neal Brennan; Chappelle left the series in 2005 during production of its third season. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Chappelle's Show, his stated reason for abandoning it, and a subsequent run of specials that generated sustained public dispute.",
       "signature": "Chappelle's departure is the best-documented case of a comedian abandoning a successful show over the composition of its audience, and he has described the moment a laugh on set read wrong to him. His later specials, particularly The Closer, are a live contested case: the objections and the defences are both extensively documented, he received the Mark Twain Prize in 2019, and this pack states the contest without adjudicating it.",
       "works": [
@@ -9089,7 +9089,7 @@
       "category": "Comedy and the Colour Line",
       "name": "Chris Rock",
       "description": "A stand-up whose method is to state a position the room does not expect and then defend it for four minutes.",
-      "meta": "American, born 1965. Came through sketch television to stand-up specials, and the sketch training shows in the material's structure.",
+      "meta": "American, born 1965. Came through sketch television to stand-up specials, and the sketch training shows in the material's structure. Living, confirmed at the pre-release re-check of September 2026, on his presence at two dated 2026 events; no statement in his own voice was found in either year, so this rests on presence rather than on speech. A thin confirmation.",
       "knownFor": "Bring the Pain, and for a delivery built on the rhetorical question as setup.",
       "signature": "Rock installs the premise by making the audience state it silently, then contradicts the position he has just had them adopt. The technique makes the audience the payer without their noticing, and it is why his hardest material lands with rooms that would refuse the same content stated flatly. He has not received the Mark Twain Prize, a claim that circulates because a contemporary in the same tradition has.",
       "works": [
@@ -9123,7 +9123,7 @@
       "category": "Comedy and the Colour Line",
       "name": "Paul Beatty",
       "description": "A novelist whose satire is constructed so that agreeing with it is uncomfortable.",
-      "meta": "American, born 1962. Came to fiction from poetry and slam performance, which the prose rhythm carries.",
+      "meta": "American, born 1962. Came to fiction from poetry and slam performance, which the prose rhythm carries. Living, confirmed at the pre-release re-check of September 2026, on Columbia University's published Spring 2026 course list, which names him as the instructor of a fiction seminar and a thesis workshop; no interview, post or public appearance by him was found in either year. A thin confirmation.",
       "knownFor": "The Sellout, for which he won the Man Booker Prize in 2016, the first American writer to do so.",
       "signature": "Beatty builds arguments that indict the speaker, the listener and the reader at once, and refuses to supply a position from which the reader can be comfortable. The comedy operates by escalating a premise past the point where any available political stance can accommodate it. He also holds a National Book Critics Circle Award for fiction; he has no Pulitzer, a claim that circulates because a contemporary in the same tradition does.",
       "works": [
@@ -9153,7 +9153,7 @@
       "category": "Comedy and the Colour Line",
       "name": "Percival Everett",
       "description": "A prolific novelist whose comic register is a formal instrument rather than a tone, and the one writer in this pack who genuinely holds a prize named after a comic novelist.",
-      "meta": "American, born 1956. Has published more than thirty books across four decades, in registers ranging from western to philosophical satire.",
+      "meta": "American, born 1956. Has published more than thirty books across four decades, in registers ranging from western to philosophical satire. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Erasure, a satire of the literary market's appetite for a particular kind of Black authorship, and James, a retelling of Huckleberry Finn from Jim's position.",
       "signature": "Everett's method is to inhabit a genre completely enough that the inhabitation itself is the argument, which means the satire cannot be separated from the pastiche. He won the Bollinger Everyman Wodehouse Prize in 2022 for The Trees, the Pulitzer Prize for Fiction in 2025 and the National Book Award in 2024, both for James. He has not won the Booker; James and The Trees were both shortlisted and neither won.",
       "works": [
@@ -9679,7 +9679,7 @@
       "category": "Japanese Comic Forms",
       "name": "Takeshi Kitano",
       "description": "A manzai performer who became an internationally recognised director, in two careers with two names.",
-      "meta": "Japanese, born 1947. Performs comedy as Beat Takeshi and directs as Takeshi Kitano, which is a working distinction rather than a concealment.",
+      "meta": "Japanese, born 1947. Performs comedy as Beat Takeshi and directs as Takeshi Kitano, which is a working distinction rather than a concealment. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "The manzai duo Two Beat, formed with Beat Kiyoshi in 1973 and central to the manzai boom of the late 1970s, and a later directing career beginning in 1989.",
       "signature": "Manzai formalises the pairing this pack's double-act card describes: the boke makes the error and the tsukkomi corrects it, and the roles are named and taught rather than left implicit as in the Anglophone tradition. Kitano's stand-up register was fast, aggressive and frequently transgressive, and the deadpan violence of the later films is legible as the same instinct with the joke removed. He did not direct Battle Royale, a common misattribution.",
       "works": [
@@ -9779,8 +9779,8 @@
         {
           "title": "El Chavo del Ocho",
           "year": "1973",
-          "start": true,
-          "note": "the half-hour weekly series; the sketch (\"El ropavejero\") debuted within Chespirito on 11 May 1972"
+          "note": "the half-hour weekly series; the sketch (\"El ropavejero\") debuted within Chespirito on 11 May 1972",
+          "start": true
         },
         {
           "title": "El Chapulín Colorado",
@@ -9865,7 +9865,7 @@
       "category": "African Comic Traditions",
       "name": "Wole Soyinka",
       "description": "A dramatist whose satirical comedies are the least-discussed part of a body of work known mainly for its tragedies.",
-      "meta": "Nigerian, born 13 July 1934. Was imprisoned for twenty-two months during the Nigerian civil war, much of it in solitary confinement.",
+      "meta": "Nigerian, born 13 July 1934. Was imprisoned for twenty-two months during the Nigerian civil war, much of it in solitary confinement. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "The Trials of Brother Jero, a short satire on a beach prophet, and a body of drama that moves between comic and tragic registers within single works.",
       "signature": "Soyinka's comic mode is satirical rather than farcical: a character with a self-serving religious or political vocabulary is given enough room to convict himself. The Yoruba performance traditions he draws on do not separate the comic from the serious as European drama does, which is why the register shifts inside his plays rather than between them. He received the Nobel Prize in Literature in 1986.",
       "works": [
@@ -10159,7 +10159,7 @@
       "category": "The American Comic Novel",
       "name": "Richard Russo",
       "description": "A novelist of declining towns whose comedy is generated by people who cannot leave.",
-      "meta": "American, born 15 July 1949 in Johnstown, New York. Writes about post-industrial small towns in the region he grew up in.",
+      "meta": "American, born 15 July 1949 in Johnstown, New York. Writes about post-industrial small towns in the region he grew up in. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Straight Man, an academic comedy of professional collapse, and Empire Falls, for which he won the Pulitzer Prize for Fiction in 2002.",
       "signature": "Russo places comic characters in economies that are genuinely finished, so the humour is never a substitute for the situation. Straight Man's protagonist loses a career he did not want, and the novel refuses to describe the loss as a liberation, which is the harder and more accurate version of that story.",
       "works": [
@@ -10193,7 +10193,7 @@
       "category": "The American Comic Novel",
       "name": "Maria Semple",
       "description": "A television writer who brought the sitcom's construction to the comic novel and used documents instead of chapters.",
-      "meta": "American, born 1964. Wrote for American television comedy, including Arrested Development, before turning to fiction.",
+      "meta": "American, born 1964. Wrote for American television comedy, including Arrested Development, before turning to fiction. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Where'd You Go, Bernadette, assembled from emails, letters, invoices and reports with almost no conventional narration.",
       "signature": "Semple builds a novel from found documents, which means every comic effect has to be carried by the voice of a person writing in an institutional register. The technique is the epistolary novel rebuilt out of modern office paperwork, and its jokes are all register collisions rather than events.",
       "works": [
@@ -10322,7 +10322,7 @@
       "category": "Satirists and Pamphleteers",
       "name": "Armando Iannucci",
       "description": "The producer and writer behind three decades of British and American political satire, and the most consistent institutional satirist working.",
-      "meta": "Scottish, born 28 November 1963 in Glasgow, of Italian descent. Worked in radio before television, and the radio training shows in the density of the writing.",
+      "meta": "Scottish, born 28 November 1963 in Glasgow, of Italian descent. Worked in radio before television, and the radio training shows in the density of the writing. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "The Thick of It and Veep, and for co-creating Alan Partridge with Steve Coogan on BBC Radio 4's On the Hour in 1991.",
       "signature": "Iannucci's target is the language of power rather than any party, which is why The Thick of It survived changes of government while its topical contemporaries dated within a season. His writers' rooms use improvisation to find the invective and then fix it in script, which is why the swearing reads as constructed rather than as vented.",
       "works": [
@@ -10358,7 +10358,7 @@
       "category": "Satirists and Pamphleteers",
       "name": "Chris Morris",
       "description": "A satirist who attacks the form of broadcasting itself rather than its content, and the most confrontational figure in the British tradition.",
-      "meta": "English, born 15 June 1962. Works infrequently and at long intervals, and gives almost no interviews. No death record; the most recent firmly dated public activity located during verification predates 2026.",
+      "meta": "English, born 15 June 1962. Works infrequently and at long intervals, and gives almost no interviews. No death record. This card previously said only that the most recent firmly dated public activity located during verification predated 2026, without saying when that verification happened; the pre-release re-check of September 2026 repeated it independently and reached the same place, the most recent firmly dated item being a contribution to a documentary broadcast on 3 March 2025, with nothing dated in 2026 found. Living, confirmed at that re-check on the 2025 item alone, which is the thinnest confirmation in this pack.",
       "knownFor": "The Day Today and Brass Eye, which reproduce news-broadcast grammar precisely enough that the parody is indistinguishable from the original at a glance.",
       "signature": "Morris parodies the delivery mechanism rather than the story, which is why his work reads as an attack on the audience's credulity as much as on the broadcaster's. Brass Eye's 2001 special on paedophilia produced one of the largest complaint volumes in British broadcasting history and is a live contested case: it was defended as an attack on media panic and attacked as an exploitation of the subject, and both positions are extensively documented.",
       "works": [
@@ -10523,7 +10523,7 @@
       "category": "The Comedy of Manners and the Stage Wit",
       "name": "Alan Ayckbourn",
       "description": "A playwright who treats theatrical structure as a comic device and has written more plays than anyone else in the modern English repertoire.",
-      "meta": "English, born 1939. Has written more than eighty plays, nearly all of them premiered at the theatre he ran in Scarborough. His personal Tony Award is a Special Tony granted in 2010; the 2009 Tony associated with his work went to producers rather than to him.",
+      "meta": "English, born 1939. Has written more than eighty plays, nearly all of them premiered at the theatre he ran in Scarborough. His personal Tony Award is a Special Tony granted in 2010; the 2009 Tony associated with his work went to producers rather than to him. Living, confirmed at the pre-release re-check of September 2026, on the Stephen Joseph Theatre's own credit for a production it opened on 4 September 2026, which he both wrote and directed; no first-person statement by him and no sighting of him in 2026 was found, so this rests on a credit rather than on the man. A thin confirmation.",
       "knownFor": "The Norman Conquests, three plays covering the same weekend from three different rooms, and a body of work in which formal experiment carries suburban material.",
       "signature": "Ayckbourn's structural inventions are always in service of a domestic subject, which is what keeps them from reading as exercises. The audience's knowledge of what is happening in the next room is dramatic irony generated by architecture, and it is the most systematic use of the comic frame's geometry in the English theatre.",
       "works": [
@@ -10801,7 +10801,7 @@
       "category": "The Humorous Essay and Column",
       "name": "Bill Bryson",
       "description": "A travel writer whose comedy is generated by an outsider's position maintained deliberately over decades.",
-      "meta": "American-born, later a British citizen, born 1951. His OBE, granted in 2006, was honorary because he was not then a British citizen; he has never been knighted, and Sir Bill Bryson is in circulation and wrong.",
+      "meta": "American-born, later a British citizen, born 1951. His OBE, granted in 2006, was honorary because he was not then a British citizen; he has never been knighted, and Sir Bill Bryson is in circulation and wrong. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Notes from a Small Island and A Walk in the Woods, in which the narrator is comically unequal to the journey he has chosen.",
       "signature": "Bryson keeps the innocent-abroad position permanently available by never fully belonging to either country, which supplies a reliable comic vantage on both. The narrator pays first — his incompetence, his complaints, his physical unfitness — which licenses the observation of everyone else, exactly as the essay tradition requires.",
       "works": [
@@ -10834,7 +10834,7 @@
       "category": "The Humorous Essay and Column",
       "name": "David Sedaris",
       "description": "An essayist who reads his work aloud to test it, and whose humiliations are the price of every observation.",
-      "meta": "American, born 1956. Came to prominence through radio broadcast rather than print, and continues to tour readings, revising the pieces from audience response.",
+      "meta": "American, born 1956. Came to prominence through radio broadcast rather than print, and continues to tour readings, revising the pieces from audience response. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Me Talk Pretty One Day, and a body of autobiographical essays in which the family is the recurring subject.",
       "signature": "Sedaris puts his own humiliation in front of every observation about anyone else, which is the essay form's licensing move performed more explicitly than anyone else attempts. He also uses the reading tour as a revision process, which makes him a rare case of prose written to the room's response — the printed and performed versions of the same piece differ in shape for exactly this reason.",
       "works": [
@@ -10963,7 +10963,7 @@
       "category": "Light Verse",
       "name": "Wendy Cope",
       "description": "A poet who uses parody forms to conduct real argument, and whose comic verse is technically the most exact working today.",
-      "meta": "English, born 1945. Worked as a primary school teacher before publishing, and has been consistently sceptical of the distinction between light verse and the other kind.",
+      "meta": "English, born 1945. Worked as a primary school teacher before publishing, and has been consistently sceptical of the distinction between light verse and the other kind. Living, confirmed at the pre-release re-check of September 2026, on a recorded Cambridge Literary Festival appearance of 23 November 2025; nothing dated in 2026 was found. A thin confirmation, and among the first to re-run.",
       "knownFor": "Making Cocoa for Kingsley Amis, whose parodies of contemporary poets are affectionate and precise enough to function as criticism.",
       "signature": "Cope borrows a form exactly and then puts content in it that the form cannot dignify, so the parody is simultaneously an act of admiration and a judgement. Because the reader must hear the metre to get the joke, the approach to the punchline is fixed by the borrowed form rather than chosen, which is the constraint her comic timing works inside.",
       "works": [
@@ -11331,7 +11331,7 @@
       "category": "Hollywood Screwball and the Studio Comedy",
       "name": "Mel Brooks",
       "description": "A parodist who reproduces a genre exactly enough to be mistaken for it, and one of the very few genuine EGOT holders.",
-      "meta": "American, born 28 June 1926; he turned one hundred in June 2026. Wrote for television from the 1950s before directing. He holds one competitive Academy Award, for The Producers, and an honorary one granted in January 2024. He has not received the Mark Twain Prize, a misattribution in wide circulation.",
+      "meta": "American, born 28 June 1926; he turned one hundred in June 2026. Wrote for television from the 1950s before directing. He holds one competitive Academy Award, for The Producers, and an honorary one granted in January 2024. He has not received the Mark Twain Prize, a misattribution in wide circulation. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "The Producers, Blazing Saddles and Young Frankenstein, and for a parody method built on technical fidelity to the source.",
       "signature": "Brooks reproduces a genre's grammar with real competence before altering it, which is why Young Frankenstein reads as a Universal horror film rather than as a sketch about one. Blazing Saddles attacks the western and the industry that made it simultaneously, and its final act breaks the studio wall literally; it is also a live contested case on its racial language, defended and attacked on documented grounds.",
       "works": [
@@ -11431,7 +11431,7 @@
       "category": "The Sitcom Writers",
       "name": "John Cleese",
       "description": "A writer and performer whose farce is the tightest in British television, and whose most-cited credit is routinely misdescribed.",
-      "meta": "English, born 27 October 1939. Fawlty Towers carries the on-screen credit written by John Cleese and Connie Booth; there is no created by card on the programme, and attributing it to Cleese alone or inventing a joint creator credit are both errors.",
+      "meta": "English, born 27 October 1939. Fawlty Towers carries the on-screen credit written by John Cleese and Connie Booth; there is no created by card on the programme, and attributing it to Cleese alone or inventing a joint creator credit are both errors. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Fawlty Towers, twelve episodes across two series, and Monty Python's Flying Circus.",
       "signature": "Cleese constructs each Fawlty Towers episode as a compressed one-room farce with a mechanism set in the first minutes and no exit, and the hotel exists so that people can be in rooms they should not be in. He was neither producer nor director on the series. Booth stated in 2025 that he was primarily responsible for the dialogue; his own account is of joint writing across six months per episode, and the pack records both accounts.",
       "works": [
@@ -11465,7 +11465,7 @@
       "category": "The Sitcom Writers",
       "name": "Connie Booth",
       "description": "Co-writer of all twelve episodes of the most tightly constructed British sitcom, and a case study in a credit being lost.",
-      "meta": "American-born, resident in Britain. Her birth year cannot be established: three mutually inconsistent values circulate across otherwise reputable sources, and this pack states none rather than choosing one. She left performing for psychotherapy in the 1990s and has given very few interviews since.",
+      "meta": "American-born, resident in Britain. Her birth year cannot be established: three mutually inconsistent values circulate across otherwise reputable sources, and this pack states none rather than choosing one. She left performing for psychotherapy in the 1990s and has given very few interviews since. Living, confirmed at the pre-release re-check of September 2026, on two interviews she gave in 2025, the later of them a statement on the death of Prunella Scales in October 2025; nothing dated in 2026 was found. A thin confirmation, and among the first to re-run.",
       "knownFor": "Fawlty Towers, co-written with John Cleese across both series, and performed by her as Polly.",
       "signature": "Booth's contribution is invisible in the way a farce's construction is invisible: the episodes' timing tolerances are extremely narrow and the plots have no slack, and that work is not separable by hand into two authors. Her name is dropped from the credit more often than any other in British comedy, which makes her the pack's clearest instance of a co-writer being absorbed into a partner's reputation.",
       "works": [
@@ -11495,7 +11495,7 @@
       "category": "The Sitcom Writers",
       "name": "Larry David",
       "description": "The writer behind two series that between them defined American comedy's move from joke to social transgression.",
-      "meta": "American, born 2 July 1947. Seinfeld is created by Larry David and Jerry Seinfeld; Curb Your Enthusiasm is created by Larry David, who also stars and executive-produces. He has two Emmys, both from 1993 and both for Seinfeld, and has never won an acting Emmy despite seven nominations; Curb has never won Outstanding Comedy Series.",
+      "meta": "American, born 2 July 1947. Seinfeld is created by Larry David and Jerry Seinfeld; Curb Your Enthusiasm is created by Larry David, who also stars and executive-produces. He has two Emmys, both from 1993 and both for Seinfeld, and has never won an acting Emmy despite seven nominations; Curb has never won Outstanding Comedy Series. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Seinfeld's convergent plotting and Curb's outline-only improvised scripts.",
       "signature": "David's method is to escalate on social cost rather than on volume, so the endings arrive quietly and the humiliation is always administered by ordinary people enforcing ordinary norms. Curb's episodes are Harold-shaped: unrelated openings converge on a single final humiliation, which is the Chicago long-form structure imported into a scripted format.",
       "works": [
@@ -11526,7 +11526,7 @@
       "category": "The Sitcom Writers",
       "name": "Tina Fey",
       "description": "A sketch writer who moved to sitcom and built a series about the machinery of making one.",
-      "meta": "American, born 18 May 1970. Created 30 Rock and holds the sole creator credit; she shared the showrunning with Robert Carlock, which is a distinct function and a distinct credit.",
+      "meta": "American, born 18 May 1970. Created 30 Rock and holds the sole creator credit; she shared the showrunning with Robert Carlock, which is a distinct function and a distinct credit. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "30 Rock, and a body of work in which the joke density is closer to sketch than to sitcom.",
       "signature": "Fey writes at sketch density inside a sitcom structure, which is why 30 Rock's episodes carry more jokes per minute than the form usually supports and why they survive rewatching. She has also stated publicly that episodes of the series satirising blackface should be withdrawn, which is a live contested case: her position and the objection that removing satire eliminates the category are both documented, and the pack states both.",
       "works": [
@@ -11896,7 +11896,7 @@
       "category": "Stand-Up, The British and Irish Line",
       "name": "Billy Connolly",
       "description": "A folk musician who became the model for British stand-up as extended digressive storytelling.",
-      "meta": "Scottish, born 24 November 1942. Worked as a welder in the Clyde shipyards before performing, and came to comedy through folk music rather than through clubs. Knighted in the 2017 Birthday Honours and invested that October; appointed CBE in 2003. He announced his retirement from live performance in 2020 following a Parkinson's diagnosis.",
+      "meta": "Scottish, born 24 November 1942. Worked as a welder in the Clyde shipyards before performing, and came to comedy through folk music rather than through clubs. Knighted in the 2017 Birthday Honours and invested that October; appointed CBE in 2003. He announced the end of his touring career in December 2018, in a Radio Times interview, five years after his Parkinson's diagnosis of 2013; this card previously dated that announcement to 2020 and tied it directly to the diagnosis, and both were wrong. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Concert performances built from very long digressions that return, and a delivery derived from working-class Glasgow speech.",
       "signature": "Connolly's sets have no joke structure in the American sense: he opens a story, abandons it for another, and returns twenty minutes later, and the returns are the architecture. Audience interruptions are incorporated rather than answered, which makes the crowd part of the composition instead of a hazard, and it is the defining difference between the British storytelling line and the American joke-unit line.",
       "works": [
@@ -11958,7 +11958,7 @@
       "category": "Stand-Up, The British and Irish Line",
       "name": "Stewart Lee",
       "description": "A comedian whose method is repetition held past the audience's patience, and who deliberately loses rooms.",
-      "meta": "English, born 1968. Worked in the alternative circuit from the late 1980s. Contrary to a widely circulated claim, he has never won or been nominated for an Edinburgh Comedy Award from either the historic body or the separate award founded in 2023; his awards are the Hackney Empire New Act of the Year in 1990, two British Comedy Awards in 2011 and a BAFTA in 2012.",
+      "meta": "English, born 1968. Worked in the alternative circuit from the late 1980s. Contrary to a widely circulated claim, he has never won or been nominated for an Edinburgh Comedy Award from either the historic body or the separate award founded in 2023; his awards are the Hackney Empire New Act of the Year in 1990, two British Comedy Awards in 2011 and a BAFTA in 2012. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Long-form stand-up built on repetition, and a persona that comments on its own reception while performing.",
       "signature": "Lee establishes a repeated phrase, alters one instance, and treats the alteration as the only joke in the passage. He also constructs passages designed to lose part of the room and then makes the loss the material, which is anti-comedy used structurally rather than as a stunt. The technique requires an audience that knows the persona, which is why the work does not travel to a general room.",
       "works": [
@@ -11992,7 +11992,7 @@
       "category": "Stand-Up, The British and Irish Line",
       "name": "Dylan Moran",
       "description": "A stand-up whose sentences accumulate qualifications until the original proposition is unrecoverable.",
-      "meta": "Irish, born 1971. Won the main Edinburgh festival comedy award in 1996, in the years when it carried the Perrier sponsorship name.",
+      "meta": "Irish, born 1971. Won the main Edinburgh festival comedy award in 1996, in the years when it carried the Perrier sponsorship name. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Stand-up built on digressive, adjective-heavy sentences, and the sitcom Black Books.",
       "signature": "Moran's persona is deterioration in progress, and the sentence structure performs it: each clause qualifies the last until the point is lost, which is the character rather than a defect in the writing. The technique means the laugh arrives on the accumulation rather than on a punchline, and it is the least American construction in contemporary stand-up.",
       "works": [
@@ -12025,7 +12025,7 @@
       "category": "Stand-Up, The British and Irish Line",
       "name": "Peter Kay",
       "description": "A comedian whose material is almost entirely recognition, and who plays the largest rooms in the form.",
-      "meta": "English, born 1973. Works in a register drawn from Bolton family life and has sustained very large-scale arena touring.",
+      "meta": "English, born 1973. Works in a register drawn from Bolton family life and has sustained very large-scale arena touring. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Live arena performances and Phoenix Nights, a sitcom set in a working men's club.",
       "signature": "Kay's material is built on shared recall rather than on invention: the audience arrives at the punchline before he does, and the laugh is the confirmation of a memory rather than a surprise. This is the anticipation mechanism in its purest form, and it explains both his scale and why the recordings do not travel to audiences without the shared reference.",
       "works": [
@@ -12060,7 +12060,7 @@
       "category": "Stand-Up, The Confessional Turn",
       "name": "Hannah Gadsby",
       "description": "The performer who used an hour of stand-up to argue that the form's own structure was doing them harm.",
-      "meta": "Australian, born 1978. Worked the Australian and British circuits for a decade before the show that changed their position. Their 2017 Edinburgh Comedy Award for best show was shared with John Robins, the first shared win in the award's history.",
+      "meta": "Australian, born 1978. Worked the Australian and British circuits for a decade before the show that changed their position. Their 2017 Edinburgh Comedy Award for best show was shared with John Robins, the first shared win in the award's history. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Nanette, which withholds the release the form promises and states why.",
       "signature": "Gadsby spends the first half of Nanette earning the room's permission with conventional self-deprecating material, then spends it: the argument is that a self-deprecating joke about one's own trauma freezes the story at its worst point and prevents its completion. The show is the most complete instance in the form of a posture switch prepared by everything preceding it, and the withdrawal reads as argued rather than as nerve failing.",
       "works": [
@@ -12090,7 +12090,7 @@
       "category": "Stand-Up, The Confessional Turn",
       "name": "Tig Notaro",
       "description": "A comedian whose best-known set was performed days after a cancer diagnosis and released as a recording of the room deciding.",
-      "meta": "American, born 1971. Has two Grammy nominations and no Grammy wins, a distinction frequently collapsed; she received an Academy Award nomination in 2026 for a documentary and did not win.",
+      "meta": "American, born 1971. Has two Grammy nominations and no Grammy wins, a distinction frequently collapsed; she received an Academy Award nomination in 2026 for a documentary and did not win. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "A set performed at Largo in Los Angeles on 5 August 2012, which opened by stating the diagnosis plainly.",
       "signature": "Notaro's delivery is unusually quiet and unusually slow, and the Largo set uses the room's response as information rather than as verdict: the audience's discomfort is audible on the recording and she works with it in real time. The set is the clearest available demonstration that permission is granted moment by moment and can be renegotiated inside a performance.",
       "works": [
@@ -12125,7 +12125,7 @@
       "category": "Stand-Up, The Confessional Turn",
       "name": "Maria Bamford",
       "description": "A comedian who performs her own psychiatric history in the voices of everyone involved in it.",
-      "meta": "American, born 1970. Has spoken publicly about bipolar disorder and psychiatric hospitalisation, which the material addresses directly. She neither created nor wrote the sitcom based on her life, a credit routinely assigned to her.",
+      "meta": "American, born 1970. Has spoken publicly about bipolar disorder and psychiatric hospitalisation, which the material addresses directly. She neither created nor wrote the sitcom based on her life, a credit routinely assigned to her. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Stand-up performed almost entirely in character voices, and a special performed to progressively larger rooms within a single recording.",
       "signature": "Bamford uses act-outs not to depict other people but to hold her own experience at a workable distance: her mother, her doctors and her own internal voices are all performed, which places the material one remove from confession while making it more exact. The special performed to rooms of increasing size makes audience permission visible as a variable rather than a constant.",
       "works": [
@@ -12159,7 +12159,7 @@
       "category": "Stand-Up, The Confessional Turn",
       "name": "Bo Burnham",
       "description": "A performer who came up through online video and has spent a career examining what performing to a camera does to a person.",
-      "meta": "American, born 1990. Began posting songs online as a teenager. He won the Edinburgh festival's Panel Prize in 2010 and was a nominee for the main award, which he did not win; his Grammy, at the 64th ceremony, was for a song written for visual media rather than in a comedy category.",
+      "meta": "American, born 1990. Began posting songs online as a teenager. He won the Edinburgh festival's Panel Prize in 2010 and was a nominee for the main award, which he did not win; his Grammy, at the 64th ceremony, was for a song written for visual media rather than in a comedy category. The pre-release re-check of September 2026 found no death record and no dated activity since early 2024, when he directed a filmed stage show and then deleted his social accounts; the death-notice pages that surface for him are residue of a January 2024 hoax and report nothing. The card previously stated a bare born 1990 and no status, which reads as an assertion that he is living; that assertion is withdrawn and his status is carried as unconfirmed.",
       "knownFor": "Inside, written, performed, shot and edited alone in one room over a year.",
       "signature": "Burnham makes the construction of the work its subject, so the audience watches the special being assembled and degrading at the same time. Several songs end without a button, which is a deliberately dead beat rather than a failure, and the repetition of earlier material in worse condition is how the passage of time is expressed structurally rather than stated.",
       "works": [
@@ -12193,7 +12193,7 @@
       "category": "Stand-Up, The Confessional Turn",
       "name": "James Acaster",
       "description": "A comedian whose shows are built as elaborate constructions that collapse into autobiography in their final minutes.",
-      "meta": "English, born 1985. Was nominated for the main Edinburgh comedy award in five consecutive years without winning it, which is a record of the historic body's shortlists.",
+      "meta": "English, born 1985. Was nominated for the main Edinburgh comedy award in five consecutive years without winning it, which is a record of the historic body's shortlists. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Repertoire, four hours of interlocking material released together, and a comic method built on sustained absurd premises.",
       "signature": "Acaster builds an hour on a premise the audience assumes is a bit, and then reveals in the last minutes that it has been carrying something else. Several routines end without a button and let the room decide whether the piece is finished, which is the withheld payoff used as structure rather than as a single gag.",
       "works": [
@@ -12253,7 +12253,7 @@
       "category": "Comic Strips and Cartooning",
       "name": "Bill Watterson",
       "description": "A cartoonist who ended his strip at its commercial peak and declined to license it, which is the fact everything else about him is read through.",
-      "meta": "American, born 1958. Ran Calvin and Hobbes for ten years and stopped in 1995. He consistently refused merchandising licences for the strip, a position frequently described in stronger terms than he has stated; he works rarely and gives almost no interviews.",
+      "meta": "American, born 1958. Ran Calvin and Hobbes for ten years and stopped in 1995. He consistently refused merchandising licences for the strip, a position frequently described in stronger terms than he has stated; he works rarely and gives almost no interviews. The pre-release re-check of September 2026 found no death record and no dated activity since The Mysteries in October 2023; a 40th-anniversary feature of November 2025 could not obtain a word from him and fell back on a 2005 interview with his editor. The card previously stated a bare born 1958 and no status, which reads as an assertion that he is living; that assertion is withdrawn and his status is carried as unconfirmed.",
       "knownFor": "Calvin and Hobbes, and for winning an argument with his syndicate over the layout of the Sunday strip.",
       "signature": "Watterson varies panel width to control reading speed, which is the printed equivalent of the comic pause: a wide panel is a held beat and a narrow one is a fast cut. The Sunday strips use the additional space as duration rather than as area, and the fight to get that space is the clearest case in the form of a formal requirement being defended commercially.",
       "works": [
@@ -12312,7 +12312,7 @@
       "category": "Comic Strips and Cartooning",
       "name": "Gary Larson",
       "description": "The cartoonist who compressed the pull-back-and-reveal into a single panel and a caption.",
-      "meta": "American, born 1950. Ran The Far Side from 1980 to 1995 and has published very little since; the most recent confirmed new work is from 2020.",
+      "meta": "American, born 1950. Ran The Far Side from 1980 to 1995 and has published very little since; the most recent confirmed new work is from 2020. The pre-release re-check of September 2026 found no death record and no dated activity of any kind since the launch of the New Stuff page on his own site in June 2020 — the 2020 date this card already gave was re-checked independently and stands. The card previously stated a bare born 1950 and no status, which reads as an assertion that he is living; that assertion is withdrawn and his status is carried as unconfirmed.",
       "knownFor": "The Far Side, a single-panel strip built on premises that cannot be stated before the image is seen.",
       "signature": "Larson's panel performs the reveal by placing the frame where the context is missing and the caption where it arrives, so the reader assembles the joke in the wrong order deliberately. Single-panel construction removes every device that depends on duration — no runner, no escalation, no pause — leaving only the reveal, which is why the form is unforgiving and why so few practise it well.",
       "works": [
@@ -12457,7 +12457,7 @@
       "category": "Improvisation and Its Teachers",
       "name": "Christopher Guest",
       "description": "A director who films improvisation and selects the escalations that arrived, in a form he did not invent but did define.",
-      "meta": "American-British, born 1948. Inherited a British peerage and sat in the House of Lords until hereditary peers were largely removed from it in 1999. He performed in This Is Spinal Tap but did not direct it; Rob Reiner did.",
+      "meta": "American-British, born 1948. Inherited a British peerage and sat in the House of Lords until hereditary peers were largely removed from it in 1999. He performed in This Is Spinal Tap but did not direct it; Rob Reiner did. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "Waiting for Guffman, Best in Show and A Mighty Wind, made from outlines rather than scripts with improvised dialogue.",
       "signature": "Guest's method is yes-and captured on film: the ensembles escalate by accretion and the edit selects what worked, so the writing happens in performance and the authorship happens in the cutting room. The camera's neutrality is what keeps the affection intact — the films observe people performing competence at a hobby without inviting contempt for them.",
       "works": [
@@ -12524,7 +12524,7 @@
       "category": "Australasian and Canadian Comedy",
       "name": "Taika Waititi",
       "description": "A director whose comic register absorbs grief and atrocity without changing method.",
-      "meta": "New Zealander, born 1975, of Māori and Jewish descent. His Academy Award, in 2020, is for Adapted Screenplay rather than for directing.",
+      "meta": "New Zealander, born 1975, of Māori and Jewish descent. His Academy Award, in 2020, is for Adapted Screenplay rather than for directing. Living, confirmed at the pre-release re-check of September 2026.",
       "knownFor": "What We Do in the Shadows, Hunt for the Wilderpeople and Jojo Rabbit.",
       "signature": "Waititi keeps a deadpan, faintly awkward comic register running underneath material that would ordinarily require a tonal change, and lets the register itself carry the seriousness. Jojo Rabbit builds several sequences comically and pays them seriously, which depends entirely on the audience noticing the switch and is the reason the film divides opinion sharply.",
       "works": [

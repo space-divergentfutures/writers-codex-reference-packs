@@ -1,9 +1,9 @@
 {
  "id": "literary-reference",
  "name": "Literary Fiction",
- "packVersion": "1.1.2",
+ "packVersion": "1.1.3",
  "schemaVersion": 2,
- "lastUpdated": "2026-08-28",
+ "lastUpdated": "2026-09-04",
  "minAppVersion": "0.1.0",
  "collections": [
   {
@@ -10318,7 +10318,7 @@
    "category": "The Latin American Novel",
    "name": "Isabel Allende",
    "description": "The popular inheritor of magical realism and family saga.",
-   "meta": "Chilean, born 1942. A best-selling novelist who carried Boom techniques to a mass readership.",
+   "meta": "Chilean, born 1942. A best-selling novelist who carried Boom techniques to a mass readership. Living, confirmed at the pre-release re-check of September 2026 - a live international press conference, 9 April 2026.",
    "knownFor": "The multigenerational saga, magical realism, and political memory.",
    "signature": "The signature is a warm, oral storytelling voice that folds the marvellous into family chronicle. The intimacy of the telling domesticates history's violence.",
    "works": [
@@ -10434,7 +10434,7 @@
    "category": "Postcolonial & World",
    "name": "Wole Soyinka",
    "description": "The Nigerian polymath of myth, satire, and dense allusion.",
-   "meta": "Nigerian, born 1934. Nobel laureate of 1986, the first African to win the prize.",
+   "meta": "Nigerian, born 1934. Nobel laureate of 1986, the first African to win the prize. Living, confirmed at the pre-release re-check of September 2026 - delivered the 28th Wole Soyinka Lecture in person at Port Harcourt and was quoted from the podium, 31 July 2026.",
    "knownFor": "Yoruba myth, political satire, and a difficult, allusive prose.",
    "signature": "The signature is a densely allusive style braiding Yoruba cosmology with modernist technique. The difficulty is the point: it refuses to simplify Africa for the outsider.",
    "works": [
@@ -10493,7 +10493,7 @@
    "category": "Postcolonial & World",
    "name": "J.M. Coetzee",
    "description": "The austere allegorist of complicity and power.",
-   "meta": "South African, born 1940. Nobel laureate of 2003 whose spare fiction interrogates authority.",
+   "meta": "Australian, born in Cape Town in 1940; a South African writer by formation and an Australian citizen since 2006, resident in Adelaide. Nobel laureate of 2003 whose spare fiction interrogates authority. Living, confirmed at the pre-release re-check of September 2026 - in person at the Feria Internacional del Libro in Buenos Aires and at Malba, quoted directly, 5 to 7 May 2026.",
    "knownFor": "Allegorical restraint, ethical interrogation, and metafictional self-doubt.",
    "signature": "The signature is a pared, self-questioning prose that refuses consolation and implicates its own authority. The withholding is an ethics enacted as style.",
    "works": [
@@ -10701,7 +10701,7 @@
    "category": "Postcolonial & World",
    "name": "Salman Rushdie",
    "description": "The exuberant maximalist of postcolonial history and myth.",
-   "meta": "British-Indian, born 1947. A novelist whose Booker-winning work fused history with fable.",
+   "meta": "British-Indian, born 1947. A novelist whose Booker-winning work fused history with fable. Living, confirmed at the pre-release re-check of September 2026 - on stage in a sold-out Q&A at the Porto Colosseum, quoted, 29 June 2026.",
    "knownFor": "Magical realism, historiographic play, and a teeming, punning prose.",
    "signature": "The signature is an overflowing, digressive voice that mixes myth, history, and pun, so the nation is narrated through excess. The maximalism is the postcolonial claim on the language.",
    "works": [
@@ -10759,7 +10759,7 @@
    "category": "Postcolonial & World",
    "name": "Anita Desai",
    "description": "The Indian novelist of interior weather and quiet estrangement.",
-   "meta": "Indian, born 1937. A writer of atmosphere and the muted lives of women and outsiders.",
+   "meta": "Indian, born 1937. A writer of atmosphere and the muted lives of women and outsiders. Living, confirmed at the pre-release re-check of September 2026 - a broadcast interview in her own voice on NPR's Weekend Edition Saturday, 11 January 2025. Nothing dated in 2026; first to re-run.",
    "knownFor": "Psychological interiority, mood, and the short story.",
    "signature": "The signature is a delicate, sensory prose that renders inner climate over event. Atmosphere and light do the work that plot elsewhere would.",
    "works": [
@@ -10818,7 +10818,7 @@
    "category": "Postcolonial & World",
    "name": "Abdulrazak Gurnah",
    "description": "The novelist of the East African coast and its exiles.",
-   "meta": "Tanzanian-British, born 1948. Nobel laureate of 2021, a chronicler of displacement and memory.",
+   "meta": "Tanzanian-British, born 1948. Nobel laureate of 2021, a chronicler of displacement and memory. Living, confirmed at the pre-release re-check of September 2026 - a dated first-person interview in The National ahead of his Dubai appearance, 31 January 2025. Nothing dated in 2026; first to re-run.",
    "knownFor": "Migration, colonial aftermath, and quietly layered memory.",
    "signature": "The signature is a restrained, reticent narration in which colonial history surfaces through gaps and silences. The understatement is how the unspoken past is felt.",
    "works": [
@@ -10847,7 +10847,7 @@
    "category": "Postcolonial & World",
    "name": "Chimamanda Ngozi Adichie",
    "description": "The contemporary Nigerian realist of war, migration, and identity.",
-   "meta": "Nigerian, born 1977. A widely read novelist of the Biafran war and transatlantic life.",
+   "meta": "Nigerian, born 1977. A widely read novelist of the Biafran war and transatlantic life. Living, confirmed at the pre-release re-check of September 2026 - her own dated first-person posts, 13 and 14 June 2026.",
    "knownFor": "Realist historical fiction, diaspora, and the politics of identity.",
    "signature": "The signature is a lucid, accessible realism that carries political weight through fully inhabited character. Clarity is a deliberate stance against obscurity.",
    "works": [
@@ -10876,7 +10876,7 @@
    "category": "Postcolonial & World",
    "name": "Nuruddin Farah",
    "description": "The Somali novelist of dictatorship, exile, and the nation.",
-   "meta": "Somali, born 1945. A perennial chronicler of Somalia written largely from exile.",
+   "meta": "Somali, born 1945. A perennial chronicler of Somalia written largely from exile. Living, confirmed at the pre-release re-check of September 2026 - his own address to the SOAS Class of 2025, published by the school, September 2025. Nothing dated in 2026; first to re-run.",
    "knownFor": "The political trilogy, life under dictatorship, and the fate of women.",
    "signature": "The signature is a densely political interiority that ties the individual conscience to the deformed state. Form makes the private life a site of national argument.",
    "works": [
@@ -11187,7 +11187,7 @@
    "category": "The Story Writers",
    "name": "Jhumpa Lahiri",
    "description": "The precise chronicler of the immigrant interior.",
-   "meta": "American, born 1967. A writer of Indian heritage, later writing in Italian.",
+   "meta": "American, born 1967. A writer of Indian heritage, later writing in Italian. Living, confirmed at the pre-release re-check of September 2026 - accepted the St. Louis Literary Award in person and gave a craft talk the next day, 8 and 9 April 2026.",
    "knownFor": "The short story, diaspora, and quiet domestic realism.",
    "signature": "The signature is a clean, restrained realism in which cultural displacement surfaces in ordinary domestic detail. The plainness makes the dislocation felt without insistence.",
    "works": [
@@ -11218,7 +11218,7 @@
    "category": "The Story Writers",
    "name": "George Saunders",
    "description": "The satirist-moralist of American precarity, tender and formally wild.",
-   "meta": "American, born 1958. A story writer whose comedy carries a deep ethical charge.",
+   "meta": "American, born 1958. A story writer whose comedy carries a deep ethical charge. Living, confirmed at the pre-release re-check of September 2026 - his own dated first-person post written driving home from his first Syracuse class of the semester, 28 August 2026.",
    "knownFor": "The satirical short story, invented vernaculars, and moral empathy.",
    "signature": "The signature is voice ventriloquised through corporate and demotic idioms, so satire and compassion share one register. The invented diction is the ethics.",
    "works": [
@@ -11249,7 +11249,7 @@
    "category": "The Story Writers",
    "name": "Lorrie Moore",
    "description": "The tragicomic virtuoso of the pun and the ache beneath it.",
-   "meta": "American, born 1957. A story writer whose wit is the surface of grief.",
+   "meta": "American, born 1957. A story writer whose wit is the surface of grief. Living, confirmed at the pre-release re-check of September 2026 - a reading, Q&A and craft lecture in person on the University of Michigan's own events calendar, 30 and 31 October 2025. Nothing dated in 2026; first to re-run.",
    "knownFor": "The short story, verbal wit, and comedy edged with pain.",
    "signature": "The signature is the double-edged sentence — the joke and the wound delivered together, so wordplay becomes a defence against feeling. The wit is the meaning and the mask.",
    "works": [
@@ -11339,7 +11339,7 @@
    "category": "Contemporary",
    "name": "Don DeLillo",
    "description": "The novelist of American paranoia, media, and dread.",
-   "meta": "American, born 1936. A chronicler of the postmodern American atmosphere.",
+   "meta": "American, born 1936. A chronicler of the postmodern American atmosphere. Living, confirmed at the pre-release re-check of September 2026 - received the American Academy of Arts and Letters Gold Medal for Fiction in person and spoke in response, May 2025. Nothing dated in 2026; first to re-run.",
    "knownFor": "Systems, media saturation, and a cool, aphoristic prose.",
    "signature": "The signature is a flat, oracular dialogue in which characters speak the culture's unconscious. The stylised speech, not event, diagnoses the age.",
    "works": [
@@ -11368,7 +11368,7 @@
    "category": "Contemporary",
    "name": "Thomas Pynchon",
    "description": "The encyclopedic paranoiac of postmodern America.",
-   "meta": "American, born 1937. A reclusive maximalist of vast, entropic systems.",
+   "meta": "American, born 1937. A reclusive maximalist of vast, entropic systems. Status carried as unconfirmed at the pre-release re-check of September 2026: the card previously gave a bare birth year and no status, which asserts a living person. The re-check found no death report and no dated item of him acting; the newest item of any kind is the publication of a novel in October 2025, and a publishing announcement is not evidence of life. His reclusiveness is a reason the evidence is thin and is not itself evidence. This is not a claim that Pynchon has died.",
    "knownFor": "The encyclopedic novel, paranoia, and manic tonal range.",
    "signature": "The signature is overload — a hyperconnected, register-hopping prose that enacts paranoia as form. The reader's struggle to connect everything is the meaning.",
    "works": [
@@ -11398,7 +11398,7 @@
    "category": "Contemporary",
    "name": "Marilynne Robinson",
    "description": "The contemplative novelist of grace and rural American faith.",
-   "meta": "American, born 1943. A writer of spiritual interiority and luminous slowness.",
+   "meta": "American, born 1943. A writer of spiritual interiority and luminous slowness. Living, confirmed at the pre-release re-check of September 2026 - a signed essay on current events in the New York Review of Books, 26 March 2026.",
    "knownFor": "Theological reflection, quiet plot, and radiant prose.",
    "signature": "The signature is a meditative first person that suspends narrative for reflection, so consciousness in the act of praise is the book. Stillness is the form.",
    "works": [
@@ -11427,7 +11427,7 @@
    "category": "Contemporary",
    "name": "Louise Erdrich",
    "description": "The chronicler of interwoven Ojibwe lives across generations.",
-   "meta": "American, born 1954. A novelist of Native American communities and layered narration.",
+   "meta": "American, born 1954. A novelist of Native American communities and layered narration. Living, confirmed at the pre-release re-check of September 2026 - a dated first-person interview, and her own bookshop's events listing, March 2026.",
    "knownFor": "Multi-voiced sagas, Ojibwe life, and interlinked short forms.",
    "signature": "The signature is polyphonic structure — recurring narrators across linked books, so community, not a single hero, is the subject. The web of voices is the form's meaning.",
    "works": [
@@ -11456,7 +11456,7 @@
    "category": "Contemporary",
    "name": "Colson Whitehead",
    "description": "The versatile reinventor of American history through form.",
-   "meta": "American, born 1969. A novelist who shifts genre to interrogate the national past.",
+   "meta": "American, born 1969. A novelist who shifts genre to interrogate the national past. Living, confirmed at the pre-release re-check of September 2026 - a broadcast interview in his own words on NPR's Weekend Edition Sunday, 19 July 2026.",
    "knownFor": "Historical reimagining, formal versatility, and racial reckoning.",
    "signature": "The signature is genre-recombination — literalised metaphor and shifting mode that estrange familiar history. The formal move is the argument about how the past is told.",
    "works": [
@@ -11485,7 +11485,7 @@
    "category": "Contemporary",
    "name": "Margaret Atwood",
    "description": "The versatile Canadian anatomist of power and gender.",
-   "meta": "Canadian, born 1939. A prolific novelist, poet, and Booker winner.",
+   "meta": "Canadian, born 1939. A prolific novelist, poet, and Booker winner. Living, confirmed at the pre-release re-check of September 2026 - in person at the Babell festival in Porto, quoted at length, 27 June 2026.",
    "knownFor": "The novel of gender and power and formal versatility.",
    "signature": "The signature is a precise, ironic voice that estranges the familiar to expose its politics. The controlled tone makes the critique cut.",
    "works": [
@@ -11514,7 +11514,7 @@
    "category": "Contemporary",
    "name": "Michael Ondaatje",
    "description": "The lyric collagist of memory and fractured history.",
-   "meta": "Sri Lankan-Canadian, born 1943. A poet-novelist of imagistic, non-linear narrative.",
+   "meta": "Sri Lankan-Canadian, born 1943. A poet-novelist of imagistic, non-linear narrative. Living, confirmed at the pre-release re-check of September 2026 - a ticketed on-stage interview at the Ottawa International Writers Festival, 3 March 2026 - an advance listing, with no after-the-fact report that he took the stage.",
    "knownFor": "The prose-poetic novel, collage structure, and sensuous imagery.",
    "signature": "The signature is poetic fragmentation — image and lyric fragment assembled over plot, so the reader composes the whole. Language and juxtaposition carry the meaning.",
    "works": [
@@ -11543,7 +11543,7 @@
    "category": "Contemporary",
    "name": "Ian McEwan",
    "description": "The precise anatomist of moral consequence and the errant instant.",
-   "meta": "English, born 1948. A novelist of controlled tension and ethical inquiry.",
+   "meta": "English, born 1948. A novelist of controlled tension and ethical inquiry. Living, confirmed at the pre-release re-check of September 2026 - an hour on stage at St Martin-in-the-Fields with a public Q&A and a book-signing, 27 January 2026.",
    "knownFor": "Moral suspense, formal control, and consequential detail.",
    "signature": "The signature is a scrupulous close third person that magnifies the pivotal moment and its aftermath. The precision of perception is the ethical instrument.",
    "works": [
@@ -11572,7 +11572,7 @@
    "category": "Contemporary",
    "name": "Kazuo Ishiguro",
    "description": "The novelist of memory, self-deception, and restraint.",
-   "meta": "British, born 1954. Japanese-born; Nobel laureate of 2017.",
+   "meta": "British, born 1954. Japanese-born; Nobel laureate of 2017. Living, confirmed at the pre-release re-check of September 2026 - attended the Cannes premiere of the adaptation of A Pale View of Hills in person and gave an interview there, 16 and 17 May 2025. Nothing dated in 2026; first to re-run.",
    "knownFor": "The unreliable retrospective narrator and quiet emotional devastation.",
    "signature": "The signature is a controlled first person that reveals its own evasions between the lines. Meaning lives in the gap between what the narrator says and cannot admit.",
    "works": [
@@ -11601,7 +11601,7 @@
    "category": "Contemporary",
    "name": "Zadie Smith",
    "description": "The comic panoramist of multicultural London.",
-   "meta": "English, born 1975. A novelist of social breadth and exuberant voice.",
+   "meta": "English, born 1975. A novelist of social breadth and exuberant voice. Living, confirmed at the pre-release re-check of September 2026 - an essay of her own in the New York Review of Books, 11 June 2026, delivered as a lecture in New York in May 2026.",
    "knownFor": "The social-panorama novel, cultural collision, and comic energy.",
    "signature": "The signature is a polyphonic comic voice that holds many idioms and classes in one register. The plurality of voice is the vision of the city.",
    "works": [
@@ -11659,7 +11659,7 @@
    "category": "Contemporary",
    "name": "Colm Tóibín",
    "description": "The Irish novelist of restraint, silence, and inner life.",
-   "meta": "Irish, born 1955. A writer of quiet interiority and emotional precision.",
+   "meta": "Irish, born 1955. A writer of quiet interiority and emotional precision. Living, confirmed at the pre-release re-check of September 2026 - on stage at the Edinburgh International Book Festival, 1 September 2026.",
    "knownFor": "Understated interiority, exile, and the unspoken.",
    "signature": "The signature is a spare, controlled prose that renders feeling through what is left unsaid. The restraint is the emotional charge.",
    "works": [
@@ -11775,7 +11775,7 @@
    "category": "Contemporary",
    "name": "Annie Ernaux",
    "description": "The French practitioner of impersonal autobiography.",
-   "meta": "French, born 1940. Nobel laureate of 2022 and an anatomist of memory and class.",
+   "meta": "French, born 1940. Nobel laureate of 2022 and an anatomist of memory and class. Living, confirmed at the pre-release re-check of September 2026 - guest of honour in person at the Salon International de l'Edition et du Livre in Rabat, quoted, 1 May 2026.",
    "knownFor": "Autofiction, the sociology of the self, and flat, exact prose.",
    "signature": "The signature is a cold, documentary first person that treats her own life as social evidence. The refusal of lyricism is the method and the ethics.",
    "works": [
@@ -11806,7 +11806,7 @@
    "category": "Contemporary",
    "name": "Patrick Modiano",
    "description": "The French novelist of memory, occupation, and lost identity.",
-   "meta": "French, born 1945. Nobel laureate of 2014 whose slim books circle the same shadows.",
+   "meta": "French, born 1945. Nobel laureate of 2014 whose slim books circle the same shadows. Status carried as unconfirmed at the pre-release re-check of September 2026: the card previously gave a bare birth year and no status, which asserts a living person. The re-check found no death report and no dated item of him acting; the newest item of any kind is his publisher's announcement of a novel for October 2026, which is a catalogue entry and not the person. He gives few interviews, which explains the silence without supplying a date. This is not a claim that Modiano has died.",
    "knownFor": "The mystery of memory, the Occupation, and atmospheric erasure.",
    "signature": "The signature is a spare, fog-lit prose of investigation that never fully recovers the past. The unresolved search is the form's whole meaning.",
    "works": [
@@ -11835,7 +11835,7 @@
    "category": "Contemporary",
    "name": "Olga Tokarczuk",
    "description": "The Polish mythographer of fragments and constellations.",
-   "meta": "Polish, born 1962. Nobel laureate of 2018 and a builder of mosaic novels.",
+   "meta": "Polish, born 1962. Nobel laureate of 2018 and a builder of mosaic novels. Living, confirmed at the pre-release re-check of September 2026 - spoke on stage at Impact'26 in Poznan, quoted at length, 18 May 2026.",
    "knownFor": "The constellation novel, mythic structure, and fragmentary form.",
    "signature": "The signature is the mosaic — scattered fragments the reader must constellate, so structure models a way of seeing the world whole. Assembly is the meaning.",
    "works": [
@@ -11864,7 +11864,7 @@
    "category": "Contemporary",
    "name": "Han Kang",
    "description": "The South Korean novelist of the body, violence, and refusal.",
-   "meta": "South Korean, born 1970. Nobel laureate of 2024 and a writer of spare, charged prose.",
+   "meta": "South Korean, born 1970. Nobel laureate of 2024 and a writer of spare, charged prose. Living, confirmed at the pre-release re-check of September 2026 - a surprise on-stage appearance at the Festival d'Avignon and a press meeting, quoted, 15 and 16 July 2026.",
    "knownFor": "The poetics of the body, historical violence, and quiet extremity.",
    "signature": "The signature is a restrained, image-driven prose that makes silence and the body eloquent. The withholding intensifies rather than dampens the horror.",
    "works": [
@@ -11893,7 +11893,7 @@
    "category": "Contemporary",
    "name": "Jon Fosse",
    "description": "The Norwegian minimalist of slow time and the sacred.",
-   "meta": "Norwegian, born 1959. Nobel laureate of 2023 whose prose approaches litany.",
+   "meta": "Norwegian, born 1959. Nobel laureate of 2023 whose prose approaches litany. Living, confirmed at the pre-release re-check of September 2026 - a journalist reached him for comment and he answered, quoted in VG, 28 August 2026.",
    "knownFor": "Repetition, \"slow prose,\" and mystical minimalism.",
    "signature": "The signature is incantatory repetition and near-absent punctuation, so the sentence becomes a meditative rhythm. The form is a kind of prayer.",
    "works": [
@@ -11924,7 +11924,7 @@
    "category": "Contemporary",
    "name": "Karl Ove Knausgård",
    "description": "The Norwegian maximalist of the ordinary and the confessional.",
-   "meta": "Norwegian, born 1968. Author of a six-volume autobiographical epic.",
+   "meta": "Norwegian, born 1968. Author of a six-volume autobiographical epic. Living, confirmed at the pre-release re-check of September 2026 - an in-person stage appearance recorded as past by the venue itself, Town Hall Seattle, 18 January 2026.",
    "knownFor": "Autofiction, exhaustive everyday detail, and radical self-exposure.",
    "signature": "The signature is unfiltered accretion — the mundane recorded at length until banality becomes existential weight. The refusal to select is the aesthetic gamble.",
    "works": [
@@ -11954,7 +11954,7 @@
    "category": "Contemporary",
    "name": "Elena Ferrante",
    "description": "The pseudonymous novelist of female friendship and Naples.",
-   "meta": "Italian; \"Elena Ferrante\" is a pen name and the author's identity is deliberately withheld. A 2016 journalistic investigation claimed to identify her; the identification is disputed and unconfirmed by the author, and this card takes no position on it.",
+   "meta": "Italian; \"Elena Ferrante\" is a pen name and the author's identity is deliberately withheld. A 2016 journalistic investigation claimed to identify her; the identification is disputed and unconfirmed by the author, and this card takes no position on it. Status carried as unconfirmed at the pre-release re-check of September 2026: the card previously described a contemporary writer, which asserts a living person. Living status cannot be established for a writer who cannot be named - she gives no interviews, makes no appearances and accepted her two most recent prizes in absentia - and the newest dated item of any kind is a 2025 remark by her publisher that carries no claim of contact. This is not a claim that the writer has died; it is the pack declining to assert what it cannot show.",
    "knownFor": "The Neapolitan saga, female friendship, and raw emotional realism.",
    "signature": "The signature is a propulsive, unguarded first person that renders ambivalence and rage without decorum. The anonymity underwrites the candour of the voice.",
    "works": [
@@ -11984,7 +11984,7 @@
    "category": "Contemporary",
    "name": "Orhan Pamuk",
    "description": "The Turkish novelist of East, West, and melancholy.",
-   "meta": "Turkish, born 1952. Nobel laureate of 2006 and a chronicler of Istanbul.",
+   "meta": "Turkish, born 1952. Nobel laureate of 2006 and a chronicler of Istanbul. Living, confirmed at the pre-release re-check of September 2026 - hosted an interview crew in person at the Museum of Innocence in Istanbul, 5 July 2026.",
    "knownFor": "Metafiction, the meeting of civilisations, and the mood he calls hüzün.",
    "signature": "The signature is layered, self-reflexive narration braiding many voices and forms. The intricate structure embodies the divided self of a city between worlds.",
    "works": [
@@ -12013,7 +12013,7 @@
    "category": "Contemporary",
    "name": "Haruki Murakami",
    "description": "The global surrealist of loneliness and the porous real.",
-   "meta": "Japanese, born 1949. An internationally read novelist of dreamlike detachment.",
+   "meta": "Japanese, born 1949. An internationally read novelist of dreamlike detachment. Living, confirmed at the pre-release re-check of September 2026 - his own monthly radio programme, episode 91 in the broadcaster's own archive, 30 August 2026.",
    "knownFor": "Surreal intrusion, pop-inflected prose, and existential solitude.",
    "signature": "The signature is a cool, flat vernacular into which the uncanny leaks unremarked. The deadpan surface makes the surreal feel like ordinary loneliness.",
    "works": [

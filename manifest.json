@@ -1,583 +1,598 @@
 {
-  "schemaVersion": 2,
-  "updated": "2026-08-31",
-  "packs": [
-    {
-      "id": "sf-reference",
-      "label": "Science Fiction",
-      "file": "packs/reference-scifi.json",
-      "packVersion": "2.2.0",
-      "schemaVersion": 2,
-      "lastUpdated": "2026-08-31",
-      "collections": [
-        "Tropes",
-        "Technologies",
-        "Science Primers",
-        "Authors",
-        "Works",
-        "Subgenres",
-        "History",
-        "Psychology",
-        "Character",
-        "Checklist",
-        "Craft"
-      ],
-      "entryCount": 1201,
-      "approxSizeKB": 2182,
-      "status": "live",
-      "mediumCoverage": [
-        "nonfiction",
-        "novel",
-        "short-fiction"
-      ],
-      "adjacentPacks": [
-        "fantasy-reference",
-        "horror-reference",
-        "literary-reference",
-        "war-military-reference",
-        "comedy-reference",
-        "western-reference",
-        "superhero-reference"
-      ]
-    },
-    {
-      "id": "fantasy-reference",
-      "label": "Fantasy",
-      "file": "packs/reference-fantasy.json",
-      "packVersion": "1.1.4",
-      "schemaVersion": 2,
-      "lastUpdated": "2026-08-28",
-      "collections": [
-        "Subgenres",
-        "Tropes",
-        "Authors",
-        "Works",
-        "Craft",
-        "Checklist",
-        "Worldbuilding Systems",
-        "History",
-        "Psychology"
-      ],
-      "entryCount": 613,
-      "approxSizeKB": 799,
-      "status": "live",
-      "mediumCoverage": [
-        "comic",
-        "film",
-        "game",
-        "manga",
-        "novel",
-        "poetry",
-        "short-fiction",
-        "tv"
-      ],
-      "adjacentPacks": [
-        "horror-reference",
-        "literary-reference",
-        "war-military-reference",
-        "comedy-reference",
-        "western-reference",
-        "superhero-reference"
-      ]
-    },
-    {
-      "id": "mystery-crime-thriller-reference",
-      "label": "Mystery, Crime & Thriller",
-      "file": "packs/reference-mystery-crime-thriller.json",
-      "packVersion": "1.0.2",
-      "schemaVersion": 2,
-      "lastUpdated": "2026-08-28",
-      "collections": [
-        "Subgenres",
-        "Tropes",
-        "Authors",
-        "Works",
-        "Craft",
-        "Checklist",
-        "Forensics & Investigation",
-        "History",
-        "Psychology"
-      ],
-      "entryCount": 617,
-      "approxSizeKB": 683,
-      "status": "live",
-      "mediumCoverage": [
-        "audio",
-        "film",
-        "nonfiction",
-        "novel",
-        "short-fiction",
-        "tv"
-      ],
-      "adjacentPacks": [
-        "horror-reference",
-        "literary-reference",
-        "war-military-reference",
-        "comedy-reference",
-        "western-reference",
-        "superhero-reference"
-      ]
-    },
-    {
-      "id": "horror-reference",
-      "label": "Horror",
-      "file": "packs/reference-horror.json",
-      "packVersion": "1.1.3",
-      "schemaVersion": 2,
-      "lastUpdated": "2026-08-28",
-      "collections": [
-        "Subgenres",
-        "Tropes",
-        "Authors",
-        "Works",
-        "Craft",
-        "Checklist",
-        "Folklore & Monster Traditions",
-        "History",
-        "Psychology of Fear"
-      ],
-      "entryCount": 613,
-      "approxSizeKB": 856,
-      "status": "live",
-      "mediumCoverage": [
-        "comic",
-        "film",
-        "game",
-        "graphic-novel",
-        "manga",
-        "nonfiction",
-        "novel",
-        "short-fiction",
-        "tv"
-      ],
-      "adjacentPacks": [
-        "fantasy-reference",
-        "mystery-crime-thriller-reference",
-        "romance-reference",
-        "literary-reference",
-        "war-military-reference",
-        "comedy-reference",
-        "western-reference",
-        "superhero-reference"
-      ]
-    },
-    {
-      "id": "romance-reference",
-      "label": "Romance",
-      "file": "packs/reference-romance.json",
-      "packVersion": "1.1.2",
-      "schemaVersion": 2,
-      "lastUpdated": "2026-08-27",
-      "collections": [
-        "Subgenres",
-        "Tropes",
-        "Authors",
-        "Works",
-        "Craft",
-        "Checklist",
-        "Relationship & Emotional Craft",
-        "Market & Category Conventions",
-        "History",
-        "Psychology of Attraction & Attachment"
-      ],
-      "entryCount": 613,
-      "approxSizeKB": 782,
-      "status": "live",
-      "mediumCoverage": [
-        "film",
-        "game",
-        "manga",
-        "nonfiction",
-        "novel",
-        "tv"
-      ],
-      "adjacentPacks": [
-        "horror-reference",
-        "literary-reference",
-        "war-military-reference",
-        "comedy-reference",
-        "western-reference",
-        "superhero-reference"
-      ]
-    },
-    {
-      "id": "historical-reference",
-      "label": "Historical Fiction",
-      "file": "packs/reference-historical.json",
-      "packVersion": "1.2.2",
-      "schemaVersion": 2,
-      "lastUpdated": "2026-08-27",
-      "collections": [
-        "Subgenres",
-        "Tropes",
-        "Authors",
-        "Works",
-        "Craft",
-        "Checklist",
-        "History",
-        "Psychology of the Historical Imagination",
-        "The Record and Its Silences"
-      ],
-      "entryCount": 613,
-      "approxSizeKB": 582,
-      "status": "live",
-      "mediumCoverage": [
-        "comic",
-        "film",
-        "game",
-        "graphic-novel",
-        "nonfiction",
-        "novel",
-        "tv"
-      ],
-      "adjacentPacks": [
-        "literary-reference",
-        "war-military-reference",
-        "comedy-reference",
-        "western-reference",
-        "superhero-reference"
-      ]
-    },
-    {
-      "id": "literary-reference",
-      "label": "Literary Fiction",
-      "file": "packs/reference-literary.json",
-      "packVersion": "1.1.2",
-      "schemaVersion": 2,
-      "lastUpdated": "2026-08-28",
-      "collections": [
-        "Subgenres",
-        "Tropes",
-        "Authors",
-        "Works",
-        "Craft",
-        "Checklist",
-        "Style, Voice & Form",
-        "Movements & Poetics",
-        "History",
-        "Psychology of the Literary Imagination"
-      ],
-      "entryCount": 613,
-      "approxSizeKB": 615,
-      "status": "live",
-      "mediumCoverage": [
-        "film",
-        "nonfiction",
-        "novel",
-        "short-fiction",
-        "tv"
-      ],
-      "adjacentPacks": [
-        "sf-reference",
-        "fantasy-reference",
-        "mystery-crime-thriller-reference",
-        "horror-reference",
-        "romance-reference",
-        "historical-reference",
-        "war-military-reference",
-        "comedy-reference",
-        "western-reference",
-        "superhero-reference"
-      ]
-    },
-    {
-      "id": "war-military-reference",
-      "label": "War / Military",
-      "file": "packs/reference-war-military.json",
-      "packVersion": "1.2.2",
-      "schemaVersion": 2,
-      "lastUpdated": "2026-08-28",
-      "collections": [
-        "Subgenres",
-        "Tropes",
-        "Authors",
-        "Works",
-        "Craft",
-        "Checklist",
-        "Combat, Command and Friction",
-        "History",
-        "Psychology of Command, Fear and Aftermath"
-      ],
-      "entryCount": 614,
-      "approxSizeKB": 671,
-      "status": "live",
-      "mediumCoverage": [
-        "film",
-        "game",
-        "graphic-novel",
-        "nonfiction",
-        "novel",
-        "poetry",
-        "short-fiction",
-        "tv"
-      ],
-      "adjacentPacks": [
-        "sf-reference",
-        "fantasy-reference",
-        "mystery-crime-thriller-reference",
-        "horror-reference",
-        "romance-reference",
-        "historical-reference",
-        "literary-reference",
-        "comedy-reference",
-        "western-reference",
-        "superhero-reference"
-      ]
-    },
-    {
-      "id": "comedy-reference",
-      "label": "Comedy / Humor",
-      "file": "packs/reference-comedy.json",
-      "packVersion": "1.2.0",
-      "schemaVersion": 2,
-      "lastUpdated": "2026-08-31",
-      "collections": [
-        "Subgenres",
-        "Tropes",
-        "Authors",
-        "Works",
-        "Craft",
-        "Checklist",
-        "Structure & Timing",
-        "History",
-        "Psychology of Laughter"
-      ],
-      "entryCount": 614,
-      "approxSizeKB": 744,
-      "status": "live",
-      "mediumCoverage": [
-        "audio",
-        "comic",
-        "film",
-        "graphic-novel",
-        "nonfiction",
-        "novel",
-        "poetry",
-        "short-fiction",
-        "stage",
-        "tv"
-      ],
-      "adjacentPacks": [
-        "sf-reference",
-        "fantasy-reference",
-        "mystery-crime-thriller-reference",
-        "horror-reference",
-        "romance-reference",
-        "historical-reference",
-        "literary-reference",
-        "war-military-reference",
-        "western-reference",
-        "superhero-reference"
-      ]
-    },
-    {
-      "id": "western-reference",
-      "label": "Western",
-      "file": "packs/reference-western.json",
-      "packVersion": "1.0.2",
-      "schemaVersion": 2,
-      "lastUpdated": "2026-08-28",
-      "collections": [
-        "Subgenres",
-        "Tropes",
-        "Authors",
-        "Works",
-        "Craft",
-        "Checklist",
-        "Frontier Myth and Revision",
-        "The Working West",
-        "History",
-        "Psychology of the Frontier"
-      ],
-      "entryCount": 612,
-      "approxSizeKB": 738,
-      "status": "live",
-      "mediumCoverage": [
-        "audio",
-        "comic",
-        "film",
-        "game",
-        "graphic-novel",
-        "manga",
-        "nonfiction",
-        "novel",
-        "short-fiction",
-        "tv"
-      ],
-      "adjacentPacks": [
-        "sf-reference",
-        "fantasy-reference",
-        "mystery-crime-thriller-reference",
-        "horror-reference",
-        "romance-reference",
-        "historical-reference",
-        "literary-reference",
-        "war-military-reference",
-        "comedy-reference",
-        "superhero-reference"
-      ]
-    },
-    {
-      "id": "superhero-reference",
-      "label": "Superhero",
-      "file": "packs/reference-superhero.json",
-      "packVersion": "1.2.0",
-      "schemaVersion": 2,
-      "lastUpdated": "2026-08-31",
-      "collections": [
-        "Subgenres",
-        "Tropes",
-        "Authors",
-        "Works",
-        "Craft",
-        "Checklist",
-        "Continuity, Legacy and the Reset",
-        "Powers, Limits and Cost",
-        "History",
-        "Psychology of the Superhero"
-      ],
-      "entryCount": 614,
-      "approxSizeKB": 840,
-      "status": "live",
-      "mediumCoverage": [
-        "audio",
-        "comic",
-        "film",
-        "game",
-        "graphic-novel",
-        "manga",
-        "nonfiction",
-        "novel",
-        "tv"
-      ],
-      "adjacentPacks": [
-        "sf-reference",
-        "fantasy-reference",
-        "mystery-crime-thriller-reference",
-        "horror-reference",
-        "romance-reference",
-        "historical-reference",
-        "literary-reference",
-        "war-military-reference",
-        "comedy-reference",
-        "western-reference",
-        "manga-reference"
-      ]
-    },
-    {
-      "id": "manga-reference",
-      "label": "Manga",
-      "file": "packs/reference-manga.json",
-      "packVersion": "1.1.0",
-      "schemaVersion": 2,
-      "lastUpdated": "2026-08-31",
-      "collections": [
-        "Subgenres",
-        "Tropes",
-        "Creators",
-        "Works",
-        "Craft",
-        "Checklist",
-        "Serialisation, the Magazine and the Market",
-        "Page, Panel and the Turn",
-        "History",
-        "Psychology of the Reader"
-      ],
-      "entryCount": 613,
-      "approxSizeKB": 816,
-      "status": "live",
-      "mediumCoverage": [
-        "film",
-        "manga",
-        "nonfiction",
-        "tv"
-      ]
-    },
-    {
-      "id": "tv-formats-reference",
-      "label": "TV Formats",
-      "file": "packs/reference-tv-formats.json",
-      "packVersion": "1.0.0",
-      "schemaVersion": 2,
-      "lastUpdated": "2026-08-31",
-      "collections": [
-        "Subgenres",
-        "Tropes",
-        "Creators",
-        "Works",
-        "Craft",
-        "Checklist",
-        "The Bible, the Room and the Season Order",
-        "Format Rights, the Remake and the Territory",
-        "History",
-        "Psychology of the Viewer"
-      ],
-      "entryCount": 612,
-      "approxSizeKB": 770,
-      "status": "live",
-      "mediumCoverage": [
-        "audio",
-        "film",
-        "nonfiction",
-        "tv"
-      ],
-      "adjacentPacks": [
-        "comedy-reference",
-        "manga-reference",
-        "superhero-reference",
-        "sf-reference"
-      ]
-    },
-    {
-      "id": "erotica-reference",
-      "label": "Erotica",
-      "file": "packs/reference-erotica.json",
-      "packVersion": "0.0.0",
-      "schemaVersion": 2,
-      "lastUpdated": null,
-      "collections": [
-        "Tropes",
-        "Subgenres",
-        "Authors",
-        "Works",
-        "Craft",
-        "Checklist"
-      ],
-      "entryCount": 0,
-      "approxSizeKB": 0,
-      "status": "planned",
-      "mediumCoverage": [
-        "novel"
-      ],
-      "adjacentPacks": [
-        "romance-reference"
-      ]
-    },
-    {
-      "id": "religious-inspirational-reference",
-      "label": "Religious / Inspirational",
-      "file": "packs/reference-religious-inspirational.json",
-      "packVersion": "0.0.0",
-      "schemaVersion": 2,
-      "lastUpdated": null,
-      "collections": [
-        "Tropes",
-        "Subgenres",
-        "Authors",
-        "Works",
-        "Craft",
-        "Checklist"
-      ],
-      "entryCount": 0,
-      "approxSizeKB": 0,
-      "status": "planned",
-      "mediumCoverage": [
-        "novel",
-        "film"
-      ],
-      "adjacentPacks": [
-        "literary-reference"
-      ]
-    }
-  ]
+ "schemaVersion": 2,
+ "updated": "2026-09-04",
+ "packs": [
+  {
+   "id": "sf-reference",
+   "label": "Science Fiction",
+   "file": "packs/reference-scifi.json",
+   "packVersion": "2.2.0",
+   "schemaVersion": 2,
+   "lastUpdated": "2026-08-31",
+   "collections": [
+    "Tropes",
+    "Technologies",
+    "Science Primers",
+    "Authors",
+    "Works",
+    "Subgenres",
+    "History",
+    "Psychology",
+    "Character",
+    "Checklist",
+    "Craft"
+   ],
+   "entryCount": 1201,
+   "approxSizeKB": 2182,
+   "status": "live",
+   "mediumCoverage": [
+    "nonfiction",
+    "novel",
+    "short-fiction"
+   ],
+   "adjacentPacks": [
+    "fantasy-reference",
+    "horror-reference",
+    "literary-reference",
+    "war-military-reference",
+    "comedy-reference",
+    "western-reference",
+    "superhero-reference"
+   ]
+  },
+  {
+   "id": "fantasy-reference",
+   "label": "Fantasy",
+   "file": "packs/reference-fantasy.json",
+   "packVersion": "1.1.4",
+   "schemaVersion": 2,
+   "lastUpdated": "2026-08-28",
+   "collections": [
+    "Subgenres",
+    "Tropes",
+    "Authors",
+    "Works",
+    "Craft",
+    "Checklist",
+    "Worldbuilding Systems",
+    "History",
+    "Psychology"
+   ],
+   "entryCount": 613,
+   "approxSizeKB": 799,
+   "status": "live",
+   "mediumCoverage": [
+    "comic",
+    "film",
+    "game",
+    "manga",
+    "novel",
+    "poetry",
+    "short-fiction",
+    "tv"
+   ],
+   "adjacentPacks": [
+    "horror-reference",
+    "literary-reference",
+    "war-military-reference",
+    "comedy-reference",
+    "western-reference",
+    "superhero-reference"
+   ]
+  },
+  {
+   "id": "mystery-crime-thriller-reference",
+   "label": "Mystery, Crime & Thriller",
+   "file": "packs/reference-mystery-crime-thriller.json",
+   "packVersion": "1.0.2",
+   "schemaVersion": 2,
+   "lastUpdated": "2026-08-28",
+   "collections": [
+    "Subgenres",
+    "Tropes",
+    "Authors",
+    "Works",
+    "Craft",
+    "Checklist",
+    "Forensics & Investigation",
+    "History",
+    "Psychology"
+   ],
+   "entryCount": 617,
+   "approxSizeKB": 683,
+   "status": "live",
+   "mediumCoverage": [
+    "audio",
+    "film",
+    "nonfiction",
+    "novel",
+    "short-fiction",
+    "tv"
+   ],
+   "adjacentPacks": [
+    "horror-reference",
+    "literary-reference",
+    "war-military-reference",
+    "comedy-reference",
+    "western-reference",
+    "superhero-reference"
+   ]
+  },
+  {
+   "id": "horror-reference",
+   "label": "Horror",
+   "file": "packs/reference-horror.json",
+   "packVersion": "1.1.3",
+   "schemaVersion": 2,
+   "lastUpdated": "2026-08-28",
+   "collections": [
+    "Subgenres",
+    "Tropes",
+    "Authors",
+    "Works",
+    "Craft",
+    "Checklist",
+    "Folklore & Monster Traditions",
+    "History",
+    "Psychology of Fear"
+   ],
+   "entryCount": 613,
+   "approxSizeKB": 856,
+   "status": "live",
+   "mediumCoverage": [
+    "comic",
+    "film",
+    "game",
+    "graphic-novel",
+    "manga",
+    "nonfiction",
+    "novel",
+    "short-fiction",
+    "tv"
+   ],
+   "adjacentPacks": [
+    "fantasy-reference",
+    "mystery-crime-thriller-reference",
+    "romance-reference",
+    "literary-reference",
+    "war-military-reference",
+    "comedy-reference",
+    "western-reference",
+    "superhero-reference"
+   ]
+  },
+  {
+   "id": "romance-reference",
+   "label": "Romance",
+   "file": "packs/reference-romance.json",
+   "packVersion": "1.1.3",
+   "schemaVersion": 2,
+   "lastUpdated": "2026-09-03",
+   "collections": [
+    "Subgenres",
+    "Tropes",
+    "Authors",
+    "Works",
+    "Craft",
+    "Checklist",
+    "Relationship & Emotional Craft",
+    "Market & Category Conventions",
+    "History",
+    "Psychology of Attraction & Attachment"
+   ],
+   "entryCount": 613,
+   "approxSizeKB": 783,
+   "status": "live",
+   "mediumCoverage": [
+    "film",
+    "game",
+    "manga",
+    "nonfiction",
+    "novel",
+    "tv"
+   ],
+   "adjacentPacks": [
+    "horror-reference",
+    "literary-reference",
+    "war-military-reference",
+    "comedy-reference",
+    "western-reference",
+    "superhero-reference"
+   ]
+  },
+  {
+   "id": "historical-reference",
+   "label": "Historical Fiction",
+   "file": "packs/reference-historical.json",
+   "packVersion": "1.2.2",
+   "schemaVersion": 2,
+   "lastUpdated": "2026-08-27",
+   "collections": [
+    "Subgenres",
+    "Tropes",
+    "Authors",
+    "Works",
+    "Craft",
+    "Checklist",
+    "History",
+    "Psychology of the Historical Imagination",
+    "The Record and Its Silences"
+   ],
+   "entryCount": 613,
+   "approxSizeKB": 582,
+   "status": "live",
+   "mediumCoverage": [
+    "comic",
+    "film",
+    "game",
+    "graphic-novel",
+    "nonfiction",
+    "novel",
+    "tv"
+   ],
+   "adjacentPacks": [
+    "literary-reference",
+    "war-military-reference",
+    "comedy-reference",
+    "western-reference",
+    "superhero-reference"
+   ]
+  },
+  {
+   "id": "literary-reference",
+   "label": "Literary Fiction",
+   "file": "packs/reference-literary.json",
+   "packVersion": "1.1.3",
+   "schemaVersion": 2,
+   "lastUpdated": "2026-09-04",
+   "collections": [
+    "Subgenres",
+    "Tropes",
+    "Authors",
+    "Works",
+    "Craft",
+    "Checklist",
+    "Style, Voice & Form",
+    "Movements & Poetics",
+    "History",
+    "Psychology of the Literary Imagination"
+   ],
+   "entryCount": 613,
+   "approxSizeKB": 621,
+   "status": "live",
+   "mediumCoverage": [
+    "film",
+    "nonfiction",
+    "novel",
+    "short-fiction",
+    "tv"
+   ],
+   "adjacentPacks": [
+    "sf-reference",
+    "fantasy-reference",
+    "mystery-crime-thriller-reference",
+    "horror-reference",
+    "romance-reference",
+    "historical-reference",
+    "war-military-reference",
+    "comedy-reference",
+    "western-reference",
+    "superhero-reference"
+   ]
+  },
+  {
+   "id": "war-military-reference",
+   "label": "War / Military",
+   "file": "packs/reference-war-military.json",
+   "packVersion": "1.2.4",
+   "schemaVersion": 2,
+   "lastUpdated": "2026-09-04",
+   "collections": [
+    "Subgenres",
+    "Tropes",
+    "Authors",
+    "Works",
+    "Craft",
+    "Checklist",
+    "Combat, Command and Friction",
+    "History",
+    "Psychology of Command, Fear and Aftermath"
+   ],
+   "entryCount": 614,
+   "approxSizeKB": 677,
+   "status": "live",
+   "mediumCoverage": [
+    "film",
+    "game",
+    "graphic-novel",
+    "nonfiction",
+    "novel",
+    "poetry",
+    "short-fiction",
+    "stage",
+    "tv"
+   ],
+   "adjacentPacks": [
+    "sf-reference",
+    "fantasy-reference",
+    "mystery-crime-thriller-reference",
+    "horror-reference",
+    "romance-reference",
+    "historical-reference",
+    "literary-reference",
+    "comedy-reference",
+    "western-reference",
+    "superhero-reference"
+   ]
+  },
+  {
+   "id": "comedy-reference",
+   "label": "Comedy / Humor",
+   "file": "packs/reference-comedy.json",
+   "packVersion": "1.2.1",
+   "schemaVersion": 2,
+   "lastUpdated": "2026-09-04",
+   "collections": [
+    "Subgenres",
+    "Tropes",
+    "Authors",
+    "Works",
+    "Craft",
+    "Checklist",
+    "Structure & Timing",
+    "History",
+    "Psychology of Laughter"
+   ],
+   "entryCount": 614,
+   "approxSizeKB": 749,
+   "status": "live",
+   "mediumCoverage": [
+    "audio",
+    "comic",
+    "film",
+    "graphic-novel",
+    "nonfiction",
+    "novel",
+    "poetry",
+    "short-fiction",
+    "stage",
+    "tv"
+   ],
+   "adjacentPacks": [
+    "sf-reference",
+    "fantasy-reference",
+    "mystery-crime-thriller-reference",
+    "horror-reference",
+    "romance-reference",
+    "historical-reference",
+    "literary-reference",
+    "war-military-reference",
+    "western-reference",
+    "superhero-reference"
+   ]
+  },
+  {
+   "id": "western-reference",
+   "label": "Western",
+   "file": "packs/reference-western.json",
+   "packVersion": "1.0.2",
+   "schemaVersion": 2,
+   "lastUpdated": "2026-08-28",
+   "collections": [
+    "Subgenres",
+    "Tropes",
+    "Authors",
+    "Works",
+    "Craft",
+    "Checklist",
+    "Frontier Myth and Revision",
+    "The Working West",
+    "History",
+    "Psychology of the Frontier"
+   ],
+   "entryCount": 612,
+   "approxSizeKB": 738,
+   "status": "live",
+   "mediumCoverage": [
+    "audio",
+    "comic",
+    "film",
+    "game",
+    "graphic-novel",
+    "manga",
+    "nonfiction",
+    "novel",
+    "short-fiction",
+    "tv"
+   ],
+   "adjacentPacks": [
+    "sf-reference",
+    "fantasy-reference",
+    "mystery-crime-thriller-reference",
+    "horror-reference",
+    "romance-reference",
+    "historical-reference",
+    "literary-reference",
+    "war-military-reference",
+    "comedy-reference",
+    "superhero-reference"
+   ]
+  },
+  {
+   "id": "superhero-reference",
+   "label": "Superhero",
+   "file": "packs/reference-superhero.json",
+   "packVersion": "1.2.1",
+   "schemaVersion": 2,
+   "lastUpdated": "2026-09-04",
+   "collections": [
+    "Subgenres",
+    "Tropes",
+    "Authors",
+    "Works",
+    "Craft",
+    "Checklist",
+    "Continuity, Legacy and the Reset",
+    "Powers, Limits and Cost",
+    "History",
+    "Psychology of the Superhero"
+   ],
+   "entryCount": 614,
+   "approxSizeKB": 817,
+   "status": "live",
+   "mediumCoverage": [
+    "audio",
+    "comic",
+    "film",
+    "game",
+    "graphic-novel",
+    "manga",
+    "nonfiction",
+    "novel",
+    "tv"
+   ],
+   "adjacentPacks": [
+    "sf-reference",
+    "fantasy-reference",
+    "mystery-crime-thriller-reference",
+    "horror-reference",
+    "romance-reference",
+    "historical-reference",
+    "literary-reference",
+    "war-military-reference",
+    "comedy-reference",
+    "western-reference",
+    "manga-reference"
+   ]
+  },
+  {
+   "id": "manga-reference",
+   "label": "Manga",
+   "file": "packs/reference-manga.json",
+   "packVersion": "1.1.0",
+   "schemaVersion": 2,
+   "lastUpdated": "2026-08-31",
+   "collections": [
+    "Subgenres",
+    "Tropes",
+    "Creators",
+    "Works",
+    "Craft",
+    "Checklist",
+    "Serialisation, the Magazine and the Market",
+    "Page, Panel and the Turn",
+    "History",
+    "Psychology of the Reader"
+   ],
+   "entryCount": 613,
+   "approxSizeKB": 816,
+   "status": "live",
+   "mediumCoverage": [
+    "film",
+    "manga",
+    "nonfiction",
+    "tv"
+   ]
+  },
+  {
+   "id": "tv-formats-reference",
+   "label": "TV Formats",
+   "file": "packs/reference-tv-formats.json",
+   "packVersion": "1.0.0",
+   "schemaVersion": 2,
+   "lastUpdated": "2026-08-31",
+   "collections": [
+    "Subgenres",
+    "Tropes",
+    "Creators",
+    "Works",
+    "Craft",
+    "Checklist",
+    "The Bible, the Room and the Season Order",
+    "Format Rights, the Remake and the Territory",
+    "History",
+    "Psychology of the Viewer"
+   ],
+   "entryCount": 612,
+   "approxSizeKB": 770,
+   "status": "live",
+   "mediumCoverage": [
+    "audio",
+    "film",
+    "nonfiction",
+    "tv"
+   ],
+   "adjacentPacks": [
+    "comedy-reference",
+    "manga-reference",
+    "superhero-reference",
+    "sf-reference"
+   ]
+  },
+  {
+   "id": "erotica-reference",
+   "label": "Erotica",
+   "file": "packs/reference-erotica.json",
+   "packVersion": "1.0.0",
+   "schemaVersion": 2,
+   "lastUpdated": "2026-09-04",
+   "collections": [
+    "Subgenres",
+    "Tropes",
+    "Authors",
+    "Works",
+    "Craft",
+    "Checklist",
+    "The Legal Test and the Craft It Produced",
+    "Escalation and the Ending Problem",
+    "History",
+    "Psychology of Desire and Fantasy"
+   ],
+   "entryCount": 612,
+   "approxSizeKB": 793,
+   "status": "live",
+   "mediumCoverage": [
+    "comic",
+    "film",
+    "graphic-novel",
+    "nonfiction",
+    "novel",
+    "poetry",
+    "short-fiction"
+   ],
+   "adjacentPacks": [
+    "romance-reference",
+    "literary-reference",
+    "historical-reference",
+    "horror-reference",
+    "comedy-reference"
+   ]
+  },
+  {
+   "id": "religious-inspirational-reference",
+   "label": "Religious / Inspirational",
+   "file": "packs/reference-religious-inspirational.json",
+   "packVersion": "0.0.0",
+   "schemaVersion": 2,
+   "lastUpdated": null,
+   "collections": [
+    "Tropes",
+    "Subgenres",
+    "Authors",
+    "Works",
+    "Craft",
+    "Checklist"
+   ],
+   "entryCount": 0,
+   "approxSizeKB": 0,
+   "status": "planned",
+   "mediumCoverage": [
+    "novel",
+    "film"
+   ],
+   "adjacentPacks": [
+    "literary-reference"
+   ]
+  }
+ ]
 }

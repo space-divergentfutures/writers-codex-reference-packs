@@ -31,6 +31,7 @@ Part 4 is the rule for keeping this file alive.
 | **P** | Pending. The rule applies to this pack and has not been applied. A real debt. |
 | **–** | Does not apply. The pack has no material the rule touches. |
 | **?** | Unaudited. Nobody has checked. Treat as pending until checked. |
+| **C** | **Committed at blueprint, not yet verified against shipped cards.** Added 2026-09-03 with the Erotica column. Converts to `A`, `P` or `–` at that pack's step 9 and **never stands after a pack ships**. |
 
 Pack columns, in build order, with the version on disk at 2026-08-21:
 
@@ -100,134 +101,144 @@ entries; **Tool** = build tooling, which only affects future packs.
 
 ## 1A. Schema and file shape
 
-| ID | Rule | Level | From | SF | MCT | FAN | HOR | ROM | HIS | LIT | WAR | COM | WES | SUP | MNG |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|-----|
-| S-01 | `medium` is **mandatory and enum-bound** on every `work_cards` entry. There is no omission path — the validator errors on a missing value. The "omit it and name the form in prose" escape hatch recorded in several handoffs **does not exist**. | Doc + Card | LIT 17.14, COM 17.6 | A | A | A | A | A | A | A | A | A | A | A | A |
-| S-02 | ~~Stage plays, classical drama, epic and verse narrative take `medium: novel`, with the true form named in the card's opening clause (`Stage play.`).~~ **RETIRED 2026-08-28 — the rule documented a falsehood.** The medium enum had no word for a play, a short story or a poem, so this row told builders to write `novel` and explain in prose. **Schema v2.1 adds `stage`, `short-fiction` and `poetry` (S-11).** Measured at retirement: **117 work cards across TEN packs carry `medium: novel` while their own text says otherwise** — *Twelfth Night*, *Tartuffe*, *Lysistrate* and *The Importance of Being Earnest* among them. **This row was marked `A` for Comedy and `–` ("does not apply") for eight packs that are full of it.** Sixth ledger row found narrower than the disk, after S-05, S-06, T-07, S-08 and C-08 — and the only one that prescribed the defect rather than merely missing it. **RETAG APPLIED 2026-08-28** — 110 cards across EIGHT packs, not 117 across ten; see the dated section below and `_build/retro-pass/medium-retag-log.md`. `–` for ROM and HIS means five detectors and a hand read found no card this rule touched, not that nobody looked. | Doc | COM 17.6 | A | A | A | A | – | – | A | A | A | A | – | – |
-| S-03 | `example_cards.medium` is free text; `work_cards.medium` is a closed enum. Free-text values must be minted deliberately and recorded, never invented mid-build. Current vocabulary: novel · film · tv · play · comic · nonfiction · audio · stand-up · radio · sketch. | Doc + Tool | HOR guard 5, COM 17.13, 17.24 | ? | ? | ? | A | A | A | A | A | A | A | P | A |
-| S-04 | `works[].start` is the real field name. It is a typo shared by every live pack and it **stays**. | Doc | FAN | A | A | A | A | A | A | A | A | A | A | A | A |
-| S-05 | Years are strings everywhere, negative years included. Collection ids are `work` and `psychology`, never `psych`. Full seven-field collection metadata; `_label`/`_badge`/`_bg`/`_fg` baked on every entry. **Corrected 2026-08-27 (retro-pass, `TOOLS-VERIFIED.md` §"What the port had to change", 2026-08-25): the collection-id clause is contradicted by four packs on disk — Historical, Horror and Romance use `psych`, and Science Fiction's work collection is `book`. Marked A for every pack without being re-read. Not fixed in this pass (a collection-id rename is schema surgery, out of this pass's remit); cells for the four packs below changed to `?`.** **SF's half closed 2026-08-28: the `book` collection was renamed `work` in 2.0.0 under the dated PACK-SPEC §2 exception, so no pack uses `book` any more and SF's cell is `A`. The three `psych` packs are Historical, Horror and Romance — this row's own prose had them right and PACK-SPEC's standard-ids note had them backwards; corrected on disk the same day.** | Doc + Card | Audit 2026-08-19, LIT 17.15 | **A** | A | A | ? | ? | ? | A | A | A | A | A | A |
-| S-06 | `work` badge held at `bg #1a2e33` / `fg #8ac8d8`. The lineage's `#1a2028`/`#90aec0` ships in no pack and is not the standard. **Corrected at B2, 2026-08-27: SF's `book` collection's `_bg`/`_fg` disagreed with this standard (`_label`/`_badge` were fixed under T-25's re-bake; the colour question is Class B, not yet ruled, so cells were changed to `?` rather than to `A` — see "Retro-pass B2 corrections" below).** | Doc | ROM 17.12, LIT 17.16, alignment F | **?** | A | **?** | A | A | A | A | A | A | A | A | A |
-| S-07 | Works share **one namespace** per `kind` across all media. Cross-pack duplication of works is intentional and is never deduped. | Doc | HOR | A | A | A | A | A | A | A | A | A | A | A | A |
-| S-08 | Adaptation disambiguation `Title (YYYY film\|tv\|game)` is decided at blueprint stage, not at assembly. The bare title stays with the novel. **Corrected 2026-08-27: the vocabulary itself is narrower than the disk — Superhero has shipped a `(YYYY comic)` form 13 times, so Sonnet's B2 use of it for Horror `author-124` was matching existing practice, not extending the rule (R-029). This is the fourth ledger row found narrower than the disk, after S-05, S-06 and T-07 (R-029). Horror closed 2026-08-27 at B3 verification: R-028's `The Terror (1916 novel)` annotation applied to `author-16`'s bibliography, so all nineteen title collisions in the pass are now closed and `two_statements.py` reports Horror TITLE COLLISION 0.** | Doc | ROM 17.13, HIS, alignment G | A | A | A | **A** | A | A | A | A | A | A | A | A |
-| S-09 | `Title (YYYY, as Pen Name)` folds pseudonym attribution into the works-list note. No fifth author field, no inline `**` in body text. | Doc | ROM | A | A | A | A | A | A | A | A | A | ? | ? | ? |
-| S-10 | **The carded year is the year the work first appeared in the form it was written as.** One rule with three surfaces: a novel is carded by **first book publication** with the serial named where it matters; a short story by **first publication in any form**, normally the magazine; a film by **first public release including a festival premiere**. Western found all three separately and only then noticed they were one rule. | Doc + Card | WES 17.58, 17.62, 17.74 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | A |
-| S-11 | **Medium enum, schema v2.1 (2026-08-28): `novel · short-fiction · poetry · stage · film · tv · comic · manga · graphic-novel · game · audio · nonfiction`.** Widened from nine because the enum had no word for three forms the library cards constantly — measured across the twelve packs: **69 plays, 36 short-fiction works and 12 poems tagged `novel`**, plus 74 free-text `"play"` and 74 short-fiction example media. **`radio` NOT added** — use `audio`, name the broadcast in `text`. **`stand-up` NOT added** — card the special by its release medium. **`memoir` is `nonfiction`.** Widening an enum is backward-compatible: all twelve packs validate unchanged against v2.1. **Applied to the schema, the spec, the README and the app; the 117 mis-tagged cards are a separate pass (Part 3 item 21).** **CORRECTION 2026-08-28 (F-21): this row was marked `A` twelve times while `tools/validate_pack.py` still carried the retired nine-value set in its own `MEDIUM` constant** — the schema had the twelve, the thing that enforces the schema did not, and the first pack retagged under v2.1 failed the gate. Reconciled during the retag pass. **Seventh ledger row found narrower than the disk.** | Doc + Tool | SF rebuild, 2026-08-28 | A | A | A | A | A | A | A | A | A | A | A | A |
+| ID | Rule | Level | From | SF | MCT | FAN | HOR | ROM | HIS | LIT | WAR | COM | WES | SUP | MNG | TVF | ERO |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|-----|---|-----|
+| S-01 | `medium` is **mandatory and enum-bound** on every `work_cards` entry. There is no omission path — the validator errors on a missing value. The "omit it and name the form in prose" escape hatch recorded in several handoffs **does not exist**. | Doc + Card | LIT 17.14, COM 17.6 | A | A | A | A | A | A | A | A | A | A | A | A | ? | **A** |
+| S-02 | ~~Stage plays, classical drama, epic and verse narrative take `medium: novel`, with the true form named in the card's opening clause (`Stage play.`).~~ **RETIRED 2026-08-28 — the rule documented a falsehood.** The medium enum had no word for a play, a short story or a poem, so this row told builders to write `novel` and explain in prose. **Schema v2.1 adds `stage`, `short-fiction` and `poetry` (S-11).** Measured at retirement: **117 work cards across TEN packs carry `medium: novel` while their own text says otherwise** — *Twelfth Night*, *Tartuffe*, *Lysistrate* and *The Importance of Being Earnest* among them. **This row was marked `A` for Comedy and `–` ("does not apply") for eight packs that are full of it.** Sixth ledger row found narrower than the disk, after S-05, S-06, T-07, S-08 and C-08 — and the only one that prescribed the defect rather than merely missing it. **RETAG APPLIED 2026-08-28** — 110 cards across EIGHT packs, not 117 across ten; see the dated section below and `_build/retro-pass/medium-retag-log.md`. `–` for ROM and HIS means five detectors and a hand read found no card this rule touched, not that nobody looked. | Doc | COM 17.6 | A | A | A | A | – | – | A | A | A | A | – | – | ? | **A** |
+| S-03 | `example_cards.medium` is free text; `work_cards.medium` is a closed enum. Free-text values must be minted deliberately and recorded, never invented mid-build. Current vocabulary: novel · film · tv · play · comic · nonfiction · audio · stand-up · radio · sketch. | Doc + Tool | HOR guard 5, COM 17.13, 17.24 | ? | ? | ? | A | A | A | A | A | A | A | P | A | ? | **A** |
+| S-04 | `works[].start` is the real field name. It is a typo shared by every live pack and it **stays**. | Doc | FAN | A | A | A | A | A | A | A | A | A | A | A | A | ? | **A** |
+| S-05 | Years are strings everywhere, negative years included. Collection ids are `work` and `psychology`, never `psych`. Full seven-field collection metadata; `_label`/`_badge`/`_bg`/`_fg` baked on every entry. **Corrected 2026-08-27 (retro-pass, `TOOLS-VERIFIED.md` §"What the port had to change", 2026-08-25): the collection-id clause is contradicted by four packs on disk — Historical, Horror and Romance use `psych`, and Science Fiction's work collection is `book`. Marked A for every pack without being re-read. Not fixed in this pass (a collection-id rename is schema surgery, out of this pass's remit); cells for the four packs below changed to `?`.** **SF's half closed 2026-08-28: the `book` collection was renamed `work` in 2.0.0 under the dated PACK-SPEC §2 exception, so no pack uses `book` any more and SF's cell is `A`. The three `psych` packs are Historical, Horror and Romance — this row's own prose had them right and PACK-SPEC's standard-ids note had them backwards; corrected on disk the same day.** | Doc + Card | Audit 2026-08-19, LIT 17.15 | **A** | A | A | ? | ? | ? | A | A | A | A | A | A | ? | **A** |
+| S-06 | `work` badge held at `bg #1a2e33` / `fg #8ac8d8`. The lineage's `#1a2028`/`#90aec0` ships in no pack and is not the standard. **Corrected at B2, 2026-08-27: SF's `book` collection's `_bg`/`_fg` disagreed with this standard (`_label`/`_badge` were fixed under T-25's re-bake; the colour question is Class B, not yet ruled, so cells were changed to `?` rather than to `A` — see "Retro-pass B2 corrections" below).** | Doc | ROM 17.12, LIT 17.16, alignment F | **?** | A | **?** | A | A | A | A | A | A | A | A | A | ? | **A** |
+| S-07 | Works share **one namespace** per `kind` across all media. Cross-pack duplication of works is intentional and is never deduped. | Doc | HOR | A | A | A | A | A | A | A | A | A | A | A | A | ? | **A** |
+| S-08 | Adaptation disambiguation `Title (YYYY film\|tv\|game)` is decided at blueprint stage, not at assembly. The bare title stays with the novel. **Corrected 2026-08-27: the vocabulary itself is narrower than the disk — Superhero has shipped a `(YYYY comic)` form 13 times, so Sonnet's B2 use of it for Horror `author-124` was matching existing practice, not extending the rule (R-029). This is the fourth ledger row found narrower than the disk, after S-05, S-06 and T-07 (R-029). Horror closed 2026-08-27 at B3 verification: R-028's `The Terror (1916 novel)` annotation applied to `author-16`'s bibliography, so all nineteen title collisions in the pass are now closed and `two_statements.py` reports Horror TITLE COLLISION 0.** | Doc | ROM 17.13, HIS, alignment G | A | A | A | **A** | A | A | A | A | A | A | A | A | ? | **A** |
+| S-09 | `Title (YYYY, as Pen Name)` folds pseudonym attribution into the works-list note. No fifth author field, no inline `**` in body text. | Doc | ROM | A | A | A | A | A | A | A | A | A | ? | ? | ? | ? | **A** |
+| S-10 | **The carded year is the year the work first appeared in the form it was written as.** One rule with three surfaces: a novel is carded by **first book publication** with the serial named where it matters; a short story by **first publication in any form**, normally the magazine; a film by **first public release including a festival premiere**. Western found all three separately and only then noticed they were one rule. | Doc + Card | WES 17.58, 17.62, 17.74 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | A | ? | **A** |
+| S-11 | **Medium enum, schema v2.1 (2026-08-28): `novel · short-fiction · poetry · stage · film · tv · comic · manga · graphic-novel · game · audio · nonfiction`.** Widened from nine because the enum had no word for three forms the library cards constantly — measured across the twelve packs: **69 plays, 36 short-fiction works and 12 poems tagged `novel`**, plus 74 free-text `"play"` and 74 short-fiction example media. **`radio` NOT added** — use `audio`, name the broadcast in `text`. **`stand-up` NOT added** — card the special by its release medium. **`memoir` is `nonfiction`.** Widening an enum is backward-compatible: all twelve packs validate unchanged against v2.1. **Applied to the schema, the spec, the README and the app; the 117 mis-tagged cards are a separate pass (Part 3 item 21).** **CORRECTION 2026-08-28 (F-21): this row was marked `A` twelve times while `tools/validate_pack.py` still carried the retired nine-value set in its own `MEDIUM` constant** — the schema had the twelve, the thing that enforces the schema did not, and the first pack retagged under v2.1 failed the gate. Reconciled during the retag pass. **Seventh ledger row found narrower than the disk.** | Doc + Tool | SF rebuild, 2026-08-28 | A | A | A | A | A | A | A | A | A | A | A | A | ? | **A** |
 
 ## 1B. Scope and structure
 
-| ID | Rule | Level | From | SF | MCT | FAN | HOR | ROM | HIS | LIT | WAR | COM | WES | SUP | MNG |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|-----|
-| B-01 | Total inside **580–650**, target **612**. **AMENDED 2026-08-28, pack one only, dated and reasoned (SF rebuild R1).** Science Fiction ships at **1,200**. The reason is a content argument and not a preference: SF is the only genre in this library whose canon spans **five media across a century** — novels, film, television, games, comics — plus a short-fiction tradition larger on its own than some genres' entire canon, and the pack is the working foundation of a six-book universe rather than one genre reference among twelve. The adversarial review ruled 1,200 a vanity number and cut it to ~864; **the operator overruled it and the reason is on the record** (`_build/scifi/grok-review-response.md` Q1). **The review's cost is accepted:** later alignment passes will ask why Fantasy is half the size, and the answer is written down here — the other eleven are sized to their own genres, not held back. SF's cell is `–` for the 580–650 band and **A** for this amendment. | Doc | Grok 2026-08-10; amended SF rebuild 2026-08-28 | – | A | A | A | A | A | A | A | A | A | A | A |
-| B-02 | Eight core collections; specialists capped at **two**. Spending one is the norm (HIS, WAR, COM); spending both is exceptional (ROM, LIT). | Doc | Grok 2026-08-10 | ? | A | A | A | A | A | A | A | A | A | A | A |
-| B-03 | Authors + Works ~300–320 is a **ceiling, not a floor**. Packs land under it deliberately when the verification burden is heavy (ROM 280, LIT 280, COM 282). **AMENDED 2026-08-28, pack one only (SF rebuild R1).** Science Fiction lands at **500** (200 Authors + 300 Works), for the same five-media reason B-01 records, and pays for it with a stated verification obligation rather than a waiver: **R11 — the disclosed-debt count may not grow.** SF holds 91 of the library's 349 "no award research performed" tokens, and every one of the +116 new Works cards carries a real awards line or an explicit dated gap token naming the body consulted. A ceiling raised without a matching obligation is a ceiling removed. | Doc | ROM, alignment J; amended SF rebuild 2026-08-28 | – | – | – | – | A | A | A | A | A | A | A | A |
-| B-04 | The blueprint count table must **sum to the number the pack ships**, with no unallocated slack. A table that does not sum is a target, not a control — the assembly count screen can only be a hard assertion if it checks the shipped figure. | Doc | COM 17.3 | – | – | – | – | – | – | – | – | A | A | A | A |
-| B-05 | Specialist collections are weighted toward **rules, not catalogues**, and are never named "Primers" — the catalogue-flavoured naming both Historical and War rejected on inspection. | Doc | Grok on HOR, HIS 17.1, WAR 17.4 | – | – | A | A | A | A | A | A | A | A | A | A |
-| B-06 | Genre overlap is handled as explicit **hand-off cards naming the owning pack**, decided at blueprint stage. Apparatus size has grown with the library: LIT 6, WAR 7, COM 9. | Doc | HIS 17.5, LIT 17.4 | – | – | – | – | – | A | A | A | A | A | A | A |
-| B-07 | Hand-off card names are checked against the destination pack's shipped card names before locking. §4 asserting "these names are distinct" is not a check. | Doc | COM 17.23 | – | – | – | – | – | – | – | – | A | A | A | A |
-| B-08 | Authors are grouped **by tradition or position, not by era**, wherever a countable content floor keys on `category`. | Doc | WAR 17.31, COM 17.12 | – | – | – | – | – | – | – | A | A | A | A | A |
-| B-09 | Media weighting is permitted where a medium is **constitutive of the genre's craft conversation**, never as a courtesy. Ratified precedents: HOR (film + games), WAR (45/150 screen and games), COM (screen-majority-adjacent). | Doc | HOR 17.3, WAR 17.8, COM 17.4 | A | A | A | A | – | A | A | A | A | A | A | A |
-| B-10 | An organising claim may **concede a named exception class** rather than claim universality. A claim rescued from every counter-example is unfalsifiable. | Doc | COM 17.8 | – | – | – | – | – | – | – | – | A | A | A | A |
-| B-11 | The boundary rule is stated **with its own failure cases and its admitted costs on the card**. A stated cost is cheaper than a rule quietly bent at Batch 12. | Doc | HIS 17.8, COM 17.22 | – | – | – | – | – | A | A | A | A | A | A | A |
-| B-12 | **A pack can state a rule in its blueprint and break it in its cards, and nothing catches it.** The screens test structure, the research passes test facts, and neither tests whether cards obey the pack's own rulings. Western wrote an explicit §0 ruling on its flagship award trap and then broke it, in the same direction, on six cards. **Every ruling that constrains card prose needs either a screen or a named hand-check in the verification brief.** | Doc | WES 17.75 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | A |
-| B-13 | **A roster stops being freely editable the moment another collection points at it, and the number of degrees of freedom a build has falls with every batch merged.** Superhero's pass-D addendum was handed an approved payment plan naming four blocks to fund a new category; **two of them could not pay**, because every one of their works was already cited by merged Continuity cards under the citation screen. The constraint did not exist when the plan was written. **Sequence roster-editing decisions before the collections that cite them, or price the citation lock into the plan.** | Doc | SUP 17.96 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A |
-| B-14 | **Every prose list in a governance document needs a machine-readable twin or it diverges from the build.** Manga's blueprint named sixteen checklists in prose and a different sixteen were built; its §6 named a sensitive subject the Creators roster omitted entirely. The data-form lists — rulings, category tables, the debt set — did not drift once. **Prose is documentation; only a table is a control.** | Scope | MNG 17.42 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A |
-| B-15 | **When one side of a territory split is already locked, the split is an adjacency rule and needs a different instrument.** Reservation requires declaring before either side is drafted. Manga's second specialist was scoped against a Craft collection closed eight batches earlier, so the fence ran the other way: the specialist card must NAME the craft card whose claim it touches. | Scope | MNG 17.32 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A |
-| B-16 | **A creator carded in two packs must be read differently in the second, and only a screen makes that true.** Thirteen of Manga's 120 creators are carded elsewhere in the library — seven by debt obligation, six by coincidence of subject. The debt screen checks that a debt was collected, never that the collection added anything. | Scope | MNG 17.39 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A |
-| B-17 | **A normalisation that lets a debt discharge can let a DECLINE discharge too.** Manga's key-stripping made a bare manga card satisfy both the suffixed manga subject it should and the declined television subject it must not. The decline reported as carded and the only symptom was a count falling. | Scope | MNG 17.48 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A |
+| ID | Rule | Level | From | SF | MCT | FAN | HOR | ROM | HIS | LIT | WAR | COM | WES | SUP | MNG | TVF | ERO |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|-----|---|-----|
+| B-01 | Total inside **580–650**, target **612**. **AMENDED 2026-08-28, pack one only, dated and reasoned (SF rebuild R1).** Science Fiction ships at **1,200**. The reason is a content argument and not a preference: SF is the only genre in this library whose canon spans **five media across a century** — novels, film, television, games, comics — plus a short-fiction tradition larger on its own than some genres' entire canon, and the pack is the working foundation of a six-book universe rather than one genre reference among twelve. The adversarial review ruled 1,200 a vanity number and cut it to ~864; **the operator overruled it and the reason is on the record** (`_build/scifi/grok-review-response.md` Q1). **The review's cost is accepted:** later alignment passes will ask why Fantasy is half the size, and the answer is written down here — the other eleven are sized to their own genres, not held back. SF's cell is `–` for the 580–650 band and **A** for this amendment. | Doc | Grok 2026-08-10; amended SF rebuild 2026-08-28 | – | A | A | A | A | A | A | A | A | A | A | A | ? | **A** |
+| B-02 | Eight core collections; specialists capped at **two**. Spending one is the norm (HIS, WAR, COM); spending both is exceptional (ROM, LIT). | Doc | Grok 2026-08-10 | ? | A | A | A | A | A | A | A | A | A | A | A | ? | **A** |
+| B-03 | Authors + Works ~300–320 is a **ceiling, not a floor**. Packs land under it deliberately when the verification burden is heavy (ROM 280, LIT 280, COM 282). **AMENDED 2026-08-28, pack one only (SF rebuild R1).** Science Fiction lands at **500** (200 Authors + 300 Works), for the same five-media reason B-01 records, and pays for it with a stated verification obligation rather than a waiver: **R11 — the disclosed-debt count may not grow.** SF holds 91 of the library's 349 "no award research performed" tokens, and every one of the +116 new Works cards carries a real awards line or an explicit dated gap token naming the body consulted. A ceiling raised without a matching obligation is a ceiling removed. | Doc | ROM, alignment J; amended SF rebuild 2026-08-28 | – | – | – | – | A | A | A | A | A | A | A | A | ? | **A** |
+| B-04 | The blueprint count table must **sum to the number the pack ships**, with no unallocated slack. A table that does not sum is a target, not a control — the assembly count screen can only be a hard assertion if it checks the shipped figure. | Doc | COM 17.3 | – | – | – | – | – | – | – | – | A | A | A | A | ? | **A** |
+| B-05 | Specialist collections are weighted toward **rules, not catalogues**, and are never named "Primers" — the catalogue-flavoured naming both Historical and War rejected on inspection. | Doc | Grok on HOR, HIS 17.1, WAR 17.4 | – | – | A | A | A | A | A | A | A | A | A | A | ? | **A** |
+| B-06 | Genre overlap is handled as explicit **hand-off cards naming the owning pack**, decided at blueprint stage. Apparatus size has grown with the library: LIT 6, WAR 7, COM 9. | Doc | HIS 17.5, LIT 17.4 | – | – | – | – | – | A | A | A | A | A | A | A | ? | **A** |
+| B-07 | Hand-off card names are checked against the destination pack's shipped card names before locking. §4 asserting "these names are distinct" is not a check. | Doc | COM 17.23 | – | – | – | – | – | – | – | – | A | A | A | A | ? | **A** |
+| B-08 | Authors are grouped **by tradition or position, not by era**, wherever a countable content floor keys on `category`. | Doc | WAR 17.31, COM 17.12 | – | – | – | – | – | – | – | A | A | A | A | A | ? | **A** |
+| B-09 | Media weighting is permitted where a medium is **constitutive of the genre's craft conversation**, never as a courtesy. Ratified precedents: HOR (film + games), WAR (45/150 screen and games), COM (screen-majority-adjacent). | Doc | HOR 17.3, WAR 17.8, COM 17.4 | A | A | A | A | – | A | A | A | A | A | A | A | ? | **A** |
+| B-10 | An organising claim may **concede a named exception class** rather than claim universality. A claim rescued from every counter-example is unfalsifiable. | Doc | COM 17.8 | – | – | – | – | – | – | – | – | A | A | A | A | ? | **A** |
+| B-11 | The boundary rule is stated **with its own failure cases and its admitted costs on the card**. A stated cost is cheaper than a rule quietly bent at Batch 12. | Doc | HIS 17.8, COM 17.22 | – | – | – | – | – | A | A | A | A | A | A | A | ? | **A** |
+| B-12 | **A pack can state a rule in its blueprint and break it in its cards, and nothing catches it.** The screens test structure, the research passes test facts, and neither tests whether cards obey the pack's own rulings. Western wrote an explicit §0 ruling on its flagship award trap and then broke it, in the same direction, on six cards. **Every ruling that constrains card prose needs either a screen or a named hand-check in the verification brief.** | Doc | WES 17.75 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | A | ? | **A** |
+| B-13 | **A roster stops being freely editable the moment another collection points at it, and the number of degrees of freedom a build has falls with every batch merged.** Superhero's pass-D addendum was handed an approved payment plan naming four blocks to fund a new category; **two of them could not pay**, because every one of their works was already cited by merged Continuity cards under the citation screen. The constraint did not exist when the plan was written. **Sequence roster-editing decisions before the collections that cite them, or price the citation lock into the plan.** | Doc | SUP 17.96 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | ? | **A** |
+| B-14 | **Every prose list in a governance document needs a machine-readable twin or it diverges from the build.** Manga's blueprint named sixteen checklists in prose and a different sixteen were built; its §6 named a sensitive subject the Creators roster omitted entirely. The data-form lists — rulings, category tables, the debt set — did not drift once. **Prose is documentation; only a table is a control.** | Scope | MNG 17.42 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | ? | **A** |
+| B-15 | **When one side of a territory split is already locked, the split is an adjacency rule and needs a different instrument.** Reservation requires declaring before either side is drafted. Manga's second specialist was scoped against a Craft collection closed eight batches earlier, so the fence ran the other way: the specialist card must NAME the craft card whose claim it touches. | Scope | MNG 17.32 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | ? | **A** |
+| B-16 | **A creator carded in two packs must be read differently in the second, and only a screen makes that true.** Thirteen of Manga's 120 creators are carded elsewhere in the library — seven by debt obligation, six by coincidence of subject. The debt screen checks that a debt was collected, never that the collection added anything. | Scope | MNG 17.39 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | ? | **P** |
+| B-17 | **A normalisation that lets a debt discharge can let a DECLINE discharge too.** Manga's key-stripping made a bare manga card satisfy both the suffixed manga subject it should and the declined television subject it must not. The decline reported as carded and the only symptom was a count falling. | Scope | MNG 17.48 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | ? | **A** |
 
 ## 1C. Verification standards
 
 These are the rows most likely to carry real debt, because they change card text.
 
-| ID | Rule | Level | From | SF | MCT | FAN | HOR | ROM | HIS | LIT | WAR | COM | WES | SUP | MNG |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|-----|
-| V-01 | **The named-prize trap.** Prizes named after a person are routinely attributed to that person. Search actively for awards *commonly but wrongly attributed*. | Doc + Card | MCT, FAN, HOR | ? | ? | ? | A | A | A | A | A | A | A | A | A |
-| V-02 | **"None" is a verified negative,** not an unresearched blank. Where nothing is found, the card says "None" and the body says why the misattribution arises, **or, where no research was performed at all, the card carries the fourth V-03 state naming that plainly (see V-03).** **Corrected 2026-08-27 (B3, Stage 2, TJ's ruling R-033):** SF, MCT and Fantasy's 258 empty awards strings are now stamped with the fourth-state disclosure token — disclosure discharges this row's requirement (state something, do not stay silent), even though the research itself is deferred to the next pass. | Card | HOR, alignment B; disclosed B3 | A | A | A | A | A | A | A | A | A | A | A | P |
-| V-03 | **Four-way distinction in the Awards field**, the fourth added by TJ's ruling 2026-08-27 (R-033): a *verified negative* ("None" plus the body explaining why the misattribution arises), a *documentation gap* (nothing located, stated as such, with a body and a date where one exists), a *nomination that did not win*, and — new — **no research performed at all**, stated as exactly `[no award research performed — retroactive audit 2026-08-27]`, never Superhero's dated `[gap: … consulted DATE]` form, which asserts a consultation that did not happen. **Corrected 2026-08-27 (R-033, and R-032's finding recurring on this row within the hour): Comedy's cell was marked `A` while 46 of its cards shipped a bare `None.` with not one word about the award record — the opposite of what this row requires — while Horror's 18 bare fields showed their working on ten. Same mark, opposite realities.** Applied at B3 Stage 2: 349 fields stamped with the fourth state (SF 91, MCT 85, FAN 82, COM 46, ROM 37, HOR 8); 14 already-correct verified negatives left untouched (HOR 10, ROM 4); 3 Romance cards (`work-23`, `26`, `61`) left flagged, not fitting any of the four states, handed to the next pass. Manga's 97 are out of this pass's scope. | Card | COM 17.31; corrected R-033, applied B3 | A | A | A | A | P | ? | ? | A | A | A | A | P |
-| V-04 | **Every award claim states its type in the awarding body's own vocabulary.** AMPAS: *Awards of Merit* (annual, member-voted) vs *Special Awards* (Board of Governors, discretionary). Television Academy: *Category* / *Juried* / *Area* — the last explicitly non-competitive. Recording Academy: *Special Merit Awards* and *honorees*. Where a screen award went to producers rather than to a person, say so. | Card | COM 17.26 | **P** | **P** | **P** | **P** | ? | ? | ? | ? | A | A | A | A |
-| V-05 | **Three years attach to every Academy Award** and the card names which one it means: *award year* (eligibility, how AMPAS indexes), *ceremony year* (how the ceremony pages headline it), *release year* (a third and irrelevant figure). Card form: "the 1968 Academy Award, presented at the 41st ceremony in 1969". **BAFTA dates by ceremony year** for both Film and Television. | Card | COM 17.30 | **P** | **P** | **P** | **P** | – | ? | – | ? | A | A | A | – |
-| V-06 | **BAFTA has never used the category name "Best Situation Comedy."** Name the category as BAFTA actually named it in the year concerned; the names overlap rather than succeeding one another. | Card | COM 17.29 | – | – | – | – | – | – | – | – | A | – | – | – |
-| V-07 | **The four television credits are four distinct claims** — creator, writer, showrunner, "developed by". The most common factual error in writing about series television. | Card | COM 17.11 | **P** | **P** | **P** | **P** | ? | ? | ? | ? | A | A | A | – |
-| V-08 | **Submission ≠ nomination.** Also: BAFTA's public GAME Award ≠ BAFTA Best Game; GDCA Audience ≠ Choice; D.I.C.E.-awards ≠ DICE-studio; the four "Game of the Year" awards frequently disagree and are never collapsed. | Card | WAR 17.22 | **P** | – | ? | ? | – | – | – | A | A | ? | A | ? |
-| V-09 | **Preservation designations and polls are not awards.** National Film Registry, Sight & Sound, AFI, BFI, MoMA acquisition, public-domain status, "best of" lists — none appear in an Awards field. Registry eligibility is US-only, so a Registry year on a foreign film is a fabrication. | Card | HOR | ? | ? | ? | A | A | A | A | A | A | A | A | ? |
-| V-10 | **Awards on translated works index the translation, not the work.** A pack that dates by original-language year must say so on the card. | Card | HOR | ? | ? | ? | A | A | A | A | A | A | A | A | A |
-| V-11 | **Living-status check on every author.** Post-cutoff deaths look known and are wrong. Confirmed catches: WAR five (Caputo, Satrapi, Malouf, Deighton, Forsyth); COM three (Lodge, O'Hara, Newhart); ROM (Kinsella); HIS (Ngũgĩ, Vargas Llosa). **This decays — every pack needs re-checking on a schedule, not once.** | Card | alignment K | **P** | **P** | **P** | **P** | **P** | **P** | **P** | **P** | **P** | A | P | A |
-| V-12 | **Three-type pseudonym taxonomy** — personal / publisher-owned / rotating house-stable — asked of every author. Comedy added a fourth: the **character persona** (Dame Edna, Alan Partridge). The performer is the author; the persona is not. | Doc | ROM, COM 17.15, alignment E | ? | ? | ? | ? | A | A | A | A | A | A | A | P |
-| V-13 | **Author biography claims that the boundary deliberately excludes must not re-enter via biography.** War's instance: service and veteran status is a verification target, because jacket copy is unreliable in both directions. | Doc | WAR 17.11 | – | – | – | – | – | ? | – | A | – | – | ? | A |
-| V-14 | **Domain claims are verified like dates.** The genre-specific instance of one rule: HIS period claims, LIT technique attributions, WAR unit/operation/formation/casualty figures. | Doc | HIS, LIT 17.9, WAR 17.10 | ? | ? | ? | ? | ? | A | A | A | A | A | P | A |
-| V-15 | **The ABA "National Book Award" (1936–1942) is a different and earlier prize** from the modern National Book Award (founded 1950). Reconciled wording settled at pack seven and applied. | Card | alignment A | – | – | – | – | A | A | A | – | – | – | – | – |
-| V-16 | **An agent reporting a source as unreachable is itself a claim to verify.** Comedy's Pass H reported three awarding-body sites unreachable; Pass I reached all three via their search and results endpoints. | Doc | COM (Pass H/I) | – | – | – | – | – | – | – | – | A | – | A | A |
-| V-17 | **Contradiction between two verification passes → a narrow third pass, never a judgement call.** Where the third pass cannot settle it, the contradiction is labelled on the card rather than adjudicated. | Doc | ROM 17.17, COM | ? | ? | ? | ? | A | A | A | A | A | A | A | ? |
-| V-18 | Research files' **UNCONFIRMED items are carried into the verification brief as explicit targets**, not left in the research file. | Doc | ROM 17.15, alignment I | ? | ? | ? | A | A | A | A | A | A | A | A | A |
-| V-19 | **The hedge is banned.** “The pack does not enumerate” / “could not confirm against the awarding body's own list” on an `Awards` line. Western used it on twelve cards and **it concealed a documented, easily findable award every single time.** A hedge is a claim that the record was checked and found unclear; used in place of checking, it is a false statement about the pack's own process, invisible to every screen and dressed as the most careful thing on the card. **A card states the award or says nothing about awards.** **Measured 2026-08-27 by `hedge_check.py` (`TOOLS-VERIFIED.md` §7, retro-pass Stage 7): 38 BARE hedges in two packs — War & Military 37, Comedy 1 — everywhere else 0. Refused as a fix per R-030 (both already disclose a gap; what they lack is a body and a date, which needs research, not wording) and re-priced as the first research item of the pass after this one.** | Doc + Card | WES 17.85; measured Stage 7 | A | A | A | A | A | A | A | **P** | **P** | A | A | A |
-| V-20 | **Hedges decay, so verification re-tests hedges and not only assertions.** “Living status not independently confirmed” is a claim with a date on it. Western carried three that were simply out of date; left alone, a pack accumulates a sediment of caution that has stopped being true. | Doc | WES 17.71 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | ? |
-| V-21 | **The research roster is verified against nothing.** Verification passes check cards against the world; nobody checks the roster that fed them. Western's Authors roster recorded a “variously reported” ancestry that is not in dispute at all, and the card dutifully repeated a manufactured caution. **A landmine a research pass supplies can itself be an invention.** | Doc | WES 17.78 | ? | ? | ? | ? | ? | ? | ? | ? | ? | **P** | A | P |
-| V-22 | **A category string can have a discontinuous life.** The Spur's *Best Western Historical Novel* was valid 1972–1987 and again from 2014, and invalid across the twenty-six years between. A card built from a current category list silently back-dates the modern string across the gap, and a date-range check does not catch it. Where the era is uncertain, drop the category and state the body and year. | Doc + Card | WES 17.83 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | ? |
-| V-23 | **A contradiction between two passes may be a convention clash rather than an error.** Western's passes A and F disagreed on the Spur's founding year; the narrow third pass found **both correct** — the awarding body's own site gives the award year and its own history gives the presentation year. The third pass's job is to find which convention each side used before it looks for a mistake. | Doc | WES 17.64 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | ? |
-| V-24 | **When the briefing supplies a name or a claim, the briefing is the least reliable link in the chain.** V-21 says the research roster is verified against nothing; this is the narrower and more uncomfortable case — the *brief*, written by Claude, asserting a fact the sources never supplied. Superhero hit it three times: an invented scholar ("Anand Rai"), a real scholar under the wrong forename ("Kenneth Philips" for **Menaka** Philips, and the card was already correct), and a founding claim about the first superhero RPG that the source denies in the same paragraph that praises the game. **Generalised: when a pass reports an absence, check the query before recording the absence; when a brief supplies a name, verify it before the card does.** | Doc | SUP 17.94 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A |
-| V-25 | **Where a pack states the same fact twice, a screen must compare the two statements.** Manga's Works roster and its Creator bibliographies both carry work years; nothing compared them and ten disagreed, mostly the *popular* year rather than the sourced one. A drift check cannot see it — both copies were wrong together. **Any pack with a roster and a bibliography inherits this.** | Ver | MNG 17.44 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A |
-| V-26 | **A half-verified field reads as verified.** Manga's year screen corrected a bibliography year and never compared the attribution beside it, which was wrong. Verifying one property of a record makes the whole record look checked. **Check both properties or say which one you checked.** | Ver | MNG 17.50 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A |
-| V-27 | **A roster cross-check must compare near-misses, not only matches.** Manga's name cross-check compares by an order-insensitive key; the case it was written for differs by one consonant, so its key differs and it was reported as an ordinary uncarded name. **An instrument that only compares what it has already decided is the same thing is not a cross-check.** | Ver | MNG 17.46 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A |
-| V-28 | **A research document is not a delivery mechanism.** Three times in Manga a fact was recorded correctly in a pack document and never reached a card — checklists named in prose and not built, a sensitive subject the roster omitted, a recorded dispute the card dropped. **Anything a research pass records as required is checked against what shipped, not against the pass.** | Ver | MNG 17.52 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A |
-| V-29 | **A pack's instruments prove internal consistency and nothing about the world.** Thirty-three screens, two rosters and five hand-checks reported Manga perfect while it described a creator dead five months as living. **Re-run V-11 immediately before every release, dated, with the method and its limits recorded.** | Ver | MNG 17.51 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A |
+| ID | Rule | Level | From | SF | MCT | FAN | HOR | ROM | HIS | LIT | WAR | COM | WES | SUP | MNG | TVF | ERO |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|-----|---|-----|
+| V-01 | **The named-prize trap.** Prizes named after a person are routinely attributed to that person. Search actively for awards *commonly but wrongly attributed*. | Doc + Card | MCT, FAN, HOR | ? | ? | ? | A | A | A | A | A | A | A | A | A | ? | **A** |
+| V-02 | **"None" is a verified negative,** not an unresearched blank. Where nothing is found, the card says "None" and the body says why the misattribution arises, **or, where no research was performed at all, the card carries the fourth V-03 state naming that plainly (see V-03).** **Corrected 2026-08-27 (B3, Stage 2, TJ's ruling R-033):** SF, MCT and Fantasy's 258 empty awards strings are now stamped with the fourth-state disclosure token — disclosure discharges this row's requirement (state something, do not stay silent), even though the research itself is deferred to the next pass. | Card | HOR, alignment B; disclosed B3 | A | A | A | A | A | A | A | A | A | A | A | P | ? | **A** |
+| V-03 | **Four-way distinction in the Awards field**, the fourth added by TJ's ruling 2026-08-27 (R-033): a *verified negative* ("None" plus the body explaining why the misattribution arises), a *documentation gap* (nothing located, stated as such, with a body and a date where one exists), a *nomination that did not win*, and — new — **no research performed at all**, stated as exactly `[no award research performed — retroactive audit 2026-08-27]`, never Superhero's dated `[gap: … consulted DATE]` form, which asserts a consultation that did not happen. **Corrected 2026-08-27 (R-033, and R-032's finding recurring on this row within the hour): Comedy's cell was marked `A` while 46 of its cards shipped a bare `None.` with not one word about the award record — the opposite of what this row requires — while Horror's 18 bare fields showed their working on ten. Same mark, opposite realities.** Applied at B3 Stage 2: 349 fields stamped with the fourth state (SF 91, MCT 85, FAN 82, COM 46, ROM 37, HOR 8); 14 already-correct verified negatives left untouched (HOR 10, ROM 4); 3 Romance cards (`work-23`, `26`, `61`) left flagged, not fitting any of the four states, handed to the next pass. Manga's 97 are out of this pass's scope. | Card | COM 17.31; corrected R-033, applied B3 | A | A | A | A | P | ? | ? | A | A | A | A | P | ? | **A** |
+| V-04 | **Every award claim states its type in the awarding body's own vocabulary.** AMPAS: *Awards of Merit* (annual, member-voted) vs *Special Awards* (Board of Governors, discretionary). Television Academy: *Category* / *Juried* / *Area* — the last explicitly non-competitive. Recording Academy: *Special Merit Awards* and *honorees*. Where a screen award went to producers rather than to a person, say so. | Card | COM 17.26 | **P** | **P** | **P** | **P** | ? | ? | ? | ? | A | A | A | A | ? | **A** |
+| V-05 | **Three years attach to every Academy Award** and the card names which one it means: *award year* (eligibility, how AMPAS indexes), *ceremony year* (how the ceremony pages headline it), *release year* (a third and irrelevant figure). Card form: "the 1968 Academy Award, presented at the 41st ceremony in 1969". **BAFTA dates by ceremony year** for both Film and Television. | Card | COM 17.30 | **P** | **P** | **P** | **P** | – | ? | – | ? | A | A | A | – | ? | – |
+| V-06 | **BAFTA has never used the category name "Best Situation Comedy."** Name the category as BAFTA actually named it in the year concerned; the names overlap rather than succeeding one another. | Card | COM 17.29 | – | – | – | – | – | – | – | – | A | – | – | – | ? | – |
+| V-07 | **The four television credits are four distinct claims** — creator, writer, showrunner, "developed by". The most common factual error in writing about series television. | Card | COM 17.11 | **P** | **P** | **P** | **P** | ? | ? | ? | ? | A | A | A | – | ? | – |
+| V-08 | **Submission ≠ nomination.** Also: BAFTA's public GAME Award ≠ BAFTA Best Game; GDCA Audience ≠ Choice; D.I.C.E.-awards ≠ DICE-studio; the four "Game of the Year" awards frequently disagree and are never collapsed. | Card | WAR 17.22 | **P** | – | ? | ? | – | – | – | A | A | ? | A | ? | ? | **A** |
+| V-09 | **Preservation designations and polls are not awards.** National Film Registry, Sight & Sound, AFI, BFI, MoMA acquisition, public-domain status, "best of" lists — none appear in an Awards field. Registry eligibility is US-only, so a Registry year on a foreign film is a fabrication. | Card | HOR | ? | ? | ? | A | A | A | A | A | A | A | A | ? | ? | **A** |
+| V-10 | **Awards on translated works index the translation, not the work.** A pack that dates by original-language year must say so on the card. | Card | HOR | ? | ? | ? | A | A | A | A | A | A | A | A | A | ? | **A** |
+| V-11 | **Living-status check on every author.** Post-cutoff deaths look known and are wrong. Confirmed catches: WAR five (Caputo, Satrapi, Malouf, Deighton, Forsyth); COM three (Lodge, O'Hara, Newhart); ROM (Kinsella); HIS (Ngũgĩ, Vargas Llosa). **This decays — every pack needs re-checking on a schedule, not once.** | Card | alignment K | **P** | **P** | **P** | **P** | **P** | **P** | **A** | **A** | **P** | A | **A** | A | ? | **A** |
+| V-12 | **Three-type pseudonym taxonomy** — personal / publisher-owned / rotating house-stable — asked of every author. Comedy added a fourth: the **character persona** (Dame Edna, Alan Partridge). The performer is the author; the persona is not. | Doc | ROM, COM 17.15, alignment E | ? | ? | ? | ? | A | A | A | A | A | A | A | P | ? | **A** |
+| V-13 | **Author biography claims that the boundary deliberately excludes must not re-enter via biography.** War's instance: service and veteran status is a verification target, because jacket copy is unreliable in both directions. | Doc | WAR 17.11 | – | – | – | – | – | ? | – | A | – | – | ? | A | ? | **A** |
+| V-14 | **Domain claims are verified like dates.** The genre-specific instance of one rule: HIS period claims, LIT technique attributions, WAR unit/operation/formation/casualty figures. | Doc | HIS, LIT 17.9, WAR 17.10 | ? | ? | ? | ? | ? | A | A | A | A | A | P | A | ? | **A** |
+| V-15 | **The ABA "National Book Award" (1936–1942) is a different and earlier prize** from the modern National Book Award (founded 1950). Reconciled wording settled at pack seven and applied. | Card | alignment A | – | – | – | – | A | A | A | – | – | – | – | – | ? | – |
+| V-16 | **An agent reporting a source as unreachable is itself a claim to verify.** Comedy's Pass H reported three awarding-body sites unreachable; Pass I reached all three via their search and results endpoints. | Doc | COM (Pass H/I) | – | – | – | – | – | – | – | – | A | – | A | A | ? | **A** |
+| V-17 | **Contradiction between two verification passes → a narrow third pass, never a judgement call.** Where the third pass cannot settle it, the contradiction is labelled on the card rather than adjudicated. | Doc | ROM 17.17, COM | ? | ? | ? | ? | A | A | A | A | A | A | A | ? | ? | **A** |
+| V-18 | Research files' **UNCONFIRMED items are carried into the verification brief as explicit targets**, not left in the research file. | Doc | ROM 17.15, alignment I | ? | ? | ? | A | A | A | A | A | A | A | A | A | ? | **P** |
+| V-19 | **The hedge is banned.** “The pack does not enumerate” / “could not confirm against the awarding body's own list” on an `Awards` line. Western used it on twelve cards and **it concealed a documented, easily findable award every single time.** A hedge is a claim that the record was checked and found unclear; used in place of checking, it is a false statement about the pack's own process, invisible to every screen and dressed as the most careful thing on the card. **A card states the award or says nothing about awards.** **Measured 2026-08-27 by `hedge_check.py` (`TOOLS-VERIFIED.md` §7, retro-pass Stage 7): 38 BARE hedges in two packs — War & Military 37, Comedy 1 — everywhere else 0. Refused as a fix per R-030 (both already disclose a gap; what they lack is a body and a date, which needs research, not wording) and re-priced as the first research item of the pass after this one.** | Doc + Card | WES 17.85; measured Stage 7 | A | A | A | A | A | A | A | **P** | **P** | A | A | A | ? | **A** |
+| V-20 | **Hedges decay, so verification re-tests hedges and not only assertions.** “Living status not independently confirmed” is a claim with a date on it. Western carried three that were simply out of date; left alone, a pack accumulates a sediment of caution that has stopped being true. | Doc | WES 17.71 | ? | ? | ? | ? | ? | ? | **–** | **A** | ? | A | A | ? | ? | **P** |
+| V-21 | **The research roster is verified against nothing.** Verification passes check cards against the world; nobody checks the roster that fed them. Western's Authors roster recorded a “variously reported” ancestry that is not in dispute at all, and the card dutifully repeated a manufactured caution. **A landmine a research pass supplies can itself be an invention.** | Doc | WES 17.78 | ? | ? | ? | ? | ? | ? | ? | ? | ? | **P** | A | P | ? | **A** |
+| V-22 | **A category string can have a discontinuous life.** The Spur's *Best Western Historical Novel* was valid 1972–1987 and again from 2014, and invalid across the twenty-six years between. A card built from a current category list silently back-dates the modern string across the gap, and a date-range check does not catch it. Where the era is uncertain, drop the category and state the body and year. | Doc + Card | WES 17.83 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | ? | ? | **A** |
+| V-23 | **A contradiction between two passes may be a convention clash rather than an error.** Western's passes A and F disagreed on the Spur's founding year; the narrow third pass found **both correct** — the awarding body's own site gives the award year and its own history gives the presentation year. The third pass's job is to find which convention each side used before it looks for a mistake. | Doc | WES 17.64 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | ? | ? | **A** |
+| V-24 | **When the briefing supplies a name or a claim, the briefing is the least reliable link in the chain.** V-21 says the research roster is verified against nothing; this is the narrower and more uncomfortable case — the *brief*, written by Claude, asserting a fact the sources never supplied. Superhero hit it three times: an invented scholar ("Anand Rai"), a real scholar under the wrong forename ("Kenneth Philips" for **Menaka** Philips, and the card was already correct), and a founding claim about the first superhero RPG that the source denies in the same paragraph that praises the game. **Generalised: when a pass reports an absence, check the query before recording the absence; when a brief supplies a name, verify it before the card does.** | Doc | SUP 17.94 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | ? | **A** |
+| V-25 | **Where a pack states the same fact twice, a screen must compare the two statements.** Manga's Works roster and its Creator bibliographies both carry work years; nothing compared them and ten disagreed, mostly the *popular* year rather than the sourced one. A drift check cannot see it — both copies were wrong together. **Any pack with a roster and a bibliography inherits this.** | Ver | MNG 17.44 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** | A | ? | **A** |
+| V-26 | **A half-verified field reads as verified.** Manga's year screen corrected a bibliography year and never compared the attribution beside it, which was wrong. Verifying one property of a record makes the whole record look checked. **Check both properties or say which one you checked.** | Ver | MNG 17.50 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | ? | **A** |
+| V-27 | **A roster cross-check must compare near-misses, not only matches.** Manga's name cross-check compares by an order-insensitive key; the case it was written for differs by one consonant, so its key differs and it was reported as an ordinary uncarded name. **An instrument that only compares what it has already decided is the same thing is not a cross-check.** | Ver | MNG 17.46 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | ? | **A** |
+| V-28 | **A research document is not a delivery mechanism.** Three times in Manga a fact was recorded correctly in a pack document and never reached a card — checklists named in prose and not built, a sensitive subject the roster omitted, a recorded dispute the card dropped. **Anything a research pass records as required is checked against what shipped, not against the pass.** | Ver | MNG 17.52 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | ? | **A** |
+| V-29 | **A pack's instruments prove internal consistency and nothing about the world.** Thirty-three screens, two rosters and five hand-checks reported Manga perfect while it described a creator dead five months as living. **Re-run V-11 immediately before every release, dated, with the method and its limits recorded.** | Ver | MNG 17.51 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | ? | **A** | A | ? | **A** |
+| V-40 | **Institutional activity in a person's name is not evidence of that person's life.** V-36 rules out the publishing announcement; this is its institutional twin. A centre or a lecture series carrying the name, a biography and its publicity tour, a retirement processed by an employer, a fellowship an institution closes, a programme named in honour, a colloquium a university announces — all of it reads exactly like a living person's footprint and none of it is the person acting. ⟨measured: four of War & Military's five `NO-EVIDENCE` verdicts had to clear an item of this kind — Boston University recording Ha Jin's June 2026 retirement and running a "2026 Ha Jin Lecturer" series; the Shay Moral Injury Center's Fall 2025 certificate programme; a 2025 biography of Tim O'Brien whose entire publicity is his biographer speaking; Notre Dame's January 2025 farewell closing James Webb's fellowship. Load-bearing on at least five of Superhero's twelve⟩. **Confirmation needs the person acting: a first-person statement, a dated interview, an appearance, a course they are listed as teaching, a prize received in person.** Corollary from the same run: a near-name collision can imitate this perfectly — a daily podcast launched in May 2026 under the name Jim Webb is hosted by a different man. Corollary the other way, from Superhero: **a pack can also be wrong by claiming too little** — `author-116` said "the person cannot be documented" of a man holding a named course-leader post. | Ver | WAR V-29 run 2026-09-04; second confirmation SUP the same day | ? | ? | ? | ? | ? | ? | ? | **A** | ? | ? | **A** | ? | ? | ? |
+| V-44 | **An equality check that compares records by key is blind to order, and will report a perfect match on a file that has been reordered.** Reconciling Comedy's batch markdown, a card-by-card comparison keyed on `id` reported **"614 of 614 identical"** while one card sat 580 lines away from its position in the shipped file; `cmp` caught what the check could not. The check was not wrong about anything it looked at — it simply did not look at order, and it reported success in language that sounded total. **Report card-level equality and byte-level equality as two separate facts, and test a comparison that can only return success against a difference it ought to catch** — the break-harness discipline applied to a verification rather than to a parser. ⟨War & Military's second pass, the same day, ran the identical comparison twice: 614 of 614 identical at step zero, then **exactly two differing cards** after the repair, which is that test performed rather than promised⟩ | Ver | COM V-29 run, 2026-09-04; WAR second pass the same day | ? | ? | ? | ? | ? | ? | ? | **A** | **A** | ? | ? | ? | ? | ? |
+| V-47 | **A nationality on an author card is a routing instruction, not a biographical nicety, and it decays like any other claim.** Literary's `author-76` read *"South African, born 1940"*; J.M. Coetzee has been an **Australian citizen since 2006** and resident in Adelaide, and the card as it stood would have sent the next re-check's enquiry to the wrong country. This is the living-status analogue of V-20's decaying hedge: the fact was true when carded and stopped being the operative one. ⟨measured: found by a reader as a side-finding, not by any screen; **129 of that pack's 130 author cards have never had their nationality or residence checked**, and its V-14 cell reads `A`⟩. **Where a card's nationality is the handle a future check would grab, verify it with the check, and state formation and current citizenship separately where they differ.** | Ver | LIT V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | ? | ? | ? | ? | ? | ? | ? |
 
 ## 1D. Content and contested material
 
-| ID | Rule | Level | From | SF | MCT | FAN | HOR | ROM | HIS | LIT | WAR | COM | WES | SUP | MNG |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|-----|
-| C-01 | **Sensitive material is handled, not omitted.** State it at the level the record supports; mark disputes as disputed; never adjudicate. Silent omission is worse than careful inclusion. | Doc | pre-HOR | A | A | A | A | A | A | A | A | A | A | A | A |
-| C-02 | **Content the genre is sought out or avoided for is named plainly** in the card's opening clause, then analysed as craft. Neither censored nor relished. Generalised from Horror's extreme-content rule; Romance extended it to sex on the page, consent depiction and heat levels. | Doc | HOR 4, ROM 17.7, alignment C | ? | ? | ? | A | A | A | A | A | A | A | A | A |
-| C-03 | **Living religions and cultures are not monsters.** State the appropriation history and objections from within the culture; the card functions as a craft warning, not a stat-block. Screened by the cultural-borrowing checklist card. | Doc | HOR 5 | ? | ? | ? | A | A | A | A | A | A | A | A | A |
-| C-04 | **The contested-canon four-point method:** name the contest, state both positions at full strength, take no side, record who contests what. | Doc | ROM 17.8, HIS, alignment D | ? | ? | ? | ? | A | A | A | A | A | A | A | A |
-| C-05 | **A contested card with only one side sourced does not ship.** One-sided sourcing is side-taking that claims not to be. | Doc | WAR 17.23, COM 17.16 | ? | ? | ? | ? | ? | ? | ? | A | A | A | A | A |
-| C-06 | **The last-sentence test.** A card's final sentence is where adjudication hides. Read it separately — and read BOTH `principle` and `application` on a principle card; the argument ends at `principle`'s close but a fix there can leave `application` adjudicating the thing `principle` just declined to (R-000, R-024, F-10). | Doc | COM 17.10; SUP fixed B3 | – | – | – | – | – | – | – | – | A | A | A | A |
-| C-07 | **Contested findings in a specialist's own substrate are carded as contested,** with a CONTESTED list produced before Batch 1. A rules collection that states disputed findings as fact is worse than none. | Doc | HIS, WAR 17.12, 17.24 | – | – | – | – | – | A | – | A | A | A | A | A |
-| C-08 | **A robustness tier on every empirical Psychology card** — robust / contested / unreplicated, or a stated exemption where there is nothing to replicate. **Corrected 2026-08-27 (R-032): the row's own prose contradicted its own cells — it named Comedy as the sole implementer while marking four packs `A`, and Comedy in fact had zero per-card tiers (a collection-level policy card instead) while Western and Superhero were the two packs actually complete at 12/12. Manga's `A` covers cards 1–7 only, nothing on 8–16 — overstated. This is the fifth ledger row found narrower than the disk, after S-05, S-06, T-07 and S-08, and the first whose prose contradicted its own cells.** Applied at B3 (2026-08-27, `stage9-judgement-fixes.md` §5.3): 12 cards tiered and 2 given a stated exemption, drawn from each card's own prose, across COM (3 tiers + its pre-existing policy card), HIS (1), HOR (1), LIT (1), MCT (3), ROM (3 + its pre-existing policy card). **235 psychology cards remain untiered and refused — the research, not the wording, per `remediation-plan.md` §4.2 and R-032.** | Card | COM 17.17 (Grok); corrected R-032, applied B3 | **P** | **P** | **P** | **P** | **P** | **P** | **P** | **P** | **P** | A | A | **P** |
-| C-09 | **Every period-bound rule in a specialist names its period and its army/tradition.** A rule that silently generalises across five centuries is a defect. | Doc | WAR 17.25 | – | – | ? | ? | – | ? | – | A | – | ? | A | – |
-| C-10 | **Contested-canon categories** include: removals later partially restored; awards stripped or refused; persona-versus-performer where the persona is the contested object. The second intersects V-02 — "None" must distinguish never-won from won-and-revoked. | Doc | COM 17.21 (Grok) | ? | ? | ? | ? | ? | ? | ? | ? | A | A | A | ? |
-| C-11 | **No unnamed placeholders and no tradition-level exemplars** — a named published or released work every time. ~~SF carries 7 surviving placeholder example works.~~ **CORRECTED AND DISCHARGED 2026-08-28 (SF rebuild session 1, R3).** The figure of 7 was produced by a regex nobody had broken, and it was repeated by the adversarial review; two further unbroken scans gave 3 and 25. **A verified census — five detectors, seventeen break-cases, `_build/scifi/tools/checks/census.py` — measured 39**, in three classes, of which the third (`APPENDED`: a real title with a placeholder welded on, `Star Trek: Voyager — generic 'clean' fusion`) had never been caught by any regex in this library. All 39 replaced with named released works; SF now measures **0** and the cell is `A`. **Comedy measures 2** (`timing-40`, `timing-60`) while its cell reads `A` — the eighth ledger row found narrower than the disk; not fixed, one pack at a time. Every other pack measures 0 on the verified instrument. | Card | FAN, HOR 17.7; corrected SF rebuild 2026-08-28 | **A** | A | A | A | A | A | A | A | **P** | A | A | A |
-| C-12 | **True crime and any work drawn from a real crime:** analyse the published work's craft only, never the real case, victims or accused. | Doc | MCT | A | A | A | A | A | A | A | A | A | A | – | – |
-| C-13 | **Analysis and opinion only.** No extended quotation, no substitute-for-reading plot summary. This is what keeps the CC BY licensing clean. | Doc | MCT | A | A | A | A | A | A | A | A | A | A | A | A |
-| C-14 | **Where an affiliation cannot be sourced to the subject or an institution, the card states the sourcing rather than asserting the affiliation.** Western's rule failed twice in the same direction — two scholars described in secondary sources as citizens of named nations, with no institutional page saying so — and stating the sourcing is the rule's correct output under a shortage of evidence, not a defeat for it. Its counterpart is the **third identity category: a finding the subject accepted** (Thomas King, 2025), which is neither a live dispute nor a fabrication and which the library had no shape for. | Doc + Card | WES 17.53, 17.72 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | ? |
-| C-15 | **A card that hedges and asserts the same fact is an internal contradiction, and the hedge is the half to keep.** Western asserted a birth year inside the sentence disclaiming any reliable record of the subject's life. | Doc + Card | WES 17.73 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | A |
-| C-16 | **Where a subject has spoken about a sensitive matter more than twice, the card carries every position.** A claim-and-retraction framing is the default and it is often wrong: Jodorowsky's record has three positions, and the middle one — a 2007 revision rather than a withdrawal — contradicts the retraction the two-position framing implies. | Doc + Card | WES 17.77 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | A |
-| C-17 | **House style for a creator who changed the spelling of their own name: use the creator's own final spelling on every work, whatever its publication date, and state the change once, on the earliest carded work.** The alternative — period-accurate spelling per work — is more faithful to each credit box and produces a pack in which one person appears to be two, which is the error the rule exists to prevent. Superhero's case is Ishimori / Ishinomori, respelled in 1986, carrying four Works cards and one Author card across the boundary. | Doc + Card | SUP 17.95 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A |
+| ID | Rule | Level | From | SF | MCT | FAN | HOR | ROM | HIS | LIT | WAR | COM | WES | SUP | MNG | TVF | ERO |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|-----|---|-----|
+| C-01 | **Sensitive material is handled, not omitted.** State it at the level the record supports; mark disputes as disputed; never adjudicate. Silent omission is worse than careful inclusion. | Doc | pre-HOR | A | A | A | A | A | A | A | A | A | A | A | A | ? | **A** |
+| C-02 | **Content the genre is sought out or avoided for is named plainly** in the card's opening clause, then analysed as craft. Neither censored nor relished. Generalised from Horror's extreme-content rule; Romance extended it to sex on the page, consent depiction and heat levels. | Doc | HOR 4, ROM 17.7, alignment C | ? | ? | ? | A | A | A | A | A | A | A | A | A | ? | **A** |
+| C-03 | **Living religions and cultures are not monsters.** State the appropriation history and objections from within the culture; the card functions as a craft warning, not a stat-block. Screened by the cultural-borrowing checklist card. | Doc | HOR 5 | ? | ? | ? | A | A | A | A | A | A | A | A | A | ? | **A** |
+| C-04 | **The contested-canon four-point method:** name the contest, state both positions at full strength, take no side, record who contests what. | Doc | ROM 17.8, HIS, alignment D | ? | ? | ? | ? | A | A | A | A | A | A | A | A | ? | **A** |
+| C-05 | **A contested card with only one side sourced does not ship.** One-sided sourcing is side-taking that claims not to be. | Doc | WAR 17.23, COM 17.16 | ? | ? | ? | ? | ? | ? | ? | A | A | A | A | A | ? | **A** |
+| C-06 | **The last-sentence test.** A card's final sentence is where adjudication hides. Read it separately — and read BOTH `principle` and `application` on a principle card; the argument ends at `principle`'s close but a fix there can leave `application` adjudicating the thing `principle` just declined to (R-000, R-024, F-10). | Doc | COM 17.10; SUP fixed B3 | – | – | – | – | – | – | – | – | A | A | A | A | ? | **A** |
+| C-07 | **Contested findings in a specialist's own substrate are carded as contested,** with a CONTESTED list produced before Batch 1. A rules collection that states disputed findings as fact is worse than none. | Doc | HIS, WAR 17.12, 17.24 | – | – | – | – | – | A | – | A | A | A | A | A | ? | **A** |
+| C-08 | **A robustness tier on every empirical Psychology card** — robust / contested / unreplicated, or a stated exemption where there is nothing to replicate. **Corrected 2026-08-27 (R-032): the row's own prose contradicted its own cells — it named Comedy as the sole implementer while marking four packs `A`, and Comedy in fact had zero per-card tiers (a collection-level policy card instead) while Western and Superhero were the two packs actually complete at 12/12. Manga's `A` covers cards 1–7 only, nothing on 8–16 — overstated. This is the fifth ledger row found narrower than the disk, after S-05, S-06, T-07 and S-08, and the first whose prose contradicted its own cells.** Applied at B3 (2026-08-27, `stage9-judgement-fixes.md` §5.3): 12 cards tiered and 2 given a stated exemption, drawn from each card's own prose, across COM (3 tiers + its pre-existing policy card), HIS (1), HOR (1), LIT (1), MCT (3), ROM (3 + its pre-existing policy card). **235 psychology cards remain untiered and refused — the research, not the wording, per `remediation-plan.md` §4.2 and R-032.** | Card | COM 17.17 (Grok); corrected R-032, applied B3 | **P** | **P** | **P** | **P** | **P** | **P** | **P** | **P** | **P** | A | A | **P** | ? | **A** |
+| C-09 | **Every period-bound rule in a specialist names its period and its army/tradition.** A rule that silently generalises across five centuries is a defect. | Doc | WAR 17.25 | – | – | ? | ? | – | ? | – | A | – | ? | A | – | ? | **A** |
+| C-10 | **Contested-canon categories** include: removals later partially restored; awards stripped or refused; persona-versus-performer where the persona is the contested object. The second intersects V-02 — "None" must distinguish never-won from won-and-revoked. | Doc | COM 17.21 (Grok) | ? | ? | ? | ? | ? | ? | ? | ? | A | A | A | ? | ? | **A** |
+| C-11 | **No unnamed placeholders and no tradition-level exemplars** — a named published or released work every time. ~~SF carries 7 surviving placeholder example works.~~ **CORRECTED AND DISCHARGED 2026-08-28 (SF rebuild session 1, R3).** The figure of 7 was produced by a regex nobody had broken, and it was repeated by the adversarial review; two further unbroken scans gave 3 and 25. **A verified census — five detectors, seventeen break-cases, `_build/scifi/tools/checks/census.py` — measured 39**, in three classes, of which the third (`APPENDED`: a real title with a placeholder welded on, `Star Trek: Voyager — generic 'clean' fusion`) had never been caught by any regex in this library. All 39 replaced with named released works; SF now measures **0** and the cell is `A`. **Comedy measures 2** (`timing-40`, `timing-60`) while its cell reads `A` — the eighth ledger row found narrower than the disk; not fixed, one pack at a time. Every other pack measures 0 on the verified instrument. | Card | FAN, HOR 17.7; corrected SF rebuild 2026-08-28 | **A** | A | A | A | A | A | A | A | **P** | A | A | A | ? | **A** |
+| C-12 | **True crime and any work drawn from a real crime:** analyse the published work's craft only, never the real case, victims or accused. | Doc | MCT | A | A | A | A | A | A | A | A | A | A | – | – | ? | – |
+| C-13 | **Analysis and opinion only.** No extended quotation, no substitute-for-reading plot summary. This is what keeps the CC BY licensing clean. | Doc | MCT | A | A | A | A | A | A | A | A | A | A | A | A | ? | **A** |
+| C-14 | **Where an affiliation cannot be sourced to the subject or an institution, the card states the sourcing rather than asserting the affiliation.** Western's rule failed twice in the same direction — two scholars described in secondary sources as citizens of named nations, with no institutional page saying so — and stating the sourcing is the rule's correct output under a shortage of evidence, not a defeat for it. Its counterpart is the **third identity category: a finding the subject accepted** (Thomas King, 2025), which is neither a live dispute nor a fabrication and which the library had no shape for. | Doc + Card | WES 17.53, 17.72 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | ? | ? | **A** |
+| C-15 | **A card that hedges and asserts the same fact is an internal contradiction, and the hedge is the half to keep.** Western asserted a birth year inside the sentence disclaiming any reliable record of the subject's life. | Doc + Card | WES 17.73 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | A | ? | **A** |
+| C-16 | **Where a subject has spoken about a sensitive matter more than twice, the card carries every position.** A claim-and-retraction framing is the default and it is often wrong: Jodorowsky's record has three positions, and the middle one — a 2007 revision rather than a withdrawal — contradicts the retraction the two-position framing implies. | Doc + Card | WES 17.77 | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | A | ? | **A** |
+| C-17 | **House style for a creator who changed the spelling of their own name: use the creator's own final spelling on every work, whatever its publication date, and state the change once, on the earliest carded work.** The alternative — period-accurate spelling per work — is more faithful to each credit box and produces a pack in which one person appears to be two, which is the error the rule exists to prevent. Superhero's case is Ishimori / Ishinomori, respelled in 1986, carrying four Works cards and one Author card across the boundary. | Doc + Card | SUP 17.95 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | ? | **A** |
 
 ## 1E. Tooling and assembly
 
 Tool rows are **forward-only** — they change how a pack is built, not what a shipped pack
 contains. A `–` in an early column means "built before the tool existed", not a debt.
 
-| ID | Rule | Level | From | SF | MCT | FAN | HOR | ROM | HIS | LIT | WAR | COM | WES | SUP | MNG |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|-----|
-| T-01 | **The disk validator is the acceptance gate.** `tools/validate_pack.py` must report `PASS — 0 error(s)`, in addition to the assembly screens. `PACK-SPEC.md` + `schema/pack.schema.json` are the canonical floor — never rebuild the template from memory or from prose blueprints. | Doc | LIT 17.13, redirect | A | A | A | A | A | A | A | A | A | A | A | A |
-| T-02 | **Six parser guards**, each **broken deliberately against a fixture before Batch 1.** (1) trailing-period truncation (2) `start` not `star` (3) silent enum drift on `work_cards.medium` (4) the em-dash strip set `' ,–—-'` (5) free-text vs enum medium fields (6) work-notes over 150 chars, soft warn. | Tool | HOR, ROM 17.14 | – | – | – | A | A | A | A | A | A | A | A | A |
-| T-03 | **Sixteen assembly screens**, printed with their count at run time, all wired to the exit code. A miscounted screen list is how a screen goes missing — War's §18 said "ten" against a real thirteen. Comedy runs sixteen plus screen 10b. | Tool | COM 17.14 | – | – | – | – | – | – | – | – | A | A | A | A |
-| T-04 | **Work-reuse cap 2, keyed on `(work, medium)`, enforced per batch AND globally at merge time**, wired to the exit code. Title-only keys produce false positives on every adaptation. | Tool | FAN, HOR, playbook v1.8 | – | – | A | A | A | A | A | A | A | A | A | A |
-| T-05 | **`reuse_check.py` runs pre-merge and must load the WIP pack**, not only the batch handed to it — the cap is pack-wide. Ported blind from War to Comedy, it was blind to exactly the breach it exists to catch until rewritten at Batch 06. It then caught 6 breaches in batch 08, 10 in batch 09 and 22 in batch 12. | Tool | WAR 17.32, COM 17.25 | – | – | – | – | – | – | – | A | A | A | A | A |
-| T-06 | **Countable content floors, asserted at assembly and wired to the exit code.** An objective that cannot be counted is not a control. WAR: civilian-primary ≥40/150 Works, ≥35/130 Authors. COM: two floors — the unfunny and the non-Anglophone — as screens 15 and 16. | Tool | WAR 17.20, 17.29, COM 17.7 | – | – | – | – | – | – | – | A | A | A | A | A |
-| T-07 | **Dedupe screen keyed on `(kind, name)`, not `name`.** **Corrected 2026-08-27: SF's cell was marked `–` ("built before the tool existed") when SF in fact carried 26 exact duplicate author cards plus a punctuation pair — a real, uncaught debt, not an absence of applicability (R-004). Ruled `P` at R-004; genuinely discharged at B2 Stage 6 (27 removals, `name_cross_check.py` reports 0 duplicates) and marked `A` below, this time correctly.** | Tool | LIT (late fix), WAR 17.18 | **A** | – | – | – | – | – | A | A | A | A | A | A |
-| T-08 | **`rebuild.sh` replays the whole build** from batch markdown to a byte-identical pack file, before shipping. This is what makes a late fix in an already-merged batch a one-command operation. | Tool | COM | – | – | – | – | – | – | – | – | A | A | A | A |
-| T-09 | **Anti-duplication tests inside a collection are wired to assembly, not left as prose.** Comedy's screen 10b was added mid-build after a hand check found two specialist cards failing a test §5a had stated and nobody enforced. | Tool | COM (screen 10b) | – | – | – | – | – | – | – | – | A | A | A | A |
-| T-10 | **Verify-to-file / condense-to-brief.** Agents `Write` the full report to a file and return ≤400 words containing *nothing but* errors and UNCONFIRMED items. Two agents per Authors/Works batch, pipelined one batch ahead; a narrow third pass where the error lives. | Doc | HOR (v1.9) | – | – | – | A | A | A | A | A | A | A | A | P |
-| T-11 | **The validator runs against staged copies in the session container**, not on TJ's desktop — the desktop workspace's `jsonschema` predates `Draft202012Validator` and has no network to upgrade. Same script, same schema, same bytes. | Doc | WAR 17.17 | – | – | – | – | – | – | – | A | A | A | A | A |
-| T-12 | **Disk is canonical.** Claude writes `packs/reference-<genre>.json` and updates `manifest.json` and `README.md` on disk, then shows validator PASS. **Claude performs no git operations, ever — TJ publishes.** | Doc | LIT 17.17, redirect §5 | A | A | A | A | A | A | A | A | A | A | A | P |
-| T-13 | **Build paperwork lives on disk, not in the project** (TJ, 2026-08-21). Blueprint, build log, batch documents, research reports, changelog and handoff all live under `_build/<genre>/`. The project holds the historical archive of packs one to seven only. | Doc | TJ 2026-08-21 | – | – | – | – | – | – | – | – | A | A | A | A |
-| T-14 | **Version semantics:** patch = corrections, minor = new entries. A reciprocal hand-off card added to a shipped pack is a **minor** bump. Comedy's blueprint specified 1.0.1 for the War patch; the spec won and it shipped as 1.1.0. | Doc | COM 17.34, PACK-SPEC §1 | A | A | A | A | A | A | A | A | A | A | A | P |
-| T-15 | **Parser guard 7 — the unknown-field guard.** A `Key:` line outside the card's shape is now a hard error naming the allowed set. Western found `Note:` fields silently discarded from twenty-eight Authors cards, taking the award traps with them: the merge reported success, the count was right, and all seventeen screens passed. **Six packs were built with a parser that had this behaviour and none has ever been checked for it** — the batch markdown is archived and the sweep is cheap. | Tool + Card | WES 17.69 | **P** | **P** | **P** | **P** | **P** | **P** | **P** | **P** | **P** | A | A | A |
-| T-16 | **A screen whose dependency is built last must be dry-runnable against a stub.** Western's specialist anti-duplication screen is FINAL-mode only, so its errors arrived at 612/612 with nothing left to trade. The one dry run that was possible, at Batch 12, is the reason the screen is a citation cap and not the unachievable uniqueness test it started as — which is the whole argument for running the others early. | Tool | WES 17.67, 17.89 | – | – | – | – | – | – | – | – | ? | A | A | A |
-| T-17 | **Documents are delivered, not just written.** Every handoff, Grok review brief, build log, changelog entry and verification report is **sent as a file with `SendUserFile`** — at the moment it is finished, and again in the session's closing message, which names it. TJ should never have to go looking on disk or ask where something is. The disk copy stays canonical; the delivered file is the copy he receives. **Any session that ends with a handoff on disk ends with that handoff sent, including sessions that only edited it.** | Doc | TJ 2026-08-22 | – | – | – | – | – | – | – | – | – | A | A | A |
-| T-21 | **A screen whose collection is empty must report NOT RUN, not run.** Manga's screens 18 and 31 are scoped to one collection; with it unbuilt neither set its flag, so the gate line counted both as run having examined zero cards — `28 of 31` was true of the loop and false of the pack. **Empty input is not a pass.** Third location of T-18. | Tool | MNG 17.33 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A |
-| T-22 | **Where a document and a parser disagree about a format, fix the document.** `work_cards` are listed in BATCH-FORMAT.md as taking a `Desc`; the builder generates `description` from `Text` and guard G7 refuses the field, because honouring it would silently discard a hand-written sentence. **The executable contract was right all three times this has arisen.** | Tool | MNG 17.45 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A |
-| T-23 | **Never renumber card ids that other cards may already reference.** Manga renumbered one batch before merging and five references across four batches silently retargeted, including a contested-authorship card pointing at the wrong person. **All five resolved and the referential-integrity screen reported them healthy.** A reference audit printing every reference beside its actual target now runs in the standing check. | Tool | MNG 17.49 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A |
-| T-24 | **A clean fixture that would fail a live screen is not a clean fixture.** Twice in Manga a new screen turned the clean test pack red — once because it modelled a pack that could not ship, once because it lacked a data file the shipping configuration has. **When a new screen changes the clean fixture, the fixture is usually what was wrong.** | Tool | MNG 17.40 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A |
-| T-25 | **The validator compares baked presentation fields against the pack's own `collections[]`, keyed on `kind`.** `_bg`/`_fg`/`_label`/`_badge` must be present and must equal that entry's collection's `badgeBg`/`badgeFg`/`label`/`badge`. This does not assert a library-wide colour standard (S-06 is separate and unresolved for two packs) — it only asserts a pack agrees with itself. Added retro-pass Stage 1, shown RED on Historical (613/613 entries, fields entirely absent) before the Stage 3 re-bake and green after, per `grok-review-response.md` G-05. | Tool | retro-pass Stage 1, 2026-08-27 | A | A | A | A | A | A | A | A | A | A | A | A |
+| ID | Rule | Level | From | SF | MCT | FAN | HOR | ROM | HIS | LIT | WAR | COM | WES | SUP | MNG | TVF | ERO |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|-----|---|-----|
+| T-01 | **The disk validator is the acceptance gate.** `tools/validate_pack.py` must report `PASS — 0 error(s)`, in addition to the assembly screens. `PACK-SPEC.md` + `schema/pack.schema.json` are the canonical floor — never rebuild the template from memory or from prose blueprints. | Doc | LIT 17.13, redirect | A | A | A | A | A | A | A | A | A | A | A | A | ? | **A** |
+| T-02 | **Six parser guards**, each **broken deliberately against a fixture before Batch 1.** (1) trailing-period truncation (2) `start` not `star` (3) silent enum drift on `work_cards.medium` (4) the em-dash strip set `' ,–—-'` (5) free-text vs enum medium fields (6) work-notes over 150 chars, soft warn. | Tool | HOR, ROM 17.14 | – | – | – | A | A | A | A | A | A | A | A | A | ? | **A** |
+| T-03 | **Sixteen assembly screens**, printed with their count at run time, all wired to the exit code. A miscounted screen list is how a screen goes missing — War's §18 said "ten" against a real thirteen. Comedy runs sixteen plus screen 10b. | Tool | COM 17.14 | – | – | – | – | – | – | – | – | A | A | A | A | ? | **A** |
+| T-04 | **Work-reuse cap 2, keyed on `(work, medium)`, enforced per batch AND globally at merge time**, wired to the exit code. Title-only keys produce false positives on every adaptation. | Tool | FAN, HOR, playbook v1.8 | – | – | A | A | A | A | A | A | A | A | A | A | ? | **A** |
+| T-05 | **`reuse_check.py` runs pre-merge and must load the WIP pack**, not only the batch handed to it — the cap is pack-wide. Ported blind from War to Comedy, it was blind to exactly the breach it exists to catch until rewritten at Batch 06. It then caught 6 breaches in batch 08, 10 in batch 09 and 22 in batch 12. | Tool | WAR 17.32, COM 17.25 | – | – | – | – | – | – | – | A | A | A | A | A | ? | **A** |
+| T-06 | **Countable content floors, asserted at assembly and wired to the exit code.** An objective that cannot be counted is not a control. WAR: civilian-primary ≥40/150 Works, ≥35/130 Authors. COM: two floors — the unfunny and the non-Anglophone — as screens 15 and 16. | Tool | WAR 17.20, 17.29, COM 17.7 | – | – | – | – | – | – | – | A | A | A | A | A | ? | **A** |
+| T-07 | **Dedupe screen keyed on `(kind, name)`, not `name`.** **Corrected 2026-08-27: SF's cell was marked `–` ("built before the tool existed") when SF in fact carried 26 exact duplicate author cards plus a punctuation pair — a real, uncaught debt, not an absence of applicability (R-004). Ruled `P` at R-004; genuinely discharged at B2 Stage 6 (27 removals, `name_cross_check.py` reports 0 duplicates) and marked `A` below, this time correctly.** | Tool | LIT (late fix), WAR 17.18 | **A** | – | – | – | – | – | A | A | A | A | A | A | ? | **A** |
+| T-08 | **`rebuild.sh` replays the whole build** from batch markdown to a byte-identical pack file, before shipping. This is what makes a late fix in an already-merged batch a one-command operation. | Tool | COM | – | – | – | – | – | – | – | – | A | A | A | A | ? | **A** |
+| T-09 | **Anti-duplication tests inside a collection are wired to assembly, not left as prose.** Comedy's screen 10b was added mid-build after a hand check found two specialist cards failing a test §5a had stated and nobody enforced. | Tool | COM (screen 10b) | – | – | – | – | – | – | – | – | A | A | A | A | ? | **A** |
+| T-10 | **Verify-to-file / condense-to-brief.** Agents `Write` the full report to a file and return ≤400 words containing *nothing but* errors and UNCONFIRMED items. Two agents per Authors/Works batch, pipelined one batch ahead; a narrow third pass where the error lives. | Doc | HOR (v1.9) | – | – | – | A | A | A | A | A | A | A | A | P | ? | **A** |
+| T-11 | **The validator runs against staged copies in the session container**, not on TJ's desktop — the desktop workspace's `jsonschema` predates `Draft202012Validator` and has no network to upgrade. Same script, same schema, same bytes. | Doc | WAR 17.17 | – | – | – | – | – | – | – | A | A | A | A | A | ? | **A** |
+| T-12 | **Disk is canonical.** Claude writes `packs/reference-<genre>.json` and updates `manifest.json` and `README.md` on disk, then shows validator PASS. **Claude performs no git operations, ever — TJ publishes.** | Doc | LIT 17.17, redirect §5 | A | A | A | A | A | A | A | A | A | A | A | P | ? | **A** |
+| T-13 | **Build paperwork lives on disk, not in the project** (TJ, 2026-08-21). Blueprint, build log, batch documents, research reports, changelog and handoff all live under `_build/<genre>/`. The project holds the historical archive of packs one to seven only. | Doc | TJ 2026-08-21 | – | – | – | – | – | – | – | – | A | A | A | A | ? | **A** |
+| T-14 | **Version semantics:** patch = corrections, minor = new entries. A reciprocal hand-off card added to a shipped pack is a **minor** bump. Comedy's blueprint specified 1.0.1 for the War patch; the spec won and it shipped as 1.1.0. | Doc | COM 17.34, PACK-SPEC §1 | A | A | A | A | A | A | A | A | A | A | A | P | ? | **A** |
+| T-15 | **Parser guard 7 — the unknown-field guard.** A `Key:` line outside the card's shape is now a hard error naming the allowed set. Western found `Note:` fields silently discarded from twenty-eight Authors cards, taking the award traps with them: the merge reported success, the count was right, and all seventeen screens passed. **Six packs were built with a parser that had this behaviour and none has ever been checked for it** — the batch markdown is archived and the sweep is cheap. | Tool + Card | WES 17.69 | **P** | **P** | **P** | **P** | **P** | **P** | **P** | **P** | **P** | A | A | A | ? | **A** |
+| T-16 | **A screen whose dependency is built last must be dry-runnable against a stub.** Western's specialist anti-duplication screen is FINAL-mode only, so its errors arrived at 612/612 with nothing left to trade. The one dry run that was possible, at Batch 12, is the reason the screen is a citation cap and not the unachievable uniqueness test it started as — which is the whole argument for running the others early. | Tool | WES 17.67, 17.89 | – | – | – | – | – | – | – | – | ? | A | A | A | ? | **P** |
+| T-17 | **Documents are delivered, not just written.** Every handoff, Grok review brief, build log, changelog entry and verification report is **sent as a file with `SendUserFile`** — at the moment it is finished, and again in the session's closing message, which names it. TJ should never have to go looking on disk or ask where something is. The disk copy stays canonical; the delivered file is the copy he receives. **Any session that ends with a handoff on disk ends with that handoff sent, including sessions that only edited it.** | Doc | TJ 2026-08-22 | – | – | – | – | – | – | – | – | – | A | A | A | ? | **A** |
+| T-21 | **A screen whose collection is empty must report NOT RUN, not run.** Manga's screens 18 and 31 are scoped to one collection; with it unbuilt neither set its flag, so the gate line counted both as run having examined zero cards — `28 of 31` was true of the loop and false of the pack. **Empty input is not a pass.** Third location of T-18. | Tool | MNG 17.33 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | ? | **A** |
+| T-22 | **Where a document and a parser disagree about a format, fix the document.** `work_cards` are listed in BATCH-FORMAT.md as taking a `Desc`; the builder generates `description` from `Text` and guard G7 refuses the field, because honouring it would silently discard a hand-written sentence. **The executable contract was right all three times this has arisen.** | Tool | MNG 17.45 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | ? | **A** |
+| T-23 | **Never renumber card ids that other cards may already reference.** Manga renumbered one batch before merging and five references across four batches silently retargeted, including a contested-authorship card pointing at the wrong person. **All five resolved and the referential-integrity screen reported them healthy.** A reference audit printing every reference beside its actual target now runs in the standing check. | Tool | MNG 17.49 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | ? | **A** |
+| T-24 | **A clean fixture that would fail a live screen is not a clean fixture.** Twice in Manga a new screen turned the clean test pack red — once because it modelled a pack that could not ship, once because it lacked a data file the shipping configuration has. **When a new screen changes the clean fixture, the fixture is usually what was wrong.** | Tool | MNG 17.40 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | ? | **A** |
+| T-25 | **The validator compares baked presentation fields against the pack's own `collections[]`, keyed on `kind`.** `_bg`/`_fg`/`_label`/`_badge` must be present and must equal that entry's collection's `badgeBg`/`badgeFg`/`label`/`badge`. This does not assert a library-wide colour standard (S-06 is separate and unresolved for two packs) — it only asserts a pack agrees with itself. Added retro-pass Stage 1, shown RED on Historical (613/613 entries, fields entirely absent) before the Stage 3 re-bake and green after, per `grok-review-response.md` G-05. | Tool | retro-pass Stage 1, 2026-08-27 | A | A | A | A | A | A | A | A | A | A | A | A | ? | **A** |
+| V-39 | **A pack's batch markdown is not canonical because it exists. Replay it and prove it reproduces the SHIPPED pack before writing one character of repair into it.** Four packs ran this proof on 2026-09-04 and **all four had drifted**, none of it recorded. War & Military: the F-20 medium retag applied to the JSON and never written back, two reciprocal hand-off cards missing, a craft rewrite surviving only inside a build snapshot — ⟨measured: a replay of the batches as found produced **612** entries against a shipped **614**⟩, and the pack carried no build toolchain on disk at all. Superhero: eleven diacritic restorations, two hand-off cards, two attribution corrections and — the one that matters — **`history-18`'s post-ship rewrite, which a replay would have put back, undoing an adjudication on a card whose own title calls the credit contested** ⟨measured: 612 against 614⟩. Comedy: **71 cards differing in at least one field and 2 absent entirely** ⟨measured⟩. Literary: **a replay would have regressed the published pack by 118 cards** — 18 of ordinary drift and 100 from the parser defect at T-46 ⟨measured⟩. **In every case a pure replay would have silently regressed a published pack, inside something labelled a repair.** Reconcile from the shipped file verbatim, prove replay-equals-shipped, and only then repair. **And read the merge output, not only the comparison**: Science Fiction's `merge.py --init` seeds the working file from the shipped pack, so its comparison reported a perfect match after **nineteen `MERGE FAIL` lines**. | Tool | WAR V-29 run 2026-09-04; confirmed independently by SUP, COM and LIT the same day | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | ? | **A** | ? | ? | ? |
+| V-41 | **An enumerated set that names categories by string goes stale the moment a category is renamed, and a content floor built on it becomes a silent lie.** Comedy's screen 16 reported **23 non-Anglophone works against a floor of 25** and had done so since the rename. Nothing was missing: the category had been renamed to `Yiddish, Hebrew and Jewish-Diaspora Humour` in the batch markdown and the shipped pack while `config.NONANGLO_CATEGORIES` still said `Yiddish and Jewish-Diaspora Humour`, so two work cards silently stopped counting. **The failure presents as missing content and invites someone to write two new cards to satisfy it — which would have put invented material into a published pack.** A screen that counts by matching a name must be checked against the corpus's actual distinct values, not trusted. ⟨measured: with the name corrected the screens reproduce the build log's own closing figures exactly — non-Anglophone works 25/25, authors 22 against a floor of 20⟩ | Tool | COM V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | **A** | ? | ? | ? | ? | ? |
+| V-42 | **A tool that stamps a date from the system clock cannot be replayed, and a config constant it ignores is dead config.** Comedy's `assemble.py` wrote `pack["lastUpdated"] = datetime.date.today()` while `config.LAST_UPDATED` sat unused beside it, so every replay produced a different file and **byte-identity was impossible by construction** — V-39's chain proof could never have passed. The constant existed, was correct, and was silently unreachable. **Anything a replay stamps comes from configuration, never from the environment.** Fixed in Comedy's `v29-work/` copy only; the canonical copy in that pack's tree still has it. | Tool | COM V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | **A** | ? | ? | ? | ? | ? |
+| V-43 | **A one-off script that writes a pack file directly leaves byte-level artifacts the toolchain can never reproduce, and it does it to every pack it touches.** `_build/tv-formats/reciprocal_cards.py` serialised with `indent=2` where the toolchain writes `indent=1`, and added its card with `entries.append()` rather than placing it in its collection block. **One script is the sole cause of both anomalies in four packs** — comedy, manga, superhero and scifi are exactly the four packs on disk at indent 2, and comedy, manga and superhero each carry exactly one stray card at the end of `entries`. Neither is a content difference and nothing reads either, but both defeat a replay-equality proof, and a replay that silently reformats a whole file buries the real diff in it. **A script that writes a pack must match the toolchain's serialisation and insertion, or the pack it wrote can no longer be proved.** ⟨2026-09-04: **Superhero moved its stray card into place; Comedy deliberately kept the append order so its replay stayed byte-identical.** The inconsistency is accepted for now and is Part 3 work, not a defect of either pack.⟩ | Tool | COM V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | **A** | ? | ? | ? | ? | ? |
+| V-45 | **A break-harness fixture that hard-codes a known-bad value stops testing the moment that value becomes legal, and reports a failure rather than going quiet.** Comedy's `smoke_test.py` poked the literal medium `"stage"` into a merged pack to prove the enum guard fires. F-20 made `stage` a legal medium in schema v2.1, so the guard correctly did not fire and the fixture reported `FAIL` on a guard that was working perfectly. The harness was right that something had changed and wrong about what. **A fixture asserting that a guard rejects something must draw its bad value from outside the live enum at run time, not from a literal frozen at writing time.** | Tool | COM V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | **A** | ? | ? | ? | ? | ? |
+| T-46 | **A delimiter-split parser cannot read its own documented optional field when that field is empty, and the failure is silent.** `merge.py` parsed author works bullets with `b.split(" \| ")` — splitting on the delimiter **plus its padding**. `BATCH-FORMAT.md` documents `- <Title> \| <year> \| <optional note> \| start` and states the note is optional, so the empty-note form is `- Emma \| 1815 \| \| start`, in which the padded delimiter occurs **once**, not twice. The bullet split into three fields instead of four, the note became the literal string `"\| start"`, and **the lead-work flag was silently dropped**. ⟨measured: 390 works bullets in Literary, **100 with an empty note slot, 100 mis-parsed**; the shipped pack carries 130 correct `start` flags and 0 junk notes, so the pack was right and the toolchain was wrong⟩. **It had never fired anywhere else because every other pack always writes a non-empty note before `start`, so their bullets split into four fields by accident.** The same split is live in `_build/western/tools/merge.py` and `_build/war-military/v29-work/tools/merge.py` today, latent. **Split on the delimiter itself, not on the delimiter-plus-padding**, and break the parser against the empty-field case for every optional field it documents. Fourth instance of the closed-vocabulary / naive-matching defect class after T-34's `re.escape`, the award trap matching `RITA` inside `Britain`, and V-37's convention-blind predicate. | Tool | LIT V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | ? | ? | ? | ? | ? | ? | ? |
+| V-48 | **A screen that narrows its own input reports a clean result on the cards it never looked at, and the exit code cannot tell you.** `living_census.py`'s closed-life-dates pattern scanned the whole of an author's `meta`, so a card was filed as **stating a death** whenever any bare digit-hyphen-digit span appeared anywhere in its prose — a tour of duty, a work run, a pair of issue numbers, a day range, even another person's dates — and it then **exited 0 by hiding those cards.** ⟨measured, three packs independently on 2026-09-04. **Literary**: six cards repaired with evidence dates written `8-9 April 2026` and similar, all six dropped from the living set, census green; caught only by the bucket arithmetic — `dated` had moved 99 → 105 while `w/date` read 25 where it had to be 31. **Superhero**: the census reported 56 living claims against a true 63; the seven dropped include `26–50`, which is a pair of issue numbers, and `author-36`, dropped because the card names **another man's death dates as a warning against confusing the two** — the warning against reporting a living creator as dead is what removed him from the check that exists to catch it. **War & Military**: `author-113` and `author-114` dropped on their tours of duty and **never re-checked at all, inside a pass that was reported complete and was not**⟩. **The fix is pinned in both directions** by `tools/break_living_census.py` — 32 cases, five prose spans that must read as living and twelve real life ranges that must still read as deaths — because an earlier attempt at the same fix rejected 49 genuinely dead authors. ⟨measured 2026-09-04 after the fix: break harness 32 of 32, and the five repaired packs each report 0 living claims with no check date, exit 0⟩. **Add up the buckets against the roster. An exit code is a statement about the rows the screen chose to look at.** | Tool + Ver | LIT, SUP and WAR V-29 runs, 2026-09-04 — three independent findings of one defect, merged | ? | ? | ? | ? | ? | ? | **A** | **A** | ? | ? | **A** | ? | ? | ? |
 
 ---
-| T-18 | **A gate that cannot run on incomplete input must name the screens it did not run.** T-16 required screens to be dry-runnable; Superhero found the harder half. `check.sh` ran `assemble.py --partial`, in which screens 11, 18 and 26 are silently skipped, and reported **"0 errors"** for fifteen consecutive batches. Screen 11 was holding two hard errors the whole time; they surfaced only on the first FINAL run, at 612/612. `--partial` now prints *NOT RUN in --partial: 11, 18, 26 — THIS IS NOT A FULL PASS*. **A partial gate that reports like a full one is worse than no gate**, because it retires the suspicion that would have caught the defect. | Tool | SUP 17.91 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A |
-| T-19 | **Roster integrity is a separate check from drift, and drift cannot substitute for it.** Superhero shipped sixteen work cards with their disambiguating annotations stripped — `Daredevil` for `Daredevil (Waid run)`, `Batman` for `Batman (1966 tv)` — breaking two citations and nearly shipping a work card called simply "Batman" beside `Batman (1989 film)`. **`drift_check.py` could not catch it and was never going to**: it proves the batch files and the merged pack agree, and they agreed, because the batch files carried the same stripped names. It checks internal consistency; nothing checked consistency with the **roster**. `roster_integrity.py` is the three lines that close it: a carded name absent from the roster is a fault at any point in the build. | Tool | SUP 17.92 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A |
-| T-20 | **A referential-integrity screen over intra-pack cross-references — and an honest statement of what it cannot do.** Screen 27 resolves every `` `kind-N` `` reference against the built pack. It exists because Superhero's Batch 22 drafted ten cross-references from memory and **eight pointed at the wrong card**, with nothing checking `work` cards at all. **It would have caught none of those eight**, because they resolved to real cards saying something else — a semantic error no screen reaches. It catches the case the procedural control misses: the typo, the renumbered id, the reference to a card that was later cut. **Both controls are needed and neither is a substitute for the other.** | Tool | SUP 17.93 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A |
+| T-18 | **A gate that cannot run on incomplete input must name the screens it did not run.** T-16 required screens to be dry-runnable; Superhero found the harder half. `check.sh` ran `assemble.py --partial`, in which screens 11, 18 and 26 are silently skipped, and reported **"0 errors"** for fifteen consecutive batches. Screen 11 was holding two hard errors the whole time; they surfaced only on the first FINAL run, at 612/612. `--partial` now prints *NOT RUN in --partial: 11, 18, 26 — THIS IS NOT A FULL PASS*. **A partial gate that reports like a full one is worse than no gate**, because it retires the suspicion that would have caught the defect. | Tool | SUP 17.91 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | ? | **A** |
+| T-19 | **Roster integrity is a separate check from drift, and drift cannot substitute for it.** Superhero shipped sixteen work cards with their disambiguating annotations stripped — `Daredevil` for `Daredevil (Waid run)`, `Batman` for `Batman (1966 tv)` — breaking two citations and nearly shipping a work card called simply "Batman" beside `Batman (1989 film)`. **`drift_check.py` could not catch it and was never going to**: it proves the batch files and the merged pack agree, and they agreed, because the batch files carried the same stripped names. It checks internal consistency; nothing checked consistency with the **roster**. `roster_integrity.py` is the three lines that close it: a carded name absent from the roster is a fault at any point in the build. | Tool | SUP 17.92 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | ? | **A** |
+| T-20 | **A referential-integrity screen over intra-pack cross-references — and an honest statement of what it cannot do.** Screen 27 resolves every `` `kind-N` `` reference against the built pack. It exists because Superhero's Batch 22 drafted ten cross-references from memory and **eight pointed at the wrong card**, with nothing checking `work` cards at all. **It would have caught none of those eight**, because they resolved to real cards saying something else — a semantic error no screen reaches. It catches the case the procedural control misses: the typo, the renumbered id, the reference to a card that was later cut. **Both controls are needed and neither is a substitute for the other.** | Tool | SUP 17.93 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | A | ? | **A** |
 
 # Part 2 — Pack-local decisions index
 
@@ -772,13 +783,27 @@ completed; 39 placeholder citations replaced; 19 plot-logline descriptions rewri
 
 ### New standing rows
 
-| ID | Rule | Level | From | SF | MCT | FAN | HOR | ROM | HIS | LIT | WAR | COM | WES | SUP | MNG |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|-----|
-| S-12 | **Every card carries at least one body field, and the validator enforces it.** A `description` is not a card. `work_cards` need `text`; `author_cards` one of `meta`/`knownFor`/`signature`/`works`; `principle_cards` `principle`; `example_cards` a non-empty `examples`; `checklist_cards` non-empty `items`. **This is the check that did not exist**: a stub is schema-valid, id-unique, and passes every screen this library owned, and F-19's 27 became visible only when the Codex renderer tried to draw them. Built into `tools/validate_pack.py`, shown RED on SF's 27 and green on the other eleven, and broken against twelve fixtures (`_build/scifi/tools/checks/break_body_field.py`). **Also a hole in `merge.py`:** `build_example()` accepts a card with zero example bullets — the parsed count equals the source count, both nought — so a bodyless example card can still be merged. The gate catches it; the parser should too. | Tool | SF rebuild R7, 2026-08-28 | A | A | A | A | A | A | A | A | A | A | A | A |
-| C-18 | **A card's `description` may not be a plot logline.** C-13 bans plot summary that substitutes for reading, and a description that narrates the work's events is that summary in miniature. **Measured across all twelve packs with a broken-and-verified instrument** (`_build/scifi/tools/checks/logline_check.py`, ten break-cases including a calibration run over the whole library): COM 22, MCT 8, HIS 7, WAR 6, SUP 1, WES 1, FAN 1, LIT 1, MNG 0, ROM 0, **SF 0** after this pass. **The finding that matters is that the auto-teaser route does not prevent this** — nine packs derive `description` from `text` and eight of them still narrate. SF is the only pack whose descriptions are hand-written and the only one at zero. | Card | SF rebuild R8, 2026-08-28 | A | P | P | P | – | P | P | P | P | P | P | – |
-| C-19 | **A quality tier has one published definition and one unwritten convention, and they disagree.** The README defines `weak` as *"flawed, incomplete, or only partially successful"*; the packs from Horror onward use it for a **named failure**, a convention that appears in no governance document. A seeded sample of 40 of SF's 257 `weak` examples found **39 satisfying both readings and 1 satisfying only the published one** (`trope-119`, whose card says the film's choice is *valid*). R9's threshold was a quarter; the measured rate is 2.5%, so SF's `weak` set is **reviewed, not a research-file fossil**. Related and unruled: `terrible` is 0.7% against `weak` at 24.3%, and several sampled `weak` entries read as the README's `terrible`. **No other pack has ever had a tier sampled.** | Doc | SF rebuild R9, 2026-08-28 | A | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? |
-| T-26 | **A detector's contribution is what it can catch that nothing else can, not how much it adds to today's count.** The C-11 census harness first neutralised each detector and asserted the candidate total fell; two detectors did not move it and were nearly deleted as decoration. On that pack their hits were double-covered — but one supplies the **class** (an appended placeholder keeps half its string; an unnamed one keeps none, and the fixes differ) and the other catches a form the rest cannot see at all. **A capability test is a case only that detector can answer.** | Tool | SF rebuild, 2026-08-28 | A | – | – | – | – | – | – | – | – | – | – | – |
-| T-27 | **A suppressor list is where a gatherer hides its own hits, so it prints what it suppressed and it is audited before use.** The census's first suppressor excused any citation whose medium was `Nonfiction / design` — which is the medium of `Various hard-SF worldbooks`, an unnamed citation the instrument had been given a reason to ignore. Found by reading the output, not by running the harness. Generalises `cross_pack_identity.py`'s existing practice into a rule. | Tool | SF rebuild, 2026-08-28 | A | – | – | – | – | – | – | – | – | – | A | – |
+| ID | Rule | Level | From | SF | MCT | FAN | HOR | ROM | HIS | LIT | WAR | COM | WES | SUP | MNG | TVF | ERO |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|-----|---|-----|
+| S-12 | **Every card carries at least one body field, and the validator enforces it.** A `description` is not a card. `work_cards` need `text`; `author_cards` one of `meta`/`knownFor`/`signature`/`works`; `principle_cards` `principle`; `example_cards` a non-empty `examples`; `checklist_cards` non-empty `items`. **This is the check that did not exist**: a stub is schema-valid, id-unique, and passes every screen this library owned, and F-19's 27 became visible only when the Codex renderer tried to draw them. Built into `tools/validate_pack.py`, shown RED on SF's 27 and green on the other eleven, and broken against twelve fixtures (`_build/scifi/tools/checks/break_body_field.py`). **Also a hole in `merge.py`:** `build_example()` accepts a card with zero example bullets — the parsed count equals the source count, both nought — so a bodyless example card can still be merged. The gate catches it; the parser should too. | Tool | SF rebuild R7, 2026-08-28 | A | A | A | A | A | A | A | A | A | A | A | A | ? | **A** |
+| C-18 | **A card's `description` may not be a plot logline.** C-13 bans plot summary that substitutes for reading, and a description that narrates the work's events is that summary in miniature. **Measured across all twelve packs with a broken-and-verified instrument** (`_build/scifi/tools/checks/logline_check.py`, ten break-cases including a calibration run over the whole library): COM 22, MCT 8, HIS 7, WAR 6, SUP 1, WES 1, FAN 1, LIT 1, MNG 0, ROM 0, **SF 0** after this pass. **The finding that matters is that the auto-teaser route does not prevent this** — nine packs derive `description` from `text` and eight of them still narrate. SF is the only pack whose descriptions are hand-written and the only one at zero. | Card | SF rebuild R8, 2026-08-28 | A | P | P | P | – | P | P | P | P | P | P | – | ? | **A** |
+| C-19 | **A quality tier has one published definition and one unwritten convention, and they disagree.** The README defines `weak` as *"flawed, incomplete, or only partially successful"*; the packs from Horror onward use it for a **named failure**, a convention that appears in no governance document. A seeded sample of 40 of SF's 257 `weak` examples found **39 satisfying both readings and 1 satisfying only the published one** (`trope-119`, whose card says the film's choice is *valid*). R9's threshold was a quarter; the measured rate is 2.5%, so SF's `weak` set is **reviewed, not a research-file fossil**. Related and unruled: `terrible` is 0.7% against `weak` at 24.3%, and several sampled `weak` entries read as the README's `terrible`. **No other pack has ever had a tier sampled.** | Doc | SF rebuild R9, 2026-08-28 | A | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** |
+| T-26 | **A detector's contribution is what it can catch that nothing else can, not how much it adds to today's count.** The C-11 census harness first neutralised each detector and asserted the candidate total fell; two detectors did not move it and were nearly deleted as decoration. On that pack their hits were double-covered — but one supplies the **class** (an appended placeholder keeps half its string; an unnamed one keeps none, and the fixes differ) and the other catches a form the rest cannot see at all. **A capability test is a case only that detector can answer.** | Tool | SF rebuild, 2026-08-28 | A | – | – | – | – | – | – | – | – | – | – | – | ? | **A** |
+| T-27 | **A suppressor list is where a gatherer hides its own hits, so it prints what it suppressed and it is audited before use.** The census's first suppressor excused any citation whose medium was `Nonfiction / design` — which is the medium of `Various hard-SF worldbooks`, an unnamed citation the instrument had been given a reason to ignore. Found by reading the output, not by running the harness. Generalises `cross_pack_identity.py`'s existing practice into a rule. | Tool | SF rebuild, 2026-08-28 | A | – | – | – | – | – | – | – | – | – | A | – | ? | **A** |
+| T-32 | **When a guard validates a field, assert in the same case that the field is EMITTED; and when an instrument writes an internal field, assert that it is STRIPPED before assembly.** Three instances in one build: `Device` validated and dropped, so screen 17 read `None` off 45 cards; `Medium` validated and dropped, so screen 9 read `missing` off 171; `_device` emitted and not stripped, so the schema rejected 45. Each time BOTH harnesses were green, because each tested one instrument against its own contract and neither tested the seam. `break_assemble.py` pins both ends. | Tool | ERO batches 10, 22, FINAL | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** |
+| T-33 | **A break harness must survive one bad case.** `break_tools.py` raised on a stale fixture string and produced no verdict on its other 24 cases — and had been in that state since Batch 3 while being reported green. A harness that cannot survive one bad case reports nothing about the rest. Each case is now wrapped and a failed mutation counts as DID NOT RUN, which is what it is. | Tool | ERO batch 06 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** |
+| V-30 | **Zero input is not a pass.** A screen whose input set is empty must report NOT RUN, never `ok`. Found at four screens in one batch (1, 2, 8, 11), each having reported `ok` for five consecutive batches on nothing; and again at screen 18, whose reference data — the Works namespace — does not exist until batch 21, so it would have failed 75 specialist cards for the absence of its own input. Extends T-21 from a collection to any input set. | Tool | ERO batches 06 and 10 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** |
+| V-31 | **A guard specified before the corpus exists gets one round of contact with the corpus for free.** The living-status guard was written for `1907–1998` and rejected thirteen cards stating `43 BCE – 17 or 18 CE` and `1642 – 9 September 1693`; obeying it would have meant deleting true detail from cards to satisfy a checker. The award-trap list matched `RITA` inside `Britain` for the same reason. **Widen the guard, never narrow the card** — a checker that trains you to write around it has stopped being a control. | Tool | ERO batches 18, 19, 25 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** |
+| V-32 | **A living-status claim must be made in a re-checkable shape, and an unresolved status is never carded as living.** merge G11 accepts four forms — a year range, `died YYYY`, `born YYYY`, or the exact phrase `life dates unresolved` — and rejects a card carrying two. `living_census.py` prints the list a pre-release re-check must run. The pack's second research pass found two authors who had died since the first, one of them in the year he last published. | Doc + Tool | ERO, research pass 2 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | ? | **A** | ? | ? | **A** |
+| T-34 | **A closed vocabulary matched as a bare substring is a bug, and `\b` is the wrong fix when a term begins or ends with a non-word character.** `tools/validate_pack.py` matched its five canon terms with `re.escape(t)`, so `in canon` fired inside `in canonical` and **the shipped Erotica pack failed the library's acceptance gate on a correct sentence** — the third appearance of this defect class in one build, after the award trap that matched `RITA` inside `Britain` and was fixed in `merge.py` alone. **The reflex fix would have been worse than the bug:** two of the five terms end in a dash, and `\bCosmos —\b` never matches `Cosmos — the setting`, so `\b` would have silently disabled the two terms enforcing *no Cosmos material, ever*, in the file whose job is that they are on. Use `(?<!\w)…(?!\w)`. ⟨measured: 7-case table — naive 2 wrong, `\b` 2 wrong, lookaround 0 wrong; and across all 14 packs, substring hits 1, lookaround hits 0⟩ **No closed vocabulary in this library has ever been swept for this.** | Tool | ERO terminal-move audit, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** |
+| T-35 | **A pipeline's exit code is not the tool's exit code.** T-21 says exit 2 means DID NOT RUN and that treating it as success is the defect the toolchain exists to prevent. It does not say that `tool \| tail` reports `tail`'s status. The validator's `FAIL — 1 error(s)` was read through a pipe as `EXIT=0` during this very audit, twice. **Every acceptance-gate run is unpiped, and its exit code is captured from the tool itself.** | Tool | ERO terminal-move audit, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** |
+| V-33 | **A named hand-check is run by two INDEPENDENT readers over a SHUFFLED set with deliberately failing cards planted in it, and a reader who passes a plant is discarded rather than reconciled.** "Pair-read, two passes, recorded" is not satisfied by one reader reading twice. Erotica's Sanction terminal-move audit ran three readers over 49 cards — 45 real, 4 planted, ids re-labelled so no verdict could be inferred from position — and both external readers caught all three planted failures and passed the planted pass-control. **The control is what makes the verdict evidence rather than opinion**, and it is the same discipline the parser guards get from a break harness, applied to a judgement. ⟨measured: 3 readers agreed outright on 41 of 45; no card drew a PASS from one and a FAIL from another⟩ | Doc + Tool | ERO terminal-move audit, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** | ? | ? | **A** |
+| B-18 | **When a hand-check fails a card, ask whether the cause is the card or a COLLISION BETWEEN TWO RULES, because the remedies are opposite.** B-10 requires an organising claim to concede a named exception class; §9.1 requires a card's terminal position to be a compositional choice; **neither says where the concession goes**, so it went last, where it does the most damage. ⟨measured: 12 of 612 cards put a self-reference in the last sentence, 204 put one elsewhere⟩ — a 204-to-12 correct-placement rate is a **placement** defect, not a selection defect, and cutting the cards would have removed the collection's foundational card over an appended clause. A collision is fixed by **stating the placement rule and reordering**, and by recording which two rules collided; a bad card is fixed by cutting it. **Overriding a stated remedy is a separate, named decision and never a quiet reclassification of the verdict.** | Doc | ERO terminal-move audit, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** |
+| V-34 | **A living-status claim carries the date it was last checked, or it is not re-checkable and V-29 cannot audit it.** Erotica's first real V-29 run found **three cards reading `living, checked in September 2026` that the September 2026 check could not confirm** — the phrase had been carried forward from drafting, and it named the ship month, so it looked like the check had just been done. Eleven further cards carried a bare `born YYYY` with no status at all. Nothing in the toolchain could see either: `living_census` reads what cards SAY and G11 checks that a life-dates claim was made in a valid SHAPE, never that it is true, and both declare that blind spot on every run. `living_census.py` now splits the living set three ways and **exits 1 if any card asserts a living subject without naming a check date**. ⟨measured: 110 author cards, 31 living claims, 27 carrying a re-check date, 4 carried unconfirmed, 0 with no status⟩ | Doc + Tool | ERO V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | ? | **A** | ? | ? | **A** |
+| V-35 | **A withdrawn claim is withdrawn ON THE CARD, in the card's own words, and never silently.** Four Erotica cards were downgraded from asserted-living to unconfirmed; each now states what it previously asserted and why that was withdrawn. A card that quietly stops claiming something leaves the pack looking as though it never claimed it, which is the same defect as a ledger cell marked `A` because a rule was written down. **Corollary found the hard way:** a global replace that unifies a phrase will also rewrite that phrase **inside the sentence quoting it** — three cards briefly misquoted their own previous wording, caught only because the census buckets summed to more than the roster. When a correction quotes what it corrects, the quotation is inside the blast radius. | Doc | ERO V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | ? | **A** | ? | ? | **A** |
+| V-36 | **A publishing announcement is not evidence that a creator is alive.** Reissues, translations, box sets and anniversary editions are exactly the trade items that keep appearing after a death, and one was the sole basis for an Erotica card's living claim. Confirmation needs the person ACTING: a first-person statement, a dated interview, a public appearance, a course they are listed as teaching. ⟨measured: the strongest confirmations in the V-29 run were a departmental course PDF, a national-broadcaster interview and an awarding body whose category is literally *autrice francophone vivante*; the weakest were author websites, which were stale on four of the eight people in one block while those people were conspicuously active elsewhere⟩ **Reference pages were the least reliable sources in the run** — their silence tracks editor attention, not the person. | Doc | ERO V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | ? | **A** | ? | ? | **A** |
+| V-37 | **A predicate written against one pack's prose is not a library instrument, and the number it produces is not a measurement.** Sizing the library-wide living re-check with Erotica's own predicate reported **411** claims; a convention-blind one reported **919**; the audited instrument reports **885**. The first number was about to be used to size the repair. The library carries **four** life-date conventions — `1797-1851 · British`, `Scottish, 1824–1905.`, `American, born 1942.`, and TV Formats' *no life dates at all* — and a tool that assumes one silently reports zero living authors for the packs using the others, which is exactly what happened for SF, Fantasy, MCT and TV Formats. **Third instance in this build**, after `step9_audit.py` re-deriving the screens' predicates and the terminal-self-reference scan omitting a word. Rule: an instrument promoted from a pack's `_build/` to library-wide `tools/` is **rewritten against every convention and broken against a fixture per convention**, never merely copied. ⟨measured: `tools/break_living_census.py` — 15 cases, 15 behaved as claimed, one BEHAVIOUR fixture per convention⟩ | Tool | ERO → library promotion, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | ? | **A** | ? | ? | **A** |
+| V-38 | **A pack that states no life dates does not thereby make no living claims — it makes them invisible.** TV Formats cards read *"American writer-producer, television career since 1993."*: **113 of its 120 author cards assert a living person with nothing to check and nothing to risk-rank.** A convention that omits the claim does not avoid the liability, it removes the handle. A pack without life dates cannot be given a V-29 pass at all, so the ruling on the convention comes before the re-check. | Doc | ERO → library promotion, 2026-09-04 | ? | ? | ? | ? | ? | ? | **–** | **–** | **–** | ? | **–** | ? | ? | **A** |
 
 ### Cells that moved
 
@@ -869,3 +894,1152 @@ and now the first entry in `C:\Projects\_brain\BUILD-LESSONS.md`.
 **The rule that came out of it:** end every piece of recurring work by naming the file that has to
 change, and change it in the same session. Written into `C:\Projects\README.md` under
 "Before you finish", 2026-08-31.
+
+---
+
+## Romance 1.1.3 — `subgenre-29` corrected, 2026-09-03 (Erotica build, session 1)
+
+**One card, one patch bump, one row. Found by pack fourteen while reading the seam it builds on.**
+
+**The defect.** `romance:subgenre-29` (*Erotic Romance*) stated the erotica / erotic-romance
+boundary flatly and without attribution. Romance's **own** research document
+(`claude/romance-research-taxonomy-market-2026-08-11.md` §14) sources that distinction to
+**Passionate Ink** — the erotic-fiction authors' body that separated from RWA in 2005 — records that
+Passionate Ink itself says the older publisher definition *"has changed"* as mainstream heat has
+risen, and closes, in bold: **"CONTESTED / drifting. Do not write the card as if the line were
+stable."** The card was written as if the line were stable. ⟨measured: `'Passionate Ink' in
+json.dumps(entry)` over all 613 Romance entries → **0**⟩
+
+**Row class: V-28** — *a research document is not a delivery mechanism; anything a research pass
+records as required is checked against what shipped, not against the pass.* Also **C-04** (name the
+contest, state both positions, take no side) and **C-05** (a contested card with only one side
+sourced does not ship). **Romance's cells for C-04 and C-05 both read `A`.** This is the ninth
+ledger row found narrower than the disk.
+
+**The fix.** `principle` rewritten to name Passionate Ink, date it to 2005, state the drift and its
+cause, and take no side on where the line now sits. The card's craft claim — every scene must change
+the relationship state — is unaffected and unchanged. `description`, `example` and `application`
+untouched.
+
+**Why it was patched rather than logged as a debt, and the reasoning is on the record.** The Erotica
+build's first ruling (TJ, 2026-09-03) was **not** to open Romance: Erotica would state the contest on
+its own seam card and `subgenre-29` would go to Part 3. **The Grok cross-check of the Erotica
+blueprint overturned that**, on the argument that a user reads pack 5's flat sentence next to pack
+14's fuller one, so the library would teach two versions of the same distinction and call it
+contested-canon hygiene — *"an open debt is a filing cabinet, not a fix"*, and leaving it live while
+building the neighbouring pack on the same joint **is** the second shipping. **TJ took the reviewer's
+ruling on 2026-09-03.** Full record at `_build/erotica/blueprint-LOCKED.md` §19 Q4.
+
+**Version semantics.** Patch, not minor: this is a correction and no pack gains or loses an entry
+(T-14). `ROM` **1.1.2 → 1.1.3**, `lastUpdated` 2026-09-03.
+
+**Gates.**
+- ⟨measured: `python3 tools/validate_pack.py packs/reference-romance.json schema/pack.schema.json`
+  in the **session container** (T-11; the desktop's `jsonschema` is 3.2.0 and predates
+  `Draft202012Validator`, container is 4.26.0) → **PASS — 0 error(s)**, 613 entries across 10
+  collections, quality distribution unchanged⟩
+- ⟨measured: `diff` before/after → **6 changed lines**, i.e. exactly three fields — `principle`,
+  `packVersion`, `lastUpdated`. **No reformatting.** The edit was made as a targeted string
+  replacement on the raw JSON rather than through `json.load`/`json.dump`, because the retro-pass
+  found an `indent=2` write against an `indent=1` library reformatting ~15,000 lines from a
+  one-character change⟩
+- ⟨measured: manifest checked against disk rather than read off the row just written — `packVersion`
+  1.1.3, `lastUpdated` 2026-09-03, `entryCount` 613, `approxSizeKB` 783, **all four agree**⟩
+
+**Claude performed no git operations. TJ publishes.**
+
+### Part 3 — the row this closes and the one it does not
+
+**Closes:** the `romance:subgenre-29` item opened by the Erotica build the same day. It never
+reached a numbered Part 3 row; it was found and discharged inside one session, which is the
+outcome the ledger's own "name the file that has to change, and change it in the same session" rule
+is written to produce.
+
+**Does NOT close, and is a new open question worth a row:** **no instrument in the library compares
+a pack's shipped cards against its own research documents.** V-28 says the check must happen; nothing
+performs it. This defect was found by a human reading an adjacent pack's seam, which does not scale
+and did not happen for twelve other packs. **The research documents for packs one to seven are in the
+claude.ai project and the shipped JSON is on disk, so the two halves are not even in the same place**
+— which is also why a research agent with project RAG access reported Black Lace as uncarded in
+Romance when it appears in three shipped cards (`_build/erotica/research/FINDINGS-session-1-2026-09-03.md` §D).
+
+---
+
+## The TV Formats and Erotica columns, added 2026-09-03 — and a fifth mark
+
+**Part 1 carried twelve pack columns and one hundred and four grid rows. Pack thirteen was not in
+it.** TV Formats shipped 1.0.0 on 2026-08-31 and its column was never added; the handoff recorded
+that honestly and deferred it. **Adding Erotica's column on top of that gap would have produced a
+register running SF … MNG, ERO — skipping the pack immediately before it**, which is worse than
+either gap alone.
+
+Both columns are added together. ⟨measured: 6 headers rewritten, 6 separators extended, **104 grid
+rows extended**, verified by an escape-aware post-condition that every rule row's cell count equals
+its own header's — 7 tables, 105 rows, PASS⟩
+
+### `TVF` — marked `?` throughout, and that is the honest state, not a shrug
+
+The handoff's own instruction: *"Treat TV Formats's column as **unaudited** (Part 3 item 15's own
+rule: 'every `?` in the grid is a pending item') until someone actually runs it row by row."*
+**A `?` here means nobody has checked, which is exactly true**, and it is what Part 3 item 15
+already says a `?` is for. Filling the column with guesses would be the `A`-because-it-was-written-
+down defect this ledger has now found nine times. **104 pending items, honestly marked.**
+
+### `ERO` — marked `C`, a fifth mark, because Part 4 contradicts itself
+
+**Part 4 says two things that cannot both be followed.** It says *"the new pack gets its own column
+with those rows marked **before Batch 1**"*, and it says *"**Do not mark a cell `A` because a rule
+was written down.** Mark `A` when the pack **ships** under it."*
+
+**A pack with zero cards cannot ship under anything.** Following the first instruction literally
+produces exactly the defect the second one bans. And marking the column `?` instead would put two
+different realities under one mark — *nobody has checked* and *there is nothing yet to check* — which
+is the "same mark, opposite realities" failure this ledger found at V-03 and again at C-08.
+
+**So the legend gains a fifth mark:**
+
+> **`C`** — Committed at blueprint, not yet verified against shipped cards. Converts to `A`, `P` or
+> `–` at that pack's step 9, and **never stands after a pack ships.**
+
+Every Erotica grid cell is `C`. **Not selectively `–`**, because "does not apply" is a claim about
+shipped cards and Erotica has none — deciding applicability now would be the same premature
+judgement in a different costume. The blueprint (`_build/erotica/blueprint-LOCKED.md`) is the record
+of *what* the pack commits to; the grid records only that it has committed.
+
+**A standing rule this creates:** a `C` older than its pack's step 9 is a defect. If a pack ships and
+its column still reads `C`, step 9 was not run.
+
+### A third finding, unrelated to either column and previously unrecorded
+
+**T-28, T-29, T-30 and T-31 — the entire model-routing standard — have no pack columns at all.**
+They live in a four-column `| ID | Rule | Level | From |` table in the routing section, so **no pack
+can be marked against any of them**, including TV Formats, which is the pack the standard was
+written for and tested on.
+
+Four standing rules in the register that the grid cannot express. ⟨measured: 108 rule rows across
+Part 1; 104 are grid rows, 4 are not⟩ **Not fixed here** — regularising them means deciding what
+`A` would even mean for a routing rule on a pack built before the standard existed, and that is a
+ruling rather than a formatting job. **Recorded as a Part 3 item.**
+
+| Priority | Item | Packs owed | Size |
+|---|---|---|---|
+| 29 | **TV Formats's Part 1 column is 104 `?` cells.** Every one is a pending item under Part 3 item 15. | TVF | Medium. One session, row by row against the shipped pack. |
+| 30 | **T-28 – T-31 have no grid representation.** The model-routing standard cannot be marked per-pack, so no pack — including the one it was tested on — has a recorded position on it. | All | Small to regularise, but needs a ruling first on what `A` means for a routing rule. |
+
+---
+
+## Erotica 1.0.0 — shipped 2026-09-04
+
+**Pack fourteen.** `packs/reference-erotica.json`, 612 entries, ten collections, schema v2.
+⟨measured: `Draft202012Validator` under jsonschema 4.26.0 in the session container (T-11) → **0
+errors**⟩ ⟨measured: `_build/erotica/tools/rebuild.sh` → **20 screens run, 0 NOT RUN, 0 failing**⟩
+
+| collection | count | | collection | count |
+|---|---|---|---|---|
+| Subgenres | 34 | | The Legal Test and the Craft It Produced | 45 |
+| Tropes | 90 | | Escalation and the Ending Problem | 30 |
+| Authors | 110 | | History | 34 |
+| Works | 171 | | Psychology of Desire and Fantasy | 26 |
+| Craft | 56 | | Checklist | 16 |
+
+**Two specialist collections, both without precedent in the library.** `sanction` is the first
+collection anywhere in fourteen packs about the *external constraint on publication* rather than
+about craft or content; `ending` is built on the claim that this form has no native mechanism for
+closure and must import one. The originality claim is qualified on the collection's own first card
+(§17.20): the general observation that a legal regime shapes a literary form is old and is made
+elsewhere in this library, and what is new here is the specific mapping.
+
+### The grid: `ERO` converts from `C` to its real marks
+
+The fifth mark introduced on 2026-09-03 was defined as never standing after a pack ships. Erotica
+has now shipped, so **every `C` in the `ERO` column is due for conversion at step 9**, and a `C`
+still standing there is by this ledger's own standing rule a defect. That conversion is the pack's
+step 9 and is **not done in this entry** — recorded here so the debt is visible rather than assumed
+discharged.
+
+### Standing rows this pack adds
+
+| ID | Rule | From |
+|---|---|---|
+| T-32 | **When a guard validates a field, assert in the same case that the field is EMITTED; and when an instrument writes an internal field, assert that it is STRIPPED before assembly.** Three instances in one build: `Device` validated and dropped (screen 17 read `None` off 45 cards), `Medium` validated and dropped (screen 9 read `missing` off 171), `_device` emitted and not stripped (schema rejected 45). Each time both harnesses were green, because each tested one instrument against its own contract and neither tested the seam. | Erotica batches 10, 22 and FINAL; `break_assemble.py` |
+| V-30 | **Zero input is not a pass.** A screen whose input set is empty must report NOT RUN, not `ok`. Found at four screens in one batch (1, 2, 8, 11) and again at screen 18, whose reference data — the Works namespace — does not exist until batch 21. | Erotica batches 06 and 10 |
+| V-31 | **A guard specified before the corpus exists gets one round of contact with the corpus for free.** The living-status guard was written for `1907–1998` and rejected thirteen cards stating `43 BCE – 17 or 18 CE` and `1642 – 9 September 1693`; obeying it would have meant deleting true detail to satisfy a checker. Widen the guard, never narrow the card. | Erotica batches 18 and 19 |
+| T-33 | **A break harness must survive one bad case.** `break_tools.py` crashed on a stale fixture string and produced no verdict on its other 24 cases, and had been in that state since Batch 3 while being reported green. Each case is now wrapped and a failed mutation counts as DID NOT RUN. | Erotica batch 06 |
+| V-32 | **A living-status claim must be made in a re-checkable shape, and an unresolved status is never carded as living.** `merge.py` G11 accepts four forms; `living_census.py` prints the list a pre-release re-check must run. The pack's second research pass found two authors who had died since the first, one of them in the year he last published. | Erotica, after research pass 2 |
+
+### Part 3 — items this closes and items it does not
+
+**Closes:** nothing. **Opens:**
+
+| Priority | Item | Packs owed | Size |
+|---|---|---|---|
+| 31 | **Erotica's step 9 — convert the 104 `ERO` cells from `C`.** The mark is defined as never standing after a pack ships, and the pack has shipped. | ERO | Medium. |
+| 32 | **13 of Erotica's 110 author cards carry `life dates unresolved`** — no death record and no dated recent activity found. They are carded honestly rather than guessed, and each is a real open question. `living_census.py` prints the list. | ERO | Small per card, thirteen cards. |
+| 33 | **The hand-off marker back-port, still outstanding.** Erotica's six cards make the reserved sentence a two-pack convention, not a library one. Until the back-port runs, no pack file may describe it as the library standard. | 12 packs, 76 cards | Medium. |
+| 34 | **F-22, the real spell-check instrument**, specified at TV Formats §12.5 and still not built. Erotica shipped without one; `script_check.py` covers non-Latin script only and says so on every run. | All | Medium. |
+
+### One finding for the cross-pack review, recorded because it is measurable
+
+⟨measured: `sensitive_audit.py` across fourteen packs⟩ **Erotica carries a live contest on 64 of
+612 cards — 10%, the highest in the library** (literary and mystery 2%, fantasy 4%, historical and
+horror 5%, manga 8%). That is a property of the subject rather than of the build: obscenity law,
+the authorship disputes, the sex wars and the pack's own organising claim are all genuinely
+unsettled, and the pack's job on each was to carry both sides rather than to choose. **0 cards end
+on adjudicating language.**
+
+---
+
+## Erotica step 9 — the `ERO` column converted, 2026-09-04
+
+**Run immediately after the pack shipped, because this ledger's own rule says a `C` standing after
+a pack ships is a defect.** All 104 cells converted. Full working, rule by rule with its evidence:
+`_build/erotica/step9-ERO-column.md`.
+
+| mark | count |
+|---|---|
+| **A** | 95 |
+| **–** | 5 |
+| **P** | 4 |
+
+**22 of the 104 were MEASURED against `packs/reference-erotica.json`** by
+`_build/erotica/tools/step9_audit.py` — the shipped artefact, not the blueprint and not the build
+log. The rest are hand-ruled with their evidence named. The split is stated rather than implied,
+because a column filled from intentions records intentions, and that is exactly what
+`romance:subgenre-29` turned out to be.
+
+**The auditor was wrong before the pack was.** `step9_audit.py`'s first version disagreed with the
+shipped screens on two rules out of twenty-two — it wrote its own text-blob where `screens._blob`
+also reaches `items`, `examples[].text`, `works[].note` and `name`, and it used a cheaper
+life-dates pattern than G11's — and both disagreements were the auditor failing a pack that was
+right. **That is V-03 and C-08's "same mark, opposite realities" arriving inside the audit of them.**
+The tool now imports `screens` and `living_census` instead of re-deriving their predicates.
+
+### Three defects found and fixed by running the LIBRARY's checks, not this pack's
+
+None of Erotica's twenty screens can see any of these:
+
+1. **`sensitive_audit.py`** — one card ending on adjudicating language, which is C-06, the one test
+   the blueprint says no instrument in the pack's own set can perform. Rewritten; re-run reports 0.
+2. **`name_cross_check.py`** — 5 MISMATCH and 1 NEAR-MISS, accents present on the Works side and
+   absent on the Author side plus one person spelled two ways. Fixed toward the correct form rather
+   than the convenient one, per the tool's own hand-check instruction; re-run reports 0 and 0.
+3. **`two_statements.py`** — a publisher's bibliography listing a book his own work card credits to
+   its author. The works-list note now carries the role.
+
+### The four `P`s, and they are the reason this was worth running
+
+| ID | Debt |
+|---|---|
+| **B-16** | Creators carded in more than one pack are compared by NO screen. Carter, Winterson, Rice, Baldwin and Lawrence are all carded elsewhere in this library, and nothing checks that the second pack reads them differently from the first. `name_cross_check.py` is intra-pack by its own header. |
+| **V-18** | Research pass 2's open items live in a build log, not in a verification brief, and no brief was run. |
+| **V-20** | No pass has gone back to re-test the pack's hedges. Honest at first writing, untested since — the decay the row describes. |
+| **T-16** | Screen 18 was not dry-runnable against a stub. The pack SPLIT the check by what each part can see instead, which may be the better general answer and is offered as a rewrite rather than claimed as compliance. |
+
+### One `A` that should be read with its evidence
+
+**B-07.** The shipped hand-offs are correct, but the check ran *post*-lock and found two defects: a
+Horror card narrowing wrongly against four cards Horror already owns, and a Comedy card pointing at
+a pack carrying no bawdy-tradition card at all. **B-07 as written is satisfied on card NAMES while
+the SUBJECT goes unchecked**, which is how both got through.
+
+### Five standing rows added to the grid rather than left outside it
+
+T-32, T-33, V-30, V-31 and V-32 are **in the Part 1E table with all fourteen pack columns**, marked
+`A` for ERO and `?` for the other thirteen. They are not appended as a separate table, because that
+is the defect Part 3 item 30 already records: T-28 to T-31 live in a four-column table and **no
+pack can be marked against any of them**, including the one the standard was written for.
+
+### Part 3 — items this step opens
+
+| Priority | Item | Packs owed | Size |
+|---|---|---|---|
+| 35 | **B-16 has no instrument.** A cross-pack creator screen — does the second pack read a shared creator differently from the first — does not exist anywhere in the library. Fourteen packs, heavy overlap in Literary, Romance, Horror and Erotica. | All | Large, and the highest-value tooling item outstanding. |
+| 36 | **B-07 needs rewriting** to require checking against the destination's shipped card SUBJECTS, not only its names, and to state that a hand-off to a pack with no receiving card is worse than no hand-off. 17.19's proposal, now with a second pack's evidence. | Doc | Small. |
+| 37 | **The medium enum has no term for the prose dialogue**, a dominant form in the classical and libertine canon. Erotica cards five as `novel` with the strain declared on each card. Retired row S-02 turns out to have been describing a real and continuing gap, for a different form than the one it named. | All | Ruling first, then schema. |
+| 38 | **The pseudonym taxonomy is short by five modes**: outright anonymity, disavowal under legal pressure, traditional attribution to a possibly wrong person, posthumous attribution, and the platform handle that becomes a legal byline. Erotica states each in plain words in `Meta` rather than forcing a type. V-12 says "three-type"; the working set is four and the record wants nine. | All | Ruling, then a doc change. |
+| 39 | **Nine terminal self-references outside `sanction` need a decision, not an exemption.** `ending-28`, `ending-30`, `psychology-26` and `subgenre-11` carry the genuine withdrawal signature; `history-32` is the scope hedge the blunt detector is expected to over-catch; the four `checklist` entries are collection idiom. All nine are exempted in `config.TERMINAL_SELFREF_EXEMPT` **with a written reason each**, which makes them countable rather than silent. | ERO | Small per card. |
+| 40 | **No closed vocabulary in this library has been swept for the substring-boundary defect (T-34).** Three instances found in one build — award traps, canon terms, and the audit's own throwaway scan. Award traps, canon terms, sanction devices, robustness tiers, medium enum, exclusion terms, hand-off markers: every one is a closed list matched against prose somewhere. | All | Medium, and mechanical. |
+| 41 | **The `checklist` collection addresses the pack's builder, not the writer.** "Run on every Works and Authors card", "does the card say so". G12 surfaced it; whether that is the intended audience is a design question no pack has ever asked, across fourteen packs. | All | Ruling first. |
+| 42 | **Step 9's own validator row was false, and nothing but a later audit caught it.** T-29 requires a `⟨measured⟩` claim to carry the command that produced it — it does not require the auditor to RE-RUN the command at the moment of ruling. Erotica's step 9 recorded `PASS — 0 errors` for a file that returns exit 1. **A verification pass needs a gate of its own**, or it is the same promise one level up. | All | Ruling, then a step-9 procedure change. |
+| 43 | **Four Erotica author cards are carried as unconfirmed and every one is resolvable by a single direct enquiry**, not by more research: Cleis Press or the Golden Crown Literary Society for Ann Bannon (age 93, nothing dated since December 2021); the California Board of Behavioral Sciences licence register for Patrick Califia; Tristan Taormino's own social accounts, unreadable from this environment; and any dated 2025–26 item for Nicholson Baker. | ERO | Small — four enquiries. |
+| 44 | **V-29 fires once, before release, and nothing re-fires it.** A pack that sits unpublished for six months carries a stale check and no instrument says so. The confirmation date is now on every card, which makes staleness visible but does not act on it. **A pack-age check against the newest living-confirmation date on any card would.** | All | Small tool, library-wide value. |
+| 45 | **Thirteen other packs have never had a V-29 run at all.** The rule was written during Erotica. Every earlier pack asserts living subjects with no check date and no record of a re-check, and Erotica's run found a 3-in-15 error rate among cards that claimed to have been checked. | 13 packs | Large, and the most likely place in the library for a factually false card today. |
+| 46 | **TV Formats has no life-date convention**, so 113 of its 120 author cards assert a living person invisibly and none can be risk-ranked. **A ruling on the convention is a prerequisite for its V-29 pass**, not part of it. | TVF | Ruling, then a re-card of 113 cards. |
+| 47 | **225 of the 885 outstanding living claims carry no birth year**, so they cannot be triaged by age — the one risk signal available. They have to be worked straight through, and no pack has a plan for them. | 13 packs | Large. |
+| 48 | **The thirteen packs are already published, so their V-29 repairs are version bumps, not amendments** (Romance 1.1.2→1.1.3 precedent). Erotica was the only pack that could be corrected in place, because it had not shipped. Nothing in the playbook says this; it was decided at the handoff. | 13 packs + Doc | Ruling recorded; execution is per pack. |
+
+
+---
+
+## Erotica — the Sanction terminal-move audit, 2026-09-04
+
+**The pack's only named hand-check, and the last thing owed before publication.** Blueprint §9.1:
+*"Every card in the collection must end on a compositional choice. Fail = cut, and the slot returns
+to its category. Pair-read, two passes, recorded."* Full record at
+`_build/erotica/audits/sanction-terminal-move-AUDIT.md`; raw verdicts at
+`…-VERDICTS.md`; the judging rule, written **before any card was read** and never edited, at
+`…-RULE.md`.
+
+**Pair-read means two readers, and the readers were controlled.** Three readers over 49 cards — 45
+real and **4 planted**, ids shuffled and re-labelled so no verdict could be read off a position.
+Both external readers were blind to pass 1, to each other, and to the existence of the plants.
+⟨measured: both caught all three planted failures and both passed the planted pass-control⟩. That
+control is the whole reason the verdict counts as evidence; it is `break_merge.py`'s discipline
+pointed at a judgement, and it is now **V-33**.
+
+**Verdict: 2 FAIL, 1 BORDERLINE, 42 PASS.** ⟨measured: three readers agreed outright on 41 of 45,
+and no card drew a PASS from one reader and a FAIL from another⟩ — which is worth recording,
+because §9.1 demoted this test from a floor on the express grounds that two competent readers would
+disagree. On this collection they did not.
+
+**The cause was not a bad card. It was two of this library's own rules colliding.** Both failures
+open with a clean craft instruction and then withdraw into a sentence about what this collection
+offers or declines to settle. **B-10** requires that concession; **§9.1** requires the terminal
+position to be a choice; **neither says where the concession goes.** ⟨measured: 12 of 612 cards put
+a self-reference in the last sentence; **204 put one somewhere else**⟩. A 204-to-12 correct-placement
+rate is a placement defect, and `sanction-7` proves it inside the same collection — same concession,
+placed first, lands on *"name the door your material has to pass through"*, passes all three readers.
+**B-18.**
+
+**The remedy was overridden, in the open.** §9.1 says cut. I did not cut. The verdicts stand as
+FAIL — nothing was reclassified — but the repair was a **reordering of each card's existing
+sentences**, deleting nothing, keeping B-10 satisfied, and cutting `sanction-1` would have removed
+the Hicklin card the whole Anglo-American category leans on, over an appended clause. **This is a
+named decision and TJ can reverse it.** ⟨measured: rebuild + field-by-field diff — 3 cards changed,
+3 fields changed, 612 entries, every other byte identical⟩.
+
+**The habit is now a guard.** merge **G12** checks the last sentence only, on every card in every
+collection. The detector is deliberately blunt and the nine exemptions are deliberately enumerated
+with a written reason each, on screen 19's precedent — a cleverer regex would have hidden a
+judgement inside a pattern. ⟨measured: `break_merge.py` → **57 cases, 57 behaved as claimed**⟩,
+including the case that proves it is about placement (the same words earlier in the card stay
+green) and a declared blind spot. **The guard found two cards my own scan had missed on its first
+run**, because that throwaway scan omitted one word from its pattern; my "10 of 612" was wrong and
+the guard's 12 is the measured figure. T-29 in miniature.
+
+### And the audit found two things it was not looking for
+
+**1. The pack as shipped failed the library's acceptance gate, and step 9 recorded that it passed.**
+`validate_pack.py` matched its five canon terms as **bare substrings**, so `in canon` fired inside
+`work-4`'s *"inclusion in **canonical** anthologies"* — a correct sentence, and a model verified
+negative of exactly the kind this pack's own `checklist-10` asks for. ⟨measured: the three repaired
+fields reverted in a scratch copy and the pre-fix validator re-run against the pack **as shipped**
+→ `FAIL — 1 error(s)`, exit 1 — so this predates the repair⟩. **`step9-ERO-column.md` row 75 was
+therefore false**, and is corrected in place. Step 9 was the pass whose entire purpose was to
+replace promises with measurements, and it committed the error it was auditing for. **Part 3 item
+42:** a verification pass needs a gate of its own, or it is the same promise one level up.
+
+**2. The obvious fix would have been worse than the bug.** Two of the five canon terms end in a
+dash, and `\b` after a dash demands a word character with no space — so `\bCosmos —\b` never matches
+`Cosmos — the setting`. The reflex fix would have **silently disabled the two terms that enforce
+"no Cosmos material, ever"**, and every run afterwards would have printed `0 errors`. ⟨measured:
+7-case table — naive 2 wrong, `\b` 2 wrong, `(?<!\w)…(?!\w)` **0 wrong**⟩; ⟨measured: across all 14
+shipped packs, substring hits 1, lookaround hits 0 — the narrowing removes no real detection⟩.
+**T-34**, and this is the **third** appearance of the substring-boundary defect class in one build,
+after the award trap that matched `RITA` inside `Britain`. Nothing has ever swept the library's
+other closed vocabularies for it — **Part 3 item 40**.
+
+**A third thing, smaller and mine.** The validator's `FAIL` was first read through a pipe to `tail`
+as `EXIT=0`. T-21 says a non-zero exit is not a detail; it did not say a pipeline's exit code is
+not the tool's. **T-35.** Every gate run in the audit record is unpiped.
+
+### Gates after the repair
+
+⟨measured, all unpiped, 2026-09-04⟩ — full replay **612 entries / 10 collections**; assembly screens
+**20 run, 0 NOT RUN, 0 failing**; break harnesses **57 / 32 / 25 / 10 / 4, all as claimed**;
+`blueprint_parity` PASS; `palette_check` PASS; `validate_pack.py` **in the session container** (T-11;
+the desktop's jsonschema 3.2.0 raised `AttributeError` again here) **PASS — 0 error(s), exit 0**;
+**all 14 packs PASS** under the fixed shared tool; planted canon leaks all RED; `sensitive_audit`
+**0 cards end on adjudicating language**; `name_cross_check` **0 MISMATCH / 0 NEAR-MISS**;
+`manifest.json` vs disk **0 disagreements across all 15 rows**.
+
+`manifest.json` needs no change — ⟨measured⟩ 612 entries, 789 KB, `lastUpdated` already 2026-09-04.
+**`packVersion` stays 1.0.0 because the pack has not been published**; nobody holds a 1.0.0, and a
+1.0.1 would imply a version in the wild that never existed. **If it has already been pushed, this
+must become 1.0.1**, on the Romance 1.1.2→1.1.3 precedent.
+
+**Files awaiting TJ's publish** (Claude performs no git operations, ever — T-12):
+`packs/reference-erotica.json` · `packs/reference-romance.json` · `manifest.json` ·
+`CHANGE-LEDGER.md` · **`tools/validate_pack.py`** (new to the list — a shared, library-wide fix).
+
+---
+
+## Erotica — V-29, the pre-release living re-check, 2026-09-04
+
+**The last thing owed before publication, and the one check whose whole point is that it runs
+last.** Full record at `_build/erotica/audits/v29-living-recheck-RECORD.md`; raw evidence, every
+source and date, at `…-EVIDENCE.md`.
+
+V-29 exists because this build's second research pass found **two authors who had died since they
+were carded** — Edmund White, 3 June 2025, and Dorothy Allison, November 2024. A living-status
+claim is the only kind in this pack that can turn false while sitting on disk.
+
+**Four independent readers, and the readers were controlled.** ⟨measured: `living_census.py` — 32
+of 110 author cards asserted a living subject⟩. One reader per block, working blind to each other,
+each required to create their file before searching and append after each person (the API-529
+lesson). **Every brief carried one deliberately false statement and none of the four was told; all
+four found theirs** — Millet's magazine, Hollinghurst's Booker year, Delany's birthplace, Sarah
+Waters's nationality. A reader who missed theirs would have had their block re-run, not reconciled.
+
+The instruction that carries the check: **do not infer life from the absence of a death notice.**
+`NO-EVIDENCE` exists so a reader has somewhere honest to put a person they could not resolve.
+
+**⟨measured: 27 ALIVE-CONFIRMED · 0 DEAD · 5 NO-EVIDENCE · 0 CONTESTED.⟩ No card in this pack is
+wrong about a death.**
+
+### The finding: three cards asserted a check that had not happened
+
+`author-68` Ann Bannon, `author-76` Patrick Califia and `author-98` Tristan Taormino each read
+**`living, checked in September 2026`**. The September 2026 check found no death record *and no
+dated activity at all* — nothing since December 2021, 2013, and 2023 respectively. **The phrase had
+been carried forward from drafting**, and because it named the ship month it read as freshly
+verified. A fourth, `author-53` Nicholson Baker, carried a bare `born 1957` with no status and
+nothing since April 2024.
+
+**Three of fifteen cards that claimed to have been checked could not be confirmed — a 3-in-15 error
+rate inside the pack's own strongest form of the claim.** Nothing in the toolchain could see it:
+`living_census` reads what cards *say*, and G11 checks that a life-dates claim was made in a valid
+*shape*, never that it is *true*. Both print that blind spot on every run; this is the run where it
+was load-bearing. **V-34** now requires the check date and makes its absence exit 1.
+
+All four are carded as unconfirmed, and **each card states what it previously asserted and why that
+was withdrawn** — a card that quietly stops claiming something leaves the pack looking as though it
+never claimed it. **V-35.**
+
+### The card whose central claim was falsified
+
+`author-105` Tiffany Reisz read *"She publishes under her legal name, which in a field where the pen
+name is near-universal is itself a positional choice."* Reisz is her **maiden** name, and since 2023
+her principal byline is a **separate pen name** for mainstream fiction at a major house. She runs two
+bylines rather than declining the convention — **and that is precisely why the pack could not confirm
+her the first time.** The card had built a craft point on an absence that was not there; it now says
+so, and says what the failed search was actually telling us.
+
+### Right verdict, wrong evidence
+
+`author-107` Stjepan Šejić was confirmed living against a **December 2025 reissue announcement** —
+and a publishing announcement is the one trade item that reliably keeps appearing after a creator
+has died. Re-cited to his own first-person statements of March and May 2026. **V-36**, whose
+measured corollary is that the strongest confirmations in this run were a departmental course PDF,
+a national broadcaster's interview and an awarding body whose category reads *autrice francophone
+**vivante***, while **author websites and encyclopaedia pages were the least reliable sources in the
+set** — stale on four of eight people in one block while those people were conspicuously active
+elsewhere. Their silence tracks editor attention, not the person.
+
+### Also changed
+
+Five hedges lifted with dated evidence (Reyes, Rubin, Fischer, Todd, Reisz). One kept and
+strengthened: `author-109` Portia da Costa stays unconfirmed, and her **birth year of 1952 could be
+sourced to nothing and has been withdrawn** — the card now reads `life dates unresolved`. Erica
+Fischer was born **1 January 1943 at St Albans in England**, not in Austria, and is a journalist and
+translator rather than a historian. Zane is from **Washington, D.C., the district and not the
+state**. Gaitskill's 2023 piece is a **magazine sequel**, not a retelling. Ten cards carrying a bare
+`born YYYY` now name a check date, and all 27 confirmations use one uniform, re-checkable phrase.
+**Two confirmations are thin and the cards say so** — Robbe-Grillet (age 95, nothing since January
+2025) and Roche (nothing since March 2025).
+
+### Gates, all unpiped
+
+⟨measured 2026-09-04⟩ full replay **612 entries / 10 collections** · screens **20 run, 0 NOT RUN, 0
+failing** · break harnesses **57 · 32 · 25 · 10 · 4, all as claimed** · `blueprint_parity` PASS ·
+`palette_check` PASS · `living_census` exit 0 with **0 cards asserting life without a check date** ·
+`validate_pack.py` **in the session container** (T-11) **PASS — 0 error(s), exit 0** ·
+`sensitive_audit` **0 ending on adjudicating language** · `name_cross_check` **0 MISMATCH / 0
+NEAR-MISS** · `two_statements` exit **1 by design**, 0 year disagreements, 0 title collisions ·
+`manifest.json` vs disk **0 disagreements**.
+
+**`manifest.json` changed by one line:** `approxSizeKB` 789 → **793** ⟨measured: 812,200 bytes⟩.
+
+**`packVersion` stays 1.0.0.** TJ confirmed on 2026-09-04 that the pack has not been pushed.
+
+### Two mistakes of mine, recorded
+
+The `sed` unifying the confirmation phrase **also rewrote that phrase inside the withdrawal
+sentences quoting it**, so three cards briefly misquoted their own previous wording. Caught by
+re-running the census and finding the buckets summing to more than the roster. **When a correction
+quotes what it corrects, the quotation is inside the blast radius** (V-35).
+
+And three library cross-checks were run from the wrong directory and returned **exit 2 — DID NOT
+RUN**, which is T-21 working. Re-run from the repo root. Separately, `two_statements.py` **exits 1
+and always has**, and nobody had ever looked, because every previous run in this build was piped to
+`tail`. **T-35, twice in one session.**
+
+### Files awaiting TJ's publish
+
+`packs/reference-erotica.json` · `packs/reference-romance.json` · `manifest.json` ·
+`CHANGE-LEDGER.md` · `tools/validate_pack.py`. **Claude performs no git operations, ever — T-12.**
+
+---
+
+## The library-wide V-29 pass — instrument built, worklist measured, 2026-09-04
+
+**Erotica's V-29 run exposed a library-wide gap: the rule was written during Erotica, so thirteen
+packs assert living people with no check date and no record that anyone ever verified them.** This
+session built the instrument and measured the job. **It checked none of them.** Handoff:
+`HANDOFF-v29-library-living-recheck.md`.
+
+**`tools/living_census.py` promoted from `_build/erotica/tools/` and rewritten on promotion.** The
+Erotica version silently assumed Erotica's prose. ⟨measured⟩ **Erotica's predicate reported 411
+living claims library-wide; a convention-blind one reported 919; the audited instrument reports
+885.** The first number was about to be used to size the repair. The library carries **four**
+life-date conventions and a tool assuming one reports **zero living authors** for the packs using
+the others — which is precisely what it did for SF, Fantasy, MCT and TV Formats, four packs and 601
+author cards. **V-37**, and the third instance of this defect class in one build.
+
+⟨measured: `tools/break_living_census.py` — **15 cases, 15 behaved as claimed**, one BEHAVIOUR
+fixture per convention plus three declared blind spots⟩. **The harness crashed six of its own
+fifteen cases on its first run**: the verdict was a dict literal, and a dict literal evaluates every
+value before the key is used, so `assertion(out)` ran on rows whose assertion is `None`.
+`break_tools.py` died the same way earlier in this build (T-33). Made lazy.
+
+⟨measured: `python3 tools/living_census.py`, exit **1**⟩ across all 14 packs —
+**1,861 author cards · 928 state a death · 14 life dates unresolved · 3 exempt · 31 carrying a
+check date (all Erotica) · 885 naming none.** The 885 are **848 distinct people**; 59 are carded in
+two or more packs, so checking the person rather than the card saves 71 checks — **B-16's missing
+cross-pack instrument** (Part 3 item 35) earning its keep for the first time.
+
+**The three exemptions are cards that state no death because no death date exists, and say so
+properly** — Héctor Germán Oesterheld, forcibly disappeared in 1977 under the Argentine
+dictatorship, and Ambrose Bierce in two packs. A first pass flagged all three as suspect living
+claims; **reading them showed the cards were right and the predicate was wrong.** They are now
+enumerated with written reasons rather than pattern-matched, on screen 19's and G12's precedent —
+the third time this build has chosen a blunt detector plus a named exemption list over a clever
+regex.
+
+**TV Formats is a different problem from the other twelve. V-38.** It states no life dates at all,
+so **113 of its 120 author cards assert a living person invisibly** and none can be risk-ranked. A
+ruling on the convention precedes any re-check there. A further **225 cards across the library carry
+no birth year**, so age — the only risk signal available — cannot sort them.
+
+**Standing decisions taken at the handoff.** The thirteen packs are **already published**, so their
+repairs are **version bumps, not amendments** (Part 3 item 48; Romance 1.1.2→1.1.3 precedent) —
+Erotica was correctable in place only because it had not shipped. **One pack per session**, because
+each needs its own replay, gate run, ledger row and publish. And **Erotica ships now**, ahead of the
+pass: TJ's decision, 2026-09-04, on the grounds that it is the only pack with a current check and
+holding it only lets its confirmation dates go stale.
+
+### Files awaiting TJ's publish, final
+
+`packs/reference-erotica.json` · `packs/reference-romance.json` · `manifest.json` ·
+`CHANGE-LEDGER.md` · `tools/validate_pack.py` · **`tools/living_census.py`** ·
+**`tools/break_living_census.py`** · **`HANDOFF-v29-library-living-recheck.md`**
+
+**Claude performs no git operations, ever — T-12.**
+
+---
+
+# The V-29 consolidation — four patches merged, 2026-09-04
+
+**This is the only session permitted to edit `CHANGE-LEDGER.md` and `manifest.json`**, and it is
+the session that finished War & Military's second pass. Everything below merges the patch files the
+pack sessions wrote and never applied themselves.
+
+## Which packs had patches, and which did not
+
+| pack | patch on disk | state |
+|---|---|---|
+| **comedy** | `V29-LEDGER-PATCH.md` + `V29-MANIFEST-PATCH.json` | merged here |
+| **literary** | both | merged here |
+| **superhero** | both + a `-NOTE.md` | merged here |
+| **war-military** | both + a `-NOTE.md` | merged here, at **1.2.4** after the second pass |
+| **erotica** | **none, and none is owed** | its V-29 was written straight into this ledger on 2026-09-04, before the patch protocol existed, and its manifest row already matches disk exactly. Nothing to merge |
+| **horror** | none | **ran and stopped on purpose.** No replayable batch markdown and no `rebuild.sh`. `_build/horror/audits/V29-BLOCKED-no-replay-chain-2026-09-04.md`. Census measured: 140 authors, 67 living claims with no check date |
+| **scifi** | none, deliberately | **ran, censused, and stopped at step zero on purpose.** 782 of 1,201 cards have no batch markdown; 91 of 131 living claims are unrepairable by the sanctioned route. `_build/scifi/audits/V29-NO-PATCH-README.md`. Pack untouched at 2.2.0 |
+| **manga** | none | interim record only, `v29-living-recheck-RECORD-INTERIM.md`. **Did not finish** |
+| **western** | none | `_build/western/v29-work/` exists and holds only empty `out/` and `tools/` folders, and there is no `audits/` folder at all. **Started and left nothing.** Its census-defect finding survives only as second-hand reports in other packs' patches |
+| fantasy · historical · mystery-crime-thriller · romance · tv-formats | none | **never ran** |
+
+**Five packs are being published. Nine are not.** Of the nine, two stopped for a stated and good
+reason, one did not finish, one left nothing, and five were never started.
+
+## The renumbering, because four patches claimed the same ids
+
+The highest standing-rule id in this file was **V-38**, and each session numbered from there
+independently. Comedy claimed V-39 to V-43, War & Military claimed V-39 and V-40, Literary claimed
+T-36, V-41 and V-42, Superhero claimed V-41. **`T-36` was not free either** — this file numbers `V-`
+and `T-` rows in one sequence, and 36 is `V-36`.
+
+| final id | section | proposed as | subject |
+|---|---|---|---|
+| **V-39** | 1E | WAR `V-39` | prove a replay reproduces the SHIPPED pack before repairing |
+| **V-40** | 1C | WAR `V-40` | institutional activity in a person's name is not evidence of life |
+| **V-41** | 1E | COM `V-39` | an enumerated category set goes stale when a category is renamed |
+| **V-42** | 1E | COM `V-40` | a clock-stamped date makes replay impossible by construction |
+| **V-43** | 1E | COM `V-41` | a one-off script's serialisation and insertion defeat replay proof |
+| **V-44** | 1C | COM `V-42` | a key-based equality check is blind to order |
+| **V-45** | 1E | COM `V-43` | a break fixture's hard-coded bad value stops testing when it becomes legal |
+| **T-46** | 1E | LIT `T-36` | a delimiter-split parser cannot read its own empty optional field |
+| **V-47** | 1C | LIT `V-42` | a nationality is a routing instruction and it decays |
+| **V-48** | 1E | LIT `V-41` **+** SUP `V-41` **+** WAR second pass | **the census defect — three findings, ONE row** |
+
+**V-48 is the de-duplication the task asked for.** Literary, Superhero and War & Military each found
+the same defect in the same shared tool on the same day, independently, and each proposed it as a
+new rule. It is one row with all fourteen columns, `A` for those three packs, and the row names all
+three measurements — because three independent findings is the strongest thing about it and merging
+them into one row is what makes that visible.
+
+**Rows are inserted into the Part 1 `1C` and `1E` tables**, with all fourteen pack columns, on the
+standard this file set for itself on 2026-09-04 ("in the Part 1E table with all fourteen pack
+columns... not appended as a separate table"). Every new row was checked for **19 unescaped pipes**
+before insertion; Literary's `T-36` as written carried eight unescaped literal pipes inside its
+rule text and would have broken the table silently. They are escaped now.
+
+## The cell moves
+
+**35 cell moves applied**, every one checked against the value actually in the file before it was
+changed — no move was applied on the patch's word alone, and none disagreed.
+
+* **LIT** — V-11 `P`→`A`, V-20 `?`→`–`, V-29 `?`→`A`, V-32/34/35/36/37 `?`→`A`, V-38 `?`→`–`
+* **WAR** — V-11 `P`→`A`, V-20 `?`→`A`, V-29 `?`→`A`, V-32/34/35/36/37 `?`→`A`, V-38 `?`→`–`
+* **COM** — V-29/32/34/35/36/37 `?`→`A`, V-38 `?`→`–`
+* **SUP** — V-11 `P`→`A`, V-25 `?`→`A`, V-29 `?`→`A`, V-32/33/34/35/36/37 `?`→`A`, V-38 `?`→`–`
+
+**A correction to all four patches' own filing.** Each describes V-32 and V-34 to V-38 as living in
+table `1E`, and Literary also files V-32 there while War & Military files it in `1C`. **None of them
+is in either table.** V-30 to V-38 and T-32 to T-35 sit in the "New standing rows" table inside the
+**Science Fiction 2.0.0 section of Part 2**, even though the Erotica step-9 section of 2026-09-04
+states they are "in the Part 1E table with all fourteen pack columns". The rows were located by id
+and the moves are correct; **the ledger's own account of where its rules live is not.** Not fixed
+here — moving nineteen rows between tables is its own task, and this session had two jobs already.
+
+---
+
+## Comedy 1.2.1 — the V-29 living re-check, 2026-09-04
+
+**45 of 130 author cards asserted a living person and not one said when that had been checked.**
+Seven independent readers, one per block, blind to each other; **seven planted falsehoods, seven
+caught**, so no block was re-run.
+
+**Result: 42 ALIVE-CONFIRMED · 0 DEAD · 3 NO-EVIDENCE · 0 CONTESTED.** No card in this pack is wrong
+about a death. `author-122` Gary Larson, `author-120` Bill Watterson and `author-117` Bo Burnham are
+now carried as unconfirmed, each stating on the card what it previously asserted and why that is
+withdrawn. Nine confirmations are thin and each names the evidence it rests on.
+
+**Unlike Erotica, no Comedy card claimed a check that had not happened.** Both cards asserting a
+verification — `author-63` Chris Morris and `author-122` Gary Larson — were re-checked independently
+and **both stood**. Morris's claim was true but undated, which V-34 forbids, so it now names when the
+check happened and what it found.
+
+**One factual error the re-check turned up**, verified independently before being applied:
+`author-109` Billy Connolly's card dated his retirement announcement to 2020 and tied it to a
+Parkinson's diagnosis. He announced the end of his touring career in **December 2018**; the diagnosis
+was **2013**.
+
+**Step zero found the batch markdown badly drifted from the shipped pack** — 71 cards differing in at
+least one field and 2 absent entirely, from the F-20 medium retag, the retro-pass award disclosure,
+and two reciprocal hand-off cards. A plain replay would have silently regressed a published pack.
+Reconciled from the shipped file verbatim, then proved: **614 of 614 cards identical as data, header
+and collections identical, entry order identical.** Residue: 129 bytes, being the key order of two
+fields inside one works entry on `author-45`, which JSON gives no meaning to.
+
+**Gates, all unpiped:** replay 0 · 16 screens 0 errors · promoted file `cmp`-equal to replay output ·
+`smoke_test` 0 (32 checks) · `reuse_check` 0 · `living_census` **0** (45 of 45 carrying a check date,
+0 without) · `break_living_census` 0 (15 cases, 15 behaved as claimed) · `validate_pack.py` in the
+session container **PASS — 0 errors** (T-11, jsonschema 4.26.0).
+
+`packVersion` **1.2.0 → 1.2.1** — a version bump, not an amendment, on the Romance 1.1.2 → 1.1.3
+precedent.
+
+---
+
+## Literary Fiction 1.1.3 — V-29, the pre-release living re-check, 2026-09-04
+
+**Pack version 1.1.2 → 1.1.3.** A correction pass on a live pack, so a version bump rather than an
+amendment (Romance 1.1.2 → 1.1.3 precedent). Full record and every source:
+`_build/literary/audits/v29-living-recheck-RECORD.md` and `-EVIDENCE.md`.
+
+### The census
+
+⟨measured: `python3 tools/living_census.py packs/reference-literary.json` — exit 1⟩
+**130 author cards · 99 stating a death · 0 exempt · 0 unresolved · 31 living claims, and 0 of the
+31 naming a check date.**
+
+**Erotica's finding was not repeated here, and could not be.** That run found three cards claiming
+`living, checked in September 2026` when no check had happened. Literary asserts no check on any
+card, so there was no false claim to catch. Its defect is the other one: the pack never claimed to
+have looked. 31 of 31 living claims were unre-checkable, as War & Military was 24 of 24.
+
+### The result — 31 people, four blind readers, four plants, four returned
+
+**28 ALIVE-CONFIRMED · 0 DEAD · 3 NO-EVIDENCE · 0 CONTESTED.**
+
+**No card in this pack is wrong about a death.** All four planted falsehoods were returned (Soyinka's
+Nobel year, Rushdie's birthplace, Ishiguro's birthplace, Zadie Smith's first-novel date), so no block
+was re-run. Unlike War & Military's run the plants did **not** double as a check on real card claims:
+Literary's author metadata carries nationality and birth year only, so there was nothing for them to
+corroborate. That is the weaker outcome and it is a property of how thin this pack's metadata is.
+
+### The three, and what they have in common
+
+`author-105` Thomas Pynchon · `author-120` Patrick Modiano · `author-125` Elena Ferrante. **None is
+a claim that the person has died**; each card states the withdrawal in its own words (V-35).
+
+**All three were produced by V-36 alone** — a novel's publication, a publisher's catalogue entry, a
+publisher's remark. And two of the three are reclusive, which is the trap: reticence is a sufficient
+explanation for the silence, and that is exactly why it is not evidence. Ferrante is unresolvable in
+a different way — living status cannot be established for a writer who cannot be named — and the
+card now says which kind of unresolvable it is.
+
+### Also changed
+
+`author-76` J.M. Coetzee — "South African, born 1940" → Australian citizen since 2006, resident in
+Adelaide, South African by formation. A nationality is where the next re-check sends its enquiry, and
+this one pointed at the wrong country. **V-47.**
+
+### The finding that is not about living status at all
+
+**The pack had no toolchain and no batch markdown on disk** — both only inside a 2026-08-19 snapshot
+— and a replay of that snapshot would have **regressed the published pack by 118 cards**. Two causes,
+and they are different in kind. Eighteen were ordinary drift: F-20's 15 medium retags, an awards
+hedge, a robustness tier, two meta rewrites, two lead-work year corrections and the `subgenre-31`
+Western hand-off card, all applied to the JSON and never written back. **The other hundred were a
+tool defect**: `merge.py` split works bullets on `" | "`, which cannot read the empty-note form that
+`BATCH-FORMAT.md` documents, so 100 of 390 bullets lost their lead-work flag silently. It had never
+fired on another pack because no other pack writes an empty note slot — and the same code is live in
+two other packs' toolchains today. **T-46.** Reconciled from the shipped file verbatim and proven —
+613 of 613 cards identical — **before** any repair was written.
+
+### Gates, all unpiped
+
+`rebuild.sh` 10 batches → **613/613** · 12 assembly screens **0 errors** · `smoke_test` **exit 0,
+ALL GUARDS OK** (container) · `living_census` **exit 0** · `break_living_census` **15 cases, 15
+behaved as claimed** · `validate_pack.py` in the session container (T-11) **PASS — 0 error(s)** ·
+desktop replay and container replay **byte-identical**, sha256 `4c56f578…` · promoted file
+**byte-equal** to the replay output. Whole-pass diff: **31 cards, one field each, plus the two
+header fields.**
+
+### A mistake of mine, recorded, because it made a gate lie
+
+Six of the repaired cards were first written with hyphenated day ranges — `8-9 April 2026` — which
+`living_census.py` reads as a life-date range. All six classified as *stating a death*, dropped out
+of the living set, and **the census exited 0 by hiding them**. Caught by the bucket arithmetic
+alone: `dated` had moved 99 → 105 while `w/date` read 25 where it had to be 31. **V-48**, and the
+shared instrument still cannot tell a day range from a year range for any pack.
+
+**Claude performed no git operations. TJ publishes.**
+
+---
+
+## Superhero 1.2.1 — V-29, the pre-release living re-check, 2026-09-04
+
+**Pack version 1.2.0 → 1.2.1.** A correction pass on a live pack, so a version bump rather than an
+amendment (Romance 1.1.2 → 1.1.3 precedent). Full record and every source:
+`_build/superhero/audits/v29-living-recheck-RECORD.md` and `-EVIDENCE.md`.
+
+### Step zero: the batch markdown had drifted, for the second pack running
+
+⟨measured: a replay of the batches as found produced **612** entries against a shipped **614**⟩ —
+**a pure replay would have regressed the published pack.** Four drifts, none previously recorded:
+the diacritic restoration of 2026-08-31 (11 cards: `Go Nagai` → `Gō Nagai`, `Shotaro Ishinomori` →
+`Shōtarō Ishinomori`, `Kohei Horikoshi` → `Kōhei Horikoshi`); the two reciprocal hand-off cards
+`subgenre-41` and `subgenre-42` from the 1.1.0 and 1.2.0 bumps; two works-list attribution
+corrections; and — the one that matters — **`history-18`'s post-ship rewrite, which had removed an
+adjudicating final sentence from a card whose own title calls the credit contested.** A replay would
+have put the adjudication back. That is C-06 undone by a rebuild.
+
+**The pack's own `rebuild.sh` could not run at all**: it reads `order.txt`'s two columns in the wrong
+order, and it names Western's file paths. Left as found; the working replay is `v29-work/rebuild.sh`.
+
+⟨measured after reconciliation, before any V-29 repair: **614 entries, 0 added, 0 removed, 0
+changed — 614 of 614 cards identical** to the shipped 1.2.0, the whole-file difference being
+`packVersion` and `lastUpdated` alone.⟩ This is V-39's second independent confirmation.
+
+### The census was short by seven, and that is a defect in the instrument
+
+⟨measured: `living_census.py` — exit 1 — **120 author cards · 63 stating a death · 1 exempt ·
+0 unresolved · 56 living claims, and 0 of the 56 naming a check date**⟩
+
+**But the true roster was 63.** Seven cards say `living` and never reach the worklist, because the
+tool reads any year range as a death — run spans, an issue range `26–50`, and, on `author-36`,
+**another man's life dates carried on the card as a do-not-confuse warning.** New standing row V-48.
+The shared tool was **not** edited: concurrent sessions were running it, and that is War & Military's
+§7.1 mistake, avoided rather than repeated.
+
+### The result — 63 people, eight blind readers, and the discard rule firing for the first time
+
+**51 ALIVE-CONFIRMED · 0 DEAD · 12 NO-EVIDENCE · 0 CONTESTED.**
+
+**No card in this pack is wrong about a death.**
+
+**Two of the eight readers missed their planted falsehood, and both blocks were re-run rather than
+reconciled** (V-33) — the first time the discard rule has actually fired in this library. Fresh
+readers with new plants returned both. Both failed readers had reported exhausting their web-search
+allowance partway through the block, which says something useful about when this control breaks. A
+narrow third pass (V-17) settled three further cases; it **overturned** `author-111` Bruce Timm from
+confirmed to unconfirmed, on the ground that a showrunner credit is not the person acting — the 2026
+season's press was given by two other named showrunners referring to him in the past tense.
+
+### What the twelve unconfirmed have in common, and one correction the other way
+
+Four of the twelve are unresolved because the environment could not reach the record, not because it
+is empty. The other eight are genuine gaps. `author-59` Bill Mantlo is the hard case and the card
+says so: he cannot make public statements, so the ordinary evidence of a person acting is unavailable
+to him by definition.
+
+**`author-116` Richard Reynolds is a correction in the opposite direction.** The card said *"The
+person cannot be documented."* That was too strong: he holds a named course-leader post at a London
+art school. **A pack can be wrong by claiming too little**, and the card now says what is genuinely
+absent — a birth year and any dated activity after 2022 — instead.
+
+**`author-90` Naif Al-Mutawa** called 2015 its last hard documentation and named itself the weakest
+currency in its block; a Kuwaiti press interview of 9 August 2026 retired that. **The eleven-year gap
+was the pack's reach, not his silence.**
+
+### Four build-tool defects fixed in this pack's own tree
+
+`config.py`'s palette sweep compared this pack's hues against **its own shipped file** and could
+never pass again once Superhero shipped; the same function then resolved the repo root by counting
+fixed directory levels, so from a new location it printed **"SKIPPED"** and passed without running.
+`drift_check.py` ignored `PACK_WIP` and died on a path — **the one tool whose whole job is catching a
+WIP that has drifted from its batch files, unable to run.** `smoke_test.py` asserted the literal
+string `"25 screens"` against `assemble.py`'s `N_SCREENS = 27`. All four fixed in
+`_build/superhero/v29-work/tools/`.
+
+### Gates, all unpiped
+
+`rebuild.sh` **614/614** · 27 assembly screens **0 errors** · `screens_test` **24/24** ·
+`drift_check` **614 of 614 match** · `cat_check` clean on all 25 batches ·
+`smoke_test` in the container **39 checks, ALL GUARDS OK** · `living_census` **exit 0** ·
+`break_living_census` **15 of 15 behaved as claimed** · `validate_pack.py` in the container
+**PASS — 0 errors** · desktop and container replays **byte-identical**, sha256 `4f5298c4…` ·
+promoted file `cmp`-equal to the replay output.
+
+### Files awaiting TJ's publish
+
+`packs/reference-superhero.json` (1.2.1, 614 entries, 836,245 bytes) and everything under
+`_build/superhero/`. `CHANGE-LEDGER.md` and `manifest.json` are **not** edited by this session; the
+patches are `_build/superhero/audits/V29-LEDGER-PATCH.md` and `V29-MANIFEST-PATCH.json`.
+
+---
+
+## War & Military 1.2.3 — V-29, the pre-release living re-check, 2026-09-04
+
+**Pack version 1.2.2 → 1.2.3.** A correction pass on a live pack, so a version bump rather than an
+amendment (Romance 1.1.2 → 1.1.3 precedent). Full record and every source:
+`_build/war-military/audits/v29-living-recheck-RECORD.md` and `-EVIDENCE.md`.
+
+### The census, and the shape of what it found
+
+⟨measured: `python3 tools/living_census.py packs/reference-war-military.json` — exit 1⟩
+**130 author cards · 105 stating a death · 1 exempt (Ambrose Bierce) · 0 unresolved ·
+24 living claims, and 0 of the 24 naming a check date.**
+
+Erotica's run found 11 cards carrying a bare `born YYYY` with no status. **This pack was 24 of 24.**
+Not one living claim in War & Military was re-checkable. That is V-34's defect in its complete form.
+
+One of the 24 was not a person to check: `author-1` **Homer**, whose card reads *"traditionally
+dated to the eighth century BCE"* — which the census, blunt by design, cannot read as a death. He is
+repaired, not researched, and now carries the exact phrase `life dates unresolved`.
+
+### The result — 23 people, three blind readers, three plants, three returned
+
+**18 ALIVE-CONFIRMED · 0 DEAD · 5 NO-EVIDENCE · 0 CONTESTED.**
+
+**No card in this pack is wrong about a death.** The pack had already caught Deighton, Malouf and
+Caputo, all three of whom died in 2026, and the re-check adds none.
+
+All three planted falsehoods were returned (Adichie's Booker, O'Brien's Pulitzer, Cornwell's 1971),
+so no block was re-run. All three happened to contradict claims the pack already had **right**, so
+the control doubled as an independent check on three real card claims. That was luck.
+
+### The five, and the rule they produced
+
+`author-99` Ha Jin · `author-105` Tim O'Brien · `author-129` Jonathan Shay · `author-111` James Webb ·
+`author-94` Scholastique Mukasonga. **None is a claim that the person has died**; each card now states
+the withdrawal in its own words (V-35).
+
+Four of the five were surrounded by activity that looks exactly like a living person's footprint and
+is not the person acting — a lecture series carrying the name, a certificate programme named in
+honour, a biography's publicity tour, a retirement processed by an employer, a fellowship an
+institution closed. **V-40**, and it is the institutional twin of V-36.
+
+### Also changed
+
+`author-86` Adania Shibli — the card said the LiBeraturpreis ceremony "was postponed" and stopped.
+**A hedge decays (V-20):** it never took place, and Litprom **suspended the prize itself in 2024**,
+by its own statements of 16 October 2023 and 29 July 2024. The card now carries both, and that the
+award to her was never in question.
+`author-82` David Grossman — "the International Booker Prize in 2017" → **the Man Booker International
+Prize**, as the award was styled that year. V-04, one instance.
+
+### The finding that is not about living status at all
+
+**The batch markdown had stopped reproducing the pack, and a pure replay would have regressed it by
+two entries and eleven cards.** F-20's medium retag and the two reciprocal hand-off cards were
+applied to the JSON and never written back; `craft-51`'s rewrite lived only in the build snapshot;
+and the pack had no build toolchain on disk at all. Reconciled from the shipped file verbatim and
+proven — replay equals shipped, 0 changed entries — **before** any repair was written. **V-39.**
+
+### Gates, all unpiped
+
+`rebuild.sh` 24 batches → **614/614** · 13 assembly screens **0 errors** · `smoke_test` **exit 0,
+ALL GUARDS OK** (container; on the desktop it exits 1 for T-11 reasons, see below) · `reuse_check`
+**0 over cap** · `living_census` **exit 0** · `break_living_census` **15 cases, 15 behaved as
+claimed** · `validate_pack.py` in the session container (T-11) **PASS — 0 error(s)** · desktop
+replay and container replay **byte-identical** · promoted file **cmp-equal** to the replay output.
+
+### Three mistakes of mine, recorded
+
+**I nearly edited a shared file.** Homer's false positive looked like an `EXEMPT` entry in
+`tools/living_census.py` — a file three other sessions are reading right now. Caught before acting.
+The fix belonged on the card, and is better there: an exemption would have hidden the judgement
+inside a tool.
+
+**`rebuild.sh` starts `rm -rf wip` and the pack folder does not permit deletion**, so the first
+replay after reconciliation exited 1 and looked like a build failure. The WIP file now builds
+outside the mount via `PACK_WIP`. The next session on a mounted pack will hit this immediately.
+
+**`smoke_test.py` exited 1 on the desktop with every guard passing.** Its last step runs the disk
+validator, and the desktop's jsonschema is 3.2.0 — **T-11, inside a tool whose name does not say
+"validator"**, reported as an `IndexError` on empty stdout rather than as the real cause. T-11's
+note should say it applies to anything that embeds the validator.
+
+### And one thing this pass did not do
+
+**It ran no library-wide screens beyond the census, because there are none.** `blueprint_parity`,
+`palette_check`, `name_cross_check`, `two_statements` and `sensitive_audit` live in
+`_build/erotica/tools/` and are written against Erotica's prose. **V-37 forbids merely copying
+them.** This pack therefore has a thinner gate set than Erotica did, and that is a gap, not a clean
+bill.
+
+
+## War & Military 1.2.4 — the two cards 1.2.3 never checked, 2026-09-04
+
+**⟨The section above is the 1.2.3 pass's own account and is merged unaltered. Two of its figures were
+produced by a defective instrument: it reports "105 stating a death" and "24 living claims" where the
+true figures are 103 and 26. This section is why.⟩**
+
+**Pack version 1.2.3 to 1.2.4, the same day. 1.2.3 was reported complete and it was not.** Two author
+cards were never sent to a reader, because a defect in `tools/living_census.py` read the span of a
+tour of duty as a death date and filed them as people with a recorded death: `author-113`
+**Kevin Powers**, *"in Iraq in 2004-05"*, and `author-114` **Phil Klay**, *"in Anbar province in
+2007-08"*. The 1.2.3 gate table records the census exiting **0** over both of them. That exit code
+was true and worthless — **the tool answered a question about 128 cards while reporting on 130.**
+Both men are alive and both are young, so the practical risk was small. **The defect is the claim,
+not the risk**, and the pack claimed a completed re-check it had not performed.
+
+**The instrument was broken before it was trusted this time.** `tools/break_living_census.py`,
+**32 cases, exit 0, 32 of 32 behaved as claimed**, on the desktop and again in the container — five
+prose spans that must read as living and twelve real life ranges that must still read as deaths,
+because an earlier attempt at this same fix rejected 49 genuinely dead authors. **V-48.**
+
+**Step zero was re-run in full before anything was touched.** A replay of the canonical batch
+markdown was proved byte-identical to the shipped 1.2.3: `cmp` **exit 0**, and **614 of 614 cards
+identical in order**, reported as two separate facts rather than one. **V-39, V-44.**
+
+**One blind reader took both people, with a planted falsehood** — a fictitious 2013 Pulitzer for
+*The Yellow Birds* — **which the reader returned unprompted**, citing the Pulitzer board's own 2013
+winners page against it. No re-run was needed. Both verdicts were then re-checked by me against the
+primary sources, independently of the reader. **Both are ALIVE-CONFIRMED**: Powers on a WUSF
+*Florida Matters* interview transcript of **13 June 2026** in which he speaks and is quoted, Klay on
+*Manifesto!* episode 91 of **27 August 2026**, which he co-hosted in conversation. Powers' new novel
+and two scheduled bookstore events were correctly refused as evidence (V-36); Fairfield University's
+announcement of a Klay colloquium was correctly refused as institutional (**V-40**).
+
+**Each card now says on its face that it was missed**, naming the defect that missed it — V-35's
+principle, that a withdrawal is stated on the card in the card's own words, applied to a claim the
+pack made and could not support. **Both cards also had their tour-of-duty span rewritten in words**,
+`between 2004 and 2005` and `between 2007 and 2008`. That is a change to published card text that no
+finding required, made because that text is the direct cause of the failure, and it is recorded here
+so it can be reversed rather than discovered.
+
+⟨measured after: **130 authors = 103 dated + 1 unresolved + 1 exempt + 25 carrying a check date + 0
+with none**; the buckets sum to the roster and the two repaired cards moved by exactly two. The
+replay differs from 1.2.3 in **exactly two cards and `packVersion`**, nothing else. All gates re-run
+unpiped: break harness 32/32 · replay 614/614 · 13 screens 0 errors · promoted file `cmp`-equal to
+the replay · `reuse_check` 0 over cap · `smoke_test` **ALL GUARDS OK** in the container · census
+**exit 0** on desktop and in the container · `validate_pack.py` in the container **PASS — 0
+error(s)** · 693,025 bytes, sha256 `d7c41f26…`, identical on both sides.⟩
+
+**What this pass got wrong, and what it chose not to do.** Nothing had to be re-run — a short list
+only because this was a two-person block. The span rewrite is a judgement call and is flagged above
+rather than buried. `V29-MANIFEST-PATCH-NOTE.md` carried a stale byte count for the 1.2.3 file
+(692,281 against a true 692,304; both divide to 676 KB, so no shipped number was wrong) and is
+corrected. And **Kevin Powers' works list is out of date** — *A Line in the Sand* (2023) and
+*Children of the Wild* (2026) are missing. Nothing on the card is false; the curated entry route is
+simply older than the author. **Deliberately not fixed**, because extending a curated list is a
+curatorial pass and not a living re-check.
+
+
+---
+
+## The V-29 consolidation — what was measured, what is owed, and what to publish
+
+### The manifest, verified against disk rather than against the patches
+
+Four rows changed. **Every row in `manifest.json` was then re-measured against the file on disk** —
+version, entry count, size, last-updated, schema version, file path, collection labels and medium
+coverage — not copied from any patch.
+
+| row | packVersion | entryCount | approxSizeKB | lastUpdated |
+|---|---|---|---|---|
+| comedy-reference | 1.2.0 → **1.2.1** | 614 | 744 → **749** | → **2026-09-04** |
+| literary-reference | 1.1.2 → **1.1.3** | 613 | 615 → **621** | → **2026-09-04** |
+| superhero-reference | 1.2.0 → **1.2.1** | 614 | 840 → **817** | → **2026-09-04** |
+| war-military-reference | 1.2.2 → **1.2.4** | 614 | 671 → **677** | → **2026-09-04** |
+
+**Every patch value agreed with the disk**, with one exception that is not a disagreement:
+`_build/V29-FINISH-AND-PUBLISH.md` predicted **676 KB** for war-military and the measured figure is
+**677**, because the second pass added two sentences to two cards after that prediction was written.
+693,025 ÷ 1024 = 676.78, and this manifest **rounds** — its previous row carried 671 against 686,657
+bytes, and 686657 ÷ 1024 = 670.56. Superhero's row **shrank**, 840 → 817, which the finish note did
+not list among the expected stale rows; it is correct, measured, and it is the stray-card move
+described in V-43.
+
+**One row corrected beyond the patches:** `war-military-reference.mediumCoverage` listed **8** media
+where the pack contains **9**. `stage` has been missing since the F-20 retag of 2026-08-28.
+`_build/war-military/audits/V29-MANIFEST-PATCH-NOTE.md` asked the merging session to add it; added,
+between `short-fiction` and `tv`.
+
+**One row left wrong, on purpose, and it should be read as an open item:**
+`sf-reference.mediumCoverage` lists **3** media — `nonfiction`, `novel`, `short-fiction` — where
+`packs/reference-scifi.json` contains **7**: also `comic`, `film`, `game`, `tv`. Science Fiction is
+not one of the five packs being published, its pack file is untouched at 2.2.0, and it is mid
+chain-reconstruction. **This session did not touch it. It is wrong today and it was wrong before
+today.** After that exception, **every one of the fourteen rows agrees with its file on disk.**
+
+### The census across all fourteen packs
+
+⟨measured 2026-09-04 with the fixed tool, `python3 tools/living_census.py packs/*.json`, exit 1⟩
+
+**Living claims naming no check date: 732, against the starting baseline of 885. A reduction of
+153.** The exit code is 1 and it should be — nine packs have not run V-29.
+
+| pack | authors | no check date |
+|---|---|---|
+| comedy · erotica · literary · superhero · war-military | 130 · 110 · 130 · 120 · 130 | **0 · 0 · 0 · 0 · 0** |
+| scifi | 200 | 131 |
+| tv-formats | 120 | 113 |
+| romance | 130 | 90 |
+| manga | 120 | 87 |
+| fantasy | 140 | 85 |
+| horror | 140 | 67 |
+| mystery-crime-thriller | 141 | 66 |
+| historical | 130 | 50 |
+| western | 120 | 43 |
+
+**Each of the five repaired packs exits 0 individually.** That answers the worry Superhero's patch
+raised as its first open debt — that packs re-checked against the defective census might be hiding
+cards. **They are not: the census was re-run over all five with the fixed tool and every one of them
+is clean.** Erotica included, whose V-29 ran earliest of all.
+
+### The gates, re-run here on all five packs
+
+⟨measured 2026-09-04 by this session, every command unpiped. Exit 2 would mean DID NOT RUN; none
+reported it.⟩
+
+| gate | war-military | comedy | superhero | literary | erotica |
+|---|---|---|---|---|---|
+| full replay | **exit 0**, 614/614 | **exit 0**, 614/614 | **exit 0**, 614/614 | **exit 0**, 613/613 | not re-run — no repair this pass |
+| assembly screens | 13, **0 errors** | 16, **0 errors** | 27, **0 errors** | 12, **0 errors** | — |
+| shipped file vs replay | **`cmp` exit 0** | **`cmp` exit 0** | **`cmp` exit 0** | equal **except one trailing newline** — see below | — |
+| `smoke_test.py`, container | **exit 0**, ALL GUARDS OK | **exit 0**, 32 checks | **exit 0**, 39 checks | **exit 0**, ALL GUARDS OK | — |
+| `living_census.py` | **exit 0** | **exit 0** | **exit 0** | **exit 0** | **exit 0** |
+| `validate_pack.py`, container | **PASS — 0 errors** | **PASS — 0 errors** | **PASS — 0 errors** | **PASS — 0 errors** | **PASS — 0 errors** |
+
+`tools/break_living_census.py`: **exit 0, 32 cases, 32 behaved as claimed**, on the desktop and again
+in the container. `tools/reuse_check.py` on war-military: exit 0, 300 examples, 185 distinct, 0 over
+cap; the other packs run their reuse screen inside assembly.
+
+**Two small things found by re-running gates somebody else had already run.**
+
+* **Literary's replay is not byte-identical to its shipped file** — it is identical for all 636,066
+  bytes and the shipped file carries **one further trailing newline**. 613 of 613 cards identical,
+  all metadata identical. **This is known and correct**: that pack's own record says "byte-equal,
+  modulo the single trailing newline this pack has always shipped with". The caveat is in the
+  record and was **dropped from the ledger patch**, which says only "promoted file byte-equal to the
+  replay output". Nothing was changed; the shipped file is the one that was gated and validated.
+* **Superhero's `v29-work/smoke_test.py` cannot run from a clean copy of `v29-work/`** — it looks for
+  `v29-work/fixtures/` and the fixtures live one level up at `_build/superhero/fixtures/`. Copied
+  into place in the container to run the gate; **not fixed in the tree**.
+
+### The three findings recorded here and deliberately NOT acted on
+
+1. **The stray subgenre card is inconsistent across four packs.** `_build/tv-formats/reciprocal_cards.py`
+   appended a card to the end of `entries` in comedy, manga, superhero and scifi instead of placing
+   it in its block. **Superhero moved its card into place; Comedy deliberately kept the append order
+   so its replay stayed byte-identical.** Both were right locally and the two decisions disagree.
+   Normalising all four is its own task. **Neither pack was changed today. V-43.**
+2. **`assemble.py` stamps `lastUpdated` from the system clock**, which makes byte-identical replay
+   impossible by construction. Fixed inside Comedy's `v29-work/` only; the canonical copy in that
+   pack's tree still has it. **Not fixed today. V-42.**
+3. **The census defect is the fourth instance in this build of a screen that was too loose and a
+   result that looked clean** — after the `re.escape` substring match, the award trap matching
+   `RITA` inside `Britain`, and V-37's convention-blind predicate. It exited 0 while hiding cards.
+   **The fix itself was wrong twice before it was right, once rejecting 49 genuinely dead authors**,
+   which is why the harness now pins it in both directions. **V-48** is the standing rule.
+
+### Part 3 — open debts, merged and de-duplicated
+
+**Instruments and toolchain**
+
+* **`living_census.py` cannot tell a day range from a year range** was the shared defect; **it is
+  fixed and pinned by 32 break cases.** What remains: the fix landed on 4 September, after four
+  V-29 passes had already run against the broken tool. All five finished packs have been re-censused
+  and are clean. **Nothing has re-verified the worklists those passes used**, only their outputs.
+* **`merge.py`'s empty-optional-field defect (T-46) is fixed for Literary only.** The same padded
+  split is live in `_build/western/tools/merge.py` and `_build/war-military/v29-work/tools/merge.py`.
+  Latent only because those packs never write an empty note slot. **Nobody has swept the library.**
+* **`assemble.py`'s clock stamp (V-42) is fixed in one working copy.**
+* **The indent split is library-wide** — four packs at indent 2, ten at indent 1, from the one
+  script in V-43 — and the stray-card placement now disagrees between comedy and superhero.
+* **`_build/superhero/rebuild.sh` and `check.sh` are still broken** and were left as found.
+* **Science Fiction owes a toolchain before it can owe a V-29 pass.** 782 of 1,201 cards have no
+  batch markdown. And `merge.py --init` seeding from the shipped pack means **V-39's proof is
+  worthless there unless the merge output is read as well as the comparison**.
+* **Horror, Fantasy, MCT, Romance and Historical have no replayable batch markdown**, which is why
+  Horror stopped. They cannot be repaired by the sanctioned route as things stand.
+* **Erotica's five pack-local screens have not been promoted to library instruments** under V-37.
+
+**Cards and content**
+
+* **Unconfirmed and awaiting a direct enquiry: 23 people.** Five in War & Military (Ha Jin,
+  O'Brien, Shay, Webb, Mukasonga), three in Comedy (Larson, Watterson, Burnham — genuine recluses,
+  not research failures), three in Literary (Pynchon, Modiano, Ferrante), twelve in Superhero (four
+  of them blocked by connectivity, not by an empty record).
+* **Thin confirmations resting on 2025 with nothing in 2026**, flagged on the cards as first to
+  re-run: three in War & Military, nine in Comedy, six plus one advance listing in Literary, seven
+  in Superhero.
+* **Disputed dates left as the cards have them, deliberately, on one reader's word being
+  insufficient (V-17):** Hanna Krall's 1935/1937 birth year; Don McGregor's 1942/1945; Bảo Ninh's
+  own arithmetic in a dated 2025 interview, which a 1952 birth year does not give.
+* **A forged death announcement is on the record for Literary's `author-119` Annie Ernaux**
+  (22 June 2026, an account impersonating the Swedish Academy's permanent secretary, believed by
+  several public figures before exposure). **Any future death report on that card must be traced to
+  the Swedish Academy or a French outlet of record.**
+* **129 of Literary's 130 author cards have never had nationality or residence checked** (V-47), and
+  that pack's V-14 cell reads `A`.
+* **Kevin Powers' works list is stale** — two books published since it was written. Every pack's
+  author works lists are exposed to this and none has been swept.
+* **Six reader-found Comedy card corrections were not applied**, being judgement rather than fact.
+* **V-04 remains `?` for War & Military**, one instance corrected and the rest unaudited.
+
+**This file**
+
+* **V-30 to V-38 and T-32 to T-35 are not in the Part 1 tables**, despite this file stating on
+  2026-09-04 that they are. They sit in a table inside the Science Fiction 2.0.0 section of Part 2.
+* **T-18, T-19 and T-20 sit after a `---` rule at the end of 1E**, which ends the table, so they
+  render as a headerless table of their own. Both are formatting debts, neither was fixed today.
+* **V-29 still fires once and nothing re-fires it.** The check dates are now on the cards, which
+  makes staleness visible without acting on it.
+
+### Files awaiting TJ's publish
+
+Five pack files, the two library files this session merged, and the build paperwork:
+
+```
+packs/reference-war-military.json     1.2.4   614 entries   693,025 bytes
+packs/reference-comedy.json           1.2.1   614 entries   767,320 bytes
+packs/reference-superhero.json        1.2.1   614 entries   836,245 bytes
+packs/reference-literary.json         1.1.3   613 entries   636,067 bytes
+packs/reference-erotica.json          1.0.0   612 entries   812,200 bytes   (unchanged; already current)
+manifest.json                         four rows updated, one mediumCoverage corrected
+CHANGE-LEDGER.md                      this section, 10 new standing rows, 35 cell moves
+_build/war-military/   _build/comedy/   _build/superhero/   _build/literary/
+```
+
+**`packs/reference-erotica.json` is listed because it is one of the five packs being released and
+should go out with them; it was not modified by this session and its manifest row already matched.**
+
+**Claude performed no git operations, ever — T-12. TJ publishes.**
+
