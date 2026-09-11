@@ -1,14 +1,14 @@
 {
  "schemaVersion": 2,
- "updated": "2026-09-04",
+ "updated": "2026-09-11",
  "packs": [
   {
    "id": "sf-reference",
    "label": "Science Fiction",
    "file": "packs/reference-scifi.json",
-   "packVersion": "2.2.0",
+   "packVersion": "2.2.2",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-31",
+   "lastUpdated": "2026-09-11",
    "collections": [
     "Tropes",
     "Technologies",
@@ -23,7 +23,7 @@
     "Craft"
    ],
    "entryCount": 1201,
-   "approxSizeKB": 2182,
+   "approxSizeKB": 2191,
    "status": "live",
    "mediumCoverage": [
     "nonfiction",
@@ -44,9 +44,9 @@
    "id": "fantasy-reference",
    "label": "Fantasy",
    "file": "packs/reference-fantasy.json",
-   "packVersion": "1.1.4",
+   "packVersion": "1.1.5",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-28",
+   "lastUpdated": "2026-09-11",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -59,7 +59,7 @@
     "Psychology"
    ],
    "entryCount": 613,
-   "approxSizeKB": 799,
+   "approxSizeKB": 805,
    "status": "live",
    "mediumCoverage": [
     "comic",
@@ -84,9 +84,9 @@
    "id": "mystery-crime-thriller-reference",
    "label": "Mystery, Crime & Thriller",
    "file": "packs/reference-mystery-crime-thriller.json",
-   "packVersion": "1.0.2",
+   "packVersion": "1.0.4",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-28",
+   "lastUpdated": "2026-09-11",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -99,7 +99,7 @@
     "Psychology"
    ],
    "entryCount": 617,
-   "approxSizeKB": 683,
+   "approxSizeKB": 689,
    "status": "live",
    "mediumCoverage": [
     "audio",
@@ -122,9 +122,9 @@
    "id": "horror-reference",
    "label": "Horror",
    "file": "packs/reference-horror.json",
-   "packVersion": "1.1.3",
+   "packVersion": "1.1.4",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-28",
+   "lastUpdated": "2026-09-11",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -137,7 +137,7 @@
     "Psychology of Fear"
    ],
    "entryCount": 613,
-   "approxSizeKB": 856,
+   "approxSizeKB": 861,
    "status": "live",
    "mediumCoverage": [
     "comic",
@@ -165,9 +165,9 @@
    "id": "romance-reference",
    "label": "Romance",
    "file": "packs/reference-romance.json",
-   "packVersion": "1.1.3",
+   "packVersion": "1.1.4",
    "schemaVersion": 2,
-   "lastUpdated": "2026-09-03",
+   "lastUpdated": "2026-09-11",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -181,7 +181,7 @@
     "Psychology of Attraction & Attachment"
    ],
    "entryCount": 613,
-   "approxSizeKB": 783,
+   "approxSizeKB": 790,
    "status": "live",
    "mediumCoverage": [
     "film",
@@ -204,9 +204,9 @@
    "id": "historical-reference",
    "label": "Historical Fiction",
    "file": "packs/reference-historical.json",
-   "packVersion": "1.2.2",
+   "packVersion": "1.2.3",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-27",
+   "lastUpdated": "2026-09-11",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -219,7 +219,7 @@
     "The Record and Its Silences"
    ],
    "entryCount": 613,
-   "approxSizeKB": 582,
+   "approxSizeKB": 586,
    "status": "live",
    "mediumCoverage": [
     "comic",
@@ -375,9 +375,9 @@
    "id": "western-reference",
    "label": "Western",
    "file": "packs/reference-western.json",
-   "packVersion": "1.0.2",
+   "packVersion": "1.0.3",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-28",
+   "lastUpdated": "2026-09-04",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -391,7 +391,7 @@
     "Psychology of the Frontier"
    ],
    "entryCount": 612,
-   "approxSizeKB": 738,
+   "approxSizeKB": 748,
    "status": "live",
    "mediumCoverage": [
     "audio",
@@ -469,9 +469,9 @@
    "id": "manga-reference",
    "label": "Manga",
    "file": "packs/reference-manga.json",
-   "packVersion": "1.1.0",
+   "packVersion": "1.1.2",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-31",
+   "lastUpdated": "2026-09-11",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -485,7 +485,7 @@
     "Psychology of the Reader"
    ],
    "entryCount": 613,
-   "approxSizeKB": 816,
+   "approxSizeKB": 822,
    "status": "live",
    "mediumCoverage": [
     "film",
@@ -498,9 +498,9 @@
    "id": "tv-formats-reference",
    "label": "TV Formats",
    "file": "packs/reference-tv-formats.json",
-   "packVersion": "1.0.0",
+   "packVersion": "1.0.1",
    "schemaVersion": 2,
-   "lastUpdated": "2026-08-31",
+   "lastUpdated": "2026-09-11",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -514,7 +514,7 @@
     "Psychology of the Viewer"
    ],
    "entryCount": 612,
-   "approxSizeKB": 770,
+   "approxSizeKB": 779,
    "status": "live",
    "mediumCoverage": [
     "audio",

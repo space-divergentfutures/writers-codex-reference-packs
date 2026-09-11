@@ -1,9 +1,9 @@
 {
  "id": "tv-formats-reference",
  "name": "TV Formats",
- "packVersion": "1.0.0",
+ "packVersion": "1.0.1",
  "schemaVersion": 2,
- "lastUpdated": "2026-08-31",
+ "lastUpdated": "2026-09-11",
  "minAppVersion": "0.1.0",
  "collections": [
   {
@@ -6408,7 +6408,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Vince Gilligan",
    "description": "The showrunner who took a chemistry-teacher-turned-drug-dealer premise and built it into one of the most tightly plotted dramas American television has produced.",
-   "meta": "American writer-producer, television career since 1993.",
+   "meta": "American writer-producer, television career since 1993. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating and running Breaking Bad, then extending its world forward with Better Call Saul as co-creator with Peter Gould.",
    "signature": "Plots the whole season's causality before writing a line of dialogue, so a small choice in episode two detonates in episode ten — the reverse of a writers' room that discovers its ending as it goes.",
    "works": [
@@ -6440,7 +6440,7 @@
    "category": "Showrunners and Head Writers",
    "name": "David Chase",
    "description": "The creator whose mob-boss-in-therapy premise is widely credited with opening the door to the prestige-cable drama era.",
-   "meta": "American writer-producer, television career since 1971.",
+   "meta": "American writer-producer, television career since 1971. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating and running The Sopranos for HBO across six seasons.",
    "signature": "Refuses a clean moral accounting for any character, including the protagonist — episodes end on ambiguity rather than resolution, most famously the series finale's hard cut to black.",
    "works": [
@@ -6467,7 +6467,7 @@
    "category": "Showrunners and Head Writers",
    "name": "David Simon",
    "description": "A former newspaper reporter whose television work treats a city's institutions — police, schools, docks, City Hall, the press itself — as the real subject, one per season.",
-   "meta": "American writer-producer, television career since 2000.",
+   "meta": "American writer-producer, television career since 2000. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating The Wire and, later, Treme and The Deuce.",
    "signature": "Builds a season around an institution rather than a plot, so the mystery of who did it matters less than why the institution made it likely.",
    "works": [
@@ -6499,7 +6499,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Matthew Weiner",
    "description": "The creator who spent a decade turning a Madison Avenue ad agency into a study of postwar American identity, ambition, and self-invention.",
-   "meta": "American writer-producer, television career since 1999.",
+   "meta": "American writer-producer, television career since 1999. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating and running Mad Men for seven seasons; earlier a writer-producer on The Sopranos.",
    "signature": "Treats period detail as argument, not decoration — the clothes, the smoking, the casual sexism are the show's evidence, not its texture.",
    "works": [
@@ -6526,7 +6526,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Shonda Rhimes",
    "description": "The showrunner-turned-studio-head whose medical and political dramas built and then outgrew a whole network programming block.",
-   "meta": "American writer-producer, television career since 2005.",
+   "meta": "American writer-producer, television career since 2005. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Grey's Anatomy and Scandal, then building Shondaland into a production company with its own slate at Netflix.",
    "signature": "Runs high emotional stakes and structural precision at the same time — a season can carry a major medical or political crisis every few episodes without the plumbing showing.",
    "works": [
@@ -6558,7 +6558,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Michael Schur",
    "description": "A comedy writer-producer whose shows keep circling back to the same argument — that ordinary institutions can be made to run on decency, if the right people insist on it.",
-   "meta": "American writer-producer, television career since 2000.",
+   "meta": "American writer-producer, television career since 2000. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-creating Parks and Recreation and The Good Place; a longtime writer-producer on The Office (US).",
    "signature": "Builds a comedy's ensemble around one character's earnest, slightly absurd insistence on doing the right thing, then lets the show mean it.",
    "works": [
@@ -6590,7 +6590,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Dan Harmon",
    "description": "A sitcom creator known for building episodes around explicit structural experiments and for being fired from and rehired onto his own show.",
-   "meta": "American writer-producer, television career since 2002.",
+   "meta": "American writer-producer, television career since 2002. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Community and co-creating the animated series Rick and Morty.",
    "signature": "Names his own narrative-structure method (the \"story circle,\" his adaptation of the hero's journey) and uses it openly as the show's visible skeleton, including in episodes that parody the method itself.",
    "works": [
@@ -6617,7 +6617,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Jenji Kohan",
    "description": "A showrunner who has built two long-running dramas around women running businesses the law does not sanction — one in suburban marijuana dealing, one behind prison walls.",
-   "meta": "American writer-producer, television career since 1998.",
+   "meta": "American writer-producer, television career since 1998. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Weeds and Orange Is the New Black.",
    "signature": "Uses a large, changing ensemble to keep widening whose story a season is actually telling, so a show that starts as one woman's story becomes, over seasons, everyone around her.",
    "works": [
@@ -6644,7 +6644,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Ryan Murphy",
    "description": "A prolific creator-producer known for running several anthology-structured franchises in parallel, each built to reset its cast and setting every season or two.",
-   "meta": "American writer-producer, television career since 1999.",
+   "meta": "American writer-producer, television career since 1999. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Glee, American Horror Story, and American Crime Story.",
    "signature": "Treats the season, not the series, as the unit of storytelling — American Horror Story tells a different, self-contained story every year with a repertory cast playing new roles.",
    "works": [
@@ -6676,7 +6676,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Larry David",
    "description": "A comedy writer who co-created one of American television's most influential sitcoms and then built a second, semi-improvised show around a fictionalized version of himself.",
-   "meta": "American writer-producer, television career since 1980.",
+   "meta": "American writer-producer, television career since 1980. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-creating Seinfeld with Jerry Seinfeld; creating and starring in Curb Your Enthusiasm.",
    "signature": "Works from a written outline rather than a full script on Curb Your Enthusiasm, letting cast members improvise the actual dialogue around a fixed plot skeleton.",
    "works": [
@@ -6703,7 +6703,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Marta Kauffman",
    "description": "Co-creator of the sitcom that defined NBC's must-see-TV era around a group of friends in their twenties navigating work and relationships in New York.",
-   "meta": "American writer-producer, television career since 1985.",
+   "meta": "American writer-producer, television career since 1985. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-creating Friends with David Crane.",
    "signature": "Builds the ensemble so no single character is the lead — every storyline is written to be shareable across the group rather than centered on one protagonist.",
    "works": [
@@ -6730,7 +6730,7 @@
    "category": "Showrunners and Head Writers",
    "name": "David Crane",
    "description": "Co-creator, with Marta Kauffman, of Friends, and later creator of a sitcom centered on a gay couple raising a family.",
-   "meta": "American writer-producer, television career since 1985.",
+   "meta": "American writer-producer, television career since 1985. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-creating Friends; later creating Episodes and the animated series Q-Force.",
    "signature": "Returns repeatedly to found-family structures — a friend group standing in for a family of origin — across otherwise very different shows.",
    "works": [
@@ -6757,7 +6757,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Amy Sherman-Palladino",
    "description": "A creator known for rapid-fire, pop-culture-dense dialogue and for two very different mother-daughter-adjacent shows two decades apart.",
-   "meta": "American writer-producer, television career since 1990.",
+   "meta": "American writer-producer, television career since 1990. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Gilmore Girls; creating The Marvelous Mrs. Maisel with her husband and writing partner Daniel Palladino.",
    "signature": "Writes dialogue built for speed — actors are directed to move through pages far faster than naturalistic television pacing, so a scripted page runs long against screen time.",
    "works": [
@@ -6784,7 +6784,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Damon Lindelof",
    "description": "A showrunner who moved from a mystery-box ensemble drama to two much more formally ambitious limited-run projects built around grief and inherited trauma.",
-   "meta": "American writer-producer, television career since 2000.",
+   "meta": "American writer-producer, television career since 2000. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-creating Lost with J.J. Abrams and Jeffrey Lieber; creating The Leftovers and Watchmen (2019).",
    "signature": "Deliberately withholds explanation for a show's premise longer than an audience expects comfortable, then argues (in The Leftovers especially) that the withholding is the point, not a deferred payoff.",
    "works": [
@@ -6816,7 +6816,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Noah Hawley",
    "description": "A novelist-turned-showrunner who adapted a film into an anthology television series by keeping its tone and discarding its plot.",
-   "meta": "American writer-producer, television career since 2014.",
+   "meta": "American writer-producer, television career since 2014. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Fargo as an FX anthology series, and creating Legion.",
    "signature": "Treats the source film as a set of formal instructions — Coen-brothers deadpan, Midwestern violence, a folksy narrator — rather than a story to continue, so each season invents a new, unrelated crime plot in the same register.",
    "works": [
@@ -6843,7 +6843,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Michelle King",
    "description": "Co-creator, with Robert King, of a legal drama built around a political wife's return to practicing law after her husband's public scandal.",
-   "meta": "American writer-producer, television career since 2009.",
+   "meta": "American writer-producer, television career since 2009. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-creating The Good Wife and its spinoff The Good Fight.",
    "signature": "Uses a case-of-the-week legal structure as cover for a much longer serialized argument about compromise, ambition, and the cost of staying in a marriage for practical reasons.",
    "works": [
@@ -6870,7 +6870,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Robert King",
    "description": "Co-creator, with Michelle King, of The Good Wife and The Good Fight, and a writer whose legal dramas are structured to track institutional and political change in real time.",
-   "meta": "American writer-producer, television career since 2009.",
+   "meta": "American writer-producer, television career since 2009. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-creating The Good Wife and The Good Fight.",
    "signature": "Lets real current events feed directly into a season already in production, so The Good Fight in particular reads as reacting to the news cycle within weeks rather than months.",
    "works": [
@@ -6897,7 +6897,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Issa Rae",
    "description": "A creator who moved a web series about an awkward Black woman's inner monologue into a five-season HBO comedy without smoothing off its original voice.",
-   "meta": "American writer-producer, television career since 2011.",
+   "meta": "American writer-producer, television career since 2011. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Insecure, developed from her web series Awkward Black Girl.",
    "signature": "Keeps the show's humor rooted in a specific Los Angeles Black social and professional world rather than generalizing it for a broader audience, treating specificity as the source of the comedy rather than an obstacle to it.",
    "works": [
@@ -6988,7 +6988,7 @@
    "category": "Showrunners and Head Writers",
    "name": "David E. Kelley",
    "description": "A former lawyer whose legal and medical dramas mix courtroom or hospital procedure with heightened, sometimes surreal character quirks.",
-   "meta": "American writer-producer, television career since 1986.",
+   "meta": "American writer-producer, television career since 1986. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Ally McBeal and The Practice; adapting Big Little Lies for television.",
    "signature": "Lets a legal or medical show's cases run tonally inconsistent with each other — comic one week, tragic the next — treating tonal whiplash as a feature rather than a flaw.",
    "works": [
@@ -7020,7 +7020,7 @@
    "category": "Showrunners and Head Writers",
    "name": "David Benioff",
    "description": "Co-creator, with D. B. Weiss, of the HBO fantasy series adapted from George R.R. Martin's novels that became one of the most-watched dramas in the network's history.",
-   "meta": "American writer-producer, television career since 2011.",
+   "meta": "American writer-producer, television career since 2011. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-creating and running Game of Thrones.",
    "signature": "Adapted a still-unfinished book series by writing past the novels' published material in the show's final seasons — a structural bet that reshaped how the show was received once it overtook its source.",
    "works": [
@@ -7042,7 +7042,7 @@
    "category": "Showrunners and Head Writers",
    "name": "D. B. Weiss",
    "description": "Co-creator, with David Benioff, of Game of Thrones, and the showrunner pairing most associated with adapting an unfinished novel series to its television conclusion.",
-   "meta": "American writer-producer, television career since 2011.",
+   "meta": "American writer-producer, television career since 2011. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-creating and running Game of Thrones.",
    "signature": "Worked as a matched pair with David Benioff throughout the show's run, presenting joint interviews and joint writing credit rather than a single identifiable showrunner voice.",
    "works": [
@@ -7064,7 +7064,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Jesse Armstrong",
    "description": "A British writer who created an American media-dynasty drama about a family fighting over succession at their own conglomerate, without ever letting any of them win cleanly.",
-   "meta": "British writer-producer, television career since 1999.",
+   "meta": "British writer-producer, television career since 1999. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Succession; earlier writing on Peep Show and The Thick of It.",
    "signature": "Writes verbal cruelty as the family's primary love language — insults, put-downs and cutting nicknames stand in for affection throughout, so tenderness reads as more alarming than an attack.",
    "works": [
@@ -7096,7 +7096,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Peter Morgan",
    "description": "A British writer specializing in dramatizing real, still-living public figures — most extensively the British royal family across six decades in a single series.",
-   "meta": "British writer-producer, television career since 1995.",
+   "meta": "British writer-producer, television career since 1995. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating The Crown; earlier writing the film The Queen.",
    "signature": "Recasts his lead actors every two seasons as the royal family ages, treating cast turnover as a structural device rather than a production compromise.",
    "works": [
@@ -7123,7 +7123,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Phoebe Waller-Bridge",
    "description": "A British writer-performer who adapted her own one-woman stage show into a television series that breaks the fourth wall as its central formal device.",
-   "meta": "British writer-performer, television career since 2016.",
+   "meta": "British writer-performer, television career since 2016. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating and starring in Fleabag, adapted from her own stage play.",
    "signature": "Uses direct-to-camera asides not as narration but as a confession the character cannot make to anyone else on screen — the audience becomes her only honest relationship.",
    "works": [
@@ -7150,7 +7150,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Michaela Coel",
    "description": "A British writer-director who turned her own experience of sexual assault into a scripted series that refuses the genre conventions typical of trauma narratives on television.",
-   "meta": "British writer-director-performer, television career since 2015.",
+   "meta": "British writer-director-performer, television career since 2015. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating and starring in I May Destroy You; earlier creating Chewing Gum.",
    "signature": "Resists a single clean emotional arc for the protagonist's recovery, instead giving the series multiple, sometimes contradictory endings to sit with rather than resolve.",
    "works": [
@@ -7177,7 +7177,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Russell T Davies",
    "description": "A British writer credited with bringing Doctor Who back to broadcast after a sixteen-year gap and, separately, with one of British television's first sustained gay dramas.",
-   "meta": "British writer-producer, television career since 1994.",
+   "meta": "British writer-producer, television career since 1994. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Reviving Doctor Who for the BBC in 2005 and returning as showrunner again in the 2020s; creating Queer as Folk.",
    "signature": "Treats a long-running franchise's continuity as material to honor and rewrite at once, folding decades of prior canon into new stories rather than rebooting past it.",
    "works": [
@@ -7204,7 +7204,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Steven Moffat",
    "description": "A British writer who ran two of the BBC's biggest franchises in the same period, both built around puzzle-box plotting and nonlinear structure.",
-   "meta": "British writer-producer, television career since 1989.",
+   "meta": "British writer-producer, television career since 1989. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Showrunning Doctor Who and co-creating Sherlock with Mark Gatiss.",
    "signature": "Structures individual episodes around a reveal that recontextualizes everything the audience has already watched, often requiring a second viewing to fully track.",
    "works": [
@@ -7231,7 +7231,7 @@
    "category": "Showrunners and Head Writers",
    "name": "Sally Wainwright",
    "description": "A British writer whose crime and family dramas are set specifically in the West Yorkshire towns she grew up in, and who writes police procedure without softening its psychological toll on the officer at its center.",
-   "meta": "British writer-producer, television career since 1993.",
+   "meta": "British writer-producer, television career since 1993. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Happy Valley and Gentleman Jack.",
    "signature": "Locates every drama in the same real, specific West Yorkshire geography rather than an anonymized backdrop, treating place as inseparable from the story rather than a setting choice.",
    "works": [
@@ -7263,7 +7263,7 @@
    "category": "Format Creators and Devisors",
    "name": "Merv Griffin",
    "description": "A former talk-show host who devised two of the longest-running quiz-format franchises in American television, both still in daily syndication decades later.",
-   "meta": "American producer, television career since 1962.",
+   "meta": "American producer, television career since 1962. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Devising Jeopardy! and Wheel of Fortune.",
    "signature": "Built both formats around a single reversed or constrained mechanic — Jeopardy! answers phrased as questions, Wheel of Fortune's puzzle solved letter by letter — rather than a themed gimmick, which is a large part of why both have outlasted most of their era's other game shows.",
    "works": [
@@ -7290,7 +7290,7 @@
    "category": "Format Creators and Devisors",
    "name": "Chuck Barris",
    "description": "A game-show packager whose format ideas leaned toward spectacle and embarrassment at a moment when most of the genre stayed polite.",
-   "meta": "American producer, television career since 1965.",
+   "meta": "American producer, television career since 1965. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Devising The Dating Game and The Gong Show.",
    "signature": "Built shows around amateur contestants' unfiltered reactions rather than scripted patter, treating the audience's discomfort at a bad performance or an awkward date as the actual entertainment.",
    "works": [
@@ -7317,7 +7317,7 @@
    "category": "Format Creators and Devisors",
    "name": "Mark Burnett",
    "description": "A producer who brought a British-devised elimination-competition concept to American network television and followed it with a format built around corporate hiring.",
-   "meta": "American producer, television career since 1991.",
+   "meta": "American producer, television career since 1991. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Producing the American version of Survivor and devising The Apprentice.",
    "signature": "Structures a season around a single elimination mechanic repeated with rising stakes — a tribal vote, a boardroom firing — so the format needs no ongoing plot, only the mechanic run to its end.",
    "works": [
@@ -7344,7 +7344,7 @@
    "category": "Format Creators and Devisors",
    "name": "Charlie Parsons",
    "description": "The British producer whose original elimination-competition concept, developed for Swedish television before it existed anywhere else, became the template Survivor later adapted for American broadcast.",
-   "meta": "British producer, television career since 1986.",
+   "meta": "British producer, television career since 1986. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Devising Expedition Robinson, the original format later adapted worldwide as Survivor.",
    "signature": "Devised the format around marooning contestants and voting one off at a time, a structure since reused across dozens of unrelated competition shows without crediting its origin as consistently as it might.",
    "works": [
@@ -7366,7 +7366,7 @@
    "category": "Format Creators and Devisors",
    "name": "Simon Fuller",
    "description": "A British music-industry manager who devised a singing-competition format built around televised public voting, which became one of the most internationally franchised formats in non-scripted television.",
-   "meta": "British producer, television career since 2001.",
+   "meta": "British producer, television career since 2001. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Devising Pop Idol and the worldwide Idol franchise.",
    "signature": "Built the format's tension around a judging panel's public disagreement rather than consensus, so viewers had a side to take before they had a favorite contestant.",
    "works": [
@@ -7393,7 +7393,7 @@
    "category": "Format Creators and Devisors",
    "name": "Simon Cowell",
    "description": "A record-industry executive turned judge and format devisor whose talent-competition franchises now run in dozens of territories simultaneously.",
-   "meta": "British producer, television career since 2001.",
+   "meta": "British producer, television career since 2001. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Devising The X Factor and the Got Talent franchise.",
    "signature": "Casts himself as the judging panel's deliberately harsh voice, then built two separate format franchises around variations of the same panel-plus-public-vote mechanic Pop Idol established.",
    "works": [
@@ -7420,7 +7420,7 @@
    "category": "Format Creators and Devisors",
    "name": "David Briggs",
    "description": "Co-devisor of a quiz format built entirely around a single, steadily escalating cash ladder and the tension of walking away before answering the next question.",
-   "meta": "British producer, television career since 1998.",
+   "meta": "British producer, television career since 1998. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-devising Who Wants to Be a Millionaire? with Mike Whitehill and Steven Knight.",
    "signature": "Reduced the quiz-show format to one mechanic — a rising-stakes ladder with an irreversible walk-away decision at every rung — stripped of the multi-round structure most prior quiz formats used.",
    "works": [
@@ -7442,7 +7442,7 @@
    "category": "Format Creators and Devisors",
    "name": "Mike Whitehill",
    "description": "Co-devisor, with David Briggs and Steven Knight, of one of the most internationally franchised quiz formats in television history.",
-   "meta": "British producer, television career since 1998.",
+   "meta": "British producer, television career since 1998. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-devising Who Wants to Be a Millionaire?",
    "signature": "Part of the three-person devising team that built the format's tension entirely around irreversible decisions rather than speed or trivia difficulty.",
    "works": [
@@ -7464,7 +7464,7 @@
    "category": "Format Creators and Devisors",
    "name": "Steven Knight",
    "description": "Co-devisor of Who Wants to Be a Millionaire? who later became known separately as a scripted television writer.",
-   "meta": "British producer and writer, television career since 1998.",
+   "meta": "British producer and writer, television career since 1998. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-devising Who Wants to Be a Millionaire?; later creating the scripted drama Peaky Blinders.",
    "signature": "Moved from format devising to scripted authorship without the two halves of his career often being connected by audiences — the same instinct for a single strong structural hook underlies both.",
    "works": [
@@ -7491,7 +7491,7 @@
    "category": "Format Creators and Devisors",
    "name": "Fintan Coyle",
    "description": "Co-devisor of a quiz format built around a studio bank of contestants voting each other off after every round, rather than a host eliminating a single challenger.",
-   "meta": "British producer, television career since 1999.",
+   "meta": "British producer, television career since 1999. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-devising The Weakest Link with Cathy Dunning.",
    "signature": "Put the elimination decision in the other contestants' hands rather than the host's or the audience's, turning each round's vote into a second competition layered over the quiz itself.",
    "works": [
@@ -7513,7 +7513,7 @@
    "category": "Format Creators and Devisors",
    "name": "Cathy Dunning",
    "description": "Co-devisor, with Fintan Coyle, of The Weakest Link, developed for the BBC's Entertainment Department.",
-   "meta": "British producer, television career since 1999.",
+   "meta": "British producer, television career since 1999. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-devising The Weakest Link.",
    "signature": "Part of the two-person devising team credited with building the format's between-round contestant vote as its central mechanic, later exported into more than eighty international versions.",
    "works": [
@@ -7535,7 +7535,7 @@
    "category": "Format Creators and Devisors",
    "name": "Franc Roddam",
    "description": "A British filmmaker turned format devisor whose amateur-cooking-competition concept was commissioned in 1990, then revived by its own creator fifteen years later into the format that became the world's most widely franchised cookery show.",
-   "meta": "British producer, television career since 1990.",
+   "meta": "British producer, television career since 1990. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Devising MasterChef.",
    "signature": "Returned to his own eleven-year-old format as executive producer for its 2005 revival rather than letting a successor rework it, keeping creative control across both the original run and the relaunch that made it a global franchise.",
    "works": [
@@ -7562,7 +7562,7 @@
    "category": "Format Creators and Devisors",
    "name": "Stephen Lambert",
    "description": "A British producer whose format work centers on placing participants into an unfamiliar domestic or workplace role and filming what the discomfort reveals.",
-   "meta": "British producer, television career since 1992.",
+   "meta": "British producer, television career since 1992. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Devising Wife Swap and Undercover Boss.",
    "signature": "Builds a format around a single role-reversal premise, then relies on real participants' unscripted reactions to sustain a season rather than a competitive structure or prize.",
    "works": [
@@ -7589,7 +7589,7 @@
    "category": "Format Creators and Devisors",
    "name": "Anna Beattie",
    "description": "A British producer who conceived a baking-competition format around English village-fête traditions, then built it into the production company's signature global export.",
-   "meta": "British producer, television career since 1998.",
+   "meta": "British producer, television career since 1998. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Conceiving The Great British Bake Off and co-founding Love Productions.",
    "signature": "Set the format's tone deliberately against the confrontational judging style then standard in competition television, building the show's tension around a tent, a marquee, and contestants' own nerves instead.",
    "works": [
@@ -7611,7 +7611,7 @@
    "category": "Format Creators and Devisors",
    "name": "Nigel Lythgoe",
    "description": "A British dance-competition producer and judge who co-devised a format built around open-style dance rather than a single genre, exporting it into more than forty countries.",
-   "meta": "British producer, television career since 1998.",
+   "meta": "British producer, television career since 1998. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-devising So You Think You Can Dance; earlier a judge and producer on Pop Idol and American Idol.",
    "signature": "Built the dance-competition format around weekly genre rotation for every contestant, forcing dancers trained in one style to be judged in several others across a season.",
    "works": [
@@ -7638,7 +7638,7 @@
    "category": "Format Creators and Devisors",
    "name": "Peter Bazalgette",
    "description": "A British producer and executive who both devised his own competition formats and, as Endemol UK's chief executive, oversaw the international rollout of Big Brother into dozens of territories.",
-   "meta": "British producer, television career since 1985.",
+   "meta": "British producer, television career since 1985. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Devising Ready Steady Cook and Changing Rooms; as Endemol UK chief executive, building out the Big Brother and Deal or No Deal franchises internationally.",
    "signature": "Moved between devising his own smaller-format shows and running the corporate machinery that licensed other devisors' formats abroad, giving him a rare view of the format trade from both the creative and the distribution side.",
    "works": [
@@ -7665,7 +7665,7 @@
    "category": "Format Creators and Devisors",
    "name": "Bob Stewart",
    "description": "An American game-show packager whose company originated several panel and word-guessing formats that ran, in various revivals, across five decades of daytime and syndicated television.",
-   "meta": "American producer, television career since 1956.",
+   "meta": "American producer, television career since 1956. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Devising Password, To Tell the Truth, and The $10,000 Pyramid; co-devising the original version of The Price Is Right.",
    "signature": "Built each format around a single asymmetry of information between contestants — a secret word, a false identity, a category the guesser cannot see — treating that asymmetry as the whole game rather than dressing it in a theme.",
    "works": [
@@ -7697,7 +7697,7 @@
    "category": "Format Creators and Devisors",
    "name": "Mark Goodson",
    "description": "Co-founder of the American game-show packaging company most responsible for the panel and celebrity-guessing formats that dominated network daytime television for decades.",
-   "meta": "American producer, television career since 1948.",
+   "meta": "American producer, television career since 1948. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-founding Goodson-Todman Productions with Bill Todman; devising or co-devising What's My Line?, The Price Is Right, Family Feud, and Match Game.",
    "signature": "Packaged formats for network licensing rather than producing a single show at a time, treating the format itself — not any particular cast or host — as the company's sellable asset, years before the international format trade formalized that idea.",
    "works": [
@@ -7729,7 +7729,7 @@
    "category": "Format Creators and Devisors",
    "name": "Bill Todman",
    "description": "Co-founder, with Mark Goodson, of Goodson-Todman Productions, the packaging company behind several of network daytime television's longest-running formats.",
-   "meta": "American producer, television career since 1948.",
+   "meta": "American producer, television career since 1948. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-founding Goodson-Todman Productions with Mark Goodson.",
    "signature": "Handled the business and network-relationship side of the partnership while Goodson led format development, a division of labor credited with letting the company sell several formats into simultaneous long-running network deals.",
    "works": [
@@ -7756,7 +7756,7 @@
    "category": "Format Creators and Devisors",
    "name": "Michael Davies",
    "description": "An American producer who brought a British quiz format to American network television at a moment the genre had little primetime presence, and later became a long-running steward of an older quiz institution.",
-   "meta": "American producer, television career since 1996.",
+   "meta": "American producer, television career since 1996. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Bringing Who Wants to Be a Millionaire? to ABC in the United States; longtime executive producer of Jeopardy!.",
    "signature": "Argued for airing a quiz format in network primetime against skepticism that the genre belonged only in daytime syndication, a bet the format's ratings during its first ABC run vindicated.",
    "works": [
@@ -7891,7 +7891,7 @@
    "category": "Producers and Executives",
    "name": "Dick Wolf",
    "description": "A producer who built a single procedural format into one of American television's largest and longest-running franchises by repeating its core structure across multiple concurrent spinoff series.",
-   "meta": "American producer, television career since 1985.",
+   "meta": "American producer, television career since 1985. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating the Law & Order franchise.",
    "signature": "Standardized the format's two-part structure — investigation, then prosecution — so tightly that new spinoff series could be launched by changing only the setting or the crime specialty, not the underlying procedural mechanic.",
    "works": [
@@ -7918,7 +7918,7 @@
    "category": "Producers and Executives",
    "name": "Jerry Bruckheimer",
    "description": "A film producer who moved into television with a forensic-procedural format built around a specific investigative technique, which then spawned several concurrent city-set spinoffs.",
-   "meta": "American producer, television career since 2000.",
+   "meta": "American producer, television career since 2000. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Producing the CSI franchise through Jerry Bruckheimer Television.",
    "signature": "Applied a film-producer's emphasis on visual style — stylized crime-scene reconstructions, high-gloss cinematography — to a procedural format that other producers had generally shot more plainly, a look widely credited with the franchise's initial ratings surge.",
    "works": [
@@ -7945,7 +7945,7 @@
    "category": "Producers and Executives",
    "name": "John Wells",
    "description": "A producer whose long run on a hospital-drama ensemble was followed by production credits on a White House drama and a working-class Chicago family drama, each format very different from the others.",
-   "meta": "American producer, television career since 1990.",
+   "meta": "American producer, television career since 1990. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Executive producing ER and The West Wing; developing the American adaptation of Shameless.",
    "signature": "Runs large, changing ensembles across long-running dramas without a single breakout lead character absorbing the show's focus, a structural choice traceable across ER, The West Wing, and Shameless alike.",
    "works": [
@@ -7977,7 +7977,7 @@
    "category": "Producers and Executives",
    "name": "Marcy Carsey",
    "description": "Co-founder of a production company whose sitcoms centered working- and middle-class Black and white families alike, at a moment network comedy leaned heavily toward wealthier or more homogenous households.",
-   "meta": "American producer, television career since 1970.",
+   "meta": "American producer, television career since 1970. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-founding Carsey-Werner Company with Tom Werner; producing The Cosby Show and Roseanne.",
    "signature": "Pushed network executives to greenlight family sitcoms built around ordinary economic pressure — a factory job, a blue-collar household budget — as comedy's actual subject rather than its backdrop.",
    "works": [
@@ -8004,7 +8004,7 @@
    "category": "Producers and Executives",
    "name": "Tom Werner",
    "description": "Co-founder, with Marcy Carsey, of the production company behind several of the 1980s and 1990s' most successful family sitcoms.",
-   "meta": "American producer, television career since 1978.",
+   "meta": "American producer, television career since 1978. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-founding Carsey-Werner Company; producing That '70s Show.",
    "signature": "Part of the Carsey-Werner partnership credited with pitching family-sitcom concepts network executives had initially passed on, then proving their commercial viability once produced.",
    "works": [
@@ -8058,7 +8058,7 @@
    "category": "Producers and Executives",
    "name": "Barbara Corday",
    "description": "A writer-producer who co-created a police drama built around two women detectives, then became the first woman to hold a major network's top entertainment post.",
-   "meta": "American producer and executive, television career since 1974.",
+   "meta": "American producer and executive, television career since 1974. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-creating Cagney & Lacey; later serving as CBS Entertainment president.",
    "signature": "Fought the network's own research department, which had reported that audiences would not accept two women as police-drama leads, to keep Cagney & Lacey on the air past its early low ratings.",
    "works": [
@@ -8080,7 +8080,7 @@
    "category": "Producers and Executives",
    "name": "Michael Eisner",
    "description": "A studio and network executive whose television-programming instincts at Paramount preceded a much longer run running Disney.",
-   "meta": "American executive, television career since 1966.",
+   "meta": "American executive, television career since 1966. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Paramount Television executive before becoming Disney's chairman and CEO.",
    "signature": "Championed spinoff-heavy programming strategy at Paramount — building new series out of characters or premises from existing hits — years before spinoff-driven programming became a standard network tactic.",
    "works": [
@@ -8107,7 +8107,7 @@
    "category": "Producers and Executives",
    "name": "Brian Grazer",
    "description": "Co-founder of a production company whose television arm built long-running procedural and comedy franchises alongside its film slate.",
-   "meta": "American producer, television career since 1985.",
+   "meta": "American producer, television career since 1985. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-founding Imagine Entertainment with Ron Howard; producing 24 and Arrested Development for its television arm.",
    "signature": "Runs film and television production out of the same company rather than treating them as separate businesses, moving talent and format ideas across both sides of Imagine's slate.",
    "works": [
@@ -8134,7 +8134,7 @@
    "category": "Producers and Executives",
    "name": "Ron Howard",
    "description": "A former child and teen actor whose production company, co-founded with Brian Grazer, became a major supplier of network television alongside his own directing career.",
-   "meta": "American producer, television career since 1985.",
+   "meta": "American producer, television career since 1985. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-founding Imagine Entertainment with Brian Grazer.",
    "signature": "Used name recognition built from decades as an on-screen performer to get Imagine's television projects a hearing at networks that might not otherwise have taken a pitch from a new production company.",
    "works": [
@@ -8161,7 +8161,7 @@
    "category": "Producers and Executives",
    "name": "Nina Tassler",
    "description": "A network executive who ran CBS's entertainment division through much of its 2000s and 2010s procedural-drama dominance.",
-   "meta": "American executive, television career since 1983.",
+   "meta": "American executive, television career since 1983. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Serving as CBS Entertainment president.",
    "signature": "Kept CBS's schedule anchored in procedural franchises (the CSI and NCIS families) through a period when competing networks were shifting hard toward serialized prestige drama, a strategy credited with CBS's ratings stability through the 2000s.",
    "works": [
@@ -8188,7 +8188,7 @@
    "category": "Producers and Executives",
    "name": "Bela Bajaria",
    "description": "A content executive whose career moved through Spanish-language broadcasting and network syndication before she took on a global content leadership role at a major streaming service.",
-   "meta": "American executive, television career since 1997.",
+   "meta": "American executive, television career since 1997. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Rising through Telemundo and NBCUniversal television syndication before joining Netflix's global television leadership.",
    "signature": "Built her early reputation buying and scheduling syndicated programming at the network level, a distribution-side background less common among executives who move into original-content leadership roles.",
    "works": [
@@ -8210,7 +8210,7 @@
    "category": "Producers and Executives",
    "name": "Channing Dungey",
    "description": "A network executive whose tenure running ABC's entertainment division made her the first Black president of a major broadcast network.",
-   "meta": "American executive, television career since 2004.",
+   "meta": "American executive, television career since 2004. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Serving as ABC Entertainment president, the first Black executive to hold that role at a major broadcast network; later leading content at Netflix and Warner Bros. Television.",
    "signature": "Greenlit and championed Shonda Rhimes's Thursday-night ABC drama block during her tenure, a scheduling strategy credited with rebuilding the network's ratings position in that slot.",
    "works": [
@@ -8232,7 +8232,7 @@
    "category": "Producers and Executives",
    "name": "Peter Chernin",
    "description": "A media executive who ran Fox's television and film operations through the network's period of establishing itself as a fourth major broadcaster.",
-   "meta": "American executive, television career since 1989.",
+   "meta": "American executive, television career since 1989. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Serving as News Corporation and Fox Entertainment president.",
    "signature": "Backed programming aimed at younger and more diverse audiences than the three established networks were courting, a positioning strategy credited with helping Fox establish itself as a viable fourth network through the 1990s.",
    "works": [
@@ -8259,7 +8259,7 @@
    "category": "Producers and Executives",
    "name": "Barry Diller",
    "description": "A media executive credited with founding the Fox network as television's fourth major broadcaster, after an earlier career reshaping ABC's programming strategy.",
-   "meta": "American executive, television career since 1966.",
+   "meta": "American executive, television career since 1966. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Founding chairman of Fox Broadcasting Company; earlier ABC programming executive credited with developing the television movie of the week.",
    "signature": "Pushed to launch original programming, not just reruns and reality specials, as Fox's founding chairman at a moment most industry observers doubted a fourth network could compete with the established three.",
    "works": [
@@ -8286,7 +8286,7 @@
    "category": "Producers and Executives",
    "name": "Michael Grade",
    "description": "A British broadcasting executive who led programming or overall strategy at three of the UK's major channels across a four-decade career.",
-   "meta": "British executive, television career since 1973.",
+   "meta": "British executive, television career since 1973. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Serving as BBC One controller, then Channel 4 chief executive, then BBC chairman and later ITV executive chairman.",
    "signature": "Moved between direct programming decisions (as a channel controller) and broader strategic and regulatory roles (as a chairman), giving him a rare view of British broadcasting from both sides of the commissioning relationship across his career.",
    "works": [
@@ -8313,7 +8313,7 @@
    "category": "Writers and Story Editors",
    "name": "Peter Gould",
    "description": "A staff writer on a chemistry-teacher drama whose script introducing a minor comic-relief lawyer character led, a decade later, to his own prequel-and-sequel series built around that character.",
-   "meta": "American writer-producer, television career since 2008.",
+   "meta": "American writer-producer, television career since 2008. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing on Breaking Bad; co-creating Better Call Saul with Vince Gilligan.",
    "signature": "Wrote the Breaking Bad episode that introduced Saul Goodman as a minor supporting character never intended to anchor his own series, then spent Better Call Saul's run treating that accident of television history as a structural opportunity rather than a constraint.",
    "works": [
@@ -8340,7 +8340,7 @@
    "category": "Writers and Story Editors",
    "name": "Moira Walley-Beckett",
    "description": "A staff writer and story editor whose Breaking Bad scripts include the episode most frequently cited as the show's turning point toward its protagonist's full transformation.",
-   "meta": "American writer-producer, television career since 2003.",
+   "meta": "American writer-producer, television career since 2003. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing for Breaking Bad, including the episode \"Ozymandias\"; later creating the ballet drama Flesh and Bone.",
    "signature": "Structured \"Ozymandias\" around a single afternoon's chain of irreversible consequences rather than the show's usual multi-episode escalation, a formal compression widely credited for the episode's impact.",
    "works": [
@@ -8367,7 +8367,7 @@
    "category": "Writers and Story Editors",
    "name": "Gennifer Hutchison",
    "description": "A writer who moved from Breaking Bad's writers' room into a producing role on its successor series, part of the small group of writers who worked across both.",
-   "meta": "American writer-producer, television career since 2009.",
+   "meta": "American writer-producer, television career since 2009. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing for Breaking Bad; producing and writing on Better Call Saul.",
    "signature": "One of a handful of writers retained across the transition from Breaking Bad's writers' room into Better Call Saul's, giving continuity to the two shows' shared tone across a gap of several years between them.",
    "works": [
@@ -8394,7 +8394,7 @@
    "category": "Writers and Story Editors",
    "name": "Matthew Carnahan",
    "description": "A writer-creator whose satirical drama about a management-consulting firm ran for several seasons on Showtime.",
-   "meta": "American writer-producer, television career since 2000.",
+   "meta": "American writer-producer, television career since 2000. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating House of Lies.",
    "signature": "Used direct-to-camera narration from an unreliable protagonist to undercut the character's own claims about his work in real time, a device borrowed from the same fourth-wall tradition as Fleabag but applied to corporate satire rather than personal confession.",
    "works": [
@@ -8416,7 +8416,7 @@
    "category": "Writers and Story Editors",
    "name": "Ashley Gable",
    "description": "A television writer-producer whose credits include one of CBS's long-running procedural dramas, alongside guild leadership work on behalf of television writers generally.",
-   "meta": "American writer-producer, television career since 1990s.",
+   "meta": "American writer-producer, television career since 1990s. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing and producing for The Mentalist; serving on the Writers Guild of America's negotiating committee.",
    "signature": "Combined a working procedural-writer's credit list with guild organizing work, representing television writers' interests in industry-wide contract negotiations alongside her own writing career.",
    "works": [
@@ -8438,7 +8438,7 @@
    "category": "Writers and Story Editors",
    "name": "Robin Green",
    "description": "A writer-producer, working as part of a husband-and-wife writing team, whose Sopranos scripts are frequently cited among the show's strongest episodes.",
-   "meta": "American writer-producer, television career since 1976.",
+   "meta": "American writer-producer, television career since 1976. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing and producing for The Sopranos alongside her writing partner and husband, Mitchell Burgess.",
    "signature": "Wrote several of The Sopranos' most acclaimed individual episodes as part of a two-person writing partnership that predated the show by two decades, having worked together since the 1980s on Northern Exposure.",
    "works": [
@@ -8465,7 +8465,7 @@
    "category": "Writers and Story Editors",
    "name": "Mitchell Burgess",
    "description": "A writer-producer whose decades-long writing partnership with Robin Green produced scripts for two of American television's more acclaimed dramas a decade apart.",
-   "meta": "American writer-producer, television career since 1976.",
+   "meta": "American writer-producer, television career since 1976. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing and producing for The Sopranos alongside his writing partner and wife, Robin Green.",
    "signature": "Part of a writing partnership whose credited scripts on The Sopranos are difficult to separate into individual contributions, a collaborative structure the show's other writers' room members have described as unusually tight even by television standards.",
    "works": [
@@ -8492,7 +8492,7 @@
    "category": "Writers and Story Editors",
    "name": "Marti Noxon",
    "description": "A writer-producer whose career spans a 1990s vampire drama's story-editing room and a 2000s advertising-agency drama's writers' room, among other credits across three decades.",
-   "meta": "American writer-producer, television career since 1995.",
+   "meta": "American writer-producer, television career since 1995. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Story editing Buffy the Vampire Slayer; writing for Mad Men; later creating UnREAL and Sharp Objects.",
    "signature": "Returns repeatedly across her career to female protagonists navigating addiction, eating disorders, or other forms of self-destructive behavior, treating the subject with more direct clinical specificity than the genre conventions of the shows she writes for typically allow.",
    "works": [
@@ -8524,7 +8524,7 @@
    "category": "Writers and Story Editors",
    "name": "Jane Espenson",
    "description": "A writer known for moving fluently between genre franchises with very different tones, from vampire-horror comedy to science-fiction military drama.",
-   "meta": "American writer-producer, television career since 1995.",
+   "meta": "American writer-producer, television career since 1995. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing for Buffy the Vampire Slayer and Battlestar Galactica; later producing Once Upon a Time.",
    "signature": "Carries a reputation among showrunners for punching up other writers' scripts with dialogue-level humor without changing their underlying plot structure, a specific and narrow writers'-room skill distinct from generating original story.",
    "works": [
@@ -8551,7 +8551,7 @@
    "category": "Writers and Story Editors",
    "name": "David Milch",
    "description": "A writer whose credits span three decades of the police procedural's evolution, from a serialized 1980s ensemble drama to a Western built almost entirely around period-accurate, heightened dialogue.",
-   "meta": "American writer-producer, television career since 1982.",
+   "meta": "American writer-producer, television career since 1982. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing for Hill Street Blues; co-creating NYPD Blue with Steven Bochco; creating Deadwood.",
    "signature": "Writes dialogue in a heightened, syntactically inverted register — most visible in Deadwood's profane, near-Shakespearean speech patterns — that departs sharply from naturalistic television dialogue while still reading as the way its characters would plausibly talk.",
    "works": [
@@ -8583,7 +8583,7 @@
    "category": "Writers and Story Editors",
    "name": "Frank Pugliese",
    "description": "A playwright-turned-television-writer whose credits include a Washington political drama adapted from a British original.",
-   "meta": "American writer-producer, television career since 2000.",
+   "meta": "American writer-producer, television career since 2000. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing and producing for House of Cards.",
    "signature": "Brings a playwright's ear for confrontational two-character dialogue scenes to a political drama otherwise built around wider ensemble scheming, a register shift audible in several of the show's private, one-on-one confrontation scenes.",
    "works": [
@@ -8605,7 +8605,7 @@
    "category": "Writers and Story Editors",
    "name": "Meredith Averill",
    "description": "A writer who moved from a legal drama's writers' room into showrunning a horror series built around a family haunted by an artificial intelligence.",
-   "meta": "American writer-producer, television career since 2011.",
+   "meta": "American writer-producer, television career since 2011. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing for The Good Wife; co-creating and showrunning Servant.",
    "signature": "Carried a legal drama's case-of-the-week procedural discipline into a horror format built around ambiguity, using structured episode-length mysteries to organize a show that otherwise withholds most of its answers.",
    "works": [
@@ -8632,7 +8632,7 @@
    "category": "Writers and Story Editors",
    "name": "Ali Adler",
    "description": "A staff writer whose credits span an action-comedy about a reluctant spy and a musical high-school comedy, two very differently structured single-camera formats.",
-   "meta": "American writer-producer, television career since 2003.",
+   "meta": "American writer-producer, television career since 2003. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing for Chuck and Glee; co-developing Supergirl.",
    "signature": "Wrote comic set pieces built around a character's competence gap — an ordinary person forced into a role (secret agent, superhero) they are visibly unprepared for — across several of her credited shows.",
    "works": [
@@ -8659,7 +8659,7 @@
    "category": "Writers and Story Editors",
    "name": "Javier Grillo-Marxuach",
    "description": "A writer and story editor on an island-mystery ensemble drama's first season, later a vocal commentator on television writers'-room labor conditions.",
-   "meta": "American writer-producer, television career since 1995.",
+   "meta": "American writer-producer, television career since 1995. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing and story editing for Lost; creating The Middleman.",
    "signature": "Has written and spoken publicly and specifically about the economics of television writers' rooms — pay structure, credit allocation, mini-room contraction — beyond his own credited scripts, an unusually direct level of industry commentary from a working writer.",
    "works": [
@@ -8686,7 +8686,7 @@
    "category": "Writers and Story Editors",
    "name": "Melissa Rosenberg",
    "description": "A writer whose credits move from a forensic-technician-turned-serial-killer drama's writers' room to showrunning a superhero-noir series built around trauma recovery.",
-   "meta": "American writer-producer, television career since 1996.",
+   "meta": "American writer-producer, television career since 1996. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing for Dexter; creating and showrunning Jessica Jones.",
    "signature": "Built Jessica Jones's central antagonist relationship around coercive control and psychological abuse rather than the physical spectacle typical of the superhero genre, treating the show's powers premise as a vehicle for a trauma narrative rather than its primary subject.",
    "works": [
@@ -8713,7 +8713,7 @@
    "category": "Writers and Story Editors",
    "name": "Jane Tranter",
    "description": "A BBC drama executive and writer-producer credited with steering the corporation's 2005 revival of a long-dormant science-fiction franchise back onto the schedule.",
-   "meta": "British writer-producer, television career since 1988.",
+   "meta": "British writer-producer, television career since 1988. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "As BBC Head of Drama, commissioning the 2005 revival of Doctor Who with Russell T Davies; later co-founding the production company Bad Wolf.",
    "signature": "Championed reviving a cancelled sixteen-year-dormant franchise against internal BBC skepticism that a science-fiction format could work in a contemporary Saturday-evening schedule, a bet the revival's ratings vindicated within its first series.",
    "works": [
@@ -8735,7 +8735,7 @@
    "category": "Writers and Story Editors",
    "name": "Abi Morgan",
    "description": "A British writer whose television credits include a mystery drama about a woman's disappearance and a period drama set inside BBC radio's early years.",
-   "meta": "British writer, television career since 1999.",
+   "meta": "British writer, television career since 1999. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing River and The Hour.",
    "signature": "Structures a mystery around its investigating character's own psychological state as much as the crime itself — River's detective protagonist perceives the dead as a recurring device, folding the mystery format into a study of grief and mental health.",
    "works": [
@@ -8762,7 +8762,7 @@
    "category": "Writers and Story Editors",
    "name": "Tony Jordan",
    "description": "A British writer whose credits include one of the BBC's longest-running soap operas and a con-artist ensemble drama he created himself.",
-   "meta": "British writer-producer, television career since 1989.",
+   "meta": "British writer-producer, television career since 1989. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing for EastEnders; creating Hustle.",
    "signature": "Structured Hustle's episodes around a con's mechanics being explained to the audience only after it succeeds, borrowing a reveal-after-the-fact structure more common in heist films than in television drama.",
    "works": [
@@ -8789,7 +8789,7 @@
    "category": "Writers and Story Editors",
    "name": "Sarah Phelps",
    "description": "A British writer known for a run of BBC adaptations of a single crime novelist's work, each deliberately darker in tone than earlier screen versions of the same books.",
-   "meta": "British writer, television career since 1999.",
+   "meta": "British writer, television career since 1999. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing multiple BBC adaptations of Agatha Christie novels, including And Then There Were None and The ABC Murders.",
    "signature": "Restores the class anger, colonial context, and psychological darkness that earlier, more genteel screen adaptations of Christie's novels had typically softened, treating the source material as harsher than its \"cozy mystery\" reputation suggests.",
    "works": [
@@ -8816,7 +8816,7 @@
    "category": "Writers and Story Editors",
    "name": "Jed Mercurio",
    "description": "A former hospital doctor turned writer whose police-corruption drama is structured around interrogation scenes shot at a length and intensity unusual for British broadcast television.",
-   "meta": "British writer-producer, television career since 1993.",
+   "meta": "British writer-producer, television career since 1993. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing and creating Line of Duty; earlier creating Cardiac Arrest and Bodyguard.",
    "signature": "Writes single interrogation-scene episodes that can run well past twenty minutes of continuous screen time, treating procedural exposition itself as the dramatic engine rather than a delivery mechanism for action or twist reveals.",
    "works": [
@@ -8843,7 +8843,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Álex Pina",
    "description": "A Spanish creator whose Madrid-heist thriller became Netflix's most-watched non-English series worldwide, built through a production company he founded to keep control of it.",
-   "meta": "Spanish writer-producer, television career since 2005.",
+   "meta": "Spanish writer-producer, television career since 2005. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating La Casa de Papel (Money Heist) and its prequel Berlín; earlier creating the police procedural Los hombres de Paco.",
    "signature": "Structures a heist as a long con on the audience as much as on the hostages — the show withholds which crew member survives each act until the reveal recontextualizes everything already watched.",
    "works": [
@@ -8875,7 +8875,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "John de Mol Jr.",
    "description": "A Dutch producer who turned enclosed-house surveillance into a global reality genre, then did it again a decade later with a singing competition built on a blind audition.",
-   "meta": "Dutch producer, television career since 1994.",
+   "meta": "Dutch producer, television career since 1994. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-founding Endemol; devising Big Brother and The Voice of Holland, the format base for The Voice's international franchise.",
    "signature": "Builds a format around one structural constraint that manufactures drama on its own — a locked house, a chair that won't turn around — rather than around a set of tasks a host administers.",
    "works": [
@@ -8907,7 +8907,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Joop van den Ende",
    "description": "A Dutch producer whose 1993 merger with a rival built the production company behind more exported reality formats than any other single house of its era.",
-   "meta": "Dutch producer, television career since the 1960s.",
+   "meta": "Dutch producer, television career since the 1960s. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-founding Endemol with John de Mol by combining their two production companies; the company's formats include Big Brother, Fear Factor and Wipeout.",
    "signature": "Treats a production company's back catalogue as a format library to be licensed territory by territory, rather than a set of shows that only exist once, each in their country of origin.",
    "works": [
@@ -8939,7 +8939,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Shotaro Ishinomori",
    "description": "A Japanese manga artist whose transforming-hero designs, produced for television by Toei, set the visual grammar every tokusatsu hero show after him has worked from or against.",
-   "meta": "Japanese creator, television career from 1971 until his death in 1998.",
+   "meta": "Japanese creator, television career from 1971 until his death in 1998. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Kamen Rider and Himitsu Sentai Gorenger, the first Super Sentai series, both produced for television by Toei.",
    "signature": "Designs the transformation sequence itself as the show's recurring emotional beat — an ordinary person becoming visibly, mechanically extraordinary — rather than treating it as a special-effects afterthought to the fight scene that follows.",
    "works": [
@@ -8971,7 +8971,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Eiji Tsuburaya",
    "description": "A Japanese special-effects pioneer whose production company put a giant hero on Japanese television and, in doing so, founded the kaiju side of tokusatsu as a television genre rather than only a film one.",
-   "meta": "Japanese producer, television career from 1966 until his death in 1970.",
+   "meta": "Japanese producer, television career from 1966 until his death in 1970. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Founding Tsuburaya Productions and creating Ultra Q and Ultraman, the television franchise that established the giant-hero format.",
    "signature": "Scales a human actor in a suit against miniature city sets built to match his exact proportions, so a fight reads as city-sized without ever leaving practical, in-camera effects.",
    "works": [
@@ -9003,7 +9003,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Kim Eun-hee",
    "description": "A South Korean writer who moved from broadcast crime drama to a Netflix-commissioned political horror series, carrying a taste for procedural dread across the transition.",
-   "meta": "South Korean writer, television career since 2010.",
+   "meta": "South Korean writer, television career since 2010. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating and writing Kingdom for Netflix; earlier writing the crime dramas Signal and Sign.",
    "signature": "Builds a genre premise — zombie plague, serial killer, cross-time radio signal — out of institutional failure first, so the horror element arrives as a consequence of who covered up what rather than as the story's actual starting point.",
    "works": [
@@ -9035,7 +9035,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Hwang Dong-hyuk",
    "description": "A South Korean writer-director whose survival-game premise, developed and shelved for over a decade before Netflix picked it up, became the platform's most-watched series.",
-   "meta": "South Korean writer-director, television career since 2021.",
+   "meta": "South Korean writer-director, television career since 2021. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating, writing and directing Squid Game for Netflix.",
    "signature": "Stages games a child would recognize as playground rules, then removes every safety the playground assumed was there — the horror comes from the rules staying exactly the same while the stakes change.",
    "works": [
@@ -9057,7 +9057,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Ekta Kapoor",
    "description": "An Indian producer whose family-saga serials, all launched under Balaji Telefilms, built and then dominated the Hindi prime-time soap-opera hour for the better part of a decade.",
-   "meta": "Indian producer, television career since 1995.",
+   "meta": "Indian producer, television career since 1995. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Founding Balaji Telefilms and producing Kyunki Saas Bhi Kabhi Bahu Thi, the serial that set the template for the \"K-serial\" era of Hindi television.",
    "signature": "Runs multiple long-running family serials in parallel under one house style — an extended joint-family cast, a saas-bahu (mother-in-law/daughter-in-law) conflict at the center, titles chosen to begin with the same letter — so the shows read as a single continuing genre rather than separate productions.",
    "works": [
@@ -9089,7 +9089,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Glória Perez",
    "description": "A Brazilian telenovela writer who builds her prime-time serials around a live social issue, then runs a real public-service campaign inside the fiction while it airs.",
-   "meta": "Brazilian writer, television career since 1979.",
+   "meta": "Brazilian writer, television career since 1979. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing Rede Globo telenovelas including O Clone, América and Caminho das Índias, each built around a distinct social or cultural theme.",
    "signature": "Embeds a working public-service mechanism inside the drama itself rather than alongside it — Explode Coração's running photographs of missing children, credited with reuniting 64 of them with their families, is the clearest case of the device.",
    "works": [
@@ -9121,7 +9121,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Adam Price",
    "description": "A Danish writer who spent a decade in Danish broadcast drama before creating a political series about a coalition prime minister that became DR's best-known international export alongside The Killing.",
-   "meta": "Danish writer, television career since the mid-1980s.",
+   "meta": "Danish writer, television career since the mid-1980s. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Borgen for DR; earlier serving as head of drama at TV 2 Denmark and writing on Taxa.",
    "signature": "Follows a political win through to its private cost in the same episode, so a coalition victory and the protagonist's marriage failing are cut together as one continuous consequence rather than as parallel plots.",
    "works": [
@@ -9153,7 +9153,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Søren Sveistrup",
    "description": "A Danish screenwriter whose Copenhagen murder investigation, stretched across one crime and a full season, gave Nordic noir its television template and its trademark hand-knit jumper.",
-   "meta": "Danish writer, television career since 1997.",
+   "meta": "Danish writer, television career since 1997. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Forbrydelsen (The Killing) for DR, which sold to more than 100 territories and was remade in the United States, the United Kingdom and elsewhere.",
    "signature": "Solves one murder across an entire season rather than one per episode, so every episode's suspect is a real, sustained accusation against a named character rather than a red herring cleared by the next commercial break.",
    "works": [
@@ -9180,7 +9180,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Hans Rosenfeldt",
    "description": "A Swedish writer, hired specifically to devise a new crime format, who put a body on the border line between two countries and built a whole detective partnership out of the jurisdictional argument that followed.",
-   "meta": "Swedish writer, television career since the 1990s.",
+   "meta": "Swedish writer, television career since the 1990s. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Bron/Broen (The Bridge) for Filmlance International, a Swedish-Danish co-production; later creating Marcella for ITV.",
    "signature": "Pairs two detectives from different national policing cultures on one case and lets the culture clash between them do as much narrative work as the murder investigation itself.",
    "works": [
@@ -9212,7 +9212,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Frank Elstner",
    "description": "An Austrian-born, German-career broadcaster who invented a bet-and-stunt variety format in 1981 that became, for a period, one of the most-watched programmes in Europe.",
-   "meta": "German television presenter and producer, born in Austria, career since the 1960s.",
+   "meta": "German television presenter and producer, born in Austria, career since the 1960s. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating and hosting Wetten, dass..? for ZDF until 1987; later creating Verstehen Sie Spaß? for ARD and founding his own production company, Elstnertainment.",
    "signature": "Builds a variety show around ordinary people's home-taught party-trick bets rather than professional performers, so the studio audience is watching a stranger's genuine skill succeed or fail live, not a rehearsed act.",
    "works": [
@@ -9244,7 +9244,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Gideon Raff",
    "description": "An Israeli filmmaker whose returning-prisoners-of-war drama, sold to an American network before it had even finished filming, became the direct source material for one of American television's defining post-9/11 dramas.",
-   "meta": "Israeli writer-director, television career since 2009.",
+   "meta": "Israeli writer-director, television career since 2009. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Hatufim (Prisoners of War) for Israel's Channel 2; co-developing its American adaptation Homeland with Howard Gordon and Alex Gansa, and co-writing its pilot.",
    "signature": "Writes the psychological cost of a hostage's return as the actual subject of the story, treating the captivity itself as backstory the drama keeps circling rather than the event it depicts directly.",
    "works": [
@@ -9276,7 +9276,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Fernando Gaitán",
    "description": "A Colombian screenwriter whose ordinary-looking-woman-outsmarts-the-fashion-industry telenovela became one of the most remade television properties in the world, spawning versions on five continents.",
-   "meta": "Colombian writer, television career from 1994 until his death in 2019.",
+   "meta": "Colombian writer, television career from 1994 until his death in 2019. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating Yo Soy Betty, la Fea for RCN, remade internationally as Ugly Betty (United States), Verliebt in Berlin (Germany), La Fea Más Bella (Mexico) and versions in India, Brazil, Spain, Russia, Turkey, Greece and the Netherlands.",
    "signature": "Writes his protagonist's competence as the joke's actual target — every scene built to underline that the people mocking her appearance are also, provably, worse at the job than she is.",
    "works": [
@@ -9308,7 +9308,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Meral Okay",
    "description": "A Turkish screenwriter, co-writing alongside Yılmaz Şahin, whose Ottoman-court historical drama became one of Turkish television's largest international exports before her death partway through its run.",
-   "meta": "Turkish writer and actress, television career from the 1990s until her death in 2012.",
+   "meta": "Turkish writer and actress, television career from the 1990s until her death in 2012. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Co-writing Muhteşem Yüzyıl (Magnificent Century) with Yılmaz Şahin for Star TV; earlier producing the series İkinci Bahar.",
    "signature": "Writes the Ottoman court's political intrigue and its domestic, harem-set intrigue as a single continuous power struggle rather than as separate public and private plots, so a marriage negotiation carries the same stakes as a war council.",
    "works": [
@@ -9335,7 +9335,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Haseena Moin",
    "description": "A Pakistani dramatist who wrote PTV's first original television script, ending the state broadcaster's early reliance on adapting existing novels, and went on to define its most remembered dramas of the 1980s.",
-   "meta": "Pakistani writer, television career from the early 1970s until her death in 2021.",
+   "meta": "Pakistani writer, television career from the early 1970s until her death in 2021. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Writing Kiran Kahani, PTV's first original script; writing Dhoop Kinare, Tanhaiyaan and Ankahi; awarded Pakistan's Pride of Performance in 1987.",
    "signature": "Writes an independent, professionally competent woman as her drama's romantic lead rather than its obstacle, a choice contemporaries credited with visibly shifting what a female character on Pakistani television was permitted to want.",
    "works": [
@@ -9367,7 +9367,7 @@
    "category": "International and Non-Anglophone Creators",
    "name": "Julie Andem",
    "description": "A Norwegian creator who spent six months interviewing teenagers before writing a word, then built a teen drama around real-time, in-character social media posts that outran the broadcast schedule itself.",
-   "meta": "Norwegian writer-director, television career since 2015.",
+   "meta": "Norwegian writer-director, television career since 2015. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Creating, writing, directing and running Skam for NRK, remade internationally as SKAM France, Druck (Germany), SKAM Italia, SKAM Austin (United States) and further versions in Spain, the Netherlands and Belgium.",
    "signature": "Releases a scene the moment it happens in the story's own timeline rather than in a weekly broadcast block, so a clip posted at 2 a.m. in-fiction goes up at 2 a.m. for the audience, collapsing the gap between story time and viewing time.",
    "works": [
@@ -9394,7 +9394,7 @@
    "category": "Directors and the Television Director's Role",
    "name": "Michelle MacLaren",
    "description": "A Canadian director who directed more Breaking Bad episodes than anyone else on the show, then carried that same tension-first visual approach into two more prestige dramas.",
-   "meta": "Canadian director-producer, television career since 1989.",
+   "meta": "Canadian director-producer, television career since 1989. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Directing eleven episodes of Breaking Bad, more than any other director on the series, including \"One Minute\" and \"Gliding Over All\"; directing for Game of Thrones, Better Call Saul and Westworld.",
    "signature": "Holds a shot on a character's face through a violent event rather than cutting away to the violence itself, so the audience watches the decision land on someone instead of watching the act.",
    "works": [
@@ -9426,7 +9426,7 @@
    "category": "Directors and the Television Director's Role",
    "name": "Alan Taylor",
    "description": "An American director who spent two decades directing prestige television before large-budget studio films came looking for the same steady hand.",
-   "meta": "American director, television career since 1990.",
+   "meta": "American director, television career since 1990. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Directing nine episodes of The Sopranos, including the Emmy-winning \"Kennedy and Heidi\"; directing seven episodes of Game of Thrones, including \"Baelor\"; later directing Thor: The Dark World and Terminator Genisys.",
    "signature": "Treats a scene's silence as the point being made — long unscored pauses between lines carry the emotional weight a lesser cut would fill with music or a reaction shot.",
    "works": [
@@ -9458,7 +9458,7 @@
    "category": "Directors and the Television Director's Role",
    "name": "Lesli Linka Glatter",
    "description": "An American director whose television career runs across four decades and more than fifty series, later serving two terms as president of the Directors Guild of America.",
-   "meta": "American director-producer, television career since 1986.",
+   "meta": "American director-producer, television career since 1986. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Directing twenty-five episodes of Homeland across its full run; directing for Mad Men, Twin Peaks, ER and The West Wing; serving as president of the Directors Guild of America, 2021 to 2025.",
    "signature": "Directs an interrogation scene as a two-hander first and a plot device second — the camera stays on whichever character is losing control of the conversation, regardless of which one is technically asking the questions.",
    "works": [
@@ -9490,7 +9490,7 @@
    "category": "Directors and the Television Director's Role",
    "name": "Reed Morano",
    "description": "An American cinematographer-turned-director who became the first person in television history to win the Emmy and the Directors Guild Award for directing a drama series in the same year, on her first major TV directing job.",
-   "meta": "American director and cinematographer, television directing career since 2016.",
+   "meta": "American director and cinematographer, television directing career since 2016. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Directing the first three episodes of The Handmaid's Tale, including the pilot \"Offred,\" winning the 2017 Primetime Emmy and 2018 DGA Award for directing a drama series.",
    "signature": "Shoots close, handheld and claustrophobically tight on her lead actor's face in scenes of institutional control, using her own cinematography background to keep the camera itself feeling trapped alongside the character.",
    "works": [
@@ -9512,7 +9512,7 @@
    "category": "Directors and the Television Director's Role",
    "name": "Cary Joji Fukunaga",
    "description": "An American director who directed all eight episodes of a television season's first year himself, a structural rarity credited with giving the show a single, unbroken directorial voice.",
-   "meta": "American director, television directing career since 2014.",
+   "meta": "American director, television directing career since 2014. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Directing every episode of True Detective's first season, winning the Primetime Emmy for Outstanding Directing for a Drama Series.",
    "signature": "Commits to a single long, unedited take for a sequence other directors would cover in cuts — the season's six-minute tracking shot through a botched raid is the clearest instance, staged so a cut would have been the easier, safer choice.",
    "works": [
@@ -9534,7 +9534,7 @@
    "category": "Directors and the Television Director's Role",
    "name": "Mimi Leder",
    "description": "The first woman to graduate from the AFI Conservatory, whose television directing career runs from Hill Street Blues through two Emmy-winning years on ER.",
-   "meta": "American director, television career since the late 1970s.",
+   "meta": "American director, television career since the late 1970s. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Directing episodes of Hill Street Blues, China Beach and ER, winning two Primetime Emmys for Outstanding Drama Series on ER; later directing the first season of The Leftovers before joining as co-showrunner.",
    "signature": "Directs a hospital or crisis-response scene as continuous, overlapping motion across the whole frame — several urgent conversations happening at once, none of them paused to let another finish, so the chaos is staged rather than simply loud.",
    "works": [
@@ -9566,7 +9566,7 @@
    "category": "Directors and the Television Director's Role",
    "name": "Thomas Schlamme",
    "description": "An American director who invented the extended tracking shot political-drama television is still imitating, then spent a decade making it with the same writer.",
-   "meta": "American director-producer, television career since the late 1980s.",
+   "meta": "American director-producer, television career since the late 1980s. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Directing the pilot and thirteen further episodes of The West Wing, developing its \"walk and talk\" tracking-shot style; a near decade-long directing partnership with writer Aaron Sorkin across Sports Night, The West Wing and Studio 60 on the Sunset Strip; president of the Directors Guild of America from 2017.",
    "signature": "Follows a conversation in one continuous tracking shot as characters move between rooms, refusing to cut away to show how anyone gets from one place to another — the audience witnesses the whole journey, not just its two endpoints.",
    "works": [
@@ -9598,7 +9598,7 @@
    "category": "Directors and the Television Director's Role",
    "name": "Betty Thomas",
    "description": "An actress on a landmark ensemble drama who talked her way into directing one of its episodes, then built a second career behind the camera that outgrew the first.",
-   "meta": "American director and actress, television directing career since the mid-1980s.",
+   "meta": "American director and actress, television directing career since the mid-1980s. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Directing episodes of Hooperman, Doogie Howser, M.D. and HBO's Dream On, winning an Emmy for directing the latter; also starred as Sergeant Lucy Bates on Hill Street Blues, for which she won an Emmy for acting.",
    "signature": "Directs a joke's turn on the reaction shot rather than the line itself, holding on the listening character a beat longer than the setup needs so the audience's laugh lands on their face, not the speaker's.",
    "works": [
@@ -9630,7 +9630,7 @@
    "category": "Directors and the Television Director's Role",
    "name": "Adam Bernstein",
    "description": "A former animator who became a specialist in directing a comedy's very first episode, shaping the tone a whole writers' room would spend seasons living inside.",
-   "meta": "American director, television career since the early 1990s.",
+   "meta": "American director, television career since the early 1990s. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Directing the pilots of Fargo, 30 Rock, Scrubs, Alpha House and Strangers with Candy; directing multiple episodes of Oz and Breaking Bad across the two shows' runs.",
    "signature": "Directs a pilot's tone as the actual pitch to the network rather than treating it as episode one of many — every visual choice front-loaded to prove the show's voice in a single hour, before a writers' room exists to sustain it.",
    "works": [
@@ -9662,7 +9662,7 @@
    "category": "Directors and the Television Director's Role",
    "name": "Rian Johnson",
    "description": "A filmmaker known mainly for feature films who directed three widely praised Breaking Bad episodes, including one frequently named among television's best, before creating his own detective series.",
-   "meta": "American director, television directing career since 2010.",
+   "meta": "American director, television directing career since 2010. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Directing three Breaking Bad episodes including \"Ozymandias,\" winning a Directors Guild of America Award for \"Fifty-One\"; creating and directing Poker Face for Peacock.",
    "signature": "Withholds the audience's full understanding of what a scene means until a later scene recontextualizes it, treating a rewatch as the moment the episode's actual structure becomes visible.",
    "works": [
@@ -9694,7 +9694,7 @@
    "category": "Directors and the Television Director's Role",
    "name": "Susanna White",
    "description": "A former BBC documentary maker who spent twelve years behind the camera on nonfiction before winning a BAFTA on her first major costume drama.",
-   "meta": "British director, television career since the early 2000s.",
+   "meta": "British director, television career since the early 2000s. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Directing Bleak House, winning a BAFTA for best drama serial; directing Jane Eyre, earning an Emmy nomination; directing four episodes of HBO's Generation Kill and all five episodes of Parade's End.",
    "signature": "Shoots a period drama's interiors with the same handheld, close-quarters camera language she developed making documentaries, so a costume-drama drawing room reads as lived-in rather than staged for the camera.",
    "works": [
@@ -9726,7 +9726,7 @@
    "category": "Directors and the Television Director's Role",
    "name": "Otto Bathurst",
    "description": "A former commercials editor whose first Black Mirror episode helped set the series' tone before he won a BAFTA directing a very different kind of British period drama.",
-   "meta": "British director, television career since the early 2000s.",
+   "meta": "British director, television career since the early 2000s. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Directing \"The National Anthem,\" the Black Mirror series premiere; directing Peaky Blinders, winning a BAFTA for his television work on the series.",
    "signature": "Opens an episode on the moral compromise already made, rather than the decision that led to it, so the audience arrives mid-consequence and has to reconstruct the choice from what people are willing to do about it.",
    "works": [

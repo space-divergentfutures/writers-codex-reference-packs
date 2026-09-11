@@ -1,9 +1,9 @@
 {
  "id": "fantasy-reference",
  "name": "Fantasy",
- "packVersion": "1.1.4",
+ "packVersion": "1.1.5",
  "schemaVersion": 2,
- "lastUpdated": "2026-08-28",
+ "lastUpdated": "2026-09-11",
  "minAppVersion": "0.1.0",
  "collections": [
   {
@@ -8439,7 +8439,7 @@
    "category": "The New Wave",
    "name": "Michael Moorcock",
    "description": "Elric, the Eternal Champion, and a career-long argument with Tolkien.",
-   "meta": "British, b. 1939. World Fantasy Award Best Novel for Gloriana, 1979, and Life Achievement, 2000; Nebula for \"Behold the Man,\" 1968; six British Fantasy Awards; Campbell Memorial Award, 1979; SFWA Grand Master, 2008; Guardian Fiction Prize, 1977.",
+   "meta": "British, b. 1939. World Fantasy Award Best Novel for Gloriana, 1979, and Life Achievement, 2000; Nebula for \"Behold the Man,\" 1968; six British Fantasy Awards; Campbell Memorial Award, 1979; SFWA Grand Master, 2008; Guardian Fiction Prize, 1977. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Elric of Melniboné — the albino sorcerer-emperor dependent on a soul-eating sword — and the multiversal Eternal Champion framework linking dozens of books, plus editing New Worlds into the engine of British SF's New Wave.",
    "signature": "Anti-Tolkien by design: Moorcock's essay \"Epic Pooh\" attacked the consolatory tradition directly, and his fantasy answers it with doomed aristocrats, moral ambiguity, and a cosmology where Law and Chaos are both dangerous. Written fast, deliberately, and with enormous influence on everything grim that followed.",
    "works": [
@@ -8538,7 +8538,7 @@
    "category": "The New Wave",
    "name": "Peter S. Beagle",
    "description": "The Last Unicorn, and the lyric strain at its finest.",
-   "meta": "American, b. 1939. Hugo and Nebula for the novelette \"Two Hearts,\" 2006–07; Mythopoeic Fantasy Awards for The Folk of the Air (1987) and Tamsin (2000); World Fantasy Award for Life Achievement, 2011; SFWA Grand Master, 2018; two Locus Awards.",
+   "meta": "American, b. 1939. Hugo and Nebula for the novelette \"Two Hearts,\" 2006–07; Mythopoeic Fantasy Awards for The Folk of the Air (1987) and Tamsin (2000); World Fantasy Award for Life Achievement, 2011; SFWA Grand Master, 2018; two Locus Awards. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Last Unicorn — the possibly-final unicorn searching for her kind through a world that has forgotten how to see her — plus A Fine and Private Place, written at nineteen.",
    "signature": "Melancholy comedy in exact prose: Beagle's books are funny, sad, and self-aware about their own fairy-tale machinery decades before metafiction became standard, and his sentences reward being read aloud.",
    "works": [
@@ -8633,7 +8633,7 @@
    "category": "Children's Masters",
    "name": "Susan Cooper",
    "description": "The Dark Is Rising: British folklore as ambient dread.",
-   "meta": "British, b. 1935. Newbery Medal for The Grey King, 1976, and Newbery Honor for The Dark Is Rising, 1974; two Tir na n-Og Awards; Margaret A. Edwards Award, 2012; World Fantasy Award for Life Achievement, 2013; SFWA Grand Master, announced 2024.",
+   "meta": "British, b. 1935. Newbery Medal for The Grey King, 1976, and Newbery Honor for The Dark Is Rising, 1974; two Tir na n-Og Awards; Margaret A. Edwards Award, 2012; World Fantasy Award for Life Achievement, 2013; SFWA Grand Master, announced 2024. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The five-book sequence in which ordinary English and Welsh children are drawn into an ancient conflict between the Light and the Dark, rooted in Arthurian and Celtic material and real landscape.",
    "signature": "Genuine unease in children's fiction: Cooper's Dark is atmospheric rather than embodied — weather, rooks, a rising sense of wrongness — and her willingness to leave costs unresolved (the ending's forgetting) has been argued about by readers for fifty years.",
    "works": [
@@ -8731,7 +8731,7 @@
    "category": "The Commercial Epic",
    "name": "Stephen R. Donaldson",
    "description": "Thomas Covenant: the protagonist readers were not supposed to like.",
-   "meta": "American, b. 1947. John W. Campbell Award for Best New Writer, 1979; British Fantasy Award for the first Covenant trilogy, 1979; World Fantasy Award Best Collection for Reave the Just, 2000 (tie).",
+   "meta": "American, b. 1947. John W. Campbell Award for Best New Writer, 1979; British Fantasy Award for the first Covenant trilogy, 1979; World Fantasy Award Best Collection for Reave the Just, 2000 (tie). Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Chronicles of Thomas Covenant — a leper transported to a healing fantasy world he refuses to believe in, and whose first act there is a rape the entire series is built around confronting.",
    "signature": "Deliberate reader alienation: Donaldson made unbelief the protagonist's defining trait and self-loathing his engine, which produced a bestseller and a permanent argument about how much moral discomfort epic fantasy can carry. Vocabulary-dense prose and unrelieved bleakness are part of the same design.",
    "works": [
@@ -8762,7 +8762,7 @@
    "category": "The Commercial Epic",
    "name": "Terry Brooks",
    "description": "The book that proved fantasy could be a bestselling category.",
-   "meta": "American, b. 1944. World Fantasy Award for Life Achievement, 2017; Inkpot Award, 1997. No Hugo, Nebula, Locus, or Mythopoeic wins — six Locus finalist placements.",
+   "meta": "American, b. 1944. World Fantasy Award for Life Achievement, 2017; Inkpot Award, 1997. No Hugo, Nebula, Locus, or Mythopoeic wins — six Locus finalist placements. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Sword of Shannara, the first fantasy paperback to reach the New York Times list, and thirty-plus subsequent Shannara volumes, plus the Magic Kingdom and Word/Void books.",
    "signature": "Accessible, propulsive commercial epic: Brooks's debut is openly Tolkien-shaped, and its success created the market template — farm boy, mentor, quest object, trilogy — that dominated two decades. Elfstones, the second book, is the one most readers and writers consider the genuinely good one.",
    "works": [
@@ -8824,7 +8824,7 @@
    "category": "The Commercial Epic",
    "name": "Tad Williams",
    "description": "The bridge between the 1980s template and everything after it.",
-   "meta": "American, b. 1957. No major genre award wins; Campbell Best New Writer finalist, 1986, and nine Locus finalist placements.",
+   "meta": "American, b. 1957. No major genre award wins; Campbell Best New Writer finalist, 1986, and nine Locus finalist placements. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Memory, Sorrow and Thorn — a doorstop trilogy that took the Tolkien template seriously enough to subvert it — which George R.R. Martin has repeatedly credited as the work that showed him epic fantasy could be done ambitiously.",
    "signature": "Slow-build density and structural patience: Williams spends hundreds of pages on ordinary life before the plot ignites, and the trilogy's central twist — that the quest's stated goal is catastrophically wrong — is the move A Song of Ice and Fire built on.",
    "works": [
@@ -8860,7 +8860,7 @@
    "category": "The Commercial Epic",
    "name": "Robin Hobb",
    "description": "The genre's finest writer of suffering, loyalty, and the long cost.",
-   "meta": "American, b. 1952; also publishes as Megan Lindholm. World Fantasy Award for Life Achievement, 2021; David Gemmell Legend Award for Assassin's Fate, 2018; Endeavour Award, 2007; two Geffen Awards; three Prix Imaginales.",
+   "meta": "American, b. 1952; also publishes as Megan Lindholm. World Fantasy Award for Life Achievement, 2021; David Gemmell Legend Award for Assassin's Fate, 2018; Endeavour Award, 2007; two Geffen Awards; three Prix Imaginales. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Farseer, Liveship Traders, and Tawny Man trilogies — sixteen books following one royal bastard across a lifetime — plus the earlier Megan Lindholm books, including the urban fantasy Wizard of the Pigeons.",
    "signature": "First-person interiority sustained at enormous length, with a refusal to grant relief: Fitz's servitude, bodily damage, and repeatedly deferred happiness are the point rather than obstacles, and the Fool is the genre's most complex long-form relationship. Hobb writes animal bonds better than anyone since Adams.",
    "works": [
@@ -8933,7 +8933,7 @@
    "category": "The Modern Masters",
    "name": "Neil Gaiman",
    "description": "Sandman, and the mythic mode carried into comics and everywhere else.",
-   "meta": "English, b. 1960. Hugos for American Gods (2002), Coraline (2003), \"A Study in Emerald\" (2004), The Graveyard Book (2009), and more; Nebulas for American Gods (2003) and Coraline (2004); World Fantasy Award for Short Fiction, 1991; two Mythopoeic Awards; Newbery Medal and Carnegie Medal, both for The Graveyard Book. *Note:* multiple allegations of sexual misconduct made public from 2024 have substantially altered his standing, prompted cancelled adaptations, and are part of any current discussion of the work.",
+   "meta": "English, b. 1960. Hugos for American Gods (2002), Coraline (2003), \"A Study in Emerald\" (2004), The Graveyard Book (2009), and more; Nebulas for American Gods (2003) and Coraline (2004); World Fantasy Award for Short Fiction, 1991; two Mythopoeic Awards; Newbery Medal and Carnegie Medal, both for The Graveyard Book. *Note:* multiple allegations of sexual misconduct made public from 2024 have substantially altered his standing, prompted cancelled adaptations, and are part of any current discussion of the work. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Sandman — seventy-five issues that made comics a legitimate venue for mythic fantasy — plus American Gods, Coraline, Stardust, and Good Omens with Pratchett.",
    "signature": "Folklore reanimated in contemporary registers: Gaiman's method is to take an old story's actual rules seriously and drop them into a modern setting, and his Sandman work established that a fantasy series could run literary structures — anthology issues, historical interludes, an ending planned from the start.",
    "works": [
@@ -8968,7 +8968,7 @@
    "category": "The Modern Masters",
    "name": "Guy Gavriel Kay",
    "description": "History a quarter-turn from real — the genre's finest historical fantasist.",
-   "meta": "Canadian, b. 1954. World Fantasy Award Best Novel for Ysabel, 2008; two Aurora Awards; Sunburst Award, 2011; two Prix Elbakin; Member of the Order of Canada, 2014. Assisted Christopher Tolkien in editing The Silmarillion.",
+   "meta": "Canadian, b. 1954. World Fantasy Award Best Novel for Ysabel, 2008; two Aurora Awards; Sunburst Award, 2011; two Prix Elbakin; Member of the Order of Canada, 2014. Assisted Christopher Tolkien in editing The Silmarillion. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Tigana, The Lions of Al-Rassan, and the later Chinese-inflected novels — invented worlds that map recognizably onto Renaissance Italy, Moorish Spain, Byzantium, and Tang China without claiming to be them.",
    "signature": "The serial-numbers-filed method: Kay researches a real period exhaustively, then shifts it one degree so he can invent freely while keeping the emotional truth of the history. His prose is deliberately elevated, his subject is almost always cultural loss, and Tigana's premise — a conquered people whose country's name has been magically erased from memory — is the genre's best single metaphor for colonization.",
    "works": [
@@ -9002,7 +9002,7 @@
    "category": "The Modern Masters",
    "name": "Lois McMaster Bujold",
    "description": "The Five Gods: theology as fantasy's most underrated engine.",
-   "meta": "American, b. 1949. Seven Hugos — including Best Novel for Paladin of Souls (2004) and Best Series for the World of the Five Gods (2018) — three Nebulas; Mythopoeic Fantasy Award for The Curse of Chalion, 2002; SFWA Grand Master, 2020. Her four Best Novel Hugos tie Heinlein's record.",
+   "meta": "American, b. 1949. Seven Hugos — including Best Novel for Paladin of Souls (2004) and Best Series for the World of the Five Gods (2018) — three Nebulas; Mythopoeic Fantasy Award for The Curse of Chalion, 2002; SFWA Grand Master, 2020. Her four Best Novel Hugos tie Heinlein's record. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Chalion/Five Gods books and the long-running Vorkosigan SF saga, both built on the same principle: put a damaged, competent adult under impossible obligation and watch what they choose.",
    "signature": "Middle-aged protagonists with real theology. Bujold's fantasy gods are demonstrably present, work only through consenting human hands, and the resulting metaphysics is worked out to a rigor almost nobody else attempts. Paladin of Souls' protagonist — a widow in her forties, dismissed as mad — is one of the genre's great characters.",
    "works": [
@@ -9037,7 +9037,7 @@
    "category": "The Modern Masters",
    "name": "Steven Erikson",
    "description": "Malazan: the archaeologist's epic, and the genre's steepest entry curve.",
-   "meta": "Canadian, b. 1959. No major genre award wins — a World Fantasy Best Novel nomination for Gardens of the Moon (2000) and an Aurora nomination. Trained as an archaeologist and anthropologist.",
+   "meta": "Canadian, b. 1959. No major genre award wins — a World Fantasy Best Novel nomination for Gardens of the Moon (2000) and an Aurora nomination. Trained as an archaeologist and anthropologist. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The ten-volume Malazan Book of the Fallen, built with Ian C. Esslemont from a shared roleplaying campaign, running dozens of viewpoints across stacked civilizations and tens of thousands of years.",
    "signature": "In medias res taken to its limit: the reader is dropped into a world with no orientation, and comprehension is earned across volumes — a deliberate strategy that costs enormous numbers of readers and produces fanatical devotion in those who stay. Erikson's compassion for ordinary soldiers, and his willingness to let philosophy interrupt battle, distinguish the work from its imitators.",
    "works": [
@@ -9068,7 +9068,7 @@
    "category": "The Modern Masters",
    "name": "George R.R. Martin",
    "description": "A Song of Ice and Fire: the series that changed what epic fantasy could contain.",
-   "meta": "American, b. 1948. Four Hugos and three Nebulas, mostly for short fiction; World Fantasy Award for \"The Skin Trade\" (1989), for Best Anthology (2014), and for Life Achievement (2012, shared with Alan Garner); sixteen Locus Awards; a 2023 Nebula for game writing on Elden Ring with Hidetaka Miyazaki.",
+   "meta": "American, b. 1948. Four Hugos and three Nebulas, mostly for short fiction; World Fantasy Award for \"The Skin Trade\" (1989), for Best Anthology (2014), and for Life Achievement (2012, shared with Alan Garner); sixteen Locus Awards; a 2023 Nebula for game writing on Elden Ring with Hidetaka Miyazaki. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Five published volumes of a projected seven, the HBO adaptation that made fantasy mainstream television, and a body of earlier short fiction that is genuinely first-rate and generally overlooked.",
    "signature": "Consequence without plot armour, and viewpoint discipline: every chapter is one character's limited perception, so the reader's information is always partial and often wrong. Martin's medieval research — succession law, logistics, the economics of war — is the deepest in commercial fantasy, and the unfinished series is the field's most public argument about gardening versus architecture.",
    "works": [
@@ -9104,7 +9104,7 @@
    "category": "The Modern Masters",
    "name": "China Miéville",
    "description": "The New Weird's founder, and the genre's most explicit politics.",
-   "meta": "British, b. 1972. Three Arthur C. Clarke Awards — a record — for Perdido Street Station (2001), Iron Council (2005), and The City & The City (2010); Hugo, World Fantasy, and BSFA Best Novel all for The City & The City (2010); two British Fantasy Awards; numerous Locus Awards; Fellow of the Royal Society of Literature, 2015.",
+   "meta": "British, b. 1972. Three Arthur C. Clarke Awards — a record — for Perdido Street Station (2001), Iron Council (2005), and The City & The City (2010); Hugo, World Fantasy, and BSFA Best Novel all for The City & The City (2010); two British Fantasy Awards; numerous Locus Awards; Fellow of the Royal Society of Literature, 2015. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Bas-Lag novels — New Crobuzon's industrial, grotesque, politically saturated city — plus The City & The City's twinned municipalities and a career of formal restlessness.",
    "signature": "Marxist worldbuilding: Miéville builds economies, labour conditions, and municipal politics first, and the fantastic emerges from them rather than sitting on top. He has argued in print against Tolkien's pastoral consolation, and his monsters are deliberately unclassifiable because taxonomy is the thing he is refusing.",
    "works": [
@@ -9136,7 +9136,7 @@
    "category": "The Literary Wing",
    "name": "Susanna Clarke",
    "description": "Two novels, sixteen years apart, both perfect.",
-   "meta": "English, b. 1959. Hugo, World Fantasy, Mythopoeic, and Locus First Novel awards all for Jonathan Strange & Mr Norrell (2005); Women's Prize for Fiction for Piranesi (2021); Man Booker longlist, 2004. Chronic illness accounts for the long gap between books.",
+   "meta": "English, b. 1959. Hugo, World Fantasy, Mythopoeic, and Locus First Novel awards all for Jonathan Strange & Mr Norrell (2005); Women's Prize for Fiction for Piranesi (2021); Man Booker longlist, 2004. Chronic illness accounts for the long gap between books. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Jonathan Strange & Mr Norrell — English magic revived as a profession during the Napoleonic wars, told in period pastiche with an entire alternate scholarly tradition in the footnotes — and Piranesi, a short, luminous novel about a man living in an infinite house.",
    "signature": "Scholarly apparatus as worldbuilding: Clarke's footnotes contain a second book, and her fae are restored to genuine folkloric menace — courteous, literal-minded, and catastrophic. Piranesi demonstrates the opposite discipline: one impossible building, never explained, at a quarter the length.",
    "works": [
@@ -9167,7 +9167,7 @@
    "category": "The Literary Wing",
    "name": "Catherynne M. Valente",
    "description": "The genre's most ornate prose stylist.",
-   "meta": "American, b. 1979. Andre Norton Award for The Girl Who Circumnavigated Fairyland, 2010; Mythopoeic Fantasy Award for The Orphan's Tales, 2008; Otherwise/Tiptree Award, 2007; Lambda Literary Award, 2010; Sturgeon Award, 2017; multiple Locus Awards. Her Hugos are as part of the SF Squeecast team rather than for fiction; she has no World Fantasy Award win despite frequent misreporting.",
+   "meta": "American, b. 1979. Andre Norton Award for The Girl Who Circumnavigated Fairyland, 2010; Mythopoeic Fantasy Award for The Orphan's Tales, 2008; Otherwise/Tiptree Award, 2007; Lambda Literary Award, 2010; Sturgeon Award, 2017; multiple Locus Awards. Her Hugos are as part of the SF Squeecast team rather than for fiction; she has no World Fantasy Award win despite frequent misreporting. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Orphan's Tales — nested stories in the Arabian Nights structure — the Fairyland books, and Deathless, which runs Russian folklore through the Stalinist siege of Leningrad.",
    "signature": "Density and nesting: Valente's prose is deliberately baroque, her structures are recursive, and her folklore is drawn from primary sources rather than genre intermediaries. The Fairyland books demonstrate that the same voice can be pitched to children without simplification — she crowdfunded the first one after publishers passed.",
    "works": [
@@ -9198,7 +9198,7 @@
    "category": "The Literary Wing",
    "name": "Katherine Addison",
    "description": "The Goblin Emperor: decency as a plot engine.",
-   "meta": "American, b. 1974; also publishes as Sarah Monette. Locus Award for Best Fantasy Novel, 2015. The Goblin Emperor was a Hugo, Nebula, and World Fantasy finalist and won none of them — it was one of the few non-slate finalists in the 2015 Puppies year.",
+   "meta": "American, b. 1974; also publishes as Sarah Monette. Locus Award for Best Fantasy Novel, 2015. The Goblin Emperor was a Hugo, Nebula, and World Fantasy finalist and won none of them — it was one of the few non-slate finalists in the 2015 Puppies year. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Goblin Emperor — an unwanted half-goblin fourth son inheriting an elvish throne and governing by kindness in a court that despises him — plus the Cemeteries of Amalo mysteries and the earlier Doctrine of Labyrinths books as Sarah Monette.",
    "signature": "Bureaucracy rendered as drama and courtesy as characterization: Addison's court has an exhaustively specified honorific system, and the protagonist's every misstep in it is genuine danger. The novel's radical move is that its hero is good, stays good, and that this is difficult rather than easy.",
    "works": [
@@ -9229,7 +9229,7 @@
    "category": "The Literary Wing",
    "name": "T. Kingfisher",
    "description": "Folklore with the strangeness restored, and jokes.",
-   "meta": "American, b. 1977; also publishes and draws as Ursula Vernon. Hugos across both names — Best Graphic Story for Digger (2012), Best Novelette (2017), Best Short Story (2021), Best Novel for Nettle & Bone (2023), Best Novella for Thornhedge (2024); Nebula Best Short Story, 2015; Andre Norton Award, 2021; three Mythopoeic Awards; numerous Locus Awards.",
+   "meta": "American, b. 1977; also publishes and draws as Ursula Vernon. Hugos across both names — Best Graphic Story for Digger (2012), Best Novelette (2017), Best Short Story (2021), Best Novel for Nettle & Bone (2023), Best Novella for Thornhedge (2024); Nebula Best Short Story, 2015; Andre Norton Award, 2021; three Mythopoeic Awards; numerous Locus Awards. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Nettle & Bone and Thornhedge — fairy tales rebuilt with the folk material's original cruelty intact — the Digger webcomic, and a parallel horror line including What Moves the Dead.",
    "signature": "Practical protagonists in genuinely frightening situations, written funny. Kingfisher's heroines are usually middle-aged, competent, and tired, her magic is folkloric rather than systematized, and the tonal balance — real dread, real comedy, no whiplash — is the hardest thing in the collection to imitate.",
    "works": [
@@ -9264,7 +9264,7 @@
    "category": "The Commercial Modern",
    "name": "Patrick Rothfuss",
    "description": "The Name of the Wind, and the most famous unfinished trilogy in fantasy.",
-   "meta": "American, b. 1973. Quill Award, 2007; ALA Alex Award, 2008; David Gemmell Legend Award for The Wise Man's Fear, 2012. No Hugo, Nebula, or World Fantasy recognition — an unusual gap for a writer of his commercial standing.",
+   "meta": "American, b. 1973. Quill Award, 2007; ALA Alex Award, 2008; David Gemmell Legend Award for The Wise Man's Fear, 2012. No Hugo, Nebula, or World Fantasy recognition — an unusual gap for a writer of his commercial standing. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Kingkiller Chronicle — a legendary figure in hiding, narrating his own life across three days, with the frame's broken innkeeper contradicting the tale's prodigy — and a third volume unpublished since 2011.",
    "signature": "Prose musicality and the frame's implicit unreliability: Rothfuss writes some of the most quotable sentences in commercial fantasy, and the series' real mystery is the gap between Kvothe's self-account and whatever actually happened. The University's tuition-and-debt economy is the genre's best grounding of a magic school.",
    "works": [
@@ -9295,7 +9295,7 @@
    "category": "The Commercial Modern",
    "name": "Brandon Sanderson",
    "description": "The systems architect, and the field's most productive working writer.",
-   "meta": "American, b. 1975. Two Hugos, both 2013 — Best Novella for The Emperor's Soul and Best Related Work for Writing Excuses; two David Gemmell Legend Awards. No Nebula, World Fantasy, or Locus wins. Completed The Wheel of Time from Robert Jordan's notes, 2009–13; his 2022 Kickstarter remains the largest in the platform's history.",
+   "meta": "American, b. 1975. Two Hugos, both 2013 — Best Novella for The Emperor's Soul and Best Related Work for Writing Excuses; two David Gemmell Legend Awards. No Nebula, World Fantasy, or Locus wins. Completed The Wheel of Time from Robert Jordan's notes, 2009–13; his 2022 Kickstarter remains the largest in the platform's history. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Cosmere — Mistborn, Stormlight, Elantris, Warbreaker and more sharing one cosmology — plus Sanderson's Laws of Magic, the most-quoted craft heuristics in the genre.",
    "signature": "Engineered magic and engineered plotting: Sanderson's systems are enumerated and costed so climaxes can be solved by cleverness the reader can audit, and his outline-first method produces a reliability the field has not seen before. The trade-off — prose that serves function over texture — is one he states openly.",
    "works": [
@@ -9327,7 +9327,7 @@
    "category": "The Commercial Modern",
    "name": "Joe Abercrombie",
    "description": "Grimdark's stylist — and its funniest writer.",
-   "meta": "English, b. 1974. Two Locus Awards, both 2015, for Half a King and a novelette; Dragon Award, 2025. No World Fantasy, British Fantasy, Hugo, or Nebula wins despite twenty-seven nominations — a striking record of institutional near-misses.",
+   "meta": "English, b. 1974. Two Locus Awards, both 2015, for Half a King and a novelette; Dragon Award, 2025. No World Fantasy, British Fantasy, Hugo, or Nebula wins despite twenty-seven nominations — a striking record of institutional near-misses. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The First Law trilogy and its standalone sequels — a world where every character's arc bends back toward what they already were, and where the wizard giving the quest is the villain.",
    "signature": "Free-indirect voice and structural nihilism executed with total craft: Abercrombie's viewpoint chapters take on each character's idiom completely, his battle writing is short and ugly and accurate, and his endings systematically deny redemption. The comedy is what keeps it readable; Glokta's interior monologue is the genre's best sustained dark-comic voice.",
    "works": [
@@ -9359,7 +9359,7 @@
    "category": "The Commercial Modern",
    "name": "Scott Lynch",
    "description": "The Gentleman Bastards: the heist novel as fantasy.",
-   "meta": "American, b. 1978. British Fantasy Sydney J. Bounds Award for Best Newcomer, 2008. World Fantasy and Campbell finalist placements without wins.",
+   "meta": "American, b. 1978. British Fantasy Sydney J. Bounds Award for Best Newcomer, 2008. World Fantasy and Campbell finalist placements without wins. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Lies of Locke Lamora — a con crew working a Venice-analogue built on unbreakable alien glass — and two sequels, with the series' continuation long delayed.",
    "signature": "Con-artist structure with fantasy machinery: Lynch runs the heist form's plan-execution-complication cycle inside a secondary world, alternating present-day scheme with childhood-training flashback so competence and its origins arrive together. Camorr's single impossible material determines its entire criminal geography — worldbuilding by one premise, propagated.",
    "works": [
@@ -9389,7 +9389,7 @@
    "category": "The Commercial Modern",
    "name": "Naomi Novik",
    "description": "Folklore, dragons, and a career of complete formal changes.",
-   "meta": "American, b. 1973. Nebula Best Novel for Uprooted, 2016; Campbell Best New Writer, 2007; three Locus Awards; two Mythopoeic Fantasy Awards, for Uprooted (2016) and Spinning Silver (2019); British Fantasy Robert Holdstock Award, 2016; Lodestar, 2022. Repeatedly a Hugo finalist without a win. A co-founder of the Archive of Our Own.",
+   "meta": "American, b. 1973. Nebula Best Novel for Uprooted, 2016; Campbell Best New Writer, 2007; three Locus Awards; two Mythopoeic Fantasy Awards, for Uprooted (2016) and Spinning Silver (2019); British Fantasy Robert Holdstock Award, 2016; Lodestar, 2022. Repeatedly a Hugo finalist without a win. A co-founder of the Archive of Our Own. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Temeraire — the Napoleonic wars with an aerial dragon corps and its logistics taken seriously — Uprooted and Spinning Silver's Polish and Jewish folklore, and the Scholomance trilogy's murderous magic school.",
    "signature": "Source-first folklore and complete reinvention between series: Novik works from Slavic and Jewish material rather than genre intermediaries, and no two of her series share a mode. Spinning Silver's braided first-person voices are the technical high point.",
    "works": [
@@ -9424,7 +9424,7 @@
    "category": "The New Canon",
    "name": "N.K. Jemisin",
    "description": "The Broken Earth: three consecutive Hugos, and a permanent shift in the field.",
-   "meta": "American, b. 1972. The first author to win the Hugo for Best Novel three years running, and the first to win for every book of a trilogy — The Fifth Season (2016), The Obelisk Gate (2017), The Stone Sky (2018) — plus Hugos for \"Emergency Skin\" (2020) and Far Sector (2022); Nebula Best Novel, 2018; four Locus Awards; BSFA, 2021; MacArthur Fellowship, 2020; SFWA Grand Master, announced 2025.",
+   "meta": "American, b. 1972. The first author to win the Hugo for Best Novel three years running, and the first to win for every book of a trilogy — The Fifth Season (2016), The Obelisk Gate (2017), The Stone Sky (2018) — plus Hugos for \"Emergency Skin\" (2020) and Far Sector (2022); Nebula Best Novel, 2018; four Locus Awards; BSFA, 2021; MacArthur Fellowship, 2020; SFWA Grand Master, announced 2025. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Broken Earth trilogy — a seismically unstable supercontinent where the people who can control earthquakes are enslaved to keep civilization standing — plus the Inheritance and Great Cities books.",
    "signature": "Structure carrying argument: the Broken Earth's second-person narration and its concealed relationship between three viewpoints are not effects but the trilogy's thesis about who tells whose story. Jemisin builds oppression as the world's load-bearing infrastructure, so nothing in the setting is separable from it.",
    "works": [
@@ -9456,7 +9456,7 @@
    "category": "The New Canon",
    "name": "Nnedi Okorafor",
    "description": "Africanfuturism and Africanjujuism, named by the writer who defined them.",
-   "meta": "American of Nigerian descent, b. 1974. World Fantasy Award Best Novel for Who Fears Death, 2011; Hugo and Nebula for the novella Binti, 2016; Hugo and Eisner for LaGuardia, 2020; two Lodestar Awards; inaugural Nommo Award, 2017; Wole Soyinka Prize, 2008; Science Fiction Hall of Fame, 2024.",
+   "meta": "American of Nigerian descent, b. 1974. World Fantasy Award Best Novel for Who Fears Death, 2011; Hugo and Nebula for the novella Binti, 2016; Hugo and Eisner for LaGuardia, 2020; two Lodestar Awards; inaugural Nommo Award, 2017; Wole Soyinka Prize, 2008; Science Fiction Hall of Fame, 2024. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Who Fears Death — post-apocalyptic Sudan-inflected fantasy confronting genocidal rape and weaponized ethnicity — the Binti novellas, and the Akata Witch YA series drawing on Igbo and Yoruba tradition.",
    "signature": "Specificity as method: Okorafor coined \"Africanfuturism\" precisely to distinguish work rooted in African cultures from work using Africa as an aesthetic, and her magic follows named traditions rather than a composite. She writes bodies, illness, and violence with unusual physical directness.",
    "works": [
@@ -9488,7 +9488,7 @@
    "category": "The New Canon",
    "name": "R.F. Kuang",
    "description": "Fantasy as historical indictment, at speed.",
-   "meta": "American, born in Guangzhou, b. 1996. Nebula Best Novel for Babel, 2023; Locus Best Fantasy Novel, 2023; Astounding Award for Best New Writer, 2020; Compton Crook and Crawford Awards, 2019; Goodreads Choice for Yellowface, 2023. Babel debuted at number one on the New York Times list.",
+   "meta": "American, born in Guangzhou, b. 1996. Nebula Best Novel for Babel, 2023; Locus Best Fantasy Novel, 2023; Astounding Award for Best New Writer, 2020; Compton Crook and Crawford Awards, 2019; Goodreads Choice for Yellowface, 2023. Babel debuted at number one on the New York Times list. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Poppy War trilogy — grimdark fantasy modelled directly on the Second Sino-Japanese War and the Nanjing Massacre — and Babel, in which translation is literally the engine of British imperial power.",
    "signature": "Research-driven atrocity with no comfort offered: Kuang builds magic systems out of real intellectual history (silverworking from translation theory, shamanism from documented religious practice) and refuses redemptive endings — her protagonists become the thing they opposed, deliberately and traceably.",
    "works": [
@@ -9520,7 +9520,7 @@
    "category": "The New Canon",
    "name": "Ken Liu",
    "description": "Silkpunk's namer, and the translator who opened a market.",
-   "meta": "American, born in Lanzhou, b. 1976. \"The Paper Menagerie\" is the first work of fiction to win the Nebula, Hugo, and World Fantasy Award — 2011–12; a second Hugo for \"Mono no aware,\" 2013; three Locus Awards; Sidewise Award, 2015. His translation of The Three-Body Problem won the 2015 Hugo for Best Novel — that award belongs to Liu Cixin, with Liu accepting on his behalf.",
+   "meta": "American, born in Lanzhou, b. 1976. \"The Paper Menagerie\" is the first work of fiction to win the Nebula, Hugo, and World Fantasy Award — 2011–12; a second Hugo for \"Mono no aware,\" 2013; three Locus Awards; Sidewise Award, 2015. His translation of The Three-Body Problem won the 2015 Hugo for Best Novel — that award belongs to Liu Cixin, with Liu accepting on his behalf. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Dandelion Dynasty — an epic drawing on Chinese historical narrative rather than Western medievalism, with an engineering aesthetic built from silk, bamboo, and paper — plus a body of short fiction and the translations that brought contemporary Chinese SF to Anglophone readers.",
    "signature": "Structural borrowing rather than surface: Liu imports the Chinese historical epic's approach to time, cast, and moral judgment, which produces a book that feels genuinely unlike Western epic at the level of shape. He coined \"silkpunk\" and has written extensively about what the term does and does not mean.",
    "works": [
@@ -9551,7 +9551,7 @@
    "category": "The New Canon",
    "name": "S.A. Chakraborty",
    "description": "Daevabad: Islamic-world history and folklore as full secondary world.",
-   "meta": "American, b. 1985; recent books credited as Shannon Chakraborty. No major award wins — World Fantasy Best Novel finalist for The City of Brass (2018), Hugo Best Series finalist for the Daevabad trilogy (2021), and Hugo Best Novel finalist for The Adventures of Amina al-Sirafi (2024).",
+   "meta": "American, b. 1985; recent books credited as Shannon Chakraborty. No major award wins — World Fantasy Best Novel finalist for The City of Brass (2018), Hugo Best Series finalist for the Daevabad trilogy (2021), and Hugo Best Novel finalist for The Adventures of Amina al-Sirafi (2024). Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Daevabad trilogy — a Cairo con artist discovering she is heir to a djinn city with six warring tribes and a colonial history — and Amina al-Sirafi, a middle-aged retired pirate captain in the medieval Indian Ocean.",
    "signature": "Historical research as worldbuilding foundation: Chakraborty studied the period and its sources, so the politics, theology, and material culture cohere as a real system rather than an aesthetic. Her particular skill is the multi-generational grievance — every faction's atrocity is somebody else's founding trauma.",
    "works": [
@@ -9582,7 +9582,7 @@
    "category": "The New Canon",
    "name": "Tomi Adeyemi",
    "description": "West African mythology at YA's commercial centre.",
-   "meta": "American of Nigerian descent, b. 1993. Andre Norton Award, 2019; Lodestar Award for Best YA Book, 2019; Waterstones Children's Book Prize, 2019. All three Legacy of Orisha novels debuted at number one on the New York Times children's list.",
+   "meta": "American of Nigerian descent, b. 1993. Andre Norton Award, 2019; Lodestar Award for Best YA Book, 2019; Waterstones Children's Book Prize, 2019. All three Legacy of Orisha novels debuted at number one on the New York Times children's list. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Children of Blood and Bone — magic suppressed by a state pogrom in a Yoruba-derived world, written explicitly in response to police violence against Black Americans — and its sequels.",
    "signature": "Myth as political allegory delivered at commercial YA pace: Adeyemi's magic system is drawn from Orisha tradition, her plot machinery is fast and hooky, and her author's note states the real-world argument outright rather than leaving it implied.",
    "works": [
@@ -9612,7 +9612,7 @@
    "category": "The Crossover Wave",
    "name": "V.E. Schwab",
    "description": "Portal-adjacent, YA and adult at once, and enormously read.",
-   "meta": "American, b. 1987; also credited as Victoria Schwab. Three Goodreads Choice Awards; no Hugo, Nebula, or World Fantasy wins. The Invisible Life of Addie LaRue has sold over two million copies in the US alone.",
+   "meta": "American, b. 1987; also credited as Victoria Schwab. Three Goodreads Choice Awards; no Hugo, Nebula, or World Fantasy wins. The Invisible Life of Addie LaRue has sold over two million copies in the US alone. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Shades of Magic trilogy — four parallel Londons with different magical fortunes — plus Vicious's superhero deconstruction and Addie LaRue's Faustian bargain.",
    "signature": "High-concept premises delivered with commercial precision: Schwab's ideas are pitchable in a sentence, her prose is clean and quotable, and she writes across YA and adult without changing register much — which is itself the crossover market's defining skill.",
    "works": [
@@ -9643,7 +9643,7 @@
    "category": "The Crossover Wave",
    "name": "Leigh Bardugo",
    "description": "The Grishaverse, and the best heist crew in modern fantasy.",
-   "meta": "American, born in Jerusalem, b. 1975. Three Goodreads Choice Awards; Phantastik-Preis for Six of Crows, 2018; Inkpot Award, 2019. Ninth House was a number one New York Times bestseller. No juried genre-award wins.",
+   "meta": "American, born in Jerusalem, b. 1975. Three Goodreads Choice Awards; Phantastik-Preis for Six of Crows, 2018; Inkpot Award, 2019. Ninth House was a number one New York Times bestseller. No juried genre-award wins. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Shadow and Bone and its expanding Tsarist-Russia-inflected world, Six of Crows' six-hander heist duology, and Ninth House's dark-academia turn into adult fiction.",
    "signature": "Ensemble construction: Six of Crows gives six viewpoints distinct voices, wounds, and load-bearing skills, and the crew's mutual leverage is more interesting than their affection — the best modern demonstration of the companion-band trope done as a heist.",
    "works": [
@@ -9674,7 +9674,7 @@
    "category": "The Crossover Wave",
    "name": "Sarah J. Maas",
    "description": "The defining figure of the romantasy boom.",
-   "meta": "American, b. 1986. No juried genre awards at all — no Hugo, Nebula, World Fantasy, Locus, or British Fantasy nomination — and eleven Goodreads Choice Awards. Over seventy-five million copies sold worldwide as of 2024, in roughly forty languages.",
+   "meta": "American, b. 1986. No juried genre awards at all — no Hugo, Nebula, World Fantasy, Locus, or British Fantasy nomination — and eleven Goodreads Choice Awards. Over seventy-five million copies sold worldwide as of 2024, in roughly forty languages. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Throne of Glass, A Court of Thorns and Roses, and Crescent City — three series whose commercial scale rebuilt the adult fantasy shelf around romance structure.",
    "signature": "Romance beats executed at fantasy length with fae-bargain machinery generating the obstacles: mating bonds, courts, and escalating power fantasy delivered with total consistency of appetite. The gap between her sales and her critical reception is itself a fact worth studying — this is a market the juried institutions did not see coming.",
    "works": [
@@ -9705,7 +9705,7 @@
    "category": "The Crossover Wave",
    "name": "Holly Black",
    "description": "The fae restored to danger, for young readers and then for everyone.",
-   "meta": "American, b. 1971. Andre Norton Award for Valiant, 2006; Newbery Honor and Mythopoeic Children's Award, both for Doll Bones, 2014; Dragon Award, 2022. The Wicked King debuted at number one on the New York Times list.",
+   "meta": "American, b. 1971. Andre Norton Award for Valiant, 2006; Newbery Honor and Mythopoeic Children's Award, both for Doll Bones, 2014; Dragon Award, 2022. The Wicked King debuted at number one on the New York Times list. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Spiderwick Chronicles with Tony DiTerlizzi, the Modern Faerie Tales that began contemporary YA urban fantasy, and The Folk of the Air trilogy, which anchors the current fae-romance market.",
    "signature": "Folkloric rules enforced without mercy: Black's fae cannot lie and therefore destroy with the truth, her bargains bind exactly, and her mortal protagonists survive by learning contract law rather than by being loved. The cruelty is real, which is why the romance works.",
    "works": [
@@ -9737,7 +9737,7 @@
    "category": "The Crossover Wave",
    "name": "Travis Baldree",
    "description": "Legends & Lattes, and the cozy wave it named.",
-   "meta": "American, b. 1977. Astounding Award for Best New Writer, 2023; Washington State Book Award, 2023; Audie Award, 2025. Hugo and Nebula Best Novel finalist for Legends & Lattes, 2023. Self-published in February 2022 before Tor picked it up; also a prolific audiobook narrator and a former video-game designer.",
+   "meta": "American, b. 1977. Astounding Award for Best New Writer, 2023; Washington State Book Award, 2023; Audie Award, 2025. Hugo and Nebula Best Novel finalist for Legends & Lattes, 2023. Self-published in February 2022 before Tor picked it up; also a prolific audiobook narrator and a former video-game designer. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Legends & Lattes — a retired orc mercenary opening a coffee shop — and its prequel, the books that gave cozy fantasy its commercial proof and its name recognition.",
    "signature": "Low stakes taken seriously: Baldree replaces threat with want — the business, the recipe, the unspoken relationship — and renders craft and competence in loving detail. The discipline is tonal absolutism: nothing irreversible happens, and the contract is never broken.",
    "works": [
@@ -9763,7 +9763,7 @@
    "category": "International",
    "name": "Andrzej Sapkowski",
    "description": "The Witcher: Polish fantasy that conquered the world through a game.",
-   "meta": "Polish, b. 1948. World Fantasy Award for Life Achievement, 2016; David Gemmell Legend Award for Blood of Elves, 2009 — the first translated novel to win it; five Janusz A. Zajdel Awards; European Grand Master, 2010. Over thirty million copies sold.",
+   "meta": "Polish, b. 1948. World Fantasy Award for Life Achievement, 2016; David Gemmell Legend Award for Blood of Elves, 2009 — the first translated novel to win it; five Janusz A. Zajdel Awards; European Grand Master, 2010. Over thirty million copies sold. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Geralt of Rivia — a monster-hunter in a declining trade, in a world where the real monsters are usually political — beginning as short stories that subvert Slavic and Western fairy tales, then a five-novel saga, then the CD Projekt Red games and the Netflix series.",
    "signature": "Folk-tale subversion and moral refusal: Sapkowski's early stories take a known tale and follow its actual logic to an ugly conclusion, and Geralt's insistence on neutrality is systematically punished. The ethnic-cleansing politics under the elves-and-dwarves furniture are unusually explicit for the tradition.",
    "works": [
@@ -9794,7 +9794,7 @@
    "category": "International",
    "name": "Cornelia Funke",
    "description": "The German children's fantasist who made books about books.",
-   "meta": "German, b. 1958. Deutscher Jugendliteraturpreis Sonderpreis for her complete body of work, 2020 — note she has never won the main prize for an individual title; Corine Literature Prize, 2003; Royal Society of Literature International Writer, 2022. Over thirty million copies sold worldwide. Founded her own imprint, Breathing Books, in 2015 after a dispute with her English-language publisher over the direction of the third Reckless book.",
+   "meta": "German, b. 1958. Deutscher Jugendliteraturpreis Sonderpreis for her complete body of work, 2020 — note she has never won the main prize for an individual title; Corine Literature Prize, 2003; Royal Society of Literature International Writer, 2022. Over thirty million copies sold worldwide. Founded her own imprint, Breathing Books, in 2015 after a dispute with her English-language publisher over the direction of the third Reckless book. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Inkworld trilogy, in which a bookbinder reads characters out of novels and into the world; *Dragon Rider*; *The Thief Lord*; and the Reckless sequence, which puts the Brothers Grimm's material into an industrialising nineteenth-century mirror-world.",
    "signature": "Craft and material as the carrier of magic. Funke is a trained illustrator and her prose organises itself around objects, workshops and processes — bookbinding, glassblowing, the smell of paper — so the fantastic arrives through the hands rather than through spectacle. The Inkworld books are structurally metafictional: every chapter opens with an epigraph from a real novel, so the borrowed-text apparatus is itself part of the machinery.",
    "works": [
@@ -9967,7 +9967,7 @@
    "category": "International",
    "name": "Hayao Miyazaki",
    "description": "The animator who taught fantasy that nothing has to happen.",
-   "meta": "Japanese, b. 1941. Academy Award for Best Animated Feature, 2003, for *Spirited Away*, and again in 2024 for *The Boy and the Heron*; Academy Honorary Award, 2014; Golden Bear at Berlin, 2002; Person of Cultural Merit, Japan, 2012. He has never won a Hugo or a Nebula — *Spirited Away* was a finalist for both and lost to *The Two Towers*. He did not attend the 2003 Oscars, later confirming this was a protest against the invasion of Iraq.",
+   "meta": "Japanese, b. 1941. Academy Award for Best Animated Feature, 2003, for *Spirited Away*, and again in 2024 for *The Boy and the Heron*; Academy Honorary Award, 2014; Golden Bear at Berlin, 2002; Person of Cultural Merit, Japan, 2012. He has never won a Hugo or a Nebula — *Spirited Away* was a finalist for both and lost to *The Two Towers*. He did not attend the 2003 Oscars, later confirming this was a protest against the invasion of Iraq. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*Spirited Away*, *Princess Mononoke*, *My Neighbor Totoro*, *Kiki's Delivery Service* and the *Nausicaä* manga — a body of work that made animated fantasy a serious adult form outside Japan.",
    "signature": "*Ma* — the deliberate empty beat. Miyazaki gives whole sequences to nothing happening: a girl waiting at a bus stop in rain, a character eating, wind through grass. These carry the emotional load that Western animation assigns to dialogue. He storyboards directly rather than working from a finished screenplay, often without knowing the ending, which produces his characteristic structural looseness and his refusal to give antagonists a defeat.",
    "works": [
@@ -10040,7 +10040,7 @@
    "category": "Urban Fantasy & the Contemporary",
    "name": "Charles de Lint",
    "description": "Mythic fiction: folklore relocated to the wrong side of a real city.",
-   "meta": "Dutch-born Canadian, b. 1951. World Fantasy Award for Life Achievement, 2018; World Fantasy Award for Best Collection, 2000, for *Moonlight and Vines*; William L. Crawford Award, 1985, for *Moonheart*; multiple Aurora Awards. He has never won a Hugo, Nebula or Mythopoeic Award. He also published horror as Samuel M. Key, later reissued under his own name.",
+   "meta": "Dutch-born Canadian, b. 1951. World Fantasy Award for Life Achievement, 2018; World Fantasy Award for Best Collection, 2000, for *Moonlight and Vines*; William L. Crawford Award, 1985, for *Moonheart*; multiple Aurora Awards. He has never won a Hugo, Nebula or Mythopoeic Award. He also published horror as Samuel M. Key, later reissued under his own name. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Newford books — dozens of novels and stories sharing a fictional North American city, with no fixed protagonist and no series numbering — and for naming and largely defining mythic fiction.",
    "signature": "Folklore among the poor. De Lint's supernatural arrives in rooming houses, shelters and cheap studios, and his narrators are working-class, often women, speaking in plain unornamented diction that lets the numinous land without heightened language. The mosaic structure is the real innovation: characters recur as minor figures in each other's books, so the city rather than any plot is the continuing subject.",
    "works": [
@@ -10075,7 +10075,7 @@
    "category": "Urban Fantasy & the Contemporary",
    "name": "Emma Bull",
    "description": "War for the Oaks: the faerie war with a rent problem.",
-   "meta": "American, b. 1954. Locus Award for Best First Novel, 1988, for *War for the Oaks* — her only major genre award win. *Bone Dance* was a Hugo, Nebula and World Fantasy nominee and took a Philip K. Dick Special Citation, all losses that reference works routinely upgrade. A working musician: she fronted Cats Laughing with Steven Brust and the duo The Flash Girls, and co-created the Liavek shared-world anthologies.",
+   "meta": "American, b. 1954. Locus Award for Best First Novel, 1988, for *War for the Oaks* — her only major genre award win. *Bone Dance* was a Hugo, Nebula and World Fantasy nominee and took a Philip K. Dick Special Citation, all losses that reference works routinely upgrade. A working musician: she fronted Cats Laughing with Steven Brust and the duo The Flash Girls, and co-created the Liavek shared-world anthologies. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*War for the Oaks*, in which a Minneapolis rock guitarist is conscripted into the war between the Seelie and Unseelie courts — the book that, with de Lint's, founded modern urban fantasy.",
    "signature": "Logistics taken seriously. Bull's innovation was tonal rather than conceptual: gig bookings, amp cables, rent and band politics get the same narrative weight as the faerie court, in contemporary idiom, with no elevation of register when the supernatural enters. She writes tight dialogue-forward scenes and is unusually willing to leave the metaphysics unexplained.",
    "works": [
@@ -10144,7 +10144,7 @@
    "category": "Urban Fantasy & the Contemporary",
    "name": "Jim Butcher",
    "description": "The Dresden Files: hardboiled detective, rigorously costed magic.",
-   "meta": "American, b. 1971. Dragon Award for Best Fantasy Novel, 2021, for *Battle Ground*; Dragon Award for Best Graphic Novel, 2017. He has never won a Hugo, Nebula or Locus Award. His 2015 and 2016 Hugo Best Novel nominations came via the Sad Puppies and Rabid Puppies slates without his solicitation; *Skin Game* finished below No Award in 2015.",
+   "meta": "American, b. 1971. Dragon Award for Best Fantasy Novel, 2021, for *Battle Ground*; Dragon Award for Best Graphic Novel, 2017. He has never won a Hugo, Nebula or Locus Award. His 2015 and 2016 Hugo Best Novel nominations came via the Sad Puppies and Rabid Puppies slates without his solicitation; *Skin Game* finished below No Award in 2015. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Harry Dresden, Chicago's only professional wizard, listed in the phone book — a series now past seventeen novels — and the Codex Alera, written on a dare to combine the Lost Roman Legion with Pokémon.",
    "signature": "Constraint enforced without exception. Butcher's magic has fixed energy costs, wizards destroy electronics by proximity, thresholds and oaths bind literally, and none of these rules ever bends for plot convenience — which is what makes the escalation land. The noir first person is the surface; the rule-consistency is the engine.",
    "works": [
@@ -10180,7 +10180,7 @@
    "category": "Urban Fantasy & the Contemporary",
    "name": "Laurell K. Hamilton",
    "description": "Anita Blake, and the template for the armed female narrator.",
-   "meta": "American, b. 1963. Sapphire Award for Best Novel, 1997; RT Book Reviews Career Achievement Award for Urban Fantasy, 2015. Despite enormous sales she has won no Hugo, Nebula, Locus, World Fantasy or Bram Stoker Award — bestseller status is frequently mistranslated into award credentials. Her early tie-in novels, a Star Trek: The Next Generation book and a Ravenloft novel, are often omitted from bibliographies.",
+   "meta": "American, b. 1963. Sapphire Award for Best Novel, 1997; RT Book Reviews Career Achievement Award for Urban Fantasy, 2015. Despite enormous sales she has won no Hugo, Nebula, Locus, World Fantasy or Bram Stoker Award — bestseller status is frequently mistranslated into award credentials. Her early tie-in novels, a Star Trek: The Next Generation book and a Ravenloft novel, are often omitted from bibliographies. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Anita Blake: Vampire Hunter series — a licensed vampire executioner and animator of the dead in St. Louis — and the Merry Gentry books.",
    "signature": "Supernatural politics rendered as bureaucracy. Hamilton's preternatural world runs on permits, warrants, jurisdiction and expert testimony, which grounds the fantastic in procedure. She established the first-person, weapons-competent female urban-fantasy narrator with a professional day job, a template the entire subsequent market ran on. From *Narcissus in Chains* the prose pivots hard toward extended erotic set pieces organised around a metabolic sexual compulsion — a shift that is the central critical fact of her career.",
    "works": [
@@ -10217,7 +10217,7 @@
    "category": "Urban Fantasy & the Contemporary",
    "name": "Ben Aaronovitch",
    "description": "Rivers of London: magic as an experimental discipline, with paperwork.",
-   "meta": "British, b. 1964. No major genre award wins — Hugo Best Series finalist in 2017 and 2023, both losses, and a British Fantasy Award nomination for the comics. He wrote two Seventh Doctor serials for television, *Remembrance of the Daleks* and *Battlefield*, before a fallow decade selling books at Waterstones. He founded the Future Worlds Prize in 2020 to widen access to SFF publishing for writers of colour.",
+   "meta": "British, b. 1964. No major genre award wins — Hugo Best Series finalist in 2017 and 2023, both losses, and a British Fantasy Award nomination for the comics. He wrote two Seventh Doctor serials for television, *Remembrance of the Daleks* and *Battlefield*, before a fallow decade selling books at Waterstones. He founded the Future Worlds Prize in 2020 to widen access to SFF publishing for writers of colour. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Peter Grant, a Metropolitan Police constable apprenticed to the last officially sanctioned wizard in England, and the personified rivers of London who function as a devolved political problem. Published in the United States as *Midnight Riot* — the same book.",
    "signature": "Procedural realism applied to thaumaturgy. Grant treats magic as a discipline requiring controlled experiment, replicable results and correct paperwork, and the authority of the narration comes from genuinely accurate police procedure and London topography. The comic voice is a Londoner's running commentary on architecture, class and jurisdiction — the jokes are about planning permission.",
    "works": [
@@ -10251,7 +10251,7 @@
    "category": "Urban Fantasy & the Contemporary",
    "name": "Seanan McGuire",
    "description": "Prolific across pseudonyms, rigorous within each.",
-   "meta": "American, b. 1978. John W. Campbell Award for Best New Writer, 2010; Hugo for Best Novella, 2017, for *Every Heart a Doorway*, and again in 2023 for *Where the Drowned Girls Go*; Nebula for Best Novella, 2016 award year, for *Every Heart a Doorway*; Hugo for Best Series, 2022, for Wayward Children; Hugo for Best Fancast, 2012 and 2013; Hugo for Best Fanzine, 2022; Locus Award for Best Fantasy Novel, 2020, for *Middlegame*. She holds the record for most Hugo nominations in a single year — five, in 2013. She writes as Mira Grant and A. Deborah Baker. Note that a widely mirrored claim of consecutive Best Series wins for October Daye is false; her only Best Series win is 2022.",
+   "meta": "American, b. 1978. John W. Campbell Award for Best New Writer, 2010; Hugo for Best Novella, 2017, for *Every Heart a Doorway*, and again in 2023 for *Where the Drowned Girls Go*; Nebula for Best Novella, 2016 award year, for *Every Heart a Doorway*; Hugo for Best Series, 2022, for Wayward Children; Hugo for Best Fancast, 2012 and 2013; Hugo for Best Fanzine, 2022; Locus Award for Best Fantasy Novel, 2020, for *Middlegame*. She holds the record for most Hugo nominations in a single year — five, in 2013. She writes as Mira Grant and A. Deborah Baker. Note that a widely mirrored claim of consecutive Best Series wins for October Daye is false; her only Best Series win is 2022. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "October Daye, a half-fae private investigator in the Bay Area; the Wayward Children novellas about children returned from portal worlds they want to get back to; and, as Mira Grant, the Newsflesh zombie-journalism books.",
    "signature": "Voice discipline across parallel series. October Daye's weary, injury-accumulating first person and Mira Grant's clinical, epidemiologically literate reportage are held rigidly separate, which is how the output volume stays coherent. The Wayward Children books run on a formal taxonomy of portal worlds — Nonsense against Logic, Wickedness against Virtue — so each short book stands alone while the classification system supplies the continuity.",
    "works": [
@@ -10287,7 +10287,7 @@
    "category": "Grimdark & the Modern Sword-and-Sorcery",
    "name": "Glen Cook",
    "description": "The Black Company: epic fantasy at squad level, told by the clerk.",
-   "meta": "American, b. 1944. No major award wins — one of the most consequential figures in modern fantasy with the thinnest awards shelf, a fact reference works should state plainly rather than smooth over. He wrote most of his early novels while working on a General Motors assembly line. The in-progress Dread Empire manuscript was stolen in the late 1980s, killing the series until he rewrote the finale twenty-five years later.",
+   "meta": "American, b. 1944. No major award wins — one of the most consequential figures in modern fantasy with the thinnest awards shelf, a fact reference works should state plainly rather than smooth over. He wrote most of his early novels while working on a General Motors assembly line. The in-progress Dread Empire manuscript was stolen in the late 1980s, killing the series until he rewrote the finale twenty-five years later. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Black Company — a mercenary unit in the service of an empire whose morality is never adjudicated — and the Garrett P.I. books, which put a hardboiled detective in a secondary world.",
    "signature": "The annalist. Croaker is the company's physician and its official historian, so the narration is a document written inside the story by someone with limited access, professional loyalties and reason to redact. Exposition arrives as barracks rumour, wizards are opaque because no soldier gets near them, and years vanish between chapters because nothing worth recording happened. Cook's prose is clipped and deliberately unliterary, which is the point: the fall of empires read from the bottom of the chain of command.",
    "works": [
@@ -10390,7 +10390,7 @@
    "category": "Grimdark & the Modern Sword-and-Sorcery",
    "name": "R. Scott Bakker",
    "description": "Continental philosophy of mind, weaponised as a fantasy premise.",
-   "meta": "Canadian, b. 1967. No major award wins or nominations. He studied literature and theory at Western Ontario and philosophy at Vanderbilt without completing the doctorate, and developed the Blind Brain Theory of consciousness alongside the fiction. The Second Apocalypse has drawn sustained criticism over its depiction of women and sexual violence; Bakker's defence is that the depiction is diagnostic rather than endorsing, and a reference work should record that the argument exists without settling it.",
+   "meta": "Canadian, b. 1967. No major award wins or nominations. He studied literature and theory at Western Ontario and philosophy at Vanderbilt without completing the doctorate, and developed the Blind Brain Theory of consciousness alongside the fiction. The Second Apocalypse has drawn sustained criticism over its depiction of women and sexual violence; Bakker's defence is that the depiction is diagnostic rather than endorsing, and a reference work should record that the argument exists without settling it. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Prince of Nothing and The Aspect-Emperor sequences — a holy war in a world whose messiah figure is a product of two thousand years of eugenic conditioning toward perfect rationality.",
    "signature": "Manipulation as horror. The Dûnyain conceit means the reader spends whole novels inside a mind that treats every other character as a solvable system, so free indirect discourse — normally the tool of intimacy — becomes the instrument of dread. Bakker's diction is abstract and Latinate where epic fantasy is usually concrete, and he uses aphorism and epigraph heavily to give the world a philosophical tradition of its own.",
    "works": [
@@ -10424,7 +10424,7 @@
    "category": "Grimdark & the Modern Sword-and-Sorcery",
    "name": "Mark Lawrence",
    "description": "Jorg Ancrath, and the grimdark debut that set the terms of the argument.",
-   "meta": "American-British, b. 1966. David Gemmell Legend Award for Best Novel, 2014, for *Emperor of Thorns*, and again in 2016 for *The Liar's Key* — two wins across six Gemmell nominations. He founded and runs the Self-Published Fantasy Blog-Off, an industry-significant competition, from 2015. *Prince of Thorns* drew serious criticism over its opening depiction of rape and over its protagonist's age; the debate is part of the book's record.",
+   "meta": "American-British, b. 1966. David Gemmell Legend Award for Best Novel, 2014, for *Emperor of Thorns*, and again in 2016 for *The Liar's Key* — two wins across six Gemmell nominations. He founded and runs the Self-Published Fantasy Blog-Off, an industry-significant competition, from 2015. *Prince of Thorns* drew serious criticism over its opening depiction of rape and over its protagonist's age; the debate is part of the book's record. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Broken Empire, narrated by a fourteen-year-old warlord in an unmistakably post-apocalyptic Europe, and the Book of the Ancestor, whose convent trains girls as assassins on a dying world.",
    "signature": "The gradual generic reveal. Lawrence writes what reads as secondary-world fantasy and lets the reader assemble the truth — that this is Earth after a nuclear catastrophe — from diction, artefact and half-understood ruin, never announcing it. The voice is terse and epigrammatic, scenes closing on aphorism, and the Broken Empire runs a dual timeline that withholds motive until it can detonate.",
    "works": [
@@ -10459,7 +10459,7 @@
    "category": "Grimdark & the Modern Sword-and-Sorcery",
    "name": "Anna Smith Spark",
    "description": "Grimdark at the level of the sentence.",
-   "meta": "British, b. 1978 or 1979. No award wins. British Fantasy Award finalist in 2018 for *The Court of Broken Knives*, in both the Robert Holdstock Best Fantasy Novel and Sydney J. Bounds Best Newcomer categories; David Gemmell Morningstar finalist, 2018; World Fantasy Award Best Novella finalist, 2025, for \"In the Shadow of Their Dying\" with Michael R. Fletcher. Holds a doctorate in classical and cultural history. Her byline is constantly misspelled — it is Smith Spark, unhyphenated, singular.",
+   "meta": "British, b. 1978 or 1979. No award wins. British Fantasy Award finalist in 2018 for *The Court of Broken Knives*, in both the Robert Holdstock Best Fantasy Novel and Sydney J. Bounds Best Newcomer categories; David Gemmell Morningstar finalist, 2018; World Fantasy Award Best Novella finalist, 2025, for \"In the Shadow of Their Dying\" with Michael R. Fletcher. Holds a doctorate in classical and cultural history. Her byline is constantly misspelled — it is Smith Spark, unhyphenated, singular. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Empires of Dust trilogy, in which a mercenary company's rise is narrated with no moral cushioning and the conquest is neither justified nor condemned.",
    "signature": "Syntactic collapse as violence. Where most grimdark is dark in content and conventional in prose, Smith Spark breaks the sentence itself during combat — fragments, anaphora, unpunctuated present tense, second person — so battle registers as sensory overload rather than choreography. Her classical training is audible: the diction sits closer to Aeschylus in translation than to Tolkien.",
    "works": [
@@ -10493,7 +10493,7 @@
    "category": "Grimdark & the Modern Sword-and-Sorcery",
    "name": "Robin McKinley",
    "description": "The retelling as full novel, and the heroine who trains.",
-   "meta": "American, b. 1952, long resident in England. Newbery Medal, 1985, for *The Hero and the Crown*; Newbery Honor, 1983, for *The Blue Sword*; World Fantasy Award for Best Anthology, 1986, as editor of *Imaginary Lands* — an editorial award, not a novel award; Mythopoeic Fantasy Award for Adult Literature, 2004, for *Sunshine*; named SFWA Damon Knight Grand Master in 2022. She was married to Peter Dickinson and co-wrote two collections with him.",
+   "meta": "American, b. 1952, long resident in England. Newbery Medal, 1985, for *The Hero and the Crown*; Newbery Honor, 1983, for *The Blue Sword*; World Fantasy Award for Best Anthology, 1986, as editor of *Imaginary Lands* — an editorial award, not a novel award; Mythopoeic Fantasy Award for Adult Literature, 2004, for *Sunshine*; named SFWA Damon Knight Grand Master in 2022. She was married to Peter Dickinson and co-wrote two collections with him. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*Beauty* and *Rose Daughter*, two separate novel-length treatments of the same fairy tale twenty years apart; the Damar books; and *Sunshine*, a vampire novel that predates and outclasses most of the wave that followed.",
    "signature": "Domestic craft as the magic system. McKinley slows fairy-tale plot to novelistic pace by dwelling on baking, horsemanship, roses and swordwork until competence itself becomes numinous — her heroines earn their outcomes through training rendered in detail. The sentences are long and clause-heavy with parenthetical asides that mimic a mind thinking aloud.",
    "works": [
@@ -10670,7 +10670,7 @@
    "category": "The Weird & the Literary Borderland",
    "name": "Jeff VanderMeer",
    "description": "The New Weird, and ecological estrangement.",
-   "meta": "American, b. 1968, with a substantial childhood in Fiji. Nebula Award for Best Novel, 2014, for *Annihilation*; Shirley Jackson Award for Best Novel, 2014; World Fantasy Award for Best Novella, 2000, and three World Fantasy Awards for Best Anthology, in 2003, 2012 and 2021, the latter two shared with Ann VanderMeer. He has never won a Hugo — *Annihilation* is very frequently and wrongly described as a Hugo winner. The anthology awards are editorial and joint and should never be credited to him alone.",
+   "meta": "American, b. 1968, with a substantial childhood in Fiji. Nebula Award for Best Novel, 2014, for *Annihilation*; Shirley Jackson Award for Best Novel, 2014; World Fantasy Award for Best Novella, 2000, and three World Fantasy Awards for Best Anthology, in 2003, 2012 and 2021, the latter two shared with Ann VanderMeer. He has never won a Hugo — *Annihilation* is very frequently and wrongly described as a Hugo winner. The anthology awards are editorial and joint and should never be credited to him alone. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Southern Reach — Area X, an expanding zone that rewrites what enters it — and the Ambergris books, and for co-editing the anthologies that consolidated the weird as a category.",
    "signature": "Taxonomic failure as horror. The Biologist narrates in a clinical, affect-flattened field-report voice, so the uncanny arrives as data and the dread comes from the collapse of classification rather than from description. In the Ambergris books he uses paratext aggressively — footnotes, appendices, invented scholarship, a novel that argues with its own annotator — so the apparatus becomes part of the fiction.",
    "works": [
@@ -10705,7 +10705,7 @@
    "category": "The Weird & the Literary Borderland",
    "name": "Kelly Link",
    "description": "Suburban deadpan, and the refusal to explain.",
-   "meta": "American, b. 1969. Hugo Award for Best Novelette, 2005, for \"The Faery Handbag\"; three Nebula Awards, for \"Louise's Ghost,\" \"The Faery Handbag\" and \"Magic for Beginners,\" the latter two taken at the same ceremony; World Fantasy Award for Best Short Story, 1999; World Fantasy Special Award, Professional, 2009, with Gavin J. Grant for Small Beer Press; World Fantasy Award for Best Anthology, 2015; Shirley Jackson Award, 2012; Theodore Sturgeon Award, 2016; MacArthur Fellowship, 2018. *Get in Trouble* was a Pulitzer finalist, not a winner — a constant error. She wrote short fiction exclusively for over twenty years; *The Book of Love* (2024) is her first novel.",
+   "meta": "American, b. 1969. Hugo Award for Best Novelette, 2005, for \"The Faery Handbag\"; three Nebula Awards, for \"Louise's Ghost,\" \"The Faery Handbag\" and \"Magic for Beginners,\" the latter two taken at the same ceremony; World Fantasy Award for Best Short Story, 1999; World Fantasy Special Award, Professional, 2009, with Gavin J. Grant for Small Beer Press; World Fantasy Award for Best Anthology, 2015; Shirley Jackson Award, 2012; Theodore Sturgeon Award, 2016; MacArthur Fellowship, 2018. *Get in Trouble* was a Pulitzer finalist, not a winner — a constant error. She wrote short fiction exclusively for over twenty years; *The Book of Love* (2024) is her first novel. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Four collections of stories that sit exactly between literary fiction and fantasy, and for co-founding Small Beer Press, which published much of the field's most interesting short work for two decades.",
    "signature": "Withheld mechanism. Link's stories end before the supernatural premise is explained, so the unease survives the last page — the refusal of resolution is a structural principle rather than a mannerism. She writes in deadpan contemporary American idiom, works by juxtaposition and abrupt tonal shear with comedy adjacent to grief in consecutive sentences, and favours recursive story-within-story frames.",
    "works": [
@@ -10741,7 +10741,7 @@
    "category": "The Weird & the Literary Borderland",
    "name": "Helen Oyeyemi",
    "description": "Fairy-tale logic as narrative syntax.",
-   "meta": "British, born in Nigeria, 1984; long resident in Prague. Somerset Maugham Award, 2010, for *White Is for Witching*; PEN Open Book Award, 2016; Fellow of the Royal Society of Literature, 2012; named to Granta's Best of Young British Novelists, 2013. She has no Booker connection as an author — the recurring confusion comes from her having judged the 2018 International Booker. *The Icarus Girl* was written during her A-levels and sold before she went up to Cambridge. *Boy, Snow, Bird* drew significant criticism over its handling of a transgender character and of racial passing.",
+   "meta": "British, born in Nigeria, 1984; long resident in Prague. Somerset Maugham Award, 2010, for *White Is for Witching*; PEN Open Book Award, 2016; Fellow of the Royal Society of Literature, 2012; named to Granta's Best of Young British Novelists, 2013. She has no Booker connection as an author — the recurring confusion comes from her having judged the 2018 International Booker. *The Icarus Girl* was written during her A-levels and sold before she went up to Cambridge. *Boy, Snow, Bird* drew significant criticism over its handling of a transgender character and of racial passing. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*White Is for Witching*, narrated partly by a house; *Mr. Fox*, which puts Bluebeard's wife-killer in an argument with his own muse; and *Boy, Snow, Bird*, a Snow White that is really about passing.",
    "signature": "Fairy-tale logic operating at the level of the sentence rather than the plot. Houses, mirrors and keys act as unstable narrators; point of view rotates without warning between humans and architecture; and the syntax is elliptical and comma-spliced, withholding causal connectives so the uncanny arrives with no transition and no permission. The tone is conversational and arch, and frequently interrupts its own storytelling.",
    "works": [
@@ -10775,7 +10775,7 @@
    "category": "Children's & Portal Moderns",
    "name": "Philip Pullman",
    "description": "His Dark Materials: metaphysical argument in a children's adventure.",
-   "meta": "British, b. 1946; knighted 2019. Carnegie Medal, 1995, for *Northern Lights*, and the Carnegie of Carnegies public vote in 2007 naming it the best winner in the medal's history; Guardian Children's Fiction Prize, 1996; Whitbread Book of the Year, 2001, for *The Amber Spyglass* — the first children's book ever to take the overall prize; Astrid Lindgren Memorial Award, 2005, shared with Ryōji Arai. He has never won a Hugo, Nebula, World Fantasy or Mythopoeic Award. *The Amber Spyglass* was Booker-longlisted, not shortlisted.",
+   "meta": "British, b. 1946; knighted 2019. Carnegie Medal, 1995, for *Northern Lights*, and the Carnegie of Carnegies public vote in 2007 naming it the best winner in the medal's history; Guardian Children's Fiction Prize, 1996; Whitbread Book of the Year, 2001, for *The Amber Spyglass* — the first children's book ever to take the overall prize; Astrid Lindgren Memorial Award, 2005, shared with Ryōji Arai. He has never won a Hugo, Nebula, World Fantasy or Mythopoeic Award. *The Amber Spyglass* was Booker-longlisted, not shortlisted. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "His Dark Materials — a girl from an Oxford that is not our Oxford, a knife that cuts between worlds, and a plot that culminates in the killing of God — plus the Book of Dust sequence.",
    "signature": "Interiority externalised as object. The dæmon takes what would be reported thought and makes it visible, audible and physically vulnerable, so characterisation happens through blocking and gesture rather than through narration. The prose itself is plain, Victorian-inflected and deliberately un-showy — a flat, trustworthy delivery system for material that is theologically incendiary.",
    "works": [
@@ -10810,7 +10810,7 @@
    "category": "Children's & Portal Moderns",
    "name": "J.K. Rowling",
    "description": "The commercial event that reshaped the entire market.",
-   "meta": "British, b. 1965. Hugo Award for Best Novel, 2001, for *Goblet of Fire* — the only Hugo Best Novel ever given to a children's book; Locus Award for Best Fantasy Novel, 2000; Andre Norton Award, 2008; Mythopoeic Fantasy Award for Children's Literature, 2008, for the series as a whole; Whitbread Children's Book Award, 1999, for *Prisoner of Azkaban*, which then lost the overall prize to Seamus Heaney's *Beowulf*. She has never won the Carnegie Medal, a common false attribution. She writes crime as Robert Galbraith. Since 2019 her public statements on gender identity have generated sustained controversy that any current reference work must handle rather than omit.",
+   "meta": "British, b. 1965. Hugo Award for Best Novel, 2001, for *Goblet of Fire* — the only Hugo Best Novel ever given to a children's book; Locus Award for Best Fantasy Novel, 2000; Andre Norton Award, 2008; Mythopoeic Fantasy Award for Children's Literature, 2008, for the series as a whole; Whitbread Children's Book Award, 1999, for *Prisoner of Azkaban*, which then lost the overall prize to Seamus Heaney's *Beowulf*. She has never won the Carnegie Medal, a common false attribution. She writes crime as Robert Galbraith. Since 2019 her public statements on gender identity have generated sustained controversy that any current reference work must handle rather than omit. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Harry Potter — seven novels, the boarding-school fantasy scaled to a global commercial phenomenon, and the reason the modern YA market exists in its present form.",
    "signature": "Clue-planting on a seven-book delay. Rowling borrows the golden-age detective novel's architecture: an object or offhand remark in book one pays off six volumes later, and the reader's re-read is engineered into the design. Free indirect discourse stays locked to a single limited third-person viewpoint across the whole sequence, so every revelation arrives at the moment the protagonist gets it, and comic-grotesque naming does characterisation before a character speaks.",
    "works": [
@@ -10881,7 +10881,7 @@
    "category": "Children's & Portal Moderns",
    "name": "Garth Nix",
    "description": "The Old Kingdom: necromancy with an engineering manual.",
-   "meta": "Australian, b. 1963; Medal of the Order of Australia, 2025. Fifteen Aurealis Awards, including for *Sabriel* in 1996 and *Abhorsen* in 2004; Ditmar Award for Best Novel in 2002, 2021 and 2024; Mythopoeic Fantasy Award for Children's Literature, 2018, for *Frogkisser!* — not for the Old Kingdom books, which lost. He has no Hugo, Nebula or World Fantasy nominations at all, and zero Locus wins despite roughly twenty ballot appearances.",
+   "meta": "Australian, b. 1963; Medal of the Order of Australia, 2025. Fifteen Aurealis Awards, including for *Sabriel* in 1996 and *Abhorsen* in 2004; Ditmar Award for Best Novel in 2002, 2021 and 2024; Mythopoeic Fantasy Award for Children's Literature, 2018, for *Frogkisser!* — not for the Old Kingdom books, which lost. He has no Hugo, Nebula or World Fantasy nominations at all, and zero Locus wins despite roughly twenty ballot appearances. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*Sabriel* and the Old Kingdom sequence — a necromancer whose job is putting the dead back — and the Keys to the Kingdom series.",
    "signature": "The numinous handled in the register of a technical manual. Nix's seven bells each have a specified function, failure mode and hazard; the Charter marks operate as a notation system; and the prose stays cool, competent and unmystified throughout. Treating necromancy as a skilled trade with occupational risks is exactly what makes the horror land, because the reader trusts the narrator's calm.",
    "works": [
@@ -10916,7 +10916,7 @@
    "category": "Children's & Portal Moderns",
    "name": "Jonathan Stroud",
    "description": "Bartimaeus: the footnote as a second narrative voice.",
-   "meta": "British, b. 1970. Mythopoeic Fantasy Award for Children's Literature, 2006, for the Bartimaeus trilogy as a unit — a trilogy citation, not a single-volume one; Grand Prix de l'Imaginaire, 2007. *The Amulet of Samarkand* took a Boston Globe–Horn Book Honor, not the Award. No Carnegie, Hugo, Nebula, World Fantasy or Locus wins.",
+   "meta": "British, b. 1970. Mythopoeic Fantasy Award for Children's Literature, 2006, for the Bartimaeus trilogy as a unit — a trilogy citation, not a single-volume one; Grand Prix de l'Imaginaire, 2007. *The Amulet of Samarkand* took a Boston Globe–Horn Book Honor, not the Award. No Carnegie, Hugo, Nebula, World Fantasy or Locus wins. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Bartimaeus books, in which magicians rule an alternate London on the enslaved labour of summoned djinn, and Lockwood & Co., where teenagers do the ghost-hunting because only children can see the dead.",
    "signature": "Two voices on separate channels. Bartimaeus narrates in first person while his footnotes carry a running commentary that contradicts, undercuts and expands the main text — sarcasm and exposition given their own lanes — alternated against third-person human chapters, so the reader triangulates an unreliable narrator against a reliable one and gets the empire's moral case from the slave rather than the master.",
    "works": [
@@ -10952,7 +10952,7 @@
    "category": "Children's & Portal Moderns",
    "name": "Frances Hardinge",
    "description": "The most difficult prose in children's publishing, and the best.",
-   "meta": "British, b. 1973. Costa Book of the Year, 2015, for *The Lie Tree* — only the second children's book ever to take the overall prize, after Pullman; British Fantasy Award for Best Fantasy Novel, 2015, for *Cuckoo Song*; Boston Globe–Horn Book Award for Fiction, 2016; Branford Boase Award, 2006; BSFA Award, 2023, and Mythopoeic Awards in 2024 and 2025 for *Unraveller* and *Island of Whispers*.",
+   "meta": "British, b. 1973. Costa Book of the Year, 2015, for *The Lie Tree* — only the second children's book ever to take the overall prize, after Pullman; British Fantasy Award for Best Fantasy Novel, 2015, for *Cuckoo Song*; Boston Globe–Horn Book Award for Fiction, 2016; Branford Boase Award, 2006; BSFA Award, 2023, and Mythopoeic Awards in 2024 and 2025 for *Unraveller* and *Island of Whispers*. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*The Lie Tree*, in which a plant feeds on lies told to the world and fruits truths when eaten; *Cuckoo Song*; and *A Face Like Glass*, set in an underground city where facial expressions must be taught.",
    "signature": "The fantastical element as a literalised social mechanism. Hardinge does not decorate her Victorian science plot with a magic tree — the tree *is* the argument about female credibility and how knowledge gets manufactured, so image and thesis are the same object. She writes at a metaphor density most children's publishing will not tolerate, and refuses to simplify the syntax for age.",
    "works": [
@@ -11021,7 +11021,7 @@
    "category": "Children's & Portal Moderns",
    "name": "Katherine Rundell",
    "description": "Metaphysical-poet sentences at middle-grade length.",
-   "meta": "British, b. 1987; Fellow of All Souls College, Oxford. Waterstones Children's Book Prize, 2015, for *Rooftoppers*; Boston Globe–Horn Book Award, 2015; Costa Children's Book Award, 2017, for *The Explorer* — the children's category, not the overall Book of the Year; Baillie Gifford Prize for Non-Fiction, 2022, for her John Donne biography, as its youngest ever winner; British Book Awards Author of the Year, 2024.",
+   "meta": "British, b. 1987; Fellow of All Souls College, Oxford. Waterstones Children's Book Prize, 2015, for *Rooftoppers*; Boston Globe–Horn Book Award, 2015; Costa Children's Book Award, 2017, for *The Explorer* — the children's category, not the overall Book of the Year; Baillie Gifford Prize for Non-Fiction, 2022, for her John Donne biography, as its youngest ever winner; British Book Awards Author of the Year, 2024. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*Impossible Creatures*, a bestiary-driven portal fantasy about an archipelago where mythical animals survive, and *Rooftoppers*, and a much-cited essay arguing that adults should read children's books.",
    "signature": "Abstract emotion attached to precise physical action — a technique taken straight from the metaphysical poets she studies professionally — inside compressed, high-verb sentences that refuse to simplify their diction for young readers. The result is a middle-grade prose surface with the density of adult literary fiction and none of its slackness.",
    "works": [
@@ -11056,7 +11056,7 @@
    "category": "The Mythic Mainstream",
    "name": "Salman Rushdie",
    "description": "The oral storyteller's syntax, applied to national history.",
-   "meta": "Indian-born British and American, b. 1947; knighted 2007. Booker Prize, 1981, for *Midnight's Children*, plus the Booker of Bookers in 1993 and the Best of the Booker in 2008 — honorary re-votes on the same novel, not three separate wins; Whitbread Novel Award, 1988 and 1995; James Tait Black Memorial Prize, 1995. He has never won the Nobel Prize, the most common error about him. The fatwa of 1989 led to the murder of his Japanese translator and attacks on others; he was stabbed on stage in 2022 and lost an eye.",
+   "meta": "Indian-born British and American, b. 1947; knighted 2007. Booker Prize, 1981, for *Midnight's Children*, plus the Booker of Bookers in 1993 and the Best of the Booker in 2008 — honorary re-votes on the same novel, not three separate wins; Whitbread Novel Award, 1988 and 1995; James Tait Black Memorial Prize, 1995. He has never won the Nobel Prize, the most common error about him. The fatwa of 1989 led to the murder of his Japanese translator and attacks on others; he was stabbed on stage in 2022 and lost an eye. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*Midnight's Children*, whose narrator is born at the instant of Indian independence and telepathically linked to a thousand others born in the same hour, and *Haroun and the Sea of Stories*, written for his son during the fatwa years.",
    "signature": "Maximalist, digressive, self-interrupting oral syntax — nested tales, direct address to the listener, puns running between English, Hindi and Urdu — with narrators whose bodies allegorise the nation and who openly admit they are getting the facts wrong. The unreliability is structural rather than a twist.",
    "works": [
@@ -11162,7 +11162,7 @@
    "category": "The Mythic Mainstream",
    "name": "Marlon James",
    "description": "African epic fantasy with seventy-six narrators' worth of technique behind it.",
-   "meta": "Jamaican, b. 1970, resident in the United States. Man Booker Prize, 2015, for *A Brief History of Seven Killings* — the first Jamaican winner; American Book Award, Anisfield-Wolf Book Award and OCM Bocas Prize the same year; Dayton Literary Peace Prize, 2010. *Black Leopard, Red Wolf* was a National Book Award finalist and a Booker longlistee, not a winner. His first novel was rejected around seventy-eight times and he destroyed the manuscript, recovering it from an emailed copy.",
+   "meta": "Jamaican, b. 1970, resident in the United States. Man Booker Prize, 2015, for *A Brief History of Seven Killings* — the first Jamaican winner; American Book Award, Anisfield-Wolf Book Award and OCM Bocas Prize the same year; Dayton Literary Peace Prize, 2010. *Black Leopard, Red Wolf* was a National Book Award finalist and a Booker longlistee, not a winner. His first novel was rejected around seventy-eight times and he destroyed the manuscript, recovering it from an emailed copy. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Dark Star trilogy — a mercenary tracker with a supernatural nose hunting a missing child across a secondary world built from African mythologies rather than European ones.",
    "signature": "Polyphony and declared unreliability. *A Brief History* runs seventy-six narrators across three decades on a continuum from Jamaican Patois to American English, and Dark Star applies the same technique to fantasy, opening with a narrator who tells you outright that everything he is about to say is a lie. The long unpunctuated interior runs are not stylistic decoration; they are how the books refuse a single authoritative account.",
    "works": [
@@ -11197,7 +11197,7 @@
    "category": "The Mythic Mainstream",
    "name": "Ben Okri",
    "description": "The abiku narrator, who sees both worlds at once.",
-   "meta": "Nigerian-born British, b. 1959; knighted 2023. Booker Prize, 1991, for *The Famished Road* — the youngest winner at the time, a record broken by Eleanor Catton in 2013, so the frequently repeated \"youngest ever\" is now wrong; Commonwealth Writers Prize, Africa region, 1987; Premio Grinzane Cavour, 1994.",
+   "meta": "Nigerian-born British, b. 1959; knighted 2023. Booker Prize, 1991, for *The Famished Road* — the youngest winner at the time, a record broken by Eleanor Catton in 2013, so the frequently repeated \"youngest ever\" is now wrong; Commonwealth Writers Prize, Africa region, 1987; Premio Grinzane Cavour, 1994. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*The Famished Road* and its two sequels, narrated by Azaro, a spirit-child who has chosen to stay in the world of the living against the wishes of his spirit companions.",
    "signature": "No crossing. Because the *abiku* narrator perceives the material and spirit worlds continuously and without hierarchy, there is no threshold moment, no transition into fantasy and no bracketing of the marvellous — a sustained present-tense hallucinatory register with almost no tonal modulation. This is precisely what distinguishes his mode from the Latin American magical realism he is lazily compared to, where the marvellous is at least marked as marvellous.",
    "works": [
@@ -11231,7 +11231,7 @@
    "category": "The Mythic Mainstream",
    "name": "Haruki Murakami",
    "description": "Affectlessness as the carrier of the surreal.",
-   "meta": "Japanese, b. 1949. World Fantasy Award for Best Novel, 2006, for *Kafka on the Shore*; Tanizaki Prize, 1985; Yomiuri Prize, 1995; Franz Kafka Prize, 2006; Jerusalem Prize, 2009; Princess of Asturias Award, 2023. He has never won the Nobel Prize despite being a perennial favourite, and has said he does not want prizes. Always cite the Japanese publication year rather than the English translation year — the gap runs from three to twelve years and is the commonest dating error in his entries.",
+   "meta": "Japanese, b. 1949. World Fantasy Award for Best Novel, 2006, for *Kafka on the Shore*; Tanizaki Prize, 1985; Yomiuri Prize, 1995; Franz Kafka Prize, 2006; Jerusalem Prize, 2009; Princess of Asturias Award, 2023. He has never won the Nobel Prize despite being a perennial favourite, and has said he does not want prizes. Always cite the Japanese publication year rather than the English translation year — the gap runs from three to twelve years and is the commonest dating error in his entries. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*The Wind-Up Bird Chronicle*, *Kafka on the Shore* and *Hard-Boiled Wonderland and the End of the World* — books where wells, cats, parallel Tokyos and talking sheep arrive without ceremony.",
    "signature": "The surreal intrudes with no change of register and no narratorial surprise. Murakami famously drafted his opening pages in English and translated himself back into Japanese to strip the ornate literary register, producing a flat, translationese-inflected prose and a first-person narrator of studied affectlessness. Brand names, records and recipes do the descriptive work that sensory writing normally would, which is why the impossible slides in unchallenged.",
    "works": [
@@ -11266,7 +11266,7 @@
    "category": "The Mythic Mainstream",
    "name": "Isabel Allende",
    "description": "The family saga as testimony addressed to the dead.",
-   "meta": "Chilean-American, born in Peru, b. 1942. Chile's National Prize for Literature, 2010; Presidential Medal of Freedom, 2014; National Book Foundation Medal for Distinguished Contribution to American Letters, 2018, as the first Spanish-language writer to receive it — an honorary lifetime medal, not a competitive National Book Award. She is Salvador Allende's first cousin once removed, not his niece, a persistent error. Her critical standing in Latin American letters is genuinely contested and should not be presented as settled in either direction.",
+   "meta": "Chilean-American, born in Peru, b. 1942. Chile's National Prize for Literature, 2010; Presidential Medal of Freedom, 2014; National Book Foundation Medal for Distinguished Contribution to American Letters, 2018, as the first Spanish-language writer to receive it — an honorary lifetime medal, not a competitive National Book Award. She is Salvador Allende's first cousin once removed, not his niece, a persistent error. Her critical standing in Latin American letters is genuinely contested and should not be presented as settled in either direction. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*The House of the Spirits*, three generations of the Trueba family against a barely fictionalised Chilean twentieth century, and the Eagle and Jaguar books for younger readers.",
    "signature": "Testimony addressed to a specific absent listener — the dead, a descendant, a lover — so exposition arrives as remembrance rather than as description, and the reader is placed in the position of someone being told rather than someone reading. Clairvoyance, prophecy and the returning dead are reported in exactly the register used for household detail, which is what allows them to pass without objection.",
    "works": [
@@ -11335,7 +11335,7 @@
    "category": "Comics & Graphic Fantasy",
    "name": "Alan Moore",
    "description": "Formal architecture as the story's argument.",
-   "meta": "English, b. 1953. Hugo Award, 1988, for *Watchmen*, in a one-off \"Best Other Forms\" category — never state this as Best Novel, and note that *Watchmen* did not win a Pulitzer, the most common error about it; multiple Jack Kirby and Harvey Awards for Best Writer through the 1980s and 1990s; Angoulême prizes in 1989 and 1990; Eisner Hall of Fame, 2014. He has disavowed the film adaptations of work he does not own, refused the money and redirected it to his artists, and now declines most industry engagement.",
+   "meta": "English, b. 1953. Hugo Award, 1988, for *Watchmen*, in a one-off \"Best Other Forms\" category — never state this as Best Novel, and note that *Watchmen* did not win a Pulitzer, the most common error about it; multiple Jack Kirby and Harvey Awards for Best Writer through the 1980s and 1990s; Angoulême prizes in 1989 and 1990; Eisner Hall of Fame, 2014. He has disavowed the film adaptations of work he does not own, refused the money and redirected it to his artists, and now declines most industry engagement. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*Watchmen*, *V for Vendetta*, the *Swamp Thing* run that made horror comics literary, *From Hell*, and *Promethea* — plus the prose novel *Jerusalem*.",
    "signature": "Symmetry that carries meaning. The nine-panel grid, the mirror-structured chapter, captions from one scene laid over the images of another so two timelines pun against each other — Moore's formal devices are the argument, not the ornament. He writes full script with obsessive panel-by-panel prose direction, which is why his collaborators' layouts are load-bearing rather than decorative, and why the work is so hard to adapt.",
    "works": [
@@ -11371,7 +11371,7 @@
    "category": "Comics & Graphic Fantasy",
    "name": "Mike Mignola",
    "description": "Hellboy: folklore excavated rather than invented.",
-   "meta": "American, b. 1960. Numerous Eisner Awards, including Best Writer/Artist in 1995, 1997 and 1998, Best Finite Series in 2002 and 2009, and Best Humor Publication in 2003 for *The Amazing Screw-On Head*; five Harvey Awards and Harvey Hall of Fame induction, 2019; Bram Stoker Award for Graphic Novel, 2025. Hellboy first appeared in *San Diego Comic-Con Comics* #2 in 1993, not in the 1994 miniseries. John Byrne scripted the first arc from Mignola's plot but did not co-create the character. Mignola was production designer on Disney's *Atlantis*.",
+   "meta": "American, b. 1960. Numerous Eisner Awards, including Best Writer/Artist in 1995, 1997 and 1998, Best Finite Series in 2002 and 2009, and Best Humor Publication in 2003 for *The Amazing Screw-On Head*; five Harvey Awards and Harvey Hall of Fame induction, 2019; Bram Stoker Award for Graphic Novel, 2025. Hellboy first appeared in *San Diego Comic-Con Comics* #2 in 1993, not in the 1994 miniseries. John Byrne scripted the first arc from Mignola's plot but did not co-create the character. Mignola was production designer on Disney's *Atlantis*. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Hellboy, a demon raised by a paranormal-research bureau and determined not to be what he was summoned for, and the enormous Mignolaverse built around him.",
    "signature": "Radical subtraction. Mignola tells with silhouette and negative space, letting solid black masses do the work most artists give to line and rendering, and he cuts transitional beats so the reader supplies the motion. Narratively he front-loads folklore fragments as epigraph-like inserts, so each story reads as an excavation of pre-existing myth rather than an invention — the effect is of a world that was always there.",
    "works": [
@@ -11406,7 +11406,7 @@
    "category": "Comics & Graphic Fantasy",
    "name": "Jeff Smith",
    "description": "Bone: cartooning run against epic fantasy at full tension.",
-   "meta": "American, b. 1960. Roughly ten Eisner Awards and eleven Harveys, including Eisner Best Serialized Story and Best Writer/Artist in 1994 and 1995, Best Publication for a Younger Audience in 2005, and Harvey Best Cartoonist repeatedly from 1994 to 2005; Russ Manning Award, 1993. *Bone* ran fifty-five issues from 1991 to 2004 — self-published by Cartoon Books except for issues 21 to 27, which Image published; the full-colour Scholastic editions begin in 2005 and the original is black and white. *Bone* placed tenth on the American Library Association's most-challenged list for 2013.",
+   "meta": "American, b. 1960. Roughly ten Eisner Awards and eleven Harveys, including Eisner Best Serialized Story and Best Writer/Artist in 1994 and 1995, Best Publication for a Younger Audience in 2005, and Harvey Best Cartoonist repeatedly from 1994 to 2005; Russ Manning Award, 1993. *Bone* ran fifty-five issues from 1991 to 2004 — self-published by Cartoon Books except for issues 21 to 27, which Image published; the full-colour Scholastic editions begin in 2005 and the original is black and white. *Bone* placed tenth on the American Library Association's most-challenged list for 2013. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*Bone* — three cartoon cousins run out of Boneville and into a valley where a genuine epic-fantasy war is underway.",
    "signature": "Deliberate tonal collision. Smith runs pure animation-school cartooning, rubbery and high-elasticity, directly against realistically rendered high-stakes fantasy environments, and never lets the Bones change register while the world around them darkens. The comedy does not soften the epic; it measures it, so the escalation is felt as the gap widening rather than as the tone shifting.",
    "works": [
@@ -11440,7 +11440,7 @@
    "category": "Comics & Graphic Fantasy",
    "name": "Bill Willingham",
    "description": "Fables: folklore as a governance problem.",
-   "meta": "American, b. 1956. Eisner Awards for Best New Series and Best Serialized Story in 2003, Best Serialized Story again in 2005 and 2006, and Best Writer in 2009. *Fables* won fourteen Eisners across its run, but most belong to collaborators — James Jean for covers, Todd Klein for lettering — and should not be credited to him personally. *Fables* was a repeated Hugo Best Graphic Story finalist and never won. In September 2023 he publicly declared *Fables* released into the public domain; DC immediately rejected this and asserts ownership, and the question remains unlitigated — never state flatly that *Fables* is public domain.",
+   "meta": "American, b. 1956. Eisner Awards for Best New Series and Best Serialized Story in 2003, Best Serialized Story again in 2005 and 2006, and Best Writer in 2009. *Fables* won fourteen Eisners across its run, but most belong to collaborators — James Jean for covers, Todd Klein for lettering — and should not be credited to him personally. *Fables* was a repeated Hugo Best Graphic Story finalist and never won. In September 2023 he publicly declared *Fables* released into the public domain; DC immediately rejected this and asserts ownership, and the question remains unlitigated — never state flatly that *Fables* is public domain. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*Fables* — the folklore characters, driven out of their homelands by an unnamed conqueror, living in exile in a Manhattan enclave under an amnesty.",
    "signature": "Statecraft as plot engine. Willingham treats public-domain folklore as a legal and political ecosystem rather than a whimsy box: amnesty terms, exile treaties, succession disputes, security services and the farm where the non-human Fables are confined. The stories generate from constraint and governance rather than from magic, which is why the fairy-tale characters behave like a diaspora rather than like a theme park.",
    "works": [
@@ -11474,7 +11474,7 @@
    "category": "Comics & Graphic Fantasy",
    "name": "Hiromu Arakawa",
    "description": "Fullmetal Alchemist: a cost the plot is never allowed to cheat.",
-   "meta": "Japanese, b. 1973. Shogakukan Manga Award in the shōnen category for *Fullmetal Alchemist*, 49th awards, 2004, and again for *Silver Spoon*, 58th awards, 2013; Tezuka Osamu Cultural Prize New Artist Prize, 2011; Manga Taishō, 2012; Seiun Award for Best Comic, 2011. She never won a Kodansha Manga Award — *Fullmetal Alchemist* ran at Square Enix. She is a woman, publishes under a pen name and draws herself as a cow; early Western coverage frequently got this wrong. She had no scriptwriting control over the 2003 anime, which diverges; *Brotherhood* is the manga-faithful adaptation.",
+   "meta": "Japanese, b. 1973. Shogakukan Manga Award in the shōnen category for *Fullmetal Alchemist*, 49th awards, 2004, and again for *Silver Spoon*, 58th awards, 2013; Tezuka Osamu Cultural Prize New Artist Prize, 2011; Manga Taishō, 2012; Seiun Award for Best Comic, 2011. She never won a Kodansha Manga Award — *Fullmetal Alchemist* ran at Square Enix. She is a woman, publishes under a pen name and draws herself as a cow; early Western coverage frequently got this wrong. She had no scriptwriting control over the 2003 anime, which diverges; *Brotherhood* is the manga-faithful adaptation. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*Fullmetal Alchemist* — two brothers who attempt human transmutation, pay for it in flesh, and spend the series discovering what the price was actually funding — and *Silver Spoon*, about an agricultural high school.",
    "signature": "Equivalent exchange enforced as a narrative contract. Every payoff is planted as a mundane early detail, the cost accounting is never fudged for drama, and the ensemble is managed by giving each character a single non-negotiable material goal. Her most distinctive tonal move is the abrupt switch into gag-chibi comedy mid-scene, which resets the reader's defences immediately before an atrocity.",
    "works": [
@@ -11508,7 +11508,7 @@
    "category": "Comics & Graphic Fantasy",
    "name": "CLAMP",
    "description": "The four-woman collective that built a shared multiverse.",
-   "meta": "Japanese, all-female; formed as CLAMP in 1987 from a dōjinshi circle of roughly a dozen, professional debut with *RG Veda* in 1989, and settled at four members from 1993: Nanase Ohkawa, who writes and storyboards, with Mokona, Tsubaki Nekoi and Satsuki Igarashi. All four changed their pen names in 2004; Ohkawa reverted from Ageha to Nanase in 2008, so entries listing Ageha are out of date. Seiun Award for Best Manga, 2001, for *Cardcaptor Sakura*. Note that the cancelled 2021 *Tokyo Babylon* anime involved plagiarism findings against the production studio, not against CLAMP.",
+   "meta": "Japanese, all-female; formed as CLAMP in 1987 from a dōjinshi circle of roughly a dozen, professional debut with *RG Veda* in 1989, and settled at four members from 1993: Nanase Ohkawa, who writes and storyboards, with Mokona, Tsubaki Nekoi and Satsuki Igarashi. All four changed their pen names in 2004; Ohkawa reverted from Ageha to Nanase in 2008, so entries listing Ageha are out of date. Seiun Award for Best Manga, 2001, for *Cardcaptor Sakura*. Note that the cancelled 2021 *Tokyo Babylon* anime involved plagiarism findings against the production studio, not against CLAMP. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*Cardcaptor Sakura*, *Magic Knight Rayearth*, *xxxHOLiC* and *Tsubasa: Reservoir Chronicle* — plus a body of work spanning magical girl, dark fantasy, science fiction and romance across three decades.",
    "signature": "Meaning that accrues between series rather than inside one. CLAMP characters recur as alternate-world variants across unrelated titles, and *Tsubasa* and *xxxHOLiC* were deliberately serialised simultaneously in different magazines with events crossing between them, so reading one required the other. Visually they let page architecture carry emotional state — borderless bleeds, elongated figures crossing gutters — rather than putting it in dialogue.",
    "works": [
@@ -11577,7 +11577,7 @@
    "category": "Games & Interactive",
    "name": "Hidetaka Miyazaki",
    "description": "Withheld information as a design resource.",
-   "meta": "Japanese, b. 1974; joined FromSoftware in 2004 and became its president in 2014. *Elden Ring* took four awards at The Game Awards 2022, including Game of the Year and Best Game Direction, and the Game Developers Choice Game of the Year in 2023; *Sekiro* took The Game Awards Game of the Year in 2019; Golden Joystick Lifetime Achievement Award, 2018; TIME100, 2023. *Elden Ring* did not win the BAFTA Best Game award — that went to *Vampire Survivors*. He did not direct *Dark Souls II*. George R.R. Martin wrote the backstory mythos for *Elden Ring* years before development and did not write the in-game narrative.",
+   "meta": "Japanese, b. 1974; joined FromSoftware in 2004 and became its president in 2014. *Elden Ring* took four awards at The Game Awards 2022, including Game of the Year and Best Game Direction, and the Game Developers Choice Game of the Year in 2023; *Sekiro* took The Game Awards Game of the Year in 2019; Golden Joystick Lifetime Achievement Award, 2018; TIME100, 2023. *Elden Ring* did not win the BAFTA Best Game award — that went to *Vampire Survivors*. He did not direct *Dark Souls II*. George R.R. Martin wrote the backstory mythos for *Elden Ring* years before development and did not write the in-game narrative. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Demon's Souls, Dark Souls, Bloodborne, Sekiro and Elden Ring — the works that made ambiguity, difficulty and environmental storytelling commercially dominant in fantasy games.",
    "signature": "Narrative distributed into objects and terrain. Story arrives through item descriptions, level topology and NPC behaviour, deliberately incomplete, so the player reconstructs it and the reconstruction becomes the experience — withheld information treated as a resource rather than a defect. His world geometry folds so that late areas loop back onto early ones, which makes spatial mastery itself the story of progression.",
    "works": [
@@ -11614,7 +11614,7 @@
    "category": "The Current Field",
    "name": "Fonda Lee",
    "description": "The Green Bone Saga: epic fantasy on a crime-family chassis.",
-   "meta": "Canadian-American, b. 1979; a former corporate strategist and a black belt in karate and kung fu. World Fantasy Award for Best Novel, 2018, for *Jade City* — a tie, shared with Victor LaValle's *The Changeling*; Locus Award for Best Fantasy Novel, 2022, for *Jade Legacy*; five Aurora Awards. No Hugo or Nebula wins — the Green Bone Saga was a Best Series finalist and lost.",
+   "meta": "Canadian-American, b. 1979; a former corporate strategist and a black belt in karate and kung fu. World Fantasy Award for Best Novel, 2018, for *Jade City* — a tie, shared with Victor LaValle's *The Changeling*; Locus Award for Best Fantasy Novel, 2022, for *Jade Legacy*; five Aurora Awards. No Hugo or Nebula wins — the Green Bone Saga was a Best Series finalist and lost. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Green Bone Saga — two clans on an island nation fighting over jade that grants martial powers to those genetically able to bear it, told as a family business over decades.",
    "signature": "Succession and market share where other fantasies put battles. Lee's scenes turn on honour debts, territory agreements, board-level decisions and marriages of alliance, and she is unusually willing to let decades elapse inside a single volume, ageing her protagonists out of their competence and into administration. The fight choreography is written from a practitioner's sense of distance and commitment rather than as spectacle.",
    "works": [
@@ -11649,7 +11649,7 @@
    "category": "The Current Field",
    "name": "Zen Cho",
    "description": "Regency manners as the vehicle for colonial politics.",
-   "meta": "Malaysian, resident in the United Kingdom, and a practising lawyer for much of her writing career. Crawford Award, 2015, for *Spirits Abroad*, shared; British Fantasy Award, Sydney J. Bounds Award for Best Newcomer, 2016; Hugo Award for Best Novelette, 2019, for \"If at First You Don't Succeed, Try, Try Again\"; Ray Bradbury Prize, 2021 prize year, for *Spirits Abroad*. She has not won a World Fantasy Award or a British Fantasy Award for Best Novel — *Black Water Sister* was a 2022 World Fantasy finalist and lost.",
+   "meta": "Malaysian, resident in the United Kingdom, and a practising lawyer for much of her writing career. Crawford Award, 2015, for *Spirits Abroad*, shared; British Fantasy Award, Sydney J. Bounds Award for Best Newcomer, 2016; Hugo Award for Best Novelette, 2019, for \"If at First You Don't Succeed, Try, Try Again\"; Ray Bradbury Prize, 2021 prize year, for *Spirits Abroad*. She has not won a World Fantasy Award or a British Fantasy Award for Best Novel — *Black Water Sister* was a 2022 World Fantasy finalist and lost. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*Sorcerer to the Crown*, in which England's first Black Sorcerer Royal inherits a magical civil service in decline, and *Black Water Sister*, a contemporary Malaysian ghost novel.",
    "signature": "The manners plot as the politics plot. Cho runs Regency-comedy sentence rhythm — free indirect discourse, drawing-room irony, decorum as the unit of tension — over colonial and diasporic material, so what looks like a comedy of address is an argument about who is permitted to hold power. Code-switching between Malaysian English and formal British register does characterisation that description would otherwise have to carry.",
    "works": [
@@ -11684,7 +11684,7 @@
    "category": "The Current Field",
    "name": "Aliette de Bodard",
    "description": "Kinship structure as the architecture of a secondary world.",
-   "meta": "French-Vietnamese, b. 1982, raised and living in Paris; a working software engineer. Three Nebula Awards — Best Short Story for \"Immersion,\" Best Novelette for \"The Waiting Stars,\" Best Novella for *The Tea Master and the Detective*; six BSFA Awards, including the first time one author took both fiction categories in a single year; British Fantasy Award for Best Novella, 2019; Locus Award, 2013; Ignyte Award, 2021. She has never won a Hugo despite roughly a dozen nominations.",
+   "meta": "French-Vietnamese, b. 1982, raised and living in Paris; a working software engineer. Three Nebula Awards — Best Short Story for \"Immersion,\" Best Novelette for \"The Waiting Stars,\" Best Novella for *The Tea Master and the Detective*; six BSFA Awards, including the first time one author took both fiction categories in a single year; British Fantasy Award for Best Novella, 2019; Locus Award, 2013; Ignyte Award, 2021. She has never won a Hugo despite roughly a dozen nominations. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Xuya universe, an alternate history in which Chinese and Vietnamese empires dominate space, and the Dominion of the Fallen books, set in a Paris ruined by a magical war among fallen angels.",
    "signature": "Obligation rather than individualism as the engine. Duty to lineage, ancestor-shrine memory and honorifics determine what a character can say and to whom, so plot pressure comes from kinship structure rather than from personal choice — a genuinely different load-bearing wall from the Western default. Her sentient ships and stations are written as family members with bodies and grief rather than as tools, and she works mostly at novelette and novella length, treating the compression as an argument.",
    "works": [
@@ -11718,7 +11718,7 @@
    "category": "The Current Field",
    "name": "Rebecca Yarros",
    "description": "Fourth Wing, and romantasy's commercial peak.",
-   "meta": "American, b. 1981; an army spouse who began writing during a deployment, and a writer with Ehlers-Danlos syndrome, which informs her protagonist's body. Alex Award, 2024, for *Fourth Wing* — an American Library Association award flagging adult books with teen appeal, not a Printz or a Newbery; Dragon Award for Best Fantasy Novel, 2024, for *Iron Flame*; Goodreads Choice Awards for Best Romance and Best Romantasy, 2023, which are popular-vote rather than juried. No Hugo, Nebula, World Fantasy or Locus.",
+   "meta": "American, b. 1981; an army spouse who began writing during a deployment, and a writer with Ehlers-Danlos syndrome, which informs her protagonist's body. Alex Award, 2024, for *Fourth Wing* — an American Library Association award flagging adult books with teen appeal, not a Printz or a Newbery; Dragon Award for Best Fantasy Novel, 2024, for *Iron Flame*; Goodreads Choice Awards for Best Romance and Best Romantasy, 2023, which are popular-vote rather than juried. No Hugo, Nebula, World Fantasy or Locus. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Empyrean series — a war college where cadets bond with dragons and the failure rate is lethal — the commercial centre of the romantasy wave and one of the fastest-selling fantasy series ever published.",
    "signature": "Romance beat structure welded onto a military-academy fantasy frame. Forced proximity, enemies-to-lovers, alternating point of view and chapter-terminal cliffhangers are executed to contemporary-romance specification, while chapters open with in-world documentary epigraphs — field manuals, letters, redacted histories — that contradict the narrator. Worldbuilding therefore arrives as an unreliability problem rather than as exposition, which is the series' most transferable technical idea.",
    "works": [
@@ -12033,7 +12033,7 @@
    "category": "British Postwar Children's & Mythic",
    "name": "Alan Garner",
    "description": "Landscape as palimpsest, and prose stripped to the bone.",
-   "meta": "English, b. 1934; OBE, 2001. Carnegie Medal, 1967, for *The Owl Service*, which also took the Guardian Children's Fiction Prize presented the following year; Lewis Carroll Shelf Award, 1970; Phoenix Award, 1996; Karl Edward Wagner Award, 2003; World Fantasy Award for Life Achievement, 2012, shared that year with George R.R. Martin. He did not win the Booker — *Treacle Walker* was shortlisted in 2022, when at eighty-seven he was the oldest author ever shortlisted, and that superlative is what gets misremembered as a win. He publicly disowned his own first novel and rejects both the children's-author label and the Tolkien lineage.",
+   "meta": "English, b. 1934; OBE, 2001. Carnegie Medal, 1967, for *The Owl Service*, which also took the Guardian Children's Fiction Prize presented the following year; Lewis Carroll Shelf Award, 1970; Phoenix Award, 1996; Karl Edward Wagner Award, 2003; World Fantasy Award for Life Achievement, 2012, shared that year with George R.R. Martin. He did not win the Booker — *Treacle Walker* was shortlisted in 2022, when at eighty-seven he was the oldest author ever shortlisted, and that superlative is what gets misremembered as a win. He publicly disowned his own first novel and rejects both the children's-author label and the Tolkien lineage. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*The Owl Service*, in which a Welsh myth re-enacts itself through three teenagers, and *Red Shift*, and the late, extraordinarily compressed *Treacle Walker*.",
    "signature": "Radical excision. Garner strips exposition and connective tissue almost entirely, so novels advance through unattributed dialogue in Cheshire dialect with the narrative logic left for the reader to assemble — *Red Shift* is the extreme case and is genuinely difficult. He treats one square of Cheshire as a palimpsest in which three time periods coexist, and his research into local speech, geology and archaeology is primary rather than decorative.",
    "works": [
@@ -12278,7 +12278,7 @@
    "category": "Arthurian & Historical Fantasy",
    "name": "Bernard Cornwell",
    "description": "The demythologised Arthur, and battle at eye level.",
-   "meta": "British and naturalised American, b. 1944; born Bernard Wiggins and raised in the Peculiar People sect; OBE, 2006. He has no genre award wins or nominations, which is appropriate — he is a historical novelist rather than a fantasist, and the Warlord Chronicles is a deliberately demythologised Arthuriad in which Merlin's and Nimue's magic is presented as belief and stagecraft and is never authorially confirmed. Cataloguing the books as fantasy without that caveat misrepresents them. He was a BBC television producer before writing, and began novels because he could not obtain a US work permit.",
+   "meta": "British and naturalised American, b. 1944; born Bernard Wiggins and raised in the Peculiar People sect; OBE, 2006. He has no genre award wins or nominations, which is appropriate — he is a historical novelist rather than a fantasist, and the Warlord Chronicles is a deliberately demythologised Arthuriad in which Merlin's and Nimue's magic is presented as belief and stagecraft and is never authorially confirmed. Cataloguing the books as fantasy without that caveat misrepresents them. He was a BBC television producer before writing, and began novels because he could not obtain a US work permit. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Warlord Chronicles, narrated in old age by the monk Derfel Cadarn, and the Sharpe and Last Kingdom sequences.",
    "signature": "The sensorium of the shield wall. Cornwell writes battle at eye level and inside the body — mud, noise, the mechanics of the weapon in the hand, the specific fear of the second rank — in tight third person and short declarative sentences, and closes each novel with a Historical Note separating record from invention. For fantasy writers he is the standing demonstration that a battle scene can be built from craft and logistics rather than from choreography.",
    "works": [
@@ -12312,7 +12312,7 @@
    "category": "Arthurian & Historical Fantasy",
    "name": "Nicola Griffith",
    "description": "Seventh-century Northumbria built out of texture.",
-   "meta": "Dual British and American, b. 1960. Nebula Award for Best Novel for *Slow River*, presented in 1997; World Fantasy Award for Best Anthology, 1998, for *Bending the Landscape: Fantasy*, co-edited with Stephen Pagel; Otherwise/Tiptree Award, 1993, for *Ammonite*; Ray Bradbury Prize, 2022, for *Spear*; SFWA Damon Knight Grand Master, 2025; Science Fiction and Fantasy Hall of Fame, 2024; five or more Lambda Literary Awards. She has never won a Hugo. She has MS and is a wheelchair user, and her quantitative research showing that books about women rarely win major literary prizes is widely cited.",
+   "meta": "Dual British and American, b. 1960. Nebula Award for Best Novel for *Slow River*, presented in 1997; World Fantasy Award for Best Anthology, 1998, for *Bending the Landscape: Fantasy*, co-edited with Stephen Pagel; Otherwise/Tiptree Award, 1993, for *Ammonite*; Ray Bradbury Prize, 2022, for *Spear*; SFWA Damon Knight Grand Master, 2025; Science Fiction and Fantasy Hall of Fame, 2024; five or more Lambda Literary Awards. She has never won a Hugo. She has MS and is a wheelchair user, and her quantitative research showing that books about women rarely win major literary prizes is widely cited. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*Hild* and *Menewood*, the life of the woman who became St Hilda of Whitby, and *Spear*, a queer Perceval.",
    "signature": "Accretion instead of exposition. Griffith builds a period out of weather, textile, food, birdsong and the body's exact position in a landscape, refusing the historical novel's habit of explaining itself, so seventh-century Northumbria assembles in the reader's peripheral vision. Her protagonist's power is observational — Hild is a seer because she notices — which converts worldbuilding density into plot mechanism rather than decoration.",
    "works": [
@@ -12347,7 +12347,7 @@
    "category": "Comic & Cozy Fantasy",
    "name": "Jasper Fforde",
    "description": "The bureaucracy of literature, fully literalised.",
-   "meta": "British, b. 1961; a former film focus puller on *GoldenEye* and *Quills*. Crawford Award, 2002, for *The Eyre Affair*; Bollinger Everyman Wodehouse Prize for Comic Fiction, 2004, for *The Well of Lost Plots* — a comic-fiction prize rather than a genre one; Kurd-Laßwitz-Preis, 2019. No Hugo, Nebula, World Fantasy or British Fantasy wins or nominations. His *Shades of Grey* (2009) predates and has nothing to do with E. L. James's book, and retailers routinely conflate them. The surname takes two lowercase f's.",
+   "meta": "British, b. 1961; a former film focus puller on *GoldenEye* and *Quills*. Crawford Award, 2002, for *The Eyre Affair*; Bollinger Everyman Wodehouse Prize for Comic Fiction, 2004, for *The Well of Lost Plots* — a comic-fiction prize rather than a genre one; Kurd-Laßwitz-Preis, 2019. No Hugo, Nebula, World Fantasy or British Fantasy wins or nominations. His *Shades of Grey* (2009) predates and has nothing to do with E. L. James's book, and retailers routinely conflate them. The surname takes two lowercase f's. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Thursday Next, a literary detective in an alternate Britain where people commute into books, and the Nursery Crime and Shades of Grey sequences.",
    "signature": "The joke is always structural. Fforde takes a metaphor about reading and builds out its full institutional apparatus — Jurisfiction, the Well of Lost Plots, generic substitution, plot devices held in inventory — then runs the farce inside those rules rather than against them. Running gags pay off dozens of chapters later, footnotes carry a parallel channel of information, and the density of apparatus is the comedy rather than the setting for it.",
    "works": [
@@ -12383,7 +12383,7 @@
    "category": "Comic & Cozy Fantasy",
    "name": "Christopher Moore",
    "description": "Comic horror in which the supernatural is an administrative nuisance.",
-   "meta": "American, b. 1957. One award in his career: the Quill Award, 2005, in the science fiction, fantasy and horror category, for *The Stupidest Angel* — a short-lived reader-voted television award, not a juried honour. No Hugo, Nebula, World Fantasy, British Fantasy, Bram Stoker or Locus win or nomination. He is easily confused in library records with three other authors named Christopher Moore.",
+   "meta": "American, b. 1957. One award in his career: the Quill Award, 2005, in the science fiction, fantasy and horror category, for *The Stupidest Angel* — a short-lived reader-voted television award, not a juried honour. No Hugo, Nebula, World Fantasy, British Fantasy, Bram Stoker or Locus win or nomination. He is easily confused in library records with three other authors named Christopher Moore. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*Lamb*, the gospel according to Christ's childhood friend, and the Pine Cove and San Francisco books, most of which share one continuity and a recurring cast.",
    "signature": "The put-upon ordinary protagonist absorbing the impossible as paperwork. Moore's comedy runs dialogue-forward at roughly a joke a paragraph, and the supernatural is treated by his characters as an irritating logistical development rather than as an ontological crisis — which is precisely what makes the genuinely sentimental structural core underneath land instead of curdling.",
    "works": [
@@ -12417,7 +12417,7 @@
    "category": "Comic & Cozy Fantasy",
    "name": "Tom Holt",
    "description": "Two careers, opposite in every respect, one writer.",
-   "meta": "British, b. 1961; a solicitor for some seven years before writing full time, and the son of the novelist Hazel Holt. Nothing published as Tom Holt has won a major award; both of his World Fantasy Awards for Best Novella, in 2012 and 2013, were won under the pseudonym K. J. Parker, whose identity was secret from 1998 until 2015 — the award records list Parker, and should not be retroactively rewritten. He published a poetry collection at twelve.",
+   "meta": "British, b. 1961; a solicitor for some seven years before writing full time, and the son of the novelist Hazel Holt. Nothing published as Tom Holt has won a major award; both of his World Fantasy Awards for Best Novella, in 2012 and 2013, were won under the pseudonym K. J. Parker, whose identity was secret from 1998 until 2015 — the award records list Parker, and should not be retroactively rewritten. He published a poetry collection at twelve. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "As Holt, comic fantasy in which a mythic premise is run through the logic of a British small business; as K. J. Parker, the Engineer and Siege sequences, technically obsessive secondary-world fiction with no working magic at all.",
    "signature": "Two methods that share one discipline — total commitment to the internal logic. The Holt comedy takes Wagner's Ring or the Norse gods and processes them through employment law and office politics until the mythic collapses under procedure. The Parker novels do the inverse: dry first-person narrators who are engineers, forgers and siege architects, plots driven entirely by craft, economics and betrayal, and irony carrying the load that magic carries elsewhere.",
    "works": [
@@ -12453,7 +12453,7 @@
    "category": "Comic & Cozy Fantasy",
    "name": "Piers Anthony",
    "description": "Xanth, and wordplay promoted to a magic system.",
-   "meta": "British-born American, b. 1934. British Fantasy Award for Best Novel for *A Spell for Chameleon*, in either 1977 or 1978 depending on the source; Phoenix Award, 1980. He has never won a Hugo or a Nebula despite decades of bestsellerdom, and has eighteen Locus placements with no wins. There is a recurrent and well-documented critical charge of misogyny and of sexualised depiction of underage girls, particularly in the later Xanth books, which he disputes; an entry aimed at writers should record it rather than present the series as neutral.",
+   "meta": "British-born American, b. 1934. British Fantasy Award for Best Novel for *A Spell for Chameleon*, in either 1977 or 1978 depending on the source; Phoenix Award, 1980. He has never won a Hugo or a Nebula despite decades of bestsellerdom, and has eighteen Locus placements with no wins. There is a recurrent and well-documented critical charge of misogyny and of sexualised depiction of underage girls, particularly in the later Xanth books, which he disputes; an entry aimed at writers should record it rather than present the series as neutral. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Xanth, a peninsula shaped like Florida where every inhabitant has one unique magical talent, and the Incarnations of Immortality, in which Death, Time, Fate and War are jobs with successors.",
    "signature": "The pun as load-bearing structure. In Xanth, wordplay is not decoration on the magic system — it is the magic system, so the prose's compulsive punning is doing worldbuilding work, and the transparent, fluent, high-velocity style is engineered for accessibility. The Incarnations books show the other mode: a single high-concept premise, worked out with genuine rigour, one Incarnation per volume.",
    "works": [
@@ -12488,7 +12488,7 @@
    "category": "Editors & Shapers",
    "name": "Terri Windling",
    "description": "The editor who created mythic fiction as a category.",
-   "meta": "American, b. 1958, resident in Devon. World Fantasy Award for Life Achievement, 2022, plus World Fantasy Awards for Best Anthology in 1982, 1989, 1990, 1992, 2000, 2003, 2007 and Special Awards in 1989 and 2008 — enumerate rather than count, since printed totals conflict; Bram Stoker Award, 2001; Mythopoeic Fantasy Award for Adult Literature, 1997, for her own novel *The Wood Wife*. She is also a working painter and illustrator.",
+   "meta": "American, b. 1958, resident in Devon. World Fantasy Award for Life Achievement, 2022, plus World Fantasy Awards for Best Anthology in 1982, 1989, 1990, 1992, 2000, 2003, 2007 and Special Awards in 1989 and 2008 — enumerate rather than count, since printed totals conflict; Bram Stoker Award, 2001; Mythopoeic Fantasy Award for Adult Literature, 1997, for her own novel *The Wood Wife*. She is also a working painter and illustrator. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Fairy Tale Series from 1986, which commissioned literary fantasists to write novel-length treatments of single tales; the Bordertown shared world; the adult fairy-tale anthologies with Ellen Datlow; and *The Year's Best Fantasy and Horror*, whose fantasy half she edited for its first sixteen volumes.",
    "signature": "Commissioning as authorship. More than any other individual, Windling built the commercial and aesthetic category now called mythic fiction — writers working directly from folklore and ballad rather than from Tolkien — and paired it with a deliberate house visual identity through art director Thomas Canty, so the books were recognisable on the shelf before they were opened. Bordertown effectively invented the modern young-adult urban-fantasy shared world.",
    "works": [
@@ -12525,7 +12525,7 @@
    "category": "Editors & Shapers",
    "name": "Ellen Datlow",
    "description": "The most-awarded short-fiction editor in the field's history.",
-   "meta": "American, b. 1949. Ten Hugo Awards — nine for editing across the Professional Editor and Short Form categories, plus Best Website in 2005 for *SciFiction*; ten World Fantasy Awards including Life Achievement in 2014; nine or more Bram Stoker Awards including Lifetime Achievement in 2011; five Shirley Jackson Awards; the Karl Edward Wagner Award, 2007; eighteen Locus Awards for Best Editor. Fiction editor at OMNI from 1981 to 1998 and at *SciFiction* from 2000 until its closure in 2005.",
+   "meta": "American, b. 1949. Ten Hugo Awards — nine for editing across the Professional Editor and Short Form categories, plus Best Website in 2005 for *SciFiction*; ten World Fantasy Awards including Life Achievement in 2014; nine or more Bram Stoker Awards including Lifetime Achievement in 2011; five Shirley Jackson Awards; the Karl Edward Wagner Award, 2007; eighteen Locus Awards for Best Editor. Fiction editor at OMNI from 1981 to 1998 and at *SciFiction* from 2000 until its closure in 2005. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*The Year's Best Fantasy and Horror*, whose horror half she edited for twenty-one volumes; *The Best Horror of the Year* since 2009; the fairy-tale anthologies with Terri Windling; *Blood Is Not Enough*, *Alien Sex*, *Inferno*, *The Doll Collection*.",
    "signature": "Pushing literary, transgressive, non-consolatory short fiction into mass-market and then online venues at professional rates. *SciFiction* was the proof of concept that a paying online magazine could win Hugos, and it is the direct ancestor of the entire modern online prozine economy. Her anthologies are built around a constraint rather than a theme, which is why they produce stories writers could not have written unprompted.",
    "works": [
@@ -12596,7 +12596,7 @@
    "category": "The Emerging Field",
    "name": "Shelley Parker-Chan",
    "description": "Want, unrelenting, as the entire engine.",
-   "meta": "Australian, born in New Zealand, of Chinese-Malaysian and white Australian parentage; non-binary, they/them. A former Australian diplomat and development adviser on gender equality and LGBTQ rights. Astounding Award for Best New Writer, 2022; British Fantasy Awards for both Best Fantasy Novel and Best Newcomer, 2022, for *She Who Became the Sun*; Aurealis Sara Douglass Book Series Award, 2025. The novel was a Hugo finalist, not a winner.",
+   "meta": "Australian, born in New Zealand, of Chinese-Malaysian and white Australian parentage; non-binary, they/them. A former Australian diplomat and development adviser on gender equality and LGBTQ rights. Astounding Award for Best New Writer, 2022; British Fantasy Awards for both Best Fantasy Novel and Best Newcomer, 2022, for *She Who Became the Sun*; Aurealis Sara Douglass Book Series Award, 2025. The novel was a Hugo finalist, not a winner. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Radiant Emperor duology — the Yuan-to-Ming transition and the rise of Zhu Yuanzhang, reimagined with the founding emperor as a peasant girl who takes her dead brother's fate.",
    "signature": "Gender as something seized and performed rather than possessed, driven by appetite rather than by virtue. Parker-Chan writes close third person on protagonists defined by amoral, unrelenting want, and keeps the fantastical element minimal and thematically load-bearing — the Mandate of Heaven as a visible flame — rather than building a system. The tonal debt is to Chinese danmei and to *The Song of Achilles* rather than to Anglophone epic fantasy, which is why the interiority runs so hot.",
    "works": [
@@ -12627,7 +12627,7 @@
    "category": "The Emerging Field",
    "name": "Tasha Suri",
    "description": "Magic transacted through the body.",
-   "meta": "British, of Punjabi heritage; a former academic librarian. World Fantasy Award for Best Novel, 2022, for *The Jasmine Throne*; British Fantasy Sydney J. Bounds Award for Best Newcomer, 2019, for *Empire of Sand*. She has been a British Fantasy Robert Holdstock finalist three times without winning it, and a Hugo Best Series finalist. She is British, not Indian — a frequent error.",
+   "meta": "British, of Punjabi heritage; a former academic librarian. World Fantasy Award for Best Novel, 2022, for *The Jasmine Throne*; British Fantasy Sydney J. Bounds Award for Best Newcomer, 2019, for *Empire of Sand*. She has been a British Fantasy Robert Holdstock finalist three times without winning it, and a Hugo Best Series finalist. She is British, not Indian — a frequent error. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Burning Kingdoms trilogy — a Mughal-inflected empire, a captive princess and a temple maidservant whose rebellion is also a romance — and the earlier Books of Ambha.",
    "signature": "Cost paid in the flesh. Suri's magic is transacted through blood, ash, vows and physical devotion, so power always bills the practitioner directly and never becomes a resource to be spent freely. She writes sensuous, slow-burning, multi-viewpoint prose that treats religious practice and imperial administration with equal seriousness, and puts a sapphic relationship at the centre as the political engine rather than as a subplot.",
    "works": [
@@ -12661,7 +12661,7 @@
    "category": "The Emerging Field",
    "name": "Rebecca Roanhorse",
    "description": "Epic fantasy sourced from the pre-Columbian Americas.",
-   "meta": "American, b. 1971; adopted and raised by white parents, and of African American and, by her own account, Ohkay Owingeh Pueblo descent — she is not enrolled, and Ohkay Owingeh officials have publicly disputed her claim to affiliation, which a reference work should state rather than assert either way. Hugo and Nebula Awards for Best Short Story in 2018 for \"Welcome to Your Authentic Indian Experience™\"; John W. Campbell Award for Best New Writer, 2018 — the award was renamed Astounding the following year; Locus Award for Best First Novel, 2019; Ignyte Awards in 2020 and 2021; Hugo Award for Best Series, 2025. *Trail of Lightning* drew a formal condemnation from the Diné writers' collective Saad Bee Hózhǫ́ as cultural appropriation, and the Native scholar Debbie Reese publicly retracted a positive review; Roanhorse has said she sought accuracy and consulted Navajo readers.",
+   "meta": "American, b. 1971; adopted and raised by white parents, and of African American and, by her own account, Ohkay Owingeh Pueblo descent — she is not enrolled, and Ohkay Owingeh officials have publicly disputed her claim to affiliation, which a reference work should state rather than assert either way. Hugo and Nebula Awards for Best Short Story in 2018 for \"Welcome to Your Authentic Indian Experience™\"; John W. Campbell Award for Best New Writer, 2018 — the award was renamed Astounding the following year; Locus Award for Best First Novel, 2019; Ignyte Awards in 2020 and 2021; Hugo Award for Best Series, 2025. *Trail of Lightning* drew a formal condemnation from the Diné writers' collective Saad Bee Hózhǫ́ as cultural appropriation, and the Native scholar Debbie Reese publicly retracted a positive review; Roanhorse has said she sought accuracy and consulted Navajo readers. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Between Earth and Sky trilogy, epic fantasy modelled on pre-Columbian Mesoamerican and Ancestral Puebloan cultures, and the earlier Sixth World books.",
    "signature": "Celestial-calendrical plotting in place of the dynastic clock. The Between Earth and Sky books time their politics to an eclipse and a convergence rather than to a succession crisis, and rotate close third person across a deliberately non-European cosmology in which the sea, the sky and the crow clans hold power differently. Widely credited with expanding what epic fantasy is permitted to be sourced from.",
    "works": [
@@ -12696,7 +12696,7 @@
    "category": "The Emerging Field",
    "name": "Silvia Moreno-Garcia",
    "description": "A different genre every book, all of them Mexican.",
-   "meta": "Mexican-Canadian, b. 1981; her master's thesis was on eugenics in H.P. Lovecraft, and she publishes the weird-fiction press Innsmouth Free Press. World Fantasy Award for Best Anthology, 2016, for *She Walks in Shadows*, co-edited with Paula R. Stiles; British Fantasy August Derleth Award for Best Horror Novel, Locus Award for Best Horror Novel and Aurora Award for Best Novel, all 2021, for *Mexican Gothic*; Ignyte and Sunburst Awards, 2020, for *Gods of Jade and Shadow*. *Gods of Jade and Shadow* did not win the World Fantasy Award and was not a finalist; *Mexican Gothic* won neither the Bram Stoker nor the World Fantasy, though it was a finalist for both. Her Lovecraft-adjacent editing is explicitly critical of his racism rather than homage.",
+   "meta": "Mexican-Canadian, b. 1981; her master's thesis was on eugenics in H.P. Lovecraft, and she publishes the weird-fiction press Innsmouth Free Press. World Fantasy Award for Best Anthology, 2016, for *She Walks in Shadows*, co-edited with Paula R. Stiles; British Fantasy August Derleth Award for Best Horror Novel, Locus Award for Best Horror Novel and Aurora Award for Best Novel, all 2021, for *Mexican Gothic*; Ignyte and Sunburst Awards, 2020, for *Gods of Jade and Shadow*. *Gods of Jade and Shadow* did not win the World Fantasy Award and was not a finalist; *Mexican Gothic* won neither the Bram Stoker nor the World Fantasy, though it was a finalist for both. Her Lovecraft-adjacent editing is explicitly critical of his racism rather than homage. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "*Mexican Gothic*, *Gods of Jade and Shadow* and *Certain Dark Things* — plus *Silver Nitrate* and *The Daughter of Doctor Moreau*.",
    "signature": "A deliberate genre-per-book strategy anchored to precise Mexican historical settings. Mayan mythic road novel, noir, gothic, vampire narconovela, Wellsian colonial science fiction, video-nasty occult thriller — each rebuilt inside a specific period, from the 1920s Jazz Age to 1950s Hidalgo mining country to 1990s Mexico City. *Mexican Gothic* is the method's clearest demonstration: the English country-house gothic relocated to a silver-mining colony so the genre's inherited machinery of blood, inheritance and contagion becomes a direct indictment of eugenics and extraction.",
    "works": [

@@ -1,9 +1,9 @@
 {
   "id": "sf-reference",
   "name": "Science Fiction",
-  "packVersion": "2.2.0",
+  "packVersion": "2.2.2",
   "schemaVersion": 2,
-  "lastUpdated": "2026-08-31",
+  "lastUpdated": "2026-09-11",
   "minAppVersion": "0.1.0",
   "collections": [
     {
@@ -9909,7 +9909,7 @@
       "category": "New Wave",
       "name": "Samuel R. Delany",
       "description": "Dense, lyrical SF of language, myth, and desire.",
-      "meta": "b. 1942 · American",
+      "meta": "b. 1942 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A precocious prodigy who won multiple Nebulas in the 1960s, Delany brought literary ambition, semiotic theory, and frank treatments of race and sexuality into science fiction. His sprawling, demanding novels reshaped what the genre could attempt stylistically.",
       "signature": "Watch his fascination with language as a force that shapes reality, his interest in outsiders and marginal communities, and his willingness to fracture conventional narrative structure. His prose is baroque, allusive, and densely textured.",
       "works": [
@@ -10065,7 +10065,7 @@
       "category": "New Wave",
       "name": "Michael Moorcock",
       "description": "Eternal Champion fantasies and New Wave editor-provocateur.",
-      "meta": "b. 1939 · British",
+      "meta": "b. 1939 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "As editor of New Worlds, Moorcock catalyzed the British New Wave, championing experimental, literary SF. As a writer he created Elric and the Eternal Champion multiverse, prolifically blending fantasy, satire, and modernist technique.",
       "signature": "Notice his unifying 'multiverse' and Eternal Champion mythology, his anti-heroic doomed protagonists, and his restless experimentation across pulp adventure and avant-garde forms. Chaos versus Order is a perennial theme.",
       "works": [
@@ -10169,7 +10169,7 @@
       "category": "New Wave",
       "name": "Robert Silverberg",
       "description": "Prolific master of introspective, character-driven SF.",
-      "meta": "b. 1935 · American",
+      "meta": "b. 1935 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "After a prodigiously productive pulp apprenticeship, Silverberg matured into one of the genre's finest stylists during its New Wave period, producing a remarkable run of psychologically intense novels. He is a multiple Hugo and Nebula winner.",
       "signature": "Notice his interiority and melancholy, his interest in alienation, mortality, and transcendence, and his polished, controlled prose. His best work probes the loneliness inside extraordinary circumstances.",
       "works": [
@@ -10429,7 +10429,7 @@
       "category": "New Wave",
       "name": "Norman Spinrad",
       "description": "Confrontational, satirical SF of power and media.",
-      "meta": "b. 1940 · American",
+      "meta": "b. 1940 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A combative New Wave figure, Spinrad wrote provocative, politically charged fiction skewering fascism, mass media, and drug culture. Bug Jack Barron and The Iron Dream are his best-known works.",
       "signature": "Watch his aggressive satire, his fascination with charismatic demagogues and media spectacle, and his willingness to court controversy. The corrupting interplay of power and culture is his core subject.",
       "works": [
@@ -10481,7 +10481,7 @@
       "category": "Hard SF",
       "name": "Larry Niven",
       "description": "Rigorous big-idea SF of exotic worlds and physics.",
-      "meta": "b. 1938 · American",
+      "meta": "b. 1938 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A cornerstone of hard science fiction, Niven built the expansive Known Space universe and conceived the iconic Ringworld megastructure. He is celebrated for extrapolating real physics into wondrous settings and alien biology.",
       "signature": "Notice his commitment to scientific plausibility, his fondness for vast engineered structures and clever puzzle-plots, and his inventive aliens like the Pierson's Puppeteers and Kzinti. Big ideas drive his stories.",
       "works": [
@@ -10533,7 +10533,7 @@
       "category": "Hard SF",
       "name": "Gregory Benford",
       "description": "Physicist-novelist of galactic-scale hard SF.",
-      "meta": "b. 1941 · American",
+      "meta": "b. 1941 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "An astrophysicist who brought rigorous, working-scientist detail to SF, Benford is best known for his Galactic Center saga and for Timescape, a landmark novel about doing real science under deadline.",
       "signature": "He depicts science as a lived, political, error-prone human process, and pairs that realism with sweeping cosmological stakes and humanity's confrontation with machine intelligence.",
       "works": [
@@ -10625,7 +10625,7 @@
       "category": "Hard SF",
       "name": "David Brin",
       "description": "Architect of the Uplift saga.",
-      "meta": "b. 1950 · American",
+      "meta": "b. 1950 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Brin is best known for the Uplift universe, where species genetically elevate others to sapience, and for Hugo- and Nebula-winning novels of galactic ecology and ethics.",
       "signature": "He blends rigorous extrapolation with optimism and a fascination with transparency, accountability, and the moral responsibilities of intelligence toward other minds.",
       "works": [
@@ -10677,7 +10677,7 @@
       "category": "Hard SF",
       "name": "Stephen Baxter",
       "description": "Deep-time hard SF on a cosmic scale.",
-      "meta": "b. 1957 · British",
+      "meta": "b. 1957 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Baxter is known for the sprawling Xeelee Sequence and for fiction spanning billions of years, treating entropy, physics, and the fate of the universe as narrative material. Also known for multiple collaborations.",
       "signature": "He pushes scale to extremes—geological and cosmological time, the heat death of the cosmos, humanity dwarfed by vast indifferent forces—while keeping the physics rigorous.",
       "works": [
@@ -10729,7 +10729,7 @@
       "category": "Hard SF",
       "name": "Greg Egan",
       "description": "Rigorous fiction of physics, math, and mind.",
-      "meta": "b. 1961 · Australian",
+      "meta": "b. 1961 · Australian · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Egan is the genre's most uncompromising explorer of fundamental physics and mathematics, famous for novels built on alternative laws of nature and for radical examinations of consciousness and identity. Novels include Permutation City, Diaspora, and Schild's Ladder.",
       "signature": "His work treats minds as copyable software and physics as something to re-derive from scratch, demanding the reader follow genuine math while questioning what a self even is.",
       "works": [
@@ -10827,7 +10827,7 @@
       "category": "Hard SF",
       "name": "Kim Stanley Robinson",
       "description": "Laureate of planetary and climate SF.",
-      "meta": "b. 1952 · American",
+      "meta": "b. 1952 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Robinson is best known for the Mars trilogy, an exhaustively realistic account of terraforming and founding a society, and for fiction centered on ecology, climate, and utopian politics. Also known for Aurora and The Ministry for the Future.",
       "signature": "He fuses detailed science with deep political and ecological imagination, asking how humans build just, sustainable societies over generational and geological timescales.",
       "works": [
@@ -10931,7 +10931,7 @@
       "category": "Hard SF",
       "name": "Nancy Kress",
       "description": "Master of genetic-engineering SF.",
-      "meta": "b. 1948 · American",
+      "meta": "b. 1948 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Kress is best known for the Sleepless saga begun in Beggars in Spain, exploring genetic engineering, inequality, and biotechnology's social fault lines.",
       "signature": "She grounds rigorous biological speculation in sharp social and ethical questions—who benefits from enhancement, and what it does to community—often at novella length.",
       "works": [
@@ -10983,7 +10983,7 @@
       "category": "Hard SF",
       "name": "Joe Haldeman",
       "description": "Wrote the definitive SF war novel.",
-      "meta": "b. 1943 · American",
+      "meta": "b. 1943 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A Vietnam veteran, Haldeman is best known for The Forever War, whose relativistic combat and alienated soldiers made it a landmark antiwar SF novel.",
       "signature": "He uses hard-SF physics—especially time dilation—to dramatize the soldier's estrangement from a society that changes while he fights, written with spare, hard-edged clarity.",
       "works": [
@@ -11035,7 +11035,7 @@
       "category": "Cyberpunk & the 80s",
       "name": "William Gibson",
       "description": "Founding voice of cyberpunk.",
-      "meta": "b. 1948 · American-Canadian",
+      "meta": "b. 1948 · American-Canadian · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Gibson defined cyberpunk with Neuromancer, which swept the Hugo, Nebula, and Philip K. Dick awards and gave the genre its imagery of cyberspace, hackers, and corporate dystopia.",
       "signature": "He writes a dense, noir-inflected prose of brand-name surfaces and information flows, attuned to how technology unevenly reshapes street-level culture.",
       "works": [
@@ -11087,7 +11087,7 @@
       "category": "Cyberpunk & the 80s",
       "name": "Bruce Sterling",
       "description": "Cyberpunk's chief theorist and provocateur.",
-      "meta": "b. 1954 · American",
+      "meta": "b. 1954 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Sterling shaped cyberpunk as editor of the Mirrorshades anthology and as author of idea-dense novels, while later pioneering design fiction and futurist commentary.",
       "signature": "He thinks in systems—economics, geopolitics, posthuman factions, emergent tech—favoring restless extrapolation and a wry, journalistic eye over conventional plot.",
       "works": [
@@ -11139,7 +11139,7 @@
       "category": "Cyberpunk & the 80s",
       "name": "Pat Cadigan",
       "description": "Cyberpunk's leading woman, the \"Queen of Cyberpunk\"",
-      "meta": "b. 1953 · American-British",
+      "meta": "b. 1953 · American-British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "One of the few prominent women in the original cyberpunk movement, Cadigan brought a psychological, interiorized focus to the subgenre. Her work explores the dissolving boundary between mind and machine, twice winning the Arthur C. Clarke Award.",
       "signature": "She fixates on the brain as the contested territory of cyberpunk, dramatizing identity, perception, and consciousness rather than hardware. Her prose is sharp, voice-driven, and attuned to the inner experience of mind-altering technology.",
       "works": [
@@ -11191,7 +11191,7 @@
       "category": "Cyberpunk & the 80s",
       "name": "Rudy Rucker",
       "description": "Mathematician-novelist behind gonzo \"transrealist\" cyberpunk",
-      "meta": "b. 1946 · American",
+      "meta": "b. 1946 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A mathematician and computer scientist, Rucker was a founding cyberpunk whose playful, idea-dense fiction won the first two Philip K. Dick Awards. He coined \"transrealism\" and brought genuine math and computer-science rigor to wild speculative premises.",
       "signature": "He blends higher mathematics, fractals, and artificial life with anarchic humor and autobiographical \"transreal\" characters. Expect mind-bending concepts delivered with a loose, comic, counterculture energy.",
       "works": [
@@ -11243,7 +11243,7 @@
       "category": "Cyberpunk & the 80s",
       "name": "John Shirley",
       "description": "Punk-rock godfather of the cyberpunk movement",
-      "meta": "b. 1953 · American",
+      "meta": "b. 1953 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Often called the \"godfather of cyberpunk,\" Shirley fused punk-rock sensibility, horror, and dystopia, directly influencing peers like William Gibson. He is also a screenwriter and lyricist who co-wrote the film *The Crow*.",
       "signature": "His work is gritty, transgressive, and politically charged, blending street-level dystopia with visceral horror. Expect rebellion, media critique, and a raw, kinetic prose energy drawn from his rock background.",
       "works": [
@@ -11295,7 +11295,7 @@
       "category": "Cyberpunk & the 80s",
       "name": "Neal Stephenson",
       "description": "Maximalist of postcyberpunk and big-idea fiction",
-      "meta": "b. 1959 · American",
+      "meta": "b. 1959 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Stephenson broke out with the postcyberpunk classic *Snow Crash* and became known for sprawling, information-dense novels spanning history, cryptography, and economics. He is a defining figure of speculative fiction's intellectual maximalism. Also known for The Diamond Age, Anathem, and Seveneves.",
       "signature": "He packs novels with long digressive lectures on technology, history, and ideas, fusing rigorous detail with adventure plotting. Watch for coined concepts like the metaverse and an inexhaustible appetite for systems and how they work.",
       "works": [
@@ -11347,7 +11347,7 @@
       "category": "Cyberpunk & the 80s",
       "name": "Walter Jon Williams",
       "description": "Versatile craftsman from cyberpunk to space opera",
-      "meta": "b. 1953 · American",
+      "meta": "b. 1953 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Williams entered cyberpunk with *Hardwired* and went on to range widely across hard SF, space opera, and disaster fiction. He is admired as a versatile, technically skilled storyteller respected across the field.",
       "signature": "He brings polished craft and meticulous worldbuilding to whatever subgenre he writes, often centering competent characters under systemic pressure. Watch his command of pacing and his ability to reinvent his voice book to book.",
       "works": [
@@ -11451,7 +11451,7 @@
       "category": "Modern space opera / British boom",
       "name": "Alastair Reynolds",
       "description": "Astrophysicist of grand, gothic hard space opera",
-      "meta": "b. 1966 · British (Welsh)",
+      "meta": "b. 1966 · British (Welsh) · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A former ESA astrophysicist, Reynolds writes hard-SF space opera on vast time and distance scales, anchored in plausible physics with no faster-than-light cheating. His *Revelation Space* universe set a benchmark for modern grand-scale SF.",
       "signature": "He fuses rigorous relativistic physics with gothic, decaying far futures and a noir sensibility. Look for deep time, slower-than-light starships, and a cosmic dread about what lies between the stars.",
       "works": [
@@ -11503,7 +11503,7 @@
       "category": "Modern space opera / British boom",
       "name": "Peter F. Hamilton",
       "description": "Britain's master of doorstop space-opera epics",
-      "meta": "b. 1960 · British (English)",
+      "meta": "b. 1960 · British (English) · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Hamilton is renowned for enormous, intricately plotted space operas teeming with characters, technologies, and intersecting storylines. His *Night's Dawn* and *Commonwealth* sagas are landmarks of expansive modern SF.",
       "signature": "He builds vast, fully realized future societies and juggles huge ensemble casts toward sprawling convergent climaxes. Expect lavish worldbuilding, wormhole networks, and an unabashed appetite for scale.",
       "works": [
@@ -11555,7 +11555,7 @@
       "category": "Modern space opera / British boom",
       "name": "Ken MacLeod",
       "description": "Politically charged Scottish SF of futures and ideologies",
-      "meta": "b. 1954 · British (Scottish)",
+      "meta": "b. 1954 · British (Scottish) · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "MacLeod writes idea-driven SF saturated with politics, exploring socialism, libertarianism, and posthuman futures. A key British Boom figure, he is celebrated for fusing serious political thought with hard-SF adventure.",
       "signature": "He treats competing political ideologies as engines of plot and worldbuilding, often with wry humor. Watch for Singularity themes, post-human AIs, and arguments taken seriously enough to be tested in fiction.",
       "works": [
@@ -11607,7 +11607,7 @@
       "category": "Modern space opera / British boom",
       "name": "Neal Asher",
       "description": "High-octane, AI-ruled biopunk space opera",
-      "meta": "b. 1961 · British (English)",
+      "meta": "b. 1961 · British (English) · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Asher is known for fast, violent, technologically dense space opera set in his sprawling Polity universe, where benevolent AIs govern humanity. He is a fixture of muscular, action-driven modern British SF.",
       "signature": "He delivers relentless action, grotesque alien biology, and posthuman tech with cinematic momentum. Expect war drones, the menacing Prador aliens, and ruthless AI overlords as recurring fixtures.",
       "works": [
@@ -11659,7 +11659,7 @@
       "category": "Modern space opera / British boom",
       "name": "Charles Stross",
       "description": "Singularity-era SF of post-humanity and economics",
-      "meta": "b. 1964 · British (Scottish)",
+      "meta": "b. 1964 · British (Scottish) · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Stross is a multiple Hugo winner known for high-velocity, idea-saturated SF on the Technological Singularity, posthumanism, and future economics. He helped define 21st-century cutting-edge speculation about accelerating change. Also known for Accelerando and the Laundry Files.",
       "signature": "He crams stories with bleeding-edge tech, economics, and information-theory concepts at breakneck pace. Note his dry humor, genre-blending range, and fascination with what survives a Singularity.",
       "works": [
@@ -11711,7 +11711,7 @@
       "category": "Modern space opera / British boom",
       "name": "Stephen R. Donaldson",
       "description": "Epic fantasist who wrote sprawling space opera",
-      "meta": "b. 1947 · American",
+      "meta": "b. 1947 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Best known for the epic fantasy *Thomas Covenant* series, Donaldson also wrote the dark, operatic five-volume *Gap Cycle* SF saga. He is noted for morally tortured antiheroes and intense psychological depth across genres.",
       "signature": "He builds fiction around guilt, power, and flawed protagonists pushed to extremes, with dense, deliberately heightened prose. Watch his structural ambition and willingness to make readers sit with unlikable characters.",
       "works": [
@@ -11763,7 +11763,7 @@
       "category": "Contemporary",
       "name": "Liu Cixin",
       "description": "China's foremost hard-SF cosmic pessimist.",
-      "meta": "b. 1963 · Chinese",
+      "meta": "b. 1963 · Chinese · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Liu is the most celebrated Chinese science-fiction author, whose Remembrance of Earth's Past trilogy brought Chinese SF to a global audience and won the first Hugo for a translated novel. His work revived grand, idea-driven hard science fiction on an interstellar scale. Also known for the trilogy's dark forest theory and cosmic sociology.",
       "signature": "He builds vast cosmic-scale thought experiments grounded in physics, where civilizations are governed by ruthless game-theoretic logic. Expect awe, dread, and the dwarfing of humanity against an indifferent universe.",
       "works": [
@@ -11809,7 +11809,7 @@
       "category": "Contemporary",
       "name": "N.K. Jemisin",
       "description": "Three-time consecutive Hugo winner for Best Novel.",
-      "meta": "b. 1972 · American",
+      "meta": "b. 1972 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Jemisin made history as the first author to win the Hugo for Best Novel three years running, for every book in her Broken Earth trilogy. She reshaped epic fantasy and SF around themes of oppression, ecology, and survival.",
       "signature": "She fuses geology, systemic injustice, and intimate rage into worlds where the planet itself is an antagonist. Watch her bold second-person narration and her insistence that worldbuilding carry moral weight.",
       "works": [
@@ -11861,7 +11861,7 @@
       "category": "Contemporary",
       "name": "Ann Leckie",
       "description": "Reinvented space opera through a divided AI mind.",
-      "meta": "b. 1966 · American",
+      "meta": "b. 1966 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Leckie's debut Ancillary Justice swept the Hugo, Nebula, and Arthur C. Clarke Awards, a near-unprecedented feat. She revitalized space opera with fresh perspectives on identity, empire, and consciousness.",
       "signature": "She explores distributed minds, gendered language, and the machinery of imperial power from inside it. Her default use of 'she' for all characters quietly destabilizes the reader's assumptions.",
       "works": [
@@ -11913,7 +11913,7 @@
       "category": "Contemporary",
       "name": "Becky Chambers",
       "description": "Pioneer of cozy, character-driven 'hopepunk' SF.",
-      "meta": "b. 1985 · American",
+      "meta": "b. 1985 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Chambers is a leading voice of optimistic, low-conflict science fiction, winning the Hugo for Best Series with her Wayfarers books. She helped legitimize warmth and found-family stories as serious SF. Also known for the Monk & Robot novellas.",
       "signature": "She prioritizes empathy, everyday life, and the texture of coexistence over plot and violence. Notice how alien cultures and identities become vehicles for gentle questions about belonging.",
       "works": [
@@ -11965,7 +11965,7 @@
       "category": "Contemporary",
       "name": "John Scalzi",
       "description": "Accessible, wisecracking modern military and ideas SF.",
-      "meta": "b. 1969 · American",
+      "meta": "b. 1969 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Scalzi is a bestselling, Hugo-winning author known for fast, funny, highly readable science fiction beginning with Old Man's War. He is also a prominent genre blogger and commentator.",
       "signature": "He pairs snappy dialogue and clean prose with a single sharp speculative premise taken to its logical end. Expect humor, brisk pacing, and an everyman's-eye view of big concepts.",
       "works": [
@@ -12017,7 +12017,7 @@
       "category": "Contemporary",
       "name": "Paolo Bacigalupi",
       "description": "Grim biopunk visions of climate and scarcity.",
-      "meta": "b. 1972 · American",
+      "meta": "b. 1972 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Bacigalupi rose to prominence with searing ecological dystopias, his debut novel The Windup Girl winning both the Hugo and Nebula. He is a defining author of climate-fiction and biopunk. Also known for The Water Knife.",
       "signature": "He imagines futures shaped by resource collapse, genetic engineering, and corporate power, rendered in visceral detail. Watch how scarcity of water, calories, and energy drives his politics and plots.",
       "works": [
@@ -12063,7 +12063,7 @@
       "category": "Contemporary",
       "name": "Peter Watts",
       "description": "Hard SF's bleakest interrogator of consciousness.",
-      "meta": "b. 1958 · Canadian",
+      "meta": "b. 1958 · Canadian · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A marine biologist turned writer, Watts is known for rigorously scientific, deeply pessimistic novels, with Blindsight a touchstone of modern hard SF. He pushes biology and neuroscience to unsettling conclusions. Also known for its sequel, Echopraxia.",
       "signature": "He attacks the assumption that consciousness is useful, staffing his stories with vampires, hive minds, and posthumans. Dense, footnoted, and dark, his work rewards readers who want science used as a scalpel.",
       "works": [
@@ -12109,7 +12109,7 @@
       "category": "Contemporary",
       "name": "Adrian Tchaikovsky",
       "description": "Prolific master of evolution and alien minds.",
-      "meta": "b. 1972 · British",
+      "meta": "b. 1972 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Tchaikovsky is an enormously productive author whose Children of Time won the Arthur C. Clarke Award for its uplifted-spider civilization. He excels at rendering genuinely non-human intelligence. Also known for the Tyrant Philosophers sequence.",
       "signature": "He builds rigorous evolutionary thought experiments, imagining how cognition might arise in spiders, octopuses, or machines. Expect deep time, empathy across species, and the slow assembly of alien societies.",
       "works": [
@@ -12161,7 +12161,7 @@
       "category": "Contemporary",
       "name": "Andy Weir",
       "description": "Problem-solving hard SF with crowd-pleasing momentum.",
-      "meta": "b. 1972 · American",
+      "meta": "b. 1972 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Weir became a phenomenon with The Martian, a meticulously researched survival story adapted into a hit film. He defines a strain of upbeat, engineering-driven hard science fiction. Also known for Artemis and Project Hail Mary.",
       "signature": "He structures novels as cascading technical problems solved by a resourceful, wisecracking protagonist. The appeal is real science worked out on the page, leavened with humor and optimism.",
       "works": [
@@ -12195,7 +12195,7 @@
       "category": "Contemporary",
       "name": "Martha Wells",
       "description": "Creator of the beloved Murderbot Diaries.",
-      "meta": "b. 1964 · American",
+      "meta": "b. 1964 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A veteran fantasy author, Wells achieved breakout acclaim with the Murderbot Diaries, winning Hugo and Nebula awards for its anxious rogue security construct. The series became a defining modern SF franchise.",
       "signature": "She voices a self-aware AI that would rather watch soap operas than deal with humans, mining deadpan humor and real anxiety from autonomy. Notice the tight first-person interiority and the slow growth toward connection.",
       "works": [
@@ -12247,7 +12247,7 @@
       "category": "Contemporary",
       "name": "Ted Chiang",
       "description": "Philosophical short fiction of unmatched precision.",
-      "meta": "b. 1967 · American",
+      "meta": "b. 1967 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Chiang is widely regarded as the finest living writer of SF short fiction, despite a small output, winning numerous Hugo and Nebula awards. His story 'Story of Your Life' became the film Arrival.",
       "signature": "He builds each story around a single rigorous premise — a language, a cosmology, a moral law — and follows it with mathematical care. Expect deep ideas rendered humane, emotional, and exact.",
       "works": [
@@ -12299,7 +12299,7 @@
       "category": "Contemporary",
       "name": "Ken Liu",
       "description": "Award-winning author, translator, and silkpunk founder.",
-      "meta": "b. 1976 · American",
+      "meta": "b. 1976 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Liu is a major short-fiction writer whose 'The Paper Menagerie' swept the Hugo, Nebula, and World Fantasy awards, and a pivotal translator of Chinese SF including Liu Cixin. He coined the 'silkpunk' aesthetic with his Dandelion Dynasty.",
       "signature": "He braids diaspora experience, history, and technology into emotionally precise stories, often about memory and inheritance. As translator and author alike, he bridges Eastern and Western traditions.",
       "works": [
@@ -12351,7 +12351,7 @@
       "category": "Contemporary",
       "name": "Tamsyn Muir",
       "description": "Necromancers, swordfights, and baroque gothic space opera.",
-      "meta": "b. 1985 · New Zealander",
+      "meta": "b. 1985 · New Zealander · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Muir broke out with the Locked Tomb series, a genre-blending mix of gothic horror, space opera, and internet-inflected voice. Her work helped define a new wave of irreverent, intensely voiced contemporary SFF.",
       "signature": "Dense puzzle-box plotting, unreliable narration, and a tonal collision of grim necromantic ritual with meme-laced banter. She rewards rereading, burying structure and identity reveals beneath the wit.",
       "works": [
@@ -12391,7 +12391,7 @@
       "category": "Contemporary",
       "name": "Arkady Martine",
       "description": "Empire, identity, and political intrigue in space.",
-      "meta": "b. 1985 · American",
+      "meta": "b. 1985 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A historian by training, Martine won back-to-back Hugos for her Teixcalaan novels about a diplomat navigating a seductive, devouring empire. She is known for fusing political thriller mechanics with questions of culture and assimilation. Novels: A Memory Called Empire and A Desolation Called Peace.",
       "signature": "Intricate diplomacy, the allure and violence of imperial culture, and memory-implant technology that interrogates selfhood. Her prose is lush and her plots turn on language, poetry, and statecraft.",
       "works": [
@@ -12425,7 +12425,7 @@
       "category": "Contemporary",
       "name": "Nnedi Okorafor",
       "description": "Pioneer of Africanfuturism and Africanjujuism.",
-      "meta": "b. 1974 · Nigerian-American",
+      "meta": "b. 1974 · Nigerian-American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Okorafor coined Africanfuturism to distinguish her Nigeria-rooted science fiction and fantasy from Western-centered Afrofuturism. Her Binti and Akata books made her a defining contemporary voice and a Hugo and Nebula winner.",
       "signature": "African settings, mythology, and biology-driven magic, with young women protagonists who bridge worlds. She blends the organic and technological, often centering coming-of-age and cultural negotiation.",
       "works": [
@@ -12477,7 +12477,7 @@
       "category": "Contemporary",
       "name": "Mary Robinette Kowal",
       "description": "Alternate-history space race and Regency magic.",
-      "meta": "b. 1969 · American",
+      "meta": "b. 1969 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A puppeteer and audiobook narrator, Kowal won the Hugo and Nebula for The Calculating Stars, launching her Lady Astronaut alt-history. She is known for meticulous craft and a strong focus on overlooked perspectives.",
       "signature": "Carefully researched alternate histories, women breaking into closed institutions, and an attention to etiquette, anxiety, and procedure. Her style is warm, precise, and emotionally grounded.",
       "works": [
@@ -12523,7 +12523,7 @@
       "category": "Contemporary",
       "name": "Claire North",
       "description": "High-concept speculative fiction on time and identity.",
-      "meta": "b. 1986 · British",
+      "meta": "b. 1986 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Claire North is a pen name of Catherine Webb, who won the World Fantasy Award and broke out with a novel of recurring lives. She is known for philosophically ambitious standalones built on a single startling premise.",
       "signature": "One bold speculative conceit pushed to its limits, often around memory, mortality, or perception, told in propulsive, lyrical prose. Her books interrogate what a life or a self adds up to.",
       "works": [
@@ -12575,7 +12575,7 @@
       "category": "Contemporary",
       "name": "Ada Palmer",
       "description": "Philosophical far-future political science fiction.",
-      "meta": "b. 1981 · American",
+      "meta": "b. 1981 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A Renaissance historian, Palmer wrote the Terra Ignota quartet, a dense 25th-century vision engaging Enlightenment philosophy and gender. She won the Campbell/Astounding Award and is known for intellectually demanding worldbuilding.",
       "signature": "An 18th-century narrative voice applied to a future of flying cars and post-national 'hives,' plus deep engagement with Voltaire, Diderot, and theology. Reading her is closer to philosophy than adventure.",
       "works": [
@@ -12615,7 +12615,7 @@
       "category": "Contemporary",
       "name": "Annalee Newitz",
       "description": "Science journalism-informed SF on bodies and history.",
-      "meta": "b. 1969 · American",
+      "meta": "b. 1969 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A founder of io9 and a science journalist, Newitz writes fiction grounded in real research on AI, biology, and deep history. They are known for socially engaged SF exploring labor, autonomy, and the long arc of human change. Novels include Autonomous and The Future of Another Timeline.",
       "signature": "Rigorous extrapolation paired with questions of personhood, freedom, and economics, often featuring robots, time travel, or prehistory. The prose is clear, curious, and politically pointed.",
       "works": [
@@ -12655,7 +12655,7 @@
       "category": "Contemporary",
       "name": "Ray Nayler",
       "description": "Cerebral near-future SF on minds and consciousness.",
-      "meta": "b. 1976 · American",
+      "meta": "b. 1976 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A former foreign service officer, Nayler emerged with acclaimed short fiction before The Mountain in the Sea, which won the Locus Award for best first novel. He is known for thoughtful explorations of intelligence, both artificial and animal.",
       "signature": "Questions of consciousness, communication, and selfhood, set in atmospheric, politically textured near futures. His writing is measured and ideas-forward, often probing what it means to think.",
       "works": [
@@ -12695,7 +12695,7 @@
       "category": "Contemporary",
       "name": "James S.A. Corey",
       "description": "Joint pseudonym of Daniel Abraham and Ty Franck; authors of The Expanse, the major contemporary solar-system space opera.",
-      "meta": "Joint pseudonym · Daniel Abraham and Ty Franck · American",
+      "meta": "Joint pseudonym · Daniel Abraham and Ty Franck · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "The Expanse, the nine-novel solar-system space opera begun in 2011 and completed in 2021, which put hard-SF orbital mechanics inside a political thriller and reached a mass audience through its television adaptation. The series won the Hugo Award for Best Series in 2020; Abaddon's Gate won the Locus Award for Best Science Fiction Novel in 2014. Franck originally built the setting as a tabletop game and an unwritten MMO, and that provenance shows in how completely the political geography works before any character walks through it.",
       "signature": "Rotating tight-third viewpoints, one per faction, so that the reader holds the whole system while every character holds only a part of it — the structural engine of the series' politics. Ships obey delta-v and thrust gravity, distances take weeks, and combat is decided by who can accelerate and who has already run out of water. The prose is unshowy and the chapters are short; the ambition is in the architecture rather than the sentence.",
       "works": [
@@ -12747,7 +12747,7 @@
       "category": "Military SF",
       "name": "David Weber",
       "description": "Creator of the Honor Harrington space-navy saga.",
-      "meta": "b. 1952 · American",
+      "meta": "b. 1952 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Weber is a cornerstone of modern military SF, best known for the long-running Honor Harrington series modeling Napoleonic naval warfare in space. He is known for detailed tactics, fleet engagements, and an iconic woman commander.",
       "signature": "Exhaustive technical and ballistic detail, large-scale fleet battles, and political-economic worldbuilding around interstellar navies. Honor Harrington herself is a deliberate Horatio Hornblower analogue.",
       "works": [
@@ -12839,7 +12839,7 @@
       "category": "Military SF",
       "name": "John Ringo",
       "description": "Fast-paced, action-driven combat science fiction.",
-      "meta": "b. 1963 · American",
+      "meta": "b. 1963 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A former Army veteran, Ringo is a bestselling military-SF author known for the Posleen War (Legacy of the Aldenata) series and high-octane invasion and combat narratives. He is a prolific Baen mainstay in the subgenre.",
       "signature": "Relentless action, hardware-heavy combat, and worst-case-scenario invasions, often with conservative, can-do military protagonists. Plotting prizes momentum and tactical spectacle.",
       "works": [
@@ -12891,7 +12891,7 @@
       "category": "Military SF",
       "name": "Jack Campbell",
       "description": "Fleet-combat tactics built on real physics and time-lag.",
-      "meta": "b. 1956 · American",
+      "meta": "b. 1956 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Pen name of retired U.S. Navy officer John G. Hemry, best known for The Lost Fleet series following Captain John 'Black Jack' Geary leading a battered fleet home. The books are prized for rigorous, physics-aware fleet battles where lightspeed delay and momentum actually matter.",
       "signature": "Combat at relativistic distances forces commanders to act on hours-old information, and Campbell mines the tension between heroic legend and the flawed officer behind it. Tight tactical logic and small-unit leadership themes recur throughout.",
       "works": [
@@ -12943,7 +12943,7 @@
       "category": "Military SF",
       "name": "Elizabeth Moon",
       "description": "Grunt's-eye military SF from a Marine veteran.",
-      "meta": "b. 1945 · American",
+      "meta": "b. 1945 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A U.S. Marine Corps veteran best known for the Vatta's War and Serrano Legacy space-opera series and the standalone Nebula winner The Speed of Dark. Her military fiction is admired for authentic detail of command, logistics, and the soldier's interior life.",
       "signature": "Competent, disciplined protagonists rise through ranks while Moon foregrounds duty, loyalty, and the grind of leadership over flashy heroics. The Speed of Dark shows her range, exploring autism with rare empathy.",
       "works": [
@@ -12995,7 +12995,7 @@
       "category": "Military SF",
       "name": "Marko Kloos",
       "description": "Boots-on-the-ground future war and alien siege.",
-      "meta": "b. 1971 · German-American",
+      "meta": "b. 1971 · German-American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "German-born American author best known for the Frontlines series, beginning with Terms of Enlistment, following an enlisted soldier in a crowded, resource-starved future Earth facing alien invaders. He gained wider notice when his novel was part of the 2015 Hugo controversy and he declined the nomination.",
       "signature": "Lean, propulsive prose centered on the enlisted experience rather than admirals, with a strong sense of social collapse and scarcity driving the war. Kloos writes combat with a veteran's economy and emotional restraint.",
       "works": [
@@ -13191,7 +13191,7 @@
       "category": "Dystopia / literary-adjacent",
       "name": "Margaret Atwood",
       "description": "Speculative fiction of gender, power, and ecology.",
-      "meta": "b. 1939 · Canadian",
+      "meta": "b. 1939 · Canadian · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Canadian author best known for The Handmaid's Tale and the MaddAddam trilogy, whose 'speculative fiction' projects present-day politics and biotech into chillingly plausible futures. She is among the most influential living writers of dystopia.",
       "signature": "Rigorously extrapolated worlds built only from things humanity has already done, narrated through sharp, interior female perspectives. Atwood layers ecological and theocratic anxieties beneath precise, ironic prose.",
       "works": [
@@ -13635,7 +13635,7 @@
       "category": "Genre pillars / crossover",
       "name": "Orson Scott Card",
       "description": "Author of Ender's Game",
-      "meta": "b. 1951 · American",
+      "meta": "b. 1951 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Won back-to-back Hugo and Nebula awards for Ender's Game and its sequel Speaker for the Dead, a feat unmatched at the time. Ender's Game became a defining military-SF and coming-of-age classic.",
       "signature": "Gifted children under extreme moral pressure, empathy versus violence, and the ethics of understanding the enemy. Clear, propulsive prose with strong emphasis on character interiority and guilt.",
       "works": [
@@ -13687,7 +13687,7 @@
       "category": "Genre pillars / crossover",
       "name": "Dan Simmons",
       "description": "Author of the Hyperion Cantos",
-      "meta": "b. 1948 · American",
+      "meta": "1948-2026 · American · died 21 February 2026, found at the V-29 library re-check of September 2026",
       "knownFor": "Won the Hugo for Hyperion, a literary space opera structured as interlocking pilgrim tales. He moves fluidly across science fiction, horror, and historical fiction.",
       "signature": "Genre-blending ambition, dense literary allusion (especially to Keats), and large-canvas narratives that fuse beauty with cosmic dread. Structural experimentation and erudition layered over pulpy momentum.",
       "works": [
@@ -13739,7 +13739,7 @@
       "category": "Genre pillars / crossover",
       "name": "Connie Willis",
       "description": "Record-setting Hugo and Nebula winner",
-      "meta": "b. 1945 · American",
+      "meta": "b. 1945 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "One of the most decorated writers in the field, with more Hugos and Nebulas for fiction than any other author. Best known for her Oxford time-travel novels.",
       "signature": "Time-traveling historians, screwball-comedy timing colliding with genuine tragedy, and meticulous historical research. A tonal range from farce to grief, often within the same book.",
       "works": [
@@ -13791,7 +13791,7 @@
       "category": "Genre pillars / crossover",
       "name": "C.J. Cherryh",
       "description": "Builder of the vast Alliance-Union universe",
-      "meta": "b. 1942 · American",
+      "meta": "b. 1942 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Hugo-winning author of dense, anthropologically rigorous space opera and the long-running Foreigner series. A SFWA Grand Master known for sustained worldbuilding across decades. Also known for the Alliance-Union universe.",
       "signature": "Deep-immersion alien psychology, political and linguistic complexity, and protagonists navigating cultures whose logic differs from our own. A tight, sometimes disorienting close-third style that drops readers inside unfamiliar minds.",
       "works": [
@@ -13843,7 +13843,7 @@
       "category": "Genre pillars / crossover",
       "name": "Lois McMaster Bujold",
       "description": "Creator of the Vorkosigan Saga",
-      "meta": "b. 1949 · American",
+      "meta": "b. 1949 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Among the most Hugo-decorated novelists ever, celebrated for the Vorkosigan Saga and the Five Gods fantasy world. A SFWA Grand Master known for character-driven adventure.",
       "signature": "A disabled, hyper-competent underdog hero (Miles Vorkosigan); plots driven by character and ethics rather than gadgetry; and a blend of wit, biology-as-destiny, and emotional depth. Reputation, identity, and improvisation under pressure recur throughout.",
       "works": [
@@ -13999,7 +13999,7 @@
       "category": "Warhammer / Black Library",
       "name": "Dan Abnett",
       "description": "Defining voice of Warhammer 40,000 fiction",
-      "meta": "b. 1965 · British",
+      "meta": "b. 1965 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "The most prominent Black Library author, creator of Gaunt's Ghosts and writer of the pivotal Horus Heresy opener. He also writes widely in comics and original SF.",
       "signature": "Ground-level military drama amid galactic grimdark, ensemble casts under relentless pressure, and a knack for making the Imperium's vastness feel human. Cinematic action paired with strong characterization.",
       "works": [
@@ -14051,7 +14051,7 @@
       "category": "Warhammer / Black Library",
       "name": "Aaron Dembski-Bowden",
       "description": "Black Library's voice of tragic traitors",
-      "meta": "b. 1984 · British",
+      "meta": "b. 1984 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A leading Horus Heresy and Warhammer 40,000 author known for sympathetic, doomed antagonists, especially the Night Lords and Word Bearers. His work gave the setting much of its tragic depth.",
       "signature": "First-person intimacy with villains, fatalism and loyalty corrupted, and lyrical, character-focused prose within grimdark war. Empathy for the damned and a melancholy register set him apart.",
       "works": [
@@ -14103,7 +14103,7 @@
       "category": "Warhammer / Black Library",
       "name": "Graham McNeill",
       "description": "Ultramarines and Horus Heresy cornerstone novelist.",
-      "meta": "b. 1971 · British (Scottish)",
+      "meta": "b. 1971 · British (Scottish) · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A foundational Black Library author best known for the Ultramarines series following Uriel Ventris and for several pivotal Horus Heresy novels. His New York Times bestselling work helped define the modern tone of Warhammer 40,000 fiction.",
       "signature": "Heroic but flawed Space Marine protagonists, dense lore-building, and a fascination with corruption, fate, and the fall of idealistic orders. He balances large-scale war spectacle with intimate character study.",
       "works": [
@@ -14155,7 +14155,7 @@
       "category": "Warhammer / Black Library",
       "name": "William King",
       "description": "Creator of Gotrek and Felix; early 40K and Fantasy voice.",
-      "meta": "b. 1959 · British (Scottish)",
+      "meta": "b. 1959 · British (Scottish) · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Best known as the originator of the long-running Gotrek and Felix series in Warhammer Fantasy and for early Space Wolf novels in 40,000. He was one of the writers who established Black Library's house style in the 1990s.",
       "signature": "Sword-and-sorcery adventure energy, an enduring odd-couple duo dynamic, and pulpy momentum. He favors lean, fast-moving action driven by loyalty, doom-oaths, and dark humor.",
       "works": [
@@ -14207,7 +14207,7 @@
       "category": "Warhammer / Black Library",
       "name": "Gav Thorpe",
       "description": "Prolific Dark Angels and Eldar chronicler.",
-      "meta": "b. 1969 · British",
+      "meta": "b. 1969 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A longtime Games Workshop developer turned author, known for his Dark Angels novels, Last Chancers series, and extensive Aeldari fiction. He shaped much of the background lore he later wrote into stories.",
       "signature": "Deep engagement with faction secrets and guilt, especially the Dark Angels' hidden shame, plus sweeping Eldar mysticism. He moves comfortably between grim penal-legion grit and ancient alien grandeur.",
       "works": [
@@ -14253,7 +14253,7 @@
       "category": "Warhammer / Black Library",
       "name": "Sandy Mitchell",
       "description": "Creator of cowardly Commissar Ciaphas Cain.",
-      "meta": "b. 1958 · British",
+      "meta": "b. 1958 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Pen name of Alex Stewart, best known for the Ciaphas Cain series, a comedic and beloved counterpoint to grimdark 40K. The self-serving hero who keeps accidentally becoming a legend is a fan favorite.",
       "signature": "First-person unreliable memoir framing, dry wit, and satire of heroic propaganda. He wrings comedy and warmth from a galaxy usually played utterly straight, while still delivering real stakes.",
       "works": [
@@ -14305,7 +14305,7 @@
       "category": "Warhammer / Black Library",
       "name": "Chris Wraight",
       "description": "Master of Space Wolves and the Imperium's machinery.",
-      "meta": "b. 1971 · British",
+      "meta": "b. 1971 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A leading modern Black Library author known for Space Wolves, White Scars, and politically intricate novels of Terra and the Inquisition. His Horus Heresy and Siege of Terra contributions are highly regarded.",
       "signature": "Atmospheric prose, deep interest in how the Imperium actually functions as a bureaucracy and faith, and culturally rich Space Marine chapters. He brings melancholy and gravitas to institutional dread.",
       "works": [
@@ -14357,7 +14357,7 @@
       "category": "Warhammer / Black Library",
       "name": "Guy Haley",
       "description": "Sweeping 40K lore architect and Dante chronicler.",
-      "meta": "b. 1973 · British",
+      "meta": "b. 1973 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "An exceptionally prolific Black Library author known for Blood Angels novels, the Dawn of Fire series, and major Horus Heresy and Primaris-era lore. He often handles franchise-defining setting shifts.",
       "signature": "Grand scope, hard worldbuilding rigor, and a gift for making vast metaplot legible. He frequently writes the heavy-lifting books that move the entire setting forward.",
       "works": [
@@ -14409,7 +14409,7 @@
       "category": "Warhammer / Black Library",
       "name": "James Swallow",
       "description": "Blood Angels, Sisters of Battle, and Garro author.",
-      "meta": "b. 1970 · British",
+      "meta": "b. 1970 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A New York Times bestselling author known for Blood Angels novels, the Sisters of Battle, and the Horus Heresy Garro storyline that grew from audio dramas into novels. He writes widely across tie-in fiction beyond Warhammer.",
       "signature": "Loyalty under impossible pressure, faith versus duty, and brisk thriller pacing. His Garro—a knight torn between honor and treason—became one of the Heresy's most resonant figures.",
       "works": [
@@ -14461,7 +14461,7 @@
       "category": "Warhammer / Black Library",
       "name": "Ben Counter",
       "description": "Grey Knights and Soul Drinkers novelist.",
-      "meta": "b. 1976 · British",
+      "meta": "b. 1976 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A prominent earlier-generation Black Library author known for the Soul Drinkers series and Grey Knights novels, plus key Horus Heresy contributions. He helped popularize 40K's daemon-hunting and renegade-Marine fiction.",
       "signature": "Visceral horror, theological dread, and Space Marines pushed toward heresy or damnation. He leans into the genuinely monstrous and the cost of fighting the warp.",
       "works": [
@@ -14513,7 +14513,7 @@
       "category": "Star Wars Expanded Universe (Legends)",
       "name": "Timothy Zahn",
       "description": "Architect of the Expanded Universe; created Thrawn.",
-      "meta": "b. 1951 · American",
+      "meta": "b. 1951 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "His Thrawn Trilogy revived Star Wars fiction in 1991 and effectively launched the modern Expanded Universe. He created Grand Admiral Thrawn and Mara Jade, characters who became central to the franchise.",
       "signature": "Tactical, chess-like villainy, competent ensembles, and a respect for the original films' tone. He builds suspense from intelligence and strategy rather than mere firepower.",
       "works": [
@@ -14565,7 +14565,7 @@
       "category": "Star Wars Expanded Universe (Legends)",
       "name": "Michael A. Stackpole",
       "description": "Defined Rogue Squadron and X-wing fiction.",
-      "meta": "b. 1957 · American",
+      "meta": "b. 1957 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Best known for the X-Wing novels centered on Rogue Squadron and for the I, Jedi novel. He brought a starfighter-pilot, ground-level military perspective to the Expanded Universe.",
       "signature": "Ensemble pilot camaraderie, dogfight tactics, and espionage against a still-dangerous Empire. He grounds Star Wars in the working soldiers rather than only Jedi and royalty.",
       "works": [
@@ -14669,7 +14669,7 @@
       "category": "Star Wars Expanded Universe (Legends)",
       "name": "Kevin J. Anderson",
       "description": "Jedi Academy trilogy and prolific EU builder.",
-      "meta": "b. 1962 · American",
+      "meta": "b. 1962 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Known for the Jedi Academy Trilogy, the Young Jedi Knights series with Rebecca Moesta, and the Tales anthologies he edited. He was one of the most productive authors expanding the 1990s EU.",
       "signature": "Wide-canvas worldbuilding, superweapons and ancient threats, and accessible adventure pacing. He often introduces new institutions and lore that later writers build upon.",
       "works": [
@@ -14721,7 +14721,7 @@
       "category": "Star Wars Expanded Universe (Legends)",
       "name": "Karen Traviss",
       "description": "Military SF voice of the Mandalorians and clones.",
-      "meta": "b. 1960 · British",
+      "meta": "b. 1960 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A former defence journalist who brought gritty, soldier's-eye realism to Star Wars, Traviss gave the clone troopers and Mandalorian culture (including the Mando'a language) unprecedented depth. Her Republic Commando and Imperial Commando novels remain touchstones for fans of military tie-in fiction.",
       "signature": "Tight third-person from the boots-on-the-ground perspective, intense loyalty-and-honor themes, and invented cultures with their own languages and codes. She is unafraid to question the moral choices of her franchise's heroes.",
       "works": [
@@ -14773,7 +14773,7 @@
       "category": "Star Wars Expanded Universe (Legends)",
       "name": "Drew Karpyshyn",
       "description": "Sith-centric novelist and acclaimed BioWare game writer.",
-      "meta": "b. 1971 · Canadian",
+      "meta": "b. 1971 · Canadian · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Lead writer on landmark BioWare games (Knights of the Old Republic, Mass Effect), Karpyshyn translated that sensibility into Star Wars fiction, most famously the Darth Bane trilogy chronicling the Rule of Two. His work shaped how fans understand Sith philosophy.",
       "signature": "Morally complex villains as protagonists, ruthless ambition, and lean plot-driven prose. He excels at making the dark side seductive and internally logical.",
       "works": [
@@ -14825,7 +14825,7 @@
       "category": "Star Wars Expanded Universe (Legends)",
       "name": "Matthew Stover",
       "description": "Literary, philosophical heavyweight of Star Wars novels.",
-      "meta": "b. 1962 · American",
+      "meta": "b. 1962 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Widely regarded as one of the finest prose stylists in Star Wars fiction, Stover wrote the acclaimed novelization of Revenge of the Sith and the dark Jedi novel Shatterpoint. His books bring genuine philosophical weight to the saga.",
       "signature": "Muscular, introspective prose, meditations on violence and morality, and protagonists wrestling with their own darkness. He treats pulp material with literary seriousness.",
       "works": [
@@ -14877,7 +14877,7 @@
       "category": "Star Wars Expanded Universe (Legends)",
       "name": "James Luceno",
       "description": "Master of Star Wars continuity and backstory.",
-      "meta": "b. 1947 · American",
+      "meta": "b. 1947 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Luceno is the Expanded Universe's great connector, weaving disparate threads into coherent continuity, most notably in Darth Plagueis and the Darth Vader novel Dark Lord. He gave shape to the saga's hidden histories.",
       "signature": "Dense interlocking continuity, political intrigue, and richly detailed villain backstories. He fills the gaps between films with plausible, lore-rich connective tissue.",
       "works": [
@@ -14929,7 +14929,7 @@
       "category": "Star Wars Expanded Universe (Legends)",
       "name": "Troy Denning",
       "description": "Epic-scale architect of post-film EU sagas.",
-      "meta": "b. 1958 · American",
+      "meta": "b. 1958 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A prolific shared-universe veteran, Denning helped steer the major multi-author Star Wars sagas, capping the New Jedi Order and co-driving Legacy of the Force and Fate of the Jedi. He is known for high-stakes galactic epics.",
       "signature": "Sweeping ensemble casts, war and political collapse, and a willingness to kill major characters. He handles large interconnected plots and morally fraught turns.",
       "works": [
@@ -14981,7 +14981,7 @@
       "category": "Star Wars Expanded Universe (Legends)",
       "name": "R.A. Salvatore",
       "description": "Fantasy bestseller who killed Chewbacca.",
-      "meta": "b. 1959 · American",
+      "meta": "b. 1959 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Best known as the creator of Drizzt Do'Urden in the Forgotten Realms, Salvatore wrote the New Jedi Order opener Vector Prime, in which the controversial death of Chewbacca launched a darker era of Star Wars fiction.",
       "signature": "Kinetic, choreographed action sequences and brooding outsider heroes. His fast, accessible adventure prose drives momentum above all.",
       "works": [
@@ -15033,7 +15033,7 @@
       "category": "Other tie-in universes",
       "name": "Peter David",
       "description": "Prolific comics and Star Trek novelist.",
-      "meta": "b. 1956 · American",
+      "meta": "b. 1956 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "An enormously prolific author across comics and tie-in fiction, David is celebrated for his Star Trek novels, especially the Star Trek: New Frontier series he created, and a legendary run on Marvel's The Incredible Hulk.",
       "signature": "Sharp wit, snappy dialogue, and irreverent humor balanced with genuine emotional stakes. He builds strong ensemble casts and lets character voice lead.",
       "works": [
@@ -15085,7 +15085,7 @@
       "category": "Other tie-in universes",
       "name": "Diane Duane",
       "description": "Star Trek and Young Wizards novelist.",
-      "meta": "b. 1952 · American",
+      "meta": "b. 1952 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Duane is acclaimed for her Star Trek novels, including the Rihannsu series that fleshed out Romulan culture, and for her long-running Young Wizards YA fantasy series. She brought intellectual ambition to media tie-ins.",
       "signature": "Linguistically and culturally rich world-building, optimistic ethics, and wizardry framed as science and responsibility. She treats alien and magical systems with rigorous logic.",
       "works": [
@@ -15137,7 +15137,7 @@
       "category": "Other tie-in universes",
       "name": "Brian Herbert",
       "description": "Co-author and steward of the Dune saga.",
-      "meta": "b. 1947 · American",
+      "meta": "b. 1947 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Son of Frank Herbert, Brian co-wrote (with Kevin J. Anderson) the extensive prequel and sequel Dune novels that expanded his father's universe, drawing on Frank's notes. He is the principal steward of the Dune franchise.",
       "signature": "Large-scale galactic intrigue, prequel backstory-filling, and accessible plot-forward storytelling within the Dune mythos. The work prioritizes expansion and connection over his father's density.",
       "works": [
@@ -15189,7 +15189,7 @@
       "category": "Other tie-in universes",
       "name": "Christie Golden",
       "description": "Go-to novelist for Warcraft and StarCraft.",
-      "meta": "b. 1963 · American",
+      "meta": "b. 1963 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A leading Blizzard tie-in author, Golden wrote numerous Warcraft, World of Warcraft, and StarCraft novels, and also contributed major Star Wars and Star Trek fiction. She is prolific across multiple game and screen universes.",
       "signature": "Strong character interiority, emotional arcs grounded in established lore, and faithful expansion of game canon. She humanizes franchise figures and bridges game events.",
       "works": [
@@ -15241,7 +15241,7 @@
       "category": "YA / crossover",
       "name": "Suzanne Collins",
       "description": "Author of The Hunger Games trilogy.",
-      "meta": "b. 1962 · American",
+      "meta": "b. 1962 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Collins ignited the modern YA dystopia boom with The Hunger Games, a global phenomenon and film franchise. Her work brought sharp anti-war and media-critique themes to mass-market young-adult fiction.",
       "signature": "First-person present-tense urgency, brutal moral dilemmas, and critique of violence-as-spectacle and authoritarian control. She refuses easy heroism and tidy victories.",
       "works": [
@@ -15293,7 +15293,7 @@
       "category": "YA / crossover",
       "name": "Veronica Roth",
       "description": "Author of the Divergent dystopian series.",
-      "meta": "b. 1988 · American",
+      "meta": "b. 1988 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Roth broke out with Divergent, a bestselling YA dystopia and film franchise built around a faction-divided society. She became a defining voice of the post-Hunger Games YA wave before moving into adult SF.",
       "signature": "Identity and self-determination under rigid social systems, fast-paced action, and morally tested young protagonists. Her later work leans into darker, more adult speculative ideas.",
       "works": [
@@ -15345,7 +15345,7 @@
       "category": "YA / crossover",
       "name": "James Dashner",
       "description": "Wrote the dystopian YA Maze Runner series.",
-      "meta": "b. 1972 · American",
+      "meta": "b. 1972 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Dashner is best known for The Maze Runner and its sequels, a globally bestselling YA dystopia that became a major film franchise. He helped define the post-Hunger Games wave of high-concept survival-thriller YA.",
       "signature": "Fast, cliffhanger-driven plotting built around teenagers trapped in a deadly engineered environment, with mysteries doled out slowly and an invented in-world slang. He favors propulsive action and amnesiac protagonists who must reconstruct the truth.",
       "works": [
@@ -15397,7 +15397,7 @@
       "category": "YA / crossover",
       "name": "Philip Reeve",
       "description": "Created the steampunk Mortal Engines world.",
-      "meta": "b. 1966 · British",
+      "meta": "b. 1966 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Reeve is best known for the Mortal Engines quartet, a richly imagined far-future world of mobile predator cities, later adapted to film. He is a leading voice in inventive British YA science fiction and steampunk.",
       "signature": "Baroque world-building, dark wit, and morally complex characters set against grand, melancholy backdrops of decline and reinvention. He blends adventure with elegiac themes about civilization, technology, and loss.",
       "works": [
@@ -15449,7 +15449,7 @@
       "category": "YA / crossover",
       "name": "Cory Doctorow",
       "description": "Writes activist near-future tech dystopias.",
-      "meta": "b. 1971 · Canadian-British",
+      "meta": "b. 1971 · Canadian-British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Doctorow is known for politically charged near-future SF about surveillance, hacking, and digital rights, anchored by the bestselling YA novel Little Brother. A prominent blogger and copyright activist, he bridges fiction and tech advocacy.",
       "signature": "Tech-literate, didactic narratives where savvy young protagonists fight state and corporate overreach, often with real working details of cryptography and security. He champions open culture and embeds explicit civil-liberties argument in his plots.",
       "works": [
@@ -15501,7 +15501,7 @@
       "category": "YA / crossover",
       "name": "Scott Westerfeld",
       "description": "Wrote the Uglies and Leviathan series.",
-      "meta": "b. 1963 · American",
+      "meta": "b. 1963 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Westerfeld is best known for the Uglies series, a sharp YA dystopia about enforced beauty, and for the Leviathan steampunk trilogy. He is a versatile, design-conscious figure in modern YA science fiction.",
       "signature": "High-concept premises that interrogate conformity, body image, and propaganda through tight adventure plots, often paired with invented vocabulary. His Leviathan books fuse alternate-history WWI with biotech-versus-machine worldbuilding and illustration.",
       "works": [
@@ -21391,7 +21391,7 @@
       "category": "Hard SF",
       "name": "Jeff VanderMeer",
       "description": "New Weird and ecological horror; Southern Reach trilogy and the Area X transformation.",
-      "meta": "b. 1968 · American",
+      "meta": "b. 1968 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "The Southern Reach novels, beginning with Annihilation in 2014, which took the Nebula Award for Best Novel and the Shirley Jackson Award that year. VanderMeer is the central figure of the New Weird and of what is now called ecological or climate weird: fiction in which the environment is not a setting but an agent with its own indifferent purposes. He returned to Area X with Absolution in 2024, a decade after the original trilogy.",
       "signature": "The refusal to explain. Area X is never decoded, and the novels treat that refusal as the point rather than as suspense — the biologist's transformation is described in exact sensory detail and never resolved into a mechanism. Bureaucratic language is used as horror: reports, debriefings and job titles press against something that has no interest in being reported. Landscape is rendered with a naturalist's precision, which is what makes its wrongness land.",
       "works": [
@@ -21443,7 +21443,7 @@
       "category": "Hard SF",
       "name": "Emily St. John Mandel",
       "description": "Literary post-pandemic and time-slip SF; Station Eleven and Sea of Tranquility.",
-      "meta": "b. 1979 · Canadian",
+      "meta": "b. 1979 · Canadian · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Station Eleven (2014), a post-pandemic novel built around a travelling Shakespeare company, which won the Arthur C. Clarke Award in 2015 and was a National Book Award finalist in 2014. Mandel writes speculative fiction that the literary mainstream reads as literary fiction and the genre reads as science fiction, and Sea of Tranquility (2022) makes that doubleness its subject by putting a moon colony, a time-travel investigation and a novelist on a pandemic book tour in the same structure.",
       "signature": "Braided timelines that converge on an object or a phrase rather than on a plot beat — a paperweight, a line of dialogue, a comic book nobody else has read. The catastrophe happens offstage and early; the novel is about the decades on either side of it. Her prose is quiet and declarative, and she trusts a reader to hold four periods at once without signposting, which is why the recognitions land as recognitions rather than as reveals.",
       "works": [
@@ -21764,7 +21764,7 @@
       "category": "Hard SF",
       "name": "Richard K. Morgan",
       "description": "Altered Carbon and the Takeshi Kovacs sequence; noir, body-swapping, and political rage.",
-      "meta": "b. 1965 · British",
+      "meta": "b. 1965 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Altered Carbon (2002), which won the Philip K. Dick Award and set the terms for two decades of body-swapping noir; Market Forces (2004), which took the John W. Campbell Memorial Award; and Black Man — published in the United States as Thirteen — which won the Arthur C. Clarke Award in 2008. Morgan writes the hard-boiled end of cyberpunk: the technology is settled, unremarkable and owned by someone else, and the story is about what that does to the people underneath it.",
       "signature": "Consciousness as portable data, and the political rage that follows from it — if a body is a sleeve, then who can afford a good one is the whole of the social order, and his novels never let that observation become a metaphor. First-person voice with a soldier's diction and a cynic's timing. The violence is explicit and consequential rather than choreographed, and the plots run on the noir engine: a hired investigator, a client who is lying, and an answer that implicates the system rather than a culprit.",
       "works": [
@@ -21816,7 +21816,7 @@
       "category": "Hard SF",
       "name": "Yoon Ha Lee",
       "description": "Machineries of Empire; calendar-based physics, identity, and mathematically rigorous space opera.",
-      "meta": "b. 1979 · American",
+      "meta": "b. 1979 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "The Machineries of Empire trilogy, opening with Ninefox Gambit (2016), which won the Locus Award for Best First Novel in 2017 and was a finalist for the Hugo, Nebula and Clarke awards. Lee builds a space opera whose physics is enforced by consensus: exotic weapons work only where the population keeps the imperial calendar, so heresy is a materials problem and a massacre can be an engineering decision. He also writes for younger readers — Dragon Pearl (2019) took a Locus Award and a Mythopoeic Award — and Moonstorm (2024) won the Locus Award for Best Young Adult Book.",
       "signature": "Mathematics as worldbuilding rather than as decoration. The calendrical system is a real formal object with real consequences, and the reader is asked to hold it rather than to admire it. Command is depicted as arithmetic performed on people; the trilogy's central relationship is between an officer and the undead general installed in her head, which lets him write strategy and intimacy in the same scenes. Korean mythology and imperial history run under the surface without being explained to the tourist.",
       "works": [
@@ -21868,7 +21868,7 @@
       "category": "Hard SF",
       "name": "Kameron Hurley",
       "description": "The Stars Are Legion and the Worldbreaker Saga; body horror, generation ships, and radical worldbuilding.",
-      "meta": "American · active from the late 2000s",
+      "meta": "American · active from the late 2000s · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "The Stars Are Legion (2017), a space opera set inside decaying organic worldships crewed entirely by women, and The Light Brigade (2019), a corporate-military novel in which soldiers are broken into light and reassembled, and one of them starts arriving out of order. Hurley also writes criticism: her essay 'We Have Always Fought' won the Hugo Award for Best Related Work in 2014, and it is one of the few pieces of genre criticism that changed how a subsequent decade of military SF was argued about.",
       "signature": "Bodies as terrain and as infrastructure. Ships are grown, gestated and diseased; wounds are the setting's economy rather than its shock effect; reproduction is logistics. She writes violence from inside the tiredness of the people doing it, and her militaries are always somebody's business proposition. Structurally she favours the disordered timeline — The Light Brigade's soldier experiences the war out of sequence, and the sequence is the argument.",
       "works": [
@@ -30392,7 +30392,7 @@
       "category": "Hard SF",
       "name": "Daniel Suarez",
       "description": "Near-future technothrillers whose subject is autonomous systems and the institutions that deploy them.",
-      "meta": "American · active from 2006",
+      "meta": "American · active from 2006 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Suarez writes the near end of the genre — distributed systems, autonomous weapons and asteroid mining treated as business propositions with procurement, liability and deniability attached. Daemon and its sequel imagine a decentralised system outliving its author and reorganising an economy around itself; Kill Decision is the reference text for autonomous weapons as a private capability.",
       "signature": "Procedural specificity about how things are actually bought, built and operated, with the institutional plumbing left visible. His antagonists are usually structures rather than people, and his protagonists are specialists whose competence is narrow and stated. The prose is functional and the pacing is thriller-shaped, which is what carries the technical material.",
       "works": [
@@ -30552,7 +30552,7 @@
       "category": "Screen & television SF",
       "name": "Ronald D. Moore",
       "description": "Showrunner whose reimagined Battlestar Galactica made serialised, politically serious SF television commercially viable.",
-      "meta": "American · active from 1989",
+      "meta": "American · active from 1989 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "After a long apprenticeship on Star Trek, Moore's Battlestar Galactica rebuilt a camp premise as a sustained argument about occupation, legitimacy and military rule, and For All Mankind applies the same method to an alternate space race that keeps going.",
       "signature": "A stated set of institutional rules and a season spent breaking them under pressure, with the political cost tracked on named characters. He favours documentary camera grammar and refuses tidy resolutions, and his series characteristically ask what a civilian government is for when the military is the only functioning institution.",
       "works": [
@@ -30592,7 +30592,7 @@
       "category": "Screen & television SF",
       "name": "J. Michael Straczynski",
       "description": "Wrote a five-year television arc in advance and proved that serialised science fiction could be planned rather than accumulated.",
-      "meta": "American · active from 1980",
+      "meta": "American · active from 1980 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Babylon 5 was conceived as a novel for television with a beginning, middle and end, at a time when episodic reset was the norm, and its planned arc, budgeted production and political worldbuilding changed what a genre series could attempt.",
       "signature": "Structural pre-commitment — plot turns seeded seasons ahead and paid off on schedule — combined with a willingness to let political and religious institutions be genuinely load-bearing. The dialogue is heightened and declarative; the architecture is the achievement.",
       "works": [
@@ -30632,7 +30632,7 @@
       "category": "Screen & television SF",
       "name": "Charlie Brooker",
       "description": "Anthology writer whose near-future premises are consumer products with terms and conditions.",
-      "meta": "British · active from 2000",
+      "meta": "British · active from 2000 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Black Mirror revived the speculative anthology and located its dread in interfaces, ratings, subscriptions and the ordinary consumer decisions that precede them. Its best episodes are structured around a service somebody has agreed to use.",
       "signature": "A premise that is a product, introduced through its onboarding, and a protagonist who consents to it for reasons the audience shares. The horror arrives through the terms rather than through a malfunction, which is what distinguishes the strong episodes from the weak ones.",
       "works": [
@@ -30672,7 +30672,7 @@
       "category": "Screen & television SF",
       "name": "Alex Garland",
       "description": "Novelist turned writer-director whose films treat a speculative premise as an experiment with a control group.",
-      "meta": "British · active from 1996",
+      "meta": "British · active from 1996 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Ex Machina stages an artificial-intelligence question as a bounded test with three participants and an explicit protocol; Annihilation adapts VanderMeer by keeping the refusal to explain; Devs works determinism as an institutional research programme.",
       "signature": "Small casts, enclosed locations, and a premise examined under laboratory conditions with the observer inside the experiment. He is unusually willing to end on the unresolved position, and his films are structured as arguments with a stated method rather than as journeys.",
       "works": [
@@ -30712,7 +30712,7 @@
       "category": "Screen & television SF",
       "name": "Denis Villeneuve",
       "description": "Director whose science fiction is built on duration, silence and the deliberate withholding of explanation.",
-      "meta": "Canadian · active from 1998",
+      "meta": "Canadian · active from 1998 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Arrival, which took the Hugo Award for Best Dramatic Presentation, Long Form in 2017, and the Dune films, which demonstrated that a dense literary property could be adapted without compression into exposition.",
       "signature": "Long takes, an emphasis on scale registered through human reaction, and sound design carrying information the dialogue refuses to. He characteristically shows a process — a translation, a landing, a harvest — at its real duration, which is where the awe in his films is manufactured.",
       "works": [
@@ -30752,7 +30752,7 @@
       "category": "Screen & television SF",
       "name": "Naren Shankar",
       "description": "Showrunner of The Expanse, and a working example of a scientist inside a writers' room.",
-      "meta": "American · active from 1993",
+      "meta": "American · active from 1993 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "The Expanse, whose adaptation kept the novels' orbital mechanics, thrust gravity and factional politics rather than smoothing them, and which won the Hugo Award for Best Dramatic Presentation, Short Form in 2017 and again in 2023.",
       "signature": "Technical constraint used as dramatic constraint — burns, delta-v and communication delay shape the plotting rather than decorating it — with the political material carried by a rotating ensemble in which each faction is given its best case.",
       "works": [
@@ -30792,7 +30792,7 @@
       "category": "Screen & television SF",
       "name": "Dan Erickson",
       "description": "Created the workplace as a science-fictional object, with one premise and no explanation.",
-      "meta": "American · active from 2022",
+      "meta": "American · active from 2022 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Severance, which takes a single speculative surgical procedure — the partition of work and non-work memory — and refuses to explain anything else about the company, the world or the purpose of the work being done.",
       "signature": "An invented institution rendered through its furniture, its stationery and its incentive schemes, with the speculative element restricted to exactly one intervention. The comedy and the dread come from the same source, which is the corporate register applied to an existential situation.",
       "works": [
@@ -30854,7 +30854,7 @@
       "category": "Comics & graphic SF",
       "name": "Alan Moore",
       "description": "Brought formal rigour and political seriousness to comics, and has spent decades objecting to what was done with the results.",
-      "meta": "b. 1953 · British",
+      "meta": "b. 1953 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Watchmen's nine-panel grid and its interlocking apparatus of documents and back-matter; V for Vendetta's argument about the state; and a body of work that treats the comics page as a structure to be composed rather than a sequence to be filled. His public disputes with publishers over ownership and adaptation are part of the record.",
       "signature": "Formal constraint used as meaning — symmetrical issues, repeated grids, text pieces that reframe the images around them — and a refusal to let a genre premise stay comfortable. The prose in his captions is dense and deliberately literary, and the structure is always doing an argument's work.",
       "works": [
@@ -30894,7 +30894,7 @@
       "category": "Comics & graphic SF",
       "name": "Katsuhiro Otomo",
       "description": "Manga artist and director whose Akira reset what the medium's science fiction could look like.",
-      "meta": "b. 1954 · Japanese",
+      "meta": "b. 1954 · Japanese · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Akira, both the long manga and the 1988 film, whose density of destruction, infrastructure and crowd made comparable Western work look sparse, and whose influence on animation, comics and film design has been continuous since.",
       "signature": "Enormous crowd and architecture detail, kinetic destruction rendered with engineering interest, and a political frame — reconstruction, protest, state experiment — that the spectacle is mounted on rather than escaping from.",
       "works": [
@@ -30934,7 +30934,7 @@
       "category": "Comics & graphic SF",
       "name": "Tsutomu Nihei",
       "description": "Draws structures rather than stories, and lets the structure carry the science fiction.",
-      "meta": "b. 1971 · Japanese",
+      "meta": "b. 1971 · Japanese · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Blame!, an almost wordless progress through a megastructure of unknown extent, and Knights of Sidonia, which puts a conventional crew story inside an inherited ship nobody fully understands. His architectural training is visible on every page.",
       "signature": "Vast interior spaces drawn with architectural discipline, minimal dialogue, and a refusal to explain the system the characters are inside. The reader's disorientation is engineered rather than incidental, and it is the point.",
       "works": [
@@ -30974,7 +30974,7 @@
       "category": "Games & interactive SF",
       "name": "Warren Spector",
       "description": "Designer who argued that a science-fiction setting should be a system the player can solve in unexpected ways.",
-      "meta": "American · active from 1983",
+      "meta": "American · active from 1983 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Deus Ex, whose systemic design let players resolve situations through combat, stealth, conversation or engineering, and whose conspiratorial near-future has aged into a reference point. He is a central figure in the immersive-simulation tradition that runs from Ultima Underworld to the present.",
       "signature": "Multiple valid solutions built from interacting systems rather than from authored branches, with the setting's politics expressed through what those systems permit. He characteristically gives the player a stated objective and no approved method.",
       "works": [
@@ -31014,7 +31014,7 @@
       "category": "Games & interactive SF",
       "name": "Ken Levine",
       "description": "Built games whose settings are arguments, and whose central mechanic is the player noticing they have been complying.",
-      "meta": "American · active from 1994",
+      "meta": "American · active from 1994 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "System Shock 2 and BioShock, which use the recovered-audio-log form to reconstruct a failed society, and whose most discussed moment is a designed demonstration that the player has been following instructions without noticing.",
       "signature": "A ruined place reconstructed from its own records, an ideology given its best case before it is dismantled, and a mechanical turn that implicates the player rather than the protagonist. The audio log as an exposition form is largely his legacy, for better and worse.",
       "works": [
@@ -31054,7 +31054,7 @@
       "category": "Games & interactive SF",
       "name": "Yoko Taro",
       "description": "Designs games whose structure is the argument, and which require multiple completions to be read at all.",
-      "meta": "b. 1970 · Japanese",
+      "meta": "b. 1970 · Japanese · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "NieR and NieR: Automata, post-apocalyptic works in which repeated playthroughs reveal different perspectives on the same events, and whose final act asks the player to give something up permanently.",
       "signature": "Structural repetition that reframes rather than repeats, genre-switching within a single work, and endings that use the save file itself as a mechanism. The melancholy is consistent and the method is unusually formal for the medium.",
       "works": [
@@ -31094,7 +31094,7 @@
       "category": "Criticism & scholarship",
       "name": "Darko Suvin",
       "description": "Supplied the definition of the genre that academic criticism has argued with ever since.",
-      "meta": "Yugoslav-born Canadian critic · active from the 1960s",
+      "meta": "Yugoslav-born Canadian critic · active from the 1960s · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Metamorphoses of Science Fiction, which defines the genre by cognitive estrangement organised around a novum — a novelty whose consequences the text works out rationally — and which set the terms for decades of subsequent scholarship, including the terms used by those rejecting it.",
       "signature": "A formal, prescriptive definition with an explicit boundary against fantasy, defended in detail. The framework's usefulness and its exclusions are both real, and the argument about where the boundary falls is still live.",
       "works": [
@@ -31134,7 +31134,7 @@
       "category": "Criticism & scholarship",
       "name": "John Clute",
       "description": "Built the reference apparatus the field uses to talk about itself.",
-      "meta": "Canadian-British critic · active from the 1960s",
+      "meta": "Canadian-British critic · active from the 1960s · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Co-editing The Encyclopedia of Science Fiction, whose successive editions and online form are the field's standard reference, and a body of reviewing that invented much of the vocabulary — including terms for narrative shapes the genre had been using without naming.",
       "signature": "Dense, coined, sometimes forbidding critical prose, and an insistence that the genre's structures deserve technical names. The encyclopedia work is collaborative and enormous, and it is why arguments in this field can cite something.",
       "works": [
@@ -31174,7 +31174,7 @@
       "category": "Contemporary",
       "name": "Emily Tesh",
       "description": "Military space opera written as an interrogation of the ideology that produces it.",
-      "meta": "British · active from 2019",
+      "meta": "British · active from 2019 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Some Desperate Glory, which takes the militarised-survivor premise seriously enough to show the indoctrination working, and then follows a protagonist who has to disassemble it from inside.",
       "signature": "A protagonist who is genuinely the product of the system she is in — competent, cruel and sincere — and a plot that refuses to let her be exempted from what she believed. The ideological material is given its full internal coherence before it is challenged.",
       "works": [
@@ -31208,7 +31208,7 @@
       "category": "Contemporary",
       "name": "Sue Burke",
       "description": "Colony fiction in which the indigenous intelligence is a plant and the negotiation is the plot.",
-      "meta": "American · active from 2018",
+      "meta": "American · active from 2018 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Semiosis and its sequel, which run a multi-generational colony narrative in which the dominant intelligence of the planet is botanical, and in which each generation inherits a treaty it did not sign.",
       "signature": "One viewpoint per generation, so that the reader watches institutions and beliefs drift while the non-human party persists unchanged. The biology is worked carefully and the politics follow from it rather than being imposed on it.",
       "works": [
@@ -31248,7 +31248,7 @@
       "category": "Contemporary",
       "name": "Nicola Griffith",
       "description": "Precise, embodied science fiction about biology, class and who is permitted to be competent.",
-      "meta": "b. 1960 · British-American",
+      "meta": "b. 1960 · British-American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Ammonite, a first-contact and survival novel on a world where a virus has left only women alive, which takes the anthropology seriously; and Slow River, a near-future novel of class, water treatment and family firms that won the Nebula Award for Best Novel.",
       "signature": "Physical detail and bodily competence rendered exactly, with technical processes — bioremediation, herding, sewage treatment — given the page time usually reserved for spectacle. Her protagonists are capable in specific, learnable ways.",
       "works": [
@@ -31288,7 +31288,7 @@
       "category": "Contemporary",
       "name": "Charlie Jane Anders",
       "description": "Writes across the science-fiction and fantasy boundary deliberately, and about the people the future breaks.",
-      "meta": "American · active from 2006",
+      "meta": "American · active from 2006 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "All the Birds in the Sky, which sets a magical tradition and an engineering one against each other without letting either win; and The City in the Middle of the Night, a tidally locked world treated as an ecological and political problem.",
       "signature": "Genre boundaries crossed on purpose and commented on, protagonists who are unglamorous and frightened, and settings whose physical conditions do the political work. She is unusually good at communities under strain rather than individuals under threat.",
       "works": [
@@ -31328,7 +31328,7 @@
       "category": "Contemporary",
       "name": "Rivers Solomon",
       "description": "Generation-ship and underwater fiction built on inherited trauma and the institutions that administer it.",
-      "meta": "American · active from 2017",
+      "meta": "American · active from 2017 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "An Unkindness of Ghosts, which runs a plantation's social structure aboard a generation ship and makes the ship's engineering a system of control; and The Deep, which builds a submarine society from the descendants of the drowned.",
       "signature": "Institutional cruelty rendered through procedure rather than through villainy, protagonists whose neurology and embodiment are specific, and a prose register that stays close to the body. The speculative premise is always also a historical argument.",
       "works": [
@@ -31368,7 +31368,7 @@
       "category": "Contemporary",
       "name": "S.B. Divya",
       "description": "Near-future fiction about labour, enhancement and the gig economy of the body.",
-      "meta": "American · active from 2016",
+      "meta": "American · active from 2016 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Machinehood, which imagines a labour market in which human workers dose themselves to compete with machines, and treats the resulting politics as a union question rather than a robot question.",
       "signature": "An engineer's attention to how a system is actually operated, with the speculative technology delivered through work rather than through exposition. Her protagonists are contractors, and their precarity is the setting.",
       "works": [
@@ -31402,7 +31402,7 @@
       "category": "Contemporary",
       "name": "Ned Beauman",
       "description": "Comic near-future fiction about environmental markets and the people who arbitrage them.",
-      "meta": "British · active from 2010",
+      "meta": "British · active from 2010 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Venomous Lumpsucker, which invents an extinction-credit market and follows two people trying to game it, and which won the Arthur C. Clarke Award in 2023.",
       "signature": "Farce structured on a genuinely worked-out policy instrument, with the comedy arising from the instrument's incentives rather than from character. The environmental despair is real and the register is deliberately funny, which is a difficult combination to hold.",
       "works": [
@@ -31436,7 +31436,7 @@
       "category": "Contemporary",
       "name": "Olga Ravn",
       "description": "A workplace novel written as a set of statements, in which the workplace is a starship.",
-      "meta": "Danish · active from 2012",
+      "meta": "Danish · active from 2012 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "The Employees, a novel assembled entirely from numbered witness statements by human and humanoid crew members about objects brought aboard, which was shortlisted for the International Booker Prize.",
       "signature": "Fragmentary, numbered, deliberately incomplete form, with no narrator and no management ever appearing. The science-fictional apparatus is minimal and the effect depends entirely on the arrangement of the statements.",
       "works": [
@@ -31464,7 +31464,7 @@
       "category": "Contemporary",
       "name": "Kaliane Bradley",
       "description": "Time travel administered by a civil service, with a duty of care nobody has thought through.",
-      "meta": "British · active from 2024",
+      "meta": "British · active from 2024 · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "The Ministry of Time, which retrieves people from the past as a government programme and treats their resettlement as a case-work problem with a budget, a line manager and an unresolved ethical position.",
       "signature": "Bureaucratic comedy and genuine romance held together, with the speculative mechanism deliberately unexplained and the institutional response fully specified. The novel's interest is entirely in the administration.",
       "works": [
@@ -31486,7 +31486,7 @@
       "category": "Other tie-in universes",
       "name": "Alan Dean Foster",
       "description": "The novelisation as a craft, practised at length and with unusual seriousness.",
-      "meta": "b. 1946 · American",
+      "meta": "b. 1946 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Novelisations of Star Wars, Alien, Star Trek and many others — often expanding rather than transcribing, and in several cases supplying interior material the films had no room for — alongside his own Humanx Commonwealth sequence.",
       "signature": "Expansion rather than compression: the novelisations characteristically add process, interiority and setting detail, which is what makes some of them the preferred version. His original work is planetary adventure with a consistent ecological interest.",
       "works": [
@@ -31606,7 +31606,7 @@
       "category": "Hard SF",
       "name": "Linda Nagata",
       "description": "Nanotechnology and networked warfare written with an engineer's precision and a soldier's-eye view.",
-      "meta": "b. 1960 · American",
+      "meta": "b. 1960 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "The Nanotech Succession sequence, which treats molecular technology as infrastructure rather than as magic, and The Red trilogy, which imagined algorithmically mediated infantry combat before it was a policy debate.",
       "signature": "Tight third-person on a competent operator, technology delivered through use rather than explanation, and an unusual willingness to let the network be a character with interests. The military material is procedural and unromantic.",
       "works": [
@@ -31646,7 +31646,7 @@
       "category": "Hard SF",
       "name": "Karl Schroeder",
       "description": "Designs settings as engineering proposals, and has published in futures research as well as fiction.",
-      "meta": "b. 1962 · Canadian",
+      "meta": "b. 1962 · Canadian · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Virga, a fullerene balloon world with no gravity and artificial suns, worked out in detail; and Lockstep, which solves interstellar civilisation by synchronising hibernation schedules rather than by inventing a drive.",
       "signature": "One rigorous premise per book, followed until it produces a whole society, with the engineering visible and the politics derived from it. His solutions to standard genre problems are characteristically lateral and specified.",
       "works": [
@@ -31686,7 +31686,7 @@
       "category": "Hard SF",
       "name": "Paul McAuley",
       "description": "A working biologist whose future solar system is grown as much as it is built.",
-      "meta": "b. 1955 · British",
+      "meta": "b. 1955 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "The Quiet War sequence, which sets an inner-system political bloc against outer-system gene-tinkerers and gives both a coherent case; and a career-long interest in biotechnology as landscape rather than as gadget.",
       "signature": "Ecological detail at the level of the organism, political conflict in which neither side is a straw man, and an unglamorous, worked sense of what living in the outer system would involve. The biology is the worldbuilding.",
       "works": [
@@ -31846,7 +31846,7 @@
       "category": "New Wave",
       "name": "M. John Harrison",
       "description": "Writes against the consolations of genre, including the ones in his own earlier books.",
-      "meta": "b. 1945 · British",
+      "meta": "b. 1945 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "The Kefahuchi Tract trilogy, which sets space opera's apparatus beside contemporary failure and refuses to let either explain the other; and a long body of criticism attacking worldbuilding as an end in itself.",
       "signature": "Prose of unusual precision, structures that decline to resolve, and a deliberate refusal of the escape a genre premise offers. He is the field's most articulate internal critic and his fiction enacts the criticism.",
       "works": [
@@ -32046,7 +32046,7 @@
       "category": "Genre pillars / crossover",
       "name": "David Mitchell",
       "description": "Nests genre and literary registers inside one structure, and lets each comment on the others.",
-      "meta": "b. 1969 · British",
+      "meta": "b. 1969 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Cloud Atlas, whose six nested narratives include a corporate-dystopian future and a post-collapse oral testimony, and whose structure makes the genre material load-bearing rather than decorative.",
       "signature": "Formal nesting, ventriloquised voices across centuries, and a recurring interest in predation as the constant across every register. The science-fictional sections are written in their own idiom rather than in a literary novelist's approximation of one.",
       "works": [
@@ -32086,7 +32086,7 @@
       "category": "Dystopia / literary-adjacent",
       "name": "Kazuo Ishiguro",
       "description": "A Nobel laureate whose speculative novels are built entirely on what the narrator has not been told.",
-      "meta": "b. 1954 · British",
+      "meta": "b. 1954 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Never Let Me Go, whose clone narrators describe an institution they never fully name; and Klara and the Sun, narrated by an artificial companion whose model of the world is exact, limited and never corrected.",
       "signature": "A restricted narrator whose account is complete on its own terms and radically incomplete on the reader's, with the horror carried entirely by tone. He refuses the reveal scene that a genre treatment would build toward.",
       "works": [
@@ -32166,7 +32166,7 @@
       "category": "Dystopia / literary-adjacent",
       "name": "Marge Piercy",
       "description": "Wrote the feminist utopia as a contested possibility rather than as a destination.",
-      "meta": "b. 1936 · American",
+      "meta": "b. 1936 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Woman on the Edge of Time, which sets a fully imagined egalitarian future against a darker alternative and against the psychiatric institution its protagonist is confined in; and He, She and It, which pairs a cyborg narrative with the Golem legend.",
       "signature": "Two futures held open at once so that neither is inevitable, social realism about class and psychiatry sitting directly beside the utopian material, and institutional detail — wards, committees, work rotas — given the page time.",
       "works": [
@@ -32206,7 +32206,7 @@
       "category": "Modern space opera / British boom",
       "name": "Justina Robson",
       "description": "Posthuman fiction that keeps the philosophy and the body in the same frame.",
-      "meta": "b. 1968 · British",
+      "meta": "b. 1968 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Natural History and Living Next Door to the God of Love, which treat radically modified humans and alien substrates as philosophical problems worked through characters rather than through essays.",
       "signature": "Bodies redesigned for purposes, and the psychological consequence of having been designed, written with unusual attention. Her posthumans are not metaphors; they have jobs, resentments and maintenance schedules.",
       "works": [
@@ -32246,7 +32246,7 @@
       "category": "Modern space opera / British boom",
       "name": "Colin Greenland",
       "description": "Reopened space opera for a British generation by writing it deliberately and with affection.",
-      "meta": "b. 1954 · British",
+      "meta": "b. 1954 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Take Back Plenty, which won both the Arthur C. Clarke Award and the BSFA Award and is generally credited with restarting British space opera as a self-aware form; and critical work on the New Wave that preceded it.",
       "signature": "Genre furniture handled knowingly but without irony, a shabby lived-in solar system, and a protagonist whose competence is commercial rather than heroic. The critical intelligence is visible in the construction.",
       "works": [
@@ -32286,7 +32286,7 @@
       "category": "Modern space opera / British boom",
       "name": "Gareth L. Powell",
       "description": "Space opera narrated by the ship, with the ship as a person carrying a war record.",
-      "meta": "b. 1970 · British",
+      "meta": "b. 1970 · British · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Embers of War, whose narrator is a sentient warship that has committed an atrocity and is trying to make restitution, and which won the BSFA Award for Best Novel.",
       "signature": "A shipmind with an interior life, a moral debt and a chain of command, alternating with human viewpoints. The prose is brisk and the moral question is kept in the foreground rather than resolved.",
       "works": [
@@ -32434,7 +32434,7 @@
       "category": "Cyberpunk & the 80s",
       "name": "Lewis Shiner",
       "description": "Present at the movement's founding and its earliest public defector.",
-      "meta": "b. 1950 · American",
+      "meta": "b. 1950 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Frontera, one of the movement's founding novels, and a subsequent public argument that cyberpunk had hardened into a set of mannerisms — an internal critique made while the movement was still current.",
       "signature": "Corporate and political machinery observed without romance, and a suspicion of the very stylistic energy his early work helped create. His later fiction abandons the furniture and keeps the political attention.",
       "works": [
@@ -32474,7 +32474,7 @@
       "category": "Cyberpunk & the 80s",
       "name": "Michael Swanwick",
       "description": "Wrote across the decade's factions and then out the other side, at short-story length above all.",
-      "meta": "b. 1950 · American",
+      "meta": "b. 1950 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Vacuum Flowers, a solar-system novel of personality software and corporate identity; Stations of the Tide, which won the Nebula Award for Best Novel; and an essay that named and mapped the decade's cyberpunk-versus-humanist argument.",
       "signature": "Compression — ideas arriving at a rate that would furnish other writers' novels — and a willingness to change register completely between books. The short fiction is where the method is clearest.",
       "works": [
@@ -32594,7 +32594,7 @@
       "category": "YA / crossover",
       "name": "M.T. Anderson",
       "description": "Wrote the satirical young-adult dystopia whose form is the thing it satirises.",
-      "meta": "b. 1968 · American",
+      "meta": "b. 1968 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Feed, in which a networked implant delivers advertising directly into adolescent consciousness and the novel's own degraded prose is the evidence of what that has done.",
       "signature": "Voice as argument — the narrator's vocabulary is the damage — with the satire never explained by an adult character. The environmental and class material sits underneath without being underlined.",
       "works": [
@@ -32628,7 +32628,7 @@
       "category": "YA / crossover",
       "name": "Neal Shusterman",
       "description": "Builds young-adult premises out of a policy compromise and follows the administration of it.",
-      "meta": "b. 1962 · American",
+      "meta": "b. 1962 · American · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "the Unwind sequence, whose premise is a legislative settlement permitting the disassembly of adolescents, and the Arc of a Scythe books, which give a post-mortality society a professionalised class of licensed killers with a code and an audit trail.",
       "signature": "A speculative institution with rules, paperwork and career incentives, seen from several viewpoints including its functionaries'. The horror is procedural, and the young protagonists are shown reading the regulations.",
       "works": [

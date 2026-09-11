@@ -1,9 +1,9 @@
 {
   "id": "manga-reference",
   "name": "Manga",
-  "packVersion": "1.1.0",
+  "packVersion": "1.1.2",
   "schemaVersion": 2,
-  "lastUpdated": "2026-08-31",
+  "lastUpdated": "2026-09-11",
   "minAppVersion": "0.1.0",
   "collections": [
     {
@@ -6637,7 +6637,7 @@
       "category": "Garo, COM and the Art-Manga Lineage",
       "name": "Hayashi Seiichi",
       "description": "Animation training brought into the alternative magazine, and what it did to the page.",
-      "meta": "Seiichi Hayashi in English-market credits · born 1945 · animation, then Garo.",
+      "meta": "Seiichi Hayashi in English-market credits · born 1945 · animation, then Garo. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Bringing a designer's and animator's eye to Garo — flat colour fields, poster composition, pop imagery — in service of work about postwar disappointment rather than about style.",
       "signature": "Panels composed as graphic design rather than as illustration, with figures reduced to shape and silhouette, and a tonal register that stays cool while the material is not.",
       "works": [
@@ -6659,7 +6659,7 @@
       "category": "Garo, COM and the Art-Manga Lineage",
       "name": "Maruo Suehiro",
       "description": "The ero-guro line's most technically accomplished practitioner, and the hardest card in the block.",
-      "meta": "Suehiro Maruo in English-market credits · born 1956 · the alternative and underground magazines.",
+      "meta": "Suehiro Maruo in English-market credits · born 1956 · the alternative and underground magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Work in the ero-guro tradition — erotic-grotesque imagery drawn with meticulous prewar-poster technique — which is genuinely admired as drawing and genuinely disturbing as content, and which this pack neither recommends nor writes around.",
       "signature": "Immaculate line and period design used for atrocity and sexual violence, with the gap between manner and matter as the deliberate effect. **The critical argument runs in both directions and both sides are serious**: that the beauty of the rendering is a critique of the appetite it serves, and that it is that appetite's most effective delivery system. `checklist-14` is the audit; this pack states the dispute and takes no side.",
       "works": [
@@ -6681,7 +6681,7 @@
       "category": "Garo, COM and the Art-Manga Lineage",
       "name": "Takano Fumiko",
       "description": "The art-manga line's most formally exacting figure, and one of very few women working in it.",
-      "meta": "Fumiko Takano in English-market credits · born 1957 · Garo and the alternative magazines.",
+      "meta": "Fumiko Takano in English-market credits · born 1957 · Garo and the alternative magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Short works of unusual formal precision — timing, panel rhythm and omission handled with a control that other cartoonists cite more often than general readers know her name.",
       "signature": "Extreme economy: a sequence built from the two or three panels that cannot be removed, with the rest inferred. The reader does more work than in almost any other manga and does not notice, which is `psychology-4`'s updating case executed deliberately.",
       "works": [
@@ -6724,7 +6724,7 @@
       "category": "Garo, COM and the Art-Manga Lineage",
       "name": "Matsumoto Taiyō",
       "description": "The art-manga sensibility operating successfully inside the commercial seinen market.",
-      "meta": "Taiyo Matsumoto in English-market credits · born 1967 · Spirits and the seinen magazines.",
+      "meta": "Taiyo Matsumoto in English-market credits · born 1967 · Spirits and the seinen magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Work with the formal ambition of the alternative line and the distribution of the mainstream — an arrangement that had not obviously been available in the preceding generation.",
       "signature": "Elastic, hand-drawn perspective; architecture that bends around the figures; spreads treated as single spatial fields rather than as two pages, which `page-7` cards as the design unit.",
       "works": [
@@ -6746,7 +6746,7 @@
       "category": "Doujinshi-Origin Creators and the Circle System",
       "name": "Ōkawa Nanase",
       "description": "The circle that became a studio, and the writer at its centre.",
-      "meta": "Nanase Ohkawa in English-market credits · born 1967 · doujinshi circuit, then commercial serialisation.",
+      "meta": "Nanase Ohkawa in English-market credits · born 1967 · doujinshi circuit, then commercial serialisation. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Leading the group that moved from self-published work to commercial serialisation intact — the clearest single case of the pipeline `serial-64` describes — and writing across shōjo, shōnen and seinen magazines under one collective name.",
       "signature": "Story construction built for a collective: densely plotted, structurally symmetrical, and designed so that scripting and drawing can be separated cleanly, which is what makes the group's output rate possible at all. The group's membership and internal division of labour have changed across its career, and `serial-60`'s point applies — the name on the cover is accurate and tells a reader nothing about who did what.",
       "works": [
@@ -6800,7 +6800,7 @@
       "category": "Doujinshi-Origin Creators and the Circle System",
       "name": "Kio Shimoku",
       "description": "The professional who cards the amateur system from inside, in a commercial magazine.",
-      "meta": "Shimoku Kio in English-market credits · born 1974 · Afternoon.",
+      "meta": "Shimoku Kio in English-market credits · born 1974 · Afternoon. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial about a university circle producing doujinshi, published commercially, which functions as the most detailed procedural account of the circuit available in the medium itself — print runs, deadlines, tables, money.",
       "signature": "Ordinary drawing in service of exact social observation; the comedy comes from accuracy rather than from exaggeration, and the production detail is correct enough to be used as reference.",
       "works": [
@@ -6822,7 +6822,7 @@
       "category": "Doujinshi-Origin Creators and the Circle System",
       "name": "Himaruya Hidekaz",
       "description": "The web-origin path into print, in its clearest early form.",
-      "meta": "Hidekaz Himaruya in English-market credits · born 1985 · personal website, then commercial print.",
+      "meta": "Hidekaz Himaruya in English-market credits · born 1985 · personal website, then commercial print. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A work published to an open website that accumulated a readership with no institutional filter and was subsequently acquired for print and adaptation — the inversion `serial-65` describes, in which discovery precedes selection.",
       "signature": "Very short, gag-driven strips built for scroll-reading and repeat visits, with a cast of national personifications whose treatment is affectionate, stereotype-based, and has drawn objection on exactly that ground; the objection is part of the record.",
       "works": [
@@ -6844,7 +6844,7 @@
       "category": "Doujinshi-Origin Creators and the Circle System",
       "name": "ONE",
       "description": "The web-original serial redrawn for print, and what that redraw actually changed.",
-      "meta": "ONE · a single-element pen name; no family-given order exists to gloss, and the exemption is declared in config with this reason.",
+      "meta": "ONE · a single-element pen name; no family-given order exists to gloss, and the exemption is declared in config with this reason. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A webcomic drawn with deliberate crudity that acquired an enormous readership on its writing alone, then a commercial redraw by a different artist that preserved the writing and replaced the page grammar.",
       "signature": "Comic timing built on anticlimax — a structure that sets up escalation and then declines it — which survives the change of artist intact and is the clearest evidence that the writing and the drawing are separable here.",
       "works": [
@@ -6866,7 +6866,7 @@
       "category": "Essay, Documentary and Reportage Manga",
       "name": "Saibara Rieko",
       "description": "The essay line's most commercially successful and most uncomfortable practitioner.",
-      "meta": "Rieko Saibara in English-market credits · born 1964 · newspapers, magazines and the essay-manga market.",
+      "meta": "Rieko Saibara in English-market credits · born 1964 · newspapers, magazines and the essay-manga market. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Autobiographical work about family, money, gambling and alcohol, published in a mainstream newspaper strip and in essay collections, and refusing the reassurance the form usually supplies.",
       "signature": "A deliberately rough, childlike line used for material — addiction, bereavement, the household economy — that would be unbearable rendered realistically. The gap between the drawing's register and the content's is the technique, and it is the same gap `author-9` uses in the opposite direction.",
       "works": [
@@ -6888,7 +6888,7 @@
       "category": "Essay, Documentary and Reportage Manga",
       "name": "Hanawa Kazuichi",
       "description": "Reportage from inside a prison, by someone who was in it.",
-      "meta": "Kazuichi Hanawa in English-market credits · born 1947 · the alternative magazines, then reportage.",
+      "meta": "Kazuichi Hanawa in English-market credits · born 1947 · the alternative magazines, then reportage. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A documentary account of three years in a Japanese prison, drawn after his release, which is the medium's most cited piece of first-person institutional reportage.",
       "signature": "Obsessive procedural detail — meals, cell layout, the schedule — rendered with a precision that turns monotony into structure. There is almost no drama and the absence is the point: the account's authority comes from its refusal to shape the experience into a story.",
       "works": [
@@ -6910,7 +6910,7 @@
       "category": "Essay, Documentary and Reportage Manga",
       "name": "Oguri Saori",
       "description": "The domestic essay strip as cross-cultural observation, and the ceiling of the form.",
-      "meta": "Saori Oguri in English-market credits · born 1966 · essay-manga market.",
+      "meta": "Saori Oguri in English-market credits · born 1966 · essay-manga market. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A long-running essay series about daily life in an intercultural marriage, which sold at a scale the essay form rarely reaches and made the four-panel domestic observation a commercial category in its own right.",
       "signature": "Small observations rendered without editorial: the misunderstanding is stated, both parties are treated as reasonable, and the strip declines to conclude. The restraint is what keeps the material from becoming a catalogue of national traits, which is the form's standing failure mode.",
       "works": [
@@ -6932,7 +6932,7 @@
       "category": "Essay, Documentary and Reportage Manga",
       "name": "Tatsuta Kazuto",
       "description": "Reportage from inside the Fukushima Daiichi decommissioning, and a contested account.",
-      "meta": "Kazuto Tatsuta in English-market credits · a pen name; the creator worked at the site and published under it · essay and reportage manga.",
+      "meta": "Kazuto Tatsuta in English-market credits · a pen name; the creator worked at the site and published under it · essay and reportage manga. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A first-person account of working as a contract labourer on the Fukushima Daiichi decommissioning, drawn from direct experience and serialised commercially.",
       "signature": "Procedural, undramatic documentation of shift work, dosimetry and equipment, with the author's own limited vantage stated as a limit rather than smoothed over. **The reception divided and both positions are serious**: the account has been valued as rare first-hand documentation of conditions almost nobody outside the site can describe, and criticised for a matter-of-factness that readers have argued understates the hazard and the contracting structure around it. `checklist-11`'s expert-reader audit is the relevant instrument, and this pack does not settle the dispute.",
       "works": [
@@ -6954,7 +6954,7 @@
       "category": "Educational and Commissioned Manga",
       "name": "Asari Yoshitoo",
       "description": "The science-explanation serial, done at a standard the category rarely reaches.",
-      "meta": "Yoshitoo Asari in English-market credits · born 1962 · children's science magazines and SF comedy.",
+      "meta": "Yoshitoo Asari in English-market credits · born 1962 · children's science magazines and SF comedy. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A long-running science-education serial for children that explains mechanisms rather than reciting conclusions, and is respected by readers who came to it as adults — a rare outcome for commissioned educational work.",
       "signature": "Genuine explanation staged as comedy, with the demonstration drawn rather than described; the joke and the mechanism are the same panel, which is why the material survives being read for pleasure.",
       "works": [
@@ -6976,7 +6976,7 @@
       "category": "Educational and Commissioned Manga",
       "name": "Shimizu Akane",
       "description": "The commissioned-explanation form reaching the mainstream through genre rather than through pedagogy.",
-      "meta": "Akane Shimizu in English-market credits · born 1991 · Shōnen Sirius.",
+      "meta": "Akane Shimizu in English-market credits · born 1991 · Shōnen Sirius. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial personifying the cells of the human body as workers, which teaches immunology accurately while running as an ensemble workplace comedy, and which reached an audience far outside the educational market.",
       "signature": "Anthropomorphism disciplined by accuracy — each character's behaviour is constrained by what the cell actually does, so the story cannot drift from the science without breaking the cast. `trope-55`'s group-with-a-job is the structure it runs on.",
       "works": [
@@ -6998,7 +6998,7 @@
       "category": "Educational and Commissioned Manga",
       "name": "Aihara Kōji",
       "description": "The how-to manual as satire, and the most honest account of the industry's economics in the medium.",
-      "meta": "Koji Aihara in English-market credits · born 1963 · with Takekuma Kentarō, in the seinen magazines.",
+      "meta": "Koji Aihara in English-market credits · born 1963 · with Takekuma Kentarō, in the seinen magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A parody instructional serial on how to make manga, co-authored with a critic, which teaches the conventions accurately in the course of mocking them and is used as an actual reference despite itself.",
       "signature": "The satire works because the underlying description is correct — page rates, assistant costs, editorial pressure and genre formula are all reported accurately and then ridiculed, which is why `serial-56` cites it for economics rather than for jokes.",
       "works": [
@@ -7069,7 +7069,7 @@
       "category": "The Prewar and Early Postwar Shōjo Line",
       "name": "Watanabe Masako",
       "description": "One of the first women to make a career in shōjo, and one of the longest careers in the medium.",
-      "meta": "Masako Watanabe in English-market credits · born 1929 · postwar girls' magazines onward.",
+      "meta": "Masako Watanabe in English-market credits · born 1929 · postwar girls' magazines onward. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Working professionally in shōjo from the early 1950s — when the field's creators were still largely men — and continuing for over six decades, into the josei market that did not exist when she started.",
       "signature": "European settings, melodrama structured around inheritance and social class, and a willingness to let a heroine be unhappy for a long time; the register the 1970s generation inherited and then rebuilt.",
       "works": [
@@ -7090,7 +7090,7 @@
       "category": "The Prewar and Early Postwar Shōjo Line",
       "name": "Mizuno Hideko",
       "description": "The bridge between the Tokiwa-sō generation and the shōjo transformation.",
-      "meta": "Hideko Mizuno in English-market credits · born 1939 · the boys' and girls' magazines, then shōjo.",
+      "meta": "Hideko Mizuno in English-market credits · born 1939 · the boys' and girls' magazines, then shōjo. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Being the one woman in the Tokiwa-sō circle, and then producing work in the 1960s that put romance, sexuality and a girl's own desire at the centre of a shōjo serial — the material the 1970s generation is usually credited with introducing.",
       "signature": "Full-figure fashion drawing and a colour sense carried over from illustration, with narrative built on the heroine's wanting rather than on her being chosen. She is the standing counter-example to any account that begins the transformation in 1970.",
       "works": [
@@ -7111,7 +7111,7 @@
       "category": "The 1970s Shōjo Revolution",
       "name": "Hagio Moto",
       "description": "The transformation's central figure, and the contested roster she is always the first name on.",
-      "meta": "Moto Hagio in English-market credits · born 1949 · Shōjo Comic, then Petit Flower and the josei magazines.",
+      "meta": "Moto Hagio in English-market credits · born 1949 · Shōjo Comic, then Petit Flower and the josei magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Science fiction and psychological work in shōjo magazines from the early 1970s — vampires, boarding schools, cloned children, families that do damage — with a formal apparatus built to carry interiority rather than incident.",
       "signature": "Time handled as layered rather than sequential: memory, present and anticipation share a page, with panel borders dissolving where the distinction stops mattering. **The Year 24 Group she is invariably named in is a critical construction, not a membership list.** Different critics apply it with different widths, several creators central to the same transformation are excluded by the narrow definition, and some of those named have disputed the framing — including on the ground that it treats a generation of individual careers as a movement. `history-19` states the dispute; this card names it because her card is where readers meet the label first.",
       "works": [
@@ -7138,7 +7138,7 @@
       "category": "The 1970s Shōjo Revolution",
       "name": "Takemiya Keiko",
       "description": "The creator who forced the market open, and then taught it.",
-      "meta": "Keiko Takemiya in English-market credits · born 1950 · Shōjo Comic and Manga Shōnen, later a university presidency.",
+      "meta": "Keiko Takemiya in English-market credits · born 1950 · Shōjo Comic and Manga Shōnen, later a university presidency. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A long serial about love between boys, fought for over years against editorial refusal and finally serialised, which opened the commercial space the BL category later occupied — and a second career as an educator running a manga faculty.",
       "signature": "Decorative page architecture — flowers, screens, dissolved frames — used structurally rather than ornamentally, with the decoration carrying the emotional register that the dialogue withholds. `page-22` cards the vocabulary; this is where much of it was built.",
       "works": [
@@ -7165,7 +7165,7 @@
       "category": "The 1970s Shōjo Revolution",
       "name": "Ōshima Yumiko",
       "description": "The quietest member of the generation, and the one whose formal risks were largest.",
-      "meta": "Yumiko Oshima in English-market credits · born 1947 · Shōjo Comic and the shōjo monthlies.",
+      "meta": "Yumiko Oshima in English-market credits · born 1947 · Shōjo Comic and the shōjo monthlies. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Work that abandons plot for psychological state, including a long serial narrated by a cat-eared girl whose species is never resolved, and shorter work dealing directly with the sexual abuse of a child — the subject of the work rather than an incident inside it.",
       "signature": "Interior monologue running free of any panel, so that the page reads as thought with pictures rather than as pictures with captions. **The child-abuse material is stated here because omitting it would misdescribe the body of work**; `checklist-14` is the audit and the work's own treatment is neither sensational nor consoling.",
       "works": [
@@ -7187,7 +7187,7 @@
       "category": "The 1970s Shōjo Revolution",
       "name": "Yamagishi Ryōko",
       "description": "The historical and the uncanny in shōjo, and a name the narrow roster leaves out.",
-      "meta": "Ryoko Yamagishi in English-market credits · born 1947 · Ribon, then the shōjo monthlies.",
+      "meta": "Ryoko Yamagishi in English-market credits · born 1947 · Ribon, then the shōjo monthlies. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A historical serial about a prince with supernatural powers and an unreciprocated love for another man, which is among the period's most ambitious works, and an early work usually cited as the first yuri manga.",
       "signature": "Classical Japanese material rendered with a dancer's attention to posture and gesture — she trained in ballet — and a willingness to make the reader uncertain whether what is on the page is happening. **She is the clearest case of the roster problem `author-29` names**: central to the transformation by any account of the work, and included or excluded from the Year 24 label depending on which critic is counting.",
       "works": [
@@ -7219,7 +7219,7 @@
       "category": "The 1970s Shōjo Revolution",
       "name": "Ikeda Riyoko",
       "description": "The historical epic that made shōjo a mass-market category rather than a girls' one.",
-      "meta": "Riyoko Ikeda in English-market credits · born 1947 · Margaret.",
+      "meta": "Riyoko Ikeda in English-market credits · born 1947 · Margaret. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial set in the French Revolution, built around a woman raised as a man in the royal guard, which sold at a scale the category had not previously reached and became stage, film and television.",
       "signature": "Political history staged as personal melodrama without either half being decorative — the revolution is researched and the romance is the reason anyone is reading, and the work refuses to treat that combination as a compromise.",
       "works": [
@@ -7241,7 +7241,7 @@
       "category": "The 1970s Shōjo Revolution",
       "name": "Satonaka Machiko",
       "description": "A career begun at sixteen, and the industry politics half of the generation.",
-      "meta": "Machiko Satonaka in English-market credits · born 1948 · shōjo weeklies and monthlies.",
+      "meta": "Machiko Satonaka in English-market credits · born 1948 · shōjo weeklies and monthlies. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Debuting as a teenager after winning a newcomer prize, producing historical and contemporary work across five decades, and taking a public role in the industry's professional bodies and in the copyright arguments of the digital period.",
       "signature": "Directness — a heroine who states what she wants in the first chapter and pursues it — which reads as unremarkable now and separated her sharply from the period's prevailing register of longing and deferral.",
       "works": [
@@ -7262,7 +7262,7 @@
       "category": "The 1970s Shōjo Revolution",
       "name": "Kihara Toshie",
       "description": "The generation's supernatural-historical line, and the member who is least often named.",
-      "meta": "Toshie Kihara in English-market credits · born 1948 · shōjo monthlies.",
+      "meta": "Toshie Kihara in English-market credits · born 1948 · shōjo monthlies. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Historical and supernatural work in the same years and often the same magazines as the better-known names, with a body of work of comparable size and a critical profile that has never matched it.",
       "signature": "Japanese historical settings treated as genuinely strange rather than as costume, with the supernatural admitted matter-of-factly; the register is closer to a ghost story told at home than to gothic.",
       "works": [
@@ -7283,7 +7283,7 @@
       "category": "The 1970s Shōjo Revolution",
       "name": "Miuchi Suzue",
       "description": "The unfinished serial as a fifty-year institution.",
-      "meta": "Suzue Miuchi in English-market credits · born 1951 · Hana to Yume.",
+      "meta": "Suzue Miuchi in English-market credits · born 1951 · Hana to Yume. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial about a teenage actress that began in 1976, has run intermittently ever since, and remains unfinished — one of the medium's clearest live cases of the relationship duration builds and the ending problem `psychology-12` describes.",
       "signature": "Theatrical melodrama executed without irony: the performances inside the story are staged on the page as performances, with the reader placed in the audience rather than backstage.",
       "works": [
@@ -7305,7 +7305,7 @@
       "category": "Shōjo Romance and the Modern Magazine",
       "name": "Takeuchi Naoko",
       "description": "The magical-girl serial that fused two genres and rebuilt an export market.",
-      "meta": "Naoko Takeuchi in English-market credits · born 1967 · Nakayoshi.",
+      "meta": "Naoko Takeuchi in English-market credits · born 1967 · Nakayoshi. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial that put the transforming magical girl into a team-based battle structure — a combination neither category had used — and became one of the medium's largest international properties.",
       "signature": "Transformation staged as ritual rather than as mechanism, with the sequence repeated deliberately so that its variations register, which is `trope-41`'s ritual reading and `psychology-13`'s repetition argument in one device. **She is carded as `superhero:Naoko Takeuchi`, where the reading is the team-superhero structure her work exports into.** This pack reads her from the other side: a shōjo creator whose magazine, readership and formal vocabulary are the ones this collection describes, and whose battle structure is the import rather than the origin.",
       "works": [
@@ -7327,7 +7327,7 @@
       "category": "Shōjo Romance and the Modern Magazine",
       "name": "Yoshizumi Wataru",
       "description": "The 1990s shōjo romance at its most exactly engineered.",
-      "meta": "Wataru Yoshizumi in English-market credits · born 1963 · Ribon.",
+      "meta": "Wataru Yoshizumi in English-market credits · born 1963 · Ribon. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A romance serial built on a deliberately complicated relational grid — two teenagers, two sets of parents remarrying across the pair — which became the decade's model for how much complication a shōjo romance could carry.",
       "signature": "Emotional bookkeeping: every character's state is tracked and updated each chapter, so the reader always knows exactly who is holding what, which is what allows the plot to be as tangled as it is without becoming confusing.",
       "works": [
@@ -7349,7 +7349,7 @@
       "category": "Shōjo Romance and the Modern Magazine",
       "name": "Kamio Yōko",
       "description": "The longest-selling shōjo serial, and the class antagonism inside it.",
-      "meta": "Yoko Kamio in English-market credits · born 1966 · Margaret.",
+      "meta": "Yoko Kamio in English-market credits · born 1966 · Margaret. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial about a working-class scholarship student against a group of wealthy boys, which ran for a decade, sold enormously, and was adapted across Asia more widely than almost any other manga.",
       "signature": "Romance built on class humiliation rather than on misunderstanding — the obstacle is money and status and stays money and status — which is why the structure travelled to markets whose romance conventions differ from Japan's.",
       "works": [
@@ -7371,7 +7371,7 @@
       "category": "Shōjo Romance and the Modern Magazine",
       "name": "Obana Miho",
       "description": "Comedy and childhood damage in the same serial, at the same time.",
-      "meta": "Miho Obana in English-market credits · born 1970 · Ribon.",
+      "meta": "Miho Obana in English-market credits · born 1970 · Ribon. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial about a child actress that reads as broad comedy and carries, without changing register, material about neglect, bullying and a mother's withdrawal.",
       "signature": "Tonal simultaneity — the joke and the injury occupy the same page rather than alternating — which is unusual in any medium and depends on the drawing carrying the second register while the dialogue carries the first.",
       "works": [
@@ -7393,7 +7393,7 @@
       "category": "Shōjo Romance and the Modern Magazine",
       "name": "Nakajo Hisaya",
       "description": "The disguise plot as a structure for writing about gender without arguing about it.",
-      "meta": "Hisaya Nakajo in English-market credits · born 1973 · Hana to Yume.",
+      "meta": "Hisaya Nakajo in English-market credits · born 1973 · Hana to Yume. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A long-running serial about a girl who enrols at a boys' school in disguise, which uses a very old comic device to spend hundreds of chapters on what it is like to be read as the wrong thing.",
       "signature": "Farce discipline — the disguise's rules are fixed early and never bent for convenience, so every scene's tension comes from the rules rather than from authorial mercy, which is `trope-46`'s changed-body card in its comic register.",
       "works": [
@@ -7415,7 +7415,7 @@
       "category": "Shōjo Romance and the Modern Magazine",
       "name": "Shiina Karuho",
       "description": "The confession structure slowed down to its limit.",
-      "meta": "Karuho Shiina in English-market credits · born 1975 · Bessatsu Margaret.",
+      "meta": "Karuho Shiina in English-market credits · born 1975 · Bessatsu Margaret. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial that takes a straightforward premise — a shy girl, a popular boy, a mutual liking — and extends it over years by treating every small misreading as a full event.",
       "signature": "Extreme temporal magnification: a single conversation can occupy a chapter, with the interior monologue and the drawn pause doing the work that plot does elsewhere. `trope-25`'s dated-confession structure is the frame, and this is the extreme case of deferring it without cheating.",
       "works": [
@@ -7437,7 +7437,7 @@
       "category": "Josei and the Adult Woman's Register",
       "name": "Yazawa Ai",
       "description": "Fashion, ambition and money, written for readers who had left school.",
-      "meta": "Ai Yazawa in English-market credits · born 1967 · Ribon, then Cookie.",
+      "meta": "Ai Yazawa in English-market credits · born 1967 · Ribon, then Cookie. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Serials about young women's careers, bands, clothes and self-invention, which moved shōjo's readership into adulthood without changing the emotional seriousness, and one long serial left unfinished on medical hiatus.",
       "signature": "Clothes as characterisation, drawn with a designer's specificity so that a change of outfit is a change of state; and an unusual willingness to let ambition and friendship damage each other. **She is carded as `romance:Ai Yazawa`, where the reading is the romance genre's treatment of the couple.** Here she is a josei creator, and the delta is that this pack reads the career and the money as the subject and the romance as one of its costs.",
       "works": [
@@ -7464,7 +7464,7 @@
       "category": "Josei and the Adult Woman's Register",
       "name": "Yoshida Akimi",
       "description": "Half a century of work across three demographics, in the same steady voice.",
-      "meta": "Akimi Yoshida in English-market credits · born 1956 · shōjo magazines, then seinen and josei.",
+      "meta": "Akimi Yoshida in English-market credits · born 1956 · shōjo magazines, then seinen and josei. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A long career spanning a hard-edged crime serial in a shōjo magazine and, decades later, a quiet family serial in a monthly — the same author working at the two extremes of the medium's register.",
       "signature": "Restraint that reads as confidence: no emphasis, no decorative pages, dialogue that stops early, and emotional events staged in the flattest possible way so the reader has to do the arithmetic.",
       "works": [
@@ -7486,7 +7486,7 @@
       "category": "Josei and the Adult Woman's Register",
       "name": "Anno Moyoco",
       "description": "The josei serial at its least consoling.",
-      "meta": "Moyoco Anno in English-market credits · born 1971 · josei and seinen magazines.",
+      "meta": "Moyoco Anno in English-market credits · born 1971 · josei and seinen magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Work about women's ambition, appetite and self-destruction that declines to make its protagonists likeable, and a body of work spanning josei, seinen and the historical.",
       "signature": "Compulsive energy in the line itself — hatching and motion where another artist would use stillness — matched to protagonists who cannot stop. The style and the subject are the same observation twice.",
       "works": [
@@ -7508,7 +7508,7 @@
       "category": "Josei and the Adult Woman's Register",
       "name": "Yoshinaga Fumi",
       "description": "The creator who moved from the amateur BL circuit into the historical epic, and kept the same instrument.",
-      "meta": "Fumi Yoshinaga in English-market credits · born 1971 · doujinshi, then BL magazines, then josei.",
+      "meta": "Fumi Yoshinaga in English-market credits · born 1971 · doujinshi, then BL magazines, then josei. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A gender-reversed Edo historical epic, a long-running domestic serial about a gay couple's cooking, and a career that began in the self-published BL circuit — the pipeline `serial-64` describes, ending somewhere the pipeline is not usually credited with reaching.",
       "signature": "Conversation as structure. Whole chapters are two people talking while doing something ordinary, with the historical or political argument carried entirely inside the exchange, and the panel work kept plain so nothing competes with the talk.",
       "works": [
@@ -7535,7 +7535,7 @@
       "category": "Josei and the Adult Woman's Register",
       "name": "Higashimura Akiko",
       "description": "Comic self-exposure as the josei register's most commercially successful mode.",
-      "meta": "Akiko Higashimura in English-market credits · born 1975 · josei magazines.",
+      "meta": "Akiko Higashimura in English-market credits · born 1975 · josei magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Serials about women in their thirties failing to arrange their lives as planned, written with an autobiographical looseness that made the essay register commercially central to josei.",
       "signature": "Speed — rough, fast drawing with the correction lines left in — which reads as candour and lets a chapter turn from farce to something painful in a single panel without the tonal seam showing.",
       "works": [
@@ -7557,7 +7557,7 @@
       "category": "Josei and the Adult Woman's Register",
       "name": "Konari Misato",
       "description": "The contemporary josei serial about leaving the arrangement rather than fixing it.",
-      "meta": "Misato Konari in English-market credits · working from the 2010s · josei magazines.",
+      "meta": "Misato Konari in English-market credits · working from the 2010s · josei magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial about a woman who quits her job, her relationship and her flat after a breakdown, and rebuilds slowly — a structure with no romantic resolution as its object and no return to the starting arrangement.",
       "signature": "Small material detail carrying psychological state: what is in the fridge, what the rent is, what the neighbours are like. The recovery is legible through logistics rather than through declaration.",
       "works": [
@@ -7579,7 +7579,7 @@
       "category": "BL, Yaoi and Yuri",
       "name": "Ozaki Minami",
       "description": "The doujinshi circuit's first mass-market BL crossover.",
-      "meta": "Minami Ozaki in English-market credits · born 1963 · doujinshi, then commercial BL.",
+      "meta": "Minami Ozaki in English-market credits · born 1963 · doujinshi, then commercial BL. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A commercially serialised work that came directly out of the self-published circuit and sold at a scale that demonstrated a market the publishers had not been serving.",
       "signature": "Melodrama at maximum intensity — obsession, injury, declaration — with the visual register borrowed from shōjo's decorative apparatus and used at a pitch shōjo magazines would not have permitted.",
       "works": [
@@ -7601,7 +7601,7 @@
       "category": "BL, Yaoi and Yuri",
       "name": "Nakamura Shungiku",
       "description": "BL as a stable commercial category with a house structure.",
-      "meta": "Shungiku Nakamura in English-market credits · born 1980 · commercial BL magazines.",
+      "meta": "Shungiku Nakamura in English-market credits · born 1980 · commercial BL magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Two long parallel serials set in adjacent workplaces, which established a durable model for BL as an ongoing commercial property rather than as a single-volume category.",
       "signature": "Workplace comedy carrying the relationship rather than the other way round; the couples are stable and the incident comes from the job, which is what makes the serials extendable at all.",
       "works": [
@@ -7628,7 +7628,7 @@
       "category": "BL, Yaoi and Yuri",
       "name": "Nakamura Asumiko",
       "description": "The literary end of the category, and the argument the category has with itself.",
-      "meta": "Asumiko Nakamura in English-market credits · born 1976 · BL and josei magazines.",
+      "meta": "Asumiko Nakamura in English-market credits · born 1976 · BL and josei magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Work in the BL category that is unusually restrained and formally deliberate, and that engages directly with the criticism the category has attracted — most seriously from gay male critics who have argued that a genre about relationships between men, written and read largely by women, has obligations it has not always met.",
       "signature": "Elongated figures, wide margins and long silences; the erotic content is present and is not the engine, which is precisely the position in the internal argument her work takes. **The argument is live and both sides are held by serious people** — that the category is a space for women to write desire outside the constraints placed on it elsewhere, and that its conventions have at times misrepresented the lives of the men it depicts. `checklist-13` is the audit; this pack states the dispute and does not settle it.",
       "works": [
@@ -7650,7 +7650,7 @@
       "category": "BL, Yaoi and Yuri",
       "name": "Shimura Takako",
       "description": "Yuri and trans narrative written as ordinary adolescence.",
-      "meta": "Takako Shimura in English-market credits · born 1973 · seinen and josei magazines.",
+      "meta": "Takako Shimura in English-market credits · born 1973 · seinen and josei magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Serials about girls in love with girls and about trans childhood, published in general magazines rather than in category titles, and written without the melodramatic apparatus the subjects usually attract.",
       "signature": "Very quiet pacing and a plain line, with the significant moment placed in an unemphatic panel and left there; the refusal of emphasis is the ethical position as well as the style.",
       "works": [
@@ -7672,7 +7672,7 @@
       "category": "BL, Yaoi and Yuri",
       "name": "Nakatani Nio",
       "description": "The contemporary yuri serial that argues with its own genre.",
-      "meta": "Nio Nakatani in English-market credits · working from the 2010s · Dengeki Daioh.",
+      "meta": "Nio Nakatani in English-market credits · working from the 2010s · Dengeki Daioh. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial in which one protagonist cannot feel romantic attraction and the other loves her anyway, which takes the category's central convention and asks what happens if it is refused.",
       "signature": "Dialogue that circles the point for chapters, with the layout using empty space to hold the unsaid; the structure `trope-31`'s refused confession describes, extended across an entire work rather than used as a beat.",
       "works": [
@@ -7694,7 +7694,7 @@
       "category": "BL, Yaoi and Yuri",
       "name": "Takashima Hiromi",
       "description": "The yuri slice-of-life serial, and the category's quietest commercial form.",
-      "meta": "Hiromi Takashima in English-market credits · working from the 2010s · yuri magazines.",
+      "meta": "Hiromi Takashima in English-market credits · working from the 2010s · yuri magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A long-running slice-of-life serial about two schoolgirls in an established relationship, which spends its length on ordinary days rather than on getting together.",
       "signature": "The relationship as the premise rather than the goal, which removes the genre's usual engine and replaces it with domestic incident — the same structural move `trope-29`'s continuing-relationship card describes, sustained for a whole serial.",
       "works": [
@@ -7850,7 +7850,7 @@
       "category": "Tezuka and the Story-Manga Generation",
       "name": "Fujiko F. Fujio",
       "description": "Half of a partnership that published as one name for thirty years, and the children's serial that outlived everything.",
-      "meta": "Fujiko F. Fujio · a pen name published in this form in both markets; the gloss exemption is declared in config with this reason · children's monthlies and Korokoro Comic.",
+      "meta": "Fujiko F. Fujio · a pen name published in this form in both markets; the gloss exemption is declared in config with this reason · children's monthlies and Korokoro Comic. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "The children's science-fiction serial that is among the most widely read works in the medium's history, published for decades under a shared name that concealed a two-person partnership until it was dissolved in the late 1980s.",
       "signature": "A gag structure with a fixed engine — a problem, a gadget, a misuse, a consequence — repeated for thousands of instalments without exhausting itself, and drawn with a clarity built for readers who are learning to read. `serial-57`'s point about the shared name is this career, and `page-26`'s balloon discipline is best studied here.",
       "works": [
@@ -8016,7 +8016,7 @@
       "category": "Tezuka and the Story-Manga Generation",
       "name": "Chiba Tetsuya",
       "description": "The draughtsman who made defeat legible, across sixty years.",
-      "meta": "Tetsuya Chiba in English-market credits · born 1939 · children's, boys' and sports magazines.",
+      "meta": "Tetsuya Chiba in English-market credits · born 1939 · children's, boys' and sports magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Drawing the boxing serial that is the medium's standard reference for an ending, and a long career across shōjo, shōnen and sports that has made him the industry's most quietly respected figure.",
       "signature": "Bodies that carry damage honestly — posture, weight, exhaustion — so that a fight reads as cost rather than as spectacle. The final image of his best-known work is cited more than any other single panel in the medium, and it is a still figure rather than a blow.",
       "works": [
@@ -8081,7 +8081,7 @@
       "category": "Shōnen Battle and the Weekly System",
       "name": "Oda Eiichirō",
       "description": "The longest-running serial of the modern weekly era, and what sustaining it requires.",
-      "meta": "Eiichiro Oda in English-market credits · born 1975 · Weekly Shōnen Jump.",
+      "meta": "Eiichiro Oda in English-market credits · born 1975 · Weekly Shōnen Jump. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial running since 1997 with a planned ending stated from early on, an enormous cast, and volume sales at a scale no contemporary matches.",
       "signature": "Density — panels crowded with incidental cast, jokes and detail — combined with a long-range structure in which minor material from years earlier becomes load-bearing. `psychology-15`'s memory problem is the standing risk, and the work manages it by restaging rather than by assuming recall.",
       "works": [
@@ -8103,7 +8103,7 @@
       "category": "Shōnen Battle and the Weekly System",
       "name": "Kishimoto Masashi",
       "description": "The battle serial's most systematic power taxonomy, and the international readership it built.",
-      "meta": "Masashi Kishimoto in English-market credits · born 1974 · Weekly Shōnen Jump.",
+      "meta": "Masashi Kishimoto in English-market credits · born 1974 · Weekly Shōnen Jump. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A ninja serial whose techniques form an explicit, learnable system, and which was among the first Jump serials whose international readership was visibly part of its commercial life during serialisation rather than after.",
       "signature": "Rules a reader can hold: named techniques with stated costs and a hierarchy that stays consistent, which is `trope-13`'s tier list made visible and `trope-19`'s named cost in their most disciplined form.",
       "works": [
@@ -8125,7 +8125,7 @@
       "category": "Shōnen Battle and the Weekly System",
       "name": "Kurumada Masami",
       "description": "The armoured team serial, and the merchandise structure built into the fiction.",
-      "meta": "Masami Kurumada in English-market credits · born 1953 · Weekly Shōnen Jump.",
+      "meta": "Masami Kurumada in English-market credits · born 1953 · Weekly Shōnen Jump. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial whose protagonists wear constellation-themed armour, which was designed to be manufactured and became one of the earliest cases of a toy line and a manga being planned together.",
       "signature": "Escalation by tier, with each opponent introducing a rank above the last, and a design language built for three dimensions. **He is carded as `superhero:Masami Kurumada` for the armoured team's place in that genre.** This pack reads the commercial mechanism: `craft-34`'s merchandise logic is not a consequence of the serial's success here, it is in the premise.",
       "works": [
@@ -8147,7 +8147,7 @@
       "category": "Shōnen Battle and the Weekly System",
       "name": "Horikoshi Kōhei",
       "description": "The American superhero genre re-imported into the weekly system, and the changes that required.",
-      "meta": "Kohei Horikoshi in English-market credits · born 1986 · Weekly Shōnen Jump.",
+      "meta": "Kohei Horikoshi in English-market credits · born 1986 · Weekly Shōnen Jump. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial that takes the American superhero premise wholesale — a society of powered people, a hero licence, a school for heroes — and runs it on the Japanese school-serial and tournament structure.",
       "signature": "The two traditions visible at once: costume and power design out of American comics, plot architecture out of Jump. **He is carded as `superhero:Kohei Horikoshi` for the genre inheritance.** Here the reading is the reverse direction — what the weekly system does to an imported genre, which is to put it in a school, give it a tournament, and run it under a survey. `subgenre-16` and `trope-9` are the machinery it was fitted to.",
       "works": [
@@ -8169,7 +8169,7 @@
       "category": "Shōnen Battle and the Weekly System",
       "name": "Togashi Yoshihiro",
       "description": "The battle serial pushed past its own conventions, at the cost of the schedule.",
-      "meta": "Yoshihiro Togashi in English-market credits · born 1966 · Weekly Shōnen Jump.",
+      "meta": "Yoshihiro Togashi in English-market credits · born 1966 · Weekly Shōnen Jump. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Two major serials, the second of which has run intermittently for decades with long hiatuses, and both of which take the tournament structure apart while using it.",
       "signature": "Rule systems elaborate enough to be argued about, and a willingness to spend chapters on negotiation, strategy or exposition where the format expects a fight. **The hiatus history is part of the record and is not gossip**: it is the clearest live case of `serial-13`'s rhythms being the thing a career is actually built on, and of `psychology-16`'s argument that readers stay for reliability.",
       "works": [
@@ -8191,7 +8191,7 @@
       "category": "Shōnen Battle and the Weekly System",
       "name": "Arakawa Hiromu",
       "description": "The battle serial planned to its ending, by a creator who also cards her own farm.",
-      "meta": "Hiromu Arakawa in English-market credits · born 1973 · Shōnen Gangan, and the essay market.",
+      "meta": "Hiromu Arakawa in English-market credits · born 1973 · Shōnen Gangan, and the essay market. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A shōnen serial with a stated endpoint reached on schedule — rare enough to be the standing counter-example to the format's structural pressures — and an autobiographical essay series about her family's dairy farm.",
       "signature": "Rules honoured. The alchemical system's central law is fixed in the first chapter and every subsequent development obeys it, which is `psychology-15`'s restaging discipline done as design rather than as repair. **She is carded as `fantasy:Hiromu Arakawa` for the magic system's place in that genre.** This pack reads the serialisation: a weekly-format work that resisted the extension pressure `serial-31` describes, and finished.",
       "works": [
@@ -8218,7 +8218,7 @@
       "category": "Shōnen Battle and the Weekly System",
       "name": "Isayama Hajime",
       "description": "The serial that carried its ending's argument from the first chapter, and the reception that followed.",
-      "meta": "Hajime Isayama in English-market credits · born 1986 · Bessatsu Shōnen Magazine.",
+      "meta": "Hajime Isayama in English-market credits · born 1986 · Bessatsu Shōnen Magazine. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A monthly serial that became the decade's largest international manga property, and whose conclusion was received with unusual public disagreement.",
       "signature": "Structural withholding — information the reader needs is held for years and then delivered as a reframing rather than as a reveal, which is `page-8`'s withholding at the scale of a whole work. **The divided reception of the ending is on the record and this card states it without ruling on it**, which is also `psychology-12`'s structural point: a decade of accumulation is not dischargeable by a final chapter.",
       "works": [
@@ -8240,7 +8240,7 @@
       "category": "Shōnen Battle and the Weekly System",
       "name": "Takahashi Rumiko",
       "description": "The most commercially successful woman in the medium, working in the boys' magazines throughout.",
-      "meta": "Rumiko Takahashi in English-market credits · born 1957 · Weekly Shōnen Sunday.",
+      "meta": "Rumiko Takahashi in English-market credits · born 1957 · Weekly Shōnen Sunday. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Four decades of long-running serials in a boys' weekly, comedy and action in roughly equal measure, and volume sales among the highest recorded for any creator.",
       "signature": "A relational engine rather than a plot: a fixed group of characters whose incompatible wants generate incident indefinitely, which is why the serials can run for hundreds of chapters without an escalating threat. `trope-27`'s relational grid is this method carded.",
       "works": [
@@ -8288,7 +8288,7 @@
       "category": "Sports and the Spokon Line",
       "name": "Kawasaki Noboru",
       "description": "The other half of the spokon form's founding partnership.",
-      "meta": "Noboru Kawasaki in English-market credits · born 1941 · boys' weeklies.",
+      "meta": "Noboru Kawasaki in English-market credits · born 1941 · boys' weeklies. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Drawing the baseball serial that established the form, in a heightened register that made the training sequence a set piece rather than a transition.",
       "signature": "Expressionist distortion in service of effort — the pitch drawn as a physical ordeal, with speed lines, sweat and facial strain pushed past realism. The style dates precisely, and the dating is why later sports manga reads as a reaction to it.",
       "works": [
@@ -8310,7 +8310,7 @@
       "category": "Sports and the Spokon Line",
       "name": "Yamamoto Sumika",
       "description": "The spokon structure moved into shōjo, and what changed when it got there.",
-      "meta": "Sumika Yamamoto in English-market credits · born 1949 · Margaret.",
+      "meta": "Sumika Yamamoto in English-market credits · born 1949 · Margaret. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A tennis serial in a girls' magazine that took the endurance-and-mentor structure and ran it with a female protagonist, at a scale that made the sports serial a shōjo category as well as a shōnen one.",
       "signature": "The mentor relationship written as emotional rather than disciplinary, and rivalry treated as intimacy — which is the shōjo apparatus applied to spokon material and is the reason the transfer worked rather than reading as an imitation.",
       "works": [
@@ -8332,7 +8332,7 @@
       "category": "Sports and the Spokon Line",
       "name": "Inoue Takehiko",
       "description": "The sports serial after spokon, and a second career in brush and ink.",
-      "meta": "Takehiko Inoue in English-market credits · born 1967 · Weekly Shōnen Jump, then seinen magazines.",
+      "meta": "Takehiko Inoue in English-market credits · born 1967 · Weekly Shōnen Jump, then seinen magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A basketball serial that replaced the endurance ideology with technique and team dynamics, a wheelchair-basketball serial, and a long historical work drawn substantially in brush.",
       "signature": "Anatomical accuracy in motion, and long wordless sequences where the reading pace is set entirely by panel size and silence — `page-15`'s positional argument and `page-12`'s duration lever, executed at a level the collection cites rather than explains.",
       "works": [
@@ -8359,7 +8359,7 @@
       "category": "Sports and the Spokon Line",
       "name": "Ishizuka Shinichi",
       "description": "The procedural sports serial, where the opponent is not a person.",
-      "meta": "Shinichi Ishizuka in English-market credits · born 1971 · Big Comic Original.",
+      "meta": "Shinichi Ishizuka in English-market credits · born 1971 · Big Comic Original. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A mountain-rescue serial whose subject is competence and altitude rather than competition, and which is researched to a standard that mountaineering readers accept.",
       "signature": "Human figures held small inside large frames so the mountain does the measuring — `page-20`'s downward scale as the book's central argument — and a refusal to make death dramatic.",
       "works": [
@@ -8381,7 +8381,7 @@
       "category": "Seinen and the Adult Magazine",
       "name": "Urasawa Naoki",
       "description": "The suspense serial built entirely on the withheld answer.",
-      "meta": "Naoki Urasawa in English-market credits · born 1960 · Big Comic Spirits and Big Comic Original.",
+      "meta": "Naoki Urasawa in English-market credits · born 1960 · Big Comic Spirits and Big Comic Original. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Long suspense serials whose structure is a question posed early and deferred for years, and which have made him the most internationally visible seinen creator of his generation.",
       "signature": "Faces — ordinary, specific, unglamorous — carrying almost all the tension, with the plot advanced by expression across a sequence of close panels rather than by incident. `page-8`'s withholding is his working method at the scale of a whole serial, and `psychology-14`'s point about readers filling the gap is the risk his structures run deliberately.",
       "works": [
@@ -8408,7 +8408,7 @@
       "category": "Seinen and the Adult Magazine",
       "name": "Hirokane Kenshi",
       "description": "The salaryman serial, and the medium taking the office seriously as a subject.",
-      "meta": "Kenshi Hirokane in English-market credits · born 1947 · Morning.",
+      "meta": "Kenshi Hirokane in English-market credits · born 1947 · Morning. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial following a corporate employee's career from section chief upward across decades of real-time promotion, which made the workplace a durable seinen category — the magazine demographic it ran in, not a genre.",
       "signature": "Procedural accuracy about corporate structure — meetings, factions, transfers, the politics of a posting — treated as inherently dramatic, which is `trope-59`'s work-as-incident card in its founding case.",
       "works": [
@@ -8430,7 +8430,7 @@
       "category": "Seinen and the Adult Magazine",
       "name": "Kawaguchi Kaiji",
       "description": "The political thriller as a serious argument about Japan's postwar settlement.",
-      "meta": "Kaiji Kawaguchi in English-market credits · born 1948 · Morning and Big Comic.",
+      "meta": "Kaiji Kawaguchi in English-market credits · born 1948 · Morning and Big Comic. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Serials built on constitutional and military what-ifs — a submarine crew declaring independence, an invasion scenario — that were debated in the national press as political propositions rather than only as fiction.",
       "signature": "Procedural realism about institutions under pressure: the cabinet meeting, the chain of command and the press conference are staged with the same care as the action, and the argument is carried by the procedure.",
       "works": [
@@ -8452,7 +8452,7 @@
       "category": "Seinen and the Adult Magazine",
       "name": "Iwaaki Hitoshi",
       "description": "The body-horror premise worked through as an ethical problem.",
-      "meta": "Hitoshi Iwaaki in English-market credits · born 1960 · Afternoon.",
+      "meta": "Hitoshi Iwaaki in English-market credits · born 1960 · Afternoon. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial about a parasite that takes over a boy's right hand and the negotiated coexistence that follows, which treats its horror premise as a question about what a person owes other species.",
       "signature": "A plain, almost diagrammatic drawing style that makes the transformations legible rather than lush, and an argument advanced through conversation between the boy and the thing in his hand. `trope-44`'s uninvited passenger is this work carded.",
       "works": [
@@ -8474,7 +8474,7 @@
       "category": "Seinen and the Adult Magazine",
       "name": "Kariya Tetsu",
       "description": "The food serial as journalism, and a writer who took the consequences.",
-      "meta": "Tetsu Kariya in English-market credits · born 1941 · Big Comic Spirits.",
+      "meta": "Tetsu Kariya in English-market credits · born 1941 · Big Comic Spirits. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Writing the long-running gourmet serial that made food a major manga genre, and suspending it after a sequence on radiation exposure near Fukushima produced a national controversy.",
       "signature": "Argument staged as a contest — two dishes, two positions, a verdict — which turns instruction into drama and is why the format spread. **The controversy is part of the record and both sides are serious**: that the sequence reported what people at the site told the author, and that a fiction serial reporting health effects carries an evidential burden it did not meet. `checklist-11` is the audit; this pack states the dispute and does not settle it.",
       "works": [
@@ -8496,7 +8496,7 @@
       "category": "Seinen and the Adult Magazine",
       "name": "Fukumoto Nobuyuki",
       "description": "The gambling serial, where the mechanism is the drama.",
-      "meta": "Nobuyuki Fukumoto in English-market credits · born 1958 · Young Magazine and Kindai Mahjong.",
+      "meta": "Nobuyuki Fukumoto in English-market credits · born 1958 · Young Magazine and Kindai Mahjong. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Serials in which the tension comes entirely from a fully explained game with money and life attached, and from protagonists who are not good people.",
       "signature": "Interior monologue at enormous length while nothing physical happens; a distinctive pointed-nose figure style; and rules explained so completely that the reader can check the protagonist's reasoning, which is what makes the tension survive the explanation.",
       "works": [
@@ -8518,7 +8518,7 @@
       "category": "Seinen and the Adult Magazine",
       "name": "Manabe Shōhei",
       "description": "The debt-collection serial, and the seinen magazine's least consoling register.",
-      "meta": "Shohei Manabe in English-market credits · born 1969 · Big Comic Spirits.",
+      "meta": "Shohei Manabe in English-market credits · born 1969 · Big Comic Spirits. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A serial about an illegal moneylender and the people who borrow from him, structured as a rotating set of cases in which most borrowers are destroyed.",
       "signature": "Documentary specificity about money — interest rates, collection practice, the exact sums — with the misery presented as arithmetic rather than as tragedy. `trope-60`'s client-of-the-week structure, run without the mercy the format usually supplies.",
       "works": [
@@ -8616,7 +8616,7 @@
       "category": "Horror and the Uncanny",
       "name": "Itō Junji",
       "description": "The single-rule horror, executed with unusual formal discipline.",
-      "meta": "Junji Ito in English-market credits · born 1963 · horror magazines and seinen.",
+      "meta": "Junji Ito in English-market credits · born 1963 · horror magazines and seinen. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Short horror built on one impossible premise applied without exception, and a serial in which a town is infected by a geometric shape.",
       "signature": "Immaculate fine-line rendering of ordinary rooms and faces, deformed by a single rule, on a regular panel grid that makes the deformation measurable. **He is carded as `horror:Junji Ito`, where the reading is his place in that genre's canon and his award record.** This pack reads the production frame instead: the short horror serial as a magazine format, and the grid discipline as page grammar `page-14` cards.",
       "works": [
@@ -8643,7 +8643,7 @@
       "category": "Horror and the Uncanny",
       "name": "Hino Hideshi",
       "description": "The grotesque line of horror manga, and the autobiographical wound underneath it.",
-      "meta": "Hideshi Hino in English-market credits · born 1946 · horror magazines and the kashihon-descended market.",
+      "meta": "Hideshi Hino in English-market credits · born 1946 · horror magazines and the kashihon-descended market. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Horror built on deformity, mutation and family cruelty, much of it framed autobiographically, and a body of work that circulated in English translation earlier than most of the genre.",
       "signature": "A deliberately crude, childlike line applied to viscera, so the horror arrives through the mismatch rather than the rendering. **He is carded as `horror:Hideshi Hino`, where the reading is the genre's grotesque tradition.** Here the reading is the market: this work exists because the kashihon-descended horror magazines had a readership the mainstream weeklies would not serve, which is `serial-67`'s permission-structure argument.",
       "works": [
@@ -8665,7 +8665,7 @@
       "category": "Horror and the Uncanny",
       "name": "Furuya Usamaru",
       "description": "The formal experimenter working in the transgressive line.",
-      "meta": "Usamaru Furuya in English-market credits · born 1968 · Garo, then seinen magazines.",
+      "meta": "Usamaru Furuya in English-market credits · born 1968 · Garo, then seinen magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Beginning in the alternative magazine with a strip of one-page formal experiments, then moving into commercial seinen with work about adolescence, suicide and cruelty.",
       "signature": "Each page a different pastiche or formal system — the experiment is the unit — with a fine-art training visible in the composition. The transgressive content is real and the interest is structural, which is the same pairing `author-9`'s card describes and a different resolution of it.",
       "works": [
@@ -8687,7 +8687,7 @@
       "category": "SF, Mecha and the Speculative Line",
       "name": "Nagai Gō",
       "description": "Three formats invented in five years, and the censorship fight that came with them.",
-      "meta": "Go Nagai in English-market credits · born 1945 · Weekly Shōnen Jump and Weekly Shōnen Magazine.",
+      "meta": "Go Nagai in English-market credits · born 1945 · Weekly Shōnen Jump and Weekly Shōnen Magazine. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "The piloted giant robot, the transforming heroine, and a demon-possession serial whose ending is among the medium's bleakest — plus a gag serial that triggered a national campaign by parents' and teachers' groups against indecency in children's manga.",
       "signature": "Escalation without a brake: whatever the premise permits, the work does, which is why the same career produced both a toy franchise and an apocalypse. **He is carded as `superhero:Go Nagai` for the piloted robot's place in that genre.** This pack reads the censorship history instead — the campaign against his gag serial is an early instance of the pressure `history-21` describes, two decades before the case that made it national.",
       "works": [
@@ -8741,7 +8741,7 @@
       "category": "SF, Mecha and the Speculative Line",
       "name": "Ōtomo Katsuhiro",
       "description": "The work that changed what manga looked like, and what Western readers thought it was.",
-      "meta": "Katsuhiro Otomo in English-market credits · born 1954 · Young Magazine.",
+      "meta": "Katsuhiro Otomo in English-market credits · born 1954 · Young Magazine. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A long science-fiction serial about psychic children and a destroyed Tokyo, whose draughtsmanship and page construction reset the seinen standard, and whose English edition was many readers' first manga.",
       "signature": "Architectural precision and a fixed camera discipline borrowed from film — consistent eyelines and geography across a sequence, which the medium had largely not bothered with — plus destruction rendered as engineering rather than as spectacle.",
       "works": [
@@ -8763,7 +8763,7 @@
       "category": "SF, Mecha and the Speculative Line",
       "name": "Shirow Masamune",
       "description": "The densest information design in the medium, and the argument it forces about readability.",
-      "meta": "Masamune Shirow in English-market credits · born 1961 · Young Magazine and specialist SF publishers.",
+      "meta": "Masamune Shirow in English-market credits · born 1961 · Young Magazine and specialist SF publishers. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Cyberpunk serials whose technical and political apparatus is elaborated in marginal notes running alongside the story, and which have been enormously influential outside manga.",
       "signature": "Text density that competes with the art deliberately — footnotes, diagrams, technical asides — which is the exact inverse of `craft-27`'s division of labour and is worth studying as the counter-case rather than as a failure.",
       "works": [
@@ -8785,7 +8785,7 @@
       "category": "SF, Mecha and the Speculative Line",
       "name": "Miyazaki Hayao",
       "description": "A manga made in the gaps of a film career, and more ambivalent than the films.",
-      "meta": "Hayao Miyazaki in English-market credits · born 1941 · Animage.",
+      "meta": "Hayao Miyazaki in English-market credits · born 1941 · Animage. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A long ecological serial drawn intermittently over twelve years alongside his animation work, which is darker, denser and more politically unresolved than the film made from its first act.",
       "signature": "Pages crowded with ecological and military detail, tiny lettering, and an argument that refuses the resolution the adaptation supplies. **He is carded as `fantasy:Hayao Miyazaki` for the films' place in that genre.** This pack cards the manga, which is a different object with a different ending, and `craft-33`'s adaptation-that-overtakes-the-source is the exact case.",
       "works": [
@@ -8807,7 +8807,7 @@
       "category": "SF, Mecha and the Speculative Line",
       "name": "Hoshino Yukinobu",
       "description": "Hard science fiction in manga, sustained across a career.",
-      "meta": "Yukinobu Hoshino in English-market credits · born 1954 · seinen and SF magazines.",
+      "meta": "Yukinobu Hoshino in English-market credits · born 1954 · seinen and SF magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Anthology and serial science fiction working from real physics, palaeontology and archaeology, in a tradition closer to written SF's problem stories than to the medium's usual speculative register.",
       "signature": "A premise stated as a scientific situation and worked through honestly, with the human material kept deliberately spare — the form `subgenre-36`'s hand-off card points at, and one of the few places manga does written SF's job.",
       "works": [
@@ -8873,7 +8873,7 @@
       "category": "Comedy, Gag and Yonkoma",
       "name": "Akimoto Osamu",
       "description": "Forty years without a missed week, and an ending chosen rather than imposed.",
-      "meta": "Osamu Akimoto in English-market credits · born 1952 · Weekly Shōnen Jump.",
+      "meta": "Osamu Akimoto in English-market credits · born 1952 · Weekly Shōnen Jump. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A comedy serial that ran weekly in the same magazine for four decades — the longest continuous run in that magazine's history — and ended on the creator's decision rather than on a survey result.",
       "signature": "A fixed comic premise refreshed by subject rather than by escalation: the cast never changes and the topic always does, which is the only structure that survives that many instalments. `psychology-10`'s duration argument and `serial-13`'s rhythms have no better single case.",
       "works": [
@@ -8895,7 +8895,7 @@
       "category": "Comedy, Gag and Yonkoma",
       "name": "Azuma Kiyohiko",
       "description": "The four-panel school comedy, and the register that came to define an era of it.",
-      "meta": "Kiyohiko Azuma in English-market credits · born 1968 · Dengeki Daioh.",
+      "meta": "Kiyohiko Azuma in English-market credits · born 1968 · Dengeki Daioh. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A four-panel school serial with no plot and no antagonist, which established the low-stakes ensemble comedy as a commercial category, and a later serial about a child's first encounters with ordinary things.",
       "signature": "Comic timing built on the absence of event, with the humour arising from character reaction to nothing much; and a clean, uncluttered page that gives the four-panel unit room to breathe. `subgenre-21`'s nichijō-kei register is largely this work's inheritance.",
       "works": [
@@ -8917,7 +8917,7 @@
       "category": "Comedy, Gag and Yonkoma",
       "name": "Ishii Hisaichi",
       "description": "The newspaper four-panel as political and social observation, sustained for fifty years.",
-      "meta": "Hisaichi Ishii in English-market credits · born 1951 · newspapers and magazines.",
+      "meta": "Hisaichi Ishii in English-market credits · born 1951 · newspapers and magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Daily four-panel strips combining domestic comedy with political and literary satire, produced at a volume that has few parallels, and a persistent presence in the national press.",
       "signature": "A minimal, almost crude line that puts everything on the writing, and a turn in the third panel that is frequently a change of subject rather than a change of situation — the yonkoma structure used for argument rather than for jokes.",
       "works": [
@@ -8961,7 +8961,7 @@
       "category": "Editors and the Editorial System",
       "name": "Torishima Kazuhiko",
       "description": "The documented case of an editor changing a series, described by both parties.",
-      "meta": "Kazuhiko Torishima in English-market credits · born 1952 · Weekly Shōnen Jump, later a publishing executive.",
+      "meta": "Kazuhiko Torishima in English-market credits · born 1952 · Weekly Shōnen Jump, later a publishing executive. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Editing a debut creator through many rejected drafts into a gag serial and then a battle serial, and describing the process publicly in enough detail that it is the standard evidence for how far editorial authority reaches.",
       "signature": "Direction rather than correction — an editorial method that argues about premise and protagonist rather than about pacing, exercised at nemu stage where `serial-52` says the leverage actually sits. **He holds no credit on any of it**, which is `serial-51`'s claim in its clearest instance, and `history-3` carries the same case at period level.",
       "works": [
@@ -8983,7 +8983,7 @@
       "category": "Editors and the Editorial System",
       "name": "Ōtsuka Eiji",
       "description": "The editor who became the theorist of the thing he had been editing.",
-      "meta": "Eiji Otsuka in English-market credits · born 1958 · manga magazines as editor, then criticism and scriptwriting.",
+      "meta": "Eiji Otsuka in English-market credits · born 1958 · manga magazines as editor, then criticism and scriptwriting. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Editing in the commercial magazines, writing serials, and producing the theoretical account of consumption in which audiences buy fragments of a larger fictional world rather than individual stories — an argument the industry's media-mix later made look descriptive.",
       "signature": "Structural analysis from inside the machine: he argues about the medium's economics and its narrative grammar as one subject, which is why the theory is usable rather than only interpretive. His work is among the sources `history-3` and `history-4` draw on for the constructed-lineage argument. **The survey often attributed to him in English-language citation is Kure Tomofusa's**, and this pack's own Creator card carried that misattribution until screen 33's attribution half was built (§3.37).",
       "works": [
@@ -9005,7 +9005,7 @@
       "category": "Editors and the Editorial System",
       "name": "Nishimura Shigeo",
       "description": "The editor-in-chief who wrote the memoir, and why that is rare.",
-      "meta": "Shigeo Nishimura in English-market credits · born 1937 · Weekly Shōnen Jump.",
+      "meta": "Shigeo Nishimura in English-market credits · 1937–2015 · Weekly Shōnen Jump. He died in May 2015; no source consulted records the day. This card asserted a living person for eleven years, and the V-29 library re-check of September 2026 is what found it. Not to be confused with the picture-book author of the same name, born 1947, who is a different person and is living.",
       "knownFor": "Editing and then running the boys' weekly through the years of its steepest growth, and publishing a first-person account of how the magazine was actually assembled — lineup decisions, survey handling, the negotiation of cancellations.",
       "signature": "The editorial department as an institution with quotas and internal politics, described from inside by someone who ran it. **Most of what a reference work can say about editorial practice comes from a small number of memoirs like this one**, which is a documentation condition worth stating: the system is described mainly by the few participants who chose to describe it. `serial-54`'s rotating editor is his account made general.",
       "works": [
@@ -9027,7 +9027,7 @@
       "category": "Editors and the Editorial System",
       "name": "Suzuki Toshio",
       "description": "The magazine editor who became the producer, and the media-mix seen from the commissioning side.",
-      "meta": "Toshio Suzuki in English-market credits · born 1948 · Animage, then film production.",
+      "meta": "Toshio Suzuki in English-market credits · born 1948 · Animage, then film production. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Editing the animation magazine that commissioned a manga serial from a film director, and then producing the films — a career that runs along the seam `craft-29` through `craft-35` describe from the writer's side.",
       "signature": "Commissioning as authorship-adjacent work: deciding what gets made, by whom, in which medium, and in what order. **This is the media-mix as a financial structure rather than as an aesthetic**, and it is carded here because the person who decides that a manga should exist is doing something the credits do not record.",
       "works": [
@@ -9049,7 +9049,7 @@
       "category": "Assistants, Studios and Collective Authorship",
       "name": "Buronson",
       "description": "The writer of a serial whose art everyone can picture and whose script nobody credits.",
-      "meta": "Buronson · a single-element pen name; no family–given order exists to gloss, and the exemption is declared in config with this reason · born 1947 · Weekly Shōnen Jump and seinen magazines.",
+      "meta": "Buronson · a single-element pen name; no family–given order exists to gloss, and the exemption is declared in config with this reason · born 1947 · Weekly Shōnen Jump and seinen magazines. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Writing the post-apocalyptic martial-arts serial that defined 1980s shōnen violence, and continuing as a writer-for-artists across four decades.",
       "signature": "Structural economy — an escalating opponent ladder with a stated moral frame, set out so an artist can stage it without further instruction. The writer-artist split he works in is the arrangement `craft-48` cards and `serial-58` prices, and it remains uncommon enough that readers routinely attribute the whole work to the artist.",
       "works": [
@@ -9071,7 +9071,7 @@
       "category": "Assistants, Studios and Collective Authorship",
       "name": "Hara Tetsuo",
       "description": "The artist half of the same partnership, and the studio that produced it.",
-      "meta": "Tetsuo Hara in English-market credits · born 1961 · Weekly Shōnen Jump.",
+      "meta": "Tetsuo Hara in English-market credits · born 1961 · Weekly Shōnen Jump. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Drawing that serial at weekly pace with a workshop behind him, and later running his own studio and imprint.",
       "signature": "Heavy hatching, extreme musculature and a fixed set of impact conventions, executed at a consistency only a workshop makes possible. **The weekly page rate is the constraint that produces the studio**, which is `serial-55`'s employment argument seen from the artist's side rather than the assistant's.",
       "works": [
@@ -9093,7 +9093,7 @@
       "category": "Assistants, Studios and Collective Authorship",
       "name": "Ōba Tsugumi",
       "description": "A pen name whose holder has never been identified, and the attribution everyone repeats anyway.",
-      "meta": "Tsugumi Ohba in English-market credits · a pen name; the holder's identity has not been disclosed and living status is recorded as unknown · Weekly Shōnen Jump.",
+      "meta": "Tsugumi Ohba in English-market credits · a pen name; the holder's identity has not been disclosed and living status is recorded as unknown · Weekly Shōnen Jump. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Writing two major serials for the boys' weekly, including one about making manga inside that magazine — a work whose subject is the very authorship apparatus its own credit conceals.",
       "signature": "Dense procedural plotting built on rules and negotiation rather than on physical action, drawn by a separate artist throughout. **The widely repeated identification of this name with a known creator is an inference, not a disclosure**: the publisher has never confirmed it and the holder has never claimed it. This pack states the inference exists, states that it is unconfirmed, and does not assert it — which is `serial-60`'s rule applied to the one case where the missing credit is deliberate rather than institutional.",
       "works": [
@@ -9115,7 +9115,7 @@
       "category": "Assistants, Studios and Collective Authorship",
       "name": "Obata Takeshi",
       "description": "The artist who works to other people's scripts, repeatedly and by choice.",
-      "meta": "Takeshi Obata in English-market credits · born 1969 · Weekly Shōnen Jump.",
+      "meta": "Takeshi Obata in English-market credits · born 1969 · Weekly Shōnen Jump. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Drawing several major serials to scripts by different writers, each in a visibly different register, which is unusual in a medium whose default is a single author doing both.",
       "signature": "Adaptive style — the line, the panel density and the character design change with the writer rather than staying constant — which is the clearest available evidence that in this medium the artist's account of the scene is a choice and not a signature. `superhero:craft-10`'s claim, tested by one person taking both sides of it.",
       "works": [
@@ -9142,7 +9142,7 @@
       "category": "Critics, Scholars and Translators",
       "name": "Natsume Fusanosuke",
       "description": "The critic who gave the medium a vocabulary for its own page.",
-      "meta": "Fusanosuke Natsume in English-market credits · born 1950 · criticism, broadcasting and academia.",
+      "meta": "Fusanosuke Natsume in English-market credits · born 1950 · criticism, broadcasting and academia. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "Developing a formal vocabulary for manga expression — panel, frame, line, the treatment of the balloon — that made it possible to discuss the medium's grammar in its own terms rather than in film's or literature's.",
       "signature": "Close reading of the page as a technical object, with the argument advanced by looking at how a specific panel is built. **Much of what this pack's Page collection can say in the vocabulary it uses descends from this line of criticism**, which is why `page-1` through `page-30` are possible as cards rather than as impressions.",
       "works": [
@@ -9164,7 +9164,7 @@
       "category": "Critics, Scholars and Translators",
       "name": "Yomota Inuhiko",
       "description": "The comparatist who put manga beside film and literature without flattening it.",
-      "meta": "Inuhiko Yomota in English-market credits · born 1953 · academia and criticism.",
+      "meta": "Inuhiko Yomota in English-market credits · born 1953 · academia and criticism. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A theoretical account of manga's expressive principles written from within comparative literature and film studies, and a long career arguing for the medium as a serious object across all three.",
       "signature": "Analysis that borrows tools from adjacent disciplines and states where they stop working, which is the discipline this pack's screen 18 was built to enforce on itself — name what the neighbouring form cannot say.",
       "works": [
@@ -9208,7 +9208,7 @@
       "category": "Critics, Scholars and Translators",
       "name": "Frederik L. Schodt",
       "description": "The translator and critic who built the Anglophone account of the medium almost single-handed.",
-      "meta": "Frederik L. Schodt · an Anglophone writer whose card name is already in his own order; the gloss exemption is declared in config with this reason · born 1950 · translation and criticism.",
+      "meta": "Frederik L. Schodt · an Anglophone writer whose card name is already in his own order; the gloss exemption is declared in config with this reason · born 1950 · translation and criticism. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "The 1983 survey that introduced manga to English-language readers as a serious medium with a history, a later volume covering the decades after it, and translation work including a long collaboration on the medium's foundational science-fiction serial.",
       "signature": "Explanation without condescension in either direction — neither treating the medium as exotic nor pretending the cultural distance is nil — which is why the survey is still cited forty years on. `history-12` uses it for the postwar reconstruction, and much of the English-language record's shape is downstream of what he chose to cover first.",
       "works": [
@@ -9230,7 +9230,7 @@
       "category": "Critics, Scholars and Translators",
       "name": "Sharon Kinsella",
       "description": "The scholar who read the industry as an industry, including the parts it prefers not to discuss.",
-      "meta": "Sharon Kinsella · an Anglophone scholar whose card name is already in her own order; the gloss exemption is declared in config with this reason · sociology and Japanese studies.",
+      "meta": "Sharon Kinsella · an Anglophone scholar whose card name is already in her own order; the gloss exemption is declared in config with this reason · sociology and Japanese studies. · status carried as unconfirmed, no living-status check has been run",
       "knownFor": "A study of the commercial manga industry, the amateur movement and their relationship, covering the publishers' editorial control, the 1990–91 regulation campaign, and the periods when the professional and amateur systems were hostile rather than symbiotic.",
       "signature": "Sociology rather than appreciation: the object of study is the production system and the power inside it, and the argument is built from interviews and institutional evidence. `serial-63`, `serial-64` and `history-21` all rest on this work, and this card closes the collection where `author-1` opened it — with the system rather than the page.",
       "works": [

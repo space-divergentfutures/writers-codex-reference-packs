@@ -1,9 +1,9 @@
 {
  "id": "horror-reference",
  "name": "Horror",
- "packVersion": "1.1.3",
+ "packVersion": "1.1.4",
  "schemaVersion": 2,
- "lastUpdated": "2026-08-28",
+ "lastUpdated": "2026-09-11",
  "minAppVersion": "0.1.0",
  "collections": [
   {
@@ -9366,7 +9366,7 @@
    "category": "The Weird Tale",
    "name": "Thomas Ligotti",
    "description": "The weird tale's most rigorous modern practitioner, and its bleakest.",
-   "meta": "American, born 1953. Two Bram Stokers for 1996 work and one for 2002; British Fantasy Award Best Collection 1997; two International Horror Guild awards. **He has never won a World Fantasy Award** — three nominations only.",
+   "meta": "American, born 1953. Two Bram Stokers for 1996 work and one for 2002; British Fantasy Award Best Collection 1997; two International Horror Guild awards. **He has never won a World Fantasy Award** — three nominations only. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "A body of short fiction in which the horror is philosophical rather than incidental, and a non-fiction statement of the position underneath it.",
    "signature": "Depersonalised narrators in towns that have the texture of a stage set, described in a prose of exhausted precision that never raises its voice.",
    "works": [
@@ -9866,7 +9866,7 @@
    "category": "The Modern Masters",
    "name": "Stephen King",
    "description": "The most commercially successful horror writer who has ever lived, with an award record constantly overstated.",
-   "meta": "American, born 1947. **One Hugo only — 1982, Best Non-Fiction Book, for Danse Macabre. Never a Hugo for fiction. No Nebula.** Two competitive World Fantasy Awards, both for short fiction, one of them a tie — **and never a World Fantasy Award for a novel, despite ten novel nominations.** The 2003 honour is the **National Book Foundation Medal**, a lifetime award, and **not** a National Book Award, which he has never won or been a finalist for. National Medal of Arts for 2014. Edgar Award for Best Novel 2015, real and frequently omitted. Four August Derleth Awards, twelve competitive Bram Stokers and Lifetime Achievement for 2002. He is not a Mystery Writers of America Grand Master despite frequent listing. No Stoker exists for Carrie, 'Salem's Lot, The Shining, The Stand, Cujo, Pet Sematary or It — all predate the award's first eligibility year. Rage, published as by Richard Bachman in 1977, was withdrawn from print at King's own request after its association with school shootings.",
+   "meta": "American, born 1947. **One Hugo only — 1982, Best Non-Fiction Book, for Danse Macabre. Never a Hugo for fiction. No Nebula.** Two competitive World Fantasy Awards, both for short fiction, one of them a tie — **and never a World Fantasy Award for a novel, despite ten novel nominations.** The 2003 honour is the **National Book Foundation Medal**, a lifetime award, and **not** a National Book Award, which he has never won or been a finalist for. National Medal of Arts for 2014. Edgar Award for Best Novel 2015, real and frequently omitted. Four August Derleth Awards, twelve competitive Bram Stokers and Lifetime Achievement for 2002. He is not a Mystery Writers of America Grand Master despite frequent listing. No Stoker exists for Carrie, 'Salem's Lot, The Shining, The Stand, Cujo, Pet Sematary or It — all predate the award's first eligibility year. Rage, published as by Richard Bachman in 1977, was withdrawn from print at King's own request after its association with school shootings. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Establishing that horror could carry four hundred pages, by spending the first third on people and towns before anything happens.",
    "signature": "Deep, unhurried community construction and free-indirect interiority, so that when the attrition begins the reader is losing neighbours rather than characters.",
    "works": [
@@ -9960,7 +9960,7 @@
    "category": "The Modern Masters",
    "name": "Ramsey Campbell",
    "description": "The most decorated writer in the field, and its most disciplined prose stylist.",
-   "meta": "English, born 1946. Four competitive World Fantasy Awards plus Life Achievement 2015; two competitive Bram Stokers plus Lifetime Achievement; twelve competitive British Fantasy Awards plus a Karl Edward Wagner Award in 2024; three International Horror Guild awards plus Living Legend 2007 — roughly twenty-six wins in total. **None of his World Fantasy wins is for a novel.** The 1991 World Fantasy anthology award for Best New Horror is credited to Stephen Jones alone by the award's own list and to Jones and Campbell jointly by the Science Fiction Awards Database, and the book was genuinely co-edited.",
+   "meta": "English, born 1946. Four competitive World Fantasy Awards plus Life Achievement 2015; two competitive Bram Stokers plus Lifetime Achievement; twelve competitive British Fantasy Awards plus a Karl Edward Wagner Award in 2024; three International Horror Guild awards plus Living Legend 2007 — roughly twenty-six wins in total. **None of his World Fantasy wins is for a novel.** The 1991 World Fantasy anthology award for Best New Horror is credited to Stephen Jones alone by the award's own list and to Jones and Campbell jointly by the Science Fiction Awards Database, and the book was genuinely co-edited. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Misperception as a horror mechanism — the sentence that describes what a frightened person thinks they saw, before correction.",
    "signature": "Ordinary English suburbs and Liverpool streets rendered in prose that keeps the reader half a beat behind what is actually in the frame.",
    "works": [
@@ -10048,7 +10048,7 @@
    "category": "The Modern Masters",
    "name": "Clive Barker",
    "description": "Arrived fully formed in 1984 and changed what British horror was allowed to contain.",
-   "meta": "English, born 1952. **Exactly one World Fantasy Award** — 1985, for the first three Books of Blood — from seven nominations. Three British Fantasy Awards: Short Fiction 1985 and 1986, and Film 1988 for Hellraiser as director. One competitive Bram Stoker, for 2004 work in the younger-readers category and shared as a tie, plus Lifetime Achievement 2013 and International Horror Guild Living Legend 1996. Lambda Awards 1997 and 1999. **Books of Blood did not win a Bram Stoker** — the award postdates it. In early 2012 he suffered toxic shock syndrome following a dental procedure; press accounts of the coma's length vary materially, and his own account is that he had no memory for twelve days and was hospitalised for about a month.",
+   "meta": "English, born 1952. **Exactly one World Fantasy Award** — 1985, for the first three Books of Blood — from seven nominations. Three British Fantasy Awards: Short Fiction 1985 and 1986, and Film 1988 for Hellraiser as director. One competitive Bram Stoker, for 2004 work in the younger-readers category and shared as a tie, plus Lifetime Achievement 2013 and International Horror Guild Living Legend 1996. Lambda Awards 1997 and 1999. **Books of Blood did not win a Bram Stoker** — the award postdates it. In early 2012 he suffered toxic shock syndrome following a dental procedure; press accounts of the coma's length vary materially, and his own account is that he had no memory for twelve days and was hospitalised for about a month. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Making the monstrous desirable rather than merely threatening, and for a body of short fiction that arrived with no apprenticeship visible in it.",
    "signature": "Transgression rendered in a high, almost liturgical register, with the flesh described as if it were architecture.",
    "works": [
@@ -10094,7 +10094,7 @@
    "category": "The Modern Masters",
    "name": "Dean Koontz",
    "description": "Enormous commercial success and, in the genre's award record, almost nothing.",
-   "meta": "American, born 1945. **He has never won a competitive genre award.** Zero Bram Stokers from four nominations, zero World Fantasy Awards from three, zero British Fantasy Awards, and zero Hugos from a single 1971 nomination for the novella \"Beastchild\". His one win of any kind in the field is the World Horror Convention Grandmaster Award of 1996. Sales figures attached to him are publisher-supplied and not independently auditable. He wrote roughly twenty novels in five years in the late 1960s and 1970s under a dense thicket of pseudonyms including David Axton, Brian Coffey, Leigh Nichols and Owen West, and has been consistently dismissive of that output. His near-total absence from the award record despite the sales is itself the fact a reference work should record.",
+   "meta": "American, born 1945. **He has never won a competitive genre award.** Zero Bram Stokers from four nominations, zero World Fantasy Awards from three, zero British Fantasy Awards, and zero Hugos from a single 1971 nomination for the novella \"Beastchild\". His one win of any kind in the field is the World Horror Convention Grandmaster Award of 1996. Sales figures attached to him are publisher-supplied and not independently auditable. He wrote roughly twenty novels in five years in the late 1960s and 1970s under a dense thicket of pseudonyms including David Axton, Brian Coffey, Leigh Nichols and Owen West, and has been consistently dismissive of that output. His near-total absence from the award record despite the sales is itself the fact a reference work should record. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The horror-thriller hybrid built for maximum readability, with a reliably restorative ending — the counter-position to almost everything else in this category.",
    "signature": "Short paragraphs, high chapter turnover and an unembarrassed sentimentality about dogs, children and decency under threat.",
    "works": [
@@ -10141,7 +10141,7 @@
    "category": "The Modern Masters",
    "name": "Robert R. McCammon",
    "description": "Won the field's first Best Novel award, then walked away from publishing for a decade.",
-   "meta": "American, born 1952. **Five competitive Bram Stokers**, two of them at the very first ceremony for 1987 work — Best Novel for Swan Song, in a tie with Stephen King's Misery, and Best Short Story for \"The Deep End\" — followed by wins for 1989, 1990 and 1991 work, plus Lifetime Achievement 2013. World Fantasy Award for Best Novel 1992 for Boy's Life, outright rather than a tie. World Horror Grandmaster 2008. He is a co-founder of the Horror Writers Association and originated the idea, which was incorporated in Ohio in March 1987; the frequent claims that he was its first president, or that it began in 1985 under another name, are not supported by the association's own account. He stopped publishing after Gone South in 1992, citing exhaustion and publishers who insisted he stay in genre horror, and the unpublished novel at the centre of the break, The Village, remains unpublished.",
+   "meta": "American, born 1952. **Five competitive Bram Stokers**, two of them at the very first ceremony for 1987 work — Best Novel for Swan Song, in a tie with Stephen King's Misery, and Best Short Story for \"The Deep End\" — followed by wins for 1989, 1990 and 1991 work, plus Lifetime Achievement 2013. World Fantasy Award for Best Novel 1992 for Boy's Life, outright rather than a tie. World Horror Grandmaster 2008. He is a co-founder of the Horror Writers Association and originated the idea, which was incorporated in Ohio in March 1987; the frequent claims that he was its first president, or that it began in 1985 under another name, are not supported by the association's own account. He stopped publishing after Gone South in 1992, citing exhaustion and publishers who insisted he stay in genre horror, and the unpublished novel at the centre of the break, The Village, remains unpublished. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Southern-inflected epic horror of real ambition, and for the rarest career shape in the field — a voluntary decade-long withdrawal at the height of it.",
    "signature": "Boyhood and the American South rendered with unguarded warmth, against catastrophe handled at genuine scale.",
    "works": [
@@ -10191,7 +10191,7 @@
    "category": "The Modern Masters",
    "name": "Thomas Harris",
    "description": "Four novels in forty years, one of which reorganised two genres at once.",
-   "meta": "American, born 1940. **His entire genre award record is two Bram Stokers**: Superior Achievement in a Novel for 1988 work, for The Silence of the Lambs — beating Anne Rice's The Queen of the Damned and McCammon's Stinger — and Lifetime Achievement for 2006. A single World Fantasy nomination in 1989, which lost to Straub's Koko. No British Fantasy Award, no International Horror Guild award, no Pulitzer. His reputation for total reclusiveness is overstated: he wrote publicly about Alfredo Ballí Treviño, the imprisoned Mexican surgeon he met as a young reporter and has identified as a source for Lecter, and gave interviews around Cari Mora.",
+   "meta": "American, born 1940. **His entire genre award record is two Bram Stokers**: Superior Achievement in a Novel for 1988 work, for The Silence of the Lambs — beating Anne Rice's The Queen of the Damned and McCammon's Stinger — and Lifetime Achievement for 2006. A single World Fantasy nomination in 1989, which lost to Straub's Koko. No British Fantasy Award, no International Horror Guild award, no Pulitzer. His reputation for total reclusiveness is overstated: he wrote publicly about Alfredo Ballí Treviño, the imprisoned Mexican surgeon he met as a young reporter and has identified as a source for Lecter, and gave interviews around Cari Mora. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Making forensic procedure a horror engine, and creating the antagonist against whom every subsequent articulate monster is measured.",
    "signature": "Clinical exactness about method, withheld interiority for the killer, and a protagonist whose competence is real and insufficient.",
    "works": [
@@ -10233,7 +10233,7 @@
    "category": "The Modern Masters",
    "name": "Joyce Carol Oates",
    "description": "The reverse of the expected case: a literary novelist with the stronger genre award record.",
-   "meta": "American, born 1938. **Five competitive Bram Stokers** — Best Novel for 1995 work for Zombie, and four further wins for collections and short fiction, including taking two categories in a single year for 2016 work — plus Lifetime Achievement for 1993. World Fantasy Award 2011 for Short Fiction. A Shirley Jackson Special Award 2011. **National Book Award 1970 for them — one win**, with five further finalist placings. **She has never won the Pulitzer, having been a Fiction finalist four times, and has never won the Nobel.** Nobel nomination records are sealed for fifty years, so any count of her modern nominations is unverifiable by definition and should not be printed. She has written as Rosamond Smith and Lauren Kelly.",
+   "meta": "American, born 1938. **Five competitive Bram Stokers** — Best Novel for 1995 work for Zombie, and four further wins for collections and short fiction, including taking two categories in a single year for 2016 work — plus Lifetime Achievement for 1993. World Fantasy Award 2011 for Short Fiction. A Shirley Jackson Special Award 2011. **National Book Award 1970 for them — one win**, with five further finalist placings. **She has never won the Pulitzer, having been a Fiction finalist four times, and has never won the Nobel.** Nobel nomination records are sealed for fifty years, so any count of her modern nominations is unverifiable by definition and should not be printed. She has written as Rosamond Smith and Lauren Kelly. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Sustained, unsentimental attention to American violence, and a body of horror that is not a sideline — five competitive Stokers and a World Fantasy Award is a stronger competitive record than several of this category's better-known names combined.",
    "signature": "Present-tense proximity to a mind in the act of harming or being harmed, with the prose refusing to look away or to editorialise.",
    "works": [
@@ -10409,7 +10409,7 @@
    "category": "The Quiet School",
    "name": "T.E.D. Klein",
    "description": "Very little published, almost all of it essential.",
-   "meta": "American, born 1947. World Fantasy Award 1986 for Best Novella; British Fantasy August Derleth Award 1986 for The Ceremonies. World Horror Grandmaster 2012. Seven World Fantasy nominations and one win — and **The Ceremonies did not win the World Fantasy Award**, which is a common error; it was nominated and lost. He was editor-in-chief of Rod Serling's The Twilight Zone Magazine from 1981 to 1985, the venue that first published David J. Schow's award-winning \"Red Light\".",
+   "meta": "American, born 1947. World Fantasy Award 1986 for Best Novella; British Fantasy August Derleth Award 1986 for The Ceremonies. World Horror Grandmaster 2012. Seven World Fantasy nominations and one win — and **The Ceremonies did not win the World Fantasy Award**, which is a common error; it was nominated and lost. He was editor-in-chief of Rod Serling's The Twilight Zone Magazine from 1981 to 1985, the venue that first published David J. Schow's award-winning \"Red Light\". Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "An unusually small body of work whose influence far exceeds its size, and for the proposition that a novel of cosmic horror can be built out of a rural summer and a reading list.",
    "signature": "Slow accumulation across ordinary days, with the horror arriving through a scholar's misreading of something he has correctly transcribed.",
    "works": [
@@ -10449,7 +10449,7 @@
    "category": "The Quiet School",
    "name": "Susan Hill",
    "description": "A mainstream literary novelist who wrote the most durable ghost story of the last fifty years.",
-   "meta": "English, born 1942. **She has never won a genre horror award.** Her record is entirely mainstream: Somerset Maugham Award 1971, John Llewellyn Rhys Prize 1972, Whitbread Novel Award 1972, and a Booker shortlisting in 1972 that she did not convert. CBE 2012 and DBE 2020, both for services to literature.",
+   "meta": "English, born 1942. **She has never won a genre horror award.** Her record is entirely mainstream: Somerset Maugham Award 1971, John Llewellyn Rhys Prize 1972, Whitbread Novel Award 1972, and a Booker shortlisting in 1972 that she did not convert. CBE 2012 and DBE 2020, both for services to literature. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Woman in Black, which demonstrated in 1983 that the undiluted Edwardian ghost-story shape still worked without irony or updating.",
    "signature": "Period pastiche executed so precisely that the reader stops noticing it, with the apparition's grievance withheld until it explains everything.",
    "works": [
@@ -10491,7 +10491,7 @@
    "category": "The Quiet School",
    "name": "Sarah Waters",
    "description": "Wrote a ghost story about the collapse of a class, and let the ghost stay arguable.",
-   "meta": "**Welsh**, born 1966 in Neyland, Pembrokeshire — she is frequently listed as English, and \"Neath\" is a persistent transcription error for her birthplace. **She has never won the Booker Prize**, having been shortlisted three times. Her wins include the Betty Trask Award 1999, the Somerset Maugham Award 2000, a Stonewall Book Award 2001 and the CWA Ellis Peters Historical Dagger 2002; OBE 2019. Neither Affinity nor The Little Stranger has ever been nominated for a horror award, so genre recognition should not be implied.",
+   "meta": "**Welsh**, born 1966 in Neyland, Pembrokeshire — she is frequently listed as English, and \"Neath\" is a persistent transcription error for her birthplace. **She has never won the Booker Prize**, having been shortlisted three times. Her wins include the Betty Trask Award 1999, the Somerset Maugham Award 2000, a Stonewall Book Award 2001 and the CWA Ellis Peters Historical Dagger 2002; OBE 2019. Neither Affinity nor The Little Stranger has ever been nominated for a horror award, so genre recognition should not be implied. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Little Stranger, in which the haunting and the post-war destruction of the gentry are the same event, and the narrator's reliability is the book's real subject.",
    "signature": "Immaculate period research carrying a class argument, with the supernatural left precisely balanced against a psychological reading that the text also supports.",
    "works": [
@@ -10532,7 +10532,7 @@
    "category": "The Quiet School",
    "name": "Elizabeth Hand",
    "description": "Four World Fantasy Awards, four Shirley Jacksons, and still under-read.",
-   "meta": "American, born 1957; her birthplace is given variously as San Diego and Yonkers and is not resolved here. Two Nebulas, **four World Fantasy Awards**, **four Shirley Jackson Awards**, two International Horror Guild awards, plus the Mythopoeic and Tiptree awards in 1996. **Three Bram Stoker nominations and no Stoker win.** She wrote the authorised return to Shirley Jackson's Hill House.",
+   "meta": "American, born 1957; her birthplace is given variously as San Diego and Yonkers and is not resolved here. Two Nebulas, **four World Fantasy Awards**, **four Shirley Jackson Awards**, two International Horror Guild awards, plus the Mythopoeic and Tiptree awards in 1996. **Three Bram Stoker nominations and no Stoker win.** She wrote the authorised return to Shirley Jackson's Hill House. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Literary horror and dark fantasy of unusual formal range, and a crime series whose protagonist is among the least ingratiating in the field.",
    "signature": "Damaged, hard-living women artists observed without redemption arcs, in prose that is precise about landscape and unsparing about them.",
    "works": [
@@ -10578,7 +10578,7 @@
    "category": "The Quiet School",
    "name": "Reggie Oliver",
    "description": "The Jamesian tradition's most accomplished living practitioner, and not in fact award-winning.",
-   "meta": "English, born 1952. Routinely described as award-winning: against the Science Fiction Awards Database he has **zero wins in any of the five major genre awards** — two World Fantasy nominations, one British Fantasy, two Shirley Jackson and two International Horror Guild, and no wins. Two minor prizes are reported and are unconfirmed against any official body. He has been a professional playwright, actor and theatre director since 1975, and the fiction is a second career begun in his fifties — sources routinely invert this.",
+   "meta": "English, born 1952. Routinely described as award-winning: against the Science Fiction Awards Database he has **zero wins in any of the five major genre awards** — two World Fantasy nominations, one British Fantasy, two Shirley Jackson and two International Horror Guild, and no wins. Two minor prizes are reported and are unconfirmed against any official body. He has been a professional playwright, actor and theatre director since 1975, and the fiction is a second career begun in his fifties — sources routinely invert this. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Ghost stories that put theatrical and clerical worlds under a Jamesian lens, published almost entirely through small presses.",
    "signature": "A raconteur's voice with an actor's ear for the self-deceiving speaker, and a supernatural that arrives as social embarrassment before it arrives as terror.",
    "works": [
@@ -10623,7 +10623,7 @@
    "category": "The Splatterpunks & Extreme Horror",
    "name": "David J. Schow",
    "description": "Coined the word as a joke and spent forty years being defined by it.",
-   "meta": "American, born 1955 in Marburg, West Germany. World Fantasy Award 1987 for Best Short Story, his only World Fantasy win from three nominations; International Horror Guild award for non-fiction. **One Bram Stoker nomination and zero wins** — the claim that he won for \"Pamela's Get\" appears in Contemporary Authors and propagates widely, and is false: that year's novelette category was a tie between Alan Rodgers and George R.R. Martin. **He coined \"splatterpunk\" at the Twelfth World Fantasy Convention in Providence in 1986, as an in-joke rather than a manifesto**, which is the root of the term's definitional instability ever since.",
+   "meta": "American, born 1955 in Marburg, West Germany. World Fantasy Award 1987 for Best Short Story, his only World Fantasy win from three nominations; International Horror Guild award for non-fiction. **One Bram Stoker nomination and zero wins** — the claim that he won for \"Pamela's Get\" appears in Contemporary Authors and propagates widely, and is false: that year's novelette category was a tie between Alan Rodgers and George R.R. Martin. **He coined \"splatterpunk\" at the Twelfth World Fantasy Convention in Providence in 1986, as an in-joke rather than a manifesto**, which is the root of the term's definitional instability ever since. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Editing the anthology that consolidated the tendency, and for a screenwriting career alongside the fiction.",
    "signature": "Hard-boiled velocity and film-literate structure, with the violence staged rather than described.",
    "works": [
@@ -10667,7 +10667,7 @@
    "category": "The Splatterpunks & Extreme Horror",
    "name": "John Skipp",
    "description": "Half of the movement's central partnership, and its most durable editor.",
-   "meta": "American, born 1957. **Two Bram Stokers, both for edited anthologies** — for 2006 and 2011 work — and **no major award for his own fiction**. A World Fantasy nomination in 1990 for Book of the Dead, co-edited with Craig Spector. The commonly stated 1991 end-date for the Skipp and Spector partnership conflicts with joint titles published in 1992 and 1993 and is not settled.",
+   "meta": "American, born 1957. **Two Bram Stokers, both for edited anthologies** — for 2006 and 2011 work — and **no major award for his own fiction**. A World Fantasy nomination in 1990 for Book of the Dead, co-edited with Craig Spector. The commonly stated 1991 end-date for the Skipp and Spector partnership conflicts with joint titles published in 1992 and 1993 and is not settled. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "With Spector, the rock-and-roll register of 1980s extreme horror, and for Book of the Dead, the anthology that gave prose zombie fiction its modern shape.",
    "signature": "Present-tense propulsion and dialogue that sounds spoken, with music and subculture treated as load-bearing rather than as texture.",
    "works": [
@@ -10713,7 +10713,7 @@
    "category": "The Splatterpunks & Extreme Horror",
    "name": "Craig Spector",
    "description": "The other half, and the one the record consistently mislays.",
-   "meta": "American. **His birth date and place are not reliably documented in any library or award source and are not stated here.** **He has no wins in any major award**, individually or jointly — Book of the Dead was a World Fantasy nominee and won nothing. He is frequently credited with the two Bram Stokers that belong to John Skipp alone, both of which postdate the partnership entirely.",
+   "meta": "American. **His birth date and place are not reliably documented in any library or award source and are not stated here.** **He has no wins in any major award**, individually or jointly — Book of the Dead was a World Fantasy nominee and won nothing. He is frequently credited with the two Bram Stokers that belong to John Skipp alone, both of which postdate the partnership entirely. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The collaborative novels of 1986 to 1993, and two solo books that moved toward crime.",
    "signature": "Structural discipline underneath the partnership's velocity — the plotting that kept the excess load-bearing.",
    "works": [
@@ -10851,7 +10851,7 @@
    "category": "The Splatterpunks & Extreme Horror",
    "name": "Billy Martin, published as Poppy Z. Brite",
    "description": "Brought a queer, Southern, music-saturated sensibility into a form that had not had one.",
-   "meta": "American, born 1967. He is a trans man; he began hormone therapy in 2010 and stated a preference for male pronouns in 2011, and he/him is correct throughout including for the earlier period. **The novels were published as Poppy Z. Brite, which is the correct bibliographic attribution and not an error.** British Fantasy Icarus Award for Best Newcomer 1994 is his only major genre win; an International Horror Guild award in 1995 for a co-edited anthology, in that award's first year. **Three World Fantasy nominations and five Bram Stoker nominations, with no wins in either.** He did not stop publishing after transition.",
+   "meta": "American, born 1967. He is a trans man; he began hormone therapy in 2010 and stated a preference for male pronouns in 2011, and he/him is correct throughout including for the earlier period. **The novels were published as Poppy Z. Brite, which is the correct bibliographic attribution and not an error.** British Fantasy Icarus Award for Best Newcomer 1994 is his only major genre win; an International Horror Guild award in 1995 for a co-edited anthology, in that award's first year. **Three World Fantasy nominations and five Bram Stoker nominations, with no wins in either.** He did not stop publishing after transition. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "New Orleans and the Gulf South as a horror landscape, and for making desire and decay the same subject.",
    "signature": "Lush, sensory prose about bodies and food and music, with the violence arriving inside the same register rather than against it.",
    "works": [
@@ -10894,7 +10894,7 @@
    "category": "The Splatterpunks & Extreme Horror",
    "name": "Edward Lee",
    "description": "The extreme small-press wave's defining name, with no awards at all.",
-   "meta": "American, born 1957. His birthplace is given variously as Bowie, Maryland and Washington, D.C., and an asserted legal name appears in one reference source and is unconfirmed, so neither is stated here. **One Bram Stoker nomination, in 1995, and zero wins in any award** — the \"award-winning\" epithet attached to him in publisher copy is not supportable. He is a different person from the children's author Edward Edson Lee. He announced his retirement from writing in 2025.",
+   "meta": "American, born 1957. His birthplace is given variously as Bowie, Maryland and Washington, D.C., and an asserted legal name appears in one reference source and is unconfirmed, so neither is stated here. **One Bram Stoker nomination, in 1995, and zero wins in any award** — the \"award-winning\" epithet attached to him in publisher copy is not supportable. He is a different person from the children's author Edward Edson Lee. He announced his retirement from writing in 2025. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Establishing the commercial floor of extreme horror through small and limited-edition presses, largely outside trade publishing.",
    "signature": "Escalation as the organising principle, with rural Maryland settings and a deadpan willingness to go further than the previous page.",
    "works": [
@@ -10941,7 +10941,7 @@
    "category": "The Splatterpunks & Extreme Horror",
    "name": "Brian Keene",
    "description": "Restarted prose zombie fiction, and built infrastructure alongside the books.",
-   "meta": "American, born 1967. **Two Bram Stokers** — Best Non-Fiction for 2001 work and Best First Novel for 2003 work. The dual work-year and ceremony-year convention is why his record is sometimes reported as four rather than two. World Horror Grandmaster 2014. **No World Fantasy Award of any kind.** He is often described as a former Horror Writers Association officer and this is not confirmed by any source, so it is not stated here. He has served on the board of the charity Scares That Care since 2017.",
+   "meta": "American, born 1967. **Two Bram Stokers** — Best Non-Fiction for 2001 work and Best First Novel for 2003 work. The dual work-year and ceremony-year convention is why his record is sometimes reported as four rather than two. World Horror Grandmaster 2014. **No World Fantasy Award of any kind.** He is often described as a former Horror Writers Association officer and this is not confirmed by any source, so it is not stated here. He has served on the board of the charity Scares That Care since 2017. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Rising, credited with driving the 2000s resurgence of prose zombie fiction, and for a decade of industry-service work — a market newsletter, then a long-running podcast — that shaped the field as much as the novels.",
    "signature": "Fast, plain, unliterary prose with an unexpected streak of theological seriousness underneath the apocalypse.",
    "works": [
@@ -11112,7 +11112,7 @@
    "category": "Literary Horror",
    "name": "Kelly Link",
    "description": "Made the unresolved short story a commercially viable form.",
-   "meta": "American, born 1969. Tiptree Award 1998; World Fantasy Awards for Short Fiction 1999, a professional Special Award 2009 with Gavin J. Grant, and Anthology 2015; **one Hugo, for Best Novelette in 2005**; three Nebulas, including Best Novella and Best Novelette in the same eligibility year, which is often reported as one win; a Shirley Jackson Award 2011; MacArthur Fellowship 2018. **She is a Pulitzer finalist, not a winner**, and the frequently claimed Hugo for Magic for Beginners does not exist.",
+   "meta": "American, born 1969. Tiptree Award 1998; World Fantasy Awards for Short Fiction 1999, a professional Special Award 2009 with Gavin J. Grant, and Anthology 2015; **one Hugo, for Best Novelette in 2005**; three Nebulas, including Best Novella and Best Novelette in the same eligibility year, which is often reported as one win; a Shirley Jackson Award 2011; MacArthur Fellowship 2018. **She is a Pulitzer finalist, not a winner**, and the frequently claimed Hugo for Magic for Beginners does not exist. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Stories that decline to resolve and are nonetheless satisfying, and for Small Beer Press, which she co-founded and which has carried much of the field's most interesting short fiction.",
    "signature": "Deadpan suburban surfaces with the rules of the world quietly wrong, and an ending that stops rather than concludes.",
    "works": [
@@ -11155,7 +11155,7 @@
    "category": "Literary Horror",
    "name": "Carmen Maria Machado",
    "description": "Relocated body horror into the politics of who is believed.",
-   "meta": "American of Cuban descent, born 1986. For Her Body and Other Parties: the National Book Critics Circle's John Leonard Prize for a first book 2017, a **Shirley Jackson Award for a single-author collection** for 2017 work, the Crawford Award 2018 and a Lambda 2018. For In the Dream House: a Lambda 2020 and the Rathbones Folio Prize 2021. **She was a National Book Award finalist, not a winner**, and has no World Fantasy Award.",
+   "meta": "American of Cuban descent, born 1986. For Her Body and Other Parties: the National Book Critics Circle's John Leonard Prize for a first book 2017, a **Shirley Jackson Award for a single-author collection** for 2017 work, the Crawford Award 2018 and a Lambda 2018. For In the Dream House: a Lambda 2020 and the Rathbones Folio Prize 2021. **She was a National Book Award finalist, not a winner**, and has no World Fantasy Award. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Her Body and Other Parties, which put queer women's bodies at the centre of the American weird story, and a memoir that used genre apparatus to write about abuse in a same-sex relationship.",
    "signature": "Formal invention as argument — a story told as an episode guide, another as a catalogue — with the horror carried by what the form refuses to accommodate.",
    "works": [
@@ -11191,7 +11191,7 @@
    "category": "Literary Horror",
    "name": "Jeff VanderMeer",
    "description": "Made the incomprehensible ecological rather than cosmic.",
-   "meta": "American, born 1968. Five World Fantasy Awards, three of them shared with Ann VanderMeer and most of them editorial — Novella 2000 as a tie, and Anthology in 2003, 2012 and 2020. **Nebula Best Novel and a Shirley Jackson Award for 2014 work, both for Annihilation.** **Annihilation never won a Hugo and was not even a finalist**, which is among the most-repeated errors about him. He did not coin \"New Weird\", which is credited to M. John Harrison; he edited the anthology that consolidated it.",
+   "meta": "American, born 1968. Five World Fantasy Awards, three of them shared with Ann VanderMeer and most of them editorial — Novella 2000 as a tie, and Anthology in 2003, 2012 and 2020. **Nebula Best Novel and a Shirley Jackson Award for 2014 work, both for Annihilation.** **Annihilation never won a Hugo and was not even a finalist**, which is among the most-repeated errors about him. He did not coin \"New Weird\", which is credited to M. John Harrison; he edited the anthology that consolidated it. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Southern Reach books, which took cosmic horror's refusal of comprehension and grounded it in biology and landscape rather than in theology.",
    "signature": "Field-report prose — a biologist's register applied to something that will not hold still for it.",
    "works": [
@@ -11234,7 +11234,7 @@
    "category": "Literary Horror",
    "name": "Susanna Clarke",
    "description": "Two novels, sixteen years apart, both of them singular.",
-   "meta": "English, born 1959. For Jonathan Strange & Mr Norrell, all in 2005: the **Hugo Award for Best Novel**, the **World Fantasy Award for Best Novel**, the Mythopoeic Fantasy Award and a Locus Best First Novel. For Piranesi: the **Women's Prize for Fiction 2021** and a Kitschies Red Tentacle. **Jonathan Strange was Booker longlisted only**, and Piranesi did not win a Hugo. Chronic fatigue syndrome, which she discusses openly, accounts for the gap between the novels.",
+   "meta": "English, born 1959. For Jonathan Strange & Mr Norrell, all in 2005: the **Hugo Award for Best Novel**, the **World Fantasy Award for Best Novel**, the Mythopoeic Fantasy Award and a Locus Best First Novel. For Piranesi: the **Women's Prize for Fiction 2021** and a Kitschies Red Tentacle. **Jonathan Strange was Booker longlisted only**, and Piranesi did not win a Hugo. Chronic fatigue syndrome, which she discusses openly, accounts for the gap between the novels. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Restoring the folkloric fae completely — bargains honoured to the letter by a creature entirely without malice as he understands it — and then writing a novel of pure benign estrangement.",
    "signature": "Period pastiche with a full scholarly apparatus, and a narrator whose comprehension the reader outpaces.",
    "works": [
@@ -11274,7 +11274,7 @@
    "category": "Literary Horror",
    "name": "Helen Oyeyemi",
    "description": "Folklore from several traditions at once, refusing to settle into any of them.",
-   "meta": "British writer, born in Ibadan, Nigeria in 1984 and raised in London from the age of four. Somerset Maugham Award 2010 for White Is for Witching; Granta Best of Young British Novelists 2013; PEN Open Book Award 2017. **White Is for Witching was a Shirley Jackson finalist, not a winner.** No Booker, Women's Prize, World Fantasy or Bram Stoker.",
+   "meta": "British writer, born in Ibadan, Nigeria in 1984 and raised in London from the age of four. Somerset Maugham Award 2010 for White Is for Witching; Granta Best of Young British Novelists 2013; PEN Open Book Award 2017. **White Is for Witching was a Shirley Jackson finalist, not a winner.** No Booker, Women's Prize, World Fantasy or Bram Stoker. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Haunted houses that are also arguments about race, belonging and who a place will accept — the Gothic rebuilt on immigration rather than inheritance.",
    "signature": "Multiple narrators including the house itself, in prose that withholds the connective tissue and trusts the reader to supply it.",
    "works": [
@@ -11316,7 +11316,7 @@
    "category": "Literary Horror",
    "name": "Julia Armfield",
    "description": "Body horror and grief in the same sentence, written for the literary shelf.",
-   "meta": "British, born 1990. The White Review Short Story Prize 2018; the Polari Prize 2023 for Our Wives Under the Sea — the main prize rather than the first-book award, and 2023 rather than the 2024 one headline gave it. Two Goodreads Choice Awards in 2022, which are a reader poll and should be labelled as one. **No Bram Stoker, World Fantasy or Shirley Jackson award, and no Booker or Women's Prize recognition.**",
+   "meta": "British, born 1990. The White Review Short Story Prize 2018; the Polari Prize 2023 for Our Wives Under the Sea — the main prize rather than the first-book award, and 2023 rather than the 2024 one headline gave it. Two Goodreads Choice Awards in 2022, which are a reader poll and should be labelled as one. **No Bram Stoker, World Fantasy or Shirley Jackson award, and no Booker or Women's Prize recognition.**. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Our Wives Under the Sea, in which a partner returns from a deep-sea expedition altered in ways the novel never explains and never needs to.",
    "signature": "Domestic accommodation of the impossible — the horror measured in what a household quietly starts doing differently.",
    "works": [
@@ -11350,7 +11350,7 @@
    "category": "Literary Horror",
    "name": "Brian Evenson",
    "description": "The American weird tale's most uncompromising living practitioner.",
-   "meta": "American, born 1966. International Horror Guild Award for a collection 2005; Guggenheim Fellowship 2017; a **Shirley Jackson Award for 2019 work and a World Fantasy Award for Best Collection 2020**, both for the same book. **The Open Curtain did not win the 2007 International Horror Guild novel award** — Conrad Williams took it, and Wikipedia's list reads as a win. **No Bram Stoker.** He publishes tie-in fiction as B.K. Evenson and the bibliographies should not be merged. After a complaint to Latter-day Saint leaders over his first book he **resigned** from Brigham Young University in 1995 and left the church in 2000; he was not fired and no excommunication is documented.",
+   "meta": "American, born 1966. International Horror Guild Award for a collection 2005; Guggenheim Fellowship 2017; a **Shirley Jackson Award for 2019 work and a World Fantasy Award for Best Collection 2020**, both for the same book. **The Open Curtain did not win the 2007 International Horror Guild novel award** — Conrad Williams took it, and Wikipedia's list reads as a win. **No Bram Stoker.** He publishes tie-in fiction as B.K. Evenson and the bibliographies should not be merged. After a complaint to Latter-day Saint leaders over his first book he **resigned** from Brigham Young University in 1995 and left the church in 2000; he was not fired and no excommunication is documented. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Prose horror stripped to affectless surface, in which violence is reported without any framing that would let the reader place it.",
    "signature": "Flat declarative sentences, unnamed institutions, and characters whose grasp on their own situation is failing without their noticing.",
    "works": [
@@ -11388,7 +11388,7 @@
    "category": "The Contemporary Field",
    "name": "Stephen Graham Jones",
    "description": "The most decorated horror writer working, and the field's most important Indigenous voice.",
-   "meta": "American, born 1972; an enrolled member of the **Blackfeet** Tribe of the Blackfeet Indian Reservation of Montana — Blackfeet, never Blackfoot. **Five Bram Stokers and three Shirley Jackson Awards**, taking both Novel awards in the same year for The Only Good Indians and both Novel and Long Fiction categories again the following year; a Nebula for Best Novel and a further Stoker in 2025; a British Fantasy August Derleth Award 2024; an International Horror Guild award 2007. **No World Fantasy Award and no Hugo — he has never been a Hugo finalist.** He is not a 2020 debut: more than thirty books preceded the one that made his name.",
+   "meta": "American, born 1972; an enrolled member of the **Blackfeet** Tribe of the Blackfeet Indian Reservation of Montana — Blackfeet, never Blackfoot. **Five Bram Stokers and three Shirley Jackson Awards**, taking both Novel awards in the same year for The Only Good Indians and both Novel and Long Fiction categories again the following year; a Nebula for Best Novel and a further Stoker in 2025; a British Fantasy August Derleth Award 2024; an International Horror Guild award 2007. **No World Fantasy Award and no Hugo — he has never been a Hugo finalist.** He is not a 2020 debut: more than thirty books preceded the one that made his name. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Slasher structure taken entirely seriously as a form, and horror in which Indigenous experience is the vantage rather than the material.",
    "signature": "Close, propulsive, syntactically restless voice that stays inside a character's evasions until the evasion breaks.",
    "works": [
@@ -11429,7 +11429,7 @@
    "category": "The Contemporary Field",
    "name": "Paul Tremblay",
    "description": "Ambiguity sustained to the last page and beyond it.",
-   "meta": "American, born 1971; indexed by the Horror Writers Association as Paul G. Tremblay. **Three Bram Stokers** — Best Novel for 2015 and 2018 work and a collection for 2019 — plus a Locus Best Horror Novel 2019 and a British Fantasy August Derleth Award 2017. **He has no Shirley Jackson Award and has never been nominated for one**; he has been a Jackson juror, which is the likely source of the error. No World Fantasy Award. On the 2023 adaptation of The Cabin he prefers his own ending and has also called the film's darker in some respects, so \"he hated it\" flattens the position.",
+   "meta": "American, born 1971; indexed by the Horror Writers Association as Paul G. Tremblay. **Three Bram Stokers** — Best Novel for 2015 and 2018 work and a collection for 2019 — plus a Locus Best Horror Novel 2019 and a British Fantasy August Derleth Award 2017. **He has no Shirley Jackson Award and has never been nominated for one**; he has been a Jackson juror, which is the likely source of the error. No World Fantasy Award. On the 2023 adaptation of The Cabin he prefers his own ending and has also called the film's darker in some respects, so \"he hated it\" flattens the position. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Refusing to adjudicate between the supernatural and the psychiatric, and building the machinery — a reality-television edit, a survivor's blog — that keeps the refusal structural.",
    "signature": "Mediated testimony, so the reader receives every account already contested by another.",
    "works": [
@@ -11466,7 +11466,7 @@
    "category": "The Contemporary Field",
    "name": "Victor LaValle",
    "description": "Argues with a compromised inheritance in its own form.",
-   "meta": "American, born 1972 in Queens to a Ugandan mother. **World Fantasy Award for Best Novel 2018 for The Changeling, a tie with Fonda Lee's Jade City**; Bram Stokers in the graphic-novel and long-fiction categories; **Shirley Jackson Awards in 2009 and for The Ballad of Black Tom**, plus a British Fantasy Award for it; a further British Fantasy August Derleth Award and a Locus Best Horror Novel 2018; a Whiting Award, an American Book Award and a Guggenheim. **The Ballad of Black Tom won two awards and lost five** — the Hugo, Nebula, World Fantasy, Bram Stoker and Sturgeon — despite being widely described as having swept.",
+   "meta": "American, born 1972 in Queens to a Ugandan mother. **World Fantasy Award for Best Novel 2018 for The Changeling, a tie with Fonda Lee's Jade City**; Bram Stokers in the graphic-novel and long-fiction categories; **Shirley Jackson Awards in 2009 and for The Ballad of Black Tom**, plus a British Fantasy Award for it; a further British Fantasy August Derleth Award and a Locus Best Horror Novel 2018; a Whiting Award, an American Book Award and a Guggenheim. **The Ballad of Black Tom won two awards and lost five** — the Hugo, Nebula, World Fantasy, Bram Stoker and Sturgeon — despite being widely described as having swept. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Ballad of Black Tom, which rebuilds a Lovecraft story from inside the racial politics that story depended on — a conflicted response rather than a homage, and one that postdates the retirement of the World Fantasy trophy rather than causing it.",
    "signature": "New York rendered with documentary specificity, and a protagonist whose reasonable choices are the trap.",
    "works": [
@@ -11504,7 +11504,7 @@
    "category": "The Contemporary Field",
    "name": "Silvia Moreno-Garcia",
    "description": "Mexican Gothic relocated the form's inheritance question onto colonial extraction.",
-   "meta": "Mexican-Canadian, born 1981 in Baja California. **Her one World Fantasy Award is editorial and shared** — Best Anthology 2016, co-edited with Paula R. Stiles. For Mexican Gothic: a British Fantasy August Derleth Award, a Locus Best Horror Novel and an Aurora Award, all 2021, plus an Ignyte and a Sunburst for 2020. **Mexican Gothic has no Bram Stoker, Shirley Jackson, Hugo or Nebula involvement whatever.** Her master's thesis was on eugenics in Lovecraft, and she publishes Innsmouth Free Press — the editorial career is where the World Fantasy Award comes from.",
+   "meta": "Mexican-Canadian, born 1981 in Baja California. **Her one World Fantasy Award is editorial and shared** — Best Anthology 2016, co-edited with Paula R. Stiles. For Mexican Gothic: a British Fantasy August Derleth Award, a Locus Best Horror Novel and an Aurora Award, all 2021, plus an Ignyte and a Sunburst for 2020. **Mexican Gothic has no Bram Stoker, Shirley Jackson, Hugo or Nebula involvement whatever.** Her master's thesis was on eugenics in Lovecraft, and she publishes Innsmouth Free Press — the editorial career is where the World Fantasy Award comes from. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Taking the English country-house Gothic and rebuilding it on a Mexican mining fortune, with the house's rot and the colonial extraction as one mechanism.",
    "signature": "Genre pastiche executed straight and then turned, with Mexican history supplying the pressure the borrowed form was missing.",
    "works": [
@@ -11541,7 +11541,7 @@
    "category": "The Contemporary Field",
    "name": "Grady Hendrix",
    "description": "The field's most useful popular historian, who also writes the novels.",
-   "meta": "American, born in Charleston, South Carolina; **his birth year is not reliably sourced and is not stated here**. **His entire competitive record is one Bram Stoker, for non-fiction**, for Paperbacks from Hell for 2017 work, plus a Lord Ruthven Award 2021. **He has never won an award for a novel** — The Southern Book Club's Guide was not even a finalist and The Final Girl Support Group lost. No Hugo, Nebula, World Fantasy or British Fantasy award.",
+   "meta": "American, born in Charleston, South Carolina; **his birth year is not reliably sourced and is not stated here**. **His entire competitive record is one Bram Stoker, for non-fiction**, for Paperbacks from Hell for 2017 work, plus a Lord Ruthven Award 2021. **He has never won an award for a novel** — The Southern Book Club's Guide was not even a finalist and The Final Girl Support Group lost. No Hugo, Nebula, World Fantasy or British Fantasy award. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Paperbacks from Hell, which recovered the 1970s and 1980s horror paperback boom as a subject, and a run of novels built on comic premises that turn out to be sincere.",
    "signature": "A high-concept premise played for comedy in the first act and for real loss in the third, with period detail doing the work.",
    "works": [
@@ -11583,7 +11583,7 @@
    "category": "The Contemporary Field",
    "name": "T. Kingfisher",
    "description": "Two names, five Hugos, and the most companionable prose in modern horror.",
-   "meta": "American, born 1977; she/her. Ursula Vernon is the legal name and carries the children's work, the webcomic Digger and the early short fiction; **T. Kingfisher is the disclosed pen name for adult fantasy and horror**. **Five Hugos across both names** — Best Graphic Story 2012 and Best Novelette 2017 as Vernon, Best Short Story 2021, Best Novel 2023 and Best Novella 2024 as Kingfisher — plus a Nebula for Best Short Story as Vernon and the Andre Norton Award 2020. **She has no Nebula in the four main fiction categories as Kingfisher**: Nettle & Bone won the Hugo and lost the Nebula. No World Fantasy, Bram Stoker or Shirley Jackson award.",
+   "meta": "American, born 1977; she/her. Ursula Vernon is the legal name and carries the children's work, the webcomic Digger and the early short fiction; **T. Kingfisher is the disclosed pen name for adult fantasy and horror**. **Five Hugos across both names** — Best Graphic Story 2012 and Best Novelette 2017 as Vernon, Best Short Story 2021, Best Novel 2023 and Best Novella 2024 as Kingfisher — plus a Nebula for Best Short Story as Vernon and the Andre Norton Award 2020. **She has no Nebula in the four main fiction categories as Kingfisher**: Nettle & Bone won the Hugo and lost the Nebula. No World Fantasy, Bram Stoker or Shirley Jackson award. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Retellings that are declared rather than coy — Poe's Usher and Machen's \"The White People\" both named on the tin — and a first-person voice that is funny without deflating the dread.",
    "signature": "A practical, self-deprecating narrator noticing wrong things and continuing to be practical about them.",
    "works": [
@@ -11625,7 +11625,7 @@
    "category": "The Contemporary Field",
    "name": "Alma Katsu",
    "description": "Historical horror researched by someone who spent a career in intelligence.",
-   "meta": "American, Japanese-American, born 1959 in Fairbanks, Alaska, after roughly twenty-nine years at the National Security Agency and the Central Intelligence Agency. **One major genre award: a Bram Stoker for Long Fiction for 2022 work.** The Hunger, The Deep and The Fervor were all Best Novel finalists and all lost, and she has no Hugo, Nebula, World Fantasy, British Fantasy or Shirley Jackson award. She writes in two lanes under one name, and the Red Widow books are espionage rather than horror.",
+   "meta": "American, Japanese-American, born 1959 in Fairbanks, Alaska, after roughly twenty-nine years at the National Security Agency and the Central Intelligence Agency. **One major genre award: a Bram Stoker for Long Fiction for 2022 work.** The Hunger, The Deep and The Fervor were all Best Novel finalists and all lost, and she has no Hugo, Nebula, World Fantasy, British Fantasy or Shirley Jackson award. She writes in two lanes under one name, and the Red Widow books are espionage rather than horror. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Attaching supernatural horror to documented historical catastrophe — a wagon party, a liner, an incarceration camp — with the research load-bearing rather than decorative.",
    "signature": "Multiple period viewpoints assembled around an event the reader already knows the outcome of.",
    "works": [
@@ -11664,7 +11664,7 @@
    "category": "The Contemporary Field",
    "name": "Nick Cutter",
    "description": "A literary novelist's horror pseudonym, and the more extreme of the two.",
-   "meta": "Canadian, born 1975 or 1976 — the record differs. **Nick Cutter is the horror name of Craig Davidson**, who publishes literary fiction under his own name and used Patrick Lestewka as an earlier horror pseudonym. **No horror genre award, win or nomination, under the Cutter name.** As Davidson: a Scotiabank Giller Prize **shortlisting** in 2013 — not a win — a Rogers Writers' Trust shortlisting and a Canada Reads finalist placing in 2018.",
+   "meta": "Canadian, born 1975 or 1976 — the record differs. **Nick Cutter is the horror name of Craig Davidson**, who publishes literary fiction under his own name and used Patrick Lestewka as an earlier horror pseudonym. **No horror genre award, win or nomination, under the Cutter name.** As Davidson: a Scotiabank Giller Prize **shortlisting** in 2013 — not a win — a Rogers Writers' Trust shortlisting and a Canada Reads finalist placing in 2018. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Troop, which took the boys'-adventure survival story and ran a parasite through it with clinical patience.",
    "signature": "Interleaved inquest documents that give away the outcome early, so the reading is a matter of watching it arrive.",
    "works": [
@@ -11703,7 +11703,7 @@
    "category": "The Contemporary Field",
    "name": "Josh Malerman",
    "description": "A rock musician who wrote one of the decade's most-copied premises.",
-   "meta": "American, born 1975 in Michigan, and the singer and rhythm guitarist of The High Strung. **A World Fantasy Award for Best Novella in 2024, which is his highest honour and is usually omitted**, and a Bram Stoker for Short Fiction for 2020 work. **Bird Box won neither a Stoker nor a Shirley Jackson Award** — it was a finalist for both and lost. Ten Stoker nominations, one win, and no novel win. The two controversies attached to the 2018 Netflix adaptation belong to the film and not to him.",
+   "meta": "American, born 1975 in Michigan, and the singer and rhythm guitarist of The High Strung. **A World Fantasy Award for Best Novella in 2024, which is his highest honour and is usually omitted**, and a Bram Stoker for Short Fiction for 2020 work. **Bird Box won neither a Stoker nor a Shirley Jackson Award** — it was a finalist for both and lost. Ten Stoker nominations, one win, and no novel win. The two controversies attached to the 2018 Netflix adaptation belong to the film and not to him. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Bird Box, whose perception-as-vector rule converted every ordinary action into a procedure.",
    "signature": "A single hard rule applied without exception, and prose that stays at the level of what a blindfolded person can actually verify.",
    "works": [
@@ -11745,7 +11745,7 @@
    "category": "The Contemporary Field",
    "name": "Catriona Ward",
    "description": "The August Derleth Award's only three-time winner.",
-   "meta": "British, born in Washington, D.C.; **her birth year is not documented in any source consulted and is not stated here**. **Three British Fantasy August Derleth Awards — 2016, 2019 and 2022** — which makes her the only writer to have taken it three times, and the \"two-time winner\" in most sources is stale. A **Shirley Jackson Award for Best Novel for Little Eve**, and a Sky Arts Times Breakthrough Award 2022. **There is no Shirley Jackson Award for The Last House on Needless Street**, which lost the World Fantasy Best Novel and was never a Stoker finalist.",
+   "meta": "British, born in Washington, D.C.; **her birth year is not documented in any source consulted and is not stated here**. **Three British Fantasy August Derleth Awards — 2016, 2019 and 2022** — which makes her the only writer to have taken it three times, and the \"two-time winner\" in most sources is stale. A **Shirley Jackson Award for Best Novel for Little Eve**, and a Sky Arts Times Breakthrough Award 2022. **There is no Shirley Jackson Award for The Last House on Needless Street**, which lost the World Fantasy Best Novel and was never a Stoker finalist. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Structural misdirection sustained across a whole novel, with the reveal reorganising rather than merely surprising.",
    "signature": "Multiple narrators whose relationship to each other is itself the withheld information.",
    "works": [
@@ -11783,7 +11783,7 @@
    "category": "The Contemporary Field",
    "name": "Gemma Files",
    "description": "Film criticism, folklore and the weird, in the same career.",
-   "meta": "British-born Canadian, born 1968 in London and in Toronto from the following year; speaks publicly about being autistic. An International Horror Guild award for Best Short Fiction at the turn of the millennium — the work year and ceremony year are both in circulation; a **Shirley Jackson Award for Best Novel 2015** and a Sunburst Award 2016, both for Experimental Film; **two Bram Stokers for fiction collections, 2021 and 2023**. No World Fantasy, Hugo, Nebula or British Fantasy award. Experimental Film and the Hexslinger books came from ChiZine Publications, which collapsed in late 2019 amid documented allegations of unpaid royalties and abuse — she is an affected author, not an accused one.",
+   "meta": "British-born Canadian, born 1968 in London and in Toronto from the following year; speaks publicly about being autistic. An International Horror Guild award for Best Short Fiction at the turn of the millennium — the work year and ceremony year are both in circulation; a **Shirley Jackson Award for Best Novel 2015** and a Sunburst Award 2016, both for Experimental Film; **two Bram Stokers for fiction collections, 2021 and 2023**. No World Fantasy, Hugo, Nebula or British Fantasy award. Experimental Film and the Hexslinger books came from ChiZine Publications, which collapsed in late 2019 amid documented allegations of unpaid royalties and abuse — she is an affected author, not an accused one. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Experimental Film, which ties film-historical research to a mother's exhaustion so that scholarship and ordinary life compete for the protagonist's attention.",
    "signature": "Dense, allusive prose carrying real archival detail, with the folkloric material arriving through a researcher's citations.",
    "works": [
@@ -11820,7 +11820,7 @@
    "category": "The Contemporary Field",
    "name": "Cassandra Khaw",
    "description": "Prose at maximum density, applied to very short books.",
-   "meta": "Malaysian, born 1984 in Kuala Lumpur; **they/them**. **One competitive win: a Bram Stoker for a fiction collection for 2022 work.** No Hugo, Nebula, World Fantasy, British Fantasy, Shirley Jackson or Locus award, and **nothing at all for Nothing but Blackened Teeth**, which was a finalist five times over. A former games journalist and games writer.",
+   "meta": "Malaysian, born 1984 in Kuala Lumpur; **they/them**. **One competitive win: a Bram Stoker for a fiction collection for 2022 work.** No Hugo, Nebula, World Fantasy, British Fantasy, Shirley Jackson or Locus award, and **nothing at all for Nothing but Blackened Teeth**, which was a finalist five times over. A former games journalist and games writer. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Compressed, highly stylised novellas that put Southeast Asian folklore and Lovecraftian material into the same frame.",
    "signature": "Ornate, adjective-forward prose deployed at novella length, where the density is a feature rather than a cost.",
    "works": [
@@ -11858,7 +11858,7 @@
    "category": "The Contemporary Field",
    "name": "P. Djèlí Clark",
    "description": "Alternate history with the horror made literal.",
-   "meta": "American, born 1971 in New York City to Trinidadian parents; the full form is Phenderson Djèlí Clark, with grave accents on both e's, and he publishes academic work as Dexter Gabriel. **Three Nebulas** — Best Short Story 2018, Best Novella 2020 for Ring Shout and Best Novel 2021 — plus four Locus Awards, one of which is Best First Novel rather than Best Novel, a British Fantasy Award 2021 and a BSFA 2024. **He has never won a Hugo**, despite six or more finalist placings and publisher copy that routinely says otherwise, and has no World Fantasy Award.",
+   "meta": "American, born 1971 in New York City to Trinidadian parents; the full form is Phenderson Djèlí Clark, with grave accents on both e's, and he publishes academic work as Dexter Gabriel. **Three Nebulas** — Best Short Story 2018, Best Novella 2020 for Ring Shout and Best Novel 2021 — plus four Locus Awards, one of which is Best First Novel rather than Best Novel, a British Fantasy Award 2021 and a BSFA 2024. **He has never won a Hugo**, despite six or more finalist placings and publisher copy that routinely says otherwise, and has no World Fantasy Award. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Ring Shout, which makes the Klan literal monsters in 1920s Georgia and engages The Birth of a Nation directly rather than by allusion.",
    "signature": "Rigorous alternate-historical scaffolding with a vernacular narrating voice, and the fantastic used to make a documented atrocity legible.",
    "works": [
@@ -11895,7 +11895,7 @@
    "category": "The Contemporary Field",
    "name": "Rivers Solomon",
    "description": "Inherited trauma written as a literal physical condition.",
-   "meta": "American, born 1989; **fae/faer and they/them**, in that order; non-binary and intersex, and the she/her that persists in pre-2018 coverage is wrong. A Firecracker Award and a Stonewall Honor 2018; a **Lambda Literary Award 2020 for The Deep, shared four ways**; the **Otherwise Award 2022** for Sorrowland — renamed from the Tiptree in 2019, so it should be called an Otherwise. **No Hugo, Nebula, World Fantasy, Bram Stoker, Shirley Jackson or Locus award**; The Deep was a Hugo and Nebula finalist and lost both.",
+   "meta": "American, born 1989; **fae/faer and they/them**, in that order; non-binary and intersex, and the she/her that persists in pre-2018 coverage is wrong. A Firecracker Award and a Stonewall Honor 2018; a **Lambda Literary Award 2020 for The Deep, shared four ways**; the **Otherwise Award 2022** for Sorrowland — renamed from the Tiptree in 2019, so it should be called an Otherwise. **No Hugo, Nebula, World Fantasy, Bram Stoker, Shirley Jackson or Locus award**; The Deep was a Hugo and Nebula finalist and lost both. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Horror in which the body carries a history the character did not choose, written from inside rather than about.",
    "signature": "Interiority under sustained physical duress, with the prose refusing the consolation the plot might have offered.",
    "works": [
@@ -12254,7 +12254,7 @@
    "category": "International",
    "name": "Otsuichi",
    "description": "Published at seventeen and has been quietly ahead of the field since.",
-   "meta": "Japanese, born 1978. Pen name of Hirotaka Adachi, the name under which he directs films, and he also writes as three further pen names. The 6th Jump Novel Award 1996 and the 3rd Honkaku Mystery Award, fiction division, 2003 — **no Japan Horror Novel Award, no Naoki and no Akutagawa.** Born in October 1978 and awarded in 1996, he was **seventeen** at publication, not sixteen as usually reported.",
+   "meta": "Japanese, born 1978. Pen name of Hirotaka Adachi, the name under which he directs films, and he also writes as three further pen names. The 6th Jump Novel Award 1996 and the 3rd Honkaku Mystery Award, fiction division, 2003 — **no Japan Horror Novel Award, no Naoki and no Akutagawa.** Born in October 1978 and awarded in 1996, he was **seventeen** at publication, not sixteen as usually reported. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Cruel, formally clean short fiction that alternates between a mode readers call \"black Otsuichi\" and a gentler one, sometimes inside the same collection.",
    "signature": "A withheld structural fact — who is narrating, or when — that reorganises a story of a few thousand words in its last lines.",
    "works": [
@@ -12293,7 +12293,7 @@
    "category": "International",
    "name": "Bora Chung",
    "description": "Slavic literature scholarship turned into Korean genre-refusing fiction.",
-   "meta": "Korean, born 1976. The Yonsei Literature Prize 1998, a Digital Writers' Award distinction 2008, and a Korean SF Award 2014. **She was shortlisted for the International Booker in 2022 and did not win it** — Geetanjali Shree did. No World Fantasy, Shirley Jackson or Bram Stoker award. She was not a debut in 2022: she had been publishing in Korean since 2010 and Cursed Bunny was her fifth book.",
+   "meta": "Korean, born 1976. The Yonsei Literature Prize 1998, a Digital Writers' Award distinction 2008, and a Korean SF Award 2014. **She was shortlisted for the International Booker in 2022 and did not win it** — Geetanjali Shree did. No World Fantasy, Shirley Jackson or Bram Stoker award. She was not a debut in 2022: she had been publishing in Korean since 2010 and Cursed Bunny was her fifth book. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Cursed Bunny, whose stories move between folk horror, body horror and absurdist fable without settling, and whose politics are economic rather than supernatural.",
    "signature": "Fable structure with industrial and bodily specificity, and a moral that arrives without comfort.",
    "works": [
@@ -12335,7 +12335,7 @@
    "category": "International",
    "name": "Yōko Ogawa",
    "description": "Quiet horror at literary-prize level, and the field's most damaging misdating.",
-   "meta": "Japanese, born 1962. The **Akutagawa Prize in January 1991**, plus the Yomiuri, Izumi Kyōka, Tanizaki, Noma and Kikuchi Kan prizes and a Medal with Purple Ribbon in 2021; a **Shirley Jackson Award 2008** and an American Book Award 2020. International Booker **shortlisted only** in 2020, and a National Book Award finalist in 2019. No Naoki Prize, no World Fantasy, no Hugo, no Bram Stoker.",
+   "meta": "Japanese, born 1962. The **Akutagawa Prize in January 1991**, plus the Yomiuri, Izumi Kyōka, Tanizaki, Noma and Kikuchi Kan prizes and a Medal with Purple Ribbon in 2021; a **Shirley Jackson Award 2008** and an American Book Award 2020. International Booker **shortlisted only** in 2020, and a National Book Award finalist in 2019. No Naoki Prize, no World Fantasy, no Hugo, no Bram Stoker. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Fiction in which cruelty is administered in a calm, almost clerical register, and in which institutions do the frightening work.",
    "signature": "Precise, cool observation of small physical details, with the violence stated once and not returned to.",
    "works": [
@@ -12374,7 +12374,7 @@
    "category": "International",
    "name": "Samanta Schweblin",
    "description": "Dread built entirely out of a conversation between two people.",
-   "meta": "Argentine, born 1978. The Premio Casa de las Américas 2008, the Premio Juan Rulfo 2012, a **Shirley Jackson Award for Best Novella for 2017 work**, and the **National Book Award for Translated Literature in 2022**, which is the win most often omitted. **International Booker: one shortlisting in 2017 and two longlistings, and never a win** — publisher copy frequently implies otherwise.",
+   "meta": "Argentine, born 1978. The Premio Casa de las Américas 2008, the Premio Juan Rulfo 2012, a **Shirley Jackson Award for Best Novella for 2017 work**, and the **National Book Award for Translated Literature in 2022**, which is the win most often omitted. **International Booker: one shortlisting in 2017 and two longlistings, and never a win** — publisher copy frequently implies otherwise. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Fever Dream, a novella conducted as a dialogue in which the reader assembles a catastrophe from what one speaker refuses to let the other skip.",
    "signature": "Withheld context, an interrogating second voice, and an ecological horror that is never named as such.",
    "works": [
@@ -12412,7 +12412,7 @@
    "category": "International",
    "name": "Mariana Enríquez",
    "description": "Argentine horror in which the dictatorship's disappeared are the haunting.",
-   "meta": "Argentine, born 1973. The Premio Ciutat de Barcelona 2017, the **Premio Herralde de Novela 2019**, and the Premio Iberoamericano de Letras José Donoso 2024. **She was shortlisted for the International Booker in 2021 and did not win.** No World Fantasy, Bram Stoker or Shirley Jackson award. Things We Lost in the Fire was not her debut — she had been publishing for over twenty years.",
+   "meta": "Argentine, born 1973. The Premio Ciutat de Barcelona 2017, the **Premio Herralde de Novela 2019**, and the Premio Iberoamericano de Letras José Donoso 2024. **She was shortlisted for the International Booker in 2021 and did not win.** No World Fantasy, Bram Stoker or Shirley Jackson award. Things We Lost in the Fire was not her debut — she had been publishing for over twenty years. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Making Argentina's political violence and its ghosts the same material, with the supernatural offering no consolation and no explanation.",
    "signature": "Contemporary Buenos Aires rendered with journalistic exactness, and horror that arrives through poverty, addiction and disappearance rather than beside them.",
    "works": [
@@ -12591,7 +12591,7 @@
    "category": "Film-makers",
    "name": "Roman Polanski",
    "description": "A major body of work and a criminal case that no reference can omit.",
-   "meta": "Dual French and Polish citizen, born 1933. **Academy Award for Best Director for The Pianist at the 75th ceremony in March 2003**, which he did not attend and cannot collect in the United States; the Palme d'Or 2002; the Golden Bear 1966; three BAFTAs, ten Césars and two Golden Globes. He was **expelled from the Academy in May 2018, and the 2003 award stands and was not rescinded.** On 10 March 1977, aged 43, he engaged in sexual acts with a thirteen-year-old girl, Samantha Gailey, having given her champagne and part of a Quaalude. He was charged on 24 March 1977 with six felony counts including rape by use of drugs and lewd and lascivious act upon a child under fourteen. **In August 1977 he pleaded guilty in open court to one count of unlawful sexual intercourse with a minor**, the other five dismissed under the bargain; he served forty-two days of a ninety-day diagnostic study; and on **1 February 1978, believing the judge intended to renege on the plea agreement, he fled the United States on the eve of sentencing.** He has never been sentenced, remains a fugitive, and the warrant stands; extradition was refused by Switzerland in 2010 and Poland in 2016. Later allegations by five other women, all denied, have produced no conviction, and he was acquitted in a French defamation action brought over one of them in May 2024. He was not convicted of rape, was not acquitted, and the charges were not dropped — there was no trial. His wife Sharon Tate, eight and a half months pregnant, was murdered with four others in August 1969, which is context and not mitigation.",
+   "meta": "Dual French and Polish citizen, born 1933. **Academy Award for Best Director for The Pianist at the 75th ceremony in March 2003**, which he did not attend and cannot collect in the United States; the Palme d'Or 2002; the Golden Bear 1966; three BAFTAs, ten Césars and two Golden Globes. He was **expelled from the Academy in May 2018, and the 2003 award stands and was not rescinded.** On 10 March 1977, aged 43, he engaged in sexual acts with a thirteen-year-old girl, Samantha Gailey, having given her champagne and part of a Quaalude. He was charged on 24 March 1977 with six felony counts including rape by use of drugs and lewd and lascivious act upon a child under fourteen. **In August 1977 he pleaded guilty in open court to one count of unlawful sexual intercourse with a minor**, the other five dismissed under the bargain; he served forty-two days of a ninety-day diagnostic study; and on **1 February 1978, believing the judge intended to renege on the plea agreement, he fled the United States on the eve of sentencing.** He has never been sentenced, remains a fugitive, and the warrant stands; extradition was refused by Switzerland in 2010 and Poland in 2016. Later allegations by five other women, all denied, have produced no conviction, and he was acquitted in a French defamation action brought over one of them in May 2024. He was not convicted of rape, was not acquitted, and the charges were not dropped — there was no trial. His wife Sharon Tate, eight and a half months pregnant, was murdered with four others in August 1969, which is context and not mitigation. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Apartment Trilogy, which built paranoid horror out of tenancy, neighbours and architecture, and is the direct ancestor of domestic and home-invasion horror.",
    "signature": "A protagonist isolated inside a building whose other occupants may or may not be organised against them, with the ambiguity never resolved in the protagonist's favour.",
    "works": [
@@ -12685,7 +12685,7 @@
    "category": "Film-makers",
    "name": "John Carpenter",
    "description": "Composer, editor, writer and director, and never an Academy Award.",
-   "meta": "American, born 1948. A Saturn Award 1998, the **Carrosse d'Or at Cannes in 2019** — a directors'-guild honour in the Directors' Fortnight rather than a competition prize — a career award from the Los Angeles critics in 2024 and a Walk of Fame star in 2025. **He has never won an Academy Award**, and there is no Venice Golden Lion for him. The Oscar-winning 1970 short he worked on was directed by James R. Rokos and its statuette went to its producer; Carpenter co-wrote, edited and scored it and received nothing.",
+   "meta": "American, born 1948. A Saturn Award 1998, the **Carrosse d'Or at Cannes in 2019** — a directors'-guild honour in the Directors' Fortnight rather than a competition prize — a career award from the Los Angeles critics in 2024 and a Walk of Fame star in 2025. **He has never won an Academy Award**, and there is no Venice Golden Lion for him. The Oscar-winning 1970 short he worked on was directed by James R. Rokos and its statuette went to its producer; Carpenter co-wrote, edited and scored it and received nothing. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Halloween, which codified the slasher, and The Thing, whose assimilation rule remains the genre's best-designed threat.",
    "signature": "Widescreen composition with the frame's negative space weaponised, and his own synthesiser scores doing the work an orchestra would do elsewhere.",
    "works": [
@@ -12826,7 +12826,7 @@
    "category": "Film-makers",
    "name": "David Cronenberg",
    "description": "Made the body the site and stayed there for fifty years.",
-   "meta": "Canadian, born 1943. A **Special Jury Prize at Cannes in 1996**, created specially by that jury and not the Palme d'Or; the Carrosse d'Or 2006; four Canadian best-director awards; a Silver Bear 1999; the **Golden Lion for Lifetime Achievement at Venice in 2018**; Companion of the Order of Canada. **He has never won the Palme d'Or and has never been nominated for an Academy Award**, and he did not win an Oscar for The Fly — that film's makeup award went to Chris Walas and Stephan Dupuis.",
+   "meta": "Canadian, born 1943. A **Special Jury Prize at Cannes in 1996**, created specially by that jury and not the Palme d'Or; the Carrosse d'Or 2006; four Canadian best-director awards; a Silver Bear 1999; the **Golden Lion for Lifetime Achievement at Venice in 2018**; Companion of the Order of Canada. **He has never won the Palme d'Or and has never been nominated for an Academy Award**, and he did not win an Oscar for The Fly — that film's makeup award went to Chris Walas and Stephan Dupuis. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Founding body horror as a coherent mode, and for treating transformation as a clinical process rather than a spectacle.",
    "signature": "Medical calm applied to the impossible, with technology and flesh converging and no character quite alarmed enough.",
    "works": [
@@ -12873,7 +12873,7 @@
    "category": "Film-makers",
    "name": "Dario Argento",
    "description": "Style as the argument, at the cost of everything else.",
-   "meta": "Italian, born 1940. **His award record could not be verified as a set from any official listing**, so this card claims only career honours in Italy and states that he has no Academy Award and no major competitive festival prize. **Daria Nicolodi is credited as co-writer of Suspiria** and claimed substantial authorship of it, which Argento has at times minimised — the credit is stated here and the dispute is not adjudicated. The Three Mothers films were not planned as a trilogy from the outset.",
+   "meta": "Italian, born 1940. **His award record could not be verified as a set from any official listing**, so this card claims only career honours in Italy and states that he has no Academy Award and no major competitive festival prize. **Daria Nicolodi is credited as co-writer of Suspiria** and claimed substantial authorship of it, which Argento has at times minimised — the credit is stated here and the dispute is not adjudicated. The Three Mothers films were not planned as a trilogy from the outset. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Suspiria, whose colour, architecture and score subordinate causality entirely to sensation, and for the giallo's transfer into supernatural horror.",
    "signature": "Saturated primary colour, elaborate camera movement and set-piece murders staged as choreography.",
    "works": [
@@ -12920,7 +12920,7 @@
    "category": "Film-makers",
    "name": "Kiyoshi Kurosawa",
    "description": "The most formally serious director working in horror, and no relation to Akira.",
-   "meta": "Japanese, born 1955; **no relation to Akira Kurosawa**, which is worth saying explicitly. **Un Certain Regard** prizes at Cannes in 2008 and 2015 — the section matters, since these are not Competition prizes — a best-director award at Rome in 2013, and the **Silver Lion for Best Direction at Venice in 2020**. He has never won the Palme d'Or, the Grand Prix or Competition Best Director. He directed neither Ju-On nor Ringu, and the 2006 American remake of Pulse is not his.",
+   "meta": "Japanese, born 1955; **no relation to Akira Kurosawa**, which is worth saying explicitly. **Un Certain Regard** prizes at Cannes in 2008 and 2015 — the section matters, since these are not Competition prizes — a best-director award at Rome in 2013, and the **Silver Lion for Best Direction at Venice in 2020**. He has never won the Palme d'Or, the Grand Prix or Competition Best Director. He directed neither Ju-On nor Ringu, and the 2006 American remake of Pulse is not his. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Pulse, which found in early network isolation an apocalypse of loneliness, and Cure, which made a detective procedural into a study of suggestion.",
    "signature": "Long static takes, figures placed at the edges of wide frames, and dread that accumulates from composition rather than incident.",
    "works": [
@@ -12967,7 +12967,7 @@
    "category": "Film-makers",
    "name": "Guillermo del Toro",
    "description": "The genre's most decorated director, and not for the film you would guess.",
-   "meta": "Mexican, born 1964. **Best Picture as producer and Best Director at the 90th Academy Awards in March 2018 for The Shape of Water, and Best Animated Feature at the 95th in 2023** — the first person to win all three — plus the **Golden Lion at Venice in 2017**, three BAFTAs and two Golden Globes. **He personally won nothing for Pan's Labyrinth**: its three Oscars went to its art directors, its cinematographer and its makeup team, and del Toro was nominated for Original Screenplay and lost. His father was kidnapped in Guadalajara in 1997 and held for seventy-two days, after which del Toro left Mexico and has said he will not live there again.",
+   "meta": "Mexican, born 1964. **Best Picture as producer and Best Director at the 90th Academy Awards in March 2018 for The Shape of Water, and Best Animated Feature at the 95th in 2023** — the first person to win all three — plus the **Golden Lion at Venice in 2017**, three BAFTAs and two Golden Globes. **He personally won nothing for Pan's Labyrinth**: its three Oscars went to its art directors, its cinematographer and its makeup team, and del Toro was nominated for Original Screenplay and lost. His father was kidnapped in Guadalajara in 1997 and held for seventy-two days, after which del Toro left Mexico and has said he will not live there again. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Fusing fairy tale with historical atrocity so that the monsters and the fascism are the same argument, and for a creature design practice rooted in physical effects.",
    "signature": "Amber and teal, practical creatures with real weight, and a child protagonist whose moral clarity is the film's measure.",
    "works": [
@@ -13014,7 +13014,7 @@
    "category": "Film-makers",
    "name": "Jordan Peele",
    "description": "Made social horror commercially unignorable in a single film.",
-   "meta": "American, born 1979. **Academy Award for Best Original Screenplay for Get Out at the 90th ceremony in March 2018**, the first Black winner of that category, plus a Writers Guild award, a Directors Guild first-feature award and a Primetime Emmy in 2016 for sketch comedy. **Get Out did not win Best Picture** — it won one Oscar, for the screenplay, and he lost Best Director at the same ceremony. **He was the fifth Black Best Director nominee, not the first.** He did not direct Candyman, which Nia DaCosta directed from a script he co-wrote.",
+   "meta": "American, born 1979. **Academy Award for Best Original Screenplay for Get Out at the 90th ceremony in March 2018**, the first Black winner of that category, plus a Writers Guild award, a Directors Guild first-feature award and a Primetime Emmy in 2016 for sketch comedy. **Get Out did not win Best Picture** — it won one Oscar, for the screenplay, and he lost Best Director at the same ceremony. **He was the fifth Black Best Director nominee, not the first.** He did not direct Candyman, which Nia DaCosta directed from a script he co-wrote. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Get Out, whose antagonists are uniformly polite and entirely unnegotiable, and which put the Black protagonist's accurate perception at the centre of the American horror film.",
    "signature": "Accumulating social wrongness carried by tone and performance, with the reveal recontextualising a hundred small courtesies.",
    "works": [
@@ -13061,7 +13061,7 @@
    "category": "Comics & Manga",
    "name": "Junji Itō",
    "description": "The most influential horror artist alive, and unrecognised at home.",
-   "meta": "Japanese, born 1963. **Four Eisner Awards, all between 2019 and 2022, and all for English-language editions**, plus induction into the Eisner Hall of Fame in 2025 and an Inkpot Award 2023. **He holds no Japanese manga industry award of any kind** — no Shogakukan, no Kodansha, no Tezuka Osamu Cultural Prize — and the 1987 prize often credited to him was an honourable mention. Uzumaki was Eisner-nominated in 2003 and 2009 and won neither. He worked for more than thirty years before his first Eisner, so no framing should imply decades of anglophone recognition.",
+   "meta": "Japanese, born 1963. **Four Eisner Awards, all between 2019 and 2022, and all for English-language editions**, plus induction into the Eisner Hall of Fame in 2025 and an Inkpot Award 2023. **He holds no Japanese manga industry award of any kind** — no Shogakukan, no Kodansha, no Tezuka Osamu Cultural Prize — and the 1987 prize often credited to him was an honourable mention. Uzumaki was Eisner-nominated in 2003 and 2009 and won neither. He worked for more than thirty years before his first Eisner, so no framing should imply decades of anglophone recognition. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Uzumaki, which takes a single geometric shape and treats it as contagious until it has propagated through hair, pottery, bodies and finally a town's architecture.",
    "signature": "Immaculate fine-line rendering of ordinary faces and rooms, deformed by one rule applied without exception, on a fixed panel grid that makes the deformation measurable.",
    "works": [
@@ -13141,7 +13141,7 @@
    "category": "Comics & Manga",
    "name": "Hideshi Hino",
    "description": "Ero-guro made personal, by a man born in occupied Manchuria.",
-   "meta": "Japanese, born 1946 in Qiqihar, in Japanese-occupied Manchuria, to settler parents and repatriated after the war. **No award of any kind could be verified** — no Shogakukan, Kodansha, Tezuka, Eisner or Harvey — so he should not be described as award-winning. He directed and wrote **two** entries in the Guinea Pig film series and neither created the series nor directed any other entry. The Charlie Sheen story attached to that series is partly documented and partly contested, and approaching urban legend; on a separate and more serious matter, Hino has stated that the tape found in a notorious offender's collection was a different entry and not his.",
+   "meta": "Japanese, born 1946 in Qiqihar, in Japanese-occupied Manchuria, to settler parents and repatriated after the war. **No award of any kind could be verified** — no Shogakukan, Kodansha, Tezuka, Eisner or Harvey — so he should not be described as award-winning. He directed and wrote **two** entries in the Guinea Pig film series and neither created the series nor directed any other entry. The Charlie Sheen story attached to that series is partly documented and partly contested, and approaching urban legend; on a separate and more serious matter, Hino has stated that the tape found in a notorious offender's collection was a different entry and not his. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Autobiographical grotesque — Panorama of Hell narrates its own painter — in which the horror is inseparable from postwar Japanese poverty and displacement.",
    "signature": "Wide-eyed, almost childlike cartooning applied to viscera, with a first-person narrator implicating himself.",
    "works": [
@@ -13185,7 +13185,7 @@
    "category": "Comics & Manga",
    "name": "Alan Moore",
    "description": "The medium's most decorated writer, and its most consistent critic of its business.",
-   "meta": "English, born 1953. **Nine Eisner Awards for Best Writer, a Guinness world record**, alongside a further dozen Eisners across album, series and anthology categories; **Eisner Hall of Fame class of 2014**; a **Hugo Award in 1988** in a one-off category; seven Harvey Awards for Best Writer; three Bram Stokers including Lifetime Achievement; an International Horror Guild award 1996. **He has never won a World Fantasy Award.** **He does not own Watchmen and never has** — the rights were to revert once the work went out of print, and it has been kept continuously in print — and he has not disowned the comic itself, only the adaptations, prequels and continued exploitation, requiring since 2005 that his name be removed and his share paid to the artists.",
+   "meta": "English, born 1953. **Nine Eisner Awards for Best Writer, a Guinness world record**, alongside a further dozen Eisners across album, series and anthology categories; **Eisner Hall of Fame class of 2014**; a **Hugo Award in 1988** in a one-off category; seven Harvey Awards for Best Writer; three Bram Stokers including Lifetime Achievement; an International Horror Guild award 1996. **He has never won a World Fantasy Award.** **He does not own Watchmen and never has** — the rights were to revert once the work went out of print, and it has been kept continuously in print — and he has not disowned the comic itself, only the adaptations, prequels and continued exploitation, requiring since 2005 that his name be removed and his share paid to the artists. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Bringing formal rigour and adult moral seriousness to mainstream comics, and for a body of horror work — a swamp monster reconceived, a Ripper novel, a late Lovecraftian sequence — that is consistently underrated beside the superhero material.",
    "signature": "Nine-panel discipline, dense caption-and-image counterpoint, and research so heavy the apparatus becomes part of the text.",
    "works": [
@@ -13228,7 +13228,7 @@
    "category": "Comics & Manga",
    "name": "Neil Gaiman",
    "description": "An enormous award record, and allegations that a reference work cannot omit.",
-   "meta": "English, born 1960. **Five Hugos, two Nebulas, five Bram Stokers, at least four Eisners with Hall of Fame induction in 2021, the Newbery Medal 2009, and a World Fantasy Award in 1991 for a Sandman issue — the only comic ever to win one.** More than twenty Locus Awards. No Academy Award; the Coraline nomination belongs to Henry Selick's film. **On the allegations, every element is an allegation, attributed and dated, and he denies non-consensual conduct; there has been no criminal charge and no finding of civil liability.** In July 2024 Tortoise Media reported allegations of sexual misconduct by women in relationships or working arrangements with him. In January 2025 New York magazine published an investigation by Lila Shapiro reporting allegations from eight women, including assault and coercive conduct, and reporting on non-disclosure agreements. He responded the following day denying he had ever engaged in non-consensual sexual activity while acknowledging he \"was not always the person I should have been\", and in 2026 characterised the allegations as a smear campaign. Three civil suits filed in 2025 by a former nanny alleging rape, sexual assault and human-trafficking violations were **all dismissed** — one voluntarily dropped, and two dismissed on the ground that the case must be pursued in New Zealand, which is a forum ruling and not a ruling on the merits.",
+   "meta": "English, born 1960. **Five Hugos, two Nebulas, five Bram Stokers, at least four Eisners with Hall of Fame induction in 2021, the Newbery Medal 2009, and a World Fantasy Award in 1991 for a Sandman issue — the only comic ever to win one.** More than twenty Locus Awards. No Academy Award; the Coraline nomination belongs to Henry Selick's film. **On the allegations, every element is an allegation, attributed and dated, and he denies non-consensual conduct; there has been no criminal charge and no finding of civil liability.** In July 2024 Tortoise Media reported allegations of sexual misconduct by women in relationships or working arrangements with him. In January 2025 New York magazine published an investigation by Lila Shapiro reporting allegations from eight women, including assault and coercive conduct, and reporting on non-disclosure agreements. He responded the following day denying he had ever engaged in non-consensual sexual activity while acknowledging he \"was not always the person I should have been\", and in 2026 characterised the allegations as a smear campaign. Three civil suits filed in 2025 by a former nanny alleging rape, sexual assault and human-trafficking violations were **all dismissed** — one voluntarily dropped, and two dismissed on the ground that the case must be pursued in New Zealand, which is a forum ruling and not a ruling on the merits. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Sandman, which made an ongoing comic a literary object, and a body of prose in which folklore is treated as a functioning legal system.",
    "signature": "Mythic register carried in plain conversational sentences, with the rules of the other world stated as domestic fact.",
    "works": [
@@ -13270,7 +13270,7 @@
    "category": "Comics & Manga",
    "name": "Emily Carroll",
    "description": "Webcomics horror that used the scroll as a structural device before anyone else.",
-   "meta": "Canadian, born 1983 — Canadian rather than American, which is frequently misstated. **She now publishes as E.M. Carroll**, and the earlier books are correctly credited to Emily Carroll. **Two Eisner Awards in 2015**, one for a short story and one in the reprint category; an Ignatz 2015, a British Fantasy Award 2015, Joe Shuster and Doug Wright awards, a Lambda 2024 and a Los Angeles Times Book Prize 2024. No Shirley Jackson, Bram Stoker or Hugo.",
+   "meta": "Canadian, born 1983 — Canadian rather than American, which is frequently misstated. **She now publishes as E.M. Carroll**, and the earlier books are correctly credited to Emily Carroll. **Two Eisner Awards in 2015**, one for a short story and one in the reprint category; an Ignatz 2015, a British Fantasy Award 2015, Joe Shuster and Doug Wright awards, a Lambda 2024 and a Los Angeles Times Book Prize 2024. No Shirley Jackson, Bram Stoker or Hugo. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "\"His Face All Red\" and Through the Woods, which brought folk-tale cruelty into comics with an economy the form had not previously managed.",
    "signature": "Flat, saturated colour with negative space used as dread, and page architecture that makes the reader scroll or turn into the reveal.",
    "works": [
@@ -13310,7 +13310,7 @@
    "category": "Comics & Manga",
    "name": "Joe Hill",
    "description": "Published anonymously to be judged on the work, and was.",
-   "meta": "American, born Joseph Hillström King, 1972, son of Stephen and Tabitha King. **The pseudonym was publicly identified in 2007, after the first Bram Stoker wins** — which is the point, since the early awards were won without the name. **Four Bram Stokers from eleven nominations**, including Superior Achievement in a First Novel; an **Eisner Award for Best Writer in 2011**, which is his rather than the book's; a **World Fantasy Award for Best Novella in 2006**; five British Fantasy Awards, an International Horror Guild award and two Locus Awards. **Three Shirley Jackson nominations and no wins, and no Hugo.** He is not to be confused with his brother Owen King.",
+   "meta": "American, born Joseph Hillström King, 1972, son of Stephen and Tabitha King. **The pseudonym was publicly identified in 2007, after the first Bram Stoker wins** — which is the point, since the early awards were won without the name. **Four Bram Stokers from eleven nominations**, including Superior Achievement in a First Novel; an **Eisner Award for Best Writer in 2011**, which is his rather than the book's; a **World Fantasy Award for Best Novella in 2006**; five British Fantasy Awards, an International Horror Guild award and two Locus Awards. **Three Shirley Jackson nominations and no wins, and no Hugo.** He is not to be confused with his brother Owen King. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Locke & Key, whose locked doors are each a specific rule-bound capability, and a body of prose horror with an unusual gift for premise.",
    "signature": "A high-concept object or rule established early and then followed with complete logical patience.",
    "works": [
@@ -13353,7 +13353,7 @@
    "category": "Comics & Manga",
    "name": "Scott Snyder",
    "description": "Brought a prose writer's structure to mainstream horror comics.",
-   "meta": "American, born 1976. **Three Eisner Awards** — Best New Series 2011, Best Limited Series 2014 and Best Digital Comic 2023 — plus four Harvey Awards, an Eagle Award 2012 and an Inkpot 2019. **No Bram Stoker and no Shirley Jackson.** **Stephen King co-wrote American Vampire for its first five issues only**, contributing the period backup strip while Snyder wrote the main strip throughout and everything after — a collaboration routinely overstated. Wytches remains unfinished.",
+   "meta": "American, born 1976. **Three Eisner Awards** — Best New Series 2011, Best Limited Series 2014 and Best Digital Comic 2023 — plus four Harvey Awards, an Eagle Award 2012 and an Inkpot 2019. **No Bram Stoker and no Shirley Jackson.** **Stephen King co-wrote American Vampire for its first five issues only**, contributing the period backup strip while Snyder wrote the main strip throughout and everything after — a collaboration routinely overstated. Wytches remains unfinished. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "American Vampire, which built a new vampire biology and ran it across a century of American history, and Wytches, which put folk horror into a suburban family.",
    "signature": "Long-arc structure with a prose novelist's patience, and a willingness to let a horror premise carry genuine sentiment.",
    "works": [
@@ -13394,7 +13394,7 @@
    "category": "Comics & Manga",
    "name": "Jeff Lemire",
    "description": "Writes and draws, and the record keeps forgetting the second half.",
-   "meta": "Canadian, born 1976. **Three Eisner Awards** — Best New Series in 2017 and 2019 and Best Digital Comic in 2022 — plus a Xeric grant, an Alex Award 2008, two Joe Shuster Awards and two Doug Wright Awards. **He has no Eisner for Essex County**, which is the one most often assumed. He is a cartoonist as well as a writer: several major works are written **and drawn** by him, while others are written only, and conflating the two misdescribes the career.",
+   "meta": "Canadian, born 1976. **Three Eisner Awards** — Best New Series in 2017 and 2019 and Best Digital Comic in 2022 — plus a Xeric grant, an Alex Award 2008, two Joe Shuster Awards and two Doug Wright Awards. **He has no Eisner for Essex County**, which is the one most often assumed. He is a cartoonist as well as a writer: several major works are written **and drawn** by him, while others are written only, and conflating the two misdescribes the career. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Gideon Falls, whose two protagonists' panel languages are formally incompatible until they are not, and a body of rural Ontario work that is closer to Southern Gothic than to anything else in comics.",
    "signature": "Scratchy, unglamorous linework and watercolour, with small-town Canadian settings given the weight American comics reserve for cities.",
    "works": [
@@ -13440,7 +13440,7 @@
    "category": "Games",
    "name": "Shinji Mikami",
    "description": "Built survival horror's commercial template and then rebuilt it.",
-   "meta": "Japanese, born 1965. **No personal industry award could be verified** — no BAFTA Fellowship, no Game Developers Choice lifetime or pioneer award, no academy hall-of-fame induction — and Resident Evil 4's game-of-the-year prizes belong to the game rather than to him. **He did not create Resident Evil alone**: it was heavily indebted to Capcom's own Sweet Home of 1989, and the 1996 team included a planner and a producer whose contributions are documented.",
+   "meta": "Japanese, born 1965. **No personal industry award could be verified** — no BAFTA Fellowship, no Game Developers Choice lifetime or pioneer award, no academy hall-of-fame induction — and Resident Evil 4's game-of-the-year prizes belong to the game rather than to him. **He did not create Resident Evil alone**: it was heavily indebted to Capcom's own Sweet Home of 1989, and the 1996 team included a planner and a producer whose contributions are documented. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Establishing inventory scarcity, fixed cameras and the save-token economy as horror's tension mechanics, and then discarding all three for an over-the-shoulder design that the whole medium copied.",
    "signature": "Deliberately awkward control and constrained resources as deliberate design rather than as limitation.",
    "works": [
@@ -13487,7 +13487,7 @@
    "category": "Games",
    "name": "Keiichiro Toyama",
    "description": "Directed Silent Hill, left immediately, and had no part in what followed.",
-   "meta": "Japanese, born 1970. Two awards for a later game in 2012, **both to the game rather than to him personally**, and no verified individual honour. **He left Konami and Team Silent in 1999, immediately after the first game, and had no involvement in Silent Hill 2 or anything after it** — that game was directed and written by other people, and attributing the series to him is a common and consequential error.",
+   "meta": "Japanese, born 1970. Two awards for a later game in 2012, **both to the game rather than to him personally**, and no verified individual honour. **He left Konami and Team Silent in 1999, immediately after the first game, and had no involvement in Silent Hill 2 or anything after it** — that game was directed and written by other people, and attributing the series to him is a common and consequential error. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Silent Hill, which replaced combat competence with psychological terrain and turned a hardware draw-distance limit into the fog that became the series' identity.",
    "signature": "Physical environments that externalise a character's condition, with the transformation rules unstated.",
    "works": [
@@ -13534,7 +13534,7 @@
    "category": "Games",
    "name": "Hidetaka Miyazaki",
    "description": "Not a horror designer, with one exception that matters.",
-   "meta": "Japanese, born 1974; president of FromSoftware since 2014. **He is not related to Hayao Miyazaki.** A Japanese industry special award 2022 and a government award the same year. **He has not received a BAFTA Fellowship** — the 2025 award went to a composer — **and holds no Game Developers Choice lifetime award**, and Elden Ring's game-of-the-year honours went to the studio and publisher rather than to him. He did not direct two of the games most often credited to him, having supervised one and handed another to a successor.",
+   "meta": "Japanese, born 1974; president of FromSoftware since 2014. **He is not related to Hayao Miyazaki.** A Japanese industry special award 2022 and a government award the same year. **He has not received a BAFTA Fellowship** — the 2025 award went to a composer — **and holds no Game Developers Choice lifetime award**, and Elden Ring's game-of-the-year honours went to the studio and publisher rather than to him. He did not direct two of the games most often credited to him, having supervised one and handed another to a successor. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Bloodborne, which is his strongest claim on horror and takes cosmic horror's epistemic damage and makes comprehension a stat.",
    "signature": "Environmental storytelling delivered through item descriptions and level geography, with the plot never narrated.",
    "works": [
@@ -13581,7 +13581,7 @@
    "category": "Games",
    "name": "Thomas Grip",
    "description": "Removed the weapon and proved the form survived without one.",
-   "meta": "Swedish; **his birth year is not documented and is not stated here.** Co-founder and creative director of Frictional Games, founded in 2007. **No personal award** — Amnesia's three 2011 independent-games prizes went to the game and the studio. The writer on Amnesia was Mikael Hedberg, with Grip co-credited, and the 2013 sequel was developed and written by another studio entirely, with Frictional only publishing it.",
+   "meta": "Swedish; **his birth year is not documented and is not stated here.** Co-founder and creative director of Frictional Games, founded in 2007. **No personal award** — Amnesia's three 2011 independent-games prizes went to the game and the studio. The writer on Amnesia was Mikael Hedberg, with Grip co-credited, and the 2013 sequel was developed and written by another studio entirely, with Frictional only publishing it. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Amnesia: The Dark Descent, which removed combat altogether and made looking at the threat a mechanical cost — the design that defined a decade of independent horror and of the streaming culture around it.",
    "signature": "Physics-driven interaction with objects, a sanity system tied to darkness and sight, and no means of fighting back.",
    "works": [
@@ -13628,7 +13628,7 @@
    "category": "Games",
    "name": "Sandy Petersen",
    "description": "Gave cosmic horror a rule set that fed back into prose for forty years.",
-   "meta": "American, born 1955. **An Origins Award in 1982 for the 1981 game**, and — a distinction worth keeping straight — **induction into the Origins Hall of Fame in 1990 as a person, with the game itself inducted separately in 1995**; a favourite-designer award 1994 and an ENnie Hall of Fame entry for the game in 2024. He built the game on an existing engine rather than from scratch, and **he did not found Chaosium**, which Greg Stafford did in 1975.",
+   "meta": "American, born 1955. **An Origins Award in 1982 for the 1981 game**, and — a distinction worth keeping straight — **induction into the Origins Hall of Fame in 1990 as a person, with the game itself inducted separately in 1995**; a favourite-designer award 1994 and an ENnie Hall of Fame entry for the game in 2024. He built the game on an existing engine rather than from scratch, and **he did not found Chaosium**, which Greg Stafford did in 1975. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The sanity mechanic — making comprehension itself the resource that depletes — which is the single most transferable design idea horror has produced in the last half-century.",
    "signature": "Investigation rather than combat as the core activity, with player knowledge as the thing at risk.",
    "works": [
@@ -13746,7 +13746,7 @@
    "category": "Editors & Anthologists",
    "name": "Ellen Datlow",
    "description": "The most decorated editor in the field's history, by a wide margin.",
-   "meta": "American, born 1949. Fiction editor of Omni from 1981 to 1998 — fiction editor rather than editor-in-chief. **Ten World Fantasy Awards, ten Hugos, nine Bram Stokers, eighteen Locus Awards, five Shirley Jackson Awards, two International Horror Guild awards and a Karl Edward Wagner Award.** **There is no 2012 Hugo** among them, which one source asserts, and her World Fantasy total is neither eleven nor nine. Roughly half the World Fantasy wins are **joint with Terri Windling**, so solo credit on those is wrong, and the two long-running year's-best series she has edited are separate series with different publishers rather than one renamed.",
+   "meta": "American, born 1949. Fiction editor of Omni from 1981 to 1998 — fiction editor rather than editor-in-chief. **Ten World Fantasy Awards, ten Hugos, nine Bram Stokers, eighteen Locus Awards, five Shirley Jackson Awards, two International Horror Guild awards and a Karl Edward Wagner Award.** **There is no 2012 Hugo** among them, which one source asserts, and her World Fantasy total is neither eleven nor nine. Roughly half the World Fantasy wins are **joint with Terri Windling**, so solo credit on those is wrong, and the two long-running year's-best series she has edited are separate series with different publishers rather than one renamed. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Two decades of the year's-best volumes that are the field's institutional memory, and a run of original anthologies that has introduced much of its current generation.",
    "signature": "Catholic taste with a bias toward the quiet and the formally strange, and a track record of buying writers before anyone else does.",
    "works": [
@@ -13828,7 +13828,7 @@
    "category": "Editors & Anthologists",
    "name": "Stephen Jones",
    "description": "Twenty-one British Fantasy Awards, the largest individual total in the field.",
-   "meta": "English, born 1953. **Twenty-one British Fantasy Awards**, a Karl Edward Wagner Award 2006, **three World Fantasy Awards and possibly a fourth**, five Bram Stokers of which **four are for non-fiction rather than anthologies**, and three International Horror Guild awards. **He has never won a Hugo**, despite an assertion to the contrary that is propagating into biographies. Solo credit is wrong on several of his co-edited series, and his long-running year's-best series has been renamed twice while remaining one continuous run that databases split into three.",
+   "meta": "English, born 1953. **Twenty-one British Fantasy Awards**, a Karl Edward Wagner Award 2006, **three World Fantasy Awards and possibly a fourth**, five Bram Stokers of which **four are for non-fiction rather than anthologies**, and three International Horror Guild awards. **He has never won a Hugo**, despite an assertion to the contrary that is propagating into biographies. Solo credit is wrong on several of his co-edited series, and his long-running year's-best series has been renamed twice while remaining one continuous run that databases split into three. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The year's-best series that has run for more than three decades, and a body of reference and art books that constitute much of the field's popular scholarship.",
    "signature": "Completist editorial apparatus — necrologies, market reports, exhaustive headnotes — that makes each volume a record of the year rather than a selection from it.",
    "works": [

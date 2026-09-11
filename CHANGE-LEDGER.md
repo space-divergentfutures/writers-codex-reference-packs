@@ -171,10 +171,12 @@ These are the rows most likely to carry real debt, because they change card text
 | V-26 | **A half-verified field reads as verified.** Manga's year screen corrected a bibliography year and never compared the attribution beside it, which was wrong. Verifying one property of a record makes the whole record look checked. **Check both properties or say which one you checked.** | Ver | MNG 17.50 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | ? | **A** |
 | V-27 | **A roster cross-check must compare near-misses, not only matches.** Manga's name cross-check compares by an order-insensitive key; the case it was written for differs by one consonant, so its key differs and it was reported as an ordinary uncarded name. **An instrument that only compares what it has already decided is the same thing is not a cross-check.** | Ver | MNG 17.46 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | ? | **A** |
 | V-28 | **A research document is not a delivery mechanism.** Three times in Manga a fact was recorded correctly in a pack document and never reached a card — checklists named in prose and not built, a sensitive subject the roster omitted, a recorded dispute the card dropped. **Anything a research pass records as required is checked against what shipped, not against the pass.** | Ver | MNG 17.52 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | A | ? | **A** |
-| V-29 | **A pack's instruments prove internal consistency and nothing about the world.** Thirty-three screens, two rosters and five hand-checks reported Manga perfect while it described a creator dead five months as living. **Re-run V-11 immediately before every release, dated, with the method and its limits recorded.** | Ver | MNG 17.51 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | ? | **A** | A | ? | **A** |
-| V-40 | **Institutional activity in a person's name is not evidence of that person's life.** V-36 rules out the publishing announcement; this is its institutional twin. A centre or a lecture series carrying the name, a biography and its publicity tour, a retirement processed by an employer, a fellowship an institution closes, a programme named in honour, a colloquium a university announces — all of it reads exactly like a living person's footprint and none of it is the person acting. ⟨measured: four of War & Military's five `NO-EVIDENCE` verdicts had to clear an item of this kind — Boston University recording Ha Jin's June 2026 retirement and running a "2026 Ha Jin Lecturer" series; the Shay Moral Injury Center's Fall 2025 certificate programme; a 2025 biography of Tim O'Brien whose entire publicity is his biographer speaking; Notre Dame's January 2025 farewell closing James Webb's fellowship. Load-bearing on at least five of Superhero's twelve⟩. **Confirmation needs the person acting: a first-person statement, a dated interview, an appearance, a course they are listed as teaching, a prize received in person.** Corollary from the same run: a near-name collision can imitate this perfectly — a daily podcast launched in May 2026 under the name Jim Webb is hosted by a different man. Corollary the other way, from Superhero: **a pack can also be wrong by claiming too little** — `author-116` said "the person cannot be documented" of a man holding a named course-leader post. | Ver | WAR V-29 run 2026-09-04; second confirmation SUP the same day | ? | ? | ? | ? | ? | ? | ? | **A** | ? | ? | **A** | ? | ? | ? |
+| V-29 | **A pack's instruments prove internal consistency and nothing about the world.** Thirty-three screens, two rosters and five hand-checks reported Manga perfect while it described a creator dead five months as living. **Re-run V-11 immediately before every release, dated, with the method and its limits recorded.** | Ver | MNG 17.51 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | **A** | **A** | A | ? | **A** |
+| V-40 | **Institutional activity in a person's name is not evidence of that person's life.** V-36 rules out the publishing announcement; this is its institutional twin. A centre or a lecture series carrying the name, a biography and its publicity tour, a retirement processed by an employer, a fellowship an institution closes, a programme named in honour, a colloquium a university announces — all of it reads exactly like a living person's footprint and none of it is the person acting. ⟨measured: four of War & Military's five `NO-EVIDENCE` verdicts had to clear an item of this kind — Boston University recording Ha Jin's June 2026 retirement and running a "2026 Ha Jin Lecturer" series; the Shay Moral Injury Center's Fall 2025 certificate programme; a 2025 biography of Tim O'Brien whose entire publicity is his biographer speaking; Notre Dame's January 2025 farewell closing James Webb's fellowship. Load-bearing on at least five of Superhero's twelve⟩. **Confirmation needs the person acting: a first-person statement, a dated interview, an appearance, a course they are listed as teaching, a prize received in person.** Corollary from the same run: a near-name collision can imitate this perfectly — a daily podcast launched in May 2026 under the name Jim Webb is hosted by a different man. Corollary the other way, from Superhero: **a pack can also be wrong by claiming too little** — `author-116` said "the person cannot be documented" of a man holding a named course-leader post. | Ver | WAR V-29 run 2026-09-04; second confirmation SUP the same day | ? | ? | ? | ? | ? | ? | ? | **A** | ? | **A** | **A** | ? | ? | ? |
 | V-44 | **An equality check that compares records by key is blind to order, and will report a perfect match on a file that has been reordered.** Reconciling Comedy's batch markdown, a card-by-card comparison keyed on `id` reported **"614 of 614 identical"** while one card sat 580 lines away from its position in the shipped file; `cmp` caught what the check could not. The check was not wrong about anything it looked at — it simply did not look at order, and it reported success in language that sounded total. **Report card-level equality and byte-level equality as two separate facts, and test a comparison that can only return success against a difference it ought to catch** — the break-harness discipline applied to a verification rather than to a parser. ⟨War & Military's second pass, the same day, ran the identical comparison twice: 614 of 614 identical at step zero, then **exactly two differing cards** after the repair, which is that test performed rather than promised⟩ | Ver | COM V-29 run, 2026-09-04; WAR second pass the same day | ? | ? | ? | ? | ? | ? | ? | **A** | **A** | ? | ? | ? | ? | ? |
 | V-47 | **A nationality on an author card is a routing instruction, not a biographical nicety, and it decays like any other claim.** Literary's `author-76` read *"South African, born 1940"*; J.M. Coetzee has been an **Australian citizen since 2006** and resident in Adelaide, and the card as it stood would have sent the next re-check's enquiry to the wrong country. This is the living-status analogue of V-20's decaying hedge: the fact was true when carded and stopped being the operative one. ⟨measured: found by a reader as a side-finding, not by any screen; **129 of that pack's 130 author cards have never had their nationality or residence checked**, and its V-14 cell reads `A`⟩. **Where a card's nationality is the handle a future check would grab, verify it with the check, and state formation and current citizenship separately where they differ.** | Ver | LIT V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | ? | ? | ? | ? | ? | ? | ? |
+| V-49 | **A negative verdict is only as good as the search that produced it, and a reader whose tooling failed must say so.** A positive finding survives bad tooling — finding something proves it. **Not finding something proves nothing if you could not look.** ⟨measured: two of Western's six readers reported the session's web-search budget exhausted, with Variety, Deadline, The Hollywood Reporter, the LA Times, the Guardian, the BBC, IMDb and NPR all unreachable, and had fallen back on fetching individual URLs; one returned four `NO-EVIDENCE` verdicts in that state. Re-run blind by a seventh reader, **one of the four flipped to `ALIVE-CONFIRMED`** on a teaching listing the first reader never reached⟩ **Require every reader to state what it could not reach, re-run negatives produced under a degraded search, and mark on the card any verdict that could not be re-run cleanly** — three of Western's twelve unconfirmed cards rest on two readers who were both working degraded, and they are flagged ahead of the other nine. **A verdict of "no evidence" and a verdict of "I could not look properly" must never be recorded as the same answer.** | Ver | WES V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** | ? | ? | ? | ? |
+| V-50 | **A channel in a person's own name, posting currently, can be operated by somebody else.** V-36 rules out the publishing announcement and V-40 the institutional activity in the person's name; this is the third and closest form, because it carries the person's byline and a current date. ⟨measured: `western:author-89` **Frank Chin** — a blog under his name is live into 2026, but its posts are signed by his personal assistant, describe Chin's views in the third person and point readers to books and a post of 2007; and a magazine URL dated 2026 proved to be an archive reprint of a 1995 cover story. Newest item establishing the man himself acting: none found⟩ **A byline, a domain and a current date together are not the person; look for who is speaking in the first person, and whether the item is new or a reprint.** Corollary, the mirror image of the same problem: **a fabricated interview looks exactly like the person acting** — a 2025 piece in an Austrian daily, syndicated widely by the trade press, was publicly denied by `western:author-26` Clint Eastwood while the journalist maintained the quotes were real. Unresolved; the card does not cite it, and his verdict rests on his own denial instead. | Ver | WES V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** | ? | ? | ? | ? |
 
 ## 1D. Content and contested material
 
@@ -229,9 +231,9 @@ contains. A `–` in an early column means "built before the tool existed", not 
 | T-25 | **The validator compares baked presentation fields against the pack's own `collections[]`, keyed on `kind`.** `_bg`/`_fg`/`_label`/`_badge` must be present and must equal that entry's collection's `badgeBg`/`badgeFg`/`label`/`badge`. This does not assert a library-wide colour standard (S-06 is separate and unresolved for two packs) — it only asserts a pack agrees with itself. Added retro-pass Stage 1, shown RED on Historical (613/613 entries, fields entirely absent) before the Stage 3 re-bake and green after, per `grok-review-response.md` G-05. | Tool | retro-pass Stage 1, 2026-08-27 | A | A | A | A | A | A | A | A | A | A | A | A | ? | **A** |
 | V-39 | **A pack's batch markdown is not canonical because it exists. Replay it and prove it reproduces the SHIPPED pack before writing one character of repair into it.** Four packs ran this proof on 2026-09-04 and **all four had drifted**, none of it recorded. War & Military: the F-20 medium retag applied to the JSON and never written back, two reciprocal hand-off cards missing, a craft rewrite surviving only inside a build snapshot — ⟨measured: a replay of the batches as found produced **612** entries against a shipped **614**⟩, and the pack carried no build toolchain on disk at all. Superhero: eleven diacritic restorations, two hand-off cards, two attribution corrections and — the one that matters — **`history-18`'s post-ship rewrite, which a replay would have put back, undoing an adjudication on a card whose own title calls the credit contested** ⟨measured: 612 against 614⟩. Comedy: **71 cards differing in at least one field and 2 absent entirely** ⟨measured⟩. Literary: **a replay would have regressed the published pack by 118 cards** — 18 of ordinary drift and 100 from the parser defect at T-46 ⟨measured⟩. **In every case a pure replay would have silently regressed a published pack, inside something labelled a repair.** Reconcile from the shipped file verbatim, prove replay-equals-shipped, and only then repair. **And read the merge output, not only the comparison**: Science Fiction's `merge.py --init` seeds the working file from the shipped pack, so its comparison reported a perfect match after **nineteen `MERGE FAIL` lines**. | Tool | WAR V-29 run 2026-09-04; confirmed independently by SUP, COM and LIT the same day | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | ? | **A** | ? | ? | ? |
 | V-41 | **An enumerated set that names categories by string goes stale the moment a category is renamed, and a content floor built on it becomes a silent lie.** Comedy's screen 16 reported **23 non-Anglophone works against a floor of 25** and had done so since the rename. Nothing was missing: the category had been renamed to `Yiddish, Hebrew and Jewish-Diaspora Humour` in the batch markdown and the shipped pack while `config.NONANGLO_CATEGORIES` still said `Yiddish and Jewish-Diaspora Humour`, so two work cards silently stopped counting. **The failure presents as missing content and invites someone to write two new cards to satisfy it — which would have put invented material into a published pack.** A screen that counts by matching a name must be checked against the corpus's actual distinct values, not trusted. ⟨measured: with the name corrected the screens reproduce the build log's own closing figures exactly — non-Anglophone works 25/25, authors 22 against a floor of 20⟩ | Tool | COM V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | **A** | ? | ? | ? | ? | ? |
-| V-42 | **A tool that stamps a date from the system clock cannot be replayed, and a config constant it ignores is dead config.** Comedy's `assemble.py` wrote `pack["lastUpdated"] = datetime.date.today()` while `config.LAST_UPDATED` sat unused beside it, so every replay produced a different file and **byte-identity was impossible by construction** — V-39's chain proof could never have passed. The constant existed, was correct, and was silently unreachable. **Anything a replay stamps comes from configuration, never from the environment.** Fixed in Comedy's `v29-work/` copy only; the canonical copy in that pack's tree still has it. | Tool | COM V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | **A** | ? | ? | ? | ? | ? |
+| V-42 | **A tool that stamps a date from the system clock cannot be replayed, and a config constant it ignores is dead config.** Comedy's `assemble.py` wrote `pack["lastUpdated"] = datetime.date.today()` while `config.LAST_UPDATED` sat unused beside it, so every replay produced a different file and **byte-identity was impossible by construction** — V-39's chain proof could never have passed. The constant existed, was correct, and was silently unreachable. **Anything a replay stamps comes from configuration, never from the environment.** Fixed in Comedy's `v29-work/` copy only; the canonical copy in that pack's tree still has it. | Tool | COM V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | **A** | **A** | **P** | ? | ? | ? |
 | V-43 | **A one-off script that writes a pack file directly leaves byte-level artifacts the toolchain can never reproduce, and it does it to every pack it touches.** `_build/tv-formats/reciprocal_cards.py` serialised with `indent=2` where the toolchain writes `indent=1`, and added its card with `entries.append()` rather than placing it in its collection block. **One script is the sole cause of both anomalies in four packs** — comedy, manga, superhero and scifi are exactly the four packs on disk at indent 2, and comedy, manga and superhero each carry exactly one stray card at the end of `entries`. Neither is a content difference and nothing reads either, but both defeat a replay-equality proof, and a replay that silently reformats a whole file buries the real diff in it. **A script that writes a pack must match the toolchain's serialisation and insertion, or the pack it wrote can no longer be proved.** ⟨2026-09-04: **Superhero moved its stray card into place; Comedy deliberately kept the append order so its replay stayed byte-identical.** The inconsistency is accepted for now and is Part 3 work, not a defect of either pack.⟩ | Tool | COM V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | **A** | ? | ? | ? | ? | ? |
-| V-45 | **A break-harness fixture that hard-codes a known-bad value stops testing the moment that value becomes legal, and reports a failure rather than going quiet.** Comedy's `smoke_test.py` poked the literal medium `"stage"` into a merged pack to prove the enum guard fires. F-20 made `stage` a legal medium in schema v2.1, so the guard correctly did not fire and the fixture reported `FAIL` on a guard that was working perfectly. The harness was right that something had changed and wrong about what. **A fixture asserting that a guard rejects something must draw its bad value from outside the live enum at run time, not from a literal frozen at writing time.** | Tool | COM V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | **A** | ? | ? | ? | ? | ? |
+| V-45 | **A break-harness fixture that hard-codes a known-bad value stops testing the moment that value becomes legal, and reports a failure rather than going quiet.** Comedy's `smoke_test.py` poked the literal medium `"stage"` into a merged pack to prove the enum guard fires. F-20 made `stage` a legal medium in schema v2.1, so the guard correctly did not fire and the fixture reported `FAIL` on a guard that was working perfectly. The harness was right that something had changed and wrong about what. **A fixture asserting that a guard rejects something must draw its bad value from outside the live enum at run time, not from a literal frozen at writing time.** **Found independently a second time by the Western V-29 pass**, which hit the other half of the same coin: Comedy's harness reported `FAIL` on a working guard, Western's reported `1 EXPECTATION(S) VIOLATED` on a guard that had gone quiet — same fixture, same `"stage"`, same root cause. ⟨measured across the library, 2026-09-04: **`_build/scifi/tools/config.py` already carries the twelve-value enum while `_build/scifi/tools/smoke_test.py` still injects `"stage"`, so that guard is live and testing nothing today**; the same injection sits in `_build/comedy/`, `_build/manga/`, `_build/superhero/` and `_build/western/tools/`, all still on nine-value enums, each of which trips it the moment it widens⟩ **Nobody has swept the library for this.** | Tool | COM V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | **A** | **A** | ? | ? | ? | ? |
 | T-46 | **A delimiter-split parser cannot read its own documented optional field when that field is empty, and the failure is silent.** `merge.py` parsed author works bullets with `b.split(" \| ")` — splitting on the delimiter **plus its padding**. `BATCH-FORMAT.md` documents `- <Title> \| <year> \| <optional note> \| start` and states the note is optional, so the empty-note form is `- Emma \| 1815 \| \| start`, in which the padded delimiter occurs **once**, not twice. The bullet split into three fields instead of four, the note became the literal string `"\| start"`, and **the lead-work flag was silently dropped**. ⟨measured: 390 works bullets in Literary, **100 with an empty note slot, 100 mis-parsed**; the shipped pack carries 130 correct `start` flags and 0 junk notes, so the pack was right and the toolchain was wrong⟩. **It had never fired anywhere else because every other pack always writes a non-empty note before `start`, so their bullets split into four fields by accident.** The same split is live in `_build/western/tools/merge.py` and `_build/war-military/v29-work/tools/merge.py` today, latent. **Split on the delimiter itself, not on the delimiter-plus-padding**, and break the parser against the empty-field case for every optional field it documents. Fourth instance of the closed-vocabulary / naive-matching defect class after T-34's `re.escape`, the award trap matching `RITA` inside `Britain`, and V-37's convention-blind predicate. | Tool | LIT V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | ? | ? | ? | ? | ? | ? | ? |
 | V-48 | **A screen that narrows its own input reports a clean result on the cards it never looked at, and the exit code cannot tell you.** `living_census.py`'s closed-life-dates pattern scanned the whole of an author's `meta`, so a card was filed as **stating a death** whenever any bare digit-hyphen-digit span appeared anywhere in its prose — a tour of duty, a work run, a pair of issue numbers, a day range, even another person's dates — and it then **exited 0 by hiding those cards.** ⟨measured, three packs independently on 2026-09-04. **Literary**: six cards repaired with evidence dates written `8-9 April 2026` and similar, all six dropped from the living set, census green; caught only by the bucket arithmetic — `dated` had moved 99 → 105 while `w/date` read 25 where it had to be 31. **Superhero**: the census reported 56 living claims against a true 63; the seven dropped include `26–50`, which is a pair of issue numbers, and `author-36`, dropped because the card names **another man's death dates as a warning against confusing the two** — the warning against reporting a living creator as dead is what removed him from the check that exists to catch it. **War & Military**: `author-113` and `author-114` dropped on their tours of duty and **never re-checked at all, inside a pass that was reported complete and was not**⟩. **The fix is pinned in both directions** by `tools/break_living_census.py` — 32 cases, five prose spans that must read as living and twelve real life ranges that must still read as deaths — because an earlier attempt at the same fix rejected 49 genuinely dead authors. ⟨measured 2026-09-04 after the fix: break harness 32 of 32, and the five repaired packs each report 0 living claims with no check date, exit 0⟩. **Add up the buckets against the roster. An exit code is a statement about the rows the screen chose to look at.** | Tool + Ver | LIT, SUP and WAR V-29 runs, 2026-09-04 — three independent findings of one defect, merged | ? | ? | ? | ? | ? | ? | **A** | **A** | ? | ? | **A** | ? | ? | ? |
 
@@ -794,16 +796,16 @@ completed; 39 placeholder citations replaced; 19 plot-logline descriptions rewri
 | T-33 | **A break harness must survive one bad case.** `break_tools.py` raised on a stale fixture string and produced no verdict on its other 24 cases — and had been in that state since Batch 3 while being reported green. A harness that cannot survive one bad case reports nothing about the rest. Each case is now wrapped and a failed mutation counts as DID NOT RUN, which is what it is. | Tool | ERO batch 06 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** |
 | V-30 | **Zero input is not a pass.** A screen whose input set is empty must report NOT RUN, never `ok`. Found at four screens in one batch (1, 2, 8, 11), each having reported `ok` for five consecutive batches on nothing; and again at screen 18, whose reference data — the Works namespace — does not exist until batch 21, so it would have failed 75 specialist cards for the absence of its own input. Extends T-21 from a collection to any input set. | Tool | ERO batches 06 and 10 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** |
 | V-31 | **A guard specified before the corpus exists gets one round of contact with the corpus for free.** The living-status guard was written for `1907–1998` and rejected thirteen cards stating `43 BCE – 17 or 18 CE` and `1642 – 9 September 1693`; obeying it would have meant deleting true detail from cards to satisfy a checker. The award-trap list matched `RITA` inside `Britain` for the same reason. **Widen the guard, never narrow the card** — a checker that trains you to write around it has stopped being a control. | Tool | ERO batches 18, 19, 25 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** |
-| V-32 | **A living-status claim must be made in a re-checkable shape, and an unresolved status is never carded as living.** merge G11 accepts four forms — a year range, `died YYYY`, `born YYYY`, or the exact phrase `life dates unresolved` — and rejects a card carrying two. `living_census.py` prints the list a pre-release re-check must run. The pack's second research pass found two authors who had died since the first, one of them in the year he last published. | Doc + Tool | ERO, research pass 2 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | ? | **A** | ? | ? | **A** |
+| V-32 | **A living-status claim must be made in a re-checkable shape, and an unresolved status is never carded as living.** merge G11 accepts four forms — a year range, `died YYYY`, `born YYYY`, or the exact phrase `life dates unresolved` — and rejects a card carrying two. `living_census.py` prints the list a pre-release re-check must run. The pack's second research pass found two authors who had died since the first, one of them in the year he last published. | Doc + Tool | ERO, research pass 2 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | **A** | **A** | ? | ? | **A** |
 | T-34 | **A closed vocabulary matched as a bare substring is a bug, and `\b` is the wrong fix when a term begins or ends with a non-word character.** `tools/validate_pack.py` matched its five canon terms with `re.escape(t)`, so `in canon` fired inside `in canonical` and **the shipped Erotica pack failed the library's acceptance gate on a correct sentence** — the third appearance of this defect class in one build, after the award trap that matched `RITA` inside `Britain` and was fixed in `merge.py` alone. **The reflex fix would have been worse than the bug:** two of the five terms end in a dash, and `\bCosmos —\b` never matches `Cosmos — the setting`, so `\b` would have silently disabled the two terms enforcing *no Cosmos material, ever*, in the file whose job is that they are on. Use `(?<!\w)…(?!\w)`. ⟨measured: 7-case table — naive 2 wrong, `\b` 2 wrong, lookaround 0 wrong; and across all 14 packs, substring hits 1, lookaround hits 0⟩ **No closed vocabulary in this library has ever been swept for this.** | Tool | ERO terminal-move audit, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** |
 | T-35 | **A pipeline's exit code is not the tool's exit code.** T-21 says exit 2 means DID NOT RUN and that treating it as success is the defect the toolchain exists to prevent. It does not say that `tool \| tail` reports `tail`'s status. The validator's `FAIL — 1 error(s)` was read through a pipe as `EXIT=0` during this very audit, twice. **Every acceptance-gate run is unpiped, and its exit code is captured from the tool itself.** | Tool | ERO terminal-move audit, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** |
 | V-33 | **A named hand-check is run by two INDEPENDENT readers over a SHUFFLED set with deliberately failing cards planted in it, and a reader who passes a plant is discarded rather than reconciled.** "Pair-read, two passes, recorded" is not satisfied by one reader reading twice. Erotica's Sanction terminal-move audit ran three readers over 49 cards — 45 real, 4 planted, ids re-labelled so no verdict could be inferred from position — and both external readers caught all three planted failures and passed the planted pass-control. **The control is what makes the verdict evidence rather than opinion**, and it is the same discipline the parser guards get from a break harness, applied to a judgement. ⟨measured: 3 readers agreed outright on 41 of 45; no card drew a PASS from one and a FAIL from another⟩ | Doc + Tool | ERO terminal-move audit, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** | ? | ? | **A** |
 | B-18 | **When a hand-check fails a card, ask whether the cause is the card or a COLLISION BETWEEN TWO RULES, because the remedies are opposite.** B-10 requires an organising claim to concede a named exception class; §9.1 requires a card's terminal position to be a compositional choice; **neither says where the concession goes**, so it went last, where it does the most damage. ⟨measured: 12 of 612 cards put a self-reference in the last sentence, 204 put one elsewhere⟩ — a 204-to-12 correct-placement rate is a **placement** defect, not a selection defect, and cutting the cards would have removed the collection's foundational card over an appended clause. A collision is fixed by **stating the placement rule and reordering**, and by recording which two rules collided; a bad card is fixed by cutting it. **Overriding a stated remedy is a separate, named decision and never a quiet reclassification of the verdict.** | Doc | ERO terminal-move audit, 2026-09-04 | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | ? | **A** |
-| V-34 | **A living-status claim carries the date it was last checked, or it is not re-checkable and V-29 cannot audit it.** Erotica's first real V-29 run found **three cards reading `living, checked in September 2026` that the September 2026 check could not confirm** — the phrase had been carried forward from drafting, and it named the ship month, so it looked like the check had just been done. Eleven further cards carried a bare `born YYYY` with no status at all. Nothing in the toolchain could see either: `living_census` reads what cards SAY and G11 checks that a life-dates claim was made in a valid SHAPE, never that it is true, and both declare that blind spot on every run. `living_census.py` now splits the living set three ways and **exits 1 if any card asserts a living subject without naming a check date**. ⟨measured: 110 author cards, 31 living claims, 27 carrying a re-check date, 4 carried unconfirmed, 0 with no status⟩ | Doc + Tool | ERO V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | ? | **A** | ? | ? | **A** |
-| V-35 | **A withdrawn claim is withdrawn ON THE CARD, in the card's own words, and never silently.** Four Erotica cards were downgraded from asserted-living to unconfirmed; each now states what it previously asserted and why that was withdrawn. A card that quietly stops claiming something leaves the pack looking as though it never claimed it, which is the same defect as a ledger cell marked `A` because a rule was written down. **Corollary found the hard way:** a global replace that unifies a phrase will also rewrite that phrase **inside the sentence quoting it** — three cards briefly misquoted their own previous wording, caught only because the census buckets summed to more than the roster. When a correction quotes what it corrects, the quotation is inside the blast radius. | Doc | ERO V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | ? | **A** | ? | ? | **A** |
-| V-36 | **A publishing announcement is not evidence that a creator is alive.** Reissues, translations, box sets and anniversary editions are exactly the trade items that keep appearing after a death, and one was the sole basis for an Erotica card's living claim. Confirmation needs the person ACTING: a first-person statement, a dated interview, a public appearance, a course they are listed as teaching. ⟨measured: the strongest confirmations in the V-29 run were a departmental course PDF, a national-broadcaster interview and an awarding body whose category is literally *autrice francophone vivante*; the weakest were author websites, which were stale on four of the eight people in one block while those people were conspicuously active elsewhere⟩ **Reference pages were the least reliable sources in the run** — their silence tracks editor attention, not the person. | Doc | ERO V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | ? | **A** | ? | ? | **A** |
-| V-37 | **A predicate written against one pack's prose is not a library instrument, and the number it produces is not a measurement.** Sizing the library-wide living re-check with Erotica's own predicate reported **411** claims; a convention-blind one reported **919**; the audited instrument reports **885**. The first number was about to be used to size the repair. The library carries **four** life-date conventions — `1797-1851 · British`, `Scottish, 1824–1905.`, `American, born 1942.`, and TV Formats' *no life dates at all* — and a tool that assumes one silently reports zero living authors for the packs using the others, which is exactly what happened for SF, Fantasy, MCT and TV Formats. **Third instance in this build**, after `step9_audit.py` re-deriving the screens' predicates and the terminal-self-reference scan omitting a word. Rule: an instrument promoted from a pack's `_build/` to library-wide `tools/` is **rewritten against every convention and broken against a fixture per convention**, never merely copied. ⟨measured: `tools/break_living_census.py` — 15 cases, 15 behaved as claimed, one BEHAVIOUR fixture per convention⟩ | Tool | ERO → library promotion, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | ? | **A** | ? | ? | **A** |
-| V-38 | **A pack that states no life dates does not thereby make no living claims — it makes them invisible.** TV Formats cards read *"American writer-producer, television career since 1993."*: **113 of its 120 author cards assert a living person with nothing to check and nothing to risk-rank.** A convention that omits the claim does not avoid the liability, it removes the handle. A pack without life dates cannot be given a V-29 pass at all, so the ruling on the convention comes before the re-check. | Doc | ERO → library promotion, 2026-09-04 | ? | ? | ? | ? | ? | ? | **–** | **–** | **–** | ? | **–** | ? | ? | **A** |
+| V-34 | **A living-status claim carries the date it was last checked, or it is not re-checkable and V-29 cannot audit it.** Erotica's first real V-29 run found **three cards reading `living, checked in September 2026` that the September 2026 check could not confirm** — the phrase had been carried forward from drafting, and it named the ship month, so it looked like the check had just been done. Eleven further cards carried a bare `born YYYY` with no status at all. Nothing in the toolchain could see either: `living_census` reads what cards SAY and G11 checks that a life-dates claim was made in a valid SHAPE, never that it is true, and both declare that blind spot on every run. `living_census.py` now splits the living set three ways and **exits 1 if any card asserts a living subject without naming a check date**. ⟨measured: 110 author cards, 31 living claims, 27 carrying a re-check date, 4 carried unconfirmed, 0 with no status⟩ | Doc + Tool | ERO V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | **A** | **A** | ? | ? | **A** |
+| V-35 | **A withdrawn claim is withdrawn ON THE CARD, in the card's own words, and never silently.** Four Erotica cards were downgraded from asserted-living to unconfirmed; each now states what it previously asserted and why that was withdrawn. A card that quietly stops claiming something leaves the pack looking as though it never claimed it, which is the same defect as a ledger cell marked `A` because a rule was written down. **Corollary found the hard way:** a global replace that unifies a phrase will also rewrite that phrase **inside the sentence quoting it** — three cards briefly misquoted their own previous wording, caught only because the census buckets summed to more than the roster. When a correction quotes what it corrects, the quotation is inside the blast radius. | Doc | ERO V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | **A** | **A** | ? | ? | **A** |
+| V-36 | **A publishing announcement is not evidence that a creator is alive.** Reissues, translations, box sets and anniversary editions are exactly the trade items that keep appearing after a death, and one was the sole basis for an Erotica card's living claim. Confirmation needs the person ACTING: a first-person statement, a dated interview, a public appearance, a course they are listed as teaching. ⟨measured: the strongest confirmations in the V-29 run were a departmental course PDF, a national-broadcaster interview and an awarding body whose category is literally *autrice francophone vivante*; the weakest were author websites, which were stale on four of the eight people in one block while those people were conspicuously active elsewhere⟩ **Reference pages were the least reliable sources in the run** — their silence tracks editor attention, not the person. | Doc | ERO V-29 run, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | **A** | **A** | ? | ? | **A** |
+| V-37 | **A predicate written against one pack's prose is not a library instrument, and the number it produces is not a measurement.** Sizing the library-wide living re-check with Erotica's own predicate reported **411** claims; a convention-blind one reported **919**; the audited instrument reports **885**. The first number was about to be used to size the repair. The library carries **four** life-date conventions — `1797-1851 · British`, `Scottish, 1824–1905.`, `American, born 1942.`, and TV Formats' *no life dates at all* — and a tool that assumes one silently reports zero living authors for the packs using the others, which is exactly what happened for SF, Fantasy, MCT and TV Formats. **Third instance in this build**, after `step9_audit.py` re-deriving the screens' predicates and the terminal-self-reference scan omitting a word. Rule: an instrument promoted from a pack's `_build/` to library-wide `tools/` is **rewritten against every convention and broken against a fixture per convention**, never merely copied. ⟨measured: `tools/break_living_census.py` — 15 cases, 15 behaved as claimed, one BEHAVIOUR fixture per convention⟩ | Tool | ERO → library promotion, 2026-09-04 | ? | ? | ? | ? | ? | ? | **A** | **A** | **A** | **A** | **A** | ? | ? | **A** |
+| V-38 | **A pack that states no life dates does not thereby make no living claims — it makes them invisible.** TV Formats cards read *"American writer-producer, television career since 1993."*: **113 of its 120 author cards assert a living person with nothing to check and nothing to risk-rank.** A convention that omits the claim does not avoid the liability, it removes the handle. A pack without life dates cannot be given a V-29 pass at all, so the ruling on the convention comes before the re-check. | Doc | ERO → library promotion, 2026-09-04 | ? | ? | ? | ? | ? | ? | **–** | **–** | **–** | – | **–** | ? | ? | **A** |
 
 ### Cells that moved
 
@@ -1446,7 +1448,7 @@ pack sessions wrote and never applied themselves.
 | **horror** | none | **ran and stopped on purpose.** No replayable batch markdown and no `rebuild.sh`. `_build/horror/audits/V29-BLOCKED-no-replay-chain-2026-09-04.md`. Census measured: 140 authors, 67 living claims with no check date |
 | **scifi** | none, deliberately | **ran, censused, and stopped at step zero on purpose.** 782 of 1,201 cards have no batch markdown; 91 of 131 living claims are unrepairable by the sanctioned route. `_build/scifi/audits/V29-NO-PATCH-README.md`. Pack untouched at 2.2.0 |
 | **manga** | none | interim record only, `v29-living-recheck-RECORD-INTERIM.md`. **Did not finish** |
-| **western** | none | `_build/western/v29-work/` exists and holds only empty `out/` and `tools/` folders, and there is no `audits/` folder at all. **Started and left nothing.** Its census-defect finding survives only as second-hand reports in other packs' patches |
+| **western** | ~~none~~ **both, added 2026-09-05** | ~~`_build/western/v29-work/` exists and holds only empty `out/` and `tools/` folders, and there is no `audits/` folder at all. **Started and left nothing.**~~ **SUPERSEDED — this was true when written on 2026-09-04 and is no longer true.** The Western session was reassigned mid-run, came back on 2026-09-05 and finished: pack **1.0.2 → 1.0.3**, 43 cards repaired, both patch files written. Merged at the second consolidation, 2026-09-11 |
 | fantasy · historical · mystery-crime-thriller · romance · tv-formats | none | **never ran** |
 
 **Five packs are being published. Nine are not.** Of the nine, two stopped for a stated and good
@@ -2043,3 +2045,388 @@ should go out with them; it was not modified by this session and its manifest ro
 
 **Claude performed no git operations, ever — T-12. TJ publishes.**
 
+
+---
+
+## Western 1.0.3 — V-29, the pre-release living re-check, 2026-09-05
+
+**Pack version 1.0.2 → 1.0.3.** A correction pass on a live pack, so a version bump rather than an
+amendment (Romance 1.1.2 → 1.1.3 precedent). Full record and every source:
+`_build/western/audits/v29-living-recheck-RECORD.md` and `-EVIDENCE.md`.
+
+**This pack was recorded at the first consolidation as "started and left nothing."** That was true
+on 4 September: the session had been reassigned to Literary mid-run. It was reassigned back and
+finished on 5 September. The earlier row is struck and corrected above rather than deleted.
+
+### The census, and three shapes rather than one
+
+⟨measured: `python3 tools/living_census.py packs/reference-western.json` — exit 1⟩
+**120 author cards · 77 stating a death · 0 exempt · 0 unresolved · 43 living claims, and 0 of the
+43 naming a check date.**
+
+43 cards but **44 people**: `author-119` Salim–Javed is one card for two men — Salim Khan and Javed
+Akhtar — and it asserts both are living. Both were checked separately and separately confirmed.
+
+Literary's and War & Military's living claims were uniformly a bare `born YYYY`. Western's came in
+three shapes: **26 bare**, **8 carrying an explicit hedge**, and **9 asserting that a check had
+happened** — *"confirmed living"*, *"confirmed working in 2025"*, *"both living"* — none with a date.
+
+### The nine asserted confirmations were tested, not trusted — and all nine held
+
+Erotica's run found three cards claiming a check that had not happened. Western's nine equivalents
+were verified independently, and **every one stands**. The briefs deliberately withheld what the
+card claimed, so no reader was told the answer — a change of method from the Literary run, and the
+reason the nine were tested rather than echoed.
+
+**What was wrong with them was that none carried a date**, and two carried one already a year old.
+All nine now name their evidence and its date.
+
+### The eight hedges were re-tested and three had decayed
+
+This is the pack **V-20** was written from, and its row records three hedges out of date at build
+time. It shipped eight more, and **three had gone stale in under a year** — `author-39` Ron Hansen,
+`author-40` Patrick deWitt and `author-55` Liza Black, all now confirmed with dated evidence.
+`author-55`'s is the sharpest: her birth date genuinely is unestablished and still is, but her
+living status was bundled into the same sentence, so a true caution about one fact carried a false
+caution about another. The card now separates them.
+
+### The result — 44 people, six blind readers, six plants, six returned
+
+**32 ALIVE-CONFIRMED · 0 DEAD · 12 NO-EVIDENCE · 0 CONTESTED.**
+
+**No card in this pack is wrong about a death.** Twelve of forty-four could not be confirmed,
+against 3 of 31 in Literary and 5 of 23 in War & Military — and the reason is visible in who they
+are. **Seven of the twelve are academics and critics**, whose public footprint is a book every few
+years and a conference paper nobody indexes. **V-29's evidence standard is right and it is harder on
+some professions than others**, and a pack heavy with critics will always return more unconfirmed
+cards than one built on novelists and film-makers. That is a property of the rule, not a fault in it,
+and it is worth knowing before the remaining packs are priced.
+
+Four of the twelve had to clear an item shaped exactly like proof of life — a lecture series
+carrying the person's name, a hall-of-fame induction, a publisher's reissue plus an emeritus
+listing: **V-40** earning its place in a second pack. One extends it into **V-50**: Frank Chin's blog
+is live into 2026 and written by his assistant in the third person.
+
+### Step zero: ten cards of drift, and a blocker before that
+
+A replay of the batches as they stood differed from the shipped pack on **10 cards** — **F-19**'s
+renderer disambiguation on seven (five author works-bullet titles, two work card names) and
+**F-20**'s medium retag on three, all applied to the JSON in August and never written back. The
+batch build's own `MEDIUM_ENUM` still held the nine pre-v2.1 values, so **the batches could not have
+expressed the shipped pack even in principle.**
+
+**One further blocker had to clear before equality was possible at all: `assemble.py` stamped
+`lastUpdated` from the system clock** — **V-42**, Comedy's finding, hit for the second time.
+
+⟨measured, before any repair: **612 of 612 cards identical, 0 added, 0 removed, 0 changed**, entry
+order identical, and **`cmp` byte-identical**, sha256 `67815c6d…`⟩ Card-level and byte-level equality
+are reported as two separate facts, which is **V-44**'s requirement.
+
+### Gates, all unpiped
+
+`rebuild.sh` 26 batches → **612/612** · 17 assembly screens **0 errors** · `reuse_check` **0 over
+cap** · `smoke_test` **exit 0, ALL GUARDS OK** on desktop and in container · `living_census`
+**exit 0** · `break_living_census` **32 cases, 32 behaved as claimed** · `validate_pack.py` in the
+session container (T-11) **PASS — 0 error(s)** · desktop replay and container replay
+**byte-identical**, sha256 `46000ff0…` · promoted file **cmp byte-identical** to the replay output.
+
+Census arithmetic checked rather than the exit code: `dated` 77 → **77, unchanged**, so no card was
+hidden; `with a check date` 0 → **43**, exactly the cards repaired.
+
+### Mistakes recorded
+
+**Four negative verdicts were accepted from a reader whose search tooling had failed.** Re-run
+blind, **one flipped** — C Pam Zhang is alive on a listing the first reader never reached. **V-49.**
+`reuse_check.py` was also misused — handed batches already merged into the WIP, doubling every count
+and reporting 79 breaches that do not exist; correctly invoked it reports 0 over cap. And a first
+container gate run reported **exit 2 — DID NOT RUN**, which is exactly what it meant.
+
+---
+
+## The second V-29 consolidation — Western merged, 2026-09-11
+
+The first consolidation merged four patches on 2026-09-04. **Western is the fifth and the only new
+one.** Erotica, Comedy, Literary, Superhero and War & Military were re-verified against disk rather
+than taken on trust, and all five were already correctly merged.
+
+### What was on disk
+
+| pack | patches | state |
+|---|---|---|
+| **western** | both | **merged here.** The only new patch since 2026-09-04 |
+| comedy · literary · superhero · war-military | both each | already merged; **re-verified against disk, all four agree** |
+| **erotica** | none, and none owed | written straight into this ledger before the patch protocol existed; manifest row matches disk |
+| horror | none | ran and **stopped on purpose** — no replayable chain |
+| scifi | none, deliberately | ran, censused, **stopped at step zero on purpose**. Pack untouched at 2.2.0 |
+| manga | none | interim record only. **Did not finish** |
+| fantasy · historical · mystery-crime-thriller · romance · tv-formats | none | **never ran** (tv-formats has a V-38 ruling, not a pass) |
+
+**Six packs have now had a V-29 pass. Eight have not.**
+
+### The de-duplication
+
+Western proposed three new rows. **One was already in the file under another number.**
+
+| proposed as | outcome |
+|---|---|
+| WES `T-37` — a negative test whose bad input becomes legal | **DUPLICATE of `V-45`.** Not inserted. `V-45`'s `WES` cell is now `A` and Western's measurement is folded into the existing row |
+| WES `V-43` — a negative verdict is only as good as the search behind it | renumbered **`V-49`** (43 was taken by Comedy's row at the first consolidation) |
+| WES `V-44` — a channel in a person's own name can be operated by someone else | renumbered **`V-50`** (44 was taken) |
+
+**`V-45` is the second de-duplication this pass has produced, after `V-48`.** Comedy and Western
+found the same stale-fixture defect independently, eight days apart, and hit *opposite symptoms of
+one root cause*: Comedy's harness reported `FAIL` on a guard that was working perfectly, Western's
+reported a violation on a guard that had gone silent. Same fixture, same `"stage"`, same cause. The
+row now carries both, plus Western's library-wide sweep — **SciFi's guard is disabled on disk
+today**, and four more packs trip it the moment they widen their enum.
+
+### Cell moves
+
+**Nine applied, every one read from the file before it was changed, and none disagreed with the
+patch.**
+
+* **WES** — V-29 `?`→`A`, V-32/34/35/36/37 `?`→`A`, V-38 `?`→`–`, V-40 `?`→`A`, V-45 `?`→`A`
+* `V-11` and `V-20` were already `A` for `WES` and were checked, not assumed. V-20 is **re-earned
+  rather than newly set**: three of this pack's eight shipped hedges had decayed.
+
+⟨measured after insertion: **130 standing-rule rows, every one carrying exactly 19 unescaped pipes,
+0 malformed**⟩
+
+### Manifest
+
+⟨measured: **4 lines changed** — `western-reference`'s `packVersion`, `lastUpdated` and
+`approxSizeKB`, plus the file's own `updated` stamp. No reformatting; the edit was a targeted string
+replacement on the raw JSON, not a `json.load`/`dump` round-trip (the Romance precedent)⟩
+
+⟨measured after merging: **all 14 real rows agree with the file on disk** on version, entry count,
+size and last-updated. The fifteenth row, `religious-inspirational-reference`, is a deliberate
+`status: "planned"` placeholder with no file, 0 entries and a null date — **not a defect**, and
+excluded from the comparison for that reason⟩
+
+### The gate re-run across all five repaired packs, and two things it found
+
+⟨measured 2026-09-11, every gate unpiped. Exit 2 would mean DID NOT RUN (T-21)⟩
+
+| gate | comedy | literary | superhero | war-military | western |
+|---|---|---|---|---|---|
+| `rebuild.sh` full replay | **0** · 614/614 | **0** · 613/613 | **0** · 614/614 | **0** · 614/614 | **0** · 612/612 |
+| assembly screens | 16, **0 errors** | **0 errors** | 27, **0 errors** | **0 errors** | 17, **0 errors** |
+| promoted == replay | **byte-identical** | identical but for the trailing newline it ships with | **see below** | **byte-identical** | **byte-identical** |
+| `smoke_test` (container) | **0** ALL GUARDS OK | **0** ALL GUARDS OK | **0** ALL GUARDS OK | **0** ALL GUARDS OK | **0** ALL GUARDS OK |
+| `validate_pack.py` (container, T-11) | **PASS 0 err** | **PASS 0 err** | **PASS 0 err** | **PASS 0 err** | **PASS 0 err** |
+
+**`validate_pack.py` was also run on the nine packs this pass did not touch. All fourteen pass,
+0 errors, exit 0** — the merge broke nothing.
+
+**Three `smoke_test` runs exited 1 on the desktop and 0 in the container.** Literary's and War &
+Military's is **T-11** — each runs the schema validator as its last step and the desktop's
+`jsonschema` is 3.2.0, so it crashes and the harness reports an `IndexError` rather than the real
+cause. Superhero's was a missing `fixtures/` folder in its working copy. **In all three cases every
+guard had already passed**; none was a real failure, and none is a defect in a pack.
+
+#### Superhero's replay no longer reproduces its own promoted file, and the cause is V-42
+
+⟨measured: **614 of 614 cards identical, entry order identical, 0 added, 0 removed, 0 changed** —
+the *only* difference in the whole file is `lastUpdated`, which the replay wrote as **2026-09-11**
+against the promoted **2026-09-04**⟩
+
+`_build/superhero/v29-work/tools/assemble.py` line 582 still reads
+`pack["lastUpdated"] = datetime.date.today().isoformat()`. **That is V-42, unfixed** — Comedy found
+it, Western fixed it in its own copy, Superhero did not. The pack's content is intact and its
+validator passes; what is broken is the *proof*, because the chain can only be shown byte-identical
+on the day it was built. Equalise that one field and the two files match exactly.
+
+**Two cell moves follow, both measured rather than asserted:** `V-42` **`WES` `?`→`A`** (fixed in
+its working copy) and `V-42` **`SUP` `?`→`P`** — a real debt, one line, in a file no session has
+reason to touch again until the next replay.
+
+#### The baseline of 885 was measured with a broken instrument, and the true figure was 888
+
+⟨measured: `python3 tools/living_census.py` across all fourteen packs — exit 1,
+**689 living claims carrying no check date**, against the handoff's baseline of 885⟩
+
+**196 cleared by five V-29 passes** — comedy 45, superhero 56, western 43, literary 31,
+war-military 24. Erotica contributed 0 because its 31 already carried dates before the baseline.
+
+**But one pack moved that should not have.** Fantasy read **82** at the baseline and reads **85**
+now, and **no V-29 pass has ever run on it**. ⟨measured: `packs/reference-fantasy.json` is
+untouched — 1.1.4, `lastUpdated` 2026-08-28, 613 entries, 817,821 bytes, mtime 28 August. The file
+did not change; `tools/living_census.py` did, on 2026-09-04⟩
+
+Those three cards are **V-48 on a fourth pack**. Fantasy cards carry award runs in their `meta` —
+*"Hugo and Nebula for the novelette 'Two Hearts,' 2006–07"* — and the old pattern read any bare
+digit-hyphen-digit span as life dates and filed the card as **stating a death**, then exited 0.
+V-48 was measured on Literary, Superhero and War & Military; Fantasy is the fourth, and its three
+hidden cards were **never counted in the 885 at all**.
+
+**So the honest baseline is 888, not 885, and the two numbers are not like-for-like** — the later
+one comes from a repaired instrument. Against the corrected baseline: **888 → 689, 199 cleared,
+689 owed across eight packs.**
+
+---
+
+## Three deaths applied, and the SciFi chain restored — 2026-09-11
+
+**This is not a V-29 pass on any pack.** It is three corrections applied ahead of one, because each
+was a live falsehood in a published pack. `V-29`, `V-11` and the rest of the V-29 row family stay
+where they are for `MCT`, `MNG` and `SF` — those packs still owe the full check.
+
+### The three
+
+| pack | card | person | died | version |
+|---|---|---|---|---|
+| mystery-crime-thriller | `author-51` | **Len Deighton** | March 2026, announced by his agent 17 March | 1.0.2 → **1.0.3** |
+| manga | `author-110` | **Nishimura Shigeo** | **May 2015** | 1.1.0 → **1.1.1** |
+| scifi | `author-101` | **Dan Simmons** | 21 February 2026 | 2.2.0 → **2.2.1** |
+
+**Nishimura is the one that matters.** The card asserted a living person for **eleven years**. It
+now carries `1937–2015`, says the day is not recorded in any source consulted, says plainly that
+the card made that claim for eleven years and that this re-check is what found it, and warns that a
+**different 西村繁男, a picture-book author born 1947, is alive and publishing** — the namesake that
+will otherwise resurrect him at the next check.
+
+**A reader's finding that did NOT survive scrutiny, recorded because it nearly became a repair.**
+The reader reported Nishimura as "misfiled — treated as a mangaka when he was an editor". The card
+is in the category *Editors and the Editorial System*, its description reads *"The editor-in-chief
+who wrote the memoir"*, and its whole Signature is about editorial practice. **The pack had it
+right.** Only the death was wrong. A correction proposed by a reader is a claim like any other.
+
+Deighton's date is given as **"March 2026 — sources give 14 and 15 March"** rather than a range,
+because `living_census.py` reads a bare digit-hyphen-digit as life dates (V-41).
+
+⟨measured after promotion: each pack **one card changed, one field (`meta`), entry order identical,
+no card added or removed**, plus `packVersion` and `lastUpdated`⟩
+
+⟨measured, census across all fourteen packs: `mystery-crime-thriller` 66 → **65**, `manga` 87 →
+**86**, `scifi` 131 → **130**, every other pack **unmoved**, every pack's buckets summing to its
+author count. Library total **689 → 686**⟩ Checking the arithmetic rather than the exit code is
+V-41, used again.
+
+⟨measured in the session container (T-11): `validate_pack.py` on **all fourteen packs — PASS, 0
+errors, exit 0**, including the eleven this change did not touch⟩ `break_living_census` exit 0.
+
+### The SciFi chain — a correction to this session's own earlier claim
+
+Earlier today this session reported that SciFi's blocker note was "inverted" and that the pack was
+"not blocked". **That was wrong, and it is withdrawn.**
+
+The note said *"782 of the pack's 1,201 cards have no batch markdown"*. That was **accurate when
+written**: those 782 cards predate the batch system and were never authored as batches. What this
+session mistook for original markdown is `batches/0-01-*.md … 0-45-*.md` — **46 files generated on
+4 September by the SciFi chain-reconstruction task itself**, each stamped *"RECONSTRUCTED … It is
+provenance, not new authorship."* The conclusion was drawn from a file listing without reading
+either the file headers or `SCIFI-CHAIN-RECONSTRUCTION-RECORD.md`, which is in the same folder and
+explains all of it. **A directory listing is not a measurement.**
+
+That earlier task had already done the work properly and proved it: 1,201 of 1,201 cards identical,
+entry order identical, byte-identical once re-serialised into the shipped file's conventions.
+
+**This session then broke it, in two ways, and both are repaired.**
+
+1. **`batches/order.txt` was overwritten.** That task wrote it (its record notes the manifest had
+   been "absent since the build"); this session's chain emitter replaced it with one sorted by
+   filename, which is **not** the shipped entry order. Restored by re-running that task's own
+   `gen_orphan_batches.py`, which regenerates the 46 files and the manifest byte-stably.
+2. **`chain-work/replay_merge.py` was missing from disk** — and this one is not this session's
+   doing. The record names that file and the documented reproduction command invokes it, but it was
+   never saved, so **that record's own proof could not be re-run as written**. Rebuilt from the
+   unmodified `tools/merge.py` with exactly the one relaxation described: gate C-18 exempted for
+   descriptions matching a shipped string byte for byte, derived by the existing `legacy_c18.py`,
+   every exemption printed. ⟨measured: 50 such cards; the record says 55⟩
+
+⟨measured after both repairs: `MERGER=chain-work/replay_merge.py bash chain-work/replay.sh` →
+**REPLAY PROVED, exit 0**, 1,201 of 1,201 identical⟩ The repair above was then made through that
+chain, and the replay now differs from the shipped pack by exactly the one card it should.
+
+**Proposed for the next consolidation, not applied here:** a script that a record names as the way
+to reproduce a proof must be *on disk*, and a session that claims a proof should re-run it from the
+files it leaves behind. This is the same class as the finding that produced the 782 orphans in the
+first place — *"one-off scripts whose intermediate state was never saved and whose run order was
+never recorded"* — recurring one level up, in the proof rather than the build.
+
+### Also repaired, to make the three replays possible
+
+`manga`: `assemble.py` stamped `lastUpdated` from the system clock (**V-42**) and wrote `indent=1`
+against a pack that ships `indent=2`; its config said 40 subgenre / 612 total against a pack of
+41 / 613, and its category table said 6 Hand-Off Cards against 7. `mystery-crime-thriller`: had no
+chain at all and now has a reconstructed one, proven byte-identical. All in `v29-work/` copies; **no
+canonical `tools/` file was modified.**
+
+---
+
+## The library-wide V-29 close-out — every open living claim resolved, 2026-09-11
+
+**TJ's decision, 11 September 2026, taken after the research route was costed at roughly 7M tokens
+and several sessions: a card may keep its birth year, but it stops asserting that the person is
+alive.** It says instead that the status has not been checked — which is true, and which is what
+`NO-EVIDENCE` would have said for most of them anyway.
+
+**686 cards across eight packs. No research performed and none claimed.**
+
+### What changed on a card
+
+```
+before   British, born 1947. A novelist whose Booker-winning work fused history with fable.
+after    British, born 1947. A novelist whose Booker-winning work fused history with fable.
+         Status carried as unconfirmed: no living-status check has been run on this card.
+```
+
+The birth year stays. 488 of the 686 carried one and none was deleted. Packs using the middle-dot
+convention get the same clause in their own form.
+
+**`living_census.py` already sanctioned this.** `status carried as unconfirmed` is exactly what its
+`CHECKED` pattern looks for, so the claim becomes re-checkable and the census passes. This is not a
+workaround: V-32 names an unconfirmed status as one of the four valid shapes a life-dates claim may
+take, and the pack is now making the weakest claim it can actually support.
+
+### The result
+
+⟨measured: `python3 tools/living_census.py` across all fourteen packs — **exit 0**⟩
+
+| | before | after |
+|---|---|---|
+| **living claims naming no check date** | **885** at the 4 September baseline, 686 today | **0** |
+| living claims carrying a check date | 235 | **921** |
+| cards stating a death | 922 | 922 |
+
+⟨arithmetic checked rather than the exit code (V-41): **1,861 authors = 922 dated + 15 unresolved +
+3 exempt + 921 carrying a check date + 0 without**⟩
+
+**The `dated` count did not move.** No card gained or lost a death; this pass only withdrew claims
+of life.
+
+### Versions
+
+`fantasy` 1.1.4→**1.1.5** · `historical` 1.2.2→**1.2.3** · `horror` 1.1.3→**1.1.4** ·
+`mystery-crime-thriller` 1.0.3→**1.0.4** · `romance` 1.1.3→**1.1.4** · `manga` 1.1.1→**1.1.2** ·
+`scifi` 2.2.1→**2.2.2** · `tv-formats` 1.0.0→**1.0.1**
+
+Each went through its own proven replay chain and was promoted by
+`_build/_v29-chain-recon/promote.py`, which was given the full list of card ids to expect and
+**refuses to write if anything else moved** — no card added, removed or reordered, no field set
+changed, and nothing altered that was not named. All eight exited 0.
+
+### Gates, all unpiped
+
+`validate_pack.py` in the session container (T-11) — **all fourteen packs PASS, 0 errors, exit 0**,
+including the six this pass did not touch. `living_census` **exit 0** on desktop and in container.
+`break_living_census` **exit 0, 32 cases, 32 behaved as claimed**. `manifest.json` re-verified
+against the files: **all 14 rows agree on version, entry count, size and date**.
+
+### What this buys and what it does not
+
+**It makes every claim in the library true.** No card now asserts a living person on no evidence,
+which was the entire V-29 liability.
+
+**It does not make the packs more accurate, and that is the trade deliberately accepted.** A card
+that reads "born 1937, status unconfirmed" is honest but uninformative, and a person who has in
+fact died still reads as merely unchecked. This pass found three such deaths before it was taken —
+Len Deighton, Dan Simmons and **Nishimura Shigeo, who had been carded as living for eleven years** —
+and those three are recorded properly. Any others remain undiscovered.
+
+**The research route stays open and is now optional rather than blocking.** Everything it needs is
+built and proven: eight replay chains, the promote gate, a deduplicated 648-person roster with 96
+already researched, and reader evidence for those 96. A later pass replaces the unconfirmed clause
+with a dated confirmation, pack by pack, whenever TJ wants it — and nothing is now waiting on it.
+
+**Claude performed no git operations, ever — T-12. TJ publishes.**

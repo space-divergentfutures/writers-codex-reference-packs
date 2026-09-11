@@ -1,9 +1,9 @@
 {
  "id": "historical-reference",
  "name": "Historical Fiction",
- "packVersion": "1.2.2",
+ "packVersion": "1.2.3",
  "schemaVersion": 2,
- "lastUpdated": "2026-08-27",
+ "lastUpdated": "2026-09-11",
  "minAppVersion": "0.1.0",
  "collections": [
   {
@@ -8178,7 +8178,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Pat Barker",
    "description": "English, born 1943. Chronicler of the First World War and, later, of the Trojan War from the women's side.",
-   "meta": "English, born 1943. Chronicler of the First World War and, later, of the Trojan War from the women's side.",
+   "meta": "English, born 1943. Chronicler of the First World War and, later, of the Trojan War from the women's side. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Regeneration trilogy, closing with the Booker-winning The Ghost Road.",
    "signature": "Spare, unsentimental prose approaching war obliquely, through the hospital and the aftermath.",
    "works": [
@@ -8240,7 +8240,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Sarah Waters",
    "description": "Welsh, born 1966. The leading novelist of the neo-Victorian and mid-century, recovering queer histories the record obscured.",
-   "meta": "Welsh, born 1966. The leading novelist of the neo-Victorian and mid-century, recovering queer histories the record obscured.",
+   "meta": "Welsh, born 1966. The leading novelist of the neo-Victorian and mid-century, recovering queer histories the record obscured. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Tipping the Velvet, Fingersmith and The Night Watch.",
    "signature": "Intricate plotting and period texture that foreground what the Victorian and wartime records repressed.",
    "works": [
@@ -8273,7 +8273,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Rose Tremain",
    "description": "English, born 1943. A versatile novelist of the early-modern and beyond, admired for reconstructing distant mentalities.",
-   "meta": "English, born 1943. A versatile novelist of the early-modern and beyond, admired for reconstructing distant mentalities.",
+   "meta": "English, born 1943. A versatile novelist of the early-modern and beyond, admired for reconstructing distant mentalities. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Restoration and its sequel, and Music and Silence.",
    "signature": "Vivid first-person period voices and a fascination with courts, favour and fall.",
    "works": [
@@ -8331,7 +8331,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Michael Ondaatje",
    "description": "Sri Lankan-born Canadian, born 1943. Poet and novelist whose Booker-winning wartime novel is a landmark of the lyrical historical.",
-   "meta": "Sri Lankan-born Canadian, born 1943. Poet and novelist whose Booker-winning wartime novel is a landmark of the lyrical historical.",
+   "meta": "Sri Lankan-born Canadian, born 1943. Poet and novelist whose Booker-winning wartime novel is a landmark of the lyrical historical. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The English Patient, set in the ruins of the Italian campaign.",
    "signature": "Fragmented, poetic structure and sensuous detail, history rendered as memory and wreckage.",
    "works": [
@@ -8360,7 +8360,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Kazuo Ishiguro",
    "description": "British, born Japan 1954; Nobel laureate whose novels sit at the genre's boundary.",
-   "meta": "British, born in Japan 1954. Nobel laureate in Literature in 2017; several of his novels sit at the boundary of the author-side definition, their pre-war settings reaching just before or around his birth.",
+   "meta": "British, born in Japan 1954. Nobel laureate in Literature in 2017; several of his novels sit at the boundary of the author-side definition, their pre-war settings reaching just before or around his birth. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Remains of the Day and An Artist of the Floating World.",
    "signature": "Restrained, self-deceiving first-person narration that conceals the history it moves through.",
    "works": [
@@ -8385,7 +8385,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Sebastian Barry",
    "description": "Irish, born 1955. Poet, playwright and novelist recovering the buried histories of Irish lives across empire and emigration.",
-   "meta": "Irish, born 1955. Poet, playwright and novelist recovering the buried histories of Irish lives across empire and emigration.",
+   "meta": "Irish, born 1955. Poet, playwright and novelist recovering the buried histories of Irish lives across empire and emigration. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Days Without End and A Long Long Way.",
    "signature": "Lyrical first-person voices carrying the marginal and the erased through documented catastrophe.",
    "works": [
@@ -8414,7 +8414,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Eleanor Catton",
    "description": "New Zealand, born 1985. The youngest winner of the Booker Prize, for an intricately structured gold-rush novel.",
-   "meta": "New Zealand, born 1985. The youngest winner of the Booker Prize, for an intricately structured gold-rush novel.",
+   "meta": "New Zealand, born 1985. The youngest winner of the Booker Prize, for an intricately structured gold-rush novel. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Luminaries, set in 1860s New Zealand.",
    "signature": "Elaborate architecture and Victorian pastiche organised around an astrological scheme.",
    "works": [
@@ -8435,7 +8435,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Richard Flanagan",
    "description": "Australian, born 1961. Booker-winning novelist of the Pacific war and its aftermath.",
-   "meta": "Australian, born 1961. Booker-winning novelist of the Pacific war and its aftermath.",
+   "meta": "Australian, born 1961. Booker-winning novelist of the Pacific war and its aftermath. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Narrow Road to the Deep North, on the Thai-Burma Railway.",
    "signature": "Harrowing moral reckoning and lyrical intensity, survival rendered heavier than the ordeal.",
    "works": [
@@ -8460,7 +8460,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Ian McEwan",
    "description": "English, born 1948. A leading literary novelist whose wartime novel turns on fiction's power to falsify and atone.",
-   "meta": "English, born 1948. A leading literary novelist whose wartime novel turns on fiction's power to falsify and atone.",
+   "meta": "English, born 1948. A leading literary novelist whose wartime novel turns on fiction's power to falsify and atone. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Atonement, whose framing reveals the narrative as a guilty reconstruction.",
    "signature": "Precise psychological control and structural cunning, the reliability of narrative made the subject.",
    "works": [
@@ -8485,7 +8485,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Sebastian Faulks",
    "description": "English, born 1953. Popular literary novelist of the First World War and twentieth-century France.",
-   "meta": "English, born 1953. Popular literary novelist of the First World War and twentieth-century France.",
+   "meta": "English, born 1953. Popular literary novelist of the First World War and twentieth-century France. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Birdsong, a widely read novel of the trenches.",
    "signature": "Emotive reconstruction of the war's rupture, accessible and deeply researched.",
    "works": [
@@ -8514,7 +8514,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Tracy Chevalier",
    "description": "American-British, born 1962. Novelist who builds fiction from documented artworks and objects.",
-   "meta": "American-British, born 1962. Novelist who builds fiction from documented artworks and objects.",
+   "meta": "American-British, born 1962. Novelist who builds fiction from documented artworks and objects. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Girl with a Pearl Earring, imagined behind the Vermeer painting.",
    "signature": "Close reconstruction of craft and household, a real object opening a vanished domestic world.",
    "works": [
@@ -8543,7 +8543,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Geraldine Brooks",
    "description": "Australian-American, born 1955. Pulitzer-winning novelist who builds fiction from a documented historical fragment and declares the departure.",
-   "meta": "Australian-American, born 1955. Pulitzer-winning novelist who builds fiction from a documented historical fragment and declares the departure.",
+   "meta": "Australian-American, born 1955. Pulitzer-winning novelist who builds fiction from a documented historical fragment and declares the departure. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "March, Year of Wonders and People of the Book.",
    "signature": "A real seed, a plague village, an absent father, a surviving manuscript, expanded with a marked boundary between record and invention.",
    "works": [
@@ -8576,7 +8576,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Kate Atkinson",
    "description": "English, born 1951. Novelist who brought formal experiment to the twentieth-century historical novel.",
-   "meta": "English, born 1951. Novelist who brought formal experiment to the twentieth-century historical novel.",
+   "meta": "English, born 1951. Novelist who brought formal experiment to the twentieth-century historical novel. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Life After Life, whose heroine relives the century's catastrophes in variant forms.",
    "signature": "Structural play with contingency and repetition, turning coincidence into a meditation on history.",
    "works": [
@@ -8605,7 +8605,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Sarah Perry",
    "description": "English, born 1979. A leading voice of the contemporary neo-Victorian novel.",
-   "meta": "English, born 1979. A leading voice of the contemporary neo-Victorian novel.",
+   "meta": "English, born 1979. A leading voice of the contemporary neo-Victorian novel. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Essex Serpent, on faith, science and a widow's new latitude in the 1890s.",
    "signature": "Gothic texture and intellectual argument, the Victorian world read through its tensions of belief and knowledge.",
    "works": [
@@ -8630,7 +8630,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Maggie O'Farrell",
    "description": "Northern Irish, born 1972. Novelist who reconstructs intimate domestic history behind famous names.",
-   "meta": "Northern Irish, born 1972. Novelist who reconstructs intimate domestic history behind famous names.",
+   "meta": "Northern Irish, born 1972. Novelist who reconstructs intimate domestic history behind famous names. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Hamnet, on the death of Shakespeare's son and its household.",
    "signature": "Sensuous close focus on domestic and bodily life, the great name kept at the edge of the frame.",
    "works": [
@@ -8656,7 +8656,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Madeline Miller",
    "description": "American, born 1978. Classicist whose novels reconstruct Greek myth as historical-feeling interior narrative.",
-   "meta": "American, born 1978. Classicist whose novels reconstruct Greek myth as historical-feeling interior narrative.",
+   "meta": "American, born 1978. Classicist whose novels reconstruct Greek myth as historical-feeling interior narrative. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Song of Achilles and Circe.",
    "signature": "Myth retold with novelistic interiority and a modern attention to the marginal and the female.",
    "works": [
@@ -8682,7 +8682,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Andrew Miller",
    "description": "English, born 1960. A literary novelist of the eighteenth century and its thresholds.",
-   "meta": "English, born 1960. A literary novelist of the eighteenth century and its thresholds.",
+   "meta": "English, born 1960. A literary novelist of the eighteenth century and its thresholds. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Ingenious Pain and Pure, the latter on the clearing of a Paris cemetery before the Revolution.",
    "signature": "Cool, precise prose and a fascination with the body, medicine and the coming of the modern.",
    "works": [
@@ -8707,7 +8707,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Peter Carey",
    "description": "Australian, born 1943. Two-time Booker winner whose historical novels reimagine the national past in invented voices.",
-   "meta": "Australian, born 1943. Two-time Booker winner whose historical novels reimagine the national past in invented voices.",
+   "meta": "Australian, born 1943. Two-time Booker winner whose historical novels reimagine the national past in invented voices. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "True History of the Kelly Gang and Oscar and Lucinda.",
    "signature": "Ventriloquised vernacular voices and a revisionist attack on the founding myths of empire and nation.",
    "works": [
@@ -8736,7 +8736,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Amor Towles",
    "description": "American, born 1964. Popular literary novelist of confined lives and the long twentieth century.",
-   "meta": "American, born 1964. Popular literary novelist of confined lives and the long twentieth century.",
+   "meta": "American, born 1964. Popular literary novelist of confined lives and the long twentieth century. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "A Gentleman in Moscow, a nobleman under decades of house arrest.",
    "signature": "Elegant, humane comedy that keeps history's contingency and menace at the edge of a bounded world.",
    "works": [
@@ -8761,7 +8761,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Anthony Doerr",
    "description": "American, born 1973. Pulitzer-winning novelist of the Second World War and its braided lives.",
-   "meta": "American, born 1973. Pulitzer-winning novelist of the Second World War and its braided lives.",
+   "meta": "American, born 1973. Pulitzer-winning novelist of the Second World War and its braided lives. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "All the Light We Cannot See, tracing a blind French girl and a German boy toward one another.",
    "signature": "Short, luminous chapters and interwoven timelines, the war's damage held in intricate structure.",
    "works": [
@@ -8782,7 +8782,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Colm Tóibín",
    "description": "Irish, born 1955. A leading literary novelist and a master of the biographical novel of writers.",
-   "meta": "Irish, born 1955. A leading literary novelist and a master of the biographical novel of writers.",
+   "meta": "Irish, born 1955. A leading literary novelist and a master of the biographical novel of writers. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Master, on Henry James, and The Magician, on Thomas Mann.",
    "signature": "Restrained, interior reconstruction of a real writer's private life and unspoken feeling.",
    "works": [
@@ -8811,7 +8811,7 @@
    "category": "The Contemporary Literary Novel",
    "name": "Penelope Lively",
    "description": "English, born 1933; Booker-winning novelist preoccupied with memory and how the past inhabits the present.",
-   "meta": "English, born 1933. Booker-winning novelist preoccupied with memory and how the past inhabits the present; her prize-winner sits at the boundary of lived and reconstructed history.",
+   "meta": "English, born 1933. Booker-winning novelist preoccupied with memory and how the past inhabits the present; her prize-winner sits at the boundary of lived and reconstructed history. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Moon Tiger, a dying historian's fractured recollection of the twentieth century.",
    "signature": "Memory as unreliable reconstruction, the personal and the historical past interwoven.",
    "works": [
@@ -8836,7 +8836,7 @@
    "category": "Popular & Genre Historical",
    "name": "Ken Follett",
    "description": "Welsh, born 1949. The dominant popular historical novelist of the era, master of the researched blockbuster.",
-   "meta": "Welsh, born 1949. The dominant popular historical novelist of the era, master of the researched blockbuster.",
+   "meta": "Welsh, born 1949. The dominant popular historical novelist of the era, master of the researched blockbuster. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Pillars of the Earth and the Kingsbridge series, and the twentieth-century Century trilogy.",
    "signature": "Propulsive multi-strand plotting on a solidly researched frame, the building or the war as engine.",
    "works": [
@@ -8865,7 +8865,7 @@
    "category": "Popular & Genre Historical",
    "name": "Bernard Cornwell",
    "description": "English, born 1944. The pre-eminent modern writer of military historical adventure.",
-   "meta": "English, born 1944. The pre-eminent modern writer of military historical adventure.",
+   "meta": "English, born 1944. The pre-eminent modern writer of military historical adventure. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Sharpe series of the Napoleonic wars and the Saxon Stories of Alfred's England.",
    "signature": "Battle rendered from the ranks with ferocious clarity, the period's warfare made viscerally material.",
    "works": [
@@ -8894,7 +8894,7 @@
    "category": "Popular & Genre Historical",
    "name": "Philippa Gregory",
    "description": "English, born 1954. The best-selling novelist of the Tudor court and its women.",
-   "meta": "English, born 1954. The best-selling novelist of the Tudor court and its women.",
+   "meta": "English, born 1954. The best-selling novelist of the Tudor court and its women. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Other Boleyn Girl and the Tudor Court and Cousins' War series.",
    "signature": "Court intrigue seen through its women, accessible drama on a researched Tudor frame.",
    "works": [
@@ -8982,7 +8982,7 @@
    "category": "Popular & Genre Historical",
    "name": "Edward Rutherfurd",
    "description": "English, born 1948. Author of place-biography epics in the Michener mould.",
-   "meta": "English, born 1948. Author of place-biography epics in the Michener mould.",
+   "meta": "English, born 1948. Author of place-biography epics in the Michener mould. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Sarum, London and other city-and-region sagas across millennia.",
    "signature": "A single place followed through linked families across vast spans of time.",
    "works": [
@@ -9011,7 +9011,7 @@
    "category": "Popular & Genre Historical",
    "name": "Conn Iggulden",
    "description": "English, born 1971. Popular novelist of conquerors and empires.",
-   "meta": "English, born 1971. Popular novelist of conquerors and empires.",
+   "meta": "English, born 1971. Popular novelist of conquerors and empires. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Emperor series on Julius Caesar and the Conqueror series on the Mongols.",
    "signature": "Fast, cinematic action across the lives of great commanders, liberties taken openly for pace.",
    "works": [
@@ -9040,7 +9040,7 @@
    "category": "Popular & Genre Historical",
    "name": "Diana Gabaldon",
    "description": "American, born 1952; author of a hugely popular time-slip series straddling history and romance.",
-   "meta": "American, born 1952. Author of a hugely popular time-slip series that straddles historical fiction and romance; the courtship material hands off to romance-reference.",
+   "meta": "American, born 1952. Author of a hugely popular time-slip series that straddles historical fiction and romance; the courtship material hands off to romance-reference. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Outlander series, set largely in eighteenth-century Scotland and America.",
    "signature": "Dense period detail wrapped around a time-crossing central romance and adventure.",
    "works": [
@@ -9127,7 +9127,7 @@
    "category": "Popular & Genre Historical",
    "name": "Jean M. Auel",
    "description": "American, born 1936. Creator of the best-selling prehistoric-fiction series.",
-   "meta": "American, born 1936. Creator of the best-selling prehistoric-fiction series.",
+   "meta": "American, born 1936. Creator of the best-selling prehistoric-fiction series. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Earth's Children series, beginning with The Clan of the Cave Bear.",
    "signature": "Ice Age life reconstructed from archaeology and anthropology, the deep prehistoric past dramatised.",
    "works": [
@@ -9243,7 +9243,7 @@
    "category": "Popular & Genre Historical",
    "name": "Robert Harris",
    "description": "English, born 1957. Master of the intelligent historical thriller across ancient Rome and the twentieth century.",
-   "meta": "English, born 1957. Master of the intelligent historical thriller across ancient Rome and the twentieth century.",
+   "meta": "English, born 1957. Master of the intelligent historical thriller across ancient Rome and the twentieth century. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Fatherland, Pompeii, the Cicero trilogy and An Officer and a Spy.",
    "signature": "Documented history driven as taut thriller, the record's tensions made suspense.",
    "works": [
@@ -9277,7 +9277,7 @@
    "category": "Popular & Genre Historical",
    "name": "Simon Scarrow",
    "description": "English, born 1962. Popular novelist of the Roman legions.",
-   "meta": "English, born 1962. Popular novelist of the Roman legions.",
+   "meta": "English, born 1962. Popular novelist of the Roman legions. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Eagle series following two soldiers of the Roman army.",
    "signature": "Front-line military detail and comradeship across the empire's campaigns.",
    "works": [
@@ -9302,7 +9302,7 @@
    "category": "Popular & Genre Historical",
    "name": "Kate Mosse",
    "description": "English, born 1961. Best-selling novelist of Languedoc history and the Cathar past.",
-   "meta": "English, born 1961. Best-selling novelist of Languedoc history and the Cathar past.",
+   "meta": "English, born 1961. Best-selling novelist of Languedoc history and the Cathar past. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Labyrinth and the Languedoc trilogy.",
    "signature": "Dual-timeline mystery braiding the medieval and the modern in southern France.",
    "works": [
@@ -9360,7 +9360,7 @@
    "category": "Popular & Genre Historical",
    "name": "Elizabeth Chadwick",
    "description": "English, born 1957. A leading novelist of the medieval English and Angevin world.",
-   "meta": "English, born 1957. A leading novelist of the medieval English and Angevin world.",
+   "meta": "English, born 1957. A leading novelist of the medieval English and Angevin world. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The William Marshal novels and the Eleanor of Aquitaine trilogy.",
    "signature": "Rigorously researched twelfth- and thirteenth-century life, the chivalric world made concrete.",
    "works": [
@@ -9385,7 +9385,7 @@
    "category": "Popular & Genre Historical",
    "name": "Steven Saylor",
    "description": "American, born 1956. Novelist of the late Roman Republic through crime and reconstruction.",
-   "meta": "American, born 1956. Novelist of the late Roman Republic through crime and reconstruction.",
+   "meta": "American, born 1956. Novelist of the late Roman Republic through crime and reconstruction. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Roma Sub Rosa series featuring the investigator Gordianus the Finder.",
    "signature": "The Republic's politics reconstructed through detection, real events seen from the street.",
    "works": [
@@ -9410,7 +9410,7 @@
    "category": "Popular & Genre Historical",
    "name": "Lindsey Davis",
    "description": "English, born 1949. Creator of the Roman detective and a wry chronicler of imperial daily life.",
-   "meta": "English, born 1949. Creator of the Roman detective and a wry chronicler of imperial daily life.",
+   "meta": "English, born 1949. Creator of the Roman detective and a wry chronicler of imperial daily life. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Marcus Didius Falco series, set in Vespasian's Rome.",
    "signature": "Comic, procedural detection lit by authentic everyday Roman texture.",
    "works": [
@@ -9462,7 +9462,7 @@
    "category": "Popular & Genre Historical",
    "name": "Margaret George",
    "description": "American, born 1943. A specialist in the long, immersive biographical novel of historical figures.",
-   "meta": "American, born 1943. A specialist in the long, immersive biographical novel of historical figures.",
+   "meta": "American, born 1943. A specialist in the long, immersive biographical novel of historical figures. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Autobiography of Henry VIII and The Memoirs of Cleopatra.",
    "signature": "First-person reconstruction of a famous life at exhaustive, deeply researched length.",
    "works": [
@@ -9552,7 +9552,7 @@
    "category": "Popular & Genre Historical",
    "name": "Alison Weir",
    "description": "English, born 1951. Popular historian who turned to the biographical novel of English queens.",
-   "meta": "English, born 1951. Popular historian who turned to the biographical novel of English queens.",
+   "meta": "English, born 1951. Popular historian who turned to the biographical novel of English queens. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Six Tudor Queens series and novels of medieval and Tudor royal women.",
    "signature": "A historian's research base worked into accessible reconstructions of royal women's lives.",
    "works": [
@@ -9607,7 +9607,7 @@
    "category": "Slavery, Race & the Recovered Voice",
    "name": "Colson Whitehead",
    "description": "American, born 1969. A two-time Pulitzer winner who reconstructs American racial history through formal invention.",
-   "meta": "American, born 1969. A two-time Pulitzer winner who reconstructs American racial history through formal invention.",
+   "meta": "American, born 1969. A two-time Pulitzer winner who reconstructs American racial history through formal invention. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Underground Railroad, which literalises the network as a railway, and The Nickel Boys.",
    "signature": "Controlled speculative and structural devices deployed to make the record's silences visible.",
    "works": [
@@ -9634,7 +9634,7 @@
    "category": "Slavery, Race & the Recovered Voice",
    "name": "Edward P. Jones",
    "description": "American, born 1950. Pulitzer-winning novelist of American slavery's least-imagined corners.",
-   "meta": "American, born 1950. Pulitzer-winning novelist of American slavery's least-imagined corners.",
+   "meta": "American, born 1950. Pulitzer-winning novelist of American slavery's least-imagined corners. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Known World, on a county of Virginia including Black slaveholders.",
    "signature": "Panoramic, time-shifting narration populating a whole society the record never fully kept.",
    "works": [
@@ -9664,7 +9664,7 @@
    "category": "Slavery, Race & the Recovered Voice",
    "name": "Marlon James",
    "description": "Jamaican, born 1970. Booker-winning novelist of Caribbean history and its violence.",
-   "meta": "Jamaican, born 1970. Booker-winning novelist of Caribbean history and its violence.",
+   "meta": "Jamaican, born 1970. Booker-winning novelist of Caribbean history and its violence. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Book of Night Women and A Brief History of Seven Killings.",
    "signature": "Polyphonic voices and unsparing violence, history narrated from its silenced and its brutal edges.",
    "works": [
@@ -9690,7 +9690,7 @@
    "category": "Slavery, Race & the Recovered Voice",
    "name": "Yaa Gyasi",
    "description": "Ghanaian-American, born 1989. Novelist of the transatlantic inheritance of slavery.",
-   "meta": "Ghanaian-American, born 1989. Novelist of the transatlantic inheritance of slavery.",
+   "meta": "Ghanaian-American, born 1989. Novelist of the transatlantic inheritance of slavery. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Homegoing, tracing two family branches from eighteenth-century Ghana to the present.",
    "signature": "A generational relay of self-contained chapters, each a link in a chain of historical consequence.",
    "works": [
@@ -9711,7 +9711,7 @@
    "category": "Slavery, Race & the Recovered Voice",
    "name": "Esi Edugyan",
    "description": "Canadian, born 1978. A novelist of Black lives across the Atlantic world's history.",
-   "meta": "Canadian, born 1978. A novelist of Black lives across the Atlantic world's history.",
+   "meta": "Canadian, born 1978. A novelist of Black lives across the Atlantic world's history. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Washington Black, following an enslaved boy from Barbados into a wider world.",
    "signature": "Adventure and interiority combined, the enslaved consciousness placed at the centre of a picaresque.",
    "works": [
@@ -9736,7 +9736,7 @@
    "category": "Slavery, Race & the Recovered Voice",
    "name": "Ta-Nehisi Coates",
    "description": "American, born 1975. Essayist and novelist whose first novel reconstructs slavery with a speculative charge.",
-   "meta": "American, born 1975. Essayist and novelist whose first novel reconstructs slavery with a speculative charge.",
+   "meta": "American, born 1975. Essayist and novelist whose first novel reconstructs slavery with a speculative charge. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Water Dancer, on a young man born into bondage.",
    "signature": "Memory rendered as near-supernatural power, the archive's silences approached through the fantastic.",
    "works": [
@@ -9815,7 +9815,7 @@
    "category": "Postcolonial & World Traditions",
    "name": "Amitav Ghosh",
    "description": "Indian, born 1956. A leading novelist of the Indian Ocean world and empire's economies.",
-   "meta": "Indian, born 1956. A leading novelist of the Indian Ocean world and empire's economies.",
+   "meta": "Indian, born 1956. A leading novelist of the Indian Ocean world and empire's economies. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Sea of Poppies and the Ibis trilogy, on the opium trade and indenture.",
    "signature": "Deep archival research into trade, language and migration across a connected colonial world.",
    "works": [
@@ -9948,7 +9948,7 @@
    "category": "Postcolonial & World Traditions",
    "name": "Mo Yan",
    "description": "Chinese, born 1955. Nobel laureate in Literature in 2012; his best-known epic draws on family and village memory at the boundary of the definition.",
-   "meta": "Chinese, born 1955. Nobel laureate in Literature in 2012; his best-known epic draws on family and village memory at the boundary of the definition.",
+   "meta": "Chinese, born 1955. Nobel laureate in Literature in 2012; his best-known epic draws on family and village memory at the boundary of the definition. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Red Sorghum and Sandalwood Death.",
    "signature": "Earthy, hallucinatory realism reconstructing twentieth-century and late-imperial China.",
    "works": [
@@ -10110,7 +10110,7 @@
    "category": "Postcolonial & World Traditions",
    "name": "Isabel Allende",
    "description": "Chilean, born 1942. One of the most widely read novelists in Spanish, with a strong historical line.",
-   "meta": "Chilean, born 1942. One of the most widely read novelists in Spanish, with a strong historical line.",
+   "meta": "Chilean, born 1942. One of the most widely read novelists in Spanish, with a strong historical line. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Daughter of Fortune and Inés of My Soul, on the gold rush and the conquest of Chile.",
    "signature": "Sweeping, romantic reconstruction centred on women navigating historical upheaval.",
    "works": [
@@ -10168,7 +10168,7 @@
    "category": "Postcolonial & World Traditions",
    "name": "Tan Twan Eng",
    "description": "Malaysian, born 1972. A novelist of Malaya under occupation and empire.",
-   "meta": "Malaysian, born 1972. A novelist of Malaya under occupation and empire.",
+   "meta": "Malaysian, born 1972. A novelist of Malaya under occupation and empire. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "The Gift of Rain and The Garden of Evening Mists.",
    "signature": "Elegiac reconstruction of wartime and colonial Malaya, memory and complicity interwoven.",
    "works": [
@@ -10194,7 +10194,7 @@
    "category": "Postcolonial & World Traditions",
    "name": "Min Jin Lee",
    "description": "Korean-American, born 1968. Novelist of the Korean diaspora across the twentieth century.",
-   "meta": "Korean-American, born 1968. Novelist of the Korean diaspora across the twentieth century.",
+   "meta": "Korean-American, born 1968. Novelist of the Korean diaspora across the twentieth century. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Pachinko, following a Korean family through Japanese occupation and after.",
    "signature": "Multi-generational realism measuring occupation and diaspora against a homeland never simply regained.",
    "works": [
@@ -10219,7 +10219,7 @@
    "category": "Postcolonial & World Traditions",
    "name": "Madeleine Thien",
    "description": "Canadian, born 1974. A novelist of modern Chinese history and its silences.",
-   "meta": "Canadian, born 1974. A novelist of modern Chinese history and its silences.",
+   "meta": "Canadian, born 1974. A novelist of modern Chinese history and its silences. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Do Not Say We Have Nothing, on musicians through the Cultural Revolution and Tiananmen.",
    "signature": "Musical structure and intergenerational memory reconstructing a suppressed recent past.",
    "works": [
@@ -10245,7 +10245,7 @@
    "category": "Postcolonial & World Traditions",
    "name": "Abdulrazak Gurnah",
    "description": "Tanzanian-British, born 1948. Nobel laureate in Literature in 2021, cited for his reconstruction of colonialism and exile in East Africa.",
-   "meta": "Tanzanian-British, born 1948. Nobel laureate in Literature in 2021, cited for his reconstruction of colonialism and exile in East Africa.",
+   "meta": "Tanzanian-British, born 1948. Nobel laureate in Literature in 2021, cited for his reconstruction of colonialism and exile in East Africa. Status carried as unconfirmed: no living-status check has been run on this card.",
    "knownFor": "Paradise, on East Africa before the First World War, and Afterlives.",
    "signature": "Quiet, precise recovery of colonial East African lives the imperial and later records overlooked.",
    "works": [
