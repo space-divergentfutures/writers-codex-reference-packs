@@ -1,6 +1,6 @@
 {
  "schemaVersion": 2,
- "updated": "2026-09-11",
+ "updated": "2026-09-26",
  "packs": [
   {
    "id": "sf-reference",
@@ -44,9 +44,9 @@
    "id": "fantasy-reference",
    "label": "Fantasy",
    "file": "packs/reference-fantasy.json",
-   "packVersion": "1.1.5",
+   "packVersion": "1.1.6",
    "schemaVersion": 2,
-   "lastUpdated": "2026-09-11",
+   "lastUpdated": "2026-09-26",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -84,9 +84,9 @@
    "id": "mystery-crime-thriller-reference",
    "label": "Mystery, Crime & Thriller",
    "file": "packs/reference-mystery-crime-thriller.json",
-   "packVersion": "1.0.4",
+   "packVersion": "1.0.5",
    "schemaVersion": 2,
-   "lastUpdated": "2026-09-11",
+   "lastUpdated": "2026-09-26",
    "collections": [
     "Subgenres",
     "Tropes",
@@ -99,7 +99,7 @@
     "Psychology"
    ],
    "entryCount": 617,
-   "approxSizeKB": 689,
+   "approxSizeKB": 690,
    "status": "live",
    "mediumCoverage": [
     "audio",

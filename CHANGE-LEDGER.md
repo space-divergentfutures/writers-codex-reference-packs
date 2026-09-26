@@ -2430,3 +2430,142 @@ already researched, and reader evidence for those 96. A later pass replaces the 
 with a dated confirmation, pack by pack, whenever TJ wants it — and nothing is now waiting on it.
 
 **Claude performed no git operations, ever — T-12. TJ publishes.**
+
+## Fantasy 1.1.6 and Mystery, Crime & Thriller 1.0.5 — silently discarded text restored, 2026-09-26
+
+**Why.** The 26 September silent-discard sweep (`C:\Projects\_brain\lessons\SILENT-DISCARD-SWEEP-2026-09-26.md`)
+compared the nine packs built before parser guard 7 (**T-15**) with their surviving original documents,
+card by card. Six were clean. Two were not: the chat-session readers that built **MCT** (8–9 Aug) and
+**Fantasy** (9–10 Aug) had thrown away hand-written text without a word. This entry puts it back.
+TJ's instruction, 26 Sep: **every restored value comes word for word from the original source; nothing
+invented.**
+
+**Sources.** `_build/pack-sources-archive/fantasy-source-B-tropes-worldbuilding.md`,
+`mct-source-C-history-psychology-authors.md` and `mct-source-D-works-and-patch.md` (copied there 18 Aug).
+
+**Route.** Each repair was written into the reconstructed batch markdown under `_build/<pack>/batches/`
+(one named card, one named field), replayed with `_build/_v29-chain-recon/replay.sh`, and written by
+`promote.py`, which refuses if anything changed that was not named. Before any edit both chains replayed
+clean ⟨measured: `promote.py <pack> --expect none --dry-run` — 0 cards changed, exit 0, both packs⟩.
+The pre-edit batch markdown is kept at `_build/<pack>/batches-before-restore-2026-09-26/`.
+
+### Fantasy 1.1.5 → 1.1.6 — 48 example slots
+
+An example line such as `*Macbeth*-descended fantasy in *The Wheel of Time* (novel, 1990)` had kept the
+**first** italic title and dropped the second — the work actually being discussed. The medium and year
+had already shipped from the right work; only `work` was wrong.
+
+⟨measured: re-scan of all 540 examples against the original lines — **48** mismatched before, **0** after;
+diff of 1.1.5 against 1.1.6 — **48 slots changed, 0 in any field but `work`**⟩
+⟨measured: `promote.py fantasy` — 42 cards changed, fields touched `examples` only, exit 0⟩
+
+| before → after (examples) |
+|---|
+| trope-85 #1 `Macbeth` → **The Wheel of Time** (novel, 1990) · trope-85 #2 `Dune` → **Children of Blood and Bone** (novel, 2018) |
+| worldbuilding-27 #3 `Standard bestiary fantasy in` → **The Witcher** (game, 2015) — a placeholder title, now a published work |
+| worldbuilding-32 #3 `Standard portal-and-teleport fantasy in` → **The Wheel of Time** (novel, 1990) — likewise |
+
+The full list of 48 is the table in the sweep file; every row now ships the "work actually discussed" column.
+
+**Left as it was, deliberately.** The lineage words (`*Macbeth*-descended fantasy in`) are not restored —
+the example shape has no field for them and TJ's instruction named the title, medium and year. The seven
+Grok-patched slots (worldbuilding-9, 19, 35, 42, 47, 54, 63) and worldbuilding-29 #3, rewritten after
+the build, have no original line and were not touched. trope-38 #3 restores the original's spelling
+*Full Metal Alchemist*; the pack's other fourteen uses spell it *Fullmetal Alchemist*. Restoring the
+real titles raises some `(work, medium)` counts (e.g. *The Wheel of Time* novel 13 → 17), but Fantasy
+has never met the cap-2 rule on examples (*The Lord of the Rings* is used 26 times, before and after),
+so this changes nothing about its standing on that rule.
+
+### Mystery, Crime & Thriller 1.0.4 → 1.0.5 — 171 pieces, plus 8 found on the way
+
+⟨measured: `promote.py mystery-crime-thriller` — 118 cards changed, fields touched `works` 57 and
+`awards` 61, exit 0⟩ ⟨measured: re-scan of 141 author cards and 172 Works headings against the
+originals — missing books 41 → **0**, missing qualifiers 45 → **0**, awards differing from the original
+other than the 32 below: 61 → **0**⟩
+
+1. **41 books put back** on 41 author cards, each in its original position in the list. None had a note in
+   the original; four carry their translation year as the note (e.g. author-87 *The Girl Who Kicked the
+   Hornets' Nest*, 2007, note `tr. 2009`).
+2. **7 pen names and 38 English-translation years** put back on 45 surviving books, as the note, in the
+   library's existing form `<note>; <qualifier>` (Romance's `…; as Victoria Holt`): author-16
+   *The Judas Window* `the courtroom impossible-crime; as Carter Dickson`; author-85 *The Laughing
+   Policeman* `the Edgar winner; tr. 1970`. Where the book had no note, the qualifier is the note.
+3. **Awards — TJ's rulings, 26 Sep.** The 85 Works cards whose awards slot was dropped were stamped
+   `[no award research performed — retroactive audit 2026-08-27]` by the retro-pass.
+   - **53 restored word for word**, because the original stated the award position: 43 `pre-award era`,
+     7 `pre-award-relevant`, work-53 `pre-award-relevant era`, work-30 `pre-award era; #2 on the MWA's
+     all-time list`, work-52 `no major genre award (the canon outran the committees)`.
+   - **32 keep the stamp.** Their slot held a tagline, not an award statement; putting it in `awards`
+     would assert an award position nobody checked. **Recorded here as deliberately left out:**
+     work-90 "the shin-honkaku movement's founding text" · work-92 "the Mafia novel's literary
+     foundation" · work-94 "the Montalbano series' founding text" · work-95 "the Adamsberg series'
+     international breakthrough" · work-98 "the historical mystery's founding text" · work-99 "the
+     Shardlake series' founding text" · work-101 "the domestic-suspense era's defining text" · work-102
+     "the era's fastest-selling adult novel" · work-103 "the school-gate thriller's defining text" ·
+     work-107 "the literary/crime border's defining crossing" · work-111 "the cartel epic's founding
+     volume" · work-112 "the metafictional fair-play revival's flagship" · work-117 "the hitman film's
+     style template" · work-123 "the gangster film's shop-floor corrective" · work-124 "the serial-killer
+     film's modern template" · work-127 "the professional-crime epic's standard" · work-128 "the
+     structural thriller's modern landmark" · work-129 "the investigation film's honest summit" ·
+     work-130 "the international crime film's modern touchstone" · work-133 "the Golden Age revival's
+     screen flagship" · work-145 "the victim-centered form's founding text" · work-147 "the
+     investigation's defining document" · work-148 "the DNA era's founding case study" · work-152 "the
+     citizen-investigation's defining text" · work-153 "the victim-centered structure, purified" ·
+     work-156 "the YA whodunit's commercial re-founding" · work-159 "the YA Golden Age revival's
+     flagship" · work-160 "the puzzle-will's YA renaissance" · work-166 "the single-twist thriller at
+     maximum concentration" · work-167 "the spy genre's second British era, founded" · work-171 "a
+     two-time Pulitzer winner's crime turn" · work-172 "historical reference: the YA sleuth lineage's
+     commercial origin".
+   - **8 more, not in the sweep's count, restored word for word.** Their awards slot shipped with the
+     opening words cut: work-16 and work-18 lost `pre-award era; `, work-44 lost `pre-award era (…)`,
+     and work-58, 64, 67, 73, 79 lost `pre-award-relevant (…)` — e.g. work-64 `the canon outran the
+     committees` → `pre-award-relevant (the canon outran the committees)`.
+
+⟨measured: cards carrying the no-research stamp in MCT — **85 → 32**⟩. **V-02/V-03's "MCT 85" becomes 32.**
+
+**Found and NOT restored — for TJ.** Twelve Works cards (work-86 to work-97) had a translation year in
+their heading, `1981 (tr. 2004)`; the pack kept `1981` and dropped `(tr. 2004)`. The year shipped is the
+right one under the original-language rule, and a Works card has no note field, so nothing is lost that
+the schema can hold — but the sweep did not count them.
+
+### Gates, all unpiped
+
+- `tools/validate_pack.py` against `schema/pack.schema.json` — **all fourteen packs PASS, 0 errors, exit 0**.
+  Run on the desktop in a throwaway virtual environment with jsonschema 4.26.0 (Draft 2020-12), not in the
+  session container named by T-11: same script, same schema, same bytes.
+- `tools/living_census.py` **exit 0** — 1,861 authors, 921 carrying a check date, **0 naming no check date**,
+  unchanged from 11 Sep. `tools/break_living_census.py` **exit 0, 32 cases, 32 behaved as claimed**.
+- `manifest.json` — fantasy 1.1.6 and MCT 1.0.5 dated 2026-09-26, sizes re-measured; **all 14 rows with a
+  file agree with their files on version, entry count, size and date** (Religious & Inspirational is a
+  planned row with no file).
+- Fantasy's and MCT's original build tools were never saved (see `_v29-chain-recon/README.md`), so their
+  assembly screens cannot be re-run; the gates above are the ones that exist.
+
+### Cell moves — recorded, the grid row not edited
+
+**T-15:** `MCT` and `FAN` P → **A** (every silently discarded piece the sweep found is restored or
+recorded as deliberately left out). Per the sweep, `HOR`, `ROM`, `HIS`, `LIT`, `WAR`, `COM` are clean and
+may also move P → A; `SF` stays **P** for its untraceable cards. The T-15 row in Part 1 is left for TJ to
+update — this entry does not rewrite it.
+
+### Science Fiction — the chat export does not hold the missing originals (read only; SF untouched)
+
+`_intake\2026-08-31_claude-export\` was read in memory, nothing extracted. Its only complete copy of the SF
+cards with no surviving original is `claude/reference-scifi.json` — the shipped 1.0.0 pack itself, a copy
+of the product rather than an original. The one pre-pack source in it, `claude/cosmos-reference-library-
+working-2026-08-05.md` (rendered 5 Aug from `story-workbench/reference.json`), holds full text for only
+**10** of the 189 SF 1.0.0 cards this check could not trace to `sf-writers-reference\data` (26 partly, 153
+not at all), and **none** of the 71 expansion cards with `-new-` ids appears anywhere in the conversations.
+⟨measured: text-presence scan of all 189 cards' descriptions and example texts⟩ This session counted 189
+untraceable cards where the sweep counted 152 — the two checks matched cards differently; the answer is the
+same either way. **SF stays "cannot check" for its expansion.** The partial matches may be worth a
+separate look at `story-workbench\` on disk.
+
+### What went wrong in this session
+
+The first write of the batch markdown turned every line ending to CRLF, making every line look changed.
+Caught by diff before any replay; the files were restored from the pre-edit copies and rewritten with
+LF. **Any tool that rewrites `_build` markdown on Windows must write `newline="\n"`.**
+
+**Git: under the 15 Sep rule (`C:\Projects\README.md`), Claude Code commits and pushes after TJ's explicit
+yes. This supersedes the "Claude performs no git operations" line in `PACK-BUILD-PLAYBOOK.md` for that step.**

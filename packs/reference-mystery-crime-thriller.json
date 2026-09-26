@@ -1,9 +1,9 @@
 {
  "id": "mystery-crime-thriller-reference",
  "name": "Mystery, Crime & Thriller",
- "packVersion": "1.0.4",
+ "packVersion": "1.0.5",
  "schemaVersion": 2,
- "lastUpdated": "2026-09-11",
+ "lastUpdated": "2026-09-26",
  "minAppVersion": "0.1.0",
  "collections": [
   {
@@ -7940,6 +7940,10 @@
      "start": true
     },
     {
+     "title": "The Wisdom of Father Brown",
+     "year": "1914"
+    },
+    {
      "title": "The Man Who Was Thursday",
      "year": "1908",
      "note": "the metaphysical thriller adjacent masterpiece"
@@ -8048,7 +8052,7 @@
     {
      "title": "The Judas Window",
      "year": "1938",
-     "note": "the courtroom impossible-crime"
+     "note": "the courtroom impossible-crime; as Carter Dickson"
     }
    ],
    "_label": "Authors",
@@ -8071,6 +8075,10 @@
      "year": "1952",
      "note": "the masterpiece, more pursuit than puzzle",
      "start": true
+    },
+    {
+     "title": "More Work for the Undertaker",
+     "year": "1948"
     },
     {
      "title": "Police at the Funeral",
@@ -8160,18 +8168,18 @@
     {
      "title": "The Poisoned Chocolates Case",
      "year": "1929",
-     "note": "the multiple-solution classic",
+     "note": "the multiple-solution classic; as Berkeley",
      "start": true
     },
     {
      "title": "Malice Aforethought",
      "year": "1931",
-     "note": "the howcatchem's novel-length perfection"
+     "note": "the howcatchem's novel-length perfection; as Iles"
     },
     {
      "title": "Before the Fact",
      "year": "1932",
-     "note": "the victim's-eye suspense novel, basis of Hitchcock's Suspicion"
+     "note": "the victim's-eye suspense novel, basis of Hitchcock's Suspicion; as Iles"
     }
    ],
    "_label": "Authors",
@@ -8194,6 +8202,10 @@
      "year": "1920",
      "note": "the alibi-demolition landmark",
      "start": true
+    },
+    {
+     "title": "Inspector French's Greatest Case",
+     "year": "1924"
     },
     {
      "title": "The 12.30 from Croydon",
@@ -8219,7 +8231,7 @@
     {
      "title": "The Tragedy of X",
      "year": "1932",
-     "note": "the dying-clue masterpiece",
+     "note": "the dying-clue masterpiece; as Barnaby Ross",
      "start": true
     },
     {
@@ -8354,6 +8366,10 @@
      "year": "1925",
      "note": "the don's puzzle, rules practiced",
      "start": true
+    },
+    {
+     "title": "The Footsteps at the Lock",
+     "year": "1928"
     },
     {
      "title": "the Decalogue itself",
@@ -8745,6 +8761,10 @@
      "start": true
     },
     {
+     "title": "Journey into Fear",
+     "year": "1940"
+    },
+    {
      "title": "The Light of Day",
      "year": "1962",
      "note": "the Edgar-winning comic turn"
@@ -8839,6 +8859,10 @@
      "title": "Dark Passage",
      "year": "1946",
      "note": "the wrong-man template"
+    },
+    {
+     "title": "Nightfall",
+     "year": "1947"
     }
    ],
    "_label": "Authors",
@@ -8866,6 +8890,10 @@
      "title": "Kiss Me, Deadly",
      "year": "1952",
      "note": "the apocalyptic peak, noir's Geiger-counter ending"
+    },
+    {
+     "title": "My Gun Is Quick",
+     "year": "1950"
     }
    ],
    "_label": "Authors",
@@ -8950,7 +8978,7 @@
     {
      "title": "The Hunter",
      "year": "1962",
-     "note": "Parker arrives, implacable",
+     "note": "Parker arrives, implacable; as Stark",
      "start": true
     },
     {
@@ -9052,7 +9080,7 @@
     {
      "title": "A Dark-Adapted Eye",
      "year": "1986",
-     "note": "the family-secret excavation"
+     "note": "the family-secret excavation; as Vine"
     },
     {
      "title": "From Doon with Death",
@@ -9476,6 +9504,10 @@
      "start": true
     },
     {
+     "title": "The End of the Wasp Season",
+     "year": "2011"
+    },
+    {
      "title": "The Long Drop",
      "year": "2017",
      "note": "the true-crime boundary work"
@@ -9634,6 +9666,10 @@
      "title": "Cruel and Unusual",
      "year": "1993",
      "note": "the Gold Dagger"
+    },
+    {
+     "title": "The Body Farm",
+     "year": "1994"
     }
    ],
    "_label": "Authors",
@@ -9656,6 +9692,10 @@
      "year": "1982",
      "note": "the alphabet opens",
      "start": true
+    },
+    {
+     "title": "\"B\" Is for Burglar",
+     "year": "1985"
     },
     {
      "title": "\"Y\" Is for Yesterday",
@@ -9688,6 +9728,10 @@
      "title": "Blacklist",
      "year": "2003",
      "note": "the Gold Dagger"
+    },
+    {
+     "title": "Shell Game",
+     "year": "2018"
     }
    ],
    "_label": "Authors",
@@ -9843,6 +9887,10 @@
      "title": "Baltimore Blues",
      "year": "1997",
      "note": "Tess debuts"
+    },
+    {
+     "title": "Lady in the Lake",
+     "year": "2019"
     }
    ],
    "_label": "Authors",
@@ -9929,6 +9977,10 @@
      "year": "1987",
      "note": "the genre-defining twist",
      "start": true
+    },
+    {
+     "title": "The Burden of Proof",
+     "year": "1990"
     },
     {
      "title": "One L",
@@ -10025,6 +10077,10 @@
      "title": "Cop Town",
      "year": "2014",
      "note": "the Steel Dagger standalone"
+    },
+    {
+     "title": "Pretty Girls",
+     "year": "2015"
     }
    ],
    "_label": "Authors",
@@ -10086,6 +10142,10 @@
      "start": true
     },
     {
+     "title": "One Good Turn",
+     "year": "2006"
+    },
+    {
      "title": "Behind the Scenes at the Museum",
      "year": "1995",
      "note": "the Whitbread winner that funded the turn"
@@ -10116,6 +10176,10 @@
      "title": "Black Water Rising",
      "year": "2009",
      "note": "the debut"
+    },
+    {
+     "title": "Heaven, My Home",
+     "year": "2019"
     }
    ],
    "_label": "Authors",
@@ -10143,6 +10207,10 @@
      "title": "Razorblade Tears",
      "year": "2021",
      "note": "the Hammett winner"
+    },
+    {
+     "title": "All the Sinners Bleed",
+     "year": "2023"
     }
    ],
    "_label": "Authors",
@@ -10195,18 +10263,18 @@
     {
      "title": "The Laughing Policeman",
      "year": "1968",
-     "note": "the Edgar winner",
+     "note": "the Edgar winner; tr. 1970",
      "start": true
     },
     {
      "title": "Roseanna",
      "year": "1965",
-     "note": "the patient opening"
+     "note": "the patient opening; tr. 1967"
     },
     {
      "title": "The Locked Room",
      "year": "1972",
-     "note": "the puzzle homage inside the project"
+     "note": "the puzzle homage inside the project; tr. 1973"
     }
    ],
    "_label": "Authors",
@@ -10227,18 +10295,18 @@
     {
      "title": "Faceless Killers",
      "year": "1991",
-     "note": "Wallander begins, Glass Key attached",
+     "note": "Wallander begins, Glass Key attached; tr. 1997",
      "start": true
     },
     {
      "title": "Sidetracked",
      "year": "1995",
-     "note": "the Gold Dagger"
+     "note": "the Gold Dagger; tr. 1999"
     },
     {
      "title": "The Troubled Man",
      "year": "2009",
-     "note": "the deliberate farewell"
+     "note": "the deliberate farewell; tr. 2011"
     }
    ],
    "_label": "Authors",
@@ -10259,12 +10327,18 @@
     {
      "title": "The Girl with the Dragon Tattoo",
      "year": "2005",
-     "note": "the phenomenon",
+     "note": "the phenomenon; tr. 2008",
      "start": true
     },
     {
      "title": "The Girl Who Played with Fire",
-     "year": "2006"
+     "year": "2006",
+     "note": "tr. 2009"
+    },
+    {
+     "title": "The Girl Who Kicked the Hornets' Nest",
+     "year": "2007",
+     "note": "tr. 2009"
     }
    ],
    "_label": "Authors",
@@ -10285,18 +10359,18 @@
     {
      "title": "The Redbreast",
      "year": "2000",
-     "note": "the consensus best, war-guilt braid included",
+     "note": "the consensus best, war-guilt braid included; tr. 2006",
      "start": true
     },
     {
      "title": "The Snowman",
      "year": "2007",
-     "note": "the breakout thriller"
+     "note": "the breakout thriller; tr. 2010"
     },
     {
      "title": "The Bat",
      "year": "1997",
-     "note": "the Glass Key debut"
+     "note": "the Glass Key debut; tr. 2012"
     }
    ],
    "_label": "Authors",
@@ -10317,17 +10391,18 @@
     {
      "title": "The Shape of Water",
      "year": "1994",
-     "note": "Montalbano begins",
+     "note": "Montalbano begins; tr. 2002",
      "start": true
     },
     {
      "title": "The Terracotta Dog",
-     "year": "1996"
+     "year": "1996",
+     "note": "tr. 2002"
     },
     {
      "title": "The Potter's Field",
      "year": "2008",
-     "note": "the Dagger winner"
+     "note": "the Dagger winner; tr. 2011"
     }
    ],
    "_label": "Authors",
@@ -10348,18 +10423,18 @@
     {
      "title": "Have Mercy on Us All",
      "year": "2001",
-     "note": "plague crosses in Paris",
+     "note": "plague crosses in Paris; tr. 2003",
      "start": true
     },
     {
      "title": "Wash This Blood Clean from My Hand",
      "year": "2004",
-     "note": "Dagger winner"
+     "note": "Dagger winner; tr. 2007"
     },
     {
      "title": "The Chalk Circle Man",
      "year": "1991",
-     "note": "Adamsberg's debut, Dagger on translation"
+     "note": "Adamsberg's debut, Dagger on translation; tr. 2009"
     }
    ],
    "_label": "Authors",
@@ -10380,13 +10455,18 @@
     {
      "title": "The Devotion of Suspect X",
      "year": "2005",
-     "note": "the modern honkaku landmark",
+     "note": "the modern honkaku landmark; tr. 2011",
      "start": true
     },
     {
      "title": "Malice",
      "year": "1996",
-     "note": "motive as the mystery"
+     "note": "motive as the mystery; tr. 2014"
+    },
+    {
+     "title": "Newcomer",
+     "year": "2009",
+     "note": "tr. 2018"
     }
    ],
    "_label": "Authors",
@@ -10407,13 +10487,18 @@
     {
      "title": "The Honjin Murders",
      "year": "1946",
-     "note": "the locked-room landmark",
+     "note": "the locked-room landmark; tr. 2019",
      "start": true
     },
     {
      "title": "The Inugami Curse",
      "year": "1951",
-     "note": "the family-will masterpiece"
+     "note": "the family-will masterpiece; tr. 2003"
+    },
+    {
+     "title": "The Village of Eight Graves",
+     "year": "1950",
+     "note": "tr. 2021"
     }
    ],
    "_label": "Authors",
@@ -10434,13 +10519,13 @@
     {
      "title": "The Tokyo Zodiac Murders",
      "year": "1981",
-     "note": "the movement's founding puzzle",
+     "note": "the movement's founding puzzle; tr. 2004",
      "start": true
     },
     {
      "title": "Murder in the Crooked House",
      "year": "1982",
-     "note": "the architectural trick"
+     "note": "the architectural trick; tr. 2019"
     }
    ],
    "_label": "Authors",
@@ -10461,12 +10546,18 @@
     {
      "title": "Out",
      "year": "1997",
-     "note": "the landmark",
+     "note": "the landmark; tr. 2003",
      "start": true
     },
     {
      "title": "Grotesque",
-     "year": "2003"
+     "year": "2003",
+     "note": "tr. 2007"
+    },
+    {
+     "title": "Real World",
+     "year": "2003",
+     "note": "tr. 2008"
     }
    ],
    "_label": "Authors",
@@ -10487,18 +10578,18 @@
     {
      "title": "Three to Kill",
      "year": "1976",
-     "note": "the executive hunted into competence",
+     "note": "the executive hunted into competence; tr. 2002",
      "start": true
     },
     {
      "title": "The Prone Gunman",
      "year": "1981",
-     "note": "the hitman elegy"
+     "note": "the hitman elegy; tr. 2002"
     },
     {
      "title": "Fatale",
      "year": "1977",
-     "note": "the avenger distilled"
+     "note": "the avenger distilled; tr. 2011"
     }
    ],
    "_label": "Authors",
@@ -10519,17 +10610,18 @@
     {
      "title": "The Day of the Owl",
      "year": "1961",
-     "note": "the Mafia novel's foundation",
+     "note": "the Mafia novel's foundation; tr. 1963",
      "start": true
     },
     {
      "title": "To Each His Own",
-     "year": "1966"
+     "year": "1966",
+     "note": "tr. 1968"
     },
     {
      "title": "Equal Danger",
      "year": "1971",
-     "note": "the form dismantled"
+     "note": "the form dismantled; tr. 1973"
     }
    ],
    "_label": "Authors",
@@ -10550,18 +10642,18 @@
     {
      "title": "Alex",
      "year": "2011",
-     "note": "the triple-hinged landmark",
+     "note": "the triple-hinged landmark; tr. 2013",
      "start": true
     },
     {
      "title": "Irène",
      "year": "2006",
-     "note": "the trilogy's brutal start"
+     "note": "the trilogy's brutal start; tr. 2014"
     },
     {
      "title": "Camille",
      "year": "2012",
-     "note": "the Dagger-winning close"
+     "note": "the Dagger-winning close; tr. 2015"
     }
    ],
    "_label": "Authors",
@@ -10582,18 +10674,18 @@
     {
      "title": "Thirteen Hours",
      "year": "2008",
-     "note": "the real-time benchmark",
+     "note": "the real-time benchmark; tr. 2010",
      "start": true
     },
     {
      "title": "Devil's Peak",
      "year": "2004",
-     "note": "Griessel arrives"
+     "note": "Griessel arrives; tr. 2007"
     },
     {
      "title": "Trackers",
      "year": "2010",
-     "note": "the panorama"
+     "note": "the panorama; tr. 2011"
     }
    ],
    "_label": "Authors",
@@ -10621,6 +10713,10 @@
      "title": "Sharp Objects",
      "year": "2006",
      "note": "the double-Dagger debut"
+    },
+    {
+     "title": "Dark Places",
+     "year": "2009"
     }
    ],
    "_label": "Authors",
@@ -10647,6 +10743,10 @@
     {
      "title": "Into the Water",
      "year": "2017"
+    },
+    {
+     "title": "A Slow Fire Burning",
+     "year": "2021"
     }
    ],
    "_label": "Authors",
@@ -10705,6 +10805,10 @@
     {
      "title": "The Husband's Secret",
      "year": "2013"
+    },
+    {
+     "title": "Apples Never Fall",
+     "year": "2021"
     }
    ],
    "_label": "Authors",
@@ -10764,6 +10868,10 @@
      "title": "The Word Is Murder",
      "year": "2017",
      "note": "the self-insert gambit"
+    },
+    {
+     "title": "Moonflower Murders",
+     "year": "2020"
     }
    ],
    "_label": "Authors",
@@ -10822,6 +10930,10 @@
      "title": "The Twyford Code",
      "year": "2022",
      "note": "the transcript variation"
+    },
+    {
+     "title": "The Mysterious Case of the Alperton Angels",
+     "year": "2023"
     }
    ],
    "_label": "Authors",
@@ -10912,6 +11024,10 @@
     {
      "title": "The Maidens",
      "year": "2021"
+    },
+    {
+     "title": "The Fury",
+     "year": "2024"
     }
    ],
    "_label": "Authors",
@@ -10938,6 +11054,10 @@
     {
      "title": "The Hunting Party",
      "year": "2018"
+    },
+    {
+     "title": "The Paris Apartment",
+     "year": "2022"
     }
    ],
    "_label": "Authors",
@@ -10965,6 +11085,10 @@
      "title": "The Lost Man",
      "year": "2018",
      "note": "the standalone peak"
+    },
+    {
+     "title": "Force of Nature",
+     "year": "2017"
     }
    ],
    "_label": "Authors",
@@ -11078,6 +11202,10 @@
      "title": "Thunderstruck",
      "year": "2006",
      "note": "Marconi and Crippen, the pursuit doubled"
+    },
+    {
+     "title": "Dead Wake",
+     "year": "2015"
     }
    ],
    "_label": "Authors",
@@ -11105,6 +11233,10 @@
      "title": "The Wager",
      "year": "2023",
      "note": "mutiny as contested testimony"
+    },
+    {
+     "title": "The Lost City of Z",
+     "year": "2009"
     }
    ],
    "_label": "Authors",
@@ -11159,6 +11291,10 @@
      "title": "Women Crime Writers",
      "year": "2015",
      "note": "the canon-repair anthology"
+    },
+    {
+     "title": "Scoundrel",
+     "year": "2022"
     }
    ],
    "_label": "Authors",
@@ -11248,6 +11384,10 @@
     {
      "title": "All the Rage",
      "year": "2015"
+    },
+    {
+     "title": "The Project",
+     "year": "2021"
     }
    ],
    "_label": "Authors",
@@ -11390,7 +11530,7 @@
     {
      "title": "The Name of the Rose",
      "year": "1980",
-     "note": "the summit",
+     "note": "the summit; tr. 1983",
      "start": true
     },
     {
@@ -11520,6 +11660,10 @@
      "title": "Dark Star",
      "year": "1991",
      "note": "the consensus masterpiece"
+    },
+    {
+     "title": "The Polish Officer",
+     "year": "1995"
     }
    ],
    "_label": "Authors",
@@ -11546,6 +11690,10 @@
     {
      "title": "Strip Tease",
      "year": "1993"
+    },
+    {
+     "title": "Bad Monkey",
+     "year": "2013"
     }
    ],
    "_label": "Authors",
@@ -11573,6 +11721,10 @@
      "title": "Three to Get Deadly",
      "year": "1997",
      "note": "the Silver Dagger"
+    },
+    {
+     "title": "Two for the Dough",
+     "year": "1996"
     }
    ],
    "_label": "Authors",
@@ -11631,6 +11783,10 @@
     {
      "title": "The Camel Club",
      "year": "2005"
+    },
+    {
+     "title": "Memory Man",
+     "year": "2015"
     }
    ],
    "_label": "Authors",
@@ -11657,6 +11813,10 @@
     {
      "title": "The Devil and the Dark Water",
      "year": "2020"
+    },
+    {
+     "title": "The Last Murder at the End of the World",
+     "year": "2024"
     }
    ],
    "_label": "Authors",
@@ -11732,6 +11892,10 @@
     {
      "title": "The Lewis Man",
      "year": "2012"
+    },
+    {
+     "title": "Entry Island",
+     "year": "2014"
     }
    ],
    "_label": "Authors",
@@ -11759,6 +11923,10 @@
      "title": "Blanche Among the Talented Tenth",
      "year": "1994",
      "note": "the colorism study"
+    },
+    {
+     "title": "Blanche Cleans Up",
+     "year": "1998"
     }
    ],
    "_label": "Authors",
@@ -11786,6 +11954,10 @@
      "title": "An Officer and a Spy",
      "year": "2013",
      "note": "the double-award Dreyfus masterpiece"
+    },
+    {
+     "title": "Enigma",
+     "year": "1995"
     }
    ],
    "_label": "Authors",
@@ -11800,7 +11972,7 @@
    "name": "The Murders in the Rue Morgue",
    "author": "Edgar Allan Poe",
    "year": "1841",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The genre's single point of origin: the impossible crime, the genius detective, the narrating companion, and the solve-then-explain reveal, all present in one…",
    "text": "The genre's single point of origin: the impossible crime, the genius detective, the narrating companion, and the solve-then-explain reveal, all present in one story of perhaps fifteen thousand words. The solution's outrageousness is part of the lesson — Poe establishes that the locked room's answer must merely be *possible*, not probable, provided the reasoning to it is airtight. Every structural convention this pack catalogues traces here; reading it is archaeology on the genre's DNA, and the economy remains startling — nothing in it is wasted, and nothing needed since is missing.",
@@ -11816,7 +11988,7 @@
    "name": "The Woman in White",
    "author": "Wilkie Collins",
    "year": "1860",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "Sensation fiction's masterpiece and the identity-theft thriller's ancestor: the asylum switch, the forged register, and Count Fosco — the genre's first great…",
    "text": "Sensation fiction's masterpiece and the identity-theft thriller's ancestor: the asylum switch, the forged register, and Count Fosco — the genre's first great charming villain, fat, courteous, and terrifying. The multi-narrator testimony structure (assembled \"as a Judge might once have heard it\") invents the evidentiary novel: each account partial, each narrator limited, truth emerging from the collation. Marian Halcombe remains one of Victorian fiction's best investigators, denied the title only by her century. The craft lesson is the villain: menace built from warmth, the template Highsmith and Harris refined.",
@@ -11832,7 +12004,7 @@
    "name": "The Moonstone",
    "author": "Wilkie Collins",
    "year": "1868",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The first full-length English detective novel, and astonishingly complete: country house, stolen jewel, professional detective (Sergeant Cuff, rose-fancier),…",
    "text": "The first full-length English detective novel, and astonishingly complete: country house, stolen jewel, professional detective (Sergeant Cuff, rose-fancier), suspect servants, reconstruction experiment, and a solution hinging on altered consciousness — fair-play machinery two decades before Holmes and five before the Golden Age named the rules. The multi-narrator structure does double duty as both evidence file and character comedy (Betteredge's Robinson Crusoe divination; Miss Clack's tracts). Its imperial frame — the diamond's theft from India bracketing the English theft — gives the founding text a conscience the genre took a century to catch up with.",
@@ -11848,7 +12020,7 @@
    "name": "Lady Audley's Secret",
    "author": "Mary Elizabeth Braddon",
    "year": "1862",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The sensation novel's most efficient machine: bigamy, arson, a pushed husband, and the century's most transgressive secret — that the angelic wife is the…",
    "text": "The sensation novel's most efficient machine: bigamy, arson, a pushed husband, and the century's most transgressive secret — that the angelic wife is the criminal — investigated by an amateur (Robert Audley) whose slow radicalization into detective work prefigures the genre's whole amateur tradition. The book's real subject is the terror under Victorian domesticity: identity as performance, madness as verdict-of-convenience, and the household as crime scene. Domestic suspense's founding text; Flynn's and Moriarty's readers are consuming its direct descendants.",
@@ -11864,7 +12036,7 @@
    "name": "The Leavenworth Case",
    "author": "Anna Katharine Green",
    "year": "1878",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The American founding text, predating Holmes by nine years: a locked-library shooting, an inquest rendered with a lawyer's-daughter procedural accuracy,…",
    "text": "The American founding text, predating Holmes by nine years: a locked-library shooting, an inquest rendered with a lawyer's-daughter procedural accuracy, ballistics testimony, and the suspect pool managed with genuine misdirection skill. Green's innovations arrived wholesale — the wealthy household under investigation, the detective (Ebenezer Gryce) who works courtesy rather than intimidation, the diagram and document exhibits printed in the text. A bestseller that taught a generation (including, reportedly, law students assigned it for its inquest) what the detective novel was; its machinery still turns smoothly.",
@@ -11880,7 +12052,7 @@
    "name": "A Study in Scarlet",
    "author": "Arthur Conan Doyle",
    "year": "1887",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The debut that assembled the genre's most durable partnership: Watson's wounded-veteran narration, Holmes's hemoglobin test and reasoning-backward method,…",
    "text": "The debut that assembled the genre's most durable partnership: Watson's wounded-veteran narration, Holmes's hemoglobin test and reasoning-backward method, Lestrade and Gregson's professional rivalry, and deduction staged as performance from the first meeting (\"You have been in Afghanistan, I perceive\"). The Utah back-story half is the structural oddity — Gaboriau's split-narrative inheritance, soon abandoned — which makes the book doubly instructive: the form arriving and shedding its predecessor's skin in the same volume. The consulting detective, the signature method, the companion device: all patented here.",
@@ -11896,7 +12068,7 @@
    "name": "The Adventures of Sherlock Holmes",
    "author": "Arthur Conan Doyle",
    "year": "1892",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "short-fiction",
    "description": "The twelve Strand stories that invented serial detection as mass entertainment — and remain the short mystery's benchmark. The case-of-the-week structure, the…",
    "text": "The twelve Strand stories that invented serial detection as mass entertainment — and remain the short mystery's benchmark. The case-of-the-week structure, the client's-arrival opening, the deduction overture, the range demonstration (blackmail, identity, the macabre, the comic) — every series writer's toolkit was cut here, under magazine economics that demanded self-contained excellence monthly. \"A Scandal in Bohemia\" (the adversary who wins), \"The Red-Headed League\" (the absurd premise, honestly cashed), and \"The Speckled Band\" (the locked-room dread piece) are the essential three; the collection's consistency is the deeper lesson.",
@@ -11912,7 +12084,7 @@
    "name": "The Hound of the Baskervilles",
    "author": "Arthur Conan Doyle",
    "year": "1902",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The atmospheric summit: the family curse, the moor, the hound — gothic machinery run on strictly rational rails, with the supernatural raised as a genuine…",
    "text": "The atmospheric summit: the family curse, the moor, the hound — gothic machinery run on strictly rational rails, with the supernatural raised as a genuine reader-experience and then honestly dispelled. Structurally audacious: Holmes vanishes for the middle third, Watson investigates alone (and capably — the companion device stress-tested), and the detective's return is staged as the book's best surprise. The inheritance plot underneath is clockwork; the atmosphere above it is the lesson — dread as misdirection, landscape as antagonist, and the rational solution arriving as relief and slight loss at once.",
@@ -11928,7 +12100,7 @@
    "name": "The Innocence of Father Brown",
    "author": "G.K. Chesterton",
    "year": "1911",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "short-fiction",
    "description": "The alternative detective method, founded whole: Father Brown solves by moral imagination — knowing what kinds of persons do what kinds of things, from the…",
    "text": "The alternative detective method, founded whole: Father Brown solves by moral imagination — knowing what kinds of persons do what kinds of things, from the confessional's education — against Holmes's physical-trace empiricism. \"The Blue Cross\" (the detective revealed by testing), \"The Invisible Man\" (the postman nobody sees — social invisibility as method, Barbara Neely's inheritance), and \"The Hammer of God\" run paradox as detection: the truth found by inverting the frame. Valentin and Flambeau supply the worldly foils. Every detective whose gift is reading people descends from this slim collection.",
@@ -11944,7 +12116,7 @@
    "name": "The Amateur Cracksman",
    "author": "E.W. Hornung",
    "year": "1899",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "short-fiction",
    "description": "Raffles: the Holmes machinery inverted — gentleman burglar and admiring companion, cricket by day, cracksmanship by night — with the ledger kept honest:…",
    "text": "Raffles: the Holmes machinery inverted — gentleman burglar and admiring companion, cricket by day, cracksmanship by night — with the ledger kept honest: Bunny's unease, the parasitism visible under the charm, and the code (never steal from a host... usually) examined as it bends. The gentleman-thief tradition, the caper's moral license, and the criminal-protagonist series all begin here, written by Doyle's brother-in-law as deliberate mirror. The craft interest is sympathy management — how far charm carries the reader across the law, and what the stories must conceal to keep it working.",
@@ -11960,7 +12132,7 @@
    "name": "Arsène Lupin, Gentleman Burglar",
    "author": "Maurice Leblanc",
    "year": "1907",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "short-fiction",
    "description": "The continental pole: Lupin — thief, quick-change artist, occasional detective, national institution — running rings around the Sûreté with theatrical…",
    "text": "The continental pole: Lupin — thief, quick-change artist, occasional detective, national institution — running rings around the Sûreté with theatrical generosity. Where Raffles is furtive, Lupin is celebratory: crime as performance art, the con as gift, and the law outwitted so stylishly the reader forgets to object. The stories' structural trick — Lupin narrating, Lupin disguised as the investigator, Lupin arrested in chapter one and escaping by chapter's end — makes identity-play the whole engine. The caper tradition's continental wellspring, still feeding heist films and Netflix a century on.",
@@ -11976,7 +12148,7 @@
    "name": "The Red Thumb Mark",
    "author": "R. Austin Freeman",
    "year": "1907",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "Dr. Thorndyke's debut, and the scientific detective story's founding text: a forged fingerprint — planted with period-plausible technique Freeman tested…",
    "text": "Dr. Thorndyke's debut, and the scientific detective story's founding text: a forged fingerprint — planted with period-plausible technique Freeman tested himself — cross-examined just two years after English courts first convicted on print evidence. The courtroom demolition of the \"infallible\" new science remains startlingly modern (Forensics 1's disputes, anticipated by a century), and Thorndyke's method — hypothesis, experiment, demonstration — is the forensic thriller's complete blueprint. Dated in its romance, permanent in its rigor; the genre's first serious argument that evidence is only as good as its examination.",
@@ -11992,7 +12164,7 @@
    "name": "The Singing Bone",
    "author": "R. Austin Freeman",
    "year": "1912",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The inverted mystery invented: five stories that show the crime first — culprit, method, motive in full view — then follow Thorndyke's reconstruction,…",
    "text": "The inverted mystery invented: five stories that show the crime first — culprit, method, motive in full view — then follow Thorndyke's reconstruction, converting the whodunit's question into the howcatchem's. The form's wager, stated in Freeman's own preface, was that readers would find the detective's *method* interesting enough to carry suspense without mystery — and he was right: Malice Aforethought, Columbo, and every killer-POV thriller run on the patent filed here. The oyster-shell and blackmail stories remain the cleanest demonstrations; the historical importance is total.",
@@ -12008,7 +12180,7 @@
    "name": "The Thinking Machine",
    "author": "Jacques Futrelle",
    "year": "1907",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "short-fiction",
    "description": "Professor Van Dusen: American ingenuity's answer to Holmes, logic as pure stunt — and \"The Problem of Cell 13,\" the most anthologized impossible-crime story in…",
    "text": "Professor Van Dusen: American ingenuity's answer to Holmes, logic as pure stunt — and \"The Problem of Cell 13,\" the most anthologized impossible-crime story in the language: the professor wagers he can think his way out of a death-row cell in a week, and does, by a chain of physical cleverness the reader could theoretically match. The escape-artist structure (impossibility accepted as dare) distills the puzzle story to its exuberant essence. Futrelle died on the Titanic at thirty-seven; the collection is the genre's great what-if, and its confidence still crackles.",
@@ -12024,7 +12196,7 @@
    "name": "The Mysterious Affair at Styles",
    "author": "Agatha Christie",
    "year": "1920",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "Poirot's debut and the Golden Age's opening bell: the poisoned matriarch, the country household, the strychnine mechanics worked to dispensary-trained accuracy…",
    "text": "Poirot's debut and the Golden Age's opening bell: the poisoned matriarch, the country household, the strychnine mechanics worked to dispensary-trained accuracy (Christie's war service supplying the toxicology), and the double-bluff solution — the obvious suspect cleared, then convicted, by evidence the reader watched being planted. Hastings narrates at full Watson-pattern fidelity. The machinery is already complete: fair clues, honest misdirection, the reveal as re-narration. Not her deepest book, but the template's arrival — and the strychnine plot remains a masterclass in method-as-clue.",
@@ -12040,7 +12212,7 @@
    "name": "The Murder of Roger Ackroyd",
    "author": "Agatha Christie",
    "year": "1926",
-   "awards": "CWA's 2013 poll named it the best crime novel ever written",
+   "awards": "pre-award era; CWA's 2013 poll named it the best crime novel ever written",
    "medium": "novel",
    "description": "The audacity standard: the genre's most famous solution, executed with scrupulous technical honesty — every omission legal, every sentence re-readable, the…",
    "text": "The audacity standard: the genre's most famous solution, executed with scrupulous technical honesty — every omission legal, every sentence re-readable, the confession hidden inside the telling itself. Beyond the trick, it's peak Christie machinery: the village suspect pool, Caroline Sheppard (the Marple prototype) as intelligence network, the herring economy in perfect balance. The book that proved the fair-play contract could survive — required, even — the breaking of its deepest assumption, and the permanent exhibit for the re-read test: the second reading is a different, better book.",
@@ -12056,7 +12228,7 @@
    "name": "Murder on the Orient Express",
    "author": "Agatha Christie",
    "year": "1934",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The collective solution: twelve wounds, twelve passengers, the closed circle sealed by snowdrift and solved by inversion — when every alibi corroborates every…",
    "text": "The collective solution: twelve wounds, twelve passengers, the closed circle sealed by snowdrift and solved by inversion — when every alibi corroborates every other, the corroboration is the conspiracy. The Armstrong kidnapping backstory (Lindbergh, barely veiled) gives the mechanism its moral engine, and Poirot's final choice — two solutions offered, justice privatized — remains the genre's most-argued ending. Structurally a interview procession that never drags: each compartment a chapter, each testimony a brick in the wall the reveal knocks through. The trope-terminal text for \"everybody did it.\"",
@@ -12072,7 +12244,7 @@
    "name": "And Then There Were None",
    "author": "Agatha Christie",
    "year": "1939",
-   "awards": "the best-selling mystery novel in history",
+   "awards": "pre-award era; the best-selling mystery novel in history",
    "medium": "novel",
    "description": "The closed circle at its terminal point: ten guilty strangers, an island, a nursery rhyme, and no detective — the puzzle novel converted to survival horror…",
    "text": "The closed circle at its terminal point: ten guilty strangers, an island, a nursery rhyme, and no detective — the puzzle novel converted to survival horror without losing fair-play discipline. The epilogue's confession document is the concession the premise demands (no investigator remains to explain), and the psychological register — guilt, dread, the executioner's justice-madness — runs darker than anything else in her shelf. One hundred million copies argue it's the genre's most perfect machine; the craft lesson is nerve: the premise pursued to zero, no rescue, no softening.",
@@ -12088,7 +12260,7 @@
    "name": "Whose Body?",
    "author": "Dorothy L. Sayers",
    "year": "1923",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "Wimsey's debut: the corpse in the bath wearing nothing but pince-nez — a body that is evidence of the *wrong* crime — and the shell-shocked aristocrat…",
    "text": "Wimsey's debut: the corpse in the bath wearing nothing but pince-nez — a body that is evidence of the *wrong* crime — and the shell-shocked aristocrat detective whose flippancy is armor, introduced with his damage already load-bearing (the war nightmare scene remains striking). The plot's medical-vanity solution is serviceable; the arrival is the event: prose with literary ambition, a detective with an interior, and the Bunter partnership. The series' greatness comes later, but the founding equipment — voice, wound, and the refusal to treat detection as morally weightless — is all on board.",
@@ -12104,7 +12276,7 @@
    "name": "The Nine Tailors",
    "author": "Dorothy L. Sayers",
    "year": "1934",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The bell-ringing masterpiece: change-ringing rendered to working depth (the genre's benchmark for research made load-bearing), the fenland parish drawn with a…",
    "text": "The bell-ringing masterpiece: change-ringing rendered to working depth (the genre's benchmark for research made load-bearing), the fenland parish drawn with a novelist's patience, and a murder method unique in the literature — the bells themselves, in a solution that arrives as awe rather than gotcha. The flood climax converts setting to judgment. This is the Golden Age's case for the mystery as full novel: community, landscape, and theology carrying the puzzle rather than decorating it. If Ackroyd is the form's cleverest hour, this is its deepest — the two poles every Golden Age writer navigates between.",
@@ -12120,7 +12292,7 @@
    "name": "Gaudy Night",
    "author": "Dorothy L. Sayers",
    "year": "1935",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The mystery without a murder: poison-pen and sabotage in an Oxford women's college, investigated by Harriet Vane — the detective's beloved as detective — while…",
    "text": "The mystery without a murder: poison-pen and sabotage in an Oxford women's college, investigated by Harriet Vane — the detective's beloved as detective — while the Wimsey courtship reaches its earned conclusion. The stakes are intellectual integrity versus personal loyalty, argued at full seriousness; the poison-pen mechanics (Tropes 20) run on the era's gender panic honestly examined. The Golden Age's proof that the form could carry a novel of ideas — and the model for every series that lets its long romance arc and its case answer the same thematic question. The genre's best book about work.",
@@ -12136,7 +12308,7 @@
    "name": "The Hollow Man",
    "author": "John Dickson Carr",
    "year": "1935",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The locked-room summit: two impossible murders, the snow without footprints, and Chapter 17 — Dr. Fell's \"locked-room lecture,\" the genre pausing to taxonomize…",
    "text": "The locked-room summit: two impossible murders, the snow without footprints, and Chapter 17 — Dr. Fell's \"locked-room lecture,\" the genre pausing to taxonomize itself mid-novel and getting away with it. Carr's gothic dressing (the vampire legend, the three coffins) does honest work: dread inflates the impossibility so the mechanical solution lands as exorcism. The solution itself — illusion, timing, and the victim-as-accomplice — plays scrupulously fair while being unguessable, the Carr specialty. The impossible crime's benchmark and its self-aware bible in one volume.",
@@ -12152,7 +12324,7 @@
    "name": "The Poisoned Chocolates Case",
    "author": "Anthony Berkeley",
    "year": "1929",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The genre's own critique, staged as entertainment: six members of the Crimes Circle each solve the same murder — six complete, convincing, incompatible…",
    "text": "The genre's own critique, staged as entertainment: six members of the Crimes Circle each solve the same murder — six complete, convincing, incompatible solutions, each demolished by the next — until the form's confidence in \"the\" solution lies in pieces. The false-solution structure (Tropes 111) taken to its logical terminus, and still the wittiest demolition of detective certainty ever written from inside the club (literally: Berkeley founded the Detection Club the following year). Modern editions append alternate endings by later hands — the book's game, still being played. Essential for anyone who plans to break the rules knowingly.",
@@ -12168,7 +12340,7 @@
    "name": "Malice Aforethought",
    "author": "Francis Iles",
    "year": "1931",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The inverted form at novel length, perfected in its first sentence — the murder announced, the murderer named, the interest transferred entirely to how and…",
    "text": "The inverted form at novel length, perfected in its first sentence — the murder announced, the murderer named, the interest transferred entirely to how and whether he'll manage it. Dr. Bickleigh's henpecked vanity makes him the ordinary-perpetrator model (Psychology 18) two decades early: no monster, just resentment compounding into method. The courtroom finale springs the form's cruelest irony. Berkeley under his second name, dismantling from the psychological side what Poisoned Chocolates dismantled from the logical one — the Golden Age's inside critic completing the pincer.",
@@ -12184,7 +12356,7 @@
    "name": "The Cask",
    "author": "Freeman Wills Crofts",
    "year": "1920",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The alibi novel's foundation: a cask of gold and a woman's hand at the London docks, and an investigation that crosses to Paris and back on timetables,…",
    "text": "The alibi novel's foundation: a cask of gold and a woman's hand at the London docks, and an investigation that crosses to Paris and back on timetables, shipping manifests, and patient elimination — the \"humdrum\" method as its own pleasure, thirty years before the police procedural named it. The unbreakable alibi at the center is engineered and demolished with the thoroughness of the railway engineer Crofts was. No genius detective, no atmosphere to speak of — just system, which is the point: the genre's other founding temperament, and the procedural's direct ancestor.",
@@ -12216,7 +12388,7 @@
    "name": "The Tiger in the Smoke",
    "author": "Margery Allingham",
    "year": "1952",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The Golden Age walking into noir fog: Jack Havoc — knife artist, prison escaper, the genre's first genuinely frightening postwar killer — hunted through a…",
    "text": "The Golden Age walking into noir fog: Jack Havoc — knife artist, prison escaper, the genre's first genuinely frightening postwar killer — hunted through a London smog rendered so thickly it functions as the book's second antagonist. Campion recedes; the pursuit, the street-gang grotesques, and Canon Avril's theological confrontation with Havoc carry it. The craft event is the register shift: a puzzle-era series accommodating dread, evil examined seriously, and thriller structure — the transition from detection to psychological crime novel caught in a single book, by the era's best stylist.",
@@ -12232,7 +12404,7 @@
    "name": "Fer-de-Lance",
    "author": "Rex Stout",
    "year": "1934",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The transatlantic solution: Wolfe's brownstone genius (orchids, beer, immovable bulk) run by Archie Goodwin's hardboiled American voice — the Great Detective…",
    "text": "The transatlantic solution: Wolfe's brownstone genius (orchids, beer, immovable bulk) run by Archie Goodwin's hardboiled American voice — the Great Detective and the wisecracking legman fused into one household, ending the Golden Age/pulp cold war in a single debut. The golf-club murder mechanism is honest Golden Age engineering; the voice is the revolution. Series machinery arrives complete: the relationship's friction as renewable fuel, the client interview as set piece, the office as stage. The narrator every first-person series voice since has studied, knowingly or not.",
@@ -12248,7 +12420,7 @@
    "name": "Red Harvest",
    "author": "Dashiell Hammett",
    "year": "1929",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The hardboiled novel arrives at full violence: the Continental Op cleans a bought mining town by setting its factions on each other, and is honest enough to…",
    "text": "The hardboiled novel arrives at full violence: the Continental Op cleans a bought mining town by setting its factions on each other, and is honest enough to notice the work poisoning him — \"going blood-simple.\" Crime as civic condition rather than puzzle; the body count as political diagram; prose with every ornament burned off. The town-taming structure (imported by Kurosawa for Yojimbo, thence A Fistful of Dollars) became a genre of its own. The Op's queasy self-audit is the book's modern edge: the first hardboiled hero to price his own methods.",
@@ -12264,7 +12436,7 @@
    "name": "The Maltese Falcon",
    "author": "Dashiell Hammett",
    "year": "1930",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era; #2 on the MWA's all-time list",
    "medium": "novel",
    "description": "The form's cornerstone: Spade playing every side of a falcon hunt whose object proves worthless — the MacGuffin patented — against Brigid, the femme fatale…",
    "text": "The form's cornerstone: Spade playing every side of a falcon hunt whose object proves worthless — the MacGuffin patented — against Brigid, the femme fatale template, and the genre's coldest closing moral line (\"I won't play the sap for you\"). Told in strict objective third: no interiority anywhere, character built entirely from surfaces and speech — the behaviorist method at its purest, and the reason the ending still cuts: the reader must judge Spade exactly as Brigid must, from the outside, to the last page.",
@@ -12280,7 +12452,7 @@
    "name": "The Glass Key",
    "author": "Dashiell Hammett",
    "year": "1931",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "Hammett's own favorite, and his deepest: ward heeler Ned Beaumont investigating a senator's son's murder to protect the boss he loves — loyalty as the whole…",
    "text": "Hammett's own favorite, and his deepest: ward heeler Ned Beaumont investigating a senator's son's murder to protect the boss he loves — loyalty as the whole subject, tested past every limit including a legendary beating sequence. The political-machine milieu is rendered with insider flatness; the friendship at the center is examined with a restraint that makes its final rupture the quietest devastation in the canon. The objective style's masterpiece application: a book about feeling that never once names one.",
@@ -12296,7 +12468,7 @@
    "name": "The Big Sleep",
    "author": "Raymond Chandler",
    "year": "1939",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "Marlowe's debut: the Sternwood millions, the blackmail spiral, and the voice that changed American prose — simile as moral instrument, wit as armor over…",
    "text": "Marlowe's debut: the Sternwood millions, the blackmail spiral, and the voice that changed American prose — simile as moral instrument, wit as armor over disgust. The plot famously leaks (the chauffeur's death that even Chandler couldn't assign) and famously doesn't matter: the case structure is a tour of corruption's ecosystem, each rung of the Sternwood world worse than the last. The founding demonstration that atmosphere, voice, and moral texture can carry what architecture doesn't — and the permanent warning about what that trade costs.",
@@ -12328,7 +12500,7 @@
    "name": "The Postman Always Rings Twice",
    "author": "James M. Cain",
    "year": "1934",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "Noir's engine in a hundred pages: drifter, roadhouse wife, the husband in the way — want, opportunity, one unwalkable-back act, and the spiral through…",
    "text": "Noir's engine in a hundred pages: drifter, roadhouse wife, the husband in the way — want, opportunity, one unwalkable-back act, and the spiral through insurance lawyers to the chair. First-person confession at deposition flatness, desire and doom in the same dead voice. Banned in Boston, devoured everywhere, and structurally perfect: the double-cross of the title's meaning arriving only on the last pages. Every doomed-lovers noir since — film and page — is running this machine.",
@@ -12344,7 +12516,7 @@
    "name": "Double Indemnity",
    "author": "James M. Cain",
    "year": "1936",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The insurance-murder blueprint: Huff knows every actuarial angle, which is exactly why Phyllis needs him — expertise as the seduction's real target, the…",
    "text": "The insurance-murder blueprint: Huff knows every actuarial angle, which is exactly why Phyllis needs him — expertise as the seduction's real target, the perfect crime built by the man whose job is detecting it. The claims-man Keyes, incorruptible and fond of the narrator he's closing in on, invents the pursuing-friend structure. Cain's confession-voice at maximum efficiency; Wilder's film (1944, with Chandler scripting) is the rare adaptation that completes the source. The professional-knowledge noir every heist and fraud story descends from.",
@@ -12360,7 +12532,7 @@
    "name": "In a Lonely Place",
    "author": "Dorothy B. Hughes",
    "year": "1947",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The serial-killer POV novel decades early — and still its most sophisticated execution: Dix Steele's postwar grievance and performed charm from inside, while…",
    "text": "The serial-killer POV novel decades early — and still its most sophisticated execution: Dix Steele's postwar grievance and performed charm from inside, while the women around him (the detective's wife, the neighbor Laurel) quietly conduct the actual investigation. Sunlit Los Angeles menace; masculinity's resentments diagnosed at the moment noir usually indulged them. The 1950 Bogart film inverts the plot and keeps the temperature. The women-as-detectors structure is the modern rediscovery's cause: Hughes saw the genre's gender machinery and reversed its current.",
@@ -12392,7 +12564,7 @@
    "name": "Mischief",
    "author": "Charlotte Armstrong",
    "year": "1950",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "One hotel room, one evening, one unstable babysitter, one child: the confined-suspense masterpiece, escalation managed minute by minute while the parents dine…",
    "text": "One hotel room, one evening, one unstable babysitter, one child: the confined-suspense masterpiece, escalation managed minute by minute while the parents dine floors below. Armstrong's signature engine — ordinary decency under engineered threat — at its purest: the suspense comes from strangers' small choices (a bellhop's unease, a guest's glance) accumulating toward intervention or catastrophe. The home-invasion and imperiled-child traditions in embryo, run without a drop of gore: dread as pure structure.",
@@ -12408,7 +12580,7 @@
    "name": "Strangers on a Train",
    "author": "Patricia Highsmith",
    "year": "1950",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The premise machine: swap murders, each stranger killing the other's problem — motiveless, therefore unsolvable — except Highsmith's interest is what the…",
    "text": "The premise machine: swap murders, each stranger killing the other's problem — motiveless, therefore unsolvable — except Highsmith's interest is what the bargain does to Guy, the \"innocent\" party, as Bruno's intimacy colonizes his life. The criss-cross plot the genre never stopped borrowing, attached to the guilt-transfer psychology that was her true subject. Hitchcock's film straightens the moral arithmetic; the novel refuses it — Guy's corruption is the point. The debut that announced the century's great analyst of complicity.",
@@ -12440,7 +12612,7 @@
    "name": "The Killer Inside Me",
    "author": "Jim Thompson",
    "year": "1952",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The abyss with a badge: Deputy Lou Ford's first-person psychosis — cliché-spouting \"good ol' boy\" performance over \"the sickness\" — the most disturbing…",
    "text": "The abyss with a badge: Deputy Lou Ford's first-person psychosis — cliché-spouting \"good ol' boy\" performance over \"the sickness\" — the most disturbing sustained voice in American crime fiction. The paperback-original format's freedom used to its limit: violence flat and terrible, self-pity and cunning indistinguishable, the confession decaying as the mind does. Not an entertainment; a case study the genre keeps returning to when it wants to know how far interiority can go. Read with Psychology 17's checklist open: Thompson wrote the realistic version before the research existed.",
@@ -12456,7 +12628,7 @@
    "name": "Pop. 1280",
    "author": "Jim Thompson",
    "year": "1964",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The same engine as pitch-black comedy: Sheriff Nick Corey, lazier and shrewder than anyone credits, murdering his way to comfort in a Texas county while…",
    "text": "The same engine as pitch-black comedy: Sheriff Nick Corey, lazier and shrewder than anyone credits, murdering his way to comfort in a Texas county while monologuing scripture and self-justification. Thompson's masterpiece by consensus — the killer-narrator voice tuned to farce without losing horror, the small-town power structure satirized from inside its most protected office. The French claimed it first (Série Noire canonized him; Tavernier filmed it as Coup de Torchon). The corrupt-lawman tradition's darkest, funniest text.",
@@ -12472,7 +12644,7 @@
    "name": "Down There",
    "author": "David Goodis",
    "year": "1956",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The noir of descent: Eddie, once a concert pianist, now playing dives in Skid Row Philadelphia, dragged back toward violence by brothers he can't refuse —…",
    "text": "The noir of descent: Eddie, once a concert pianist, now playing dives in Skid Row Philadelphia, dragged back toward violence by brothers he can't refuse — loyalty as undertow, failure as the sea level everything sinks to. Goodis's lyric fatalism at its purest: prose finding cadence in defeat, the past disclosed in bruised flashback. Truffaut's Shoot the Piano Player carried it to the world. The template for crime fiction about the already-lost — Woodrell's country, Cosby's grief, every dirge-noir since.",
@@ -12488,7 +12660,7 @@
    "name": "Rebecca",
    "author": "Daphne du Maurier",
    "year": "1938",
-   "awards": "US National Book Award, booksellers' choice, 1938",
+   "awards": "pre-award era (US National Book Award, booksellers' choice, 1938)",
    "medium": "novel",
    "description": "The domestic-gothic summit: the unnamed second wife, Manderley, and a dead woman running the household from beyond — ambient gaslighting by architecture,…",
    "text": "The domestic-gothic summit: the unnamed second wife, Manderley, and a dead woman running the household from beyond — ambient gaslighting by architecture, staff, and silence, with Mrs. Danvers as the genre's great psychological warfare officer. The mid-book reversal (what Maxim actually did) flips reader sympathy through a moral trapdoor the culture is still arguing about. Never out of print; the second-wife paranoia engine, the sinister housekeeper, and the burned-house ending all patented here. Domestic suspense's cathedral.",
@@ -12504,7 +12676,7 @@
    "name": "My Cousin Rachel",
    "author": "Daphne du Maurier",
    "year": "1951",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The ambiguity machine: did Rachel poison Ambrose — and is she now poisoning Philip, or is his suspicion the sickness? Du Maurier holds the undecidable to the…",
    "text": "The ambiguity machine: did Rachel poison Ambrose — and is she now poisoning Philip, or is his suspicion the sickness? Du Maurier holds the undecidable to the last line and past it: the evidence reads both ways on every re-read, by design. The narrator's unreliability is structural (young, jealous, inheriting), the \"verdict\" the reader renders is a self-portrait, and the ending indicts whoever feels certain. The genre's finest sustained demonstration that withheld resolution, honestly engineered, outlasts any reveal.",
@@ -12520,7 +12692,7 @@
    "name": "The Mask of Dimitrios",
    "author": "Eric Ambler",
    "year": "1939",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The spy novel de-romanticized in one structure: a mystery novelist traces a dead criminal's career backward across Europe — file by file, witness by witness —…",
    "text": "The spy novel de-romanticized in one structure: a mystery novelist traces a dead criminal's career backward across Europe — file by file, witness by witness — and the biography he assembles is the interwar continent's own: coups, trafficking, finance, all one economy. The amateur-in-over-his-head lens (Ambler's patent) keeps menace human-scale; the backward-assembled-life structure prefigures Citizen Kane by two years. The realist spy tradition — le Carré by his own account — starts here.",
@@ -12536,7 +12708,7 @@
    "name": "Brighton Rock",
    "author": "Graham Greene",
    "year": "1938",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "Pinkie: seventeen, razor-armed, and damned by his own theology — the genre's most frightening study of evil that knows itself. The gang plot (a killing, a…",
    "text": "Pinkie: seventeen, razor-armed, and damned by his own theology — the genre's most frightening study of evil that knows itself. The gang plot (a killing, a marriage of concealment, the pursuing avenger Ida) runs on thriller rails while the real war is metaphysical: Ida's cheerful secular justice against Pinkie and Rose's Catholic absolutes. Greene proved the crime novel could carry full theological weight without slowing down — the permission slip every literary crime writer has cited since — and the final scene remains one of fiction's cruelest deferred detonations.",
@@ -12552,7 +12724,7 @@
    "name": "The Third Man",
    "author": "Graham Greene",
    "year": "1950",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "Betrayal with a zither: Holly Martins hunting his dead friend through occupied Vienna and finding him alive, profiteering, and unrepentant — the Ferris wheel…",
    "text": "Betrayal with a zither: Holly Martins hunting his dead friend through occupied Vienna and finding him alive, profiteering, and unrepentant — the Ferris wheel speech pricing human \"dots\" against penicillin margins. Written as a film treatment (the movie came first, 1949) and published after: a case study in story-form portability. The friendship-betrayal structure, the sewer pursuit, the ruined-city moral geography — postwar noir's defining images, and the genre's cleanest statement that charm and evil cohabit comfortably.",
@@ -12568,7 +12740,7 @@
    "name": "Casino Royale",
    "author": "Ian Fleming",
    "year": "1953",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "Bond's debut, leaner and crueler than the franchise memory: the baccarat duel as the whole first act (gambling as combat, patented), the torture scene played…",
    "text": "Bond's debut, leaner and crueler than the franchise memory: the baccarat duel as the whole first act (gambling as combat, patented), the torture scene played for real damage, and the Vesper betrayal ending on the genre's coldest closing line. The sensory-luxury method — meals, cars, and brands rendered with fetishistic precision — arrives complete, as does the formula's deeper engine: competence as fantasy. The romantic pole of spy fiction, founded; everything realist (le Carré on down) defined itself against this book.",
@@ -12584,7 +12756,7 @@
    "name": "From Russia, with Love",
    "author": "Ian Fleming",
    "year": "1957",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The best-constructed Bond: SMERSH's trap built in full view for a hundred pages — the honey trap, the film, the Orient Express — before Bond even appears,…",
    "text": "The best-constructed Bond: SMERSH's trap built in full view for a hundred pages — the honey trap, the film, the Orient Express — before Bond even appears, dramatic irony run at Hitchcock voltage. Red Grant is the franchise's best assassin (the sleeper-killer profiled with real menace), the train sequence its best sustained set piece, and the cliffhanger poisoning its boldest ending. Kennedy's public endorsement made it the brand's breakout. As pure thriller architecture — trap, bait, spring — the series' one inarguable masterpiece.",
@@ -12616,7 +12788,7 @@
    "name": "Tinker Tailor Soldier Spy",
    "author": "John le Carré",
    "year": "1974",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "no major genre award (the canon outran the committees)",
    "medium": "novel",
    "description": "The mole hunt perfected: Smiley recalled from forced retirement to find Moscow's man among four colleagues — investigation conducted through files, memory, and…",
    "text": "The mole hunt perfected: Smiley recalled from forced retirement to find Moscow's man among four colleagues — investigation conducted through files, memory, and interviews, the quietest great thriller ever written. Betrayal rendered as intimacy (Haydon's treasons personal before political); the Circus bureaucracy as complete fictional institution; and the excellent-rated trope card (Tropes 23) earned by structure alone. Fifty years of espionage fiction — Herron's Slough House expressly — lives in this book's shadow. The genre's Middlemarch.",
@@ -12632,7 +12804,7 @@
    "name": "The IPCRESS File",
    "author": "Len Deighton",
    "year": "1962",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award-relevant era",
    "medium": "novel",
    "description": "The anti-Bond arrives: an unnamed working-class narrator — insubordinate, expense-fiddling, sharper than his Establishment masters — worked through a…",
    "text": "The anti-Bond arrives: an unnamed working-class narrator — insubordinate, expense-fiddling, sharper than his Establishment masters — worked through a brainwashing plot in prose of oblique, jump-cut cool. Class friction as tradecraft (the grammar-school spy among mandarins) and the file-and-memo texture of intelligence as office work: Deighton's twin patents, both load-bearing in everything from Herron to the realist procedural. The sixties' third spy pole — neither Fleming's glamour nor le Carré's grief but insolence — founded intact.",
@@ -12664,7 +12836,7 @@
    "name": "Cop Hater",
    "author": "Ed McBain",
    "year": "1956",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award era",
    "medium": "novel",
    "description": "The 87th Precinct opens: a heatwave, cop killings, and the squad — not a genius, a *roster* — working canvass, ballistics, and paperwork in a fictionalized…",
    "text": "The 87th Precinct opens: a heatwave, cop killings, and the squad — not a genius, a *roster* — working canvass, ballistics, and paperwork in a fictionalized city drawn to documentary scale. Reproduced forms and reports in the text; rotating protagonists; the institutional realism contract (Subgenre 12) drafted in one debut. Fifty-plus books followed, and television's entire precinct tradition (Hill Street to The Wire) descends from the architecture patented here. The procedural's foundation document, still crisp.",
@@ -12712,7 +12884,7 @@
    "name": "The Godfather",
    "author": "Mario Puzo",
    "year": "1969",
-   "awards": "the adaptations took the Oscars",
+   "awards": "pre-award-relevant (the adaptations took the Oscars)",
    "medium": "novel",
    "description": "The crime epic that fixed organized crime's mythology so completely reality began imitating it: the Corleone succession — Michael's fall rendered as rise —…",
    "text": "The crime epic that fixed organized crime's mythology so completely reality began imitating it: the Corleone succession — Michael's fall rendered as rise — with power expressed entirely through etiquette, favors, and the wedding-day audience (Tropes 78's excellent). Pulp vigor and dynastic tragedy fused; the \"family business\" doubling patented; the legend so strong that Goodfellas and The Sopranos exist substantially as corrections to it. Read with the History 15 card: the feedback loop between this book and its subject is the strangest in the genre.",
@@ -12728,7 +12900,7 @@
    "name": "The Friends of Eddie Coyle",
    "author": "George V. Higgins",
    "year": "1970",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award-relevant",
    "medium": "novel",
    "description": "The informant's world from inside: gun deals, hijackings, and the grubby arithmetic of trading names for time, told almost entirely in dialogue by a first-time…",
    "text": "The informant's world from inside: gun deals, hijackings, and the grubby arithmetic of trading names for time, told almost entirely in dialogue by a first-time novelist who'd prosecuted these rooms. No mastermind, no glamour — just the economy of the barely surviving, and the genre's best ear before Leonard (who called it the best crime novel ever written). The talk *is* the plot: information moving, prices forming, betrayal priced like everything else. The dialogue-driven crime novel's foundation text.",
@@ -12744,7 +12916,7 @@
    "name": "The Hunter",
    "author": "Richard Stark",
    "year": "1962",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award-relevant",
    "medium": "novel",
    "description": "Parker arrives: betrayed, left for dead, and walking back into the syndicate to collect exactly what he's owed — no more, which is the character's whole ethic…",
    "text": "Parker arrives: betrayed, left for dead, and walking back into the syndicate to collect exactly what he's owed — no more, which is the character's whole ethic and the prose's too. Stark's declaratives strip crime writing to process and consequence; the heist procedural (plan, execution, complication) and the professional-criminal code get their permanent template. Twenty-four novels never blunted him; Westlake's other hand (comic Dortmunder) proves the register was a choice. The competence-criminal novel, patented.",
@@ -12760,7 +12932,7 @@
    "name": "The Chill",
    "author": "Ross Macdonald",
    "year": "1964",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award-relevant",
    "medium": "novel",
    "description": "The buried-past mechanism at its most devastating: Archer's runaway-bride case opening downward through two decades and three apparent crimes into one…",
    "text": "The buried-past mechanism at its most devastating: Archer's runaway-bride case opening downward through two decades and three apparent crimes into one appalling family truth, delivered in a final-page reveal that reframes the whole architecture. Macdonald's California — sunshine over sediment — and his thesis (the past is the culprit) in their perfect execution. The genealogical plot every family-secret thriller now runs was engineered here, with a twist ending psychiatry would spend years catching up to.",
@@ -12808,7 +12980,7 @@
    "name": "L.A. Confidential",
    "author": "James Ellroy",
    "year": "1990",
-   "awards": "the canon outran the committees",
+   "awards": "pre-award-relevant (the canon outran the committees)",
    "medium": "novel",
    "description": "The corruption epic at maximum density: three cops — thug, striver, showboat — converging on the Nite Owl massacre through a decade of institutional rot,…",
    "text": "The corruption epic at maximum density: three cops — thug, striver, showboat — converging on the Nite Owl massacre through a decade of institutional rot, tabloid Hollywood, and the Dream-with-a-corpse-under-it. Ellroy's telegraphic style hits full force here: sentence rhythm as moral pressure, hundreds of pages without a hero, and a plot architecture (three arcs braiding into one indictment) the genre still studies. The police novel as history — Chinatown's only rival for the L.A.-noir crown.",
@@ -12856,7 +13028,7 @@
    "name": "The Firm",
    "author": "John Grisham",
    "year": "1991",
-   "awards": "the market was the verdict",
+   "awards": "pre-award-relevant (the market was the verdict)",
    "medium": "novel",
    "description": "The associate-in-a-trap template: Mitch McDeere's golden job revealed as a mob laundry, with the FBI squeezing from the other side — the innocent-inside…",
    "text": "The associate-in-a-trap template: Mitch McDeere's golden job revealed as a mob laundry, with the FBI squeezing from the other side — the innocent-inside structure run at pure velocity, the billable-hour world rendered accurately enough to convince and fast enough to devour. Grisham's breakout built the nineties legal-thriller economy: the system explained at speed, competence as suspense, and an exit engineered through paperwork rather than gunfire (the mail-fraud solution remains a quietly perfect genre joke). The commercial blueprint, still taught.",
@@ -12872,7 +13044,7 @@
    "name": "Red Dragon",
    "author": "Thomas Harris",
    "year": "1981",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award-relevant",
    "medium": "novel",
    "description": "The modern serial-killer thriller's origin: Will Graham's gift for inhabiting killers priced as a wound, Lecter caged and consulted (the visit-the-monster…",
    "text": "The modern serial-killer thriller's origin: Will Graham's gift for inhabiting killers priced as a wound, Lecter caged and consulted (the visit-the-monster scene founded here), and Dolarhyde — the Tooth Fairy — rendered with an interiority that generates horror and pity in the same breath. The signature-as-text method, the profiler procedural, the villain-POV management standard (Craft 17): the whole era's toolkit in one book, executed with a patience its thousand imitators skipped. The superior Harris by most working writers' count.",
@@ -12952,7 +13124,7 @@
    "name": "\"A\" Is for Alibi",
    "author": "Sue Grafton",
    "year": "1982",
-   "awards": "the Diamond Dagger and Grand Master came for the shelf",
+   "awards": "pre-award-relevant (the Diamond Dagger and Grand Master came for the shelf)",
    "medium": "novel",
    "description": "Kinsey Millhone opens the alphabet: a widow hiring her to find who really killed the husband she was convicted of murdering — the PI machinery run in a…",
    "text": "Kinsey Millhone opens the alphabet: a widow hiring her to find who really killed the husband she was convicted of murdering — the PI machinery run in a practical, wry female first person that democratized the hardboiled voice: jogging, bad wine, the VW bug, and violence that costs. Published the same year as Paretsky's debut — the two-woman revolution that re-gendered the tradition permanently. The frozen-eighties clock and the no-ghostwriters ending (the alphabet stops at Y) belong to the genre's great series-management case study.",
@@ -12968,7 +13140,7 @@
    "name": "Indemnity Only",
    "author": "Sara Paretsky",
    "year": "1982",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award-relevant",
    "medium": "novel",
    "description": "V.I. Warshawski's debut: a missing girlfriend, an insurance-fraud thread, and the hardboiled form aimed for the first time at the corporate org chart — the…",
    "text": "V.I. Warshawski's debut: a missing girlfriend, an insurance-fraud thread, and the hardboiled form aimed for the first time at the corporate org chart — the mean streets rerouted through claims departments and union pensions, with a heroine who takes the beatings the form requires and files the paperwork it never bothered with. The follow-the-money PI novel founded here; Sisters in Crime and a generation of women investigators followed. Chicago rendered with a native's grudge; the tradition's politics permanently expanded.",
@@ -13048,7 +13220,7 @@
    "name": "On Beulah Height",
    "author": "Reginald Hill",
    "year": "1998",
-   "awards": "the Gold Dagger came in 1990",
+   "awards": "pre-award-relevant (the Gold Dagger came in 1990)",
    "medium": "novel",
    "description": "The Dalziel & Pascoe summit: a drowned village resurfacing in drought, fifteen-year-old child disappearances rising with it, and a new girl missing — grief…",
    "text": "The Dalziel & Pascoe summit: a drowned village resurfacing in drought, fifteen-year-old child disappearances rising with it, and a new girl missing — grief orchestrated across two timelines, a song cycle, and the fat man's most human case. The procedural form carrying full literary architecture (Mahler, translated song texts, a child's novella embedded) without dropping a single investigative beat. The consensus masterpiece of the British procedural's literary wing: what the form can hold when a series earns twenty books of trust.",
@@ -13112,7 +13284,7 @@
    "name": "Gone, Baby, Gone",
    "author": "Dennis Lehane",
    "year": "1998",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award-relevant",
    "medium": "novel",
    "description": "The moral trap as PI novel: Kenzie and Gennaro hunting four-year-old Amanda through Dorchester's bottom layer — neglectful mother, compromised cops, and a…",
    "text": "The moral trap as PI novel: Kenzie and Gennaro hunting four-year-old Amanda through Dorchester's bottom layer — neglectful mother, compromised cops, and a finale that converts the recovery plot into an unanswerable question: returned to *what*? The genre's best argument-starter ending — both choices defensible, both unbearable — and the kidnapping structure (Tropes 38) run to its ethical limit. The Kenzie–Gennaro series' peak, and the book that proves the private-eye form can carry a genuine philosophical dilemma undiluted.",
@@ -13128,7 +13300,7 @@
    "name": "A Simple Plan",
    "author": "Scott Smith",
    "year": "1993",
-   "awards": "[no award research performed — retroactive audit 2026-08-27]",
+   "awards": "pre-award-relevant",
    "medium": "novel",
    "description": "The spiral perfected: two brothers, a friend, four million dollars in a crashed plane — and the ordinary-perpetrator model (Psychology 18) run with clinical…",
    "text": "The spiral perfected: two brothers, a friend, four million dollars in a crashed plane — and the ordinary-perpetrator model (Psychology 18) run with clinical patience from one reasonable-seeming choice to catastrophe. Each killing purchases temporary safety at compounding moral cost; the narrator's decency erodes in increments he can always justify; the ending prices the money at exactly everything. The modern noir fable most often handed to students of escalation structure — nothing in it is implausible, which is the horror.",

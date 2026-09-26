@@ -1,9 +1,9 @@
 {
  "id": "fantasy-reference",
  "name": "Fantasy",
- "packVersion": "1.1.5",
+ "packVersion": "1.1.6",
  "schemaVersion": 2,
- "lastUpdated": "2026-09-11",
+ "lastUpdated": "2026-09-26",
  "minAppVersion": "0.1.0",
  "collections": [
   {
@@ -2297,7 +2297,7 @@
      "text": "Tolkien himself found the orcs' theology unresolvable, and his private letters record the difficulty: an irredeemable species creates a moral problem the text cannot answer, which is why the trope has needed rehabilitating ever since."
     },
     {
-     "work": "Orcs",
+     "work": "Legends & Lattes",
      "medium": "novel",
      "year": "2022",
      "quality": "strong",
@@ -2331,7 +2331,7 @@
      "text": "Hobb's Wit-bonding blurs the line between minds slowly enough that the loss of self is a creeping fear rather than a transformation scene."
     },
     {
-     "work": "Wolfsong",
+     "work": "Mongrels",
      "medium": "novel",
      "year": "2016",
      "quality": "strong",
@@ -2365,7 +2365,7 @@
      "text": "The jötnar are not simply large but prior: an older order the gods displaced and must keep displacing, which is why Ragnarök is their return rather than their defeat."
     },
     {
-     "work": "Jack and the Beanstalk",
+     "work": "Into the Woods",
      "medium": "film",
      "year": "2014",
      "quality": "strong",
@@ -2474,7 +2474,7 @@
      "text": "Wecker roots the trope in immigrant New York and its actual source tradition, so masterlessness becomes a study in freedom and loneliness."
     },
     {
-     "work": "Frankenstein",
+     "work": "Full Metal Alchemist",
      "medium": "manga",
      "year": "2001",
      "quality": "strong",
@@ -2494,7 +2494,7 @@
    "description": "The past with a grievance — unfinished business given a body.",
    "examples": [
     {
-     "work": "Hamlet",
+     "work": "The Graveyard Book",
      "medium": "novel",
      "year": "2008",
      "quality": "strong",
@@ -2542,7 +2542,7 @@
      "text": "Norton runs smallness as an economy and an ecology: scale determines what is dangerous, what is furniture, and what counts as theft."
     },
     {
-     "work": "Dungeons & Dragons",
+     "work": "Dragonlance Chronicles",
      "medium": "novel",
      "year": "1984",
      "quality": "weak",
@@ -2569,7 +2569,7 @@
      "text": "Tolkien drew the map first and paced the journey by it, so distance and terrain govern the plot's rhythm and the Fellowship's fracture happens where the geography forces a choice."
     },
     {
-     "work": "The Hero of Ages",
+     "work": "Mistborn",
      "medium": "novel",
      "year": "2008",
      "quality": "strong",
@@ -2671,7 +2671,7 @@
      "text": "Le Guin's archipelago makes every journey a sea voyage, so seamanship and weather-working are the world's basic competence and the open water is where Ged is most alone."
     },
     {
-     "work": "The Odyssey",
+     "work": "Circe",
      "medium": "novel",
      "year": "2018",
      "quality": "strong",
@@ -2739,14 +2739,14 @@
      "text": "Novik restores the wood to folkloric menace: a genuinely alien intelligence with a comprehensible grievance, corrupting rather than merely attacking, and resolved by understanding rather than fire."
     },
     {
-     "work": "A Midsummer Night's Dream",
+     "work": "Into the Woods",
      "medium": "film",
      "year": "2014",
      "quality": "strong",
      "text": "The wood as the place where social rules suspend and consequences accrue, which is the tradition's original function."
     },
     {
-     "work": "The Blair Witch Project",
+     "work": "The Ritual",
      "medium": "film",
      "year": "2017",
      "quality": "strong",
@@ -2773,7 +2773,7 @@
      "text": "The riddle contest with Gollum is the form's model: stakes agreed, rules honoured, and the victory won by an accident that will cost Bilbo morally for the rest of his life."
     },
     {
-     "work": "The Sphinx",
+     "work": "Hercules",
      "medium": "film",
      "year": "1997",
      "quality": "weak",
@@ -3011,7 +3011,7 @@
      "text": "Jemisin's Stillness is a planet actively hostile to the civilization on it, and the cursed land turns out to be a victim with a grievance, which reframes the entire trilogy."
     },
     {
-     "work": "The Waste Land",
+     "work": "The Once and Future King",
      "medium": "novel",
      "year": "1958",
      "quality": "strong",
@@ -3045,7 +3045,7 @@
      "text": "Rivendell and Lothlórien exist to be left: the respite is real, the healing is real, and the departure is what gives them meaning."
     },
     {
-     "work": "Lost Horizon",
+     "work": "The Dark Is Rising",
      "medium": "novel",
      "year": "1973",
      "quality": "strong",
@@ -3283,7 +3283,7 @@
      "text": "White inherits the medieval logic that a wounded king produces a wounded country, and then subjects it to modern political scepticism: Arthur's attempt to replace might with right is the book's tragedy."
     },
     {
-     "work": "The Fisher King",
+     "work": "Perceval",
      "medium": "folk tradition",
      "year": "12th c.",
      "quality": "strong",
@@ -3426,7 +3426,7 @@
      "text": "Addison's court intelligence is bureaucratic and slow, which is more realistic and more anxious than the omniscient version."
     },
     {
-     "work": "The Kingkiller Chronicle",
+     "work": "The Lies of Locke Lamora",
      "medium": "novel",
      "year": "2006",
      "quality": "strong",
@@ -3460,7 +3460,7 @@
      "text": "Bulgakov's devil offers relief rather than power, and the bargain's terms are more merciful than the state's, which is the satire."
     },
     {
-     "work": "Faust",
+     "work": "Bedazzled",
      "medium": "film",
      "year": "2000",
      "quality": "weak",
@@ -3480,7 +3480,7 @@
    "description": "Getting exactly what you asked for.",
    "examples": [
     {
-     "work": "The Monkey's Paw",
+     "work": "Pet Sematary",
      "medium": "novel",
      "year": "1983",
      "quality": "strong",
@@ -3521,7 +3521,7 @@
      "text": "Jones makes Sophie's aging curse psychologically legible: it lifts as her self-estimation changes, so the magic tracks the character arc rather than a checklist."
     },
     {
-     "work": "Beauty and the Beast",
+     "work": "Uprooted",
      "medium": "novel",
      "year": "2015",
      "quality": "strong",
@@ -3562,7 +3562,7 @@
      "text": "Hobb ties obligation to the Skill-bond and to royal service, so Fitz's debts are simultaneously magical, feudal, and familial with no way to discharge any of them."
     },
     {
-     "work": "Star Wars",
+     "work": "The Legend of Drizzt",
      "medium": "novel",
      "year": "1988",
      "quality": "weak",
@@ -3596,7 +3596,7 @@
      "text": "Jordan's Three Oaths bind the Aes Sedai to a literal truth that makes them expert liars, which is one of the genre's most productive constraints."
     },
     {
-     "work": "Sabriel",
+     "work": "Lirael",
      "medium": "novel",
      "year": "2001",
      "quality": "strong",
@@ -3630,7 +3630,7 @@
      "text": "The finale is won by refusing the exchange: Edward sacrifices his own alchemy — his identity — which converts the trope from death into surrender of self."
     },
     {
-     "work": "The Hunger Games",
+     "work": "Divergent",
      "medium": "novel",
      "year": "2011",
      "quality": "weak",
@@ -3732,7 +3732,7 @@
      "text": "Howl's contract with Calcifer trades his heart for power, and the cure requires undoing the deal without killing either party — a bargain with a hostage on both sides."
     },
     {
-     "work": "Soul Eater",
+     "work": "Bleach",
      "medium": "manga",
      "year": "2001",
      "quality": "weak",
@@ -3861,7 +3861,7 @@
      "text": "Trial by combat is a functioning legal institution, so the duels are constitutional proceedings with lawyers' logic and lethal outcomes."
     },
     {
-     "work": "The Iliad",
+     "work": "The Song of Achilles",
      "medium": "novel",
      "year": "2011",
      "quality": "strong",
@@ -3963,14 +3963,14 @@
      "text": "Abercrombie devotes an entire novel to three days and their wreckage, with viewpoints passing between the dying, so the aftermath is structurally inseparable from the fighting."
     },
     {
-     "work": "Grave of the Fireflies",
+     "work": "Princess Mononoke",
      "medium": "film",
      "year": "1997",
      "quality": "strong",
      "text": "Miyazaki refuses a triumphant ending: the forest is dead, the town must be rebuilt, and both sides must live with what they did."
     },
     {
-     "work": "Warcraft",
+     "work": "World of Warcraft",
      "medium": "game",
      "year": "2004",
      "quality": "weak",
@@ -4058,14 +4058,14 @@
    "description": "Words about the future that shape the present — the genre's most-abused device.",
    "examples": [
     {
-     "work": "Macbeth",
+     "work": "The Wheel of Time",
      "medium": "novel",
      "year": "1990",
      "quality": "strong",
      "text": "Jordan's Prophecies of the Dragon are ambiguous, contested between cultures, and partly forged, so their interpretation is a political act rather than a schedule."
     },
     {
-     "work": "Dune",
+     "work": "Children of Blood and Bone",
      "medium": "novel",
      "year": "2018",
      "quality": "strong",
@@ -4160,7 +4160,7 @@
    "description": "Sleep as the channel — knowledge that arrives without evidence.",
    "examples": [
     {
-     "work": "Piers Plowman",
+     "work": "The Sandman",
      "medium": "comic",
      "year": "1989",
      "quality": "strong",
@@ -4174,7 +4174,7 @@
      "text": "Martin's greendreams and warging are unreliable and physically costly, so prophecy-by-dream is a symptom as much as a source."
     },
     {
-     "work": "Inception",
+     "work": "Paprika",
      "medium": "film",
      "year": "2006",
      "quality": "strong",
@@ -4201,7 +4201,7 @@
      "text": "White knows the ending from Malory and spends the book asking whether Arthur could have chosen otherwise, which makes foreknowledge the tragedy's engine rather than its spoiler."
     },
     {
-     "work": "Dune",
+     "work": "The Stormlight Archive",
      "medium": "novel",
      "year": "2010",
      "quality": "strong",
@@ -4337,14 +4337,14 @@
      "text": "Rebirth is cosmological law rather than mysticism, and the accumulated memories of previous lives are a mental-health hazard rather than a power-up."
     },
     {
-     "work": "Cloud Atlas",
+     "work": "The Fifth Season",
      "medium": "novel",
      "year": "2015",
      "quality": "strong",
      "text": "Jemisin uses persistence of identity across enormous time as the trilogy's structural secret, so the reader's own reading is reframed retroactively."
     },
     {
-     "work": "Isekai",
+     "work": "Sword Art Online",
      "medium": "novel",
      "year": "2009",
      "quality": "weak",
@@ -4405,7 +4405,7 @@
      "text": "Sapkowski runs human-and-other romance inside an ethnic-cleansing setting, so the prohibition is political and the consequences fall on the less powerful party."
     },
     {
-     "work": "Romeo and Juliet",
+     "work": "Gargoyles",
      "medium": "tv",
      "year": "1994",
      "quality": "strong",
@@ -4514,7 +4514,7 @@
      "text": "Shifu must abandon his own method to teach at all, so the bond's development is the teacher's arc rather than the student's."
     },
     {
-     "work": "The Karate Kid",
+     "work": "Eragon",
      "medium": "novel",
      "year": "2002",
      "quality": "weak",
@@ -4786,7 +4786,7 @@
      "text": "Jemisin's structural revelation reframes three narratives at once and rewards re-reading, because every scene was written to work under both readings."
     },
     {
-     "work": "The Sixth Sense",
+     "work": "The Village",
      "medium": "film",
      "year": "2004",
      "quality": "weak",
@@ -4813,7 +4813,7 @@
      "text": "The Scouring of the Shire is the trope's defining execution and the reason the ending endures: home was not preserved by the quest, and the hobbit who saved it cannot live there."
     },
     {
-     "work": "Wayward Children",
+     "work": "Every Heart a Doorway",
      "medium": "novel",
      "year": "2016",
      "quality": "strong",
@@ -4922,7 +4922,7 @@
      "text": "Wolfe ends with the reader still assembling, and the coda volume deliberately complicates rather than settles, which is why the books sustain decades of argument."
     },
     {
-     "work": "Neon Genesis Evangelion",
+     "work": "The Dark Tower",
      "medium": "novel",
      "year": "2004",
      "quality": "weak",
@@ -5153,14 +5153,14 @@
      "text": "Rothfuss builds sympathy as a thermodynamic discipline with binding efficiency, energy sources, and heat loss, so the University's magic is genuinely a science with a syllabus."
     },
     {
-     "work": "The Golden Bough",
+     "work": "Uprooted",
      "medium": "novel",
      "year": "2015",
      "quality": "strong",
      "text": "Novik draws on the folk logic of correspondence — a thing's essence carried by its part — rather than inventing a physics, which keeps the magic feeling old."
     },
     {
-     "work": "Voodoo",
+     "work": "The Skeleton Key",
      "medium": "film",
      "year": "2005",
      "quality": "weak",
@@ -5194,7 +5194,7 @@
      "text": "Rothfuss reserves naming for the sublime and gives sympathy the mechanical work, so the world has both an engineering magic and a numinous one."
     },
     {
-     "work": "Rumpelstiltskin",
+     "work": "Spinning Silver",
      "medium": "novel",
      "year": "2018",
      "quality": "strong",
@@ -5391,7 +5391,7 @@
      "text": "Pratchett's raw magic is dangerous to reality itself, and the wizards' entire institution exists to prevent anyone actually using it."
     },
     {
-     "work": "The Dark Tower",
+     "work": "The Wheel of Time",
      "medium": "novel",
      "year": "1990",
      "quality": "strong",
@@ -5595,7 +5595,7 @@
      "text": "The gendered halves of the One Power generate the entire political history: an all-female institution, a taboo against male channelers, and a three-thousand-year civilizational trauma."
     },
     {
-     "work": "The Left Hand of Darkness",
+     "work": "The Fifth Season",
      "medium": "novel",
      "year": "2015",
      "quality": "strong",
@@ -5806,7 +5806,7 @@
      "text": "Rabbit numeracy stops at four (\"hrair\" for anything more), which is one word doing an entire cognitive worldbuild."
     },
     {
-     "work": "Solaris",
+     "work": "Annihilation",
      "medium": "novel",
      "year": "2014",
      "quality": "strong",
@@ -5840,7 +5840,7 @@
      "text": "Roshar's crustacean biology, retracting plants, and storm-timed life cycles all derive from the highstorms, so the ecology argues for itself."
     },
     {
-     "work": "Standard bestiary fantasy in",
+     "work": "The Witcher",
      "medium": "game",
      "year": "2015",
      "quality": "strong",
@@ -6010,7 +6010,7 @@
      "text": "Ken Liu's airships and message systems are technologies whose limits determine the shape of campaigns, so communication is a strategic resource."
     },
     {
-     "work": "Standard portal-and-teleport fantasy in",
+     "work": "The Wheel of Time",
      "medium": "novel",
      "year": "1990",
      "quality": "weak",
@@ -6717,7 +6717,7 @@
      "text": "Kay makes mosaic craft the novel's centre: technique, patronage, and theology converge in what the artist is permitted to depict."
     },
     {
-     "work": "The Hydrogen Sonata",
+     "work": "The Stormlight Archive",
      "medium": "novel",
      "year": "2010",
      "quality": "strong",
@@ -6880,7 +6880,7 @@
    "description": "Who may marry whom, and what the arrangement is for.",
    "examples": [
     {
-     "work": "The Left Hand of Darkness",
+     "work": "A Song of Ice and Fire",
      "medium": "novel",
      "year": "1996",
      "quality": "strong",
@@ -7016,7 +7016,7 @@
    "description": "Not the device but the apparatus — who prophesies, and who profits.",
    "examples": [
     {
-     "work": "Dune",
+     "work": "The Wheel of Time",
      "medium": "novel",
      "year": "1990",
      "quality": "strong",
